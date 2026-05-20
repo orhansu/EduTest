@@ -1,0 +1,654 @@
+{
+    "meta": {
+        "id": "784a9e5b-1c3f-4e8b-b1a9-913a40c6b90f",
+        "title": "Test 1",
+        "subject": "Nesne Yönelimli Programlama",
+        "topic": "OOP, UML ve Tasarım Desenleri",
+        "difficulty": "Karışık",
+        "grade": "Yüksek Lisans",
+        "created": "2026-04-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Büyük yazılımların tek bir devasa program olarak yazılmak yerine, yönetilmesi ve test edilmesi daha kolay olan küçük, bağımsız program parçaları olarak tasarlanıp gerçekleştirilmesine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Modülerlik",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kapsülleme (Encapsulation)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Soyutlama (Abstraction)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çok biçimlilik (Polimorfizm)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kalıtım (Inheritance)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilgisayar bilimlerinde problemleri küçük parçalara bölüp çözme (divide and conquer) yaklaşımının yazılımdaki karşılığı modülerliktir. Ekip çalışmasını ve test edilebilirliği destekler."
+        },
+        {
+            "id": 2,
+            "text": "Nesne yönelimli tasarımda, bir kavramın (concept) gereksiz karmaşadan arındırılarak sadece ilgili odak noktasını dış dünyaya sunmasına ne ad verilir? (Tasarımda kavramsallaştırma işlemi ile gerçekleştirilir)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kapsülleme (Encapsulation)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Soyutlama (Abstraction)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Polimorfizm",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Modülerlik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bağımlılık (Dependency)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tasarımda kavramların soyut olarak ifade edilmesi, dış dünyadan karmaşıklığın gizlenerek sadece arayüzün (interface) sunulması soyutlama (abstraction) ile gerçekleştirilir."
+        },
+        {
+            "id": 3,
+            "text": "Nesnelerin yapısını tanımlamak için bir taslak (blueprint) olarak kullanılan mantıksal varlıklardan (logical entity), bellekte yer işgal eden fiziksel varlıklara dönüştürülen elemanlara genel olarak ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Paket (Package)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Şablon (Template)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nesne (Object / Instance)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Arayüz (Interface)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yöntem (Method)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sınıflar mantıksal varlıklardır (taslak/blueprint). Bu sınıfların belleğe çıkartılıp oluşturulan canlı örneklerine (instance) nesne (object) adı verilir."
+        },
+        {
+            "id": 4,
+            "text": "UML sınıf diyagramlarında bir özelliğin (field) veya metodun başına konulan eksi (-) işareti, o alanın hangi erişim belirleyiciye (access modifier) sahip olduğunu gösterir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Public (+)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Protected (#)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Internal (~)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Private (-)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Static",
+                    "correct": false
+                }
+            ],
+            "explanation": "UML notasyonunda eksi (-) işareti, erişimin yalnızca o sınıfın kendisine ait olduğunu yani özelliğin private (özel) olduğunu belirtir."
+        },
+        {
+            "id": 5,
+            "text": "C# dilinde bir sınıfın üzerinde \"foreach\" döngüsünün çalıştırılabilmesi ve üzerinde gezinme işlemi yapılabilmesi için, o sınıfın hangi arayüzü (interface) uygulaması (implement) zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ICloneable",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "IComparable",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "ISerializable",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IRunnable",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "IEnumerable (veya Iterable)",
+                    "correct": true
+                }
+            ],
+            "explanation": "\"foreach\" döngüsü ile numaralandırılabilme (itere edilebilme) yeteneği, C# dilinde IEnumerable arayüzünün GetEnumerator() metodunu garanti etmesi sayesinde sağlanır."
+        },
+        {
+            "id": 6,
+            "text": "Bir sınıfın, başka bir sınıfın yapısal ve davranışsal özelliklerini miras yoluyla devralarak kendini genişlettiğini ifade eden \"is-a\" ilişkisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kalıtım (Extension / Inheritance)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Birleşim (Aggregation / has-a)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bileşim (Composition / is-part-of)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bağımlılık (Dependency / use-a)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gerçekleme (Implementation)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir nesnenin başka bir nesneyi kalıtım yoluyla genişlettiği ilişki is-a (Kalıtım / Inheritance) ilişkisidir."
+        },
+        {
+            "id": 7,
+            "text": "Soyut sınıflar (Abstract Class) ile ilgili olarak aşağıda verilen ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınıf hiyerarşisinde çoğunlukla temel (base) sınıf olarak konumlandırılırlar.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Doğrudan 'new' anahtar sözcüğü kullanılarak referans (instance) oluşturulabilirler.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "İçerisinde hem soyut (gövdesiz) hem de somut (gövdesi olan) metotlar bulundurabilirler.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Zorunlu polimorfizmi (çok biçimlilik) sağlamak amacıyla kullanılabilirler.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Alt sınıfların, içerdikleri soyut metotları ezmesi (override) gereklidir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Soyut (Abstract) sınıfların eksik tanımları (imzaları) olduğu için doğrudan 'new' ile örneklenmeleri (instantiation) imkansızdır."
+        },
+        {
+            "id": 8,
+            "text": "Arayüzler (Interfaces) ile Soyut Sınıflar (Abstract Classes) karşılaştırıldığında aşağıdaki ifadelerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Arayüzler içerisinde sadece somut (gövdesi olan) metotlar barındırabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Soyut sınıflardan çoklu kalıtım yapılabilirken, arayüzlerden sadece tekil kalıtım yapılabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Geleneksel anlamda arayüzlerde hiçbir yöntemin gövdesi (uygulaması) yer almaz, sadece imza bulunur.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Soyut sınıflardan 'new' anahtar kelimesi ile nesne örneği üretilebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Arayüzler durum (state) saklamak için içerisinde private alanlar (fields) barındırabilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Klasik nesne yönelimli tasarımda arayüzler (Interfaces) yöntem uygulaması (gövde) veya private değişken barındırmazlar; yalnızca metot imzalarını (kuralları) tanımlarlar."
+        },
+        {
+            "id": 9,
+            "text": "Yazılım tasarımında bir sınıfın yalnızca tek bir örneğinin (instance) olmasını garanti eden ve bu örneğe tüm sistem üzerinden erişilebilen global bir nokta sunan oluşturucu (creational) tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Builder",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Prototype",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Abstract Factory",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Singleton",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Factory Method",
+                    "correct": false
+                }
+            ],
+            "explanation": "Singleton deseni, sistem boyunca paylaşılacak tek bir nesnenin (örneğin loglama veya önbellek modülü) yaratılmasını ve kontrol edilmesini garanti eder."
+        },
+        {
+            "id": 10,
+            "text": "Aşağıdaki koda göre, bellekte nasıl bir durum oluşur ve liste2'nin eleman durumu ne olur?",
+            "code": "List<int> liste1 = new List<int> { 1, 2, 3 };\nList<int> liste2 = liste1;\nliste1.Add(4);",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "liste1'in bellekteki tam bir kopyası çıkartılarak liste2'ye atanır, liste2'de 4 bulunmaz.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Atama sırasında veriler kopyalanırken referans kopar, liste2 null olur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sadece liste1'in ilk elemanı liste2'ye değer (value) olarak kopyalanır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Derleme hatası verir, çünkü C# dilinde referans tipleri eşittir operatörü ile atanamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İki değişken de bellekte (heap) aynı adresi gösterir; liste1'e eklenen '4' liste2'den de erişilebilir olur.",
+                    "correct": true
+                }
+            ],
+            "explanation": "C# dilinde sınıflar (List dahil) referans tipidir (reference type). Bu tarz atamalarda bellekteki adres paylaşılır, veri \\( O(N) \\) kopyalanmaz. İkisi de aynı listeyi (1, 2, 3, 4) işaret eder."
+        },
+        {
+            "id": 11,
+            "text": "Karmaşık nesnelerin (örneğin farklı malzemeler barındıran bir pizzanın) adım adım oluşturulmasını sağlayan ve oluşturma (ConcreteBuilder) süreci ile yapılandırmanın (Director) yönetimini birbirinden ayıran tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Builder",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Command",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Prototype",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Singleton",
+                    "correct": false
+                }
+            ],
+            "explanation": "Farklı varyasyonlara sahip bir ürünün kademeli inşası (örneğin Builder) desenin temel karakteristiğidir."
+        },
+        {
+            "id": 12,
+            "text": "Bir nesnenin, başka bir nesnenin fiziksel veya mantıksal bir parçası olduğu ve içerilen nesnenin yaşam döngüsünün dıştaki nesneye sıkı sıkıya bağlı olduğu (örn. Araba ve Motor) UML \"is-a-part-of\" (contains-a) ilişkisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aggregation (Birleşim)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Composition (Bileşim)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Extension (Kalıtım)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dependency (Bağımlılık)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Implementation (Gerçekleme)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sıkı sahiplik (Composition / Bileşim) ilişkisinde içerilen nesnenin ömrü, onu kapsayan nesnenin ömrü ile aynıdır. İçi dolu baklava dilimiyle gösterilir."
+        },
+        {
+            "id": 13,
+            "text": "Birbirleriyle ilişkili veya uyumlu olan nesne ailelerinin (gruplarının) somut sınıfları belirtilmeden, tek bir arayüz üzerinden oluşturulmasını sağlayan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Template Method",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Abstract Factory",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Chain of Responsibility",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Iterator",
+                    "correct": false
+                }
+            ],
+            "explanation": "Abstract Factory (Soyut Fabrika) deseni, Windows butonu - Windows textbox veya Mac butonu - Mac textbox gibi uyumlu nesne gruplarının oluşturulmasını arayüzlerle sağlar."
+        },
+        {
+            "id": 14,
+            "text": "Gelen bir isteği işlemek üzere nesnelerin birbirine bağlandığı bir zincir (chain) oluşturduğu ve her nesnenin bu isteği ya kendisi işlediği ya da bir sonraki işleyiciye aktardığı davranışsal (behavioral) tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Strategy",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mediator",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Command",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Chain of Responsibility",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Observer",
+                    "correct": false
+                }
+            ],
+            "explanation": "Chain of Responsibility (Zincirleme Sorumluluk) deseninde istek gönderen ile işleyen arasındaki bağımlılık zincir mantığı ile zayıflatılır."
+        },
+        {
+            "id": 15,
+            "text": "Sınıf tasarımı kalite kriterlerinden birine göre, \"Öğrenci\" isminde bir sınıfın içerisine sadece o kavramla ilgili özellikler yer almalı; sistem genelindeki \"öğrenciSayısı\" veya \"sınıfListesi()\" gibi bütünlüğü bozan metot/özellikler bulunmamalıdır. Bu kural aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Açıklık (Clarity)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tamamlılık (Completeness)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kolaylık (Simplicity)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tutarlılık (Consistency)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bütünlük (Cohesion)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bütünlük (Cohesion) ilkesine göre bir sınıf yalnızca tek bir kavramı (concept) veya sorumluluğu ifade etmeli ve farklı kavramlara ait özellikler o sınıfı kirletmemelidir."
+        },
+        {
+            "id": 16,
+            "text": "C# dilinde temel (base) sınıfta tanımlanmış bir metodun (örneğin MakeSound), alt (derived) sınıfta yeni bir uygulamayla ezilebilmesi ve polimorfizmin (çok biçimlilik) sağlanması için temel ve alt sınıftaki metotlarda sırasıyla hangi anahtar kelimeler kullanılmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "virtual - override",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "static - new",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "abstract - virtual",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "sealed - override",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "protected - sealed",
+                    "correct": false
+                }
+            ],
+            "explanation": "Temel sınıfta metodun geçersiz kılınabileceğini (ezilebileceğini) göstermek için \"virtual\", alt sınıfta ise onu ezerek farklı bir davranış atamak için \"override\" kullanılır."
+        },
+        {
+            "id": 17,
+            "text": "Nesne yönelimli dillerde sıkça kullanılan 'static' anahtar sözcüğü ile ilgili olarak aşağıdaki ifadelerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Static bir özellik (property) yalnızca o sınıfın 'new' ile yaratılmış nesne örnekleri (instance) üzerinden okunabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıf içindeki static bir değişken, o sınıftan türetilen tüm nesne örnekleri arasında ortak olarak paylaşılır ve sınıfa aittir.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Soyut (Abstract) sınıfların içindeki abstrakt metotların başına her zaman static yazılması zorunludur.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Static sınıflar, farklı başlangıç durumlarına (state) sahip nesne referansları oluşturmak için 'new' kullanılarak çoğaltılabilirler.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bir metot static olarak tanımlandığında, sınıfın içindeki o metot instance'a bağlı (non-static) özel alanları (private field) referanssız doğrudan kullanabilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Static kelimesi, bir sınıfın değişkeninin veya metodunun belirli bir nesne kopyasına değil, sınıfın tamamına ait olduğunu ve bu nedenle bellekte tek bir kez tutulup herkesçe paylaşıldığını ifade eder."
+        },
+        {
+            "id": 18,
+            "text": "Bir isteği parametreleriyle birlikte bir nesne olarak kapsülleyen, sıraya koymayı ve geri almayı (undo/redo) sağlayan tasarım deseni (I) ile bir algoritma ailesi tanımlayıp bunların çalışma zamanında değiştirilebilmesini sağlayan (örn. farklı ödeme yöntemleri) tasarım deseni (II) sırasıyla hangileridir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "(I) Template Method, (II) Mediator",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "(I) Iterator, (II) Builder",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "(I) Command, (II) Strategy",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "(I) Chain of Responsibility, (II) Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "(I) Strategy, (II) Command",
+                    "correct": false
+                }
+            ],
+            "explanation": "İsteği bir nesneye çevirip operasyon (undo/queue) imkanı veren desen Command (Komut) deseni, algoritma/davranış değişikliğini çalışma zamanında sağlayan desen Strategy (Strateji) desenidir."
+        },
+        {
+            "id": 19,
+            "text": "Sınıfların gereksinim duydukları nesneleri (bağımlılıkları) kendi içlerinde (örn. 'new ProductRepository()') üretmeleri yerine, bu nesnelerin dışarıdan veya bir kapsayıcı (IoC Container) aracılığıyla sağlanmasına dayanan yazılım prensibine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Single Responsibility Principle (SRP)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Open-Closed Principle (OCP)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Liskov Substitution Principle (LSP)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Inversion of Control (IoC) / Dependency Injection (DI)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Encapsulation (Kapsülleme)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dependency Injection (Bağımlılık Enjeksiyonu), nesne yaratma ve yönetim kontrolünü sınıftan alarak (Inversion of Control) dışarıya verir, böylece gevşek bağlı (loosely coupled) sistemler elde edilir."
+        },
+        {
+            "id": 20,
+            "text": "Yazılımın analiz ve tasarımı esnasında CRC (Class, Responsibility, Collaborators) kartları kullanılarak nesnelerin sorumluluklarının ve birlikte çalıştığı diğer kavramların tespit edilmesi (beyin fırtınası yöntemi), sınıf tasarımında hangi aşamanın en önemli parçasıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sürekli Entegrasyon (Continuous Integration)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bağımlılıkların Tersine Çevrilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tasarım Desenlerinin Seçimi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Durum Makinesi (State Machine) Çizimi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınıfların Belirlenmesi (Class Identification)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Sınıfların belirlenmesi aşamasında sistemdeki varlıkları, sıfatları ve eylemleri çıkarmak için CRC (Sınıf, Sorumluluk, İşbirlikçi) kartları ile kavramsal analiz yapılır."
+        }
+    ]
+}

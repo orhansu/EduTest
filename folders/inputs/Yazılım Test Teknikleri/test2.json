@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "id": "8a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d",
+    "title": "Yazılım Test Teknikleri Gelişmiş Sınav",
+    "subject": "Yazılım Test Teknikleri",
+    "topic": "SDLC Modelleri, Statik ve Dinamik Test Teknikleri, Hata Terminolojisi ve Otomasyon",
+    "difficulty": "Karma",
+    "grade": "Yüksek Lisans",
+    "created": "2026-05-04"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yazılım güvenilirliği zinciri (dependability threats) kapsamında, sistemin çalışması sırasında beklenen sonuçtan sapması durumunu ifade eden en doğru terim aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Error (Hata)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Fault (Kusur)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Failure (Arıza/Başarısızlık)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Incident (Olay)",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Bug (Böcek)",
+          "correct": false
+        }
+      ],
+      "explanation": "Arıza (Failure), kusurlu bir kodun çalıştırılması sonucunda sistemin beklenen davranıştan sapmasıdır."
+    },
+    {
+      "id": 2,
+      "text": "Aşağıdaki yazılım geliştirme aşamalarını, V-Modeli üzerindeki hiyerarşik sıralamasına göre 'Soldan Sağa' (Planlamadan Kabule) doğru diziniz:\n\nI. Birim Testleri\nII. Mimari Tasarım\nIII. Kabul Testleri\nIV. Gereksinim Analizi\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "IV - II - I - III",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "IV - I - II - III",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "II - IV - I - III",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "I - II - IV - III",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "IV - II - III - I",
+          "correct": false
+        }
+      ],
+      "explanation": "V-Model'de süreç Gereksinim Analizi ile başlar, Mimari Tasarım ile devam eder; kodlama sonrası önce Birim Testleri, en son ise Kabul Testleri yapılır."
+    },
+    {
+      "id": 3,
+      "text": "Statik test teknikleri ile ilgili aşağıdaki boşluğu doldurunuz: \n\n'Yazılımın çalıştırılmadan incelenmesine dayanan statik testlerde, hataların erken tespiti __________ dramatik biçimde düşürür.'\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "test kapsamını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "hata düzeltme maliyetini",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "yazılımın hızını",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "dokümantasyon ihtiyacını",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "kullanıcı memnuniyetini",
+          "correct": false
+        }
+      ],
+      "explanation": "Hatalar ne kadar erken bulunursa düzeltme maliyeti o kadar düşük olur; statik testler bu tasarrufu sağlar."
+    },
+    {
+      "id": 4,
+      "text": "Spiral Model'i diğer modellerden ayıran en kritik döngüsel aşama aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hızlı kodlama",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Müşteri ile sürekli toplantı",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kapsamlı belgelendirme",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Risk Analizi",
+          "correct": true
+        },
+        {
+          "label": "E",
+          "text": "Otomatik test koşumu",
+          "correct": false
+        }
+      ],
+      "explanation": "Spiral modelin temel farkı, her iterasyonda risklerin analiz edilmesi ve azaltılmasına odaklanmasıdır."
+    },
+    {
+      "id": 5,
+      "text": "Beyaz Kutu (White-Box) test tekniklerinde karşılaşılan 'Yol Patlaması' (Path Explosion) kavramı neyi ifade eder?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kodun bellekte çok yer kaplamasını",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Çok fazla hata raporu oluşmasını",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Karar yapıları arttıkça test edilmesi gereken mantıksal yolların sayısının fiziksel olarak imkansız hale gelmesini",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Yazılımın çökmesine neden olan kritik hataları",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Veritabanı bağlantı sayısının aşılmasını",
+          "correct": false
+        }
+      ],
+      "explanation": "Büyük sistemlerde tüm olası kod yollarını test etmek, kombinasyonların sonsuza yaklaşması nedeniyle imkansızdır."
+    },
+    {
+      "id": 6,
+      "text": "'Shift-Left' (Sola Kaydırma) test yaklaşımının temel amacı nedir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Testleri sadece projenin en sonunda yapmak",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Geliştiricilerin yerine test uzmanlarını koymak",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Test faaliyetlerini yaşam döngüsünün en erken aşamalarına taşımak",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Kodlamayı tamamen otomatize etmek",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Müşteriyi test sürecinden çıkarmak",
+          "correct": false
+        }
+      ],
+      "explanation": "Shift-left, hataları erken yakalamak ve maliyeti düşürmek için testin en baştan itibaren sürece dahil edilmesidir."
+    },
+    {
+      "id": 7,
+      "text": "Otomasyon Piramidi (Automation Pyramid) modeline göre, en fazla sayıda bulunması gereken ve en hızlı geri bildirim veren test seviyesi hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "UI (Kullanıcı Arayüzü) Testleri",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sistem Testleri",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Birim (Unit) Testleri",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Uçtan Uca (E2E) Testler",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Kabul Testleri",
+          "correct": false
+        }
+      ],
+      "explanation": "Otomasyon piramidinde tabanı Birim Testleri oluşturur; bunlar en hızlı ve en çok sayıda olması gereken testlerdir."
+    },
+    {
+      "id": 8,
+      "text": "Review (Gözden Geçirme) sürecinde toplantı tutanaklarını tutan ve bulguları dökümante eden rol aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Author (Yazar)",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Moderator (Kolaylaştırıcı)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Scribe (Yazıcı/Tutanak Tutucu)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Reviewer (Denetçi)",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Manager (Yönetici)",
+          "correct": false
+        }
+      ],
+      "explanation": "Scribe, gözden geçirme bulgularını dökümante etmek ve toplantı kayıtlarını tutmakla sorumludur."
+    },
+    {
+      "id": 9,
+      "text": "Risk Bazlı Test (Risk-Based Testing) stratejisinde test önceliği neye göre belirlenir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sadece kodun uzunluğuna göre",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hatanın çıkma olasılığı ve yaratacağı etkinin (zararın) büyüklüğüne göre",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Geliştiricinin kıdemine göre",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Sadece görsel arayüzün karmaşıklığına göre",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Test dökümanının sayfa sayısına göre",
+          "correct": false
+        }
+      ],
+      "explanation": "Risk bazlı test, en yüksek riskli alanlara (olasılık x etki) odaklanarak kaynakları verimli kullanmayı amaçlar."
+    },
+    {
+      "id": 10,
+      "text": "Yazılım testinin temel ilkelerinden olan 'Hataların Kümelenmesi' (Defect Clustering) ilkesi aşağıdakilerden hangisiyle benzerlik gösterir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Murphy Kanunları",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Pareto İlkesi (80/20 kuralı)",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Brooks Yasası",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Moore Yasası",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Dijkstra Prensibi",
+          "correct": false
+        }
+      ],
+      "explanation": "Hataların kümelenmesi ilkesine göre, operasyonel arızaların büyük çoğunluğu az sayıdaki modülde toplanır."
+    },
+    {
+      "id": 11,
+      "text": "Kabul Testleri (UAT) ile ilgili aşağıdakilerden hangisi doğrudur?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sadece yazılım geliştiriciler tarafından yapılır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Ana amacı yazılımdaki kod hatalarını (bug) bulmaktır.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Yazılımın iş gereksinimlerini karşılayıp karşılamadığını kullanıcı/müşteri gözüyle doğrular.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Tasarım aşamasından önce gerçekleştirilir.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Sadece otomatik araçlarla yapılmalıdır.",
+          "correct": false
+        }
+      ],
+      "explanation": "Kabul testi, yazılımın canlı ortama alınmadan önce iş ihtiyaçlarını karşıladığını onaylayan son aşamadır."
+    },
+    {
+      "id": 12,
+      "text": "V-Modeli'nde 'Doğrulama' (Verification) ve 'Geçerleme' (Validation) arasındaki fark nedir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Doğrulama ürün bittikten sonra yapılır, Geçerleme süreç boyuncadır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Doğrulama 'Doğru ürünü mü yaptık?', Geçerleme 'Ürünü doğru mu yaptık?' sorusuna yanıt arar.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Doğrulama şartnameye uygunluğu, Geçerleme ise gerçek kullanıcı ihtiyacını karşılamayı kontrol eder.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Geçerleme statik bir test tekniğidir.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "İkisi de tamamen aynı kavramlardır.",
+          "correct": false
+        }
+      ],
+      "explanation": "Verification (Doğrulama) ürünün doğru inşa edilip edilmediğini; Validation (Geçerleme) ise doğru ürünün (ihtiyaca uygun) inşa edilip edilmediğini kontrol eder."
+    },
+    {
+      "id": 13,
+      "text": "DevOps kültürü içerisinde yer alan 'Continuous Testing' (Sürekli Test) yaklaşımı için aşağıdakilerden hangisi söylenemez?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hızlı geri bildirim sağlamayı amaçlar.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "CI/CD süreçleriyle entegre çalışır.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Testleri sadece manuel olarak ve projenin sonunda yürütür.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Otomasyonun yoğun kullanımını gerektirir.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Riskleri erkenden görmeyi sağlar.",
+          "correct": false
+        }
+      ],
+      "explanation": "Continuous Testing, manuel ve sonda yapılan testin aksine, otomatik ve sürecin her aşamasında yapılan bir yaklaşımdır."
+    },
+    {
+      "id": 14,
+      "text": "Statik analiz araçlarının (lint, static analyzer) dinamik testlere göre en büyük avantajı nedir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kodun kullanıcı arayüzünü daha güzel yapması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kodun performansını %100 garanti etmesi",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Kodu çalıştırmaya gerek duymadan mantıksal ve standart uyumsuzluklarını bulabilmesi",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Müşteri ile olan iletişimi güçlendirmesi",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Donanım hatalarını tespit etmesi",
+          "correct": false
+        }
+      ],
+      "explanation": "Statik analiz, kodu çalıştırmadan analiz ederek ulaşılamayan kod veya standart ihlalleri gibi hataları bulur."
+    },
+    {
+      "id": 15,
+      "text": "Beyaz kutu testinde %100 'Karar Kapsamı' (Decision Coverage) sağlandığında aşağıdakilerden hangisi kesinlikle gerçekleşmiş olur?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "%100 Deyim Kapsamı (Statement Coverage) sağlanmış olur.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Sistemdeki tüm mantıksal yollar test edilmiş olur.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hiç hata kalmadığı kanıtlanmış olur.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Veritabanı bağlantıları test edilmiş olur.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Kullanıcı kabul testleri tamamlanmış olur.",
+          "correct": false
+        }
+      ],
+      "explanation": "Karar kapsamı her dalın çalışmasını hedeflediğinden, her satırın (deyim) çalışmasını da otomatik olarak kapsar."
+    },
+    {
+      "id": 16,
+      "text": "Pestisit Paradoksu'ndan kaçınmak için bir test uzmanı ne yapmalıdır?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Aynı testleri daha hızlı çalıştırmalıdır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Test senaryolarını ve verilerini düzenli olarak güncellemeli ve yenilemelidir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sadece manuel test yapmalıdır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Kodun yazılmasını beklemelidir.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Daha fazla geliştirici işe almalıdır.",
+          "correct": false
+        }
+      ],
+      "explanation": "Sistem sürekli aynı testlere direnç gösterir; yeni hatalar bulmak için senaryolar güncellenmelidir."
+    },
+    {
+      "id": 17,
+      "text": "Bağımsız test ekiplerinin kullanılmasının en temel avantajı aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Daha ucuza mal olması",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Geliştiricilerin kendi hatalarına karşı 'kör' olma önyargısını ortadan kaldırması",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Kodlama sürecini hızlandırması",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Dokümantasyonu azaltması",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Proje risklerini tamamen yok etmesi",
+          "correct": false
+        }
+      ],
+      "explanation": "Bağımsız testçiler tarafsız bir bakış açısı getirerek geliştiricilerin gözden kaçırdığı varsayımları sorgular."
+    },
+    {
+      "id": 18,
+      "text": "Aşağıdaki ifadelerden hangisi bir 'Error' (İnsan Hatası) örneğidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kodun yanlış IBAN formatını kabul etmesi",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Geliştiricinin şartnamedeki '26 hane' kuralını yanlış anlayarak zihninde '24 hane' olarak kodlaması",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Sistemin para transferini yanlış hesaba yapması",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Müşterinin bankaya dava açması",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Yazılımın çalışma anında hata kodu üretmesi",
+          "correct": false
+        }
+      ],
+      "explanation": "Error, insanların (analist, geliştirici) yaptığı bilişsel yanlışlıklardır."
+    },
+    {
+      "id": 19,
+      "text": "BDD (Behavior Driven Development) yaklaşımında test senaryolarının yazıldığı dilde kullanılan anahtar kelimelerden hangisi 'Ön Koşul'u ifade eder?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "When",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Then",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Given",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "And",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "But",
+          "correct": false
+        }
+      ],
+      "explanation": "Given anahtar kelimesi, testin başlaması için gereken başlangıç durumunu veya ön koşulu tanımlar."
+    },
+    {
+      "id": 20,
+      "text": "Bir test vakasının (test case) yaşam döngüsündeki durumlarını mantıksal sıraya diziniz:\n\nI. Released\nII. Draft\nIII. Review\nIV. Create\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "IV - II - III - I",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "IV - III - II - I",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "II - IV - III - I",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "I - II - III - IV",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "IV - II - I - III",
+          "correct": false
+        }
+      ],
+      "explanation": "Test vakası önce oluşturulur (Create), taslağı hazırlanır (Draft), gözden geçirilir (Review) ve uygunsa yayınlanır (Released)."
+    }
+  ]
+}

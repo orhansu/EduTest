@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "veri-madenciligi-yuksek-lisans-final-01",
+        "title": "Veri Madenciliği Kapsamlı Değerlendirme Testi",
+        "subject": "Veri Madenciliği",
+        "topic": "Sınıflandırma, Kümeleme, Birliktelik Analizi, Anormallik Tespiti ve Veri Ambarı",
+        "difficulty": "Karışık (%30 Kolay, %50 Orta, %20 Zor)",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-19"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Büyük Veri (Big Data) kavramını tanımlayan ve ders notlarında '3V' olarak ifade edilen temel bileşenler aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hacim (Volume), Çeşitlilik (Variety), Hız (Velocity)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Hacim (Volume), Doğruluk (Veracity), Değer (Value)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Görselleştirme (Visualization), Hız (Velocity), Değişkenlik (Variability)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Vektör (Vector), Verim (Yield), Hacim (Volume)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çeşitlilik (Variety), Geçerlilik (Validity), Görselleştirme (Visualization)",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Kaynaklarda büyük veri; verinin büyüklüğü (Volume), tür çeşitliliği (Variety) ve sürekli akış hızı (Velocity) üzerinden 3V bileşeniyle tanımlanmıştır."
+        },
+        {
+            "id": 2,
+            "text": "Doğrulayıcı istatistik ile veri madenciliği (açıklayıcı istatistik) arasındaki temel farka ilişkin aşağıdakilerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İstatistik büyük veriden örüntü üretirken, veri madenciliği hipotez doğrular.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İstatistik bir hipotezle başlayıp veriyi test ederken; veri madenciliği büyük veriden hipotez/bilgi keşfetmeyi amaçlar.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Veri madenciliği sadece laboratuvar ortamındaki küçük verilerle ilgilenir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İstatistikte veri sınırı yoktur, veri madenciliğinde ise veri sınırlıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Her iki disiplin de aynı metodolojiyi izler, sadece kullanılan yazılımlar farklıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] İstatistik (doğrulayıcı) önceden belirlenmiş bir hipotezi doğrulamaya çalışırken; veri madenciliği (açıklayıcı) ham veriden yeni hipotezler ve anlamlı bilgiler üretir."
+        },
+        {
+            "id": 3,
+            "text": "Veri ambarlarının 'Bütünleşik' (Integrated) olma özelliği aşağıdakilerden hangisini en iyi açıklar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Verilerin sadece son bir aya ait operasyonel kayıtları içermesi.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Verilerin her zaman nesneye yönelik (object-oriented) bir modelle saklanması.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Farklı sistemlerden gelen heterojen verilerin (örn: E/K ve 0/1 kodlamaları) ortak bir standart formata dönüştürülüp birleştirilmesi.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Veri ambarının işletmenin sadece tek bir birimi için tasarlanmış olması.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Verilerin sürekli olarak güncellenip eski kayıtların anında silinmesi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Bütünleşiklik, farklı kaynaklardan gelen verilerin ambar içinde tek bir ortak kodlama ve format yapısına dönüştürülmesini ifade eder."
+        },
+        {
+            "id": 4,
+            "text": "Sınıflandırma algoritmalarından biri olan k-En Yakın Komşu (k-NN) yöntemi için aşağıdakilerden hangisi söylenebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eğitim aşamasında veriden kapsamlı bir karar ağacı modeli üretir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece metin tabanlı kategorik veriler üzerinde çalışabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Verilerin dağılımının her zaman normal dağılım olduğunu varsayan bir modeldir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Eğitim aşamasında model oluşturmayan, hesaplamayı test aşamasına bırakan 'tembel bir öğrenici' (lazy learner) yöntemidir.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kümeler arası mesafeyi her iterasyonda maksimize etmeye odaklanan bir kümeleme algoritmasıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] k-NN, eğitim verisini sadece saklayan ve açık bir model kurmayan bir 'tembel öğrenici' (lazy learner) olarak tanımlanır."
+        },
+        {
+            "id": 5,
+            "text": "Aşağıdakilerden hangisi ders kapsamında incelenen temel veri madenciliği problemlerinden birisi değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kümeleme (Clustering)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıflandırma (Classification)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Birliktelik Kuralları (Association Rules)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Anormallik Tespiti (Anomaly Detection)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Doğrusal Programlama (Linear Programming)",
+                    "correct": true
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Ders kapsamında Veri Madenciliğinin ilgilendiği dört ana problem; sınıflandırma, kümeleme, birliktelik analizi ve anormallik tespiti olarak belirtilmiştir."
+        },
+        {
+            "id": 6,
+            "text": "Veri ön işleme adımında 'Normalizasyon' işleminin uygulanmasının temel gerekçesi nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Farklı ölçeklerdeki özniteliklerin (örn: gelir ve yaş) hesaplamalarda birbirine baskın çıkmasını engellemek.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Eksik verileri veritabanından tamamen silmek.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sadece kategorik verilerin frekanslarını hesaplamak.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Veritabanındaki toplam kayıt sayısını (N) azaltmak.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gürültülü verileri ortalama değerlerle otomatik olarak tamamlamak.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Normalizasyon, değer aralığı geniş olan (örn: 1 milyonluk gelir) bir özelliğin, dar aralıklı özelliklere (örn: yaş) baskın gelmesini önlemek için verileri ortak bir aralığa çeker."
+        },
+        {
+            "id": 7,
+            "text": "İki sınıflı ($C_0$ ve $C_1$) bir problemde, bir karar ağacı düğümünde kayıtlar bu iki sınıfa tam eşit oranda (%50 - %50) dağılmıştır. Bu düğümün Gini İndeksi değeri kaçtır? Formül: $$GINI(t) = 1 - \\sum_{j} [p(j|t)]^2$$",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.0$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.5$",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "$1.0$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.25$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$-0.5$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Olasılıklar $p_1 = 0.5$ ve $p_2 = 0.5$ olduğunda: $1 - (0.5^2 + 0.5^2) = 1 - (0.25 + 0.25) = 1 - 0.5 = 0.5$ olur. Bu, maksimum safsızlıktır."
+        },
+        {
+            "id": 8,
+            "text": "Karar ağaçlarında kullanılan Entropi metriği için aşağıdakilerden hangisi söylenebilir? Formül: $$Entropy(t) = -\\sum_{j} p(j|t) \\log_2 p(j|t)$$ ",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Maksimum safsızlık durumunda her zaman 0 değerini alır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece dairesel kümelerin benzerliğini ölçmek için kullanılır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Düğümdeki tüm kayıtlar tek bir sınıfa aitse (en saf durum) değeri 0 olur.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "K-ortalamalar algoritmasının temel hata ölçütüdür.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Değeri 1'den büyük olduğunda düğümün tamamen saf olduğu anlaşılır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Düğümdeki tüm kayıtlar tek bir sınıfa aitse o sınıfın olasılığı 1'dir ve $\\log_2(1) = 0$ olduğu için sonuç 0 çıkar; bu en saf hali temsil eder."
+        },
+        {
+            "id": 9,
+            "text": "Birliktelik kuralı madenciliğinde kullanılan Apriori prensibine (Anti-monotonluk özelliği) göre aşağıdakilerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bir kuralın güven değeri her zaman destek değerinden büyüktür.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Eleman kümesi boyutu arttıkça destek değeri de her zaman artar.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sık olmayan bir kümenin tüm alt kümeleri de sık olmamalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bir eleman kümesi sık (frequent) ise, onun bütün alt kümeleri de sık olmak zorundadır.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sadece tekli eleman kümelerinden kural üretilebilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Apriori prensibi, bir küme sık ise onu oluşturan parçaların (alt kümelerin) da sık olması gerektiğini belirtir."
+        },
+        {
+            "id": 10,
+            "text": "Yoğunluk tabanlı DBSCAN kümeleme algoritmasında bir veri noktasının 'Merkez Nokta' (Core Point) olabilmesi için gereken temel koşul nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri setindeki bütün diğer merkez noktalara olan mesafelerinin ortalamasının epsilon'dan küçük olması.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "En az bir merkez noktanın komşuluğunda (epsilon yarıçapında) bulunması.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kendi epsilon yarıçapında hiçbir gürültü (noise) nokta barındırmaması.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bulunduğu koordinatın veri ambarındaki genel ağırlık merkezine tam olarak eşit olması.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Verilen bir $\\epsilon$ (Eps) yarıçapı içerisinde en az MinPts (minimum nokta sayısı) kadar komşuya sahip olması.",
+                    "correct": true
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Bir nokta, Eps yarıçapı içinde kullanıcı tarafından belirlenen MinPts kadar noktayı kapsıyorsa merkez nokta kabul edilir."
+        },
+        {
+            "id": 11,
+            "text": "Birliktelik kuralı madenciliğinde FP-Growth (FP-Büyüme) algoritmasının Apriori algoritmasına göre en belirgin yapısal farkı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aday eleman kümesi (candidate generation) üretmeden sık örüntüleri doğrudan bir ağaç yapısı üzerinden bulması.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece zaman serisi verileri (sequential patterns) üzerinde çalışabilmesi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hesaplama maliyetinin Apriori'den her zaman daha yüksek olması.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dairesel olmayan kümeleri bulmak için yoğunluk tabanlı bir yaklaşım izlemesi.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kural üretimi aşamasında sadece Gini indeksini kullanması.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] FP-Growth algoritması, Apriori'nin aksine aday üretimi yapmaz; veriyi FP-Ağacı (Frequent Pattern Tree) denilen bir yapıda özetleyerek sık kümeleri bulur."
+        },
+        {
+            "id": 12,
+            "text": "C4.5 karar ağacı algoritmasında kullanılan 'Kazanç Oranı' (Gain Ratio), ID3'teki 'Bilgi Kazancı'nın (Information Gain) hangi dezavantajını gidermek için geliştirilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sadece ikili (binary) dallanma yapabilme kısıtlamasını aşmak.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çok fazla benzersiz değer içeren (örn: Müşteri ID) ve veriyi aşırı parçalayan özelliklere verilen haksız yüksek puanı cezalandırmak.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Sayısal verilerin ayrıklaştırılması sırasında oluşan bellek tüketimini azaltmak.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ağacın yüksekliğini her zaman öznitelik sayısından daha fazla olacak şekilde ayarlamak.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gürültülü verileri otomatik olarak modelin dışına iterek doğruluğu %100'e sabitlemek.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Bilgi kazancı, çok dallı özellikleri (örn: ID) kayırır; Kazanç Oranı ise bu bölünmenin yarattığı entropiyi (SplitINFO) kullanarak bu durumu dengeler."
+        },
+        {
+            "id": 13,
+            "text": "Veri madenciliğinde, olayların zaman içerisindeki ardışıklığını (Örn: Visual C kitabı alanın 1 ay sonra C++ kitabı alması) inceleyen analiz türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hiyerarşik Kümeleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Lokal Aykırılık Faktörü (LOF)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sıralı (Sequential) Örüntü Keşfi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Topluluk Sınıflandırıcılar (Ensemble)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Grubbs Testi",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Zaman boyutuna sahip ve olayların birbirini tetiklediği ilişkileri bulan yönteme Sıralı Örüntü Keşfi denir."
+        },
+        {
+            "id": 14,
+            "text": "K-Ortalamalar (K-Means) algoritmasında 'Boş Küme' (Empty Cluster) oluşması durumu genellikle neye işaret eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Algoritmanın en iyi kümeleme sonucuna ulaştığını.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Verideki gürültü miktarının sıfır olduğunu.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Epsilon yarıçapının çok geniş tutulduğunu.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "K (küme sayısı) değerinin verideki gerçek küme sayısından yüksek girildiğini veya merkezlerin kötü ilklendirildiğini.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Tüm verilerin tek bir merkez etrafında mükemmel dairesel dağıldığını.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Eğer bir merkez hiçbir veri çekemezse, girilen K sayısı fazladır veya başlangıç merkezleri veriden çok uzak seçilmiştir."
+        },
+        {
+            "id": 15,
+            "text": "Yoğunluk tabanlı anormallik tespitinde kullanılan LOF (Local Outlier Factor) algoritmasının temel mantığı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Her bir noktanın veritabanındaki ortalama değere olan mutlak sapmasını hesaplar.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Normal dağılım eğrisinin dışında kalan tüm verileri anomali olarak işaretler.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Aday kural sayısını azaltmak için budama tekniklerini kullanır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Veriyi K-Means ile bölerek merkezden en uzak olanları anomali kabul eder.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bir noktanın yoğunluğunu, kendi en yakın komşularının yoğunluklarıyla oranlayarak göreceli bir anomali puanı hesaplar.",
+                    "correct": true
+                }
+            ],
+            "explanation": "[Zorluk: Orta] LOF, aykırılığın yerel (local) bir kavram olduğunu savunur ve bir noktanın yoğunluğunu komşularının yoğunluğu ile kıyaslar."
+        },
+        {
+            "id": 16,
+            "text": "Hiyerarşik kümeleme algoritmalarından Tek Bağlantı (Min) yönteminin en bilinen dezavantajı (zayıflığı) nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gürültüye ve aykırı değerlere karşı aşırı duyarlı olup, bu noktalar üzerinden bağımsız kümeleri yanlışlıkla birbirine bağlaması (zincirleme etkisi).",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Dairesel/küresel olmayan kümeleri asla tespit edememesi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bellekte $O(N)$ gibi çok düşük alan gerektirmesi nedeniyle veriyi detaylı işleyememesi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece tekil sınıflara sahip eğitim setlerinde çalışabilmesi.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kullanıcıdan her zaman başlangıçta kesin bir K parametresi girmesini zorunlu kılması.",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Min (Tek Bağlantı) algoritması, en yakın mesafeleri baz aldığı için aradaki gürültüleri köprü yaparak kümeleri istenmeyen şekilde birleştirir."
+        },
+        {
+            "id": 17,
+            "text": "$d$ adet farklı ürünün bulunduğu bir market veritabanında, tamamen teorik (brute-force) olarak üretilebilecek 'toplam muhtemel birliktelik kuralı sayısı' ($R$) formülü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$R = 2^d$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$R = 3^d - 2^{d+1} + 1$",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "$R = d^2 + 2^d$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$R = 2^{d-1} - 1$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$R = d! - 1$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Zor] Birliktelik kuralı madenciliğinde, eleman kümelerinin kombinasyonlarından üretilebilecek kuramsal toplam kural sayısı bu formülle hesaplanır."
+        },
+        {
+            "id": 18,
+            "text": "Standart Aglomeratif Hiyerarşik Kümeleme algoritmasının $N$ adet veri noktası için zaman ve alan karmaşıklığı genellikle hangi mertebededir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Zaman: $O(N)$ — Alan: $O(N^2)$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Zaman: $O(N \\log N)$ — Alan: $O(N)$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Zaman: $O(N^3)$ — Alan: $O(N^2)$",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Zaman: $O(N^2)$ — Alan: $O(N^3)$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Zaman: $O(N^2)$ — Alan: $O(N)$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Zor] Algoritma $N \\times N$ matris tuttuğu için $O(N^2)$ alan, her birleşmede matrisi güncelleyip taradığı için de $O(N^3)$ zaman gerektirir."
+        },
+        {
+            "id": 19,
+            "text": "İstatistiksel bir anormallik tespit yöntemi olan 'Grubbs Testi'nde hesaplama istatistiği ($G$) nasıl ifade edilir? ($\\overline{X}$: Ortalama, $s$: Standart sapma)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$G = \\sum \\frac{(X_i - \\overline{X})^2}{s}$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$G = \\frac{|X - s|}{\\overline{X}}$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$G = \\lim_{x \\to \\infty} \\frac{X}{s^2}$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$G = \\frac{\\max|X - \\overline{X}|}{s}$",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "$G = \\frac{\\max|X| - \\min|X|}{s^2}$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Zor] Grubbs testi, verinin ortalamadan maksimum sapmasının standart sapmaya oranıyla tekil anomali tespiti yapar."
+        },
+        {
+            "id": 20,
+            "text": "CART yöntemleri arasında yer alan 'Twoing Algoritması'nda bir bölünmenin uygunluğunu (goodness) ölçen $\\Phi(s|t)$ fonksiyonunun karakteristik özelliği nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Her zaman tek bir yaprağa tüm verileri toplamayı amaçlar.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece dairesel kümelerin yoğunluğunu ölçer.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hiyerarşik bir dendrogram üretmek için $O(N^2)$ zaman harcar.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sık örüntüleri bulmak için sadece nominal verilerle çalışır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Olasılıkların (sol ve sağ tarafın sınıf frekansları) mutlak farklarını kullanarak safsızlığı ölçer; logaritmik entropi fonksiyonu kullanmaz.",
+                    "correct": true
+                }
+            ],
+            "explanation": "[Zorluk: Zor] Twoing algoritması, CART içerisinde entropi gibi logaritmik yapılar yerine olasılıkların mutlak farkını temel alan bir uygunluk ölçütü kullanır."
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+  "test_id": "veri-madenciligi-kapsamli-04",
+  "correct": 14,
+  "total": 20,
+  "answered": 20,
+  "pct": 70,
+  "finished": false,
+  "answers": [
+    {
+      "chosen": "B",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "chosen": "C",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "D",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "chosen": "E",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "D",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "D",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "chosen": "A",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "chosen": "D",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "A",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "B",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "E",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "A",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "B",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "chosen": "B",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "D",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "B",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "D",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "A",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "E",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "B",
+      "correct": false,
+      "skipped": false
+    }
+  ],
+  "date": "2026-05-19T22:26:24.617Z"
+}

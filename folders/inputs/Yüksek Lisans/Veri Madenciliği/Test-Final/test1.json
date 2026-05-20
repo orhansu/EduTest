@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "veri-madenciligi-kapsamli-03",
+        "title": "Veri Madenciliği ve Veri Ambarı Kapsamlı Değerlendirme Testi",
+        "subject": "Veri Madenciliği",
+        "topic": "Veri Ambarı, Sınıflandırma, Kümeleme, Birliktelik Analizi, Anormallik Tespiti",
+        "difficulty": "Karışık (%30 Kolay, %50 Orta, %20 Zor)",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-19"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Veri ambarlarının (Data Warehouse) temel özelliklerinden biri olan 'Bütünleşik' (Integrated) yapısı aşağıdakilerden hangisini ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Farklı kaynaklardan gelen verilerin (örneğin E/K ve 0/1 cinsiyet kodları) ortak bir formatta birleştirilmesini.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Verilerin sadece son bir aya ait olanlarının saklanarak güncelliğin korunmasını.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Veri ambarına hem yazma hem de okuma işlemlerinin aynı hızda yapılabilmesini.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Verilerin sadece uygulama bazlı (örneğin sadece bordro sistemi için) düzenlenmesini.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Veri ambarının işletme dışı kaynaklardan veri almasının engellenmesini.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Veri ambarları bütünleşiktir; yani farklı operasyonel sistemlerden gelen ve farklı şekillerde kodlanmış veriler, ambar içinde standart bir hale dönüştürülür."
+        },
+        {
+            "id": 2,
+            "text": "Kümeleme algoritmalarından biri olan K-Ortalamalar (K-Means) algoritması için aşağıdakilerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Her zaman tek bir iterasyonda en doğru sonucu bulur.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Rastgele atanan ilk ağırlık merkezleri, elde edilecek nihai kümeleri etkileyebilir.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kullanıcıdan herhangi bir 'K' (küme sayısı) parametresi talep etmez.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece hiyerarşik bir dendrogram yapısı oluşturmak için kullanılır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gürültülü verileri otomatik olarak silerek işe başlar.",
+                    "correct": false
+                }
+            ],
+            "explanation": "K-Ortalamalar algoritmasında ilk merkezler genellikle rastgele atanır ve bu durum her çalışmada farklı sonuçlar üretilmesine neden olabilir."
+        },
+        {
+            "id": 3,
+            "text": "Sınıflandırma (Classification) görevinde, 'etiketlenmiş' veri kümesi kullanılarak bir model oluşturulması işlemi literatürde ne şekilde adlandırılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Danışmansız Öğrenme (Unsupervised Learning)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Veri Özetleme (Data Summarization)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Danışmanlı Öğrenme (Supervised Learning)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sıralı Örüntü Keşfi (Sequential Pattern Discovery)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Aykırı Değer Filtreleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sınıflandırma, sınıfları belli olan bir örnek (eğitim) kümesinden yararlandığı için danışmanlı öğrenme olarak adlandırılır."
+        },
+        {
+            "id": 4,
+            "text": "Veri madenciliği ön işleme adımlarından 'Normalizasyon' işleminin temel amacı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eksik verilerin yerine rastgele sayılar atamak.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Veritabanındaki kayıt sayısını (N) azaltarak hızı artırmak.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sadece kategorik verileri sayısal hale getirmek.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Farklı ölçeklerdeki özniteliklerin (örneğin gelir ve yaş) birbirine baskın çıkmasını engellemek.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Verileri sadece normal dağılıma (Gaussian) uygun hale getirmek.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Normalizasyon, aralığı geniş olan özniteliklerin hesaplamalarda baskın olmasını engellemek için verileri belirli bir aralığa (örneğin 0-1) çekme işlemidir."
+        },
+        {
+            "id": 5,
+            "text": "Büyük Veri (Big Data) kavramını tanımlayan ve '3V' olarak bilinen temel bileşenler aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Vektör, Verim, Varyans",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hacim, Hız, Görselleştirme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çeşitlilik, Doğruluk, Hacim",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Değer, Dağılım, Derinlik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hacim (Volume), Hız (Velocity), Çeşitlilik (Variety)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Büyük veri ilk olarak Volume (Hacim), Variety (Çeşitlilik) ve Velocity (Hız) bileşenleriyle tanımlanmıştır."
+        },
+        {
+            "id": 6,
+            "text": "Karar ağaçlarında bir düğümün safsızlığını ölçen 'Entropi' metriği için hangisi söylenebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Düğümdeki tüm kayıtlar tek bir sınıfa aitse (en saf durum) Entropi 0 değerini alır.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Eşit dağılmış iki sınıflı bir düğümde Entropi 0.5 olur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Entropi değeri her zaman Gini indeksinden küçüktür.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Entropi sadece sürekli sayısal veriler için hesaplanabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Maksimum safsızlık durumunda Entropi her zaman sonsuz ($\\infty$) olur.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tüm kayıtlar tek bir sınıfa aitse o sınıfın olasılığı 1'dir ve $\\log_2(1) = 0$ olduğu için entropi 0 çıkar."
+        },
+        {
+            "id": 7,
+            "text": "Hiyerarşik kümeleme algoritmalarından 'Min (Tek Bağlantı)' yaklaşımı, iki küme arasındaki yakınlığı nasıl belirler?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İki kümenin ağırlık merkezleri (centroid) arasındaki mesafeyi alır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Farklı kümelerdeki birbirine en yakın iki nokta arasındaki mesafeyi temel alır.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Farklı kümelerdeki birbirine en uzak iki nokta arasındaki mesafeyi temel alır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kümelerdeki tüm nokta çiftleri arasındaki mesafelerin ortalamasını alır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Birleşme sonrası oluşan Hata Kareler Toplamı'ndaki (SSE) artışa bakar.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Min (Tek Bağlantı) algoritması, iki kümenin yakınlığını bu kümelerdeki birbirine en yakın olan noktaların mesafesine göre belirler."
+        },
+        {
+            "id": 8,
+            "text": "Karar ağaçlarında C4.5 algoritması tarafından kullanılan 'Kazanç Oranı' (Gain Ratio), ID3'teki 'Bilgi Kazancı'nın (Information Gain) hangi zayıflığını gidermek için tasarlanmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eksik verileri içeren kayıtları doğrudan silme eğilimini.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece iki dal üreten (binary split) özellikleri tercih etmesini.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çok fazla benzersiz değer içeren (Müşteri ID gibi) öznitelikleri haksız yere yüksek puanlama eğilimini.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Logaritmik hesaplamaların işlemciyi aşırı yormasını.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sayısal verileri ayrıklaştıramama problemini.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilgi kazancı çok dallı yapıları kayırır; Kazanç Oranı ise 'SplitINFO' kullanarak bu aşırı dallanmayı cezalandırır."
+        },
+        {
+            "id": 9,
+            "text": "Birliktelik kuralları analizinde, 'Güven' (Confidence) metriği aşağıdakilerden hangisini ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kuraldaki ürünlerin toplam satış gelirine oranını.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kuralın tüm veritabanında görülme sıklığını.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kuralın doğruluğunun istatistiksel standart sapmasını.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sol taraftaki (X) ürünleri alanların ne kadarının sağ taraftaki (Y) ürünleri de aldığını.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "İki ürünün rafta birbirine olan fiziksel uzaklığını.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Güven (Confidence), $X \\to Y$ kuralı için X'i içeren kayıtların kaç tanesinin Y'yi de içerdiğini gösteren bir ölçüttür."
+        },
+        {
+            "id": 10,
+            "text": "Veri ambarları ile OLTP (Çevrimiçi İşlem İşleme) sistemleri arasındaki farklar göz önüne alındığında hangisi YANLIŞTIR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "OLTP sistemleri günlük işlemleri yürütmek için tasarlanmıştır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Veri ambarları tarihsel ve tamamlanmış verileri içerir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "OLTP'de veri sürekli değişirken, veri ambarında veri genellikle sadece okunabilir (read-only) niteliktedir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Veri ambarı verisi konu odaklı (subject-oriented) iken OLTP uygulama odaklıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "OLTP sistemleri veriyi terabaytlar düzeyinde ve tarihsel olarak saklamak için en verimli yapıdır.",
+                    "correct": true
+                }
+            ],
+            "explanation": "OLTP sistemleri güncel işlemlere odaklıdır ve genellikle gigabaytlar seviyesindedir; tarihsel ve terabaytlarca veri saklama/analiz işi veri ambarlarına aittir."
+        },
+        {
+            "id": 11,
+            "text": "K-En Yakın Komşu (k-NN) algoritmasının literatürde 'Tembel Öğrenici' (Lazy Learner) olarak adlandırılmasının temel sebebi nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eğitim aşamasında açık (explicit) bir model kurmayıp, tüm hesaplamayı test aşamasına bırakması.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Veritabanındaki verileri çok yavaş işlemesi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sadece küçük veri setlerinde çalışabilmesi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Öklit mesafesi dışında hiçbir uzaklık metriği kullanamaması.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Daima $k=1$ parametresiyle en yakın sonucu seçmesi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "k-NN algoritmaları eğitim verisini sadece saklar, model oluşturmazlar. Tahmin işlemi ancak test verisi geldiğinde yapılır."
+        },
+        {
+            "id": 12,
+            "text": "DBSCAN kümeleme algoritmasında bir veri noktasının 'Merkez Nokta' (Core Point) olarak etiketlenmesi için gereken temel koşul nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri setinin tam koordinat merkezinde yer alması.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Belirlenen bir $\\epsilon$ (Eps) yarıçapı içinde en az 'MinPts' kadar komşuya sahip olması.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kendi yarıçapında hiç komşusunun bulunmaması.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bir merkez noktanın komşuluğunda olup kendisinin MinPts şartını sağlamaması.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hiyerarşik ağaç yapısında en üst düğümde bulunması.",
+                    "correct": false
+                }
+            ],
+            "explanation": "DBSCAN'de bir nokta, kendi Eps yarıçapı içinde belirtilen minimum nokta sayısını (MinPts) sağlıyorsa 'Merkez' olarak kabul edilir."
+        },
+        {
+            "id": 13,
+            "text": "K-Ortalamalar (K-Means) kümelemesinde küme kalitesini ölçmek için kullanılan 'Hata Kareler Toplamı' (SSE) hakkında hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "SSE değeri arttıkça kümeleme başarısı da artar.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "SSE sadece hiyerarşik kümelemede kullanılan bir metriktir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "SSE, her noktanın bağlı olduğu küme merkezine uzaklıklarının kareleri toplamıdır.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Küme sayısı (K) arttıkça SSE değeri de mutlaka artar.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "SSE değeri her zaman 0 ile 1 arasında sınırlıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "SSE, veri noktalarının kendi küme merkezlerine olan mesafelerinin karelerinin toplamıdır ve düşük SSE daha iyi bir kümelemeye işaret eder."
+        },
+        {
+            "id": 14,
+            "text": "Veri ambarı mimarisinde yer alan 'Metadata' kavramı neyi temsil eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri ambarındaki en son gerçekleşen atomik satış kayıtlarını.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yalnızca 10 yıldan eski olan tarihsel verileri.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Veri ambarı sunucusunun donanım özelliklerini.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Verinin yapısı, tanımı ve ambar içindeki konumu hakkındaki bilgileri (verinin verisi).",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yüksek düzeyde özetlenmiş rapor çıktılarını.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Metadata, verinin yapısı ile ilgili bilgileri içerir ve analizler için bir kılavuz görevi görür."
+        },
+        {
+            "id": 15,
+            "text": "Birliktelik kurallarında aday sayısını azaltmak için kullanılan Apriori Prensibi (Anti-monotonluk) aşağıdakilerden hangisini ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bir kuralın desteği her zaman güveninden büyüktür.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sık olmayan bir kümenin alt kümeleri kesinlikle sıktır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bir küme ne kadar büyükse desteği o kadar fazladır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece tekil ürünler sık eleman kümesi olabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eğer bir eleman kümesi sık ise, onun bütün alt kümeleri de sık olmalıdır.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Anti-monotonluk özelliğine göre bir kümenin destek değeri alt kümelerinin destek değerini aşamaz; dolayısıyla küme sıksa alt kümeleri de sıktır."
+        },
+        {
+            "id": 16,
+            "text": "Bir karar ağacı düğümünde toplam 10 kayıt bulunmaktadır. Bunların 5'i Sınıf-A'ya, 5'i Sınıf-B'ye aittir. Bu düğümün 'Entropi' değeri kaçtır? (Formül: $Entropy(t) = -\\sum p(j|t) \\log_2 p(j|t)$)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1.0",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "0.5",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "0.0",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "0.25",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "2.0",
+                    "correct": false
+                }
+            ],
+            "explanation": "İki sınıflı problemde $p_1=0.5$ ve $p_2=0.5$ olduğunda: $-(0.5 \\times -1 + 0.5 \\times -1) = 1.0$ çıkar. Bu maksimum safsızlıktır."
+        },
+        {
+            "id": 17,
+            "text": "Bir karar ağacı düğümünde toplam 6 kayıt bulunmaktadır ve bunların 1'i $C_1$ sınıfına, 5'i $C_2$ sınıfına aittir. Bu düğümün Gini İndeksi değeri yaklaşık kaçtır? (Formül: $GINI(t) = 1 - \\sum [p(j|t)]^2$)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "0.500",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "0.278",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "0.167",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "0.444",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "0.000",
+                    "correct": false
+                }
+            ],
+            "explanation": "Olasılıklar: $1/6$ ve $5/6$. Gini = $1 - ((1/6)^2 + (5/6)^2) = 1 - (1/36 + 25/36) = 10/36 \\approx 0.278$."
+        },
+        {
+            "id": 18,
+            "text": "Müşterinin 'C++ Kitabı' aldıktan bir hafta sonra 'Perl Kitabı' alması gibi zaman bağımlı ilişkileri inceleyen analiz türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kümeleme Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anormallik Tespiti",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sıralı (Sequential) Örüntü Keşfi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Regresyon Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Özellik Seçimi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Olaylar arasındaki zamansal ardışıklıkları ve güçlü sıralı bağlılıkları bulan yönteme Sıralı Örüntü Keşfi denir."
+        },
+        {
+            "id": 19,
+            "text": "Tek değişkenli verilerde normal dağılım varsayımıyla tek bir aykırı değeri tespit etmek için kullanılan Grubbs Testi'nin hesaplama istatistiği ($G$) hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$G = \\sum \\frac{(X_i - \\overline{X})^2}{s^2}$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$G = \\frac{|X - s|}{\\overline{X}}$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$G = \\frac{\\max|X| - \\min|X|}{s}$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$G = \\frac{\\max|X - \\overline{X}|}{s}$",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "$G = \\lim_{x \\to \\infty} \\frac{X}{s}$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Grubbs testi, ortalamadan olan maksimum mutlak sapmanın standart sapmaya oranıyla hesaplanır."
+        },
+        {
+            "id": 20,
+            "text": "İçerisinde toplam $d$ adet benzersiz ürün bulunan bir veritabanında, kaba kuvvet (brute-force) ile üretilebilecek 'toplam muhtemel birliktelik kuralı sayısını' veren matematiksel ifade nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$2^d$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$d! - 1$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$d^2 + 2^d$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$2^{d-1} - 1$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$3^d - 2^{d+1} + 1$",
+                    "correct": true
+                }
+            ],
+            "explanation": "Birliktelik kuralları için kuramsal toplam kural sayısı bu kombinatoryal formülle hesaplanır ve eleman sayısı arttıkça hızla büyür."
+        }
+    ]
+}

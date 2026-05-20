@@ -1,0 +1,6 @@
+20 soru üret.
+Her soruda TAM OLARAK 5 şık olsun (A, B, C, D, E).
+Yanlış şıklar makul "tuzak" seçenek içersin; tamamen saçma olmasın.
+Doğru cevap her soruda farklı bir harf olsun (A, B, C, D, E eşit dağılsın).
+Zorluk dengesi: %30 kolay · %50 orta · %20 zor.
+Her soruya kısa bir "explanation" (açıklama) ekle.

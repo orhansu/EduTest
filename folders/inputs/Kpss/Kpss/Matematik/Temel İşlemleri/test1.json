@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e96f13e7-71b5-412e-a0e4-9842a2223bb0",
+        "title": "Temel İşlemler Testi",
+        "subject": "Matematik",
+        "topic": "Dört İşlem, Kesirler ve Denklem Çözme",
+        "difficulty": "Karışık",
+        "grade": "KPSS",
+        "created": "2026-04-19"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Sayı doğrusunda 0 sayısının işareti ile ilgili olarak Şenol Hoca'nın verdiği bilgiye göre aşağıdakilerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Pozitiftir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Negatiftir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hem pozitif hem negatiftir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nötrdür (İşaretsizdir).",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sonsuzdur.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sayı doğrusunda 0, pozitif veya negatif değildir; tarafsız, yani nötrdür ve işareti yoktur."
+        },
+        {
+            "id": 2,
+            "text": "\\( -12 - 18 - 5 \\) işleminin sonucu kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "-35",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "35",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "-25",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "25",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "-5",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aynı işaretli sayılar toplandığında aynı yöne güç uygulanır ve sayılar birikir. Toplamları \\( 12 + 18 + 5 = 35 \\) yapar, hepsi negatif olduğu için sonuç \\( -35 \\) olur."
+        },
+        {
+            "id": 3,
+            "text": "Aşağıdaki işlemlerden hangisinin sonucu pozitiftir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( (-3) \\times 5 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( 12 \\div (-4) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( -(4^2) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( -\\frac{8}{2} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( (-2) \\times (-7) \\)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Aynı işaretli iki sayının çarpımı veya bölümü pozitiftir. Eksi ile eksinin çarpımı olan \\( (-2) \\times (-7) = +14 \\) pozitiftir."
+        },
+        {
+            "id": 4,
+            "text": "\\( \\frac{2}{7} \\div \\frac{5}{8} \\) işleminin sonucu kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( \\frac{10}{56} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( \\frac{16}{35} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "\\( \\frac{7}{20} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( \\frac{35}{16} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( \\frac{5}{14} \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kesirlerde bölme işlemi yapılırken birinci kesir aynen kalır, ikinci kesir ters çevrilip çarpılır. \\( \\frac{2}{7} \\times \\frac{8}{5} = \\frac{16}{35} \\) sonucu elde edilir."
+        },
+        {
+            "id": 5,
+            "text": "\\( (-2)^4 \\) ile \\( -2^4 \\) ifadelerinin değerleri sırasıyla aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "16 ve -16",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "-16 ve 16",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "16 ve 16",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "-16 ve -16",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "8 ve -8",
+                    "correct": false
+                }
+            ],
+            "explanation": "Parantez dışındaki çift kuvvet negatif işareti de etkiler ve pozitif yapar: \\( (-2)^4 = 16 \\). Parantez olmadığında ise kuvvet sadece sayıya aittir: \\( -2^4 = -16 \\)."
+        },
+        {
+            "id": 6,
+            "text": "\\( 30 + 20 \\div 2 \\) işleminin sonucu kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "25",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "35",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "40",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "45",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "50",
+                    "correct": false
+                }
+            ],
+            "explanation": "İşlem önceliği kuralına göre toplama çıkarma işleminden önce bölme/çarpma işlemi yapılır. \\( 20 \\div 2 = 10 \\), sonrasında toplama işlemi uygulanır: \\( 30 + 10 = 40 \\)."
+        },
+        {
+            "id": 7,
+            "text": "\\( 6a - 3b + y^2 - 8a^4 - 1 \\) ifadesinde kaç adet terim bulunmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5",
+                    "correct": true
+                }
+            ],
+            "explanation": "Toplama ve çıkarma işlemleri terimleri birbirinden ayırır. İfadede \\( 6a \\), \\( -3b \\), \\( +y^2 \\), \\( -8a^4 \\) ve \\( -1 \\) olmak üzere toplam 5 terim vardır."
+        },
+        {
+            "id": 8,
+            "text": "\\( \\frac{x}{2} = \\frac{3}{4} \\) eşitliğini sağlayan x değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( \\frac{2}{3} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( \\frac{3}{2} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "6",
+                    "correct": false
+                }
+            ],
+            "explanation": "İki kesir birbirine eşitse içler dışlar çarpımı yapılır. \\( 4x = 6 \\) denklemi oluşur. Buradan \\( x = \\frac{6}{4} = \\frac{3}{2} \\) sadeleşmiş hali bulunur."
+        },
+        {
+            "id": 9,
+            "text": "\\( (-3)^3 + (-1)^6 \\) işleminin sonucu kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "-28",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "-26",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "-27",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "26",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "28",
+                    "correct": false
+                }
+            ],
+            "explanation": "Negatif sayının tek kuvveti yine negatif, çift kuvveti ise pozitiftir. \\( (-3)^3 = -27 \\) ve \\( (-1)^6 = 1 \\). Toplamları \\( -27 + 1 = -26 \\) yapar."
+        },
+        {
+            "id": 10,
+            "text": "\\( -3(x - y + z) \\) ifadesinin eşiti aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( -3x - 3y - 3z \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( 3x - 3y + 3z \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( -3x + 3y - 3z \\)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "\\( -3x + 3y + 3z \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( 3x + 3y - 3z \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Parantez dışındaki eksi işaretli çarpan olan \\( -3 \\) içerideki tüm terimlerle sırasıyla çarpılır. Eksilerin çarpımının artıya dönüştüğüne dikkat edildiğinde sonuç \\( -3x + 3y - 3z \\) olur."
+        },
+        {
+            "id": 11,
+            "text": "\\( \\frac{3}{4} = \\frac{a - 2}{a + 1} \\) olduğuna göre a kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "7",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "-7",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "9",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "-11",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "11",
+                    "correct": true
+                }
+            ],
+            "explanation": "İçler dışlar çarpımı yapıldığında denklem: \\( 3(a + 1) = 4(a - 2) \\Rightarrow 3a + 3 = 4a - 8 \\) halini alır. Bilinenler bir tarafa, bilinmeyenler diğer tarafa toplanırsa \\( a = 11 \\) sonucu elde edilir."
+        },
+        {
+            "id": 12,
+            "text": "\\( 8 \\times 4 \\div 2 \\) işleminde çarpma ve bölmenin birbirine üstünlüğü olmadığı için kurala göre sonuç kaç olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "16",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "32",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1",
+                    "correct": false
+                }
+            ],
+            "explanation": "Çarpma ve bölmenin işlem önceliği olarak birbirine üstünlüğü yoksa işlemler okuma sırasına göre soldan sağa doğru yapılır. İlk olarak \\( 8 \\times 4 = 32 \\), sonrasında \\( 32 \\div 2 = 16 \\) hesaplanır."
+        },
+        {
+            "id": 13,
+            "text": "\\( 5x + 5 \\) ifadesi ortak çarpan parantezine alındığında aşağıdakilerden hangisi elde edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( 5(x) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( 5(x + 5) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( x(5 + 1) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( 5(x + 1) \\)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "\\( 5x(1) \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Her iki terimde de ortak olan çarpan 5 sayısıdır. İkinci terimdeki 5 ortak paranteze alındığında, geriye dağıtıldığında eski haline dönmesini sağlayan 1 çarpanı kalır. Sonuç \\( 5(x + 1) \\) olur."
+        },
+        {
+            "id": 14,
+            "text": "\\( \\frac{3}{4} + \\frac{2}{5} - \\frac{1}{2} \\) işleminin sonucu kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( \\frac{4}{11} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( \\frac{13}{20} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "\\( \\frac{4}{7} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( \\frac{7}{20} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( \\frac{17}{20} \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Toplama ve çıkarma için paydalar 20'de eşitlenmelidir. Sırasıyla 5, 4 ve 10 ile genişletme yapıldığında: \\( \\frac{15}{20} + \\frac{8}{20} - \\frac{10}{20} = \\frac{13}{20} \\) cevabı bulunur."
+        },
+        {
+            "id": 15,
+            "text": "\\( \\frac{3}{\\frac{2}{9}} \\) işleminin sonucu kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( \\frac{6}{9} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( \\frac{2}{27} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( \\frac{9}{6} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( \\frac{1}{6} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( \\frac{27}{2} \\)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ana kesir çizgisine göre üstteki 3 tam sayısı birinci kesir (\\( 3/1 \\)), alttaki \\( \\frac{2}{9} \\) ise ikinci kesirdir. Bölme kuralı gereği birinci aynen kalır, ikinci ters çevrilir ve çarpılır: \\( 3 \\times \\frac{9}{2} = \\frac{27}{2} \\)."
+        },
+        {
+            "id": 16,
+            "text": "\"Bir a sayısı b ile c sayısının farkı ile çarpıldığı zaman sonuç d oluyor.\" ifadesinin matematiksel gösterimi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( a \\times (b - c) = d \\)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "\\( a \\times b - c = d \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( a - b \\times c = d \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( (a - b) \\times c = d \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( a \\times c - b = d \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kurguya göre önce b ile c'nin farkı alınmalıdır, bu yüzden işlem önceliğini göstermek için \\( (b - c) \\) parantezi kullanılır. Ardından bu fark a ile çarpılır: \\( a \\times (b - c) = d \\)."
+        },
+        {
+            "id": 17,
+            "text": "\\( 2b + 1 = 5a \\) eşitliğine göre, b'nin a cinsinden değeri aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( \\frac{5a + 1}{2} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( \\frac{2a - 1}{5} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( \\frac{5a - 1}{2} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "5a - 2",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( \\frac{1 - 5a}{2} \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "b değişkenini a cinsinden ifade etmek için b'nin yalnız bırakılması gerekir. Önce +1 karşıya -1 olarak atılır: \\( 2b = 5a - 1 \\). Daha sonra çarpım halindeki 2 eşitliğin diğer tarafına bölü olarak geçer: \\( b = \\frac{5a - 1}{2} \\)."
+        },
+        {
+            "id": 18,
+            "text": "Şenol Hoca'nın anlatımına göre \\( \\frac{a - b}{b - a} \\) ifadesinin en sade hali nedir? (a ve b birbirinden farklıdır)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "a+b",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "0",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "-1",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "a-b",
+                    "correct": false
+                }
+            ],
+            "explanation": "Matematikte \\( a - b \\) ifadesini \\( -1 \\) parantezine alırsak ifade \\( -1 \\times (b - a) \\) haline dönüşür. Pay ve payda bu durumda birbirinin tam olarak ters işaretlisi olduğundan sadeleştirme sonrası geriye \\( -1 \\) kalır."
+        },
+        {
+            "id": 19,
+            "text": "Cem, işlem önceliğini yanlış hatırlayıp önce toplama/çıkarma, sonra çarpma/bölme yapmıştır. \\( \\frac{16}{-8} + 4 \\) işlemini bu hatalı kuralla çözen Cem'in bulduğu sonuç, doğru sonuçtan kaç eksiktir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "6",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "10",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "2",
+                    "correct": false
+                }
+            ],
+            "explanation": "Doğru işlem sırası ile: Önce bölme işlemi yapılır \\( \\frac{16}{-8} = -2 \\), sonra \\( -2 + 4 = 2 \\) (Doğru Sonuç). Cem'in hatasıyla: Önce toplama yapılır \\( -8 + 4 = -4 \\), sonra \\( \\frac{16}{-4} = -4 \\) (Cem'in Sonucu). İki değerin arasındaki fark \\( 2 - (-4) = 6 \\) olur."
+        },
+        {
+            "id": 20,
+            "text": "\\( \\frac{3}{2} + \\frac{2}{\\frac{3}{4}} \\) işleminin sonucu kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( \\frac{5}{6} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( \\frac{17}{6} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( \\frac{25}{6} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "\\( \\frac{11}{4} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( \\frac{25}{12} \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Öncelikli olarak bölme işlemi yapılır: \\( 2 \\div \\frac{3}{4} \\) işlemi ters çevrilip çarpıldığında \\( 2 \\times \\frac{4}{3} = \\frac{8}{3} \\) bulunur. Daha sonra toplama geçilir: \\( \\frac{3}{2} + \\frac{8}{3} \\) işlemi paydalar 6'da eşitlenerek çözüldüğünde \\( \\frac{9}{6} + \\frac{16}{6} = \\frac{25}{6} \\) cevabı elde edilir."
+        }
+    ]
+}

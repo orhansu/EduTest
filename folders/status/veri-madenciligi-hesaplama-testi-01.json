@@ -1,0 +1,111 @@
+{
+  "test_id": "veri-madenciligi-hesaplama-testi-01",
+  "correct": 1,
+  "total": 20,
+  "answered": 1,
+  "pct": 5,
+  "finished": false,
+  "answers": [
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": "C",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    }
+  ],
+  "date": "2026-05-20T06:52:33.121Z"
+}

@@ -1,0 +1,18 @@
+# Türkçe Paragraf ve Dil Bilgisi Kuralları (ÖSYM Tarzı)
+
+1. Paragraf ve Dil Bilgisi Soruları: Türkçe dersi altındaki paragraf, cümlede anlam, sözcükte anlam ve dil bilgisi soruları için bu kurallar geçerlidir.
+2. ÖSYM Formatı: Sorular YKS (TYT/AYT), KPSS, ALES ve DGS sınav formatlarında hazırlanmalıdır.
+3. Uzun Paragraflar: Soru metinlerindeki öncül paragraflar yeterince uzun ve dolgun olmalıdır. Metinler akademik, felsefi, tarihi, bilimsel veya edebi bir makaleden alınmış gibi gerçekçi, okumayı ve analizi gerektiren düzeyde olmalıdır.
+4. Uzun ve Çeldirici Şıklar: Seçenekler (A, B, C, D, E) tek kelimelik değil, paragrafın analizini yansıtan tam cümleler veya uzun yan cümleler halinde olmalıdır. Güçlü çeldiriciler kullanılmalıdır.
+5. Soru Kökleri: Soru kökleri ÖSYM tarzı olmalıdır.
+   Örnekler:
+   - "Bu parçadan aşağıdakilerin hangisine ulaşılabilir?"
+   - "Bu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?"
+   - "Bu parçanın yazarının aşağıdakilerden hangisini söylemesi beklenemez?"
+   - "Bu parçadaki altı çizili sözle anlatılmak istenen aşağıdakilerden hangisidir?"
+6. Dil Bilgisi İstisnaları: Dil bilgisi sorularında paragraf veya uzun cümleler verilip, seçeneklerde "A) Girişik birleşik cümle kullanılmıştır.", "B) Yüklem geçişli bir fiildir." gibi analizler istenir.
+7. Metin Biçimlendirme (Paragraf ve Soru Gösterimi):
+   - Alıntılar: Metin içerisindeki alıntılar mutlaka çift tırnak ("...") içinde yazılmalıdır.
+   - Paragraf Girintisi: Soru öncülündeki paragrafların başında mutlaka girinti (boşluk veya `\t` karakteri) bulunmalıdır. Eğer metin birden fazla paragraftan oluşuyorsa her paragrafın başında girinti olmalıdır.
+   - Ayraç: Paragraf / öncül metin ile asıl soru kökü ("Bu parçada anlatılmak istenen...", vb.) arasına görsel bir ayraç (örneğin `\n\n---\n\n` veya sadece `\n\n`) konarak metin ile soru kökü birbirinden net bir şekilde ayrılmalıdır.
+   - Önemli İfadeler: Metin içindeki altı çizili veya vurgulanmak istenen söz öbekleri tek tırnak ('...') veya kalın (bold) ifadelerle belirginleştirilmelidir.

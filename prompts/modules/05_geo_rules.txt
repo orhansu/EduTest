@@ -1,0 +1,24 @@
+# Geometri ve Çizim Kuralları (TikZ)
+
+1. Görsel veya grafiğe ihtiyaç duyulan geometri / veri grafiği sorularında, resim dosyası BEKLEMEYİN! Bunun yerine LaTeX'in yerleşik **TikZ** sistemini kullanarak şekli aslına uygun bir biçimde SİZ çizin.
+2. Ürettiğiniz TikZ kodlarını doğrudan JSON içindeki özel bir alana yerleştirmelisiniz. Şekil soru bölümündeyse sorunun (`q.tikz`), şıktaysa şıkkın (`c.tikz`) içine dizi (array) formatında yerleştirilir. 
+
+**JSON Şablon Örneği:**
+"questions": [
+  {
+    "id": 1,
+    "text": "Aşağıdaki dik üçgende x açısı kaç derecedir?",
+    "tikz": [
+       "\\begin{tikzpicture}\n\\draw[thick] (0,0) -- (4,0) -- (0,3) -- cycle;\n\\draw (0.3,0) -- (0.3,0.3) -- (0,0.3);\n\\node[below] at (2,0) {3};\n\\node[left] at (0,1.5) {4};\n\\node[above right] at (2,1.5) {5};\n\\node[right] at (0.5,0.2) {x};\n\\end{tikzpicture}"
+    ],
+    "choices": [ ... ]
+  }
+]
+
+**ÖNEMLİ JSON KAÇIŞ KURALI:** TikZ kodlarını JSON stringi içerisine yazarken, backslash `\` sembolünü mutlaka bir kere escape ederek `\\` yapın (Örn: `\begin{tikzpicture}` yerine `\\begin{tikzpicture}`). Yeni satır karakterlerini `\n` olarak ekleyerek okunabilirliği artırın. 
+
+**Desteklenen Çizimler:**
+- Açılı/kenar uzunluklu üçgenler, çemberler, çokgenler.
+- K-Ortalamalar (K-Means) tarzı basit nokta dağlımları (2D plot).
+- Karar ağacı hiyerarşi dallanmaları (tree node yapısı).
+- Koordinat ekseni çizimleri (tikzpicture içerisinde x/y eksenleri).

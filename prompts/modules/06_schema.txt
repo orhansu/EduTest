@@ -1,0 +1,31 @@
+ÇIKTI FORMATI VE KURALLAR:
+
+Öncelikle SADECE GEÇERLİ JSON DÖNDÜR.
+
+JSON ŞABLONU:
+{
+  "meta": {
+    "id": "[benzersiz-GUID-ornek: 123e4567-e89b-12d3-a456-426614174000]",
+    "title": "[Sade başlık. Örnek: 'Üçgende Açılar', 'Cümle Yapıları', 'Sınav 1' vb. Uzun klasör hiyerarşisi yazmayın.]",
+    "subject": "[Genel ders adı. Örnek: 'Türkçe', 'Matematik']",
+    "topic": "[Detaylı konu başlığı, 'title' alanının detaylandırılmış hali. Örnek: 'Üçgende Açılar - Dik Üçgen']",
+    "difficulty": "[Kolay | Orta | Zor]",
+    "grade": "[Sınıf / Seviye – isteğe bağlı]",
+    "created": "2026-04-19"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "[Soru metni – LaTeX ifadelerinde çift \\ kullan]",
+      "tikz": ["[İsteğe bağlı - TikZ kodu, yoksa bu satırı silebilirsiniz]"],
+      "choices": [
+        { "label": "A", "text": "[Şık A]", "correct": false },
+        { "label": "B", "text": "[Şık B]", "correct": false },
+        { "label": "C", "text": "[Şık C]", "correct": true },
+        { "label": "D", "text": "[Şık D]", "correct": false },
+        { "label": "E", "text": "[Şık E]", "correct": false }
+      ],
+      "explanation": "[Doğru cevabın kısa açıklaması - LaTeX varsa çift \\ kullan]"
+    }
+  ]
+}

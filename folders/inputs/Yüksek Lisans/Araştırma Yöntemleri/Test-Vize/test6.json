@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e98e4a71-6c2f-4f3b-b9d1-923f6e100101",
+        "title": "Araştırma Yöntemleri ve Etik - İleri Düzey (Zor Seviye) Değerlendirme Testi",
+        "subject": "Araştırma Yöntemleri",
+        "topic": "Bilimsel Paradigmalardan Veri Analizine İleri Kavramlar",
+        "difficulty": "Zor",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-04-20"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Bilgi edinme yolları incelendiğinde; 'Uzman görüşü' ve 'Mantıksal akıl yürütme' (örneğin tümdengelim) gibi yöntemlerin de değerli olduğu kabul edilir. Ancak bu yolları 'Bilimsel Yöntem'den ayıran ve bilimsel bilginin doğasını oluşturan en temel ayrım noktası aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ulaşılan sonuçların objektif, ölçülebilir ve tekrarlanabilir ampirik kanıtlara dayanması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece sayısal (nicel) veriler ve formüller kullanılarak bilgi üretilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Araştırmacının kişisel sezgi ve deneyimlerini tamamen süreç dışında bırakması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mutlak, değişmez ve her koşulda evrensel olarak geçerli gerçeklere ulaşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yalnızca laboratuvar ortamında kontrollü müdahalelerle gerçekleştirilebilmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilimsel yöntemi diğer bilgi edinme yollarından (uzman görüşü, mantık vb.) ayıran en temel özellik, iddiaların nesnel, ölçülebilir ve başka araştırmacılar tarafından tekrarlanabilir ampirik kanıtlarla (verilerle) sınanmasıdır."
+        },
+        {
+            "id": 2,
+            "text": "Bilimsel yöntem literatürde 'Olgusal (Betimleme)' ve 'Kuramsal (Anlama ve Açıklama)' süreçler olmak üzere iki temel boyutta ele alınır. Aşağıdakilerden hangisi doğrudan 'Kuramsal Süreç'in temel özelliklerinden biridir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olgusal süreçte elde edilen bulguları anlaşılır hale getirmeyi ve hipotez/teori oluşturmayı amaçlaması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece sahadan verilerin toplanması, kaydedilmesi ve ölçülmesi işlemlerini içermesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Olguların doğal akışına araştırmacı tarafından kontrollü müdahalede bulunulan aşama olması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Belli kurallara göre nesnelere veya gözlemlere sayısal değerler atama işlevini görmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gözlem ve deney aşamalarının birleşiminden oluşan pratik bir uygulama evresi olması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kuramsal süreç, olgusal süreçte (gözlem, deney, ölçme) elde edilen bulguları anlaşılır hale getirmeyi, kavramlar arası ilişkileri kurmayı ve teori (kuram) inşa etmeyi amaçlayan ikinci aşamadır."
+        },
+        {
+            "id": 3,
+            "text": "Bir eğitim araştırmacısı, çalışmasının başında '\\(\\text{Öğrencilerin sınav kaygısı ile akademik başarıları arasında negatif yönde anlamlı bir ilişki vardır.}\\)' şeklinde bir hipotez formüle etmiştir. Bu hipotez türü, istatistiksel ve yapısal olarak nasıl sınıflandırılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Alternatif Hipotez (\\(H_1\\)) - Yönlü",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sıfır (Null) Hipotez (\\(H_0\\)) - Yönsüz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Alternatif Hipotez (\\(H_1\\)) - Yönsüz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sıfır (Null) Hipotez (\\(H_0\\)) - Yönlü",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İstatistiksel (Null) Hipotez - Açıklayıcı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmada bir ilişkinin veya farkın 'olduğunu' iddia eden hipotezler Alternatif Hipotez (\\(H_1\\)) olarak adlandırılır. Ayrıca ilişkinin yönü (negatif/ters yönlü) açıkça belirtildiği için bu bir 'yönlü' hipotezdir."
+        },
+        {
+            "id": 4,
+            "text": "Araştırmacılar zaman ve maliyet tasarrufu sağlamak için uzun süreli (boylamsal) araştırmalar yerine sıklıkla 'kesitsel (cross-sectional)' araştırmaları tercih eder. Ancak kesitsel desenin bilimsel geçerliliğini koruyabilmesi için karşılanması gereken en kritik metodolojik sayıltı (zorunluluk) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Karşılaştırılan alt grupların, araştırılan temel değişken dışındaki olası dışsal değişkenler bakımından birbirine denk (benzer profilde) olması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Alt grupların büyüklüğünün (örneklem hacminin) nicel evreni tam olarak yansıtacak devasa boyutlarda seçilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Verilerin sadece laboratuvar ortamında ve deneysel müdahale koşulları altında toplanması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Katılımcıların çalışmaya kendi gönül rızalarıyla ve rastgele (randomize) atanarak dahil edilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nicel analize ek olarak araştırmanın mutlaka nitel (derinlemesine görüşme) veri toplama araçlarıyla desteklenmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kesitsel çalışmalarda farklı yaş veya gelişim düzeyindeki gruplar aynı anda ölçülür. Sonuçların geçerliliği, bu grupların (yaş dışındaki sosyoekonomik vb.) olası dışsal değişkenler açısından birbirine 'denk' olması sayıltısına dayanır."
+        },
+        {
+            "id": 5,
+            "text": "Nedensel ilişkileri ortaya koymada en güçlü kanıtları sunan 'Gerçek Deneysel Araştırmaları', yarı-deneysel veya nedensel-karşılaştırmalı araştırmalardan ayıran en temel yapısal özellik (altın standart) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Verilerin nicel olarak sayısallaştırılması ve parametrik testlerle yorumlanması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Katılımcıların deney ve kontrol gruplarına rastgele (seçkisiz) atanarak önceden var olan bireysel farklılıkların kontrol altına alınması",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bağımsız değişkenin (nedenin) doğal ortamda kendiliğinden oluşması ve müdahale edilmemesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çalışmanın sadece dış değişkenlerden arındırılmış laboratuvar koşullarında yürütülebilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İç geçerliği korumak amacıyla ön-test ölçümlerinin kesinlikle yapılmaması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gerçek deneysel desenlerin en ayırt edici özelliği (yarı-deneysel desenlerden farkı), katılımcıların deney ve kontrol gruplarına 'rastgele (randomize)' atanarak gruplar arası başlangıç denkliğinin objektif şekilde sağlanmasıdır."
+        },
+        {
+            "id": 6,
+            "text": "Geliştirilen bir psikolojik ölçme aracı aynı örneklem grubuna farklı zamanlarda iki kez uygulanmış ve katılımcılar her iki uygulamada da birbiriyle yüksek korelasyon gösteren puanlar almıştır. Ancak daha sonra yapılan uzman analizlerinde, ölçeğin araştırılan yapıyı değil bambaşka bir teorik konsepti ölçtüğü anlaşılmıştır. Bu durumda söz konusu ölçek için aşağıdaki yargılardan hangisi kesin olarak doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hem geçerli hem de güvenilirdir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Geçerli (amaca uygun) fakat güvenilir değildir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Test-tekrar test katsayısı düşük, yapı geçerliği yüksektir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İç tutarlılığı düşük, dış geçerliği (genellenebilirliği) yüksektir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Güvenilir (tutarlı sonuçlar veren) fakat geçerli (amaca uygun) bir araç değildir.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Aracın farklı uygulamalarda aynı veya benzer sonuçları vermesi 'güvenirliğini (tutarlılığını)' gösterir. Ancak ölçmesi gereken özelliği değil de başka bir özelliği ölçmesi, 'geçerli (valid)' olmadığını gösterir. Geçersiz bir araç güvenilir olabilir."
+        },
+        {
+            "id": 7,
+            "text": "Araştırma etiği bağlamında değerlendirildiğinde; bir araştırmacının elde ettiği verileri beklentilerine (hipotezine) uygun çıkması amacıyla manipüle etmesi, istenmeyen verileri kasıtlı olarak analizden çıkarması veya grafikleri saptırması hangi ihlal türü olarak adlandırılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bulandırma / Tahrifat (Falsification)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dilimleme (Salami Slicing)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yinelenen Yayın (Duplikasyon)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Var olan verileri, bulguları veya araştırma süreçlerini kasıtlı olarak değiştirmeye ve çarpıtmaya Bulandırma (Falsification) denir. (Uydurmacılık ise hiç var olmayan veriyi üretmektir)."
+        },
+        {
+            "id": 8,
+            "text": "Nitel araştırmalarda kullanılan amaçlı örnekleme yöntemlerinden birinde, araştırmacı 'Bu kurallar disiplinin en katı uygulandığı A kurumunda bile ihlal ediliyorsa, muhtemelen diğer tüm kurumlarda da ihlal ediliyordur' mantığıyla en belirleyici vakayı incelemeye karar verir. Bu stratejiye ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kartopu (Zincir) örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kritik durum örneklemesi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Aykırı (Uç) durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Maksimum çeşitlilik örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tabakalı (Stratified) örnekleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir durumun gerçekleşip gerçekleşmediğini test etmek için mantıksal bir 'pozitif/negatif uç test' yaklaşımıyla en belirleyici olan tek bir duruma odaklanılması 'Kritik Durum Örneklemesi'dir."
+        },
+        {
+            "id": 9,
+            "text": "Nitel araştırma süreci ilerledikçe araştırmacı belirli temalar keşfeder. Ulaştığı bu teorik çerçevenin sınırlarını test etmek, güvenirliğini artırmak ve bulunan sonuçların hangi koşullar altında geçersiz olabileceğini görmek amacıyla alternatif ve zıt açıklama getiren vakaların aranması işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yanlışlayıcı durum örneklemesi",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Maksimum çeşitlilik örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ölçüt örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tipik durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gönüllü örnekleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının ulaştığı temaların sınırlarını ve doğruluğunu test etmek için, kendi bulgularıyla çelişen veya alternatif açıklamalar getiren yeni vakaları özellikle örnekleme dahil etmesine 'yanlışlayıcı durum örneklemesi' denir."
+        },
+        {
+            "id": 10,
+            "text": "Nitel bir araştırmanın inandırıcılığını (iç geçerliğini) artırmak amacıyla, araştırmacının analizleri sonucunda ulaştığı temaları ve yorumları, görüşme yaptığı katılımcılara tekrar sunarak 'Bu yorumlar sizin düşüncelerinizi/deneyimlerinizi doğru yansıtıyor mu?' diye geri bildirim almasına ne denir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzman incelemesi (Peer review)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Üçgenleme (Triangulation)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Derinlemesine betimleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dış tutarlılık analizi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Katılımcı teyidi (Member checking)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Araştırmacının sübjektif yorum ve analizlerinin gerçekten katılımcıların hislerini ve fikirlerini yansıtıp yansıtmadığını teyit etmek için metinlerin katılımcılara okutulup onaylarının alınması işlemi 'katılımcı teyidi'dir."
+        },
+        {
+            "id": 11,
+            "text": "Nitel veri toplama yöntemleri arasında yer alan ve incelenmek istenen konu hakkında önceden hazırlanmış genel bir soru rehberine bağlı kalınan; ancak görüşmenin doğal akışı içinde araştırmacıya soruların sırasını değiştirme veya ek (probe) sorularla konuyu derinleştirme esnekliği tanıyan optimal görüşme türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yapılandırılmış görüşme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Odak grup görüşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sistematik mülakat",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yarı-yapılandırılmış görüşme",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yapılandırılmamış (Serbest) görüşme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hem önceden belirlenmiş belirli konuları garanti altına alan hem de konuşmanın akışına göre esneklik (derinleştirme, sıra değiştirme) sağlayan ve en sık kullanılan tür 'yarı-yapılandırılmış görüşme'dir."
+        },
+        {
+            "id": 12,
+            "text": "Nitel araştırmalarda bulguların tutarlılığını ve inandırıcılığını artırmak için kullanılan 'Üçgenleme (Triangulation)' stratejisinin farklı türleri vardır. Toplanan verilerin, tek bir kurama bağlı kalmaksızın literatürdeki farklı teorik görüşler ve kuramlar ışığında karşılaştırmalı olarak yorumlanması stratejisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri kaynaklı üçgenleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Metodolojik üçgenleme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Araştırmacı üçgenlemesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Teori üçgenlemesi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Aktarılabilirlik sınaması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Verilerin sadece bir teoriye göre değil, çoklu kuramsal perspektiflerden geçirilerek değerlendirilmesi ve anlamlandırılması 'teori üçgenlemesi' olarak adlandırılır."
+        },
+        {
+            "id": 13,
+            "text": "Sosyal bilimlerde kullanılan ve tümevarımsal bir yaklaşıma sahip olan; önceden var olan hipotezleri test etmek yerine veri toplama ve analizin iç içe ('sürekli karşılaştırmalı analiz' ile) yürütüldüğü ve doğrudan sahadaki bulgular üzerinden yepyeni bir kavramsal kuram üretmeyi hedefleyen nitel desen aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eylem Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Etnografik Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Olgubilim (Fenomenoloji)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Durum Çalışması (Case Study)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuram Oluşturma (Grounded Theory)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Glaser ve Strauss tarafından geliştirilen Grounded Theory (Kuram Oluşturma), ampirik verilerden yola çıkarak sürekli karşılaştırmalı analizler sonucunda alana özgü yeni bir teorik yapı/kuram inşa etme sürecidir."
+        },
+        {
+            "id": 14,
+            "text": "Bir okuldaki kronik disiplin veya zorbalık sorunlarına pratik çözümler üretmek amacıyla, dışarıdan bir araştırmacının yanı sıra bizzat o okulun yöneticilerinin ve öğretmenlerinin (uygulayıcıların) de sürece aktif olarak katılıp 'planlama-eylem-gözlem-yansıtma' döngülerini yürüttükleri araştırma modeli nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kuram Oluşturma Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Eylem Araştırması (Action Research)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Nedensel Karşılaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Boylamsal Tarama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fenomenolojik İnceleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uygulayıcıların (öğretmen vb.) kendi iş ortamlarındaki veya mesleki uygulamalarındaki sorunları çözmek amacıyla, araştırmacı rolünü de üstlenerek gerçekleştirdikleri döngüsel çalışmalara Eylem Araştırması denir."
+        },
+        {
+            "id": 15,
+            "text": "Korelasyon analizi değişkenler arasındaki birlikte değişimin yönünü ve gücünü ortaya koyarken, bağımsız değişken(ler) kullanılarak (örneğin \\( Y = a + bX + e \\) formülünde olduğu gibi) bağımlı değişkenin değerini istatistiksel olarak 'tahmin etmeyi / yordamayı' amaçlayan ileri analiz tekniği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Varyans Analizi (ANOVA)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ki-kare Testi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bağımsız Gruplar t-testi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Regresyon Analizi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Faktör Analizi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Regresyon analizi, aralarında ilişki bulunan değişkenlerden birini temel alarak diğer(ler)inin kestirilmesini (tahmin edilmesini / yordanmasını) sağlayan çıkarımsal istatistik yöntemidir."
+        },
+        {
+            "id": 16,
+            "text": "Araştırmalar amaçlarına göre sınıflandırıldığında; salt bilimsel bilginin sınırlarını genişletmeyi amaçlayan, teori ve kuram inşa etmeye yönelik (Örn: Öğrenme teorilerinin geliştirilmesi) araştırmalardan farklı olarak; sahada karşılaşılan somut ve güncel bir sorunu doğrudan çözmeyi hedefleyen (Örn: Sınav sistemindeki aksaklıkların iyileştirilmesi) araştırma türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Temel Araştırmalar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Geriye Dönük (Retrospektif) Araştırmalar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kuram Oluşturma Araştırmaları",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Uygulamalı Araştırmalar",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Keşfedici Araştırmalar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yeni bilgiyi salt teori üretmek için arayan çalışmalar temel araştırmalar iken; bulgularını hemen kullanıp toplumsal veya eğitsel pratik bir sorunu çözmeyi amaçlayanlar 'uygulamalı araştırmalar' olarak sınıflandırılır."
+        },
+        {
+            "id": 17,
+            "text": "Araştırma ve yayın etiği bağlamında; akademik değerlendirmelerin, işe alımların ve ödüllendirmelerin kişisel ilişkilere, inançlara, cinsiyete veya statüye göre değil, tümüyle adayın objektif bilimsel yeterliliğine ve alana yaptığı bilimsel katkıya dayandırılması ilkesi hangi kavramla ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fikir Çeşitliliği",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Disiplinlerarası Uyum",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Onaylanabilirlik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çıkar Çatışması Kontrolü",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Liyakat Esası",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bilimsel süreçlerde görev dağılımı ve hakemlik gibi değerlendirme aşamalarının ayrımcılıktan uzak, tamamen performansa ve yetkinliğe dayalı gerçekleştirilmesi etik ilke olarak 'Liyakat Esası' olarak adlandırılır."
+        },
+        {
+            "id": 18,
+            "text": "Bağımsız değişkenin araştırmacı tarafından kasıtlı olarak manipüle edilemediği durumlarda (örneğin cinsiyet, yaşanan bir travma, doğal afet tecrübesi vb.); bu değişkenlere sahip olan ve olmayan halihazırda oluşmuş gruplar arasındaki farklılıkların nedenlerini geriye dönük (retrospektif) inceleyen nicel araştırma deseni nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Korelasyonel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gerçek Deneysel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tek Faktörlü Deneysel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Boylamsal Tarama Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nedensel-Karşılaştırmalı (Ex-Post-Facto) Araştırma",
+                    "correct": true
+                }
+            ],
+            "explanation": "Olay olup bittikten veya gruplar doğal olarak oluştuktan sonra, ortaya çıkan durumun olası nedenlerini ve sonuçlarını müdahale olmaksızın araştıran desen Ex-Post-Facto (Nedensel Karşılaştırmalı) araştırmasıdır."
+        },
+        {
+            "id": 19,
+            "text": "Nitel araştırmalar arasında yer alan ve odağında bireylerin 'hastalık', 'okul başarısızlığı', 'tükenmişlik', 'yalnızlık' gibi belirli bir tecrübeye veya kavrama kendi bilinçlerinde (yaşam dünyalarında) nasıl anlam yüklediklerini, o olguyu nasıl deneyimlediklerini derinlemesine betimlemeyi hedefleyen desen aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Durum Çalışması (Vaka Analizi)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Etnografik Kültür Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eylem Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Retrospektif İnceleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Olgubilim (Fenomenoloji)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bireylerin karşılaştıkları spesifik bir olguya (fenomene) karşı geliştirdikleri algıları, öznel deneyimleri ve bu durumların anlamlarını araştıran yaklaşım Olgubilim (Fenomenoloji) desenidir."
+        },
+        {
+            "id": 20,
+            "text": "Nicel bir araştırmada örneklem büyüklüğünü (n) bilimsel dayanaklarla belirlerken uygulanan 'istatistiksel güç analizi (power analysis)' formülasyonunda aşağıdakilerden hangisi dikkate alınan bir parametre **değildir**?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Beklenen etki büyüklüğü (Effect size)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Alfa anlamlılık düzeyi (örneğin \\( \\alpha = 0.05 \\))",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Araştırmacının kişisel uzmanlık tecrübesi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Populasyon varyansı / Standart sapma (\\( \\sigma \\))",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İstatistiksel güç düzeyi (örneğin %80 güç, \\( 1-\\beta \\))",
+                    "correct": false
+                }
+            ],
+            "explanation": "Örneklem büyüklüğü hesaplanırken istatistiksel parametreler olan etki büyüklüğü, güven düzeyi (alfa), güç (power) ve evrenin varyansı formülasyona dahil edilir. Araştırmacının kişisel tecrübesi istatistiksel bir formül parametresi değildir."
+        }
+    ]
+}

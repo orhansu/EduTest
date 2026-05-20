@@ -1,0 +1,557 @@
+{
+    "meta": {
+        "id": "4e7b8c9d-1a2b-3c4d-5e6f-7a8b9c0d1e2f",
+        "title": "Sınav 1",
+        "subject": "Araştırma Yöntem ve Teknikleri",
+        "topic": "Araştırma Türleri, Değişkenler ve Etik İlkeler",
+        "difficulty": "Orta",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-04-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\"Veri toplama, analiz ve raporlama aşamalarında araştırmacının kişisel çıkarlarını geri planda bırakması\" hangi etik ilkeyi ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gizlilik",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Nesnellik",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "İhmal",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gönüllülük",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Şeffaflık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının sürece kendi duygu, düşünce ve çıkarlarını karıştırmadan tarafsız bir tutum sergilemesi nesnellik (objektiflik) ilkesidir."
+        },
+        {
+            "id": 2,
+            "text": "Bilmenin yolları pek çok araştırmacı tarafından beş ana başlık altında sınıflandırılmıştır. Aşağıdakilerden hangisi \"Bilmenin Yolları\" sınıflaması içerisinde yer almaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Görüş Birliği",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Değerlendirme",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bilimsel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Deneyim",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uzman Görüşü",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilmenin yolları genel olarak deneyim, uzman görüşü, mantık, görüş birliği (gelenek) ve bilimsel yöntem olarak sınıflandırılır. Değerlendirme bu ana başlıklar arasında yer almaz."
+        },
+        {
+            "id": 3,
+            "text": "Bir İngilizce öğretmeni dersine girdiği 11. Sınıflarda derslerde yapay zeka kullanımının öğrencilerin iletişim becerilerinin gelişimine etkisini belirlemeye yönelik bir araştırma tasarlamıştır. Bu araştırmanın bağımlı değişkeni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Öğrenciler",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yapay zeka kullanımı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Öğretmen",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "11. Sınıflar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İletişim becerilerinin gelişimi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bağımlı değişken, araştırmada etkisi incelenen ve bağımsız değişkene (yapay zeka kullanımı) bağlı olarak değişen sonuç konumundaki değişkendir."
+        },
+        {
+            "id": 4,
+            "text": "\"İki ya da daha fazla değişken arasındaki ilişkiyi ortaya koyma, toplanan verilere dayalı olarak değişkenler arasındaki ilişkileri yapısal olarak inceleme odaklı araştırmalar\" olarak ifade edilen araştırma hangi sınıflamaya aittir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tarama araştırmaları",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Nedensel-karşılaştırmalı araştırmalar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Korelasyonel araştırmalar",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Durum çalışmaları",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Deneysel araştırmalar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Değişkenler arasında ilişkinin varlığını ve bu ilişkinin derecesini ortaya koymayı amaçlayan araştırma türü korelasyonel araştırmalardır."
+        },
+        {
+            "id": 5,
+            "text": "\"Yöneticilerin liderlik özellikleri\"ni ölçmek için bir test hazırlayan araştırmacı, testi uzmanlara gösterdiğinde bu testin liderlik özelliklerinden ziyade yöneticilerin kişilik özelliklerini belirlemeye yönelik olduğu şeklinde bir görüş almışsa, bu testin hangi özelliğinin çok iyi olmadığı söylenebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Doğruluk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hatasızlık",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Geçerlik",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Güvenirlik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kullanışlılık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir ölçme aracının ölçmeyi amaçladığı özelliği başka özelliklerle karıştırmadan, amaca uygun şekilde ölçebilmesi geçerlik kavramı ile ifade edilir."
+        },
+        {
+            "id": 6,
+            "text": "Bilmenin yolları sınıflamaması içerisinde \"duyusal verileri zeka ile işleme\" olarak ifade edebileceğimiz kavram ya da sınıflama aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mantık",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Bilim",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Deneyim",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bilimsel yöntem",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kavrama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Duyusal yollarla elde edilen deneyim ve verilerin akıl yürütme ve zeka ile işlenerek bilgiye ulaşılması Mantık (akıl yürütme) yolunu ifade eder."
+        },
+        {
+            "id": 7,
+            "text": "Bir araştırmacı, başka bir araştırmacının makalesindeki bazı cümleleri kaynak göstermeden kendi çalışmasına aynen almıştır. Bu durum aşağıdaki bilimsel etik ihlallerinden hangisine örnektir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tekrar yayın",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çarpıtma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uydurmacılık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dilimleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İntihal",
+                    "correct": true
+                }
+            ],
+            "explanation": "Başkalarına ait fikir, ifade veya verileri atıf yapmadan (kaynak göstermeden) kendi eseri gibi sunmak intihal (plagiarism) ihlalidir."
+        },
+        {
+            "id": 8,
+            "text": "Aşağıdakilerden hangisinde bilimsel yöntemin aşamaları doğru olarak verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Problemin fark edilmesi, Araştırma Soru/hipotezlerinin belirlenmesi, Problemin tanımlanması, Yöntemin Belirlenmesi, Veri toplama ve analizi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Problemin tanımlanması, Problemin fark edilmesi, Veri toplama ve analizi, Yöntemin Belirlenmesi, Araştırma Soru/hipotezlerinin belirlenmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Problemin tanımlanması, Problemin fark edilmesi, Yöntemin Belirlenmesi, Araştırma Soru/hipotezlerinin belirlenmesi, Veri toplama ve analizi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Problemin fark edilmesi, Problemin tanımlanması, Araştırma Soru/hipotezlerinin belirlenmesi, Yöntemin Belirlenmesi, Veri toplama ve analizi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Problemin fark edilmesi, Yöntemin Belirlenmesi, Problemin tanımlanması, Araştırma Soru/hipotezlerinin belirlenmesi, Veri toplama ve analizi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilimsel süreç, öncelikle bir problemin hissedilmesi/fark edilmesi ile başlar; ardından problem tanımlanır, hipotezler kurulur, yöntem belirlenir ve veriler toplanıp analiz edilir."
+        },
+        {
+            "id": 9,
+            "text": "Bir araştırmacının \"Ayşe bir insandır, tüm insanlar ölümlüdür, Ayşe ölümlüdür\" örneğini vermesi bilimsel yöntemde hangi düşünme biçimine karşılık gelir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tümdengelim",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Görüş birliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uzman görüşü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Deneyim",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tümevarım",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tüm insanların ölümlü olduğu genel kuralından yola çıkarak Ayşe'nin (özel) ölümlü olduğu sonucuna varmak genelden özele akıl yürütme, yani tümdengelim (dedüksiyon) yöntemidir."
+        },
+        {
+            "id": 10,
+            "text": "Aşağıdakilerden hangisi nitel araştırma ile nicel araştırma arasındaki temel farklardan biridir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nitel araştırmalar deneysel yöntemler kullanırken nicel araştırmalar gözleme dayanır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Nicel araştırmalar daha az katılımcıyla yapılırken nitel araştırmalar geniş örneklemler kullanır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nitel araştırmalar sayısal verilere dayanırken nicel araştırmalar metin analizine odaklanır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nitel araştırmalar istatistiksel analiz gerektirirken nicel araştırmalar yorumlayıcı yöntemler kullanır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nicel araştırmalar genelleme yapmayı hedeflerken nitel araştırmalar bağlamı anlamaya çalışır.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Nicel araştırma evrene genelleme yapmak amacıyla istatistiksel analizlere dayanırken; nitel araştırma olguları kendi derinliğinde ve sosyal bağlamı içerisinde anlamayı hedefler."
+        },
+        {
+            "id": 11,
+            "text": "\"Su birikintisi gibi görünen serap\" hangi bilme yolunun sınırlılığını gösterir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mantık",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Görüş birliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bilimsel yöntem",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Uzman görüşü",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Duyusal algı",
+                    "correct": true
+                }
+            ],
+            "explanation": "İnsanın duyu organları yanıltıcı olabilir. Serap olayı (göz yanılsaması), yalnızca kişisel deneyime ve duyusal algıya dayalı bilginin sınırlarını ve yanılgı payını gösterir."
+        },
+        {
+            "id": 12,
+            "text": "Aşağıdakilerden hangisi nicel araştırma paradigmasına daha uygundur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Amaç olguları doğal ortamında anlamaktır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gerçekliğin tek ve ölçülebilir olduğu varsayılır.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Araştırmacı sürecin bir parçası olarak kabul edilir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Veriler sözel olarak toplanır ve yorumlanır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Küçük örneklemlerle derinlemesine analiz yapılır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nicel paradigma pozitivist felsefeye dayanır. Bu anlayışa göre gerçeklik araştırmacıdan bağımsız, dışarıda, tek, gözlemlenebilir ve kesin olarak ölçülebilirdir."
+        },
+        {
+            "id": 13,
+            "text": "Köy kültürünü gözlem ve görüşmelerle anlamaya çalışmak hangi nitel araştırma türüdür?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Etnografik",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Deneysel",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Fenomonolojik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tarihi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Durum çalışması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Belirli bir grubun ya da topluluğun (örneğin köy) kültürünü, yaşam tarzını, inanç ve alışkanlıklarını kendi doğal ortamlarında inceleyen araştırma türü etnografik araştırmadır."
+        },
+        {
+            "id": 14,
+            "text": "Bir araştırmacının bir değişken üzerindeki ölçümleri her seferinde farklı sonuç veriyorsa ölçeğin hangi özelliği düşüktür?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Geçerlik",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Güvenirlik",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Nesnellik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sistematiklik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Amaca uygunluk",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ölçüm sonuçlarının tesadüfi hatalardan arınık olması, tutarlılığı ve her uygulamada benzer sonuçlar vermesi güvenirlik ile ilgilidir. Farklı sonuçlar çıkması güvenirliğin düşük olduğunu gösterir."
+        },
+        {
+            "id": 15,
+            "text": "Bilimsel yöntemin en temel ayırt edici özelliği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yalnızca bireysel algıya dayanması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sezgilere dayalı olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Subjektif doğrular üretmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mutlak kesinlik iddiası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kontrol edilebilirlik ve tekrarlanabilirlik",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bilimsel bilginin temel niteliklerinden biri sınanabilir olmasıdır; uygulanan yöntemler açıklandığında başka araştırmacılar tarafından tekrarlanabilir ve sonuçları kontrol edilebilir."
+        },
+        {
+            "id": 16,
+            "text": "Aşağıdakilerden hangisinde nitel araştırma türleri doğru bir şekilde birlikte verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nedensel karşılaştırmalı araştırma - Tarama araştırması - Boylamsal araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kesitsel araştırma - Korelasyonel araştırma - Yarı deneysel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Etnografik araştırma - Olgubilim (fenomenoloji) - Durum (vaka) çalışması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Deneysel araştırma - Betimsel araştırma - Tarama araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Betimsel araştırma - Deneysel araştırma - Korelasyonel araştırma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Etnografi, fenomenoloji ve durum (vaka) çalışması eğitim ve sosyal bilimlerde en yaygın kullanılan nitel araştırma desenlerindendir."
+        },
+        {
+            "id": 17,
+            "text": "Bir doktora öğrencisi çalışanlara uygulanan mobingle ilgili bir Eylem araştırması yapmayı planlamışsa, yapacağı çalışmanın nihai odağı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mobingin sebeplerini belirlemek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Katılımcıların mobingle ilgili görüşlerini betimlemek",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mobing yaşanmaması için çözümler bulmak",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Neden sonuç ilişkilerini genellemek",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mobingin olası sebep ve sonuçlarını açıklamak",
+                    "correct": false
+                }
+            ],
+            "explanation": "Eylem (aksiyon) araştırmaları, belirli bir ortamdaki mevcut ve yerel bir sorunu (örneğin mobing) çözmek ve uygulamayı iyileştirmek amacıyla tasarlanır. Nihai hedef kurama katkıdan ziyade çözüm bulmaktır."
+        }
+    ]
+}

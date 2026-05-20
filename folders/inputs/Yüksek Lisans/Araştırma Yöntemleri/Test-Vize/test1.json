@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "3e2b1f8a-9c4d-4e5b-b2a1-f7d8c9e0a1b2",
+        "title": "Araştırma Yöntemleri ve Bilimsel Süreçler Testi",
+        "subject": "Araştırma Yöntemleri",
+        "topic": "Bilimsel Araştırma Süreci ve Desenleri",
+        "difficulty": "Karma",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-04-19"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "İnsanın bilgi elde etme yollarından biri olarak, hastalık belirtileri gösteren birinin kendi hislerine değil de bir doktorun koyduğu teşhise güvenmesi hangi bilgi edinme yoluyla açıklanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzman Görüşü (Otorite)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Duyusal Deneyim",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bilimsel Yöntem",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sosyal Doğrulama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tümevarımsal Mantık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Otorite bilgisi, alanında uzman olan kişilerin bilgi ve deneyimlerine dayanarak bilgi elde etme sürecidir. Bir doktorun teşhisine güvenmek bu kapsama girer."
+        },
+        {
+            "id": 2,
+            "text": "Bilimsel araştırma sürecinin dinamik ve ardışık adımlarından ilki aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hipotezlerin formüle edilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sorunun fark edilmesi ve sezilmesi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Veri toplama araçlarının belirlenmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Araştırma deseninin seçilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Örneklem grubunun tanımlanması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilimsel yöntem, araştırmacının belirli bir konuyla ilgili var olan ve kendisini rahatsız eden bir sorunu sezmesi, yani sorunun fark edilmesi ile başlar."
+        },
+        {
+            "id": 3,
+            "text": "Türkiye'deki kadınların eğitim düzeyleri ve istihdam oranları mevcut haliyle nasıldır sorusuna yanıt arayan, var olan durumu herhangi bir müdahalede bulunmadan betimlemeyi amaçlayan araştırma deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Deneysel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Korelasyonel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tarama (Betimsel) Araştırması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Nedensel Karşılaştırma Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eylem Araştırması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tarama (Survey) araştırmaları, belirli bir grubun veya durumun özelliklerini, onlara hiçbir müdahalede bulunmadan olduğu gibi betimlemeyi ve saptamayı amaçlayan çalışmalardır."
+        },
+        {
+            "id": 4,
+            "text": "Öğrencilerin haftalık ders çalışma süreleri ile sınavdan aldıkları akademik başarı puanları arasında nasıl bir ilişki olduğunu inceleyen, ancak kesin nedensellik kurmayan araştırma türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tarama Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yarı-deneysel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Olgubilim Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Korelasyonel Araştırma",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Durum Çalışması",
+                    "correct": false
+                }
+            ],
+            "explanation": "İki veya daha fazla değişken arasındaki ilişkilerin yönünü ve gücünü belirleyen, ancak kesin neden-sonuç yargısına varmayan araştırmalar korelasyonel (ilişkisel) araştırmalardır."
+        },
+        {
+            "id": 5,
+            "text": "Farklı sosyoekonomik düzeylere sahip iki farklı mahalledeki (doğal olarak oluşmuş gruplar) suç oranları arasındaki farkların nedenlerini, koşullara müdahale etmeksizin geçmişe dönük olarak inceleyen araştırma deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Faktöryel Deneysel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Boylamsal Tarama Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kuram Oluşturma Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Olgubilim (Fenomenoloji) Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nedensel Karşılaştırma (Ex-Post-Facto) Araştırması",
+                    "correct": true
+                }
+            ],
+            "explanation": "İnsan grupları arasındaki hali hazırda var olan farklılıkların nedenlerini ve sonuçlarını, araştırmacı müdahalesi olmadan geriye dönük inceleyen desen Nedensel Karşılaştırma (Ex-Post-Facto) araştırmasıdır."
+        },
+        {
+            "id": 6,
+            "text": "Bir araştırmacı, yeni geliştirdiği 'Yapay Zeka Destekli Dil Öğretim Programı'nın öğrencilerin okuduğunu anlama becerilerine etkisini test etmek için öğrencileri yansız olarak iki gruba ayırmıştır. Bir gruba yeni programı, diğer gruba geleneksel yöntemi uygulamıştır. Bu araştırmanın deseni nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Deneysel Araştırma",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Korelasyonel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nedensel Karşılaştırma Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Etnografik Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tarama Araştırması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bağımsız değişkenin (öğretim yönteminin) araştırmacı tarafından bizzat manipüle edildiği ve kontrol grubunun kullanıldığı neden-sonuç odaklı araştırmalar deneysel araştırmalardır."
+        },
+        {
+            "id": 7,
+            "text": "Okuduğunu anlama düzeyinin, öğrencilerin matematik problemlerini çözme başarısı üzerindeki etkisi konulu bir araştırmada bağımsız değişken aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Matematik problemleri",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Okuduğunu anlama düzeyi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Öğrencilerin genel zekası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sınav süresi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Öğrenci başarısı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bağımsız değişken, araştırmada etkisi incelenen (neden konumunda olan) değişkendir. Burada matematik başarısını etkileyen unsur 'okuduğunu anlama düzeyi'dir."
+        },
+        {
+            "id": 8,
+            "text": "Pozitivist araştırma paradigmasının temel varsayımı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gerçekliğin içinde bulunulan sosyal bağlama göre değişmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Araştırmacının sübjektif yargılarının ön planda olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gerçekliğin tek, nesnel ve dışarıdan ölçülebilir olması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Olguların sadece derinlemesine görüşmelerle anlaşılabileceği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bilginin sadece kişisel deneyimlerle inşa edildiği",
+                    "correct": false
+                }
+            ],
+            "explanation": "Pozitivizm (Nicel yaklaşım), evrende tek bir nesnel gerçeklik olduğunu ve bunun dışarıdan deney, gözlem ve ölçüm yoluyla sayısal olarak kanıtlanabileceğini savunur."
+        },
+        {
+            "id": 9,
+            "text": "Bir bakkalın kullandığı terazinin, üzerine konulan her ürünü her defasında tam olarak 50 gram fazla tarttığı tespit edilmiştir. Ölçme teorisine göre bu durum ne tür bir hataya örnektir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tesadüfi hata",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sistematik hata",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Örneklem hatası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sabit hata",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Geçerlik hatası",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ölçümden ölçüme miktarı değişmeyen, her ölçüme aynı miktarda ve aynı yönde karışan hatalar 'Sabit Hata' olarak adlandırılır."
+        },
+        {
+            "id": 10,
+            "text": "Geliştirilen bir 'Öğretmen Motivasyon Ölçeği'nin maddeleri son derece tutarlı yanıtlar vermekte ve aynı gruba tekrar uygulandığında benzer puanlar üretmektedir. Ancak uzmanlar bu ölçeğin motivasyonu değil, iş tatminini ölçtüğünü tespit etmiştir. Bu durumda ölçme aracı için ne söylenebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hem geçerli hem de güvenilirdir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Geçerli ancak güvenilir değildir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tesadüfi hatalardan tamamen arınmıştır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İç tutarlılığı düşüktür.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Güvenilirdir ancak geçerli değildir.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Aracın aynı sonuçları vermesi ve kendi içinde tutarlı olması 'güvenilir' olduğunu gösterir. Ancak ölçmek istediği özelliği (motivasyon) değil de başka bir şeyi (iş tatmini) ölçmesi 'geçerli olmadığını' gösterir."
+        },
+        {
+            "id": 11,
+            "text": "Bilimsel bir araştırmada, hipotezi desteklemek amacıyla hiç yapılmamış bir deneyden hayali veriler türetmek veya var olmayan katılımcılardan bilgi toplanmış gibi rapor hazırlamak hangi etik ihlal türüne girer?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bulandırma (Falsification)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dilimleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çıkar çatışması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uydurmacılık (Fabrication), gerçekte olmayan verileri, deneyleri veya sonuçları hayalden üreterek rapor etme ve bilimsel süreçleri manipüle etme eylemidir."
+        },
+        {
+            "id": 12,
+            "text": "Bireylerin 'okulda başarısızlık' deneyimini, kendi yaşam dünyalarında nasıl algıladıklarını ve bu yalnızlık gerçeğinin ne anlama geldiğini derinlemesine anlamaya çalışan nitel araştırma deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eylem Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Olgubilim (Fenomenoloji)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Deneysel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Meta-analiz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Korelasyonel Araştırma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Olgubilim (Phenomenology), insanların belirli bir olguya (başarısızlık, hastalık, annelik vb.) ilişkin bilinçli yaşam deneyimlerini ve bu olgunun onların dünyasındaki anlamını inceler."
+        },
+        {
+            "id": 13,
+            "text": "Glaser ve Strauss tarafından geliştirilen, araştırma sürecinde veri toplama ve analizin birlikte yürütüldüğü, önceden belirlenmiş bir hipotez yerine toplanan verilerden tümevarımsal bir şekilde 'sürekli karşılaştırmalı analiz' ile yeni bir teori inşa etmeyi amaçlayan yöntem hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Etnografya",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Durum Çalışması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kuram Oluşturma (Grounded Theory)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Anket (Tarama) Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tarihsel Araştırma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kuram Oluşturma (Grounded Theory), verilerin toplanması ve analizinin iç içe geçtiği ve sahadaki verilerden yola çıkarak yepyeni bir kuram/teori üretmeye odaklanan nitel bir desendir."
+        },
+        {
+            "id": 14,
+            "text": "Sınırlı bir sistemin (örneğin sadece tek bir okulun, tek bir öğretmenin veya tek bir mahallenin) derinlemesine betimlenmesini ve detaylıca incelenmesini amaçlayan nitel araştırma deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Boylamsal Tarama",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Faktöryel Deneysel Tasarım",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İlişkisel Analiz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Durum Çalışması (Case Study)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Ex-Post-Facto",
+                    "correct": false
+                }
+            ],
+            "explanation": "Durum çalışması (Vaka analizi), belirli bir durumun, kişinin, kurumun veya olayın kendi sınırları içinde derinlemesine ve çok yönlü analiz edilmesidir."
+        },
+        {
+            "id": 15,
+            "text": "Bir araştırmacının makalesinde, başkasına ait fikirleri, bulguları veya metinleri kaynak göstermeksizin kendi üretimiymiş gibi kullanması etik olarak nasıl adlandırılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bulandırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çarpıtma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yayın tekrarı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tahrifat",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": true
+                }
+            ],
+            "explanation": "İntihal (Aşırmacılık), başkalarının fikirlerini veya eserlerini uygun ve doğru atıf yapmadan kendi eseri gibi sunma ihlalidir."
+        },
+        {
+            "id": 16,
+            "text": "Nicel bir veri toplama aracının iç tutarlılığını (güvenirliğini) belirlemek amacıyla hesaplanan ve sosyal bilimlerde genellikle minimum kabul edilebilir sınırının 0.70 olması beklenen istatistiksel katsayı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cronbach's Alpha katsayısı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Pearson korelasyon katsayısı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "p-anlamlılık değeri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Varyans analizi (ANOVA) değeri",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Standart sapma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir ölçeğin maddelerinin birbirleriyle ne kadar uyumlu (iç tutarlılık) olduğunu gösteren ve güvenirliği test eden katsayı Cronbach's Alpha (Cronbach Alfa) katsayısıdır."
+        },
+        {
+            "id": 17,
+            "text": "Sıcak bir havada asfalt yolda su birikintisi (serap) gören bir kişinin hissettiği gerçeklik ile fiziksel gerçekliğin aynı olmaması, bilgi edinme yolları açısından bize neyi gösterir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzman bilgisinin mutlak doğru olduğunu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Duyularımızla elde edilen bilginin her zaman güvenilir olmadığını",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Otoriteye başvurmanın tek yol olduğunu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bilimsel yöntemin sadece laboratuvarda yapılabileceğini",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mantıksal çıkarımların geçersiz olduğunu",
+                    "correct": false
+                }
+            ],
+            "explanation": "Duyular yoluyla elde edilen deneyimler bilgi edinmenin ilk yoludur ancak serap örneğinde olduğu gibi duyusal algılarımız bizi kolayca yanıltabilir."
+        },
+        {
+            "id": 18,
+            "text": "Büyük Önerme: \\( \\text{Tüm insanlar ölümlüdür.} \\) Küçük Önerme: \\( \\text{Ayşe bir insandır.} \\) Sonuç: \\( \\text{O halde, Ayşe ölümlüdür.} \\) Şeklindeki bir akıl yürütme süreci ile bilgi elde edilmesi aşağıdaki kavramlardan hangisiyle ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bilimsel Gözlem",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ampirik Deney",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mantık (Tümdengelim)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sosyal Doğrulama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tümevarımsal Sentez",
+                    "correct": false
+                }
+            ],
+            "explanation": "Genel bir kuraldan (büyük önerme) yola çıkarak özel bir duruma (küçük önerme ve sonuç) ulaşılan evrensel düşünce sistemi Mantık (Tümdengelimsel mantık) olarak adlandırılır."
+        },
+        {
+            "id": 19,
+            "text": "Nitel bir araştırmada, toplanan verilerin ve yapılan analizlerin doğruluğunu artırmak (inandırıcılığı sağlamak) için araştırmacının yazdığı raporu veya mülakat dökümlerini veri topladığı kişilere okutarak onay alması işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri üçgenlemesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Uzman incelemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Standart sapma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Katılımcı teyidi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Dış tutarlılık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Katılımcı teyidi, çalışmanın bulgularının katılımcıların kendi düşüncelerini ve gerçekliklerini doğru yansıtıp yansıtmadığını teyit etmek için onlardan geri bildirim alınmasıdır."
+        },
+        {
+            "id": 20,
+            "text": "Evrende tek bir nesnel gerçeklik vardır. Bu gerçeklik araştırmacıdan bağımsızdır, gözlemlenebilir ve sayısallaştırılarak ölçülebilir. Sonuçlar evrene genellenebilir. Yukarıdaki felsefi duruş ve özellikler hangi araştırma türünün temelini oluşturur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Durum Çalışması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Fenomenolojik Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Etnografik Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nitel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nicel Araştırma",
+                    "correct": true
+                }
+            ],
+            "explanation": "Pozitivist felsefeye dayanan, olguları nesnel kabul eden, sayısallaştıran, hipotez test eden ve genellenebilirlik arayan sistematik yaklaşım Nicel Araştırmadır."
+        }
+    ]
+}

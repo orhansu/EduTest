@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "veri-madenciligi-hesaplamali-test-02",
+        "title": "Veri Madenciliği: Algoritmalar ve Hesaplama Soruları",
+        "subject": "Veri Madenciliği",
+        "topic": "Sınıflandırma, Kümeleme, Birliktelik Analizi ve Uzaklık Hesaplamaları",
+        "difficulty": "Karışık (%30 Kolay, %50 Orta, %20 Zor)",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-20"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Bir karar ağacı düğümünde bulunan 6 kaydın tamamı $C_2$ sınıfına aittir. Bu düğümün saflık/safsızlık derecesini ölçen Gini İndeksi değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$1.0$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.5$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.0$",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "$0.25$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0.66$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Düğümdeki tüm kayıtlar tek bir sınıfa aitse, o sınıfın olasılığı $p=1$'dir. Gini formülü: $1 - p^2 = 1 - 1^2 = 0$. Bu durum en saf hali temsil eder."
+        },
+        {
+            "id": 2,
+            "text": "$A(2, 3)$ ve $B(5, 7)$ noktaları arasındaki Manhattan (Blok) uzaklığı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$7$",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "$5$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$12$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$\\sqrt{25}$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$25$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Manhattan uzaklığı koordinat farklarının mutlak toplamıdır: $|2 - 5| + |3 - 7| = 3 + 4 = 7$."
+        },
+        {
+            "id": 3,
+            "text": "20 adet işlemden (TID) oluşan bir market veritabanında 'Ekmek' ürünü toplam 4 işlemde görülmektedir. 'Ekmek' eleman kümesinin Destek (Support) değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$\\sqrt{0.2}$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.40$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$4.00$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.20$",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "$0.04$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Destek değeri, bir elemanın geçtiği kayıt sayısının toplam kayıt sayısına oranıdır: $4 / 20 = 0.20$."
+        },
+        {
+            "id": 4,
+            "text": "Bir karar ağacı düğümünde 10 kayıt bulunmaktadır. Bu kayıtlardan 8 tanesi $C_1$ sınıfına, 2 tanesi $C_2$ sınıfına aittir. Yanlış sınıflandırma hatası ($Error(t) = 1 - \\max P(i|t)$) değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.8$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.2$",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "$0.5$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.16$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$1.0$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Baskın sınıfın oranı $8/10 = 0.8$'dir. Hata değeri: $1 - 0.8 = 0.2$."
+        },
+        {
+            "id": 5,
+            "text": "$P_1(0, 0)$ ve $P_2(3, 4)$ noktaları arasındaki Öklid (Euclidean) uzaklığı kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$\\sqrt{7}$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$7$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$25$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$12$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$5$",
+                    "correct": true
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] Öklid mesafesi koordinat farklarının karelerinin toplamının kareköküdür: $\\sqrt{(3-0)^2 + (4-0)^2} = \\sqrt{9+16} = 5$."
+        },
+        {
+            "id": 6,
+            "text": "Toplam 5 farklı ürünün satıldığı bir markette, Apriori algoritmasıyla oluşturulabilecek muhtemel 2-elemanlı aday küme sayısı kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$5$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$10$",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "$15$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$25$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$32$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Kolay] 5 ürün arasından 2'li seçimlerin kombinasyonu: $\\binom{5}{2} = \\frac{5 \\times 4}{2 \\times 1} = 10$."
+        },
+        {
+            "id": 7,
+            "text": "Bir karar ağacı düğümünde 2 adet $C_1$ ve 4 adet $C_2$ kaydı bulunmaktadır. Bu düğümün Gini İndeksi yaklaşık kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.278$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.500$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.444$",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "$0.333$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0.111$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Sınıf oranları $2/6$ ve $4/6$’dır. Gini: $1 - ((2/6)^2 + (4/6)^2) = 1 - (4/36 + 16/36) = 16/36 \\approx 0.444$."
+        },
+        {
+            "id": 8,
+            "text": "Bir karar ağacı düğümünde kayıtlar iki sınıfa ($A$ ve $B$) tam eşit sayıda (5'e 5) dağılmıştır. Düğümün Entropi değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$1.0$",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "$0.5$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.0$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.25$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$2.0$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] İki sınıflı bir problemde dağılım %50-%50 ise entropi maksimumdur: $-(0.5 \\log_2 0.5 + 0.5 \\log_2 0.5) = 1.0$."
+        },
+        {
+            "id": 9,
+            "text": "Bölünmeden önceki ana düğüm entropisi ($P$) $0.94$ ve bölünme sonrası çocukların ağırlıklı entropi ortalaması ($M$) $0.78$ ise, Bilgi Kazancı (Information Gain) kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$1.72$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.82$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.24$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.16$",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "$0.12$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Bilgi Kazancı = $P - M = 0.94 - 0.78 = 0.16$."
+        },
+        {
+            "id": 10,
+            "text": "Birliktelik kuralları kapsamında, 'Süt' alan 50 müşteriden 35'i aynı zamanda 'Ekmek' de almıştır. $Süt \\to Ekmek$ kuralının Güven (Confidence) değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$\\%35$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$\\%50$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$\\%60$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$\\%85$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$\\%70$",
+                    "correct": true
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Güven = hem sol hem sağ tarafın bulunduğu işlem sayısı / sol tarafın sayısı = $35 / 50 = 0.7$ yani %70."
+        },
+        {
+            "id": 11,
+            "text": "K-Ortalamalar algoritmasında bir kümedeki veri noktaları $(2, 10)$, $(4, 8)$ ve $(6, 6)$ ise, bu kümenin yeni ağırlık merkezi (centroid) nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$(3, 9)$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$(4, 8)$",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "$(6, 6)$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$(12, 24)$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$(2, 10)$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Yeni merkez koordinatların ortalamasıdır: $x = (2+4+6)/3 = 4$, $y = (10+8+6)/3 = 8$."
+        },
+        {
+            "id": 12,
+            "text": "$m=3$ parametresiyle Minkowski uzaklığı hesaplanırken $(0, 0)$ ve $(3, 4)$ noktaları arasındaki uzaklık kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$91^{1/3}$",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "$7$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$5$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$12$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$\\sqrt{7}$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Minkowski formülü ($m=3$): $(|0-3|^3 + |0-4|^3)^{1/3} = (27 + 64)^{1/3} = 91^{1/3}$."
+        },
+        {
+            "id": 13,
+            "text": "Bir nitelik, eğitim verisini tam yarı yarıya (örneğin 7 ve 7 kayıt) ikiye bölüyorsa, bu bölünmenin yarattığı SplitINFO (Bölünme Entropisi) değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.5$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.0$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$1.0$",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "$0.94$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$1.577$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Bölünme oranları $0.5$ ve $0.5$ olduğundan entropi: $-(0.5 \\log_2 0.5 + 0.5 \\log_2 0.5) = 1.0$."
+        },
+        {
+            "id": 14,
+            "text": "Ağırlıklı Gini hesabı yapılırken, çocuk düğümlerden $N_1$ (6 kayıt) $0.20$ Gini değerine, $N_2$ (4 kayıt) ise $0.40$ Gini değerine sahiptir. Bölünmenin toplam (ağırlıklı) Gini değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.60$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.30$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.20$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.28$",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "$0.32$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Ağırlıklı ortalama: $(6/10) \\times 0.20 + (4/10) \\times 0.40 = 0.12 + 0.16 = 0.28$."
+        },
+        {
+            "id": 15,
+            "text": "Twoing algoritmasında bir aday bölünmenin uygunluğunu ölçen $\\Phi(s|t)$ formülünde $P_{Sol}=0.40$, $P_{Sağ}=0.60$ ve sınıflar arası olasılık farkı toplamı $0.34$ olarak verilmiştir. $\\Phi(s|t)$ değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.34$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.48$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.08$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.26$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0.16$",
+                    "correct": true
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Formül: $2 \\times P_{Sol} \\times P_{Sağ} \\times FarkToplamı = 2 \\times 0.40 \\times 0.60 \\times 0.34 = 0.1632 \\approx 0.16$."
+        },
+        {
+            "id": 16,
+            "text": "İstatistiksel anormallik tespitinde, bir değerin ortalamadan olan mutlak sapması $9.0$ ve verinin standart sapması ($s$) $3.0$ olarak hesaplanmıştır. Grubbs $G$ istatistiği değeri nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$27.0$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.33$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$6.0$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$3.0$",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "$1.5$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Orta] Grubbs formülü: $G = \\frac{\\max|X - \\overline{X}|}{s} = 9.0 / 3.0 = 3.0$."
+        },
+        {
+            "id": 17,
+            "text": "C4.5 algoritmasında, bir bölünme için Bilgi Kazancı (Information Gain) $0.247$ ve bölünme entropisi (SplitINFO) $1.577$ olarak bulunmuştur. Bu bölünmenin Kazanç Oranı (Gain Ratio) yaklaşık kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$1.577$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.640$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.156$",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "$0.389$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0.103$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Zor] Kazanç Oranı = Bilgi Kazancı / SplitINFO = $0.247 / 1.577 \\approx 0.156$."
+        },
+        {
+            "id": 18,
+            "text": "Merkezi $(3, 1)$ olan bir kümede $(1, 1)$ ve $(5, 1)$ noktaları bulunmaktadır. Bu kümenin Hata Kareler Toplamı (SSE) değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$8$",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "$4$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$2$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$16$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Zor] SSE her noktanın merkeze uzaklığının karesidir: $(1-3)^2 + (1-1)^2 + (5-3)^2 + (1-1)^2 = 4 + 0 + 4 + 0 = 8$."
+        },
+        {
+            "id": 19,
+            "text": "İçerisinde toplam $d=4$ adet benzersiz ürün bulunan bir market veritabanından, kaba kuvvet yöntemiyle teorik olarak üretilebilecek 'toplam muhtemel birliktelik kuralı sayısı' ($R$) kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$16$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$50$",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "$12$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$602$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$81$",
+                    "correct": false
+                }
+            ],
+            "explanation": "[Zorluk: Zor] Formül: $R = 3^d - 2^{d+1} + 1$. $d=4$ için: $3^4 - 2^5 + 1 = 81 - 32 + 1 = 50$."
+        },
+        {
+            "id": 20,
+            "text": "Bir bölünmede sol tarafta 4 kayıt (2 EVET, 2 HAYIR) ve sağ tarafta 6 kayıt (4 EVET, 2 HAYIR) bulunmaktadır. Twoing Phi ($\\Phi$) uygunluk ölçüsü yaklaşık kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.08$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.44$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.32$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.66$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0.16$",
+                    "correct": true
+                }
+            ],
+            "explanation": "[Zorluk: Zor] $P_{Sol}=0.4, P_{Sağ}=0.6$. Sınıf olasılıkları: Sol(0.5, 0.5), Sağ(0.67, 0.33). Farklar toplamı: $|0.5-0.67| + |0.5-0.33| = 0.34$. $\\Phi = 2 \\times 0.4 \\times 0.6 \\times 0.34 \\approx 0.16$."
+        }
+    ]
+}

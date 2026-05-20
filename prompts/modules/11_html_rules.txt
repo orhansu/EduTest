@@ -1,0 +1,46 @@
+# HTML (HyperText Markup Language) Kuralları
+
+## Kapsam
+Bu modül, HTML5 ve web içerik yapısına ait test sorularının nasıl üretileceğini tanımlar.
+
+## Kod Gösterimi
+1. HTML kod parçacıkları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. HTML etiketlerindeki `<` ve `>` karakterleri JSON string içinde doğrudan yazılabilir.
+3. HTML attribute değerlerindeki çift tırnak `\"` olarak kaçırılmalıdır.
+4. Girintileme 2 boşluk ile yapılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- Belge yapısı: `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`, meta etiketleri
+- Semantik HTML5 etiketleri: `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`
+- Metin etiketleri: `<h1>`-`<h6>`, `<p>`, `<span>`, `<strong>`, `<em>`, `<blockquote>`, `<pre>`, `<code>`
+- Bağlantı ve medya: `<a href>` (target, rel), `<img>` (alt, srcset), `<video>`, `<audio>`, `<iframe>`
+- Listeler: `<ul>`, `<ol>`, `<li>`, `<dl>`, `<dt>`, `<dd>`
+- Tablolar: `<table>`, `<thead>`, `<tbody>`, `<tfoot>`, `<tr>`, `<th>`, `<td>`, `colspan`/`rowspan`
+- Formlar: `<form>`, `<input>` (type, required, placeholder), `<label>`, `<select>`, `<textarea>`, `<button>`, `<fieldset>`, `<legend>`
+- HTML5 form input tipleri: `email`, `date`, `range`, `color`, `number`, `search`
+- Global attribute'lar: `id`, `class`, `style`, `data-*`, `aria-*`, `tabindex`, `hidden`
+- Web erişilebilirliği (Accessibility / a11y): ARIA rolleri, alt text, label-input ilişkisi
+- SEO temelleri: başlık hiyerarşisi, meta description, canonical, Open Graph
+- HTML varlıkları (entities): `&nbsp;`, `&lt;`, `&gt;`, `&amp;`, `&copy;`
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki HTML kodunda hangi etiket SEO açısından yanlış kullanılmıştır?",
+  "code": "<body>\n  <h1>Ana Başlık</h1>\n  <h1>İkinci Başlık</h1>\n  <h2>Alt Başlık</h2>\n</body>",
+  "choices": [
+    { "label": "A", "text": "<h2> etiketi", "correct": false },
+    { "label": "B", "text": "İkinci <h1> etiketi", "correct": true },
+    { "label": "C", "text": "<body> etiketi", "correct": false },
+    { "label": "D", "text": "Hiçbiri, kod doğrudur", "correct": false },
+    { "label": "E", "text": "<h1> etiketinin hiç kullanılmaması gerekirdi", "correct": false }
+  ],
+  "explanation": "Bir sayfada SEO açısından yalnızca bir adet <h1> etiketi kullanılmalıdır; ikinci <h1> kullanımı arama motorlarını yanıltabilir."
+}
+```
+
+## Önemli Kurallar
+- "Tarayıcıda nasıl görünür?" soruları yerine anlam/semantik, erişilebilirlik veya SEO etkileri sorgulanmalıdır.
+- Self-closing etiket farkları (HTML5'te `<br>` ve `<br />` her ikisi de geçerlidir) not olarak açıklamada belirtilebilir.
+- Deprecated (kullanımdan kaldırılmış) etiketler (`<font>`, `<center>`, `<marquee`) tuzak şık olarak kullanılabilir.

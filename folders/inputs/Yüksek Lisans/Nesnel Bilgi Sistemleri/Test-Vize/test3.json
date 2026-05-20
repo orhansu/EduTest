@@ -1,0 +1,666 @@
+{
+    "meta": {
+        "id": "5f9e7b2a-8d3f-4c1e-9a2b-6f8d3c1e7a9b",
+        "title": "Test 3",
+        "subject": "Nesne Yönelimli Programlama",
+        "topic": "C# OOP, UML Kavramları ve Tasarım Desenleri",
+        "difficulty": "Karışık",
+        "grade": "Yüksek Lisans",
+        "created": "2026-04-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "UML sınıf diyagramlarında bir özelliğin veya metodun korumalı (protected) olduğunu belirtmek için hangi sembol kullanılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "#",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "-",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "+",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "~",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "*",
+                    "correct": false
+                }
+            ],
+            "explanation": "UML standartlarına göre '+' public, '-' private, '#' ise protected (korumalı) erişim belirleyicisini ifade eder."
+        },
+        {
+            "id": 2,
+            "text": "C# dilinde kalıtım alınan bir sınıftaki metodun alt sınıflarda ezilebilmesi (override edilebilmesi) için üst sınıftaki metot tanımında hangi anahtar kelime kullanılmalıdır?",
+            "code": "public [?] void MakeSound() {\n    Console.WriteLine(\"Some sound\");\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "abstract",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "virtual",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "sealed",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "static",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "new",
+                    "correct": false
+                }
+            ],
+            "explanation": "C# dilinde polimorfizmi uygulamak için, gövdesi olan bir temel sınıf metodunun alt sınıflar tarafından geçersiz kılınmasına (override) izin vermek amacıyla 'virtual' anahtar kelimesi kullanılır."
+        },
+        {
+            "id": 3,
+            "text": "Aşağıdaki PlantUML kodunda tanımlanan ilişki türü UML terminolojisinde neye karşılık gelmektedir?",
+            "code": "class Car {\n}\nclass Engine {\n}\nCar *-- Engine",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kalıtım (Inheritance)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Birleşim (Aggregation)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bileşim (Composition)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Bağımlılık (Dependency)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gerçekleme (Realization)",
+                    "correct": false
+                }
+            ],
+            "explanation": "PlantUML'de '*--' sembolü 'içi dolu baklava dilimi'ni yani Bileşim (Composition) ilişkisini simgeler. Motorun yaşam döngüsü doğrudan Arabaya bağlıdır."
+        },
+        {
+            "id": 4,
+            "text": "C# dilinde bir sınıf nesnesi üzerinde 'foreach' döngüsünün çalıştırılabilmesi için sınıfın aşağıdaki arayüzlerden (interface) hangisini uygulaması zorunludur?",
+            "code": "public class Series : [?] {\n    // ...\n    public IEnumerator GetEnumerator() { return _innerList.GetEnumerator(); }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "IComparable",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ICloneable",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IDisposable",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IEnumerable",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "IQueryable",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir nesnenin üzerinde foreach ile itere edilebilmesi (dolaşılabilmesi) için IEnumerable arayüzündeki GetEnumerator metodunu uygulaması (implemente etmesi) gerekir."
+        },
+        {
+            "id": 5,
+            "text": "UML sınıf diyagramlarında soyut (abstract) sınıfları temsil etmek için sınıf isminin yazım stili veya stereotipi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İsmin altı çizilir",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıf isminin sonuna '()' konulur",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İsim tamamen büyük harflerle yazılır",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sınıf kutusunun kenarları kesik çizgili olur",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "<<abstract>> stereotipi veya ismin italik yazılması",
+                    "correct": true
+                }
+            ],
+            "explanation": "Soyut (Abstract) sınıflar, UML'de ismin italik (eğik) karakterle yazılması veya ismin üzerine <<abstract>> etiketi (stereotip) konulması ile belirtilir."
+        },
+        {
+            "id": 6,
+            "text": "Aşağıdaki C# kodunun çalıştırılması sonucu ekran çıktısı ne olur?",
+            "code": "public class Animal {\n    public virtual void Speak() { Console.Write(\"Animal \"); }\n}\npublic class Cat : Animal {\n    public override void Speak() { Console.Write(\"Meow \"); }\n}\npublic class Dog : Animal {\n    public new void Speak() { Console.Write(\"Bark \"); }\n}\n// Main metodu:\nAnimal a1 = new Cat();\nAnimal a2 = new Dog();\na1.Speak();\na2.Speak();",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Meow Animal",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Animal Animal",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Meow Bark",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Animal Bark",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Derleme hatası verir",
+                    "correct": false
+                }
+            ],
+            "explanation": "a1 nesnesi 'override' uyguladığından Cat sınıfının metodu (Meow) çağrılır. Ancak a2 nesnesindeki Dog sınıfı 'new' (method hiding) kullandığı için ve referans türü Animal olduğundan polimorfizm kırılır, Animal sınıfının metodu (Animal) çağrılır."
+        },
+        {
+            "id": 7,
+            "text": "UML diyagramlarında bir sınıfın bir arayüzü (interface) uyguladığını (implement ettiğini / realization) göstermek için kullanılan ok türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Düz çizgi ve içi boş üçgen ok",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kesik çizgi ve içi boş üçgen ok",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Düz çizgi ve içi dolu baklava dilimi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kesik çizgi ve ucu açık ok",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Düz çizgi ve ucu açık ok",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir arayüzün uygulanması (Implementation / Realization), kalıtıma (Inheritance) benzeyen ancak düz yerine kesik çizgiden ve ucunda içi boş bir üçgenden oluşan okla gösterilir."
+        },
+        {
+            "id": 8,
+            "text": "C# dilinde bir sınıfın başka bir sınıf tarafından miras alınmasını (kalıtım) engellemek için hangi anahtar kelime kullanılır?",
+            "code": "public [?] class SecurityContext {\n    // ... \n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "private",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "static",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "sealed",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "readonly",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "unmanaged",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir sınıfın kalıtım yoluyla devralınmasını (extend edilmesini) veya metodun geçersiz kılınmasını sonlandırmak (mühürlemek) için 'sealed' anahtar kelimesi kullanılır."
+        },
+        {
+            "id": 9,
+            "text": "Aşağıdaki PlantUML kodunda modellenen; bir 'Subject' (Konu) durum değiştirdiğinde ona kayıtlı olan tüm 'Observer' nesnelerine otomatik olarak Update() metodunu çağırarak haber veren davranışsal tasarım deseni hangisidir?",
+            "code": "interface ISubject {\n  + Attach(observer: IObserver)\n  + Detach(observer: IObserver)\n  + Notify()\n}\ninterface IObserver {\n  + Update()\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Strategy",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "State",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Command",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Observer",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Mediator",
+                    "correct": false
+                }
+            ],
+            "explanation": "Abonelik ve bildirim mantığına dayanan, bir nesnenin durumu değiştiğinde ona bağımlı tüm nesnelerin (gözlemcilerin) güncellendiği desen Observer (Gözlemci) desenidir."
+        },
+        {
+            "id": 10,
+            "text": "C# (.NET Core/5+) uygulamalarında Bağımlılık Enjeksiyonu (DI) yapılandırılırken, uygulama ömrü boyunca (başlangıcından bitişine kadar) sadece tek bir örneği bellekte tutarak her talebe aynı nesneyi dönen servis kayıt metodu hangisidir?",
+            "code": "builder.Services.[?]<ProductRepository>();",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AddTransient",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "AddScoped",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "AddHostedService",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "AddOptions",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "AddSingleton",
+                    "correct": true
+                }
+            ],
+            "explanation": "Uygulama boyunca nesnenin bir kere oluşturulup herkes tarafından aynı örneğin paylaşılması 'Singleton' tasarım deseni prensibidir ve .NET'te 'AddSingleton' metodu ile kaydedilir."
+        },
+        {
+            "id": 11,
+            "text": "Bir UML sınıf diyagramında Üniversite ile Öğrenci arasındaki ilişki 'içi boş baklava dilimi' (Aggregation) ile gösterilmiş; Araba ile Motor arasındaki ilişki ise 'içi dolu baklava dilimi' (Composition) ile gösterilmiştir. Bu iki modelleme arasındaki temel farkı ifade eden en doğru seçenek aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Composition sıkı bağımlılığı (yaşam döngüsü bağlılığı) temsil eder, Araba yok olursa Motor da yok olur. Aggregation ise zayıf bağımlılıktır, Üniversite kapansa da Öğrenci nesnesi var olmaya devam edebilir.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Aggregation tek yönlü erişimi, Composition çift yönlü erişimi ifade eder.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Aggregation'da Üniversite silindiğinde Öğrenci silinmek zorundadır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Composition çoklu kalıtımı, Aggregation tekli kalıtımı temsil eder.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İkisi tamamen aynı kavramdır, yazılım diline göre çizim sembolü değişir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Composition 'is-part-of' ilişkisidir ve içerilen nesne ana nesneye sıkı sıkıya bağlıdır. Aggregation 'has-a' ilişkisidir ve içerilen nesne tek başına da yaşamını sürdürebilir."
+        },
+        {
+            "id": 12,
+            "text": "Nesnelerin referansları yerine bellek üzerindeki değerleriyle birebir kopyasını oluşturmak ve orijinal nesnede yapılan değişikliklerin kopyayı etkilemesini engellemek için C# dilinde hangi arayüzden yararlanılır?",
+            "code": "public class Employee : [?] {\n    public object Clone() { ... }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "IComparable",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ICloneable",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "ISerializable",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IEquatable",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "IDisposable",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nesnelerin prototipini kopyalamak (deep/shallow copy) için tasarlanmış arayüz ICloneable'dır ve içindeki 'Clone' metodu kullanılarak yeni referans adresinde bağımsız kopyalar elde edilir."
+        },
+        {
+            "id": 13,
+            "text": "Kullanıcıların bir sistemle nasıl etkileşime girdiğini, dışsal aktörleri (actors) ve kullanım senaryolarını modelleyen UML davranışsal diyagramı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınıf Diyagramı (Class Diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Durum Diyagramı (State Diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kullanım Durumu Diyagramı (Use Case Diagram)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Bileşen Diyagramı (Component Diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dağıtım Diyagramı (Deployment Diagram)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kullanıcı etkileşimlerini, aktörleri ve sistem sınırlarını anlatan üst düzey davranışsal diyagram Kullanım Durumu (Use Case) Diyagramıdır."
+        },
+        {
+            "id": 14,
+            "text": "C# dilinde alt sınıftan (derived class), miras alınan temel sınıfın (base class) yapıcı metoduna (constructor) parametre göndermek veya temel sınıfın metodunu açıkça çağırmak için hangi anahtar kelime kullanılır?",
+            "code": "public class Dog : Animal {\n    public Dog(string name) : [?](name) { }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "super",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "this",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "parent",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "base",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "root",
+                    "correct": false
+                }
+            ],
+            "explanation": "Java dilindeki 'super' anahtar kelimesinin C# dilindeki tam karşılığı 'base' anahtar kelimesidir. Türetilen sınıftan üst sınıfın elemanlarına ulaşmak veya yapıcı metodunu çağırmak için kullanılır."
+        },
+        {
+            "id": 15,
+            "text": "Aşağıdaki C# kodu dikkate alındığında, main metodunda derleme (compile) hatası verilmemesi ve 'comparable' (kıyaslanabilir) özelliğinin çalışması için Employee sınıfında hangi işlem yapılmalıdır?",
+            "code": "public class Employee : IComparable {\n    public int Id { get; set; }\n    // ... \n}\n// Main:\nEmployee e1 = new Employee { Id = 1 };\nEmployee e2 = new Employee { Id = 2 };\nint result = e1.CompareTo(e2);",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "IComparable yerine ICloneable kullanılmalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıf sealed olarak işaretlenmelidir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "CompareTo metodu virtual olarak işaretlenip alt sınıfta ezilmelidir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Main metodu içerisinde 'as Employee' ile dönüşüm yapılmalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Employee sınıfının içine 'public int CompareTo(object obj)' metodu tanımlanarak arayüz kuralı yerine getirilmelidir.",
+                    "correct": true
+                }
+            ],
+            "explanation": "IComparable arayüzü sözleşme gereği 'CompareTo' isimli bir metot barındırmayı zorunlu kılar. Sınıf bu arayüzü tanımladığı an metodun gövdesini (implementasyonunu) sağlamak zorundadır."
+        },
+        {
+            "id": 16,
+            "text": "Satranç tahtası (Board) ve Kareler (Position) arasındaki ilişki UML sınıf diyagramında gösterilirken, bir satranç tahtasında kesinlikle 64 kare bulunmak zorunda olduğu belirtilmek isteniyor. UML'de bu çokluk (multiplicity) nasıl ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "64 (veya tam sayı 64)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "1..*",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "0..64",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "*..*",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1..1",
+                    "correct": false
+                }
+            ],
+            "explanation": "Multiplicity (Çokluk) kavramında, tam kesin bir değer zorunluluğu varsa, örneğin tam olarak 64 tane olacaksa, o değer direkt olarak 64 biçiminde diyagrama yazılır."
+        },
+        {
+            "id": 17,
+            "text": "C# dilinde 'IEnumerable' arayüzünü uygularken, özel bir sınıf yazmadan döngü içerisinde değerleri tek tek üreterek koleksiyon dönmesini sağlayan ve durum (state) saklayan anahtar kelime çifti aşağıdakilerden hangisidir?",
+            "code": "public IEnumerator<int> GetEnumerator() {\n    for(int i = 0; i < 5; i++) {\n        [?] i;\n    }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "return next",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "yield return",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "await task",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "goto case",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "continue with",
+                    "correct": false
+                }
+            ],
+            "explanation": "'yield return' ifadesi, fonksiyondan bir değer döner ancak fonksiyonun mevcut durumunu bellekte tutarak bir sonraki çağrımda kaldığı noktadan (örneğin döngü içerisinden) devam etmesini sağlar."
+        },
+        {
+            "id": 18,
+            "text": "Aşağıdakilerden hangisi UML'de 'Yapısal Diyagramlar' (Structural Diagrams) kategorisinde yer alır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kullanım Durumu Diyagramı (Use Case Diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Durum Diyagramı (State Diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sınıf Diyagramı (Class Diagram)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sıralı Diyagram (Sequence Diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Etkinlik Diyagramı (Activity Diagram)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Use Case, State, Sequence ve Activity diyagramları davranış (behavioral) modeller. Sınıf diyagramı (Class Diagram) ise sistemin yapısını (structural) bileşenler ve ilişkiler üzerinden modeller."
+        },
+        {
+            "id": 19,
+            "text": "Aşağıdaki C# kodunda uygulanan yazılım tasarım deseni hangisidir?",
+            "code": "public class PaymentProcessor {\n    private IPaymentStrategy _paymentStrategy;\n    public void SetPaymentStrategy(IPaymentStrategy strategy) {\n        _paymentStrategy = strategy;\n    }\n    public void ProcessPayment(decimal amount) {\n        _paymentStrategy.Pay(amount);\n    }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Builder Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Factory Method Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Observer Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Strategy Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Singleton Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Algoritmaları (örn. Kredi Kartı veya PayPal gibi farklı ödeme stratejileri) aynı arayüz (IPaymentStrategy) üzerinden tasarlayıp, çalışma zamanında birbirleriyle değiştirilebilir hale getiren davranışsal desen Strategy (Strateji) desenidir."
+        },
+        {
+            "id": 20,
+            "text": "Soyut sınıflarla (Abstract Class) ilgili aşağıdaki C# kodu derlendiğinde ne tür bir sonuç elde edilir?",
+            "code": "public abstract class Shape {\n    public abstract void Draw();\n}\npublic class Program {\n    public static void Main() {\n        Shape s = new Shape();\n        s.Draw();\n    }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kod sorunsuz çalışır ve hiçbir şey yazdırmaz.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çalışma zamanı hatası (Runtime Exception) verir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Abstract metot null referans döner.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Shape sınıfı Draw metodunu otomatik ezer.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Derleme hatası (Compiler Error) verir; çünkü soyut sınıflardan 'new' anahtar kelimesi ile nesne üretilemez.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Soyut sınıflar (Abstract Classes) yapısı gereği gövdesi olmayan metotlar barındırabilir ve eksik bir mantıksal varlıktır. Bu nedenle 'new' operatörü ile doğrudan örneklendirilmeleri (instantiation) derleyici tarafından engellenir."
+        }
+    ]
+}

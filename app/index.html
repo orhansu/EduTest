@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduTest – Akıllı Sınav Platformu</title>
+  <meta name="description" content="NotebookLM destekli, cebirsel ifade uyumlu interaktif test çözme platformu." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <!-- MathJax for LaTeX rendering -->
+  <script>
+    window.MathJax = {
+      tex: { 
+        inlineMath: [['\\(', '\\)'], ['$', '$']], 
+        displayMath: [['\\[', '\\]'], ['$$', '$$']] 
+      },
+      options: { skipHtmlTags: ['script','noscript','style','textarea','pre'] },
+      startup: { ready() { MathJax.startup.defaultReady(); } }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" async></script>
+  <!-- highlight.js for syntax-highlighted code blocks -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/lib/highlight.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ===== SIDEBAR ===== -->
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <div class="logo">
+      <span class="logo-icon">🎓</span>
+      <span class="logo-text">EduTest</span>
+    </div>
+    <p class="sidebar-subtitle">Testini seç, çözmeye başla</p>
+  </div>
+
+  <div class="search-box">
+    <span class="search-icon">🔍</span>
+    <input type="text" id="searchInput" placeholder="Test ara..." autocomplete="off" />
+  </div>
+
+  <div class="test-list" id="testList">
+    <div class="loading-tests">
+      <div class="spinner"></div>
+      <p>Testler yükleniyor…</p>
+    </div>
+  </div>
+
+  <div class="sidebar-footer">
+    <p>inputs/ klasörüne JSON ekle</p>
+  </div>
+  <div class="sidebar-resizer" id="sidebarResizer"></div>
+</aside>
+
+<!-- ===== MAIN ===== -->
+<main class="main" id="mainContent">
+
+  <!-- Welcome Screen -->
+  <section class="welcome-screen" id="welcomeScreen">
+    <div class="welcome-glow"></div>
+    <div class="welcome-content">
+      <div class="welcome-icon">🎓</div>
+      <h1>Hoş geldin!</h1>
+      <p>Sol panelden bir test seç ve çözmeye başla.<br/>Testler <code>inputs/</code> klasöründeki JSON dosyalarından otomatik yüklenir.</p>
+      <div class="welcome-features">
+
+        <div class="feature-card">
+          <span>⚡</span>
+          <strong>Anlık Geri Bildirim</strong>
+          <p>Her sorudan sonra açıklama ve doğru cevap gösterimi</p>
+        </div>
+
+        <div class="feature-card">
+          <span>📊</span>
+          <strong>İlerleme Takibi</strong>
+          <p>Yanıtların kaydedilir, kaldığın yerden devam edebilirsin</p>
+        </div>
+
+        <div class="feature-card">
+          <span>∑</span>
+          <strong>Matematik Desteği</strong>
+          <p>MathJax ile LaTeX formüller, satır içi ve blok ifadeler</p>
+        </div>
+
+        <div class="feature-card feature-card--code">
+          <span>💻</span>
+          <strong>Kod Bloğu Desteği</strong>
+          <p>Sözdizimi renklendirmeli kod soruları</p>
+          <div class="lang-chips">
+            <span>C#</span><span>SQL</span><span>JS</span>
+            <span>HTML</span><span>CSS</span><span>XML</span>
+          </div>
+        </div>
+
+        <div class="feature-card">
+          <span>📐</span>
+          <strong>TikZ Diyagram</strong>
+          <p>UML, geometri ve grafik soruları otomatik çizilir</p>
+        </div>
+
+        <div class="feature-card">
+          <span>🏆</span>
+          <strong>Detaylı Sonuç</strong>
+          <p>Doğru / yanlış / boş analizi ve puan gösterimi</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Quiz Screen -->
+  <section class="quiz-screen hidden" id="quizScreen">
+
+    <!-- Header -->
+    <div class="quiz-header">
+      <div class="quiz-meta">
+        <div class="quiz-title-group">
+          <span class="quiz-badge" id="quizSubject">Matematik</span>
+          <h2 class="quiz-title" id="quizTitle">Test Adı</h2>
+        </div>
+        <div class="quiz-stats">
+          <div class="stat-pill" id="statDifficulty">
+            <span class="stat-dot difficulty-medium"></span>Orta
+          </div>
+          <div class="stat-pill" id="statGrade">9. Sınıf</div>
+        </div>
+      </div>
+      <div class="progress-section">
+        <div class="progress-labels">
+          <span id="progressLabel">Soru 1 / 5</span>
+          <span id="progressPercent">0%</span>
+        </div>
+        <div class="progress-track">
+          <div class="progress-fill" id="progressFill"></div>
+        </div>
+        <div class="question-dots" id="questionDots"></div>
+      </div>
+    </div>
+
+    <!-- Question Card -->
+    <div class="question-card" id="questionCard">
+      <div class="question-number" id="questionNumber">01</div>
+      <div class="question-text" id="questionText"></div>
+      <div class="choices-grid" id="choicesGrid"></div>
+      <div class="explanation-box hidden" id="explanationBox">
+        <span class="explanation-icon">💡</span>
+        <div class="explanation-body">
+          <strong>Açıklama</strong>
+          <p id="explanationText"></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation -->
+    <div class="quiz-nav">
+      <button class="btn btn-ghost" id="btnPrev">← Önceki</button>
+      <div class="nav-center">
+        <span class="answered-count" id="answeredCount">0 / 0 cevaplandı</span>
+      </div>
+      <button class="btn btn-primary" id="btnNext">Sonraki →</button>
+      <button class="btn btn-success hidden" id="btnFinish">Testi Bitir 🏁</button>
+    </div>
+
+  </section>
+
+  <!-- Result Screen -->
+  <section class="result-screen hidden" id="resultScreen">
+    <div class="result-content">
+      <div class="result-trophy" id="resultTrophy">🏆</div>
+      <h2 id="resultTitle">Harika iş!</h2>
+      <p id="resultSubtitle"></p>
+
+      <div class="score-ring-wrapper">
+        <svg class="score-ring" viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="52" class="ring-bg"/>
+          <circle cx="60" cy="60" r="52" class="ring-fg" id="ringFg"/>
+        </svg>
+        <div class="score-center">
+          <span class="score-num" id="scoreNum">0</span>
+          <span class="score-label">/ <span id="scoreTotal">0</span></span>
+        </div>
+      </div>
+
+      <div class="result-stats-row">
+        <div class="result-stat correct">
+          <span class="rs-icon">✓</span>
+          <span class="rs-num" id="rsCorrect">0</span>
+          <span class="rs-lbl">Doğru</span>
+        </div>
+        <div class="result-stat wrong">
+          <span class="rs-icon">✗</span>
+          <span class="rs-num" id="rsWrong">0</span>
+          <span class="rs-lbl">Yanlış</span>
+        </div>
+        <div class="result-stat empty">
+          <span class="rs-icon">–</span>
+          <span class="rs-num" id="rsEmpty">0</span>
+          <span class="rs-lbl">Boş</span>
+        </div>
+      </div>
+
+      <!-- Per-question review -->
+      <div class="review-list" id="reviewList"></div>
+
+      <div class="result-actions">
+        <button class="btn btn-ghost" id="btnRestart">🔄 Tekrar Çöz</button>
+        <button class="btn btn-primary" id="btnNewTest">📚 Yeni Test</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>

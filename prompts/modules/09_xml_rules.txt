@@ -1,0 +1,44 @@
+# XML (eXtensible Markup Language) Kuralları
+
+## Kapsam
+Bu modül, XML teknolojisine ait test sorularının nasıl üretileceğini tanımlar.
+
+## Kod Gösterimi
+1. XML kod parçacıkları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. XML içindeki `<`, `>`, `&`, `"` karakterleri JSON string'i içinde olduğundan doğrudan yazılabilir; ancak tırnak işaretleri `\"` olarak kaçırılmalıdır.
+3. İç içe elemanlarda girintileme 2 boşluk ile yapılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- XML temel yapısı: prolog, element, attribute, text node, CDATA, yorum satırı
+- Well-formed XML kuralları (doğru açılıp kapanan etiketler, büyük/küçük harf duyarlılığı)
+- XML namespace (`xmlns`, prefix tanımlamaları)
+- DTD (Document Type Definition): element ve attribute tanımlama, varlıklar (entities)
+- XML Schema (XSD): `xs:element`, `xs:attribute`, `xs:complexType`, `xs:simpleType`, kısıtlamalar
+- XPath: eksen ifadeleri (`/`, `//`, `@`, `..`), predicate, fonksiyonlar (`text()`, `count()`, `contains()`)
+- XSLT: `xsl:template`, `xsl:apply-templates`, `xsl:for-each`, `xsl:value-of`, `xsl:if`, `xsl:choose`
+- XQuery temelleri: FLWOR ifadeleri (`for`, `let`, `where`, `order by`, `return`)
+- XML ve JSON karşılaştırması
+- SAX vs DOM ayrışım yöntemleri
+- XML dijital imza ve şifreleme (kavramsal düzey)
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki XML belgesinde kaç tane 'kitap' elementi vardır?",
+  "code": "<kutuphane>\n  <kitap id=\"1\">\n    <baslik>XML Temelleri</baslik>\n  </kitap>\n  <kitap id=\"2\">\n    <baslik>XPath Rehberi</baslik>\n  </kitap>\n</kutuphane>",
+  "choices": [
+    { "label": "A", "text": "1", "correct": false },
+    { "label": "B", "text": "2", "correct": true },
+    { "label": "C", "text": "3", "correct": false },
+    { "label": "D", "text": "4", "correct": false },
+    { "label": "E", "text": "Belge geçersizdir", "correct": false }
+  ],
+  "explanation": "kutuphane elementi altında iki adet kitap elementi bulunmaktadır."
+}
+```
+
+## Önemli Kurallar
+- "Well-formed mı?" ve "Valid mi?" ayrımını test eden sorular üretilmelidir.
+- XPath sorgularının sonucunu soran sorularda bağlam nodu (context node) açıkça belirtilmelidir.
+- XSLT dönüşüm soruları için hem kaynak XML hem de XSLT şablonu koda dahil edilebilir.

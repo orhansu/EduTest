@@ -1,0 +1,48 @@
+# CSS (Cascading Style Sheets) Kuralları
+
+## Kapsam
+Bu modül, CSS3 ve modern web stillendirme teknolojilerine ait test sorularının nasıl üretileceğini tanımlar.
+
+## Kod Gösterimi
+1. CSS kod parçacıkları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. CSS property değerlerindeki tırnak işaretleri `\"` olarak kaçırılmalıdır.
+3. HTML + CSS birlikte gösterilecekse iki ayrı blok olarak `"html"` ve `"css"` alanlarında sunulabilir.
+4. Girintileme 2 boşluk ile yapılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- Seçiciler (Selectors): element, class (`.`), id (`#`), attribute (`[attr]`), pseudo-class (`:hover`, `:nth-child`), pseudo-element (`::before`, `::after`), birleşik seçiciler (descendant, child `>`, sibling `~`, adjacent `+`)
+- Özgüllük (Specificity) ve Basamak (Cascade): `!important`, hesaplama kuralları (0,1,0 notasyonu)
+- Kutu Modeli (Box Model): `content`, `padding`, `border`, `margin`, `box-sizing: border-box` vs `content-box`
+- Display: `block`, `inline`, `inline-block`, `none`, `flex`, `grid`, `contents`
+- Flexbox: `flex-direction`, `justify-content`, `align-items`, `flex-wrap`, `flex-grow/shrink/basis`, `order`
+- CSS Grid: `grid-template-columns/rows`, `grid-area`, `gap`, `fr` birimi, `auto-fill/auto-fit`
+- Konumlandırma (Positioning): `static`, `relative`, `absolute`, `fixed`, `sticky`, `z-index`
+- Responsive Tasarım: `@media` sorguları, `min-width/max-width`, `vw/vh` birimleri, `clamp()`
+- Tipografi: `font-family`, `font-weight`, `line-height`, `letter-spacing`, `text-transform`, web fontları
+- CSS Değişkenleri (Custom Properties): `--variable-name`, `var()` kullanımı
+- Animasyon ve Geçiş: `transition`, `animation`, `@keyframes`, `transform`
+- Renk ve Degradeler: `rgb()`, `hsl()`, `opacity`, `linear-gradient`, `radial-gradient`
+- Modern CSS: `:is()`, `:where()`, `:has()`, `aspect-ratio`, `gap` (flex/grid), container queries
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki CSS kuralı uygulandığında .kutu elementinin toplam genişliği kaç piksel olur?",
+  "code": ".kutu {\n  width: 200px;\n  padding: 10px;\n  border: 5px solid black;\n  box-sizing: content-box;\n}",
+  "choices": [
+    { "label": "A", "text": "200px", "correct": false },
+    { "label": "B", "text": "210px", "correct": false },
+    { "label": "C", "text": "220px", "correct": false },
+    { "label": "D", "text": "230px", "correct": true },
+    { "label": "E", "text": "240px", "correct": false }
+  ],
+  "explanation": "content-box modelinde toplam genişlik = width + sol padding + sağ padding + sol border + sağ border = 200 + 10 + 10 + 5 + 5 = 230px."
+}
+```
+
+## Önemli Kurallar
+- Specificity hesaplama soruları için (0,1,0) gibi açık notasyon kullanılmalıdır.
+- `box-sizing` değeri belirtilmemiş sorularda varsayılan `content-box` olduğu hatırlatılmalıdır.
+- Flexbox ve Grid sorularında parent-child ilişkisi kodda açıkça gösterilmelidir.
+- "Hangi tarayıcıda çalışmaz?" tarzı sorular yerine standart CSS davranışı üzerine yoğunlaşılmalıdır.

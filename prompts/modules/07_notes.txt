@@ -1,0 +1,2 @@
+NOTLAR:
+Videolar işlenmiş dersler, videoları da dikkate alarak döküman ağırlıklı sorular olsun. Dökümanlarda videolardan farklı konular varsa (ileriki konular) onları şimdilik dahil etme.

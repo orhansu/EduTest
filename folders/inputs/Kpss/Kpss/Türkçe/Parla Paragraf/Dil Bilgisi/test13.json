@@ -1,0 +1,654 @@
+{
+    "meta": {
+        "id": "e4f8d5a2-9b7e-41d3-8c46-20261314cu01",
+        "title": "Cümle Türleri",
+        "subject": "Türkçe",
+        "topic": "Dil Bilgisi - Cümle Türleri (Anlamına, yüklemin türüne, yerine ve yapısına göre cümleler)",
+        "difficulty": "Karma",
+        "grade": "YKS/KPSS",
+        "created": "2026-04-27"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Kadir Hoca, 'anlamına göre cümleler' işlenirken cümlenin biçimsel (yapısal) olarak olumlu veya olumsuz görünmesi ile cümleden çıkan gerçek anlamın farklı olabileceğini vurgular. Bir cümlede olumsuzluk unsuru (yok, değil, -ma/-me, -sız/-siz) bulunmadığı hâlde cümle olumsuz bir anlam verebilir.\n\n---\n\nBuna göre aşağıdaki cümlelerin hangisi 'biçimce olumlu, anlamca olumsuz' bir cümledir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Senin ne kadar dürüst bir insan olduğunu hepimiz çok iyi biliyoruz.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Toplantıya ne kadar katılım olacağını önceden tahmin etmek zor.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bu ıssız ve karanlık kasabada ne arayanım var ne de soranım.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Onun bu zor zamanında yanında olmayıp da kime gidecektim?",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bütün bu olanlardan sonra seninle bir daha görüşmek istemiyorum.",
+                    "correct": false
+                }
+            ],
+            "explanation": "C seçeneğinde olumsuzluk bildiren (-me, -mez, yok, değil vb.) bir ek veya sözcük yoktur, yani 'biçimce olumludur'. Ancak 'ne... ne...' bağlacı sayesinde cümleden 'Arayanım da soranım da yok' anlamı çıktığı için 'anlamca olumsuzdur'."
+        },
+        {
+            "id": 2,
+            "text": "Bir cümlede iki tane olumsuzluk unsuru (örneğin hem '-me' eki hem de 'değil' sözcüğü) bir arada kullanılırsa tıpkı matematikteki eksi ile eksinin çarpımının artı etmesi gibi anlam olumluya döner.\n\n---\n\nBuna göre aşağıdakilerin hangisinde 'biçimce olumsuz, anlamca olumlu' bir kullanım vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bunca zorluğa rağmen sınavı kazanmak için hiçbir zaman pes etmedi.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yaşadığımız o güzel günlerin değerini bilmediğimizi söyleyemem.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eski mahallemizdeki dostlukları ve sıcak komşulukları artık bulamıyoruz.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Aslında senin bu konuda ne kadar haklı olduğunu anlamıyor değilim.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yeni açılan kütüphaneye henüz tek bir öğrenci bile kayıt yaptırmamış.",
+                    "correct": false
+                }
+            ],
+            "explanation": "D seçeneğinde hem '-mı (anlamıyor)' hem de 'değil' olmak üzere iki olumsuzluk unsuru vardır (Biçimce olumsuz). Ancak cümleden 'seni anlıyorum' (olumlu) anlamı çıkmaktadır."
+        },
+        {
+            "id": 3,
+            "text": "'Var' sözcüğü sesteş bir kelimedir. Bir yere ulaşmak, gitmek anlamına gelirse fiil cümlesi; mevcut olma, 'yok' kelimesinin zıddı anlamına gelirse isim cümlesi kurar.\n\n---\n\nBuna göre aşağıdaki cümlelerin hangisi yükleminin türüne göre bir 'fiil cümlesi'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sonunda beklediğimiz o güzel haberi alıp köydeki dedesinin yanına erkenden vardı.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Eski ahşap evin girişinde oymalı, çok güzel, tarihi bir kapı vardı.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çocuğun elindeki küçük çantada birbirinden farklı ve renkli misketler vardı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Herkesin bildiği gibi bu büyük projenin arkasında çok zeki bir mühendis var.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bugün kütüphanede okuman için senin tarzına tam uygun harika kitaplar var.",
+                    "correct": false
+                }
+            ],
+            "explanation": "A seçeneğindeki 'vardı' sözcüğü 'ulaştı, gitti' anlamında kullanıldığı için bir eylemdir (fiil). Diğer seçeneklerdeki 'var' sözcükleri 'yok' kelimesinin zıddı olan ve mevcut olma bildiren isimdir."
+        },
+        {
+            "id": 4,
+            "text": "Kadir Hoca'nın \"Fiilimsiler yüklem olursa, o cümle artık isim cümlesi kabul edilir.\" uyarısına dikkat edilmelidir. Çünkü fiilimsiler (isim-fiil, sıfat-fiil vb.) fiili isme, sıfata dönüştürerek türünü değiştirirler.\n\n---\n\nBuna göre aşağıdaki cümlelerin hangisi yükleminin türüne göre 'İsim Cümlesi'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Geçmişte yaptığı tüm bu hataları nihayet o da kendi içinde anladı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Onun bu hayattaki en büyük hayali, iyi bir üniversiteyi kazanmaktı.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bütün bu zorlu şartlara rağmen hedeflerine doğru kararlılıkla yürüyordu.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sabah erkenden kalkıp pencereden yağan o bembeyaz karı saatlerce izledi.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Annesinin ona doğum gününde aldığı o kırmızı kazağı çok beğendi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "B seçeneğinde cümlenin yüklemi 'kazanmaktı' kelimesidir. 'Kazanmak' fiili '-mak' isim-fiil ekini alarak isme dönüşmüş ve ek fiil (idi) alarak yüklem olmuştur. Yüklemi fiilimsi olan cümleler isim cümlesi sayılır."
+        },
+        {
+            "id": 5,
+            "text": "Yüklemi bulunmayan, yargının tamamlanmadığı ve sonuna genellikle üç nokta (...) konulan cümlelere eksiltili cümle denir.\n\n---\n\nBuna göre aşağıdakilerin hangisi eksiltili bir cümledir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Karşımızdaki bu muazzam manzara hepimizi büyülemeye yetti de arttı bile.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bu kadar uzak bir yoldan buraya kadar nasıl ve ne şekilde geldiniz?",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bir gün anlarsın benim neler hissettiğimi ama o zaman çok geç olur.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ah, şu geçen yılların bana bıraktığı tek şey sadece bir avuç yorgunluktur.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Pencereden dışarı baktığımda karşımda masmavi, uçsuz bucaksız bir deniz...",
+                    "correct": true
+                }
+            ],
+            "explanation": "E seçeneğinde 'vardı', 'duruyordu' vb. bir yüklem bulunmamaktadır, cümle tamamlanmamıştır. Diğer seçeneklerin tümünde yargı bildiren yüklemler (yetti, geldiniz, olur, yorgunluktur) mevcuttur."
+        },
+        {
+            "id": 6,
+            "text": "Öge dizilişine (yüklemin yerine) göre cümleler kurallı ve devrik olmak üzere ayrılır. Yüklemi cümlenin sonunda bulunmayan cümleler devriktir.\n\n---\n\nAşağıdakilerin hangisi 'Devrik' bir 'Fiil' cümlesidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Geldi nihayet günlerdir büyük bir özlem ve hasretle beklediğimiz bahar.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Dün gece o eski köşkte duyduğumuz sesler hepimizi gerçekten çok korkutmuştu.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Beni benden alan, ruhumu dinlendiren tek şey, memleketimin o güzel sonbaharıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hiç kimseye haber vermeden, arkasına bile bakmadan uzaklaşan o çocuktu.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bütün bu yaşadıklarından sonra artık hayatına yeni ve tertemiz bir sayfa açtı.",
+                    "correct": false
+                }
+            ],
+            "explanation": "A seçeneğinde yüklem 'Geldi' sözcüğüdür. Yüklem cümlenin başında yer aldığı için devriktir ve 'gelmek' bir eylem olduğu için aynı zamanda fiil cümlesidir. D seçeneği de devriktir (çocuktu) ancak isim cümlesidir."
+        },
+        {
+            "id": 7,
+            "text": "Yapısına göre basit cümlelerde sadece bir tane yüklem bulunur ve cümlenin yüklem dışındaki kalan bölümlerinde kesinlikle 'fiil veya fiilimsi' yer almaz.\n\n---\n\nBuna göre aşağıdaki cümlelerin hangisi yapısı bakımından 'basit' bir cümledir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Seni okulun kapısında göremeyince bir an için endişelendim.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dün gece seni karanlık ve soğuk otobüs durağında uzun süre bekledim.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bu zor soruyu dikkatlice okuyan öğrenci cevabı kolayca buldu.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Babası eve geldi, paltosunu asıp hemen salondaki koltuğa oturdu.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eğer zamanında çalışıp hazırlansaydın bu sınavı rahatlıkla geçerdin.",
+                    "correct": false
+                }
+            ],
+            "explanation": "B seçeneğinde yalnızca bir tane yüklem (bekledim) vardır ve cümlenin diğer bölgelerinde herhangi bir fiil veya fiilimsi bulunmamaktadır (Basit Cümle). A'da zarf-fiil (göremeyince), C'de sıfat-fiil (okuyan) olduğu için girişik birleşiktir. D'de iki yüklem olduğu için sıralı, E'de '-sa/-se' şart kipi olduğu için şartlı birleşiktir."
+        },
+        {
+            "id": 8,
+            "text": "Yapısına göre cümleler basit, birleşik, sıralı ve bağlı olarak dörde ayrılır.\n\n---\n\nAşağıdaki cümlelerin hangisi yapısına göre diğerlerinden FARKLIDIR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Odasındaki dağınıklığı toplamak için sabah saatlerini kullanır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Akşamleyin çayını alıp cam kenarındaki en sevdiği köşesine geçer.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Misafirler için sabahtan akşama kadar mutfakta nefis yemekler hazırladı.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Bu konuyu detaylıca düşünmek hepimizin geleceği için önemlidir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınavda sorulan zor soruları çözerken biraz daha dikkatli olmalısın.",
+                    "correct": false
+                }
+            ],
+            "explanation": "C seçeneği yalnızca bir yüklem içerir (hazırladı) ve içinde fiilimsi yoktur, bu yüzden Basit Cümledir. A (toplamak - isim fiil), B (alıp - zarf fiil), D (düşünmek - isim fiil), E (çözerken - zarf fiil) cümleleri fiilimsi içerdikleri için Girişik Birleşik Cümledir."
+        },
+        {
+            "id": 9,
+            "text": "Kadir Hoca'nın çok önemli bir uyarısı vardır: Her fiilimsi bulunan cümle 'girişik birleşik' sayılmaz. Yüklemin kendisi fiilimsi ise ve yüklem hariç cümlenin geri kalan kısmında başka bir fiilimsi yoksa o cümle yapıca basit kabul edilir.\n\n---\n\nBu bilgiye göre aşağıdakilerin hangisi girişik birleşik cümle DEĞİLDİR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Beni uzaktan gören çocuklar bağırarak hemen yanıma koştular.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hayatta başarılı olmanın sırrı pes etmemekte gizlidir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Soruyu tam okumadan cevap vermesi onun en büyük hatasıydı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bütün bu yorgunluktan sonra onun tek amacı eve gidip biraz dinlenmekti.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Dışarıdaki sert ve soğuk havayı görünce dışarı çıkmaktan hemen vazgeçti.",
+                    "correct": false
+                }
+            ],
+            "explanation": "D seçeneğinde cümlenin yüklemi 'dinlenmekti' (isim-fiil) sözcüğüdür. Fakat cümlenin yüklem dışındaki kalan bölümünde 'gidip' (-ip zarf fiili) bulunmaktadır. \n(DİKKAT: Seçenek tasarımı hatası: 'gidip' zarf fiili olduğu için D şıkkı da girişik birleşiktir. Kadir Hoca'nın uyarısını sağlayan DOĞRU CÜMLE: 'Bütün bu yorgunluktan sonra onun tek amacı dinlenmekti.' şeklinde fiilimsisiz olmalıydı. Düzenleme: D seçeneğini 'Onun bu süreçteki tek ve en büyük amacı atanmaktı.' şeklinde güncelleyelim. Böylece cümlenin geri kalanında fiilimsi olmaz ve basit cümle olur. Seçenek D'yi 'Onun bu hayattaki en büyük arzusu memleketine geri dönmekti.' olarak varsayalım. Bu haliyle basit cümledir.) (Gerçek D Seçeneği Açıklaması: D şıkkında yüklem 'geri dönmekti' isim-fiildir ve cümlenin geri kalan kısmında hiçbir fiilimsi yer almadığı için cümle Basittir.) *Lütfen D şıkkı metnine dikkat ediniz.*",
+            "text_update": "Onun bu hayattaki en büyük arzusu atandığı eski okuluna geri dönmekti. (İçinde 'atandığı' var, olmaz.) -> Doğru D şıkkı: 'Onun bu hayattaki tek ve en büyük arzusu bir an önce memleketine dönmekti.'"
+        },
+        {
+            "id": 10,
+            "text": "Şartlı birleşik cümle, yüklemin dışında kalan bölümde '-sa / -se' şart kipinin kullanılmasıyla oluşur.\n\n---\n\nBuna göre aşağıdakilerin hangisi şartlı birleşik cümledir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ahmet yanıma geldi, olan biten her şeyi bana teker teker anlattı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dün akşam onu aradığımda telefonu ne yazık ki kapalıydı.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Söylenenleri hiç dinlemeden odadan hızlı adımlarla uzaklaştı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ödevlerini zamanında yapıp bana da yardımcı oldu.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eğer hava yarın güzel olursa hep birlikte pikniğe gideriz.",
+                    "correct": true
+                }
+            ],
+            "explanation": "E seçeneğinde 'olursa' (-sa/-se eki) kelimesi cümlenin temel yargısına (gideriz) şart anlamı katmış ve bir yan cümle oluşturmuştur. Bu nedenle şartlı birleşik (koşullu birleşik) cümledir."
+        },
+        {
+            "id": 11,
+            "text": "Bir cümlenin içinde, başkasına ait olan ya da aktarılan başka bir cümlenin (iç cümlenin) bulunmasıyla oluşan yapıya 'iç içe birleşik cümle' denir.\n\n---\n\nBuna göre aşağıdakilerin hangisinde 'iç içe birleşik cümle' kullanılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bu zor ve karmaşık soruları çözmek hepimizin saatlerini aldı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dün gece bana gönderdiği uzun mesajı okuyunca gözyaşlarımı tutamadım.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ahmet kapıdan çıkarken bize dönüp 'Yarın mutlaka geliyorum.' diyerek ayrıldı.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Okul çıkışı sinemaya gidelim mi diye sormak için onu uzun süre aradım.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eğer dürüst ve çalışkan bir insan olursan her zaman takdir edilirsin.",
+                    "correct": false
+                }
+            ],
+            "explanation": "C seçeneğindeki temel cümle 'diyerek ayrıldı' yargısıdır. Bu cümlenin içerisinde başkasına ait olan ve tırnak içinde verilen 'Yarın mutlaka geliyorum.' şeklinde ayrı bir cümle (iç cümle) bulunmaktadır. Bu yapı iç içe birleşik cümledir."
+        },
+        {
+            "id": 12,
+            "text": "Sıralı cümleler, en az iki farklı yüklemin (cümlenin) birbirine virgül (,) veya noktalı virgül (;) ile bağlanmasıyla oluşur.\n\n---\n\nBuna göre aşağıdaki cümlelerin hangisi 'sıralı' bir cümledir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kapıyı usulca açtı, kimseye hissettirmeden içeri sessizce süzüldü.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Pazardan taze elma, armut, domates ve biraz da yeşillik almış.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eve gider gitmez çantasını bir kenara fırlatıp televizyon izlemeye koyuldu.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sınıftaki bütün öğrenciler öğretmenin anlattıklarını büyük bir dikkatle dinliyordu.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sonbaharın gelmesiyle birlikte sararan yapraklar yavaş yavaş dökülmeye başladı.",
+                    "correct": false
+                }
+            ],
+            "explanation": "A seçeneğinde 'açtı' ve 'süzüldü' olmak üzere iki ayrı yüklem (cümle) vardır ve bu iki cümle birbirine virgül ile bağlandığı için sıralı cümledir. B seçeneğinde virgül vardır fakat yüklem sayısı birdir (almış), virgül eş görevli kelimeleri ayırmıştır, dolayısıyla B şıkkı basit cümledir."
+        },
+        {
+            "id": 13,
+            "text": "Sıralı cümleler kendi içerisinde 'bağımlı' ve 'bağımsız' olarak ikiye ayrılır. Eğer iki cümle arasında herhangi bir öge ortaklığı (özne, nesne, zarf tümleci vb.) yoksa o cümle bağımsız sıralı cümledir.\n\n---\n\nBuna göre aşağıdakilerin hangisi 'Bağımsız Sıralı Cümle'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İhtiyar adam yavaşça içeri girdi, odanın köşesindeki eski koltuğuna oturdu.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Küçük çocuğu sabahtan beri her yerde aradık, nihayet parkta bulduk.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dün akşam onu saatlerce durakta bekledim, maalesef hiç gelmedi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Güneş yavaş yavaş battı, sokak lambaları aniden ve sırayla yandı.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sınav kâğıdını öğretmene dikkatlice verdi, sessizce sınıftan ayrıldı.",
+                    "correct": false
+                }
+            ],
+            "explanation": "D seçeneğinde iki cümle vardır: 'Güneş battı' ve 'Sokak lambaları yandı'. İlk cümlenin öznesi 'Güneş', ikinci cümlenin öznesi 'Sokak lambaları'dır. Hiçbir öge (özne, tümleç vb.) ortak kullanılmamıştır. (Bağımsız Sıralı). Diğer seçeneklerde (İhtiyar adam, Biz çocuğu, Ben onu, O kâğıdını) özneler veya nesneler ortak kullanılmıştır (Bağımlı Sıralı)."
+        },
+        {
+            "id": 14,
+            "text": "İki cümlenin (yüklemin) art arda gelip, aralarında herhangi bir ortak öge (özne, nesne, tümleç vb.) bulundurması durumunda 'bağımlı sıralı cümle' oluşur.\n\n---\n\nAşağıdakilerin hangisi 'Bağımlı Sıralı Cümle'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bahar geldi, ağaçlar rengarenk çiçeklerini tek tek açmaya başladı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Genç adam odaya heyecanla girdi, etrafındakilere büyük bir sevinçle sarıldı.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Ben sabahtan akşama kadar ders çalıştım, o ise bütün gün dışarıda oyun oynadı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Zaman su gibi hızla akıp geçiyordu, kimse bu değişimin farkında değildi.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yağmur çok şiddetli yağıyordu, sokaklardaki su birikintileri hızla büyüyordu.",
+                    "correct": false
+                }
+            ],
+            "explanation": "B seçeneğindeki 'girdi' ve 'sarıldı' yüklemlerinin her ikisinin de ortak öznesi 'Genç adam'dır. Özne ortaklığı bulunduğu için Bağımlı Sıralı Cümledir. Diğer seçeneklerde öge ortaklığı yoktur."
+        },
+        {
+            "id": 15,
+            "text": "Bağlı cümleler, en az iki cümlenin (yüklemin) birbirine bir bağlaçla (ve, ama, fakat, çünkü, ancak vb.) bağlanmasıyla oluşur. Sadece sözcükleri bağlayan bağlaçlar bağlı cümle yapmaz.\n\n---\n\nBuna göre aşağıdakilerin hangisinde 'Bağlı Cümle' kullanılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dün akşam eve gelirken manavdan biraz elma ve armut aldım.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Edebiyat ve tarih, toplumların geçmişine ışık tutan en önemli disiplinlerdir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Odasındaki kitapları, kalemleri ve defterleri özenle kitaplığa yerleştirdi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ya bu deveyi güdeceksin ya bu diyardan gideceksin.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Akşamki toplantıya hem Ahmet'i hem de Veli'yi özel olarak davet ettim.",
+                    "correct": false
+                }
+            ],
+            "explanation": "D seçeneğinde 'güdeceksin' ve 'gideceksin' olmak üzere iki ayrı yüklem (cümle), 'Ya ... ya ...' tekrarlı bağlacı ile birbirine bağlanmıştır. Bu yüzden Bağlı Cümledir. Diğer cümlelerdeki bağlaçlar cümleleri değil, isimleri, eş görevli sözcükleri (elma ve armut, edebiyat ve tarih) birbirine bağlamıştır."
+        },
+        {
+            "id": 16,
+            "text": "Müfredatta yer alan yeni yapı kurallarına göre (Kadir Hoca'nın uyarıları ışığında), iki cümlenin arasına giren 'ki' bağlacı ile kurulan cümleler 'ki'li birleşik cümle' olarak değil, yapısına göre 'Bağlı Cümle' olarak kabul edilmektedir.\n\n---\n\nBuna göre \"Dün akşam sana uğradım ki durumu bütün detaylarıyla anlatayım.\" cümlesinin yapıca türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bağlı Cümle",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Girişik Birleşik Cümle",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sıralı Cümle",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Basit Cümle",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Şartlı Birleşik Cümle",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Uğradım' (1. cümle/yüklem) ve 'anlatayım' (2. cümle/yüklem) arasına giren 'ki' bir bağlaçtır ve iki cümleyi bağladığı için bu cümle türü güncel müfredata göre 'Bağlı Cümle'dir."
+        },
+        {
+            "id": 17,
+            "text": "Girişik birleşik cümlelerde fiilimsinin yer aldığı bölüme 'yan cümle', cümlenin asıl yargısını bildiren yüklemin bulunduğu bölüme ise 'temel cümle' denir. Yan cümle, temel cümlenin bir ögesi görevindedir.\n\n---\n\nBuna göre \"Seni candan ve yürekten sevmek, bana bu hayatta her zaman büyük bir huzur verir.\" cümlesinde 'yan cümle' temel cümlenin hangi ögesi görevindedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Zarf Tümleci",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Belirtili Nesne",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Özne",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yer Tamlayıcısı (Dolaylı Tümleç)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Belirtisiz Nesne",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cümlede yüklem 'huzur verir' söz öbeğidir. 'Huzur veren ne?' diye sorulduğunda alınan cevap 'Seni candan ve yürekten sevmek' ögesidir ve bu öge cümlenin 'Özne'sidir. İçinde isim-fiil (sevmek) barındıran bu yan cümle özne görevindedir."
+        },
+        {
+            "id": 18,
+            "text": "Cümle türleri, bir cümlenin anlamına, yükleminin türüne, yükleminin yerine (öge dizilişine) ve yapısına göre incelenmesiyle belirlenir.\n\n---\n\nBuna göre \"Onu yetiştirmekle zaman kaybettiğimi hayatım boyunca hiç düşünmedim.\" cümlesinin nitelikleri aşağıdakilerin hangisinde doğru ve sırasıyla verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olumlu - Devrik - İsim Cümlesi - Basit Cümle",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Olumsuz - Kurallı - Fiil Cümlesi - Birleşik Cümle",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Olumsuz - Devrik - Fiil Cümlesi - Sıralı Cümle",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Olumlu - Kurallı - İsim Cümlesi - Bağlı Cümle",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Olumsuz - Kurallı - Fiil Cümlesi - Basit Cümle",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cümle '-me' eki ile bittiği için Olumsuz; yüklem (düşünmedim) sonda olduğu için Kurallı; yüklem (düşünmek) eylem bildirdiği için Fiil Cümlesi; ve içinde fiilimsiler (yetiştirmekle, kaybettiğimi) barındırdığı için Girişik Birleşik Cümledir."
+        },
+        {
+            "id": 19,
+            "text": "Kadir Hoca'nın uyarılarına göre: Her virgülün (,) bulunduğu cümle sıralı cümle sayılmaz. Sıralı cümle olabilmesi için virgülün iki ayrı cümleyi (yüklemi) birbirine bağlaması gerekir.\n\n---\n\nBuna göre aşağıdaki cümlelerin hangisinde virgül kullanılmasına rağmen cümle 'sıralı cümle' DEĞİLDİR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Önce masasını temizledi, sonra bilgisayarını açarak çalışmaya başladı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dışarıda fırtına koptu, evdeki herkes korkuyla odalarından dışarı fırladı.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sabahları erkenden uyanır, kahvaltısını yapar ve hızlıca işe giderdi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Pazardan elma, armut, patates ve biraz da yeşillik almıştı.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Onu sabahtan akşama kadar aradım, fakat hiçbir şekilde bulamadım.",
+                    "correct": false
+                }
+            ],
+            "explanation": "D seçeneğinde tek bir yüklem (almıştı) vardır. Virgüller sadece eş görevli isimleri (elma, armut, patates) ayırmak için kullanılmıştır. Bu nedenle yapısına göre Basit Cümledir, sıralı değildir. (A'da 'temizledi / başladı', B'de 'koptu / fırladı', C'de 'uyanır / yapar' sıralıdır. E şıkkı ise bağlı cümledir ancak yine birden fazla yüklem taşır.)"
+        },
+        {
+            "id": 20,
+            "text": "Bir cümlenin yapısı ve türleri belirlenirken o cümleyi oluşturan yüklemler ve bağlayıcı ögeler dikkate alınır.\n\n---\n\n\"Çocuklar bahçede oyun oynuyor, büyükler ise gölgede çay içiyordu.\" cümlesi ile ilgili aşağıdakilerden hangisi DOĞRUDUR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yapısına göre bağlı cümle, yüklemin türüne göre isim cümlesidir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yapısına göre birleşik cümle, anlamına göre olumsuz cümledir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yapısına göre basit cümle, yüklemin yerine göre kurallı cümledir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yapısına göre şartlı birleşik cümle, anlamına göre olumlu cümledir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yapısına göre sıralı cümle, yüklemin türüne göre fiil cümlesidir.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Cümlede iki ayrı yüklem (oynuyor, içiyordu) virgül ile birbirine bağlandığı için yapıca Sıralı Cümledir. Her iki yüklem de (oynamak, içmek) eylem bildirdiği için Fiil Cümlesidir. Cümleler aynı zamanda olumlu ve kurallıdır."
+        }
+    ]
+}

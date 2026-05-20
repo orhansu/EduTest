@@ -1,0 +1,46 @@
+# JavaScript (JS) Programlama Dili Kuralları
+
+## Kapsam
+Bu modül, JavaScript diline ait test sorularının nasıl üretileceğini tanımlar. Sorular hem tarayıcı ortamını hem de Node.js ortamını kapsamalıdır.
+
+## Kod Gösterimi
+1. JS kod parçacıkları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. Template literal içindeki backtick (`` ` ``) karakterleri JSON string içinde `\`` şeklinde ifade edilmemelidir; bunun yerine sıradan string birleştirme ile gösterilebilir.
+3. JSON string içindeki tırnak işaretleri `\"` olarak kaçırılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- Değişken tanımlama: `var`, `let`, `const` farkları; hoisting, scope (lexical, block, function)
+- Veri tipleri: `typeof`, tip dönüşümleri (coercion), `==` vs `===`, truthy/falsy değerler
+- Fonksiyonlar: function declaration vs expression, arrow functions, closure, IIFE
+- Prototip zinciri ve OOP: `prototype`, `class`, `extends`, `super`, `this` bağlamı
+- Callback, Promise, `async/await`, Event Loop, Microtask Queue
+- Dizi ve Nesne metotları: `map`, `filter`, `reduce`, `find`, `flat`, spread/rest operatörleri
+- Destructuring: array ve object destructuring, default değerler
+- Modüler yapı: `import/export` (ES Modules), `require/module.exports` (CommonJS)
+- DOM manipülasyonu: `querySelector`, `addEventListener`, event bubbling/capturing
+- Hata yönetimi: `try/catch/finally`, özel Error tipleri (`TypeError`, `RangeError`)
+- Yerleşik nesneler: `Math`, `Date`, `JSON.parse`, `JSON.stringify`, `RegExp`
+- Bellek yönetimi ve performans: Garbage collection, event delegation
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki JavaScript kodunun konsol çıktısı nedir?",
+  "code": "let a = 1;\nfunction test() {\n    let a = 2;\n    console.log(a);\n}\ntest();\nconsole.log(a);",
+  "choices": [
+    { "label": "A", "text": "1 ve 1", "correct": false },
+    { "label": "B", "text": "2 ve 2", "correct": false },
+    { "label": "C", "text": "2 ve 1", "correct": true },
+    { "label": "D", "text": "1 ve 2", "correct": false },
+    { "label": "E", "text": "ReferenceError fırlatır", "correct": false }
+  ],
+  "explanation": "Fonksiyon içindeki let a = 2 yerel kapsamda tanımlıdır; dışarıdaki a = 1 etkilenmez."
+}
+```
+
+## Önemli Kurallar
+- `this` bağlamını test eden sorularda ortam (strict mode, arrow function, method call) açıkça belirtilmelidir.
+- Asenkron sorularda Event Loop sıralaması (Macrotask vs Microtask) doğru biçimde örneklendirilmelidir.
+- `==` ile `===` karşılaştırmalarında tip zorlaması (coercion) açık bir tuzak şık olarak kullanılabilir.
+- ES versiyonu önemliyse belirtilmelidir (ör. ES6+, ES2020).

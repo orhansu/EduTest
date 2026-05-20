@@ -1,0 +1,525 @@
+{
+    "meta": {
+        "id": "7f82b3d1-a5c4-4e2a-9b8e-d9f2a4b5s6d7",
+        "title": "Sınav 1",
+        "subject": "Mobil ve Kablosuz Ağlar",
+        "topic": "Sinyal Yayılımı, Antenler, Bant Genişliği ve Ağ Temelleri",
+        "difficulty": "Karışık",
+        "grade": "Yüksek Lisans",
+        "created": "2026-04-22"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Kablosuz haberleşmede çoklu yol (multipath) etkisi aşağıdakilerden hangisine neden olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Görüş hattının düzelmesine",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anten kazancının artmasına",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sinyalin güçlenmesine",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sinyalin faz ve genlik değişimlerine (fading)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Gürültünün azalmasına",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sinyalin farklı yollardan alıcıya ulaşması faz farklarına sebep olur, bu da genlikte bozulmalara yani sönümlemeye (fading) yol açar."
+        },
+        {
+            "id": 2,
+            "text": "Aşağıdaki olaylardan hangisi darbe (impulse) gürültüsüne neden olabilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Anten kazancının düşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Güneş enerjisindeki dalgalanmalar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Frekansın çok düşük olması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Elektronların termal hareketi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yıldırım düşmesi veya motor ateşleme sistemleri",
+                    "correct": true
+                }
+            ],
+            "explanation": "Darbe gürültüsü, aniden ortaya çıkan ve kısa süren yüksek enerjili sinyallerdir. Yıldırım ve motor ateşlemeleri bu gürültünün temel kaynaklarındandır."
+        },
+        {
+            "id": 3,
+            "text": "25 MHz bant genişliği, her biri 200 kHz genişliğinde kanallara bölünmüştür. Bu durumda toplam kanal sayısı kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "125",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "250",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "500",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "140",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "100",
+                    "correct": false
+                }
+            ],
+            "explanation": "25 MHz = 25.000 kHz'dir. Toplam bant genişliğini bir kanalın bant genişliğine bölersek: 25.000 / 200 = 125 kanal bulunur."
+        },
+        {
+            "id": 4,
+            "text": "Frekansı 4 GHz (4000 MHz) olan bir sinyal, 35863 km (jeostatik uydu) mesafeden iletilmektedir. Serbest uzay zayıflaması (free space loss) kaç dB olur? (dB = 20log10(d) + 20log10(f) + 32.44)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "205.4 dB",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "190.1 dB",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "165.3 dB",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "180.2 dB",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "195.6 dB",
+                    "correct": true
+                }
+            ],
+            "explanation": "Verilen formülde değerleri yerine koyduğumuzda: 20log10(35863) + 20log10(4000) + 32.44 = 91.09 + 72.04 + 32.44 = 195.57 dB bulunur ve yuvarlandığında 195.6 dB elde edilir."
+        },
+        {
+            "id": 5,
+            "text": "Kablosuz iletişimde Free Space Path Loss (FSPL) aşağıdakilerden hangisine bağlı olarak artar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sadece anten kazancına",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ortam sıcaklığına",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Alıcı verici arasındaki açıya",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mesafenin azalmasına ve frekansın düşmesine",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mesafenin artmasına ve frekansın artmasına",
+                    "correct": true
+                }
+            ],
+            "explanation": "Görselde hatalı işaretlenmiş bir soru. Formüle (FSPL ∝ d² * f²) bakıldığında serbest uzay zayıflamasının artması için hem mesafenin (d) hem de frekansın (f) artması gerekir."
+        },
+        {
+            "id": 6,
+            "text": "Sky-wave propagation hangi tabakanın etkisiyle gerçekleşir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Stratosfer",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İyonosfer",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Atmosfer",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Troposfer",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Manyetosfer",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sky-wave (gökyüzü dalgası) yayılımı, radyo dalgalarının iyonosfer tabakasından yansıyarak yeryüzüne geri dönmesi prensibine dayanır."
+        },
+        {
+            "id": 7,
+            "text": "Roaming için aşağıdakilerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kullanıcının cihazını yalnızca Wi-Fi üzerinden kullanmasıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kullanıcının yalnızca kendi ülkesinde hizmet sağlayıcısına bağlanmasıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kullanıcının aynı operatörde farklı numaralar arasında geçiş yapmasıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kullanıcının farklı bir ağ veya operatörün kapsama alanında hizmet alabilmesidir.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kullanıcının SIM kartını başka bir telefona takmasıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Roaming (dolaşım), bir abonenin kendi ana şebekesi kapsama alanı dışında başka bir operatörün altyapısı üzerinden hizmet kullanmaya devam edebilmesidir."
+        },
+        {
+            "id": 8,
+            "text": "RTÜK ve FCC tarafından lisans gerektirmeden kullanılabilen ISM bantları aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "10–50 GHz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2.4–2.5 GHz ve 5.725–5.875 GHz",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "30–50 kHz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "100–200 MHz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1–2 MHz",
+                    "correct": false
+                }
+            ],
+            "explanation": "Görselde hatalı işaretlenmiş bir soru. Wi-Fi ve Bluetooth gibi endüstriyel, bilimsel ve medikal amaçlı standart cihazlar lisanssız ISM (Industrial, Scientific, Medical) bantları olan 2.4 GHz ve 5 GHz civarındaki frekansları kullanır."
+        },
+        {
+            "id": 9,
+            "text": "Bir telefon hattı için bant genişliği 3.1 kHz, sinyal-gürültü oranı 56 dB (yaklaşık 400.000) olarak verilmiştir. Shannon formülüne göre bu hattın teorik maksimum kanal kapasitesi yaklaşık olarak kaç Kbps'tir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "14 Kbps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "56 Kbps",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "104 Kbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "48 Kbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "112 Kbps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Shannon formülü C = B * log₂(1 + SNR). C = 3.1 * 10³ * log₂(1 + 400000). log₂(400000) değeri yaklaşık 18.6'dır. 3.1 * 18.6 = 57.66 Kbps hesaplanır ve yaklaşık 56 Kbps şıkkına denk gelir."
+        },
+        {
+            "id": 10,
+            "text": "Kablosuz bağlantılarda (Wi-Fi) sinyal kalitesini düşüren etkenlerden biri aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ethernet kablosunun kalınlığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anahtar (switch) kapasitesinin azalması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Fiber kablonun uzunluğu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Anten kazancının artması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Metal yüzeylerden yansıma ve elektromanyetik parazit",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kablosuz sinyaller çevresel fiziksel nesnelerden, özellikle metal yüzeylerden yansımaya ve mikrodalga, bluetooth gibi cihazların yarattığı parazitlere karşı oldukça duyarlıdır."
+        },
+        {
+            "id": 11,
+            "text": "Yukarıdaki genlik zaman grafiğine göre sinyalin denklemi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "x(t)=12sin(20πt)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "x(t)=12sin(20πt+2π)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "x(t)=12sin(10πt)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "x(t)=6sin(20πt)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "x(t)=12cos(20πt)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Grafikte maksimum genlik (A) 12'dir. Bir tam döngü (Periyot T) 0.1 saniyede tamamlanmıştır. Frekans f = 1/T = 1/0.1 = 10 Hz'dir. Açısal frekans w = 2πf = 20π olur. Sinüs formülü x(t)=Asin(wt) olduğundan x(t)=12sin(20πt) elde edilir."
+        },
+        {
+            "id": 12,
+            "text": "Bir kanalın hedef kapasitesi 20 Mbps, kanal bant genişliği 3 MHz ise, bu kapasiteye ulaşmak için gerekli sinyal-gürültü oranı (SNR) nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "10 dB",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "14 dB",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "6 dB",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "20 dB",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "26 dB",
+                    "correct": false
+                }
+            ],
+            "explanation": "C = B * log₂(1+S/N) ➜ 20 = 3 * log₂(1+S/N) ➜ log₂(1+S/N) ≈ 6.66 ➜ 1+S/N ≈ 101.6 ➜ SNR (doğrusal) ≈ 100. SNR (dB) = 10*log₁₀(100) = 10*2 = 20 dB bulunur."
+        },
+        {
+            "id": 13,
+            "text": "Görüş hattı (LOS) yayılımında zayıflamaya bağlı bozulma (attenuation) aşağıdaki durumlardan hangisinde artar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Frekans azaldığında",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mesafe arttığında",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Verici gücü azaldığında",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gürültü seviyesi düştüğünde",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Anten kazancı yükseldiğinde",
+                    "correct": false
+                }
+            ],
+            "explanation": "Mesafe arttıkça sinyalin kat ettiği yol uzar, bu nedenle yayılım modeline göre genliği (enerjisi) düşer ve zayıflama (attenuation) artar."
+        },
+        {
+            "id": 14,
+            "text": "Aşağıdakilerden hangisi, datagram ve sanal devre (virtual circuit) veri iletim yöntemleri arasındaki temel farkı en doğru biçimde açıklar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Her iki yöntemde de paketler aynı sabit yoldan geçer, fark sadece bant genişliğindedir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Datagram yönteminde her paket bağımsız olarak yönlendirilir; sanal devrede ise tüm paketler önceden belirlenen aynı yoldan geçer.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Datagram yöntemi yalnızca ses iletiminde, sanal devre yalnızca veri iletiminde kullanılır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Datagram yöntemi, iletim sırasında önceden bir yol kurar; sanal devre ise her paketi farklı yoldan gönderir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sanal devre yöntemi bağlantısızdır, datagram yöntemi bağlantılıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Görselde hatalı işaretlenmiş bir soru. Datagram ağlarda yol bilgisi bulunmaz ve her paket ağ durumuna göre dinamik rotalar çizer. Sanal devre (virtual circuit) ağlarında ise iletişim öncesi rotalama işlemi bir kez yapılır ve tüm veriler aynı sabit yoldan akar."
+        },
+        {
+            "id": 15,
+            "text": "Frekansı 12 GHz, çapı 2 m olan bir parabolik antenin kazancı yaklaşık kaç dB'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "46.4 dB",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "56.2 dB",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "40.8 dB",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "52.0 dB",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "32.5 dB",
+                    "correct": false
+                }
+            ],
+            "explanation": "D = 2m için r = 1m ➜ Alan(A) = πr² = π. Frekans 12 GHz için dalgaboyu (λ) = c/f = (3*10⁸)/(12*10⁹) = 0.025 m. Formül G = 7A/λ² ➜ G = 7π / (0.025)² ≈ 35185.8. Bunu desibele çevirirsek G(dB) = 10*log₁₀(35185.8) ≈ 45.46 dB çıkar. Seçenekler arasında en yakın kabul edilen değer 46.4 dB'dir."
+        },
+        {
+            "id": 16,
+            "text": "Aşağıdakilerden hangisi handoff (handover) kavramını en doğru şekilde açıklar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kullanıcının farklı bir SIM karta geçmesi işlemidir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cihazın kablosuz ağdan kablolu ağa geçmesi işlemidir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hücre içinde veri hızının artırılması işlemidir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kullanıcının başka bir ülkeye gittiğinde sim kartını kullanarak iletişimini devam etmesidir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mobil kullanıcının hareket halindeyken bağlantısının bir baz istasyonundan diğerine aktarılmasıdır.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Handoff veya Handover, mobil bir cihaz (örneğin cep telefonu) hareket halindeyken hücresel bir alandan diğerine geçtiğinde, çağrının veya veri bağlantısının kesilmeden bir baz istasyonundan diğerine aktarılması sürecidir."
+        }
+    ]
+}

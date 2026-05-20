@@ -1,0 +1,253 @@
+{
+  "meta": {
+    "id": "e4b2a1c9-6f3d-4a8e-92b1-0c7f8a9b3d2e",
+    "title": "Yazılım Test Teknikleri Y.Lisans Final Denemesi",
+    "subject": "Yazılım Test Teknikleri",
+    "topic": "Hata Zinciri, SDLC Modelleri, Statik ve Dinamik Test Teknikleri, Otomasyon Stratejileri",
+    "difficulty": "Orta",
+    "grade": "Yüksek Lisans",
+    "created": "2026-05-04"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yazılım güvenilirliği zinciri (dependability threats) uyarınca, bir analistin gereksinim dokümanına yanlış bir kural yazması ile başlayan sürecin kullanıcıya yansıyan sonucuna kadar olan hiyerarşik sıralama hangisidir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Fault -> Error -> Failure -> Incident", "correct": false },
+        { "label": "B", "text": "Error -> Fault -> Failure -> Incident", "correct": true },
+        { "label": "C", "text": "Failure -> Incident -> Error -> Fault", "correct": false },
+        { "label": "D", "text": "Incident -> Failure -> Fault -> Error", "correct": false },
+        { "label": "E", "text": "Error -> Failure -> Fault -> Incident", "correct": false }
+      ],
+      "explanation": "Süreç; insanın yaptığı yanlışlık (Error), bunun fiziksel bir kusura dönüşmesi (Fault), kusurlu kodun çalışması (Failure) ve sonucun gözlemlenmesi (Incident) şeklinde ilerler [1, 2]."
+    },
+    {
+      "id": 2,
+      "text": "Hedef-Soru-Metrik (GQM) yaklaşımı kullanılarak hazırlanan bir test planında; 'Uygulanan teknikler hataları yeterince erken yakalıyor mu?' sorusunu yanıtlamak için aşağıdaki metriklerden hangisi en uygundur?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Günlük aktif kullanıcı sayısı (DAU)", "correct": false },
+        { "label": "B", "text": "Test otomasyon oranı (%)", "correct": false },
+        { "label": "C", "text": "Üretim ortamına kaçan hata sayısı (Defect Leakage)", "correct": true },
+        { "label": "D", "text": "Kod satır sayısı (LOC)", "correct": false },
+        { "label": "E", "text": "Test yürütme süresi", "correct": false }
+      ],
+      "explanation": "Hataların ne kadar erken yakalandığını anlamak için canlı ortama sızan hata sayısını (Defect Leakage) ölçmek kritik bir metriktir [3]."
+    },
+    {
+      "id": 3,
+      "text": "V-Modeli üzerinde yapılan faaliyetlerle ilgili olarak aşağıdakilerden hangisi yanlıştır?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Sol taraf doğrulama (verification), sağ taraf geçerleme (validation) aşamalarını temsil eder.", "correct": false },
+        { "label": "B", "text": "Gereksinim Analizi aşamasının karşılığı Kabul Testleri aşamasıdır.", "correct": false },
+        { "label": "C", "text": "Tasarım aşaması bittikten hemen sonra Sistem Testleri planlanmaya başlanabilir.", "correct": false },
+        { "label": "D", "text": "V-Model'de test faaliyetleri sadece kodlama bittikten sonra başlar.", "correct": true },
+        { "label": "E", "text": "Birim testleri, geliştirme sürecinin en temel test seviyesidir.", "correct": false }
+      ],
+      "explanation": "V-Model, testin en baştan (gereksinim aşamasından) itibaren planlanmasını zorunlu kılar; sadece kodlama sonrası bir aktivite değildir [4, 5]."
+    },
+    {
+      "id": 4,
+      "text": "Statik testler kapsamında yapılan 'Gözden Geçirme' (Review) türlerinden hangisi; yazarın katılımcıları doküman üzerinden adım adım geçirdiği, amacın sadece hata bulmak değil aynı zamanda eğitim ve fikir alışverişi olduğu tekniktir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Inspection (Denetleme)", "correct": false },
+        { "label": "B", "text": "Informal Review (Gayriresmi)", "correct": false },
+        { "label": "C", "text": "Walkthrough (Baştan Sona İnceleme)", "correct": true },
+        { "label": "D", "text": "Technical Review", "correct": false },
+        { "label": "E", "text": "Buddy Check", "correct": false }
+      ],
+      "explanation": "Walkthrough sürecinde yazar süreci yönetir ve katılımcıları doküman üzerinden geçirerek ortak anlayış ve hata tespiti hedefler [6, 7]."
+    },
+    {
+      "id": 5,
+      "text": "Bir test uzmanı, sistemdeki bir 'A -> B -> C -> A' (reset) durum geçişini test etmek istemektedir. 'Geçiş Kapsamı' (Transition Coverage) sağlamak için minimum kaç test senaryosu çalıştırılmalıdır?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "1", "correct": false },
+        { "label": "B", "text": "2", "correct": false },
+        { "label": "C", "text": "3", "correct": true },
+        { "label": "D", "text": "4", "correct": false },
+        { "label": "E", "text": "5", "correct": false }
+      ],
+      "explanation": "A'dan B'ye, B'den C'ye ve C'den A'ya olmak üzere 3 farklı geçiş olduğu için her geçişin en az bir kez test edilmesi için 3 test gerekir [8]."
+    },
+    {
+      "id": 6,
+      "text": "Otomasyon Piramidi (Automation Pyramid) modeline göre, testlerin büyük bir çoğunluğunun hangi seviyede konumlandırılması 'sağlıklı' bir otomasyon stratejisi olarak kabul edilir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "UI (Kullanıcı Arayüzü) Testleri", "correct": false },
+        { "label": "B", "text": "Uçtan Uca (E2E) Testler", "correct": false },
+        { "label": "C", "text": "Birim (Unit) Testleri", "correct": true },
+        { "label": "D", "text": "Manuel Keşif Testleri", "correct": false },
+        { "label": "E", "text": "Sistem Entegrasyon Testleri", "correct": false }
+      ],
+      "explanation": "Otomasyon piramidinin tabanını hızlı ve kararlı olan Birim Testleri oluşturmalı, sayıca en fazla bu seviyede test bulunmalıdır [9, 10]."
+    },
+    {
+      "id": 7,
+      "text": "DevOps kültürüyle gelen 'Shift-Left' (Sola Kaydırma) yaklaşımının temel motivasyonu aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Test uzmanlarının sayısını azaltmak", "correct": false },
+        { "label": "B", "text": "Hataları üretim ortamında (canlıda) bulmak", "correct": false },
+        { "label": "C", "text": "Hataları mümkün olan en erken aşamada yakalayarak düzeltme maliyetini düşürmek", "correct": true },
+        { "label": "D", "text": "Dokümantasyonu tamamen ortadan kaldırmak", "correct": false },
+        { "label": "E", "text": "Tüm testleri manuel hale getirmek", "correct": false }
+      ],
+      "explanation": "Shift-left, hataların erken tespitiyle maliyet tasarrufu sağlamayı ve kaliteyi sürecin başına taşımayı amaçlar [11, 12]."
+    },
+    {
+      "id": 8,
+      "text": "Edsger Dijkstra'nın 'Program testleri, hataların varlığını gösterebilir ama yokluğunu asla kanıtlayamaz' sözü, testin hangi kısıtını ifade eder?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Pestisit Paradoksu", "correct": false },
+        { "label": "B", "text": "Yeterli güvenilirlik sağlansa da %100 hatasızlık garantisi verilemeyeceği", "correct": true },
+        { "label": "C", "text": "Risk bazlı testin zorunluluğu", "correct": false },
+        { "label": "D", "text": "Kapsamlı testin imkansızlığı", "correct": false },
+        { "label": "E", "text": "Erken testin önemi", "correct": false }
+      ],
+      "explanation": "Testler başarılı olsa bile bu sistemde hiç hata kalmadığı anlamına gelmez, sadece mevcut testlerle hata bulunamadığını gösterir [13, 14]."
+    },
+    {
+      "id": 9,
+      "text": "Resmi bir 'Inspection' (Denetleme) sürecinde, toplantı tutanaklarını tutan, bulunan kusurları kaydeden ve kayıtların doğruluğunu sağlayan rol hangisidir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Author (Yazar)", "correct": false },
+        { "label": "B", "text": "Moderator (Kolaylaştırıcı)", "correct": false },
+        { "label": "C", "text": "Reviewer (Denetçi)", "correct": false },
+        { "label": "D", "text": "Scribe (Yazıcı/Tutanak Tutucu)", "correct": true },
+        { "label": "E", "text": "Review Leader", "correct": false }
+      ],
+      "explanation": "Scribe, gözden geçirme sırasında bulguları dökümante etmek ve tutanakları tutmakla sorumludur [15, 16]."
+    },
+    {
+      "id": 10,
+      "text": "Birim testleri sırasında, test edilen fonksiyonun ihtiyaç duyduğu ancak henüz hazır olmayan dış bağımlılıkları (veritabanı vb.) taklit eden koda ne ad verilir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Driver", "correct": false },
+        { "label": "B", "text": "Stub / Mock", "correct": true },
+        { "label": "C", "text": "Script", "correct": false },
+        { "label": "D", "text": "Oracle", "correct": false },
+        { "label": "E", "text": "Log", "correct": false }
+      ],
+      "explanation": "Stub veya Mock, test nesnesinin bağımlı olduğu eksik bileşenleri simüle eden alt kod parçalarıdır [17]."
+    },
+    {
+      "id": 11,
+      "text": "Aşağıdaki 'Kara Kutu' tekniklerinden hangisi, çok sayıda girdi parametresi olan sistemlerde tüm kombinasyonlar yerine her parametre çiftinin en az bir kez test edilmesini hedefleyerek test sayısını optimize eder?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Karar Tablosu Testi", "correct": false },
+        { "label": "B", "text": "Durum Geçiş Testi", "correct": false },
+        { "label": "C", "text": "Pair-Wise Testing (İkili Kombinasyon)", "correct": true },
+        { "label": "D", "text": "Sınır Değer Analizi", "correct": false },
+        { "label": "E", "text": "Hata Tahminleme", "correct": false }
+      ],
+      "explanation": "Pair-wise testing, parametre çiftlerinin kombinasyonlarını temel alarak test eforunu büyük ölçüde azaltır [18]."
+    },
+    {
+      "id": 12,
+      "text": "Test uzmanının geçmiş deneyimlerine, sezgilerine ve geçmişte karşılaşılan benzer hatalara dayanarak yaptığı test tekniği hangisidir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Inspection", "correct": false },
+        { "label": "B", "text": "Boundary Value Analysis", "correct": false },
+        { "label": "C", "text": "Decision Table Testing", "correct": false },
+        { "label": "D", "text": "Error Guessing (Hata Tahminleme)", "correct": true },
+        { "label": "E", "text": "Statement Coverage", "correct": false }
+      ],
+      "explanation": "Error guessing, tamamen deneyim ve sezgiye dayalı, yapılandırılmamış bir test yaklaşımıdır [19, 20]."
+    },
+    {
+      "id": 13,
+      "text": "Yazılım geliştirme modellerinden 'Spiral Model'i diğerlerinden ayıran en belirgin karakteristik özellik hangisidir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Sadece küçük projeler için tasarlanmış olması", "correct": false },
+        { "label": "B", "text": "Hiyerarşik bir ekip yapısı gerektirmesi", "correct": false },
+        { "label": "C", "text": "Her iterasyonda kapsamlı bir 'Risk Analizi' aşaması içermesi", "correct": true },
+        { "label": "D", "text": "Testlerin sadece projenin en sonunda yapılması", "correct": false },
+        { "label": "E", "text": "Dokümantasyonun önemsiz olması", "correct": false }
+      ],
+      "explanation": "Spiral model, her döngüde risklerin analiz edilmesi ve azaltılmasına odaklanan bir yapı sunar [11]."
+    },
+    {
+      "id": 14,
+      "text": "Beyaz kutu testlerinde '%100 Karar Kapsamı' (Decision Coverage) sağlandığı biliniyorsa, aşağıdakilerden hangisi kesinlikle doğrudur?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Kodda hiç hata kalmamıştır.", "correct": false },
+        { "label": "B", "text": "%100 Deyim Kapsamı (Statement Coverage) da sağlanmıştır.", "correct": true },
+        { "label": "C", "text": "Tüm mantıksal yollar test edilmiştir.", "correct": false },
+        { "label": "D", "text": "Statik analiz araçlarına gerek kalmamıştır.", "correct": false },
+        { "label": "E", "text": "Kullanıcı kabul testleri tamamlanmıştır.", "correct": false }
+      ],
+      "explanation": "Karar kapsamı her dalın çalışmasını gerektirdiği için, otomatik olarak her deyimin (satırın) çalışmasını da kapsar [21]."
+    },
+    {
+      "id": 15,
+      "text": "Aşağıdaki test yapıtlarının (artifacts) bir test vaka yaşam döngüsü içindeki mantıksal ilerleyiş sırası (ranking) nasıldır?\n\nI. Draft (Taslak)\nII. Create (Oluşturma)\nIII. Released (Yayınlanmış)\nIV. Review (Gözden Geçirme)\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "II - I - IV - III", "correct": true },
+        { "label": "B", "text": "I - II - III - IV", "correct": false },
+        { "label": "C", "text": "II - IV - I - III", "correct": false },
+        { "label": "D", "text": "III - IV - I - II", "correct": false },
+        { "label": "E", "text": "II - I - III - IV", "correct": false }
+      ],
+      "explanation": "Test vakası önce oluşturulur, taslağı hazırlanır, gözden geçirilir ve uygunsa yayınlanır [22]."
+    },
+    {
+      "id": 16,
+      "text": "Müşterinin, yazılımın beklenen iş gereksinimlerini karşıladığını ve canlı kullanıma uygun olduğunu teyit ettiği test seviyesi hangisidir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Birim Testi", "correct": false },
+        { "label": "B", "text": "Sistem Entegrasyon Testi", "correct": false },
+        { "label": "C", "text": "Kabul Testi (Acceptance Testing / UAT)", "correct": true },
+        { "label": "D", "text": "Regresyon Testi", "correct": false },
+        { "label": "E", "text": "Statik Analiz", "correct": false }
+      ],
+      "explanation": "Kabul testi, yazılımın teslim edilmeden önce müşteri beklentilerini karşıladığını doğrulayan son onay aşamasıdır [5, 23]."
+    },
+    {
+      "id": 17,
+      "text": "Pestisid (Tarım İlacı) Paradoksu'nu önlemek için bir test ekibinin alması gereken en temel aksiyon hangisidir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Mevcut testleri daha sık çalıştırmak", "correct": false },
+        { "label": "B", "text": "Hata raporlarını daha hızlı kapatmak", "correct": false },
+        { "label": "C", "text": "Test senaryolarını ve test verilerini düzenli olarak gözden geçirip güncellemek", "correct": true },
+        { "label": "D", "text": "Tüm testleri manuelden otomatiğe geçirmek", "correct": false },
+        { "label": "E", "text": "Test uzmanı sayısını artırmak", "correct": false }
+      ],
+      "explanation": "Aynı testler sürekli çalıştırılırsa sistem direnç kazanır; yeni hatalar için senaryolar güncellenmelidir [24, 25]."
+    },
+    {
+      "id": 18,
+      "text": "Statik test teknikleri ile dinamik test teknikleri arasındaki temel farka dair aşağıdakilerden hangisi söylenebilir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Statik testler sadece manueldir, dinamik testler sadece otomatiktir.", "correct": false },
+        { "label": "B", "text": "Statik testler kod çalıştırılmadan yapılan incelemelerdir, dinamik testler kodun koşturulmasını gerektirir.", "correct": true },
+        { "label": "C", "text": "Dinamik testler daha erken aşamalarda uygulanabilir.", "correct": false },
+        { "label": "D", "text": "Statik testler sadece kullanıcı arayüzü hatalarını bulur.", "correct": false },
+        { "label": "E", "text": "İki teknik de aynı tür hataları aynı verimlilikle bulur.", "correct": false }
+      ],
+      "explanation": "Statik test 'kodu çalıştırmadan' (Dry-run), dinamik test ise 'çalıştırarak' doğrulama yapar [26, 27]."
+    },
+    {
+      "id": 19,
+      "text": "Yazılımda bir değişikliğin, sistemin halihazırda çalışan fonksiyonlarını bozmadığından emin olmak için yapılan testlere ne denir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Birim Testi", "correct": false },
+        { "label": "B", "text": "Kullanılabilirlik Testi", "correct": false },
+        { "label": "C", "text": "Regresyon Testi (Regression Testing)", "correct": true },
+        { "label": "D", "text": "Alfa Testi", "correct": false },
+        { "label": "E", "text": "Duman (Smoke) Testi", "correct": false }
+      ],
+      "explanation": "Regresyon testi, değişikliklerin yan etkilerini kontrol etmek için mevcut çalışan kısımların tekrar test edilmesidir [21]."
+    },
+    {
+      "id": 20,
+      "text": "Risk Bazlı Test (Risk-Based Testing) stratejisinde test eforunun dağılımı hangi formüle veya prensibe göre önceliklendirilir?\n\n---\n\n",
+      "choices": [
+        { "label": "A", "text": "Gereksinim dokümanındaki sayfa sayısı", "correct": false },
+        { "label": "B", "text": "Hatanın çıkma olasılığı x Hatanın yaratacağı etki (zarar)", "correct": true },
+        { "label": "C", "text": "Geliştiricinin çalışma süresi", "correct": false },
+        { "label": "D", "text": "Sadece kullanıcı arayüzünün karmaşıklığı", "correct": false },
+        { "label": "E", "text": "Kodun toplam satır sayısı", "correct": false }
+      ],
+      "explanation": "Risk, bir olumsuz durumun gerçekleşme ihtimali ve bunun yaratacağı kayıp ile tanımlanır; test odağı en yüksek riskli alanlara kaydırılır [25, 28]."
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "f5a9e3d1-4b2c-8d7a-1e9f-0c5b3a2d1e4f",
+        "title": "Fiil Çekimi ve Ek Fiil",
+        "subject": "Türkçe",
+        "topic": "Dil Bilgisi - Fiil Çekimi (Kip, Kişi) ve Ek Fiil",
+        "difficulty": "Karma",
+        "grade": "YKS/KPSS",
+        "created": "2026-04-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Kadir Hoca'nın anlamına göre fiiller konusunu anlatırken belirttiği gibi; tabiatta kendiliğinden olan, insan müdahalesi gerektirmeyen eylemlere 'oluş fiili' denir. \n\n---\n\nBuna göre aşağıdakilerden hangisi bir oluş fiiline örnektir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sonbahar gelince ağaçların yaprakları sarardı.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Dün gece yatmadan önce sürükleyici bir kitap okudum.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yorgun olduğu için erkenden odasına gidip uyudu.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Anlatılan komik fıkraya bütün sınıf kahkahalarla güldü.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sağlıklı kalabilmek için her sabah sahilde yürüyor.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kadir Hoca'nın anlattığına göre tabiatta kendiliğinden gerçekleşen, zamanla değişimi ifade eden fiiller 'oluş' fiilleridir. 'Sararmak, paslanmak, küflenmek, yaşlanmak' bunlara örnektir. Okumak (iş/kılış), uyumak, gülmek, yürümek (durum) fiilleridir."
+        },
+        {
+            "id": 2,
+            "text": "İş (Kılış) fiilleri, öznenin kendi isteğiyle gerçekleştirdiği ve bir nesneyi etkileyen fiillerdir. Bu fiilleri bulmak için fiilin başına 'onu' kelimesi getirilir; eğer anlamlı oluyorsa fiil iş/kılış fiilidir.\n\n---\n\nBu kurala göre aşağıdaki fiillerden hangisi iş (kılış) fiilidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Büyümek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kırmak",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yeşermek",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ağlamak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Paslanmak",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fiilin başına 'onu' kelimesini getirdiğimizde anlamlı olan sadece 'kırmak' fiilidir ('onu kırmak'). Diğerleri 'onu büyümek', 'onu yeşermek', 'onu ağlamak', 'onu paslanmak' anlamsız olduğu için iş (kılış) fiili olamazlar. Büyümek, yeşermek, paslanmak oluş; ağlamak durum fiilidir."
+        },
+        {
+            "id": 3,
+            "text": "Fiil kipleri 'haber (bildirme) kipleri' ve 'dilek (tasarlama) kipleri' olmak üzere ikiye ayrılır. Haber kipleri zaman bildirirken, dilek kipleri zaman anlamı taşımaz.\n\n---\n\nBuna göre aşağıdakilerden hangisi bir haber kipi DEĞİLDİR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Görülen geçmiş zaman kipi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Şimdiki zaman kipi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Şart kipi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Gelecek zaman kipi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Geniş zaman kipi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Şart kipi (-sa / -se), zaman anlamı taşımaz; bir dilek, şart veya tasarı ifade eder. Bu nedenle dilek kipleri grubunda yer alır. Diğer seçenekler (görülen geçmiş, şimdiki, gelecek ve geniş zaman) haber kipleridir."
+        },
+        {
+            "id": 4,
+            "text": "Dilek kipleri dörde ayrılır: Gereklilik, Şart, İstek ve Emir kipleri. Bu kipler eylemin yapılmasını bir dileğe, isteğe veya şarta bağlar.\n\n---\n\nAşağıdaki eklerden hangisi dilek kiplerinden birine aittir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "-miş / -muş",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "-yor",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "-acak / -ecek",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "-malı / -meli",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "-di / -du",
+                    "correct": false
+                }
+            ],
+            "explanation": "'-malı / -meli' eki gereklilik kipi ekidir ve dilek kiplerinden biridir. '-miş' duyulan geçmiş zaman, '-yor' şimdiki zaman, '-acak' gelecek zaman, '-di' ise görülen geçmiş zaman (haber) ekleridir."
+        },
+        {
+            "id": 5,
+            "text": "Kadir Hoca'nın tanımına göre 'çekimli fiil', bir fiil kök veya gövdesinin kip eki ve kişi (şahıs) eki almasıyla oluşur. Sadece emir kipi ek almadan çekimlenebilir, ancak fiilimsiler çekimli fiil kabul edilmez.\n\n---\n\nAşağıdaki kelimelerden hangisi çekimli bir fiil DEĞİLDİR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Geldim",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Otur",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yapmalısın",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Biliyoruz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Koşan",
+                    "correct": true
+                }
+            ],
+            "explanation": "'Koşan' sözcüğü '-an' sıfat-fiil ekini almıştır. Fiilimsiler kip ve kişi eki almadıkları için 'çekimli fiil' sayılmazlar. 'Otur' emir kipiyle çekimlenmiş bir fiildir. Diğerleri de belirli kip ve şahıs ekleri almış çekimli fiillerdir."
+        },
+        {
+            "id": 6,
+            "text": "Geniş zaman kipinin olumsuzu yapılırken diğer kiplerden farklı bir durum ortaya çıkar. Birinci tekil ve birinci çoğul şahıslarda '-maz / -mez' eki yerine farklı bir kullanım görülür.\n\n---\n\nBuna göre 'gelmek' fiilinin geniş zaman olumsuz, birinci tekil şahıs çekimi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gelmem",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Gelmez",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gelmezsin",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gelmeyiz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gelmezler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Geniş zamanın olumsuzunda birinci tekil şahıs (ben) için '-maz/-mez' eki yerine '-mam/-mem' kullanılır (Ben gel-mem). İkinci ve üçüncü şahıslarda '-maz/-mez' kalır (Sen gelmezsin, O gelmez)."
+        },
+        {
+            "id": 7,
+            "text": "Kadir Hoca, şimdiki zaman kipi olan '-yor' ekinin yanı sıra bir ekin daha eylemin şu an yapıldığını bildirdiğini ve şimdiki zaman kipi olarak kabul edildiğini vurgulamıştır.\n\n---\n\nBahsedilen bu alternatif şimdiki zaman eki aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "-ecek / -acak",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "-makta / -mekte",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "-malı / -meli",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "-mış / -miş",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "-dı / -di",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kadir Hoca 'gelmekte' örneğini vererek '-makta / -mekte' ekinin de tıpkı '-yor' gibi şu an yapılmakta olan bir eylemi anlattığını ve şimdiki zaman eki yerine kullanıldığını belirtmiştir."
+        },
+        {
+            "id": 8,
+            "text": "Basit çekimli (zamanlı) fiiller tek bir kip eki alırken, birleşik çekimli (zamanlı) fiiller iki kip eki alırlar. İki kip ekinin arasına giren yapıştırıcı unsur ise ek fiildir.\n\n---\n\nBuna göre aşağıdaki cümlelerin hangisinin yüklemi birleşik çekimli bir fiildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eve gelir gelmez uyudu.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Söylenen her şeyi biliyor.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bizi uzaktan görünce anlamıştı.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yarın hep birlikte onu görecek.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Her haksızlık karşısında susar.",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Anlamıştı' fiilini ayırdığımızda 'anla-mış (1. kip) - idi (2. kip)' şeklindedir. İki kip eki aldığı için birleşik çekimlidir (duyulan geçmiş zamanın hikayesi). Diğer seçeneklerdeki fiiller (uyu-du, bil-i-yor, gör-ecek, sus-ar) yalnızca birer kip eki aldıkları için basit çekimlidir."
+        },
+        {
+            "id": 9,
+            "text": "Ek fiilin (i- fiili) temel iki görevi vardır: Biri basit çekimli fiilleri birleşik çekimli yapmak, diğeri ise isim ve isim soylu sözcükleri yüklem yapmaktır.\n\n---\n\nAşağıdaki cümlelerin hangisinde ek fiil, isme gelerek onu yüklem yapma görevinde kullanılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sabahtan beri odasında sessizce okuyordu.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bize haber vermeden erkenden gelmişti.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eğer zamanında oraya gideceksek acele etmeliyiz.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Pikniğe gittiğimiz gün hava gerçekten çok güzeldi.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Bütün bu olanları ona daha önceden sevmeliydin.",
+                    "correct": false
+                }
+            ],
+            "explanation": "D seçeneğinde 'güzel' kelimesi bir isimdir (sıfat soylu bir sözcük). 'Güzel idi' şeklinde ek fiil alarak cümlenin yüklemi olmuştur. Diğer seçeneklerdeki (oku-yor-du, gel-miş-ti, gid-ecek-se-k, sev-meli-ydi-n) kullanımlarda ek fiil, fiillere gelerek onları birleşik zamanlı yapmıştır."
+        },
+        {
+            "id": 10,
+            "text": "Kadir Hoca'nın 'Çıkardı' kelimesi üzerinden verdiği tuzağa dikkat edilmelidir. Kelimenin köküne ve aldığı eklere göre basit veya birleşik çekimli olduğu değişebilir.\n\n---\n\nBuna göre aşağıdaki cümlelerin hangisinde 'çıkardı' kelimesi BASİT ÇEKİMLİ bir fiildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "O her sabah erkenden evden çıkardı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Akşamları bizimle birlikte uzun yürüyüşe çıkardı.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Merdivenleri hızlı adımlarla nefes nefese çıkardı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hafta sonları dinlenmek için kafa dinlemeye dağa çıkardı.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınav esnasında gizlice cebinden bir kopya kağıdı çıkardı.",
+                    "correct": true
+                }
+            ],
+            "explanation": "E seçeneğinde 'çıkarmak' fiil kökü/gövdesidir (-ar eki fiilden fiil yapım ekidir). Geriye sadece '-dı' görülen geçmiş zaman kipi kalır, bu yüzden basit çekimlidir. A, B, C ve D seçeneklerinde ise fiilin kökü 'çıkmak'tır. '-ar' geniş zaman kipi, '-dı' ise hikaye ek fiilidir (çık-ar idi). İki kip eki aldıkları için birleşik çekimlidirler."
+        },
+        {
+            "id": 11,
+            "text": "Bir kipin, kendi zaman ve anlamı dışında başka bir kipin yerine kullanılmasına 'kip kayması (anlam kayması)' denir.\n\n---\n\nAşağıdaki cümlelerin hangisinde kip (anlam) kayması vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yarın akşam önemli bir toplantı için Ankara'ya gidiyorum.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Dün bütün gün yorulduğu için mışıl mışıl uyudu.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sağlıklı yaşamak için her sabah mutlaka spor yapar.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Birazdan teneffüs zili çalacak ve herkes dışarı çıkacak.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Keşke o da bizimle birlikte sinemaya gelse.",
+                    "correct": false
+                }
+            ],
+            "explanation": "A seçeneğinde eylem 'yarın akşam' yapılacaktır, yani gelecek zaman kipinin (-ecek) kullanılması gerekirken, şimdiki zaman kipi (-yor) kullanılmıştır ('gidiyorum' yerine 'gideceğim' olmalıydı). Bu durum kip kaymasıdır. Diğer cümlelerde zaman zarfları ile kullanılan kipler uyumludur."
+        },
+        {
+            "id": 12,
+            "text": "Ek fiilin olumsuzu, normal fiillerin olumsuzundan (-ma / -me) farklı bir kelime ile yapılır.\n\n---\n\nİsimleri yüklem yapan ek fiilin olumsuzu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yok",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Değil",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Mı/Mi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "-ma / -me",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "-maz / -mez",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kadir Hoca'nın 'en kolay değili gördüğün zaman ek fiil' kuralına göre, isimleri yüklem yapan ek fiilin (idim, imişim, isem, -im) olumsuzu 'değil' sözcüğü ile yapılır (Örn: Kalem idim -> Kalem değildim)."
+        },
+        {
+            "id": 13,
+            "text": "Birleşik çekimli fiillerin adlandırılması, araya giren ek fiile (idi, imiş, ise) göre yapılır. İkinci kip '-idi' ise hikaye, '-imiş' ise rivayet, '-ise' ise şart birleşik çekimi denir.\n\n---\n\nBuna göre 'gelecekmiş' fiilinin çekim özelliği aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gelecek zamanın hikayesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gelecek zamanın şartı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gelecek zamanın rivayeti",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Geniş zamanın rivayeti",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Şimdiki zamanın rivayeti",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fiil 'gel-ecek-imiş' şeklinde eklerine ayrılır. Birinci kip '-ecek' (gelecek zaman), araya giren ikinci kip (ek fiil) ise '-imiş'tir (rivayet). Bu nedenle 'gelecek zamanın rivayeti' olarak adlandırılır."
+        },
+        {
+            "id": 14,
+            "text": "Kadir Hoca, fiilin sonuna gelen '-dır / -dir' bildirme ekinin öğrencileri sıkça birleşik çekimli fiil yanılgısına düşürdüğünü belirterek bir uyarıda bulunmuştur.\n\n---\n\nBuna göre 'çalışacaktır' fiilinin yapısal / çekim özelliği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Birleşik çekimli fiil",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hikaye birleşik çekimli fiil",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Rivayet birleşik çekimli fiil",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Basit çekimli fiil + bildirme eki",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Şartlı birleşik çekimli fiil",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kadir Hoca'nın uyarısına göre '-dır / -dir' bir kip eki değildir, kesinlik veya olasılık katan bir bildirme ekidir. Birleşik zaman yapabilmek için ikinci ekin 'idi, imiş, ise' olması gerekir. Bu nedenle 'çalış-acak-tır' fiili yalnızca bir kip eki (-acak) aldığı için basit çekimli bir fiildir."
+        },
+        {
+            "id": 15,
+            "text": "Emir kipi ile ilgili çeşitli dil bilgisi kuralları bulunmaktadır. \n\n---\n\nAşağıda verilen emir kipi özelliklerinden hangisi YANLIŞTIR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Zaman anlamı taşımaz.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Birinci tekil şahıs çekimi yoktur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Özel bir kip eki yoktur.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dilek kipleri grubunda yer alır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sadece üçüncü şahıslara emir verilebilir.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Emir kipi sadece üçüncü şahıslara (O, Onlar) değil, aynı zamanda ikinci şahıslara (Sen, Siz) da verilebilir (Örn: Sen gel, Siz gelin). Kişinin kendine emir verememesi mantığıyla sadece birinci tekil (Ben) ve birinci çoğul (Biz) şahıs çekimleri yoktur."
+        },
+        {
+            "id": 16,
+            "text": "Kadir Hoca, yüklemi fiilimsi olan cümlelerin yapısıyla ilgili önemli bir uyarıda bulunmuştur. Fiiller fiilimsi eki aldıktan sonra tür değiştirirler.\n\n---\n\nBuna göre, 'Yüklemi isim-fiil olan cümleler fiil cümlesi değil, isim cümlesi kabul edilir.' kuralına aşağıdaki cümlelerin hangisi örnek oluşturur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Benim bu hayattaki tek idealim seni sevmekti.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Beni görür görmez hızla oradan uzaklaştı.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dün gece odasında uzun uzun ağladı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tatilden sonra yarın akşam bize gelecekmiş.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Onu kalabalığın içinde görür görmez tanıdım.",
+                    "correct": false
+                }
+            ],
+            "explanation": "A seçeneğindeki cümlenin yüklemi 'sevmekti' sözcüğüdür. 'Sevmek' kelimesi '-mak / -mek' isim-fiil ekini alarak isme dönüşmüştür. Cümlede ek fiil (-ti) alarak yüklem olmuştur ve yüklemi isim (fiilimsi) olduğu için bu cümle bir isim cümlesidir."
+        },
+        {
+            "id": 17,
+            "text": "Ek fiilin geniş zamanında, üçüncü tekil şahıs eki olan '-dir / -dır' eki genellikle yazılmaz ve düşebilir. \n\n---\n\nAşağıdaki cümlelerin hangisinde bu duruma (ek fiilin düşmesine) bir örnek vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Evimiz okula gerçekten çok uzaktı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "O, sınıfımızın tartışmasız en zeki öğrencisi.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Dün akşam aradığımda maalesef evde yokmuş.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Keşke tatilde sen de bizimle birlikte gelseydin.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yarın sabah erkenden memlekete doğru yola çıkacağız.",
+                    "correct": false
+                }
+            ],
+            "explanation": "B seçeneğindeki cümlenin yüklemi isim tamlaması olan 'öğrencisi' kelimesidir. Bu kelimenin sonunda aslen ek fiilin geniş zamanı olan '-dir' eki vardır ('öğrencisidir'), ancak cümlenin akışında düşmüştür. A'da '-tı' (idi), C'de '-muş' (imiş) kullanılmıştır."
+        },
+        {
+            "id": 18,
+            "text": "Birleşik çekimli fiiller isimlendirilirken sırasıyla birinci kip, ikinci kipin türü ve şahıs eki belirtilir.\n\n---\n\nAşağıdaki kelimelerden hangisinde 'gereklilik kipinin rivayeti' kullanılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gitmeliydi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gidecekmiş",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gitmeliymiş",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Gitseymiş",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gidiyormuş",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gereklilik kipi eki '-malı / -meli'dir. Rivayet birleşik zaman eki ise ek fiilin duyulan geçmiş zamanı olan '-imiş'tir. Bu ikisinin birleşimi 'git-meli-imiş' -> 'gitmeliymiş' şeklinde olur."
+        },
+        {
+            "id": 19,
+            "text": "Ek fiilin (i- fiili) iki temel görevi vardır: 1. İsim veya isim soylu sözcükleri yüklem yapmak. 2. Basit çekimli fiilleri birleşik çekimli yapmak.\n\n---\n\nAşağıdaki kelimelerin hangisinde ek fiil, diğerlerinden FARKLI bir görevde kullanılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yapıyordu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bilecekmiş",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gelseydi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çocuktu",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Okumalıymış",
+                    "correct": false
+                }
+            ],
+            "explanation": "A (yap-ıyor-idi), B (bil-ecek-imiş), C (gel-se-idi) ve E (oku-malı-imiş) seçeneklerinde ek fiil, fiillere gelerek onları basit çekimden birleşik çekime çevirmiştir (Görev 2). Ancak D seçeneğinde ek fiil, isim olan 'çocuk' kelimesine (çocuk-idi) gelerek onu yüklem yapmıştır (Görev 1)."
+        },
+        {
+            "id": 20,
+            "text": "Kip kayması (anlam kayması), bir kip ekinin kendi anlamı dışında başka bir zaman veya dilek anlamını karşılayacak şekilde kullanılmasıdır. Anlatım bozukluğu sayılmaz.\n\n---\n\nAşağıdaki cümlelerin hangisinde kip (anlam) kayması YOKTUR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yarın sabah erkenden memlekete doğru yola çıkıyoruz.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Nasreddin Hoca bir gün eşeğine ters biner ve yola koyulur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gelecek ay yapacağımız yönetim kurulu toplantısı saat 10'da başlar.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tarihler 1453'ü gösterdiğinde Fatih Sultan Mehmet İstanbul'u fetheder.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dün akşam misafirler gittikten sonra yorgunluktan hemen uyudum.",
+                    "correct": true
+                }
+            ],
+            "explanation": "E seçeneğinde olay geçmişte (dün akşam) yaşanmış ve buna uygun olarak görülen geçmiş zaman kipi (-du) kullanılmıştır; yani kip ve zaman uyumludur. A'da gelecek zaman yerine şimdiki zaman, B'de geçmiş zaman yerine geniş zaman, C'de gelecek zaman yerine geniş zaman, D'de ise geçmiş zaman yerine geniş zaman kullanılarak kip kayması yapılmıştır."
+        }
+    ]
+}

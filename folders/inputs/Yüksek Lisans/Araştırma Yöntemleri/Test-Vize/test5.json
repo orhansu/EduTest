@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e45a20b7-98c2-4d1a-b8e7-123456789abc",
+        "title": "Araştırma Yöntemleri ve Etik - Kapsamlı Değerlendirme Testi",
+        "subject": "Araştırma Yöntemleri",
+        "topic": "Bilimsel Yöntem, Desenler, Örnekleme ve Etik",
+        "difficulty": "Karma",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-04-20"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "İnsanın bilgi edinme yollarından biri olarak, diğer kişiler ile görüş alışverişi yaparak bilgiyi teyit etme sürecine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sosyal Doğrulama (Görüş Birliği)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Duyusal Deneyim",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mantıksal Akıl Yürütme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bilimsel Yöntem",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uzman Görüşü (Otorite)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Belgedeki tanımlamalara göre 'Sosyal Doğrulama' veya görüş birliği, bireylerin kendi algılarını diğer kişilerle görüş alışverişi yaparak teyit etmesi yoludur."
+        },
+        {
+            "id": 2,
+            "text": "Bilimsel yöntem aşamalarında, araştırmanın deseninin, verilerin kimlerden (örneklem) ve nasıl (araçlar) toplanacağının, ayrıca nasıl analiz edileceğinin belirlendiği safha aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sorunun fark edilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yöntemin Geliştirilmesi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Verilerin toplanması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hipotezlerin formüle edilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Raporlama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yöntemin geliştirilmesi aşaması, çözüm önerilerinin (hipotezlerin) nasıl uygulanacağının belirlendiği; araştırma deseninin, örneklemin ve araçların tasarlandığı aşamadır."
+        },
+        {
+            "id": 3,
+            "text": "Thomas Kuhn'un 'Bilimsel Devrimlerin Yapısı' adlı eserinde tanımladığı araştırma paradigmaları döngüsüne göre, mevcut paradigmanın açıklayamadığı sorunların biriktiği ve anormalliklerin ortaya çıktığı dönem aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Normal Bilim",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bilimsel Devrim",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kriz Dönemi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yeni Normal Bilim",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yorumlayıcı Aşama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kuhn'un modelinde Kriz Dönemi, mevcut bilimsel paradigmanın karşılaşılan yeni sorunları ve anormallikleri artık açıklayamadığı, birikimlerin yaşandığı geçiş evresidir."
+        },
+        {
+            "id": 4,
+            "text": "Pozitivist felsefeye göre, 'tek bir bilim mantığı vardır ve bilim adını taşıyan her entelektüel etkinlik bu mantığa uymalıdır' şeklindeki ilkeyi ifade eden kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tek Gerçeklik",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sosyal İnşa",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tümevarımsal Analiz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Metodolojik Birlik",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Olgusal Karmaşıklık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Pozitivist görüşte tüm bilim dallarının aynı temel yöntemi ve mantığı kullanması gerektiği kuralı 'metodolojik birlik' olarak adlandırılır."
+        },
+        {
+            "id": 5,
+            "text": "Verilerin toplanma zamanına göre yapılan araştırma sınıflandırmasında, aynı çalışma grubundan çeşitli zaman aralıklarında birden fazla kez veri toplanarak zaman içindeki değişimi takip etmeyi amaçlayan tür hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kesitsel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anlık Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tarihsel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Belgesel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Boylamsal Araştırma",
+                    "correct": true
+                }
+            ],
+            "explanation": "Aynı gruptan farklı zaman dilimlerinde tekrar tekrar veri toplayarak gelişimi ve değişimi izleyen çalışmalar boylamsal (longitudinal) araştırmalardır."
+        },
+        {
+            "id": 6,
+            "text": "Yaşa bağlı sosyal gelişimi incelemek için uzun yıllar beklemek yerine 3, 4 ve 5 yaş aralığındaki çocuklardan farklı alt gruplar oluşturarak verileri tek bir seferde toplayan 'kesitsel araştırma' yaklaşımının en kritik metodolojik gerekliliği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Alt grupların olası dışsal değişkenler bakımından birbirine denk (benzer) olması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Analizlerin sadece nitel analiz teknikleriyle yapılması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çalışmanın tek bir denek (N=1) üzerinden yürütülmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Araştırmacının olgulara aktif müdahalede (manipülasyonda) bulunması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Örneklemin tamamen kasıtlı/amaçlı örnekleme yollarıyla seçilmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kesitsel çalışmalarda geçerli sonuçlara ulaşabilmek için karşılaştırılan farklı alt grupların (yaş dışındaki) sosyoekonomik vb. özellikler açısından birbirine denk olması şarttır."
+        },
+        {
+            "id": 7,
+            "text": "Bir araştırma sürecinde problemi tanımlama aşamasında, araştırmacının inceleyeceği konunun kapsamını net bir şekilde daralttığı ve odaklanacağı sınırları netleştirdiği işleme ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Problemin Gerekçelendirilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Problemi Sınırlandırma",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Sayıltı (Varsayım) Oluşturma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kapsam Genişletme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hipotez Testi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırılacak konunun gereğinden fazla geniş olmasını engellemek ve çerçevenin net biçimde çizilmesini sağlamak 'problemi sınırlandırma' adımıdır."
+        },
+        {
+            "id": 8,
+            "text": "Nicel bir araştırmada kurulan ve incelenen değişkenler arasında herhangi bir ilişki veya istatistiksel fark olmadığını (sıfır etki) varsayan hipotez türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Alternatif Hipotez (H1)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yönlü Hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Null (Sıfır) Hipotez (H0)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yönsüz Hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Saha Hipotezi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Null (Sıfır) Hipotezi, gruplar veya değişkenler arasında anlamlı bir etkinin, ilişkinin veya farkın olmadığını belirten temel test hipotezidir."
+        },
+        {
+            "id": 9,
+            "text": "Araştırmacının kanıtlamaya çalışmadığı, araştırmanın ve metodolojinin temelini oluşturduğu için en başından bilimsel bir ilke olarak 'doğru' kabul ettiği önermelere ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınırlılık",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bağımsız Değişken",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Alt Problem",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sayıltı (Varsayım)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Parametre",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sayıltı (Varsayım), araştırmacının ispatlama gereği duymadan doğru olarak kabul edip çalışmasını üzerine inşa ettiği (örneğin 'katılımcıların anketlere dürüst cevap verdiği') yargılardır."
+        },
+        {
+            "id": 10,
+            "text": "Nitel araştırmalarda inandırıcılığı artırmak için kullanılan 'Üçgenleme (Triangulation)' türlerinden hangisi, araştırmanın sonuçlarını diğer araştırmacılar ya da basılı literatürdeki çerçevelerle kıyaslayarak çeşitli görüşlerin elde edilmesini ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri Kaynaklı Üçgenleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Araştırmacı Üçgenlemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Metodolojik Üçgenleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Zaman Üçgenlemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Teori Üçgenlemesi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Teori üçgenlemesi, toplanan verilerin ve elde edilen bulguların literatürdeki farklı teorik görüşler ve kuramlar ışığında değerlendirilmesi stratejisidir."
+        },
+        {
+            "id": 11,
+            "text": "Nitel veri analiz süreçlerinden olan tümevarımcı içerik analizinde; ham veriler arasındaki anlamlı bölümlere (kelime, cümle veya paragraflara) isimler veya etiketler verilmesi işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kodlama",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kategori Oluşturma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tümdengelim",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hipotez Sınaması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sayısallaştırma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Verilerin okunarak anlamlı en küçük birimlere ayrılması ve bu birimlere araştırmanın amacına uygun isimlerin (kavramların) verilmesi sürecine kodlama denir."
+        },
+        {
+            "id": 12,
+            "text": "Deneysel bir araştırmayı; tarama, korelasyonel veya nedensel karşılaştırma desenlerinden ayıran ve araştırmacıya kesin bir neden-sonuç (nedensellik) ilişkisi kurma imkanı veren en temel metodolojik özellik (altın standart) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sayısal veri (istatistik) toplaması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bağımsız değişkenin araştırmacı tarafından kasıtlı olarak manipüle (müdahale) edilmesi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Araştırmanın başında bir hipotez test etmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Geçmişte doğal yollarla yaşanmış olayları incelemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kapalı uçlu anket formları kullanması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Deneysel çalışmaların en ayırt edici tarafı (manipülasyon), bağımsız değişkenin araştırmacı tarafından bizzat oluşturulması ve sürece müdahale edilmesidir."
+        },
+        {
+            "id": 13,
+            "text": "Glaser ve Strauss tarafından sağlık bilimlerinde hasta-bakıcı etkileşimleri çalışılırken geliştirilen, veri toplama ile analizin eş zamanlı yürütüldüğü ('sürekli karşılaştırmalı analiz') ve mevcut verilerden tümevarımsal olarak yepyeni bir kavramsal model üretmeyi amaçlayan nitel desen hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Etnografik Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Olgubilim (Fenomenoloji)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kuram Oluşturma (Grounded Theory)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Eylem Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Durum Çalışması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kuram oluşturma (Grounded Theory), önceden var olan teorileri test etmek yerine sahadaki doğrudan verilerden hareketle yeni bir teori veya kuram üretmeye odaklanır."
+        },
+        {
+            "id": 14,
+            "text": "Bir okulda öğrencilerin bahçede yaşadıkları çatışmaların nedenlerini belirlemek ve bu pratik sorunu çözmek için o okulun yöneticilerinin veya öğretmenlerinin (uygulayıcıların) bir araştırmacıyla birlikte planlama-eylem-gözlem sürecini yürüttüğü araştırma deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kültür Analizi (Etnografi)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Fenomenolojik İnceleme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Korelasyonel Analiz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Eylem Araştırması (Action Research)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Tarama Araştırması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uygulayıcıların kendi ortamlarındaki somut sorunları çözmek için sürece bizzat katılımcı araştırmacı olarak dahil oldukları yaklaşıma eylem araştırması denir."
+        },
+        {
+            "id": 15,
+            "text": "Bilim dünyasında karşılaşılan etik dışı davranışlardan biri olarak, bir araştırmacının başkasına ait fikirleri, bulguları veya metinleri uygun atıf yapmadan kendi üretimiymiş gibi yayımlamasına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bulandırma (Falsification)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yinelenen Yayın",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Disiplinsiz Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Fikri mülkiyet haklarının kasıtlı ihlali olan ve literatürde en yaygın bilinen etik ihlali başkalarının eserlerini kaynak göstermeden kullanmak yani İntihal/Aşırmacılık'tır."
+        },
+        {
+            "id": 16,
+            "text": "Bilimsel bir araştırmada hipotezi desteklemek amacıyla elde edilen istatistiksel değerleri kasıtlı olarak değiştirmek, grafikleri manipüle etmek veya istenmeyen verileri bilerek analizden çıkarmak hangi tür etik ihlale girer?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bulandırma (Falsification)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kırpma (Cherry-picking)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Aşırmacılık",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Öz-intihal",
+                    "correct": false
+                }
+            ],
+            "explanation": "Var olan verileri veya materyalleri olduğundan daha olumlu veya farklı göstermek maksadıyla üzerinde oynama yapma işlemine Bulandırma (Falsification/Tahrifat) denir."
+        },
+        {
+            "id": 17,
+            "text": "Geliştirilen bir nicel ölçüm aracının (örneğin anket) maddeleri arasındaki iç uyumu ifade eden ve kabul edilebilir sınırının genellikle 0.70'in üzerinde olması beklenen güvenirlik türü/katsayısı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dış geçerlik katsayısı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İç tutarlılık güvenilirliği (Cronbach's Alpha)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "P-değeri (Anlamlılık düzeyi)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Test-tekrar test katsayısı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Değerlendiriciler arası tutarlılık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ölçekteki soruların/maddelerin kendi içindeki tutarlılığını ölçen ve güvenilirliği kanıtlamak için sıkça kullanılan değer Cronbach Alfa katsayısıdır."
+        },
+        {
+            "id": 18,
+            "text": "Özellikle ulaşılması zor veya gizli popülasyonlarla çalışılırken, ulaşılan ilk katılımcılara 'Bu konuyla ilgili kiminle görüşmemi önerirsiniz?' denilerek yeni isimlerin alındığı ve örneklemin ağ şeklinde giderek büyütüldüğü yöntem hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tabakalı Örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tipik Durum Örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kartopu (Zincir) Örnekleme",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Ölçüt Örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kota Örnekleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir kişiden başlayarak o kişinin referanslarıyla diğer katılımcılara ulaşılan ve örneklemin zamanla büyüdüğü seçkisiz olmayan yöntem Kartopu (Zincir) örneklemesidir."
+        },
+        {
+            "id": 19,
+            "text": "Nitel araştırmaların önemli metodolojik özelliklerinden biri olan; araştırmacının sürece kesin kurallar veya hipotezlerle başlamak yerine, sahadan topladığı detaylı verilerden yukarıya çıkarak temalar ve kuramlar oluşturduğu yaklaşım nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tümdengelimsel analiz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İstatistiksel yordama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Standartlaştırma süreci",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tümevarıma Dayalı Analiz",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Bağımlı hipotez sınaması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nitel araştırmalarda genelden özele inmekten (tümdengelim) ziyade, sahadaki özel ve detaylı verilerden genel açıklamalara ve teorilere ulaşan tümevarıma dayalı analiz benimsenir."
+        },
+        {
+            "id": 20,
+            "text": "Nitel araştırmalarda, araştırmacının ulaştığı sonuçların inandırıcılığını ve objektifliğini kanıtlamak için; karar alma süreçlerini, izlediği tüm prosedürleri ve ham veri setlerini sonraki uzmanların inceleyebilmesi amacıyla eksiksiz olarak kayıt altına alması kriterine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Katılımcı Teyidi (Member Checking)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Aktarılabilirlik (Transferability)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dışsal Güvenilebilirlik (Dependability)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Akran Değerlendirmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Onaylanabilirlik ve Denetleme Yolu (Audit trail)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Araştırmacının ulaştığı bulguların verilerle desteklendiğini dışarıdan bir gözün denetleyebilmesi için tüm süreçlerin kaydedilmesi 'Onaylanabilirlik' ve bunun aracı olan 'Denetleme yolu (Audit trail)' kavramıdır."
+        }
+    ]
+}

@@ -1,0 +1,653 @@
+{
+  "meta": {
+    "id": "7f8b9c1d-2e3a-4f5b-9c8d-7e6f5a4b3c2d",
+    "title": "Yazılım Test Teknikleri Y. Lisans Sınavı",
+    "subject": "Yazılım Test Teknikleri",
+    "topic": "Pestisit Paradoksu, Hata Terminolojisi, Geliştirme Modelleri ve Test Teknikleri",
+    "difficulty": "Karma",
+    "grade": "Yüksek Lisans",
+    "created": "2026-05-04"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "Yazılım testinin temel ilkelerinden biri olan 'Pestisit Paradoksu' (The Pesticide Paradox) kavramını en doğru şekilde açıklayan ifade aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Aynı test senaryolarının sürekli tekrarlanması durumunda, sistemin bu testlere karşı direnç geliştirmesi ve yeni hataların bulunamaması.",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Yazılımdaki hataların belirli modüllerde yoğunlaşma eğilimi göstermesi.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hataların yazılım geliştirme sürecinin mümkün olan en erken aşamasında tespit edilmesinin maliyeti düşürmesi.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Yazılımın tüm girdi kombinasyonları ile test edilmesinin fiziksel olarak imkansız olması.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Sistemin beklendiği gibi çalışıyor olmasının, yazılımın hatasız olduğu anlamına gelmemesi.",
+          "correct": false
+        }
+      ],
+      "explanation": "Pestisit paradoksu, tıpkı tarım ilaçlarının sürekli kullanımında böceklerin direnç kazanması gibi, aynı testlerin sürekli koşturulmasının bir süre sonra yeni hata bulma verimliliğini yitireceğini ifade eder."
+    },
+    {
+      "id": 2,
+      "text": "Yazılım güvenilirliği zinciri (dependability threats) kapsamında, bir insanın yaptığı yanlışlıktan başlayarak kullanıcıya yansıyan sürece kadar olan terimlerin doğru sıralaması nedir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Fault -> Error -> Failure -> Incident",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Error -> Fault -> Failure -> Incident",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Failure -> Error -> Fault -> Incident",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Incident -> Failure -> Fault -> Error",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Error -> Failure -> Fault -> Incident",
+          "correct": false
+        }
+      ],
+      "explanation": "Hiyerarşik olarak; insanın yaptığı yanlışlık (Error), bunun koda yansıması (Fault/Bug), kusurlu kodun çalışması (Failure) ve sonucun kullanıcıya yansıması (Incident) şeklinde ilerler."
+    },
+    {
+      "id": 3,
+      "text": "Geleneksel 'Şelale Modeli' (Waterfall Model) ile 'V-Modeli' arasındaki en temel fark aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Şelale modelinde risk analizi her aşamada yapılırken V-Model'de sadece sonda yapılır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "V-Model küçük projeler için uygunken Şelale modeli sadece büyük projeler içindir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "V-Model, geliştirme aşamaları ile test aşamalarını paralel bir yapıda eşleştirerek erken test planlamasını zorunlu kılar.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Şelale modelinde belgeleme şart değilken V-Model'de her aşamada belgeleme istenir.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Şelale modelinde testler kodlama sırasında yapılırken V-Model'de kodlama bittikten sonra yapılır.",
+          "correct": false
+        }
+      ],
+      "explanation": "V-Model, Şelale modelinden farklı olarak her geliştirme aşamasının karşısına denk gelen bir test aşaması koyarak testin sürecin başından itibaren planlanmasını sağlar."
+    },
+    {
+      "id": 4,
+      "text": "Spiral Model'i diğer yazılım geliştirme yaklaşımlarından ayıran en belirgin karakteristik özellik nedir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kodlamanın tüm aşamalardan önce yapılması.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Testlerin sadece kullanıcı kabul testi (UAT) seviyesinde tutulması.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Müşterinin sürece dahil edilmemesi.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Her iterasyonda (döngüde) gerçekleştirilen kapsamlı 'Risk Analizi' aşaması.",
+          "correct": true
+        },
+        {
+          "label": "E",
+          "text": "Hiyerarşik bir organizasyon yapısı yerine sadece çevik (agile) ekiplerle çalışılması.",
+          "correct": false
+        }
+      ],
+      "explanation": "Spiral model, Şelale ve İteratif yöntemleri birleştirirken her döngüde risklerin analiz edilmesine ve azaltılmasına odaklanır."
+    },
+    {
+      "id": 5,
+      "text": "Aşağıdakilerden hangisi bir 'Beyaz Kutu' (White-Box) test tekniğinin temel odak noktasıdır?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kullanıcı arayüzündeki butonların yerleşimi.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Gereksinim dokümanındaki maddelerin doğrulanması.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sistemin rakip ürünlerle karşılaştırılması.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Girdi ve çıktı verilerinin doğruluğu.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Kodun iç yapısı, deyimler (statements) ve kontrol akış dalları.",
+          "correct": true
+        }
+      ],
+      "explanation": "Beyaz kutu testleri, yazılımın iç yapısını, kodunu ve mantıksal yollarını temel alarak 'yapı bazlı' (structure-based) testler yapar."
+    },
+    {
+      "id": 6,
+      "text": "Bir test uzmanı, bankacılık sisteminde para çekme limiti olan 1000 TL ve 5000 TL değerlerini test etmek için 999, 1000, 1001 ve 4999, 5000, 5001 değerlerini seçmiştir.\n\nBu uzman hangi 'Kara Kutu' (Black-Box) test tekniğini uygulamaktadır?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sınır Değer Analizi (Boundary Value Analysis)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Eşdeğerlik Paylaşımı (Equivalence Partitioning)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Karar Tablosu Testi (Decision Table Testing)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Durum Geçiş Testi (State Transition Testing)",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Hata Tahminleme (Error Guessing)",
+          "correct": false
+        }
+      ],
+      "explanation": "Sınır değer analizi, sınırların hemen altındaki, üzerindeki ve tam üstündeki değerleri test ederek hata yakalamayı amaçlar."
+    },
+    {
+      "id": 7,
+      "text": "Statik test teknikleri ile ilgili olarak aşağıda verilen bilgilerden hangisi yanlıştır?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kod çalıştırılmadan yapılan inceleme faaliyetleridir.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sadece yazılım bittikten sonra ve canlıya geçmeden hemen önce uygulanabilir.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Review (gözden geçirme) ve statik analiz araçlarını içerir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Gereksinim hatalarının erken tespitini sağlayarak maliyeti düşürür.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Dokümantasyon ve tasarım belgeleri üzerinde de uygulanabilir.",
+          "correct": false
+        }
+      ],
+      "explanation": "Statik testler yazılım geliştirme sürecinin her aşamasında, hatta gereksinim aşamasında bile uygulanabilir; sistemin bitmesini beklemeye gerek yoktur."
+    },
+    {
+      "id": 8,
+      "text": "Beyaz kutu testlerinde kullanılan 'Deyim Kapsamı' (Statement Coverage) ve 'Karar Kapsamı' (Decision Coverage) arasındaki ilişki hakkında hangisi doğrudur?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "%100 deyim kapsamı sağlandığında, tüm kararların true/false durumları da test edilmiş olur.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Deyim kapsamı, karar kapsamından daha güçlü bir test tekniğidir.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "%100 karar kapsamı sağlanması, otomatik olarak %100 deyim kapsamının da sağlandığı anlamına gelir.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Her iki teknik de sadece kara kutu testlerinde kullanılır.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Deyim kapsamı, kodun sadece 'else' bloklarını test etmek için kullanılır.",
+          "correct": false
+        }
+      ],
+      "explanation": "Karar kapsamı (Decision Coverage), her dalın (true/false) en az bir kez çalışmasını hedeflediği için, her deyimin (satırın) çalışmasını da kapsar."
+    },
+    {
+      "id": 9,
+      "text": "Çevik (Agile) yazılım geliştirme metodolojisinin test süreçlerine yaklaşımı hakkında aşağıdakilerden hangisi söylenebilir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Test aşaması tüm geliştirme bittikten sonra ayrı bir faz olarak ele alınır.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Test uzmanları ve geliştiriciler arasındaki iletişim sadece hata raporları üzerinden yapılır.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Dokümantasyona, çalışan yazılımdan daha fazla önem verilir.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Test, geliştirme süreciyle iç içedir ve her iterasyonda sürekli geri bildirim hedeflenir.",
+          "correct": true
+        },
+        {
+          "label": "E",
+          "text": "Hataların düzeltilmesi projenin en sonuna ertelenir.",
+          "correct": false
+        }
+      ],
+      "explanation": "Agile metodoloji esneklik, hızlı teslimat ve geliştirme süreciyle paralel yürüyen sürekli testi savunur."
+    },
+    {
+      "id": 10,
+      "text": "DevOps kültürü ve test süreçleri arasındaki entegrasyonda en önemli kavram aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Testlerin sadece manuel olarak yapılması.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Geliştirme ve operasyon ekiplerinin tamamen birbirinden izole edilmesi.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Hataların sadece üretim (canlı) ortamında bulunması.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Gereksinimlerin projenin başında dondurulması.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Sürekli Entegrasyon ve Sürekli Teslimat (CI/CD) hattına dahil edilmiş otomatize testler.",
+          "correct": true
+        }
+      ],
+      "explanation": "DevOps, geliştirme ve operasyon arasındaki iş birliğini otomasyonla (CI/CD) birleştirerek hızlı ve kaliteli yazılım teslimatını amaçlar."
+    },
+    {
+      "id": 11,
+      "text": "Statik testler kapsamında yapılan 'Review' (Gözden Geçirme) türlerinden en formal (kuralları sıkı) olanı aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Inspection (Denetleme)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Informal Review (Gayriresmi Gözden Geçirme)",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Walkthrough (Baştan Sona İnceleme)",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Technical Review (Teknik Gözden Geçirme)",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Pair Programming (Eşli Programlama)",
+          "correct": false
+        }
+      ],
+      "explanation": "Inspection, rolleri belirlenmiş bir ekip tarafından, kontrol listeleri kullanılarak yapılan en resmi inceleme türüdür."
+    },
+    {
+      "id": 12,
+      "text": "Edsger Dijkstra'nın 'Program testleri, hataların varlığını gösterebilir ama yokluğunu asla kanıtlayamaz' sözü yazılım testinin hangi temel ilkesini destekler?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Hata kümelenmesi ilkesi.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hata yokluğu hatasızlık değildir (Absence of errors fallacy).",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Erken test zaman ve para kazandırır.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Test bağlama bağlıdır.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Pestisit paradoksu.",
+          "correct": false
+        }
+      ],
+      "explanation": "Testlerin başarılı olması yazılımda hiç hata kalmadığı anlamına gelmez, sadece mevcut testlerin hata bulamadığını gösterir."
+    },
+    {
+      "id": 13,
+      "text": "Test süreçlerinde 'Shift Left' (Sola Kaydırma) yaklaşımı neyi ifade eder?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Testlerin sadece projenin en sol (son) aşamasında yapılmasını.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Test ekibinin geliştirme ekibinden daha az kişiyle çalışmasını.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Test faaliyetlerinin geliştirme yaşam döngüsünün mümkün olan en erken aşamasında başlamasını.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Tüm testlerin otomatize edilerek kodlama sürecinden çıkarılmasını.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Hataların sadece 'left' (kalan) sürelerde raporlanmasını.",
+          "correct": false
+        }
+      ],
+      "explanation": "Shift left, testin sadece kodlama bittikten sonra değil, gereksinim ve tasarım aşamalarından başlayarak erken bir sürece çekilmesidir."
+    },
+    {
+      "id": 14,
+      "text": "Yazılım testinde 'Risk Bazlı Test' (Risk-Based Testing) stratejisinin temel amacı nedir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Sistemin en az kullanılan kısımlarına odaklanmak.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hiç hata çıkmayacak modülleri belirleyip testi bırakmak.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Sadece en kolay test edilebilir fonksiyonları test etmek.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Hata olasılığı ve hatanın yaratacağı etki (kayıp) değerine göre en kritik alanlara öncelik vermek.",
+          "correct": true
+        },
+        {
+          "label": "E",
+          "text": "Risk analizini sadece müşteriye sorumluluk yüklemek için kullanmak.",
+          "correct": false
+        }
+      ],
+      "explanation": "Risk bazlı test, kısıtlı kaynakları en çok hata çıkması muhtemel ve hata çıktığında en çok zarar verecek alanlara yönlendirir."
+    },
+    {
+      "id": 15,
+      "text": "Beyaz kutu testlerinde karşılaşılan 'Yol Patlaması' (Path Explosion) sorunu neyi ifade eder?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Kodun içinde ulaşılamayan (dead code) satırların çokluğunu.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Hata raporlarının sistemde aşırı yer kaplamasını.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Karar yapıları ve döngülerin artmasıyla test edilmesi gereken mantıksal yolların sayısının fiziksel olarak test edilemeyecek kadar artmasını.",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Veritabanı bağlantılarının kopmasını.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Aynı anda çok fazla kullanıcının sisteme girmesiyle oluşan performans kaybını.",
+          "correct": false
+        }
+      ],
+      "explanation": "Büyük sistemlerde tüm olası kod yollarını test etmek, kombinasyonların sonsuza yaklaşması nedeniyle imkansızdır."
+    },
+    {
+      "id": 16,
+      "text": "'Hata Kümelenmesi' (Defect Clustering) ilkesi genellikle hangi istatistiksel prensip ile ilişkilendirilir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Pareto İlkesi (80/20 Kuralı)",
+          "correct": true
+        },
+        {
+          "label": "B",
+          "text": "Moore Kanunu",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Murphy Kanunları",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Normal Dağılım Eğrisi",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Brooks Yasası",
+          "correct": false
+        }
+      ],
+      "explanation": "Hata kümelenmesi ilkesine göre, bir sistemdeki hataların yaklaşık %80'i kodun %20'lik bir kısmında (kritik modüllerde) bulunur."
+    },
+    {
+      "id": 17,
+      "text": "Birim Testi (Unit Testing) seviyesinde asıl sorumlu kişi ve odak noktası nedir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Müşteri - İş gereksinimlerinin karşılanması.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Yazılım Geliştirici - En küçük kod birimlerinin (metot, fonksiyon) doğruluğu.",
+          "correct": true
+        },
+        {
+          "label": "C",
+          "text": "Test Uzmanı - Modüllerin birbirleriyle olan etkileşimi.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Proje Yöneticisi - Projenin bütçeye uygunluğu.",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Sistem Analisti - Kullanıcı arayüzü tasarımı.",
+          "correct": false
+        }
+      ],
+      "explanation": "Birim testleri genellikle geliştiriciler tarafından yapılır ve en küçük test edilebilir parçanın doğru çalıştığını doğrular."
+    },
+    {
+      "id": 18,
+      "text": "V-Model'de sol taraf 'Doğrulama' (Verification), sağ taraf ise 'Geçerleme' (Validation) faaliyetlerini temsil eder. 'Geçerleme' aşamasında cevaplanan temel soru hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Yazılımı kurallara göre mi yazdık?",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kodlama standartlarına uyduk mu?",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Doğru ürünü mü inşa ediyoruz? (Gerçek kullanıcı ihtiyacını karşılıyor mu?)",
+          "correct": true
+        },
+        {
+          "label": "D",
+          "text": "Birim testlerinden geçtik mi?",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Hata kayıtlarını doğru açtık mı?",
+          "correct": false
+        }
+      ],
+      "explanation": "Verification (Doğrulama) ürünün şartnamelere uygunluğunu; Validation (Geçerleme) ise ürünün gerçek kullanıcı ihtiyacını karşılayıp karşılamadığını kontrol eder."
+    },
+    {
+      "id": 19,
+      "text": "Bir banka uygulamasında IBAN uzunluğu kontrolünün yanlış kurgulanması sonucu paranın yanlış hesaba gitmesi ve müşterinin şikayetçi olması durumunda, 'Failure' (Arıza) hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Geliştiricinin zihnindeki yanlış kurgu.",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Kodun içindeki eksik kontrol satırı.",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Müşterinin bankaya şikayette bulunması.",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Paranın yanlış hesaba transfer edilmiş olması.",
+          "correct": true
+        },
+        {
+          "label": "E",
+          "text": "Analistin yazdığı gereksinim belgesi.",
+          "correct": false
+        }
+      ],
+      "explanation": "Failure (Arıza), kusurlu kodun çalışması sonucunda sistemin beklenen davranıştan sapmasıdır (yanlış transfer)."
+    },
+    {
+      "id": 20,
+      "text": "İş birimlerinin ve son kullanıcıların yazılımı production ortamına almadan önce yaptığı en son test aşaması aşağıdakilerden hangisidir?\n\n---\n\n",
+      "choices": [
+        {
+          "label": "A",
+          "text": "Entegrasyon Testi",
+          "correct": false
+        },
+        {
+          "label": "B",
+          "text": "Sistem Testi",
+          "correct": false
+        },
+        {
+          "label": "C",
+          "text": "Birim Testi",
+          "correct": false
+        },
+        {
+          "label": "D",
+          "text": "Duman (Smoke) Testi",
+          "correct": false
+        },
+        {
+          "label": "E",
+          "text": "Kabul Testi (Acceptance Testing)",
+          "correct": true
+        }
+      ],
+      "explanation": "Kabul testi, yazılımın kabul kriterlerini karşılayıp karşılamadığını doğrulayan son aşamadır ve genellikle müşteri/son kullanıcı tarafından yapılır."
+    }
+  ]
+}

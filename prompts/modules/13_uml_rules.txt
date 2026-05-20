@@ -1,0 +1,52 @@
+# UML (Unified Modeling Language) Kuralları
+
+## Kapsam
+Bu modül, UML diyagramlarına ve nesne yönelimli tasarım kavramlarına ait test sorularının nasıl üretileceğini tanımlar.
+
+## Diyagram Gösterimi
+1. UML diyagramları görsel çizilebiliyorsa TikZ ile (`tikz` alanına) yerleştirilmelidir; aksi hâlde metin tabanlı ASCII gösterim veya PlantUML benzeri sözdizimi `"code"` alanında kullanılabilir.
+2. Sınıf diyagramlarında bölümler `+`, `-`, `#`, `~` erişim belirleyicileriyle gösterilmelidir.
+3. PlantUML sözdizimi tercih edildiğinde `@startuml` / `@enduml` bloğu `\n` ile satırlara bölünür.
+
+## Soru Konuları (Öncelik Sırası)
+
+### Yapısal Diyagramlar
+- **Sınıf Diyagramı (Class Diagram):** Sınıf, interface, abstract class; ilişkiler: kalıtım (inheritance `--|>`), gerçekleme (realization `..|>`), bağlantı (association `-->`), bağımlılık (`..>`), bütünleşme (aggregation `o--`), bileşim (composition `*--`); çokluk (multiplicity: `1`, `0..*`, `1..*`)
+- **Nesne Diyagramı (Object Diagram):** Belirli bir andaki nesne örnekleri ve bağlantıları
+- **Bileşen Diyagramı (Component Diagram):** Sistem bileşenleri ve arayüzler
+- **Dağıtım Diyagramı (Deployment Diagram):** Donanım/yazılım yerleşimi
+
+### Davranışsal Diyagramlar
+- **Kullanım Durumu Diyagramı (Use Case Diagram):** Aktör, use case, `<<include>>`, `<<extend>>`, sistem sınırı
+- **Sıralı Diyagram (Sequence Diagram):** Nesne yaşam çizgisi, mesaj (senkron `->`, asenkron `->>`), dönüş (`-->`), `alt`, `loop`, `ref` çerçeveleri
+- **Durum Diyagramı (State Diagram):** Durum, geçiş, olay/eylem, başlangıç/bitiş durumu, bileşik durum
+- **Etkinlik Diyagramı (Activity Diagram):** Eylem, karar (diamond), çatal/birleşim, başlangıç/bitiş nodları, yüzme şeritleri (swimlane)
+- **İletişim Diyagramı (Communication Diagram):** Nesneler arası mesaj sıralaması
+
+### Tasarım Desenleri (Design Patterns)
+- **Yaratımsal:** Singleton, Factory Method, Abstract Factory, Builder, Prototype
+- **Yapısal:** Adapter, Decorator, Facade, Composite, Proxy, Bridge, Flyweight
+- **Davranışsal:** Observer, Strategy, Command, Iterator, Template Method, State, Chain of Responsibility
+
+## Kod Örneği JSON Formatı (PlantUML tabanlı)
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki sınıf diyagramında Kedi ve Kopek sınıfları arasındaki ilişki türü nedir?",
+  "code": "@startuml\nclass Hayvan {\n  +ad: String\n  +sesCikar(): void\n}\nclass Kedi {\n  +miyavla(): void\n}\nclass Kopek {\n  +havla(): void\n}\nHayvan <|-- Kedi\nHayvan <|-- Kopek\n@enduml",
+  "choices": [
+    { "label": "A", "text": "Bağımlılık (Dependency)", "correct": false },
+    { "label": "B", "text": "Bileşim (Composition)", "correct": false },
+    { "label": "C", "text": "Kalıtım (Inheritance)", "correct": true },
+    { "label": "D", "text": "Gerçekleme (Realization)", "correct": false },
+    { "label": "E", "text": "Bütünleşme (Aggregation)", "correct": false }
+  ],
+  "explanation": "Kedi ve Kopek, Hayvan sınıfından kalıtım (generalization / inheritance) yoluyla türemektedir. UML'de bu ilişki içi boş üçgen ok (<|--) ile gösterilir."
+}
+```
+
+## Önemli Kurallar
+- Kalıtım ile gerçekleme (interface implementasyonu) ayrımını sorgulayan sorular etkili tuzak sorulardır.
+- Bütünleşme (aggregation) ile bileşim (composition) arasındaki "sahiplik / yaşam döngüsü" farkı açıklamalarda vurgulanmalıdır.
+- Tasarım deseni sorularında hangi problemi çözdüğü ve hangi prensibe dayandığı (SOLID) açıklamada belirtilmelidir.
+- Çokluk (multiplicity) ifadeleri soran sorularda "tam olarak kaç" anlamını belirten doğru notasyon kullanılmalıdır.

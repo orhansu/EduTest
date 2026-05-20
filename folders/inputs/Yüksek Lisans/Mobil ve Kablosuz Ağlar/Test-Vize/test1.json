@@ -1,0 +1,673 @@
+{
+    "meta": {
+        "id": "e8e7a174-8b9a-4c28-98e3-512a8b3f66c9",
+        "title": "Mobil ve Kablosuz Ağlar Testi",
+        "subject": "Mobil ve Kablosuz Ağlar",
+        "topic": "Kablosuz İletişim Temelleri, Sinyaller, Antenler ve Hata Kontrolü",
+        "difficulty": "Karışık (%30 Kolay, %50 Orta, %20 Zor)",
+        "grade": "Lisans / Lisansüstü",
+        "created": "2026-04-19"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "difficulty": "Kolay",
+            "text": "Elektromanyetik dalgaların boşlukta yayıldığı varsayıldığında, sinyal hızı (ışık hızı, \\( v=c \\)) yaklaşık olarak aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( 3 \\times 10^8 \\) m/s",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "\\( 3 \\times 10^6 \\) m/s",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( 3 \\times 10^4 \\) m/s",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( 3.14 \\times 10^8 \\) m/s",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( 3 \\times 10^{10} \\) m/s",
+                    "correct": false
+                }
+            ],
+            "explanation": "Elektromanyetik sinyallerin iletim hesaplamalarında boşluktaki hızı ışık hızına eşittir ve değeri \\( c = 3 \\times 10^8 \\) m/s'dir."
+        },
+        {
+            "id": 2,
+            "difficulty": "Kolay",
+            "text": "Bluetooth ve kızılötesi gibi teknolojileri barındıran, kullanıcıyı genel olarak 10 metre uzaklığa kadar çevreleyen kablosuz ağ türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "WLAN (Kablosuz Yerel Alan Ağı)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "WPAN (Kablosuz Kişisel Alan Ağı)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "WWAN (Kablosuz Geniş Alan Ağı)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "WMAN (Kablosuz Metropol Alan Ağı)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "VLAN (Sanal Yerel Alan Ağı)",
+                    "correct": false
+                }
+            ],
+            "explanation": "WPAN (Wireless Personal Area Network), kullanıcıların kişisel çevresinde kısa mesafelerde (genellikle 10 metreye kadar) cihazlarını birbirine bağlayan ağdır."
+        },
+        {
+            "id": 3,
+            "difficulty": "Kolay",
+            "text": "Geleneksel GSM hatlarında ve telefon altyapılarında kullanılan, bant genişliğinin tamamen kullanıcıya ayrıldığı ve iletişime başlamadan önce mutlaka bir hat kurulum (setup) işlemi gerektiren anahtarlama türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Paket Anahtarlama (Packet Switching)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mesaj Anahtarlama (Message Switching)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Devre Anahtarlama (Circuit Switching)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Datagram Anahtarlama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sanal Devre Anahtarlama (Virtual Circuit Switching)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Devre anahtarlamalı (circuit-switched) ağlarda veri aktarımından önce adanmış bir hat (circuit) kurulur. Klasik GSM ve telefon sistemleri buna örnektir."
+        },
+        {
+            "id": 4,
+            "difficulty": "Kolay",
+            "text": "İnternette yaygın olarak kullanılan, verilerin 16-bitlik parçalar halinde birin tümleyeni (1's complement) aritmetiğiyle toplanıp sonucun tümleyeninin alındığı hata denetim yöntemi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CRC (Cyclic Redundancy Check)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Parity Check (Eşlik Denetimi)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hamming Kodu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Checksum (Sağlama Toplamı)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Reed-Solomon Kodu",
+                    "correct": false
+                }
+            ],
+            "explanation": "Checksum yönteminde gönderilen bloklar toplanır ve 1'in tümleyeni alınarak eklenir. Alıcı tarafta tüm bloklar ve checksum toplandığında sonuç 0 olmalıdır."
+        },
+        {
+            "id": 5,
+            "difficulty": "Kolay",
+            "text": "Kablosuz Yerel Alan Ağlarında (WLAN), ortamda bir Erişim Noktası (Access Point - AP) olmaksızın, bilgisayarların kablosuz ağ kartları vasıtasıyla birbirleriyle doğrudan haberleştiği topoloji aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "BSS (Basic Service Set)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ESS (Extended Service Set)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Altyapı (Infrastructure) Modeli",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "DSS (Distribution Service Set)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ad-hoc (Cihazdan cihaza) Modeli",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ad-hoc (peer-to-peer) modelde bir AP'ye ihtiyaç duyulmaz; cihazlar doğrudan birbirleriyle iletişim kurarak bir Bağımsız Temel Servis Kümesi (IBSS) oluşturur."
+        },
+        {
+            "id": 6,
+            "difficulty": "Kolay",
+            "text": "Gerçekte üretilmesi mümkün olmayan, ancak teorik hesaplamalarda referans olarak kullanılan ve elektromanyetik sinyali üç boyutlu uzayda her yöne eşit güçte yaydığı varsayılan ideal anten türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İzotropik (Isotropic) Anten",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Dipol Anten",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yagi-Uda Anteni",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Parabolik Anten",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "MIMO Anten",
+                    "correct": false
+                }
+            ],
+            "explanation": "İzotropik antenler fiziksel olarak yoktur, ancak her yöne ideal ve eşit sinyal yaydıkları varsayılarak anten kazancını (dBi) hesaplamak için temel referans noktası olarak kullanılırlar."
+        },
+        {
+            "id": 7,
+            "difficulty": "Orta",
+            "text": "Gürültülü bir kanalda elde edilebilecek maksimum veri iletim hızını (kanal kapasitesini) belirten Shannon Kapasite formülü aşağıdakilerden hangisinde doğru verilmiştir? (C: Kapasite, B: Bant genişliği, SNR: Sinyal-Gürültü Oranı)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( C = 2B \\log_2(M) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( C = B \\log_2(1 + SNR) \\)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "\\( C = 2B \\log_{10}(1 + SNR) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( C = B \\log_{10}(SNR) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( C = B \\times SNR \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Shannon kapasite formülü, gürültülü kanallarda teorik maksimum veri hızını verir ve \\( C = B \\log_2(1 + SNR) \\) formülüyle hesaplanır."
+        },
+        {
+            "id": 8,
+            "difficulty": "Orta",
+            "text": "Serbest uzay yol kaybı (Free Space Loss) hesaplamalarında, d antenler arası mesafe (metre) ve f frekans (Hz) olmak üzere, desibel (dB) cinsinden kayıp miktarını ifade eden standart formül aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( L_{dB} = 10 \\log(f) + 10 \\log(d) - 32.44 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( L_{dB} = 10 \\log(f) + 20 \\log(d) + 147.56 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( L_{dB} = 20 \\log(f) + 20 \\log(d) - 147.56 \\)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "\\( L_{dB} = 20 \\log(f) - 10 \\log(d) + 32.44 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( L_{dB} = 10 \\log(f) - 20 \\log(d) - 147.56 \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Metre ve Hertz cinsinden serbest uzay kayıp formülünün açılımı \\( 20 \\log(f) + 20 \\log(d) - 147.56 \\) dB olarak bulunur. (Km ve GHz cinsinden olursa 92.45 sabiti kullanılır)."
+        },
+        {
+            "id": 9,
+            "difficulty": "Orta",
+            "text": "İletilecek sinyalin belirli zaman aralıklarında sahte-rastgele (pseudo-random) bir koda dayanarak frekanstan frekansa zıplayarak daha geniş bir banda yayıldığı Spread Spectrum tekniği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "DSSS (Direct Sequence Spread Spectrum)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "CDMA (Code Division Multiple Access)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "FDM (Frequency Division Multiplexing)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "FHSS (Frequency Hopping Spread Spectrum)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "QPSK (Quadrature Phase Shift Keying)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Frequency Hopping Spread Spectrum (FHSS), dar bantlı bir sinyali, taşıyıcı frekansını hızla değiştirerek (zıplatarak) geniş bir spektruma yayma tekniğidir."
+        },
+        {
+            "id": 10,
+            "difficulty": "Orta",
+            "text": "Analog bir verinin (örneğin insan sesi) sayısal bir sinyale dönüştürülmesinde kullanılan Darbe Kod Modülasyonu (PCM - Pulse Code Modulation) sürecindeki aşamalar hangi seçenekte doğru sırayla verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kuantalama \\(\\rightarrow\\) Kodlama \\(\\rightarrow\\) Örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kodlama \\(\\rightarrow\\) Örnekleme \\(\\rightarrow\\) Kuantalama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Örnekleme \\(\\rightarrow\\) Kodlama \\(\\rightarrow\\) Kuantalama",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kuantalama \\(\\rightarrow\\) Örnekleme \\(\\rightarrow\\) Kodlama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Örnekleme \\(\\rightarrow\\) Kuantalama (Sayısallaştırma) \\(\\rightarrow\\) Kodlama",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bir analog sinyali sayısala dönüştürmek için öncelikle sinyalden ayrık zamanlı kesitler alınır (Örnekleme), bu değerler belirli voltaj seviyelerine yuvarlanır (Kuantalama) ve son olarak ikili sisteme (0 ve 1) çevrilir (Kodlama)."
+        },
+        {
+            "id": 11,
+            "difficulty": "Orta",
+            "text": "Bir antenin efektif etki alanı (\\( A_e \\)) ile anten kazancı (G) arasındaki matematiksel ilişki, dalga boyu (\\( \\lambda \\)) göz önüne alındığında aşağıdaki formüllerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( G = \\frac{4\\pi A_e}{\\lambda^2} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "\\( G = \\frac{\\lambda^2}{4\\pi A_e} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( G = 4\\pi A_e \\lambda^2 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( G = \\frac{2\\pi A_e}{\\lambda} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( G = \\frac{A_e}{4\\pi \\lambda^2} \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anten kazancı, antenin fiziksel boyutu ve dalga boyu ile doğrudan ilişkilidir. Standart ilişki \\( G = \\frac{4\\pi A_e}{\\lambda^2} \\) formülüyle ifade edilir."
+        },
+        {
+            "id": 12,
+            "difficulty": "Orta",
+            "text": "Bir hata kontrol kodlama yönteminde minimum Hamming uzaklığı \\( d_{min} = 5 \\) olarak belirlenmiştir. Bu kodlama sistemi, en fazla kaç bitlik (t) hatayı kesin olarak düzeltebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hata düzeltme kapasitesi (t) ile minimum Hamming uzaklığı arasındaki ilişki \\( d_{min} = 2t + 1 \\) formülüyle bulunur. \\( 5 = 2t + 1 \\Rightarrow t = 2 \\) bit olarak hesaplanır."
+        },
+        {
+            "id": 13,
+            "difficulty": "Orta",
+            "text": "IEEE 802.11 standartları ailesinde yer alan 802.11a ve 802.11b standartlarının sırasıyla kullandığı frekans bantları ve modülasyon tipleri aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "802.11a (2.4 GHz, DSSS) - 802.11b (5 GHz, OFDM)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "802.11a (5 GHz, DSSS) - 802.11b (2.4 GHz, OFDM)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "802.11a (5 GHz, OFDM) - 802.11b (2.4 GHz, DSSS)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "802.11a (2.4 GHz, OFDM) - 802.11b (5 GHz, FHSS)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "802.11a (5 GHz, FHSS) - 802.11b (2.4 GHz, OFDM)",
+                    "correct": false
+                }
+            ],
+            "explanation": "802.11a standardı 5 GHz bandında OFDM kullanırken (maks 54 Mbps), 802.11b standardı 2.4 GHz bandında DSSS kullanır (maks 11 Mbps)."
+        },
+        {
+            "id": 14,
+            "difficulty": "Orta",
+            "text": "Kablosuz ağların ilk dönemlerinde yaygınca kullanılmış olan WEP (Wired Equivalent Privacy) güvenlik protokolü, hangi şifreleme algoritmasını kullanmaktadır ve ilettiği Başlangıç Vektörünün (IV) uzunluğu kaç bittir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AES algoritması, 48-bit IV",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "DES algoritması, 64-bit IV",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "RSA algoritması, 128-bit IV",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "RC4 algoritması, 24-bit IV",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "RC4 algoritması, 48-bit IV",
+                    "correct": false
+                }
+            ],
+            "explanation": "WEP, Ron Rivest tarafından geliştirilen RC4 akış şifreleme algoritmasını ve hızlıca kendini tekrarlayabilen yetersiz uzunluktaki 24-bitlik bir Başlangıç Vektörünü (IV) kullanır."
+        },
+        {
+            "id": 15,
+            "difficulty": "Orta",
+            "text": "Çoğullama (Multiplexing) yöntemlerinden Frekans Bölmeli Çoklama'nın (FDM) çalışma prensibi aşağıdakilerden hangisinde en doğru şekilde açıklanmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tüm bant genişliği zamana bölünerek her cihaza sırayla belirli zaman aralıklarında (timeslot) iletim hakkı verilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Her cihaz aynı frekans bandını kullanarak kendilerine atanan farklı dikey kod dizileriyle (orthogonal codes) iletişim kurar.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Veriler paketlere bölünür ve paket boyutlarına göre dinamik yönlendirme tabloları oluşturulur.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Fiziksel kablo altyapısındaki fiber optik ışınlar, zamanla senkronize edilerek switch portlarına dağıtılır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bağlantının toplam bant genişliği, farklı cihazların iletimi için eş zamanlı kullanabilecekleri alt frekans kanallarına bölünür.",
+                    "correct": true
+                }
+            ],
+            "explanation": "FDM (Frequency-Division Multiplexing) yönteminde iletim ortamının toplam bant genişliği, farklı cihazların (örneğin radyo kanallarının) aynı anda kullanabilmesi için alt frekanslara (taşıyıcılara) bölünür."
+        },
+        {
+            "id": 16,
+            "difficulty": "Orta",
+            "text": "Sanal devre ağlarında (Virtual-Circuit Networks) paketlerin anahtarlar (switch) üzerinden yönlendirilmesi sırasında, global adreslerin yerine kullanılan ve ağ ölçeğinde tekil (unique) olmak zorunda olmayıp sadece ilgili switch portunda çalışan adresleme kimliği (numarası) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "VCI (Virtual Circuit Identifier)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "MAC Adresi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IP Adresi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "SSID",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "CRC Kimliği",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sanal Devre Identifier (VCI) numarası, bir sanal devre ağında paketlerin belirli bir switch'in hangi portundan girip hangi portundan çıkacağını belirleyen yerel etiketlerdir."
+        },
+        {
+            "id": 17,
+            "difficulty": "Zor",
+            "text": "Gürültüsüz bir iletişim kanalında Nyquist teoremine göre maksimum veri kapasitesi hesaplanacaktır. Kanalın bant genişliği \\( B = 2 \\text{ MHz} \\) ve iletimde kullanılan ayrık sinyal düzeyi sayısı \\( M = 16 \\) olarak verilmiştir. Buna göre kanal kapasitesi (C) kaç Mbps'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "8 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "16 Mbps",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "32 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "64 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "128 Mbps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nyquist formülüne göre \\( C = 2B \\log_2(M) \\) şeklindedir. Hesaplama: \\( C = 2 \\times (2 \\times 10^6) \\times \\log_2(16) \\Rightarrow 4 \\times 10^6 \\times 4 = 16 \\times 10^6 \\) bps, yani 16 Mbps elde edilir."
+        },
+        {
+            "id": 18,
+            "difficulty": "Zor",
+            "text": "Wi-Fi Alliance tarafından 802.11i standardına bir geçiş çözümü olarak duyurulan WPA (Wi-Fi Protected Access) standardında, WEP'in donanımsal zayıflıklarını gidermek için tasarlanmış; 48-bit IV kullanan, her çerçeve için yeni bir anahtar üreten ve doğrusal olmayan MIC mesaj bütünlük algoritmasını barındıran protokol aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AES-CCMP",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "802.1X / EAP",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "TKIP (Temporal Key Integrity Protocol)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "FHSS (Frequency Hopping Spread Spectrum)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "RADIUS",
+                    "correct": false
+                }
+            ],
+            "explanation": "TKIP (Geçici Anahtar Bütünlüğü Protokolü), eski donanımların RC4 temelli çiplerini kullanmaya devam ederek WEP'in zayıflıklarını yazılımsal yollarla (48 bit IV, Michael MIC, periyodik anahtar değişimi) kapatmak için tasarlanmıştır."
+        },
+        {
+            "id": 19,
+            "difficulty": "Zor",
+            "text": "Kod Bölmeli Çoklu Erişim (CDMA) sisteminde, A kullanıcısına tahsis edilen dikey yayma kodu (orthogonal spreading code) \\( \\langle 1, -1, 1, -1 \\rangle \\) şeklindedir. Bu kullanıcı sisteme ikili (binary) '0' bilgisini (veri bitini) iletmek istediğinde, ortama göndereceği chip dizisi (chip pattern) aşağıdakilerden hangisi olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( \\langle 1, -1, 1, -1 \\rangle \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( \\langle 0, 0, 0, 0 \\rangle \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( \\langle 1, 1, 1, 1 \\rangle \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( \\langle -1, 1, -1, 1 \\rangle \\)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "\\( \\langle -1, -1, -1, -1 \\rangle \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "CDMA sisteminde gönderici '1' bitini iletmek için kodun kendisini, '0' bitini iletmek için ise kodun tümleyenini (negatif halini) kullanır. Bu nedenle \\( \\langle 1, -1, 1, -1 \\rangle \\) kodu \\( \\langle -1, 1, -1, 1 \\rangle \\) şeklinde ortama basılır."
+        },
+        {
+            "id": 20,
+            "difficulty": "Zor",
+            "text": "Kentsel alanlardaki mobil haberleşme sistemlerinde ortalama sinyal zayıflamasını tahmin etmek amacıyla yaygın olarak kullanılan 'Okumura Hata Modeli'nin geçerli kabul edilebilmesi için; frekans aralığı, baz istasyonu-alıcı arası uzaklık ve baz istasyonu anten yüksekliği sırasıyla hangi parametre sınırları içinde olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1-10 MHz frekans, 1-10 km mesafe, 1-10 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "30-100 MHz frekans, 100-200 km mesafe, 10-30 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "2.4-5 GHz frekans, 1-5 km mesafe, 5-10 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "100-500 MHz frekans, 1-10 km mesafe, 5-20 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "150-1920 MHz frekans, 1-100 km mesafe, 30-1000 m anten yüksekliği",
+                    "correct": true
+                }
+            ],
+            "explanation": "Okumura modeli, kentsel alanlarda radyo yayılımını modellemek için 150-1920 MHz arası frekanslarda, 1-100 km arası mesafelerde ve 30-1000 metre arası baz istasyonu anten yüksekliklerinde kullanılmaktadır."
+        }
+    ]
+}

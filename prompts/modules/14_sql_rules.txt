@@ -1,0 +1,80 @@
+# SQL (Structured Query Language) Kuralları
+
+## Kapsam
+Bu modül, SQL ve ilişkisel veritabanı kavramlarına ait test sorularının nasıl üretileceğini tanımlar. Sorular standart SQL (ANSI) temelinde olmalı; T-SQL (SQL Server) veya PL/pgSQL (PostgreSQL) gibi diyalekt özellikleri sorularda belirtilmelidir.
+
+## Kod Gösterimi
+1. SQL sorguları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. SQL anahtar kelimeleri büyük harf ile yazılmalıdır (`SELECT`, `FROM`, `WHERE`, `JOIN` vb.).
+3. Tablo ve sütun adları küçük harf / snake_case ile gösterilmelidir (ör. `orders`, `customer_id`).
+4. JSON string içindeki tırnak işaretleri `\"` olarak kaçırılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+
+### Temel Sorgular (DML – Data Manipulation Language)
+- `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `LIMIT` / `TOP`
+- `INSERT INTO … VALUES …`, `UPDATE … SET … WHERE …`, `DELETE FROM … WHERE …`
+- `DISTINCT`, `AS` (alias), `LIKE`, `IN`, `BETWEEN`, `IS NULL` / `IS NOT NULL`
+- Aggregate fonksiyonlar: `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`
+- `GROUP BY` ve `HAVING` (GROUP BY sonrası filtreleme için; WHERE ile farkı)
+
+### Join İşlemleri
+- `INNER JOIN`: Her iki tabloda eşleşen kayıtlar
+- `LEFT JOIN` / `RIGHT JOIN`: Eşleşmeyen kayıtların NULL olarak dahil edilmesi
+- `FULL OUTER JOIN`: Her iki tablodaki tüm kayıtlar
+- `CROSS JOIN`: Kartezyen çarpım
+- Self-join: Bir tablonun kendisiyle birleştirilmesi
+- Çoklu join: Üç veya daha fazla tablo birleştirme
+
+### Alt Sorgular (Subquery)
+- `WHERE` içinde alt sorgu (`IN`, `EXISTS`, `ANY`, `ALL`)
+- `FROM` içinde türetilmiş tablo (derived table / inline view)
+- Correlated (ilişkili) alt sorgu: Dış sorguya başvuran iç sorgu
+
+### Pencere Fonksiyonları (Window Functions)
+- `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()` farkları
+- `OVER (PARTITION BY … ORDER BY …)` sözdizimi
+- `LAG()` / `LEAD()`: Önceki / sonraki satır değerine erişim
+- `SUM() OVER (…)`: Kümülatif toplam
+
+### Tablo Tanımlama (DDL – Data Definition Language)
+- `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
+- `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `DEFAULT`, `CHECK` kısıtlamaları
+- Index oluşturma: `CREATE INDEX`, `CREATE UNIQUE INDEX`
+
+### Veri Bütünlüğü ve Normalizasyon
+- 1NF, 2NF, 3NF, BCNF tanımları ve ihlal örnekleri
+- Referential integrity (Referans bütünlüğü): `ON DELETE CASCADE` / `SET NULL` / `RESTRICT`
+- Transaksiyonlar: `BEGIN`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`; ACID özellikleri (Atomicity, Consistency, Isolation, Durability)
+
+### İleri Kavramlar
+- View (`CREATE VIEW`) ve Materialized View farkı
+- Stored Procedure vs Function farkı
+- Trigger: `BEFORE` / `AFTER`, `INSERT` / `UPDATE` / `DELETE` olayları
+- CTE (Common Table Expression): `WITH cte_name AS (…) SELECT …`
+- `UNION` vs `UNION ALL` farkı
+- `CASE WHEN … THEN … ELSE … END` ifadesi
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki SQL sorgusu hangi sonucu döndürür?",
+  "code": "SELECT department, COUNT(*) AS emp_count\nFROM employees\nWHERE salary > 5000\nGROUP BY department\nHAVING COUNT(*) > 3\nORDER BY emp_count DESC;",
+  "choices": [
+    { "label": "A", "text": "Tüm departmanların çalışan sayısını listeler.", "correct": false },
+    { "label": "B", "text": "Maaşı 5000'den fazla olan ve 3'ten fazla çalışanı bulunan departmanları çalışan sayısına göre azalan sırada listeler.", "correct": true },
+    { "label": "C", "text": "Maaşı 5000'den fazla olan tüm çalışanları listeler.", "correct": false },
+    { "label": "D", "text": "Her departmanın toplam maaşını listeler.", "correct": false },
+    { "label": "E", "text": "Sözdizimi hatası verir; HAVING WHERE'den önce yazılmalıdır.", "correct": false }
+  ],
+  "explanation": "WHERE satır bazlı filtreleme yaparken (GROUP BY öncesi), HAVING grup bazlı filtreleme yapar (GROUP BY sonrası). Sorgu: maaşı > 5000 olan çalışanları gruplar, 3'ten fazla çalışanı olan departmanları seçer ve azalan sırada listeler."
+}
+```
+
+## Önemli Kurallar
+- `WHERE` ile `HAVING` farkını test eden sorular etkili tuzak sorulardır.
+- `LEFT JOIN` ve `INNER JOIN` sonuçlarının farklılaştığı NULL içeren senaryolar kullanılabilir.
+- `RANK()` ile `DENSE_RANK()` arasındaki sıralama farkı (boşluk bırakma) karıştırıcı sorular üretmek için idealdir.
+- Normalizasyon sorularında somut bir tablo örneği üzerinden ihlal gösterilmelidir.
+- Transaksyon sorularında ACID özelliklerinden hangisinin ihlal edildiği veya hangi komutun ne işe yaradığı sorgulanmalıdır.

@@ -1,0 +1,659 @@
+{
+    "meta": {
+        "id": "f8a93721-6d8c-4a1e-8f2e-1c9f4d2a1b7e",
+        "title": "Üçgenler ve Üçgende Açılar Testi",
+        "subject": "Geometri",
+        "topic": "Üçgende Açılar, Kenar Bağıntıları ve Özel Üçgenler",
+        "difficulty": "Karışık",
+        "grade": "KPSS",
+        "created": "2026-04-19"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Bir ABC üçgeninde iç açılardan \\( m(\\widehat{A}) = 40^\\circ \\) ve \\( m(\\widehat{B}) = 60^\\circ \\) olarak verilmiştir. Buna göre \\( m(\\widehat{C}) \\) kaç derecedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "50",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "70",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "80",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "90",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "100",
+                    "correct": false
+                }
+            ],
+            "explanation": "Şenol Hoca'nın belirttiği evrensel kurala göre üçgenin iç açıları toplamı daima \\( 180^\\circ \\)'dir. \\( 40^\\circ + 60^\\circ + m(\\widehat{C}) = 180^\\circ \\) olduğundan \\( m(\\widehat{C}) = 80^\\circ \\) olur."
+        },
+        {
+            "id": 2,
+            "text": "Bir üçgende iki iç açının ölçüleri sırasıyla \\( 50^\\circ \\) ve \\( 70^\\circ \\)'dir. Bu üçgende, bu iki açıya komşu olmayan dış açının ölçüsü kaç derecedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "90",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "100",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "110",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "120",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "130",
+                    "correct": false
+                }
+            ],
+            "explanation": "İki iç açının toplamı, kendisine komşu olmayan diğer (uzaktaki) dış açıya eşittir. Toplamları \\( 50^\\circ + 70^\\circ = 120^\\circ \\) olur."
+        },
+        {
+            "id": 3,
+            "text": "Tepe açısı dışındaki taban açılarından biri \\( 50^\\circ \\) olan ikizkenar bir üçgenin tepe açısı kaç derecedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "40",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "50",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "60",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "70",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "80",
+                    "correct": true
+                }
+            ],
+            "explanation": "İkizkenar üçgende taban açıları birbirine eşittir. Diğer taban açısı da \\( 50^\\circ \\) olur. İkisinin toplamı \\( 100^\\circ \\) yapar, \\( 180^\\circ \\)'den çıkarıldığında tepe açısına \\( 80^\\circ \\) kalır."
+        },
+        {
+            "id": 4,
+            "text": "Dik kenarlarının uzunlukları 6 cm ve 8 cm olan bir dik üçgenin hipotenüs uzunluğu kaç cm'dir?",
+            "tikz": [
+                "\\begin{tikzpicture}\n\\draw[thick] (0,0) -- (4,0) -- (0,3) -- cycle;\n\\draw (0.3,0) -- (0.3,0.3) -- (0,0.3);\n\\node[below] at (2,0) {8};\n\\node[left] at (0,1.5) {6};\n\\node[above right] at (2,1.5) {x};\n\\end{tikzpicture}"
+            ],
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "10",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "12",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "14",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "16",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "18",
+                    "correct": false
+                }
+            ],
+            "explanation": "Pisagor teoremine göre \\( 6^2 + 8^2 = x^2 \\Rightarrow 36 + 64 = 100 \\). Buradan \\( x = 10 \\) cm bulunur. Şenol Hoca'nın belirttiği 3-4-5 özel üçgeninin 2 katıdır."
+        },
+        {
+            "id": 5,
+            "text": "Bütün kenar uzunlukları birbirine eşit olan bir eşkenar üçgenin herhangi bir dış açısının ölçüsü kaç derecedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "60",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "120",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "150",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "180",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "360",
+                    "correct": false
+                }
+            ],
+            "explanation": "Eşkenar üçgenin tüm iç açıları \\( 60^\\circ \\)'dir. İç açıyı \\( 180^\\circ \\)'ye tamamlayan dış açı ise \\( 180^\\circ - 60^\\circ = 120^\\circ \\)'dir."
+        },
+        {
+            "id": 6,
+            "text": "Bir üçgenin herhangi bir kenarına ait orta taban uzunluğu 12 cm ise, bu üçgenin orta tabanının paralel olduğu ana tabanının uzunluğu kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "6",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "18",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "24",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "30",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "36",
+                    "correct": false
+                }
+            ],
+            "explanation": "Orta taban, paralel olduğu ana tabanın daima yarısına eşittir. Orta taban 12 cm ise, ana taban \\( 12 \\times 2 = 24 \\) cm olur."
+        },
+        {
+            "id": 7,
+            "text": "Bir ABC üçgeninin kenar uzunlukları \\( a = 5 \\) cm ve \\( b = 12 \\) cm'dir. Üçgen eşitsizliğine göre üçüncü kenar olan \\( c \\)'nin alabileceği en büyük tam sayı değeri kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "16",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "17",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "18",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "19",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "20",
+                    "correct": false
+                }
+            ],
+            "explanation": "Üçgen eşitsizliğine göre bir kenar, diğer iki kenarın toplamından kesinlikle küçük olmalıdır. \\( c < 5 + 12 \\Rightarrow c < 17 \\). Bu duruma göre alabileceği en büyük tam sayı 16 olur."
+        },
+        {
+            "id": 8,
+            "text": "Bir üçgende iki kenar uzunluğu sırasıyla 6 cm ve 8 cm'dir. Bu iki kenar arasındaki açının ölçüsü \\( 90^\\circ \\)'den büyüktür (Geniş açı). Buna göre üçüncü kenarın uzunluğunun alabileceği en küçük tam sayı değeri kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "9",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "10",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "11",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "12",
+                    "correct": false
+                }
+            ],
+            "explanation": "Açı geniş açı ( \\( >90^\\circ \\) ) olduğu için karşıdaki kenarın karesi, diğer iki kenarın kareleri toplamından büyük olmalıdır: \\( x^2 > 6^2 + 8^2 \\Rightarrow x^2 > 100 \\Rightarrow x > 10 \\). Alabileceği en küçük tam sayı değeri 11'dir."
+        },
+        {
+            "id": 9,
+            "text": "Bir dik üçgende, \\( 90^\\circ \\)'lik dik açıdan hipotenüse indirilen kenarortayın uzunluğu 15 cm'dir. Buna göre, bu dik üçgenin hipotenüs uzunluğu kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "15",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "30",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "45",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "60",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "75",
+                    "correct": false
+                }
+            ],
+            "explanation": "Şenol Hoca'nın 'Muhteşem Üçlü' kuralına göre; dik üçgende dik açıdan inen kenarortay, ayırdığı iki parçaya eşittir. Hipotenüs iki eş parçaya bölünür (15 cm ve 15 cm). Tamamı \\( 15 + 15 = 30 \\) cm olur."
+        },
+        {
+            "id": 10,
+            "text": "Bir ABC üçgeninin ağırlık merkezi G noktasıdır. A noktasından inen kenarortayın, G noktası ile indiği taban arasındaki uzunluğu 5 cm'dir. Buna göre A köşesi ile G noktası arasındaki uzunluk kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "2.5",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "5",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "7.5",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "10",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ağırlık merkezi, kenarortayı 'tabana 1 birim, sivri uca (köşeye) 2 birim' oranında (1'e 2) böler. Tabana inen kısım 5 cm ise köşeye giden kısım onun iki katı, yani 10 cm'dir."
+        },
+        {
+            "id": 11,
+            "text": "Bir dik üçgende, dik açıdan hipotenüse indirilen yüksekliğin, hipotenüs üzerinde ayırdığı parçaların uzunlukları 4 cm ve 9 cm'dir. Buna göre bu yüksekliğin uzunluğu kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "6",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "10",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "12",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "36",
+                    "correct": false
+                }
+            ],
+            "explanation": "Diklikten diklik iniyorsa Öklid teoremi uygulanır. Yüksekliğin karesi, böldüğü parçaların çarpımına eşittir: \\( h^2 = p \\times k \\). Buradan \\( h^2 = 4 \\times 9 = 36 \\Rightarrow h = 6 \\) cm elde edilir."
+        },
+        {
+            "id": 12,
+            "text": "Bir \\( 30^\\circ-60^\\circ-90^\\circ \\) üçgeninde, \\( 30^\\circ \\)'lik açının karşısındaki kenarın uzunluğu 5 cm'dir. Buna göre \\( 60^\\circ \\)'lik açının karşısındaki kenarın uzunluğu kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( 5 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( 5\\sqrt{2} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( 5\\sqrt{3} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "\\( 10 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( 10\\sqrt{3} \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Özel 30-60-90 üçgeni kuralına göre, \\( 60^\\circ \\)'nin karşısındaki kenar, daima \\( 30^\\circ \\)'nin karşısındaki kenarın \\( \\sqrt{3} \\) katına eşittir. Dolayısıyla cevap \\( 5\\sqrt{3} \\) olur."
+        },
+        {
+            "id": 13,
+            "text": "Bir ikizkenar dik üçgenin ( \\( 45^\\circ-45^\\circ-90^\\circ \\) ) hipotenüs uzunluğu \\( 8\\sqrt{2} \\) cm'dir. Buna göre dik kenarlardan birinin uzunluğu kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( 4\\sqrt{2} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( 8 \\)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "\\( 8\\sqrt{2} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( 16 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( 16\\sqrt{2} \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "45-45-90 özel üçgeninde, hipotenüs daima dik kenarın \\( \\sqrt{2} \\) katıdır. Hipotenüs \\( 8\\sqrt{2} \\) ise, dik kenar 8 cm olmalıdır."
+        },
+        {
+            "id": 14,
+            "text": "İç açıortay teoremine göre; bir açıortayın tabanda ayırdığı iki parça sırasıyla 3 cm ve 5 cm'dir. Üçgenin 3 cm'lik tabanına denk gelen (bitişik) kanadı 6 cm ise, 5 cm'lik tabanına denk gelen kanadı kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "6",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "10",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "12",
+                    "correct": false
+                }
+            ],
+            "explanation": "İç açıortay teoreminde 'kanatların tabanlara oranı' birbirine eşittir (Açıortayın başladığı yerden bittiği yere gelme yolları eşitliği). \\( \\frac{6}{3} = \\frac{x}{5} \\Rightarrow 2 = \\frac{x}{5} \\Rightarrow x = 10 \\)."
+        },
+        {
+            "id": 15,
+            "text": "Bir ABC üçgeninde, B ve C açılarının iç açıortayları üçgenin içinde bir noktada kesişmektedir. Bu iki açıortay arasında kalan açı \\( 130^\\circ \\) olduğuna göre, A açısı kaç derecedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "40",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "50",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "60",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "70",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "80",
+                    "correct": true
+                }
+            ],
+            "explanation": "İki iç açıortayın oluşturduğu geniş açı formülü \\( 90^\\circ + \\frac{m(\\widehat{A})}{2} \\) ile ifade edilir. \\( 90 + \\frac{A}{2} = 130 \\Rightarrow \\frac{A}{2} = 40 \\Rightarrow A = 80^\\circ \\)."
+        },
+        {
+            "id": 16,
+            "text": "Bir ABC üçgeninde \\( m(\\widehat{A}) \\), \\( m(\\widehat{B}) \\) ve \\( m(\\widehat{C}) \\) iç açıları sırasıyla 3, 4 ve 5 sayıları ile orantılıdır. Buna göre en büyük açı kaç derecedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "75",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "80",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "90",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "100",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "105",
+                    "correct": false
+                }
+            ],
+            "explanation": "Açılar orantılı oldukları için \\( 3k, 4k, 5k \\) olarak yazılır. Toplamları üçgen iç açılarından \\( 12k = 180^\\circ \\) olur. Buradan \\( k = 15^\\circ \\) bulunur. En büyük açı \\( 5k = 5 \\times 15 = 75^\\circ \\)'dir."
+        },
+        {
+            "id": 17,
+            "text": "Bir ABC üçgeninde, A köşesinden inen yükseklik aynı zamanda bu üçgenin kenarortayıdır. B köşesindeki açı \\( 70^\\circ \\) olduğuna göre, A köşesindeki tepe açısı kaç derecedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "20",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "40",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "50",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "60",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "70",
+                    "correct": false
+                }
+            ],
+            "explanation": "Şenol Hoca'nın '2'yi gördün mü 4'e tamamla' kuralı. Bir çizgi hem yükseklik hem kenarortay ise, bu üçgen mecburen ikizkenardır ve çizgi açıortaydır. Taban açıları 70 ve 70'tir (Toplam 140). Geriye tepe açısı olarak \\( 180 - 140 = 40^\\circ \\) kalır."
+        },
+        {
+            "id": 18,
+            "text": "Eşkenar bir üçgenin çizilen herhangi bir yüksekliği \\( 6\\sqrt{3} \\) cm'dir. Buna göre bu eşkenar üçgenin çevresi kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "12",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "24",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "36",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "48",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "72",
+                    "correct": false
+                }
+            ],
+            "explanation": "Eşkenar üçgende yükseklik indirilince 30-60-90 üçgeni oluşur. \\( 60^\\circ \\)'nin karşısı \\( 6\\sqrt{3} \\) cm ise, \\( 30^\\circ \\)'nin karşısı 6 cm'dir (Tabanın yarısı). Ana kenar 12 cm yapar. Çevresi ise \\( 12 \\times 3 = 36 \\) cm'dir."
+        },
+        {
+            "id": 19,
+            "text": "Dış açıortay teoremine sahip bir ABC üçgeninde; A köşesinden çizilen dış açıortay, BC doğrusunun uzantısını D noktasında kesmektedir. \\( |AB| = 6 \\) cm, \\( |AC| = 4 \\) cm ve \\( |BC| = 3 \\) cm olduğuna göre, uzantı kısmı olan \\( |CD| = x \\) uzunluğu kaç cm'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "5",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "6",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "8",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dış açıortayın bittiği D noktasına ulaşmak için yollar oranlanır: Dıştan dolanan uzun kolun ( \\( 6 \\) ) toplam tabana ( \\( 3+x \\) ) oranı, kısa kolun ( \\( 4 \\) ) dış tabana ( \\( x \\) ) oranına eşittir. \\( \\frac{6}{3+x} = \\frac{4}{x} \\Rightarrow 6x = 12 + 4x \\Rightarrow 2x = 12 \\Rightarrow x = 6 \\)."
+        },
+        {
+            "id": 20,
+            "text": "Şenol Hoca'nın 'Bumerang' olarak adlandırdığı içbükey dörtgen kuralında; şeklin iç kısmındaki üç dar açının ölçüleri sırasıyla \\( 20^\\circ \\), \\( 50^\\circ \\) ve \\( x \\)'tir. Şeklin 'içe çöken' sırt kısmındaki geniş dış açı \\( 110^\\circ \\) olarak ölçüldüğüne göre, \\( x \\) kaç derecedir?",
+            "tikz": [
+                "\\begin{tikzpicture}\n\\draw[thick] (0,0) -- (4,1) -- (2,-2) -- cycle;\n\\draw[thick] (0,0) -- (1.5,-0.5) -- (4,1);\n\\node at (0.4,-0.2) {20};\n\\node at (3.3,0.6) {x};\n\\node at (2,-1.5) {50};\n\\node at (1.5,-0.2) {110};\n\\end{tikzpicture}"
+            ],
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "10",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "15",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "20",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "30",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "40",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bumerang kuralına göre içteki o üç uç açının toplamı, aradaki dışarı taşan geniş açıyı vermelidir. \\( 20^\\circ + 50^\\circ + x = 110^\\circ \\Rightarrow x = 40^\\circ \\) bulunur."
+        }
+    ]
+}

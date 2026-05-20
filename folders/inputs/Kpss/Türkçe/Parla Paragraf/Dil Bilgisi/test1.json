@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e4f8d5a2-9b7e-41d3-8c46-1234567890ab",
+        "title": "Ses Bilgisi",
+        "subject": "Türkçe",
+        "topic": "Ses Bilgisi (Ünlü ve ünsüz uyumları, ses olayları)",
+        "difficulty": "Orta",
+        "grade": "KPSS/TYT/MSÜ",
+        "created": "2026-04-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Kadir Hoca'nın 'küçültme eki bazı sözcüklere gelirken ünlü türemesi oluşturur' kuralına göre aşağıdaki sözcüklerin hangisinde ünlü türemesi vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gencecik",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Gülücük",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Öpücük",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Küçücük",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ufacık",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Gencecik' sözcüğünde 'genç' ile '-cik' eki arasına 'e' ünlüsü türemiştir. Gülücük ve öpücük kelimelerinde isim fiil eki olan -üş/-iş'teki 'ş' ünsüzü düşer (ünsüz düşmesi). Küçücük ve ufacık sözcüklerinde ise 'k' ünsüzü düşmüştür."
+        },
+        {
+            "id": 2,
+            "text": "Kadir Hoca'nın ünlü daralmasını bulmak için verdiği '-yor ekini atıp yerine -dı/-di getir; kendinden önce a/e geniş ünlüsü varsa daralma vardır' taktiğine göre aşağıdaki sözcüklerin hangisinde ünlü daralması yoktur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bakıyor",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Bekliyor",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yaşıyor",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Anlıyor",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Söylüyor",
+                    "correct": false
+                }
+            ],
+            "explanation": "Taktiği uyguladığımızda 'bak-tı' olur. Öncesinde 'a' veya 'e' geniş ünlüsü kalmadığı için daralma yoktur. Diğerlerinde ise bekle-di, yaşa-dı, anla-dı, söyle-di şeklinde 'a/e' ünlüleri ortaya çıkar, yani daralma vardır."
+        },
+        {
+            "id": 3,
+            "text": "'Gülücük' ve 'öpücük' sözcüklerinde birçok soru bankasının aksine Kadir Hoca'nın altını çizerek vurguladığı ses olayı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ünlü türemesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ünsüz düşmesi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Ünsüz yumuşaması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ünlü daralması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ünsüz benzeşmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bu sözcüklerde fiil köklerine önce isim fiil eki olan -üş/-iş gelir (gül-üş, öp-üş). Daha sonra küçültme eki -cük geldiğinde 'ş' harfi düşer (gül-üş-cük -> gülücük). Dolayısıyla burada ünlü türemesi değil, ünsüz düşmesi vardır."
+        },
+        {
+            "id": 4,
+            "text": "Günlük hayatta 'kalem ile' yerine 'kalemle', 'eksik idi' yerine 'eksikti' kullanımları sıkça görülür. Milli Eğitim (MEB) müfredatına göre buradaki 'i' harfinin düşmesi hangi ses olayı olarak kabul edilmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kaynaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hece düşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ünsüz düşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ünlü düşmesi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Ünlü aşınması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kadir Hoca'nın belirttiği üzere 'ile' bağlacının/edatının veya 'idi, imiş, ise' ek fiillerinin bitişik yazılmasıyla aradaki 'i' ünlüsünün düşmesi, kazanımlara göre doğrudan ünlü düşmesidir."
+        },
+        {
+            "id": 5,
+            "text": "Aşağıdaki sözcüklerden hangisi ünlü ile başlayan bir ek aldığında ünsüz yumuşamasına aykırılık gösterir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kitabı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dolabı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Evrakı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Ağacı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Rengi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Evrak, hukuk, ahlak, müttefik, blok gibi yabancı kökenli bazı sözcükler ünlüyle başlayan bir ek aldıklarında sonlarındaki sert ünsüz yumuşamaz. 'Evrakı' veya 'hukuku' şeklinde yazılır, 'evrağı' yazımı yanlıştır."
+        },
+        {
+            "id": 6,
+            "text": "ÖSYM'nin en çok sorduğu eklerden biri olan '-dık / -dik' sıfat fiil ekini alan 'yaptığım' sözcüğünde sırasıyla hangi iki ses olayı meydana gelmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ünlü daralması - Ünsüz düşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ünlü türemesi - Ünsüz benzeşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ünsüz benzeşmesi - Ünsüz yumuşaması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Ünsüz düşmesi - Ünlü daralması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ünsüz türemesi - Ünsüz yumuşaması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sözcüğün kökü 'yap'tır. Fıstıkçı Şahap (p) ünsüzünden sonra gelen -dık eki -tık olur (d->t ünsüz benzeşmesi/sertleşmesi). Ardından gelen ünlü ek nedeniyle sonundaki 'k' sesi 'ğ'ye dönüşür (k->ğ ünsüz yumuşaması/değişimi)."
+        },
+        {
+            "id": 7,
+            "text": "Ünsüz benzeşmesi kuralı gereği sert ünsüzle biten bir sözcüğe yumuşak ünsüzle başlayan bir ek geldiğinde, ekin başındaki ünsüz sertleşir. Kadir Hoca'nın vurguladığı istisnalara göre aşağıdakilerden hangisinde bu kurala aykırılık söz konusudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kitapçı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Seçkin",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Coşku",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Atkı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Üçgen",
+                    "correct": true
+                }
+            ],
+            "explanation": "'Üçgen' sözcüğündeki 'gen' eki değil, 'kenarlı' anlamına gelen ayrı bir sözcüktür (birleşik sözcük mantığındadır). Bu yüzden 'üçken' şeklinde sertleşme aranmaz, benzeşmeye aykırıdır."
+        },
+        {
+            "id": 8,
+            "text": "Ünlü düşmesinin bir çeşidi olan 'ünlü aşınması', iki ünlünün yan yana gelip zamanla birbirini aşındırmasıyla oluşur. Buna göre aşağıdakilerin hangisinde ünlü aşınması örneği vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kahvaltı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Aklı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kıvrım",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yanlış",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İlerledi",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Kahve' ve 'altı' sözcükleri birleşirken iki ünlü yan yana gelir (e ve a). Zamanla 'e' ünlüsü aşınarak düşer ve 'kahvaltı' halini alır. Diğer seçeneklerdeki sözcüklerde sadece standart ünlü düşmesi vardır."
+        },
+        {
+            "id": 9,
+            "text": "Dudak ünsüzlerinin benzeşmesi (n-m çatışması/değişimi) kuralına göre 'b' ünsüzü kendinden önceki 'n' sesini 'm'ye dönüştürür (Örn: saklanbaç -> saklambaç). Aşağıdaki sözcüklerden hangisi bu kuralın istisnaları arasında yer alır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Pembe",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ambar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çarşamba",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dolambaç",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sonbahar",
+                    "correct": true
+                }
+            ],
+            "explanation": "N-M değişimi kuralı özel isimlerde (İstanbul vb.) ve birleşik sözcüklerde (sonbahar, onbaşı, binbaşı vb.) uygulanmaz. Bu sözcükler kuralın istisnasıdır."
+        },
+        {
+            "id": 10,
+            "text": "Aşağıdaki sözcüklerin hangisinde 'k' ünsüzünün düşmesi sonucu oluşan bir ünsüz düşmesi ses olayı meydana gelmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Daracık",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sıcacık",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Azıcık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Biricik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gencecik",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Sıcak' sözcüğüne '-cık' küçültme eki getirildiğinde sözcüğün sonundaki 'k' ünsüzü düşerek 'sıcacık' haline gelir. Daracık, azıcık, biricik ve gencecik sözcüklerinde ise ünlü türemesi vardır."
+        },
+        {
+            "id": 11,
+            "text": "Hangi sözcükte, ünlü değişimi (kök ünlü değişimi) ses olayına rastlanmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Benim",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bizi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Onun",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sana",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Size",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkçede 'ben' ve 'sen' zamirlerine yönelme hâl eki (-e / -a) geldiğinde kökteki 'e' ünlüleri 'a'ya dönüşür (ben-e -> bana, sen-e -> sana). Bu duruma kök ünlü değişimi (ünlü değişimi) adı verilir."
+        },
+        {
+            "id": 12,
+            "text": "Kaynaştırma harflerini bulurken Kadir Hoca'nın verdiği ipucuna göre 'senin' sözcüğünün bulunduğu tamlamalarda 'n' harfine dikkat edilmelidir. Buna göre aşağıdakilerin hangisinde 'n' harfi kaynaştırma ünsüzü olarak KULLANILMAMIŞTIR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Arabanın kapısı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Onun kedisi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Senin evini gördüm",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Çantanın rengi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Odayı gören adamın",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Senin evin' tamlamasında 'ev' ismine gelen '-in' eki ikinci tekil şahıs iyelik ekidir. Buradaki 'n' kaynaştırma harfi değil, iyelik ekinin kendi harfidir. Diğer seçeneklerdeki tamlayan ve iyelik eklerinden sonra gelen 'n'ler kaynaştırmadır."
+        },
+        {
+            "id": 13,
+            "text": "Ünsüz türemesinin diğer adı ünsüz ikizleşmesidir; eklendiği sözcükte aynı ünsüzden havadan fazladan bir tane daha ortaya çıkmasıdır. Buna göre hangisinde ünsüz türemesi (ikizleşme) YOKTUR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sessiz",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Affı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hissi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hakkı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sırrı",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Sessiz' sözcüğü 'ses' köküne '-siz' olumsuzluk ekinin gelmesiyle oluşmuştur. İki 's' harfi yan yana gelse de ikisi de kök ve ekin kendi harfleridir, dışarıdan fazladan bir harf (türeme) gelmemiştir."
+        },
+        {
+            "id": 14,
+            "text": "Ünlü düşmesi kimi zaman çekim eki alırken kimi zaman ise yapım eki alırken (türetilirken) gerçekleşir. Buna göre aşağıdaki sözcüklerin hangisi yapım eki alırken ünlü düşmesine uğramıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aklı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Burnum",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Şehri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Oğlum",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yanlış",
+                    "correct": true
+                }
+            ],
+            "explanation": "'Yanlış' sözcüğü 'yanılmak' fiil kökünden isim yapım eki alarak türetilmiştir (yanıl-mak -> yanlış) ve türetilirken 'ı' ünlüsü düşmüştür. Aklı, burnum, şehri, oğlum kelimelerinde ise sözcüğün anlamını değiştirmeyen çekim ekleri nedeniyle ünlü düşmesi olmuştur."
+        },
+        {
+            "id": 15,
+            "text": "Ünlü daralması kuralı genellikle '-yor' ekiyle gerçekleşse de ÖSYM'nin de sorduğu bazı istisnai kelimelerde '-yor' eki olmadan 'y' kaynaştırma harfi daraltıcı etki yapar. Aşağıdakilerin hangisinde bu kurala uygun bir ünlü daralması vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Demiyor",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Diye",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Biliyor",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Anlıyor",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Görüyor",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Diye' kelimesinin kökü 'de-' fiilidir. Kaynaştırma harfi 'y' geldiğinde geniş 'e' ünlüsü daralarak 'i'ye dönüşür (de-y-e -> diye). Aynı durum 'niye' (ne-y-e) ve 'yiyecek' kelimelerinde de geçerlidir."
+        },
+        {
+            "id": 16,
+            "text": "Halk ağzında sözcüklerin içindeki ünsüzlerin yer değiştirmesine göçüşme (metatez) denir ve bu durum yazı dilinde yazım yanlışı kabul edilir. Aşağıdakilerin hangisinde göçüşmeden kaynaklı bir yazım yanlışı vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şoför",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sarımsak",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kirbit",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Fasulye",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Şemsiye",
+                    "correct": false
+                }
+            ],
+            "explanation": "Doğru yazımı 'kibrit' olan sözcüğün r ve b harflerinin yer değiştirerek 'kirbit' olarak yazılması bir göçüşme (metatez) örneğidir ve yazım yanlışıdır. Torpak/toprak, kipri/kirpi örneklerinde de aynı durum görülür."
+        },
+        {
+            "id": 17,
+            "text": "'Kaybetmesi' sözcüğünde, sözcüklerin birleşme aşamasında birden fazla ses olayı meydana gelmiştir. Bu ses olayları aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ünlü daralması - Ünsüz düşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ünlü düşmesi - Ünsüz yumuşaması",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Ünsüz türemesi - Ünlü düşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ünsüz benzeşmesi - Ünlü daralması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ünlü türemesi - Ünsüz yumuşaması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kayıp + etmek sözcükleri birleşirken 'ı' ünlüsü düşer (ünlü düşmesi). Ardından sert 'p' ünsüzü yumuşak 'b' ünsüzüne dönüşür (ünsüz yumuşaması/değişimi)."
+        },
+        {
+            "id": 18,
+            "text": "Sözcüğün son ünsüzünün, bir sonraki sözcüğün ünlü harfine okunuşta bitiştirilmesine 'ulama' denir. Aşağıdaki cümlelerin hangisinde ulama kuralına uygun bir kullanım vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kalemi masaya bıraktı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sessizce içeri girdi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dün sinemaya gittik.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bakkaldan ekmek aldım.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Çocuğun gözleri doldu.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kadir Hoca'nın 'milli örneğimiz' olarak belirttiği 'Bakkaldan ekmek' tamlamasında, 'bakkaldan' sözcüğü ünsüz (n) ile bitmekte, 'ekmek' sözcüğü ise ünlü (e) ile başlamaktadır. Arada noktalama işareti olmadığı için burada ulama vardır."
+        },
+        {
+            "id": 19,
+            "text": "ÖSYM'nin sınavlarda tekrar tekrar sormayı sevdiği kelimelerden olan 'çevresi' sözcüğünün kökünde meydana gelen ses olayı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ünsüz düşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ünlü daralması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ünsüz yumuşaması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ünlü düşmesi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Ünlü türemesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "'Çevre' sözcüğünün kökü 'çevirmek' fiilidir. Yapım eki alarak isimleşirken (çevir-mek -> çevre) aradaki 'i' harfi düşmüştür, yani ünlü düşmesi vardır."
+        },
+        {
+            "id": 20,
+            "text": "Pekiştirmeli sözcükler (m, p, r, s kullanılarak yapılan) oluşturulurken bazen araya fazladan bir ünlü harf girerek ünlü türemesine sebep olur. Aşağıdaki pekiştirmeli sözcüklerin hangisinde ünlü türemesi MEYDANA GELMEMİŞTİR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sapasağlam",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çepeçevre",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Düpedüz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yapayalnız",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Masmavi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Pekiştirme kuralı gereği ilk ünlüye kadar olan kısım alınır ve m, p, r, s getirilerek sözcük birleştirilir (ma-s-mavi). Burada araya ekstra bir harf girmemiştir. Ancak 'sapasağlam' (sap-a-sağlam), 'çepeçevre' (çep-e-çevre), 'düpedüz' (düp-e-düz) ve 'yapayalnız' (yap-a-yalnız) sözcüklerinde araya fazladan bir ünlü türemiştir."
+        }
+    ]
+}

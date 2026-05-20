@@ -1,0 +1,508 @@
+Kaynak içeriğini kullanarak bir test hazırla.
+
+GEREKSİNİMLER:
+
+20 soru üret.
+Her soruda TAM OLARAK 5 şık olsun (A, B, C, D, E).
+Yanlış şıklar makul "tuzak" seçenek içersin; tamamen saçma olmasın.
+Doğru cevap her soruda farklı bir harf olsun (A, B, C, D, E eşit dağılsın).
+Zorluk dengesi: %30 kolay · %50 orta · %20 zor.
+Her soruya kısa bir "explanation" (açıklama) ekle.
+
+# JSON Çıktı ve Genel Format Kuralları
+
+1. Sadece Geçerli JSON: Üretilen çıktı sadece ve sadece geçerli bir JSON olmalıdır. Başında veya sonunda açıklama metni veya ekstradan karakter bulunmamalıdır.
+2. Kaçış Karakterleri (Escape strings): Hem formüller hem de tırnak işareti, ters eğik çizgi gibi karakterlerde doğru kaçış karakterleri (escape string) kullanıldığından emin olunmalıdır.
+3. Zorluk Seviyeleri: "id" alanı test için benzersiz bir "GUID" (UUID) olarak oluşturulmalı, sorular arasındaki zorluk seviyeleri mantıklı bir algoritmaya göre ("Kolay", "Orta", "Zor" vb.) istenilen oranlarda dengelenmelidir.
+4. Şık Dağıtımı: 5 şıklı (A,B,C,D,E) sistemlerde doğru cevaplar birbirine eşit veya oldukça yakın dağıtılmalıdır. Mantıksız çeldiricilerden kaçınılmalıdır.
+5. Açıklamalar: Her soruda açıklama bulunmalı ve formül içeren açıklamalarda da mutlaka çift ters eğik çizgiyse LaTeX kuralları uygulanmalıdır.
+6. İsimlendirme (title ve topic): 
+   - `title` alanı sade olmalıdır. Klasörleme yapıldığı için "Türkçe - Dil Bilgisi - Cümle Yapıları" gibi uzun yazmak yerine direkt "Cümle Yapıları" veya "Üçgende Açılar" gibi sade başlıklar kullanılmalıdır.
+   - `topic` alanı ise `title` gibi olup, fark olarak detayları içermelidir (Örn: "Üçgende Açılar - Dik Üçgen").
+7. Metin Biçimlendirme (Genel Paragraf ve Soru Gösterimi):
+   - Alıntılar: Soru metinlerindeki doğrudan alıntılar mutlaka çift tırnak ("...") içinde yazılmalıdır.
+   - Paragraf Girintisi: Uzun öncül metinlerde veya paragraflarda mutlaka başa girinti (boşluk veya `\t` karakteri) konulmalıdır. Eğer metin birden fazla paragraftan oluşuyorsa her paragrafın başında girinti olmalıdır.
+   - Ayraç: Paragraf / öncül metin ile soru kökü ("Buna göre aşağıdakilerden hangisi..." vb.) arasına görsel bir ayraç (örneğin `\n\n---\n\n` veya `\n\n`) konarak metin ile soru birbirinden net bir şekilde ayrılmalıdır.
+   - Vurgulama: Metin içindeki altı çizili veya özellikle vurgulanmak istenen söz öbekleri tek tırnak ('...') veya kalın (bold) ifadelerle belirginleştirilmelidir.
+
+# Matematiksel ve Cebirsel İfade Kuralları (MathJax)
+
+1. Tüm matematiksel formüller LaTeX formatında yazılmalıdır.
+2. Satır içi formüller için DİREKT olarak `\(` ve `\)` sembolleri kullanılmalıdır (Örn: `\( x^2 + y^2 = z^2 \)`). Kesinlikle `$` sembolü KULLANILMAMALIDIR.
+3. Blok formüller için DİREKT olarak `\[` ve `\]` kullanılmalıdır (Örn: `\[ \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]`). Kesinlikle `$$` sembolü KULLANILMAMALIDIR.
+4. ÇOK ÖNEMLİ JSON KAÇIŞ KURALLARI (ESCAPE): JSON formatı gereği tek slash oluşturmak için iki slash yazmanız gerekir `"\\"`. Bunu biliyoruz! Ancak lütfen fazladan (aşırı) kaçış işlemi yapıp 4 tane slash `"\\\\"` KULLANMAYIN.
+    Bu yüzden üreteceğiniz JSON dosyasında formüllerin görünümü şu şekilde OLMALIDIR:
+    - Doğru Hali: "Entropi \\( \\log_a(x) \\) formülüyle...", "Karekök \\( \\sqrt{x} \\)"
+    - Yanlış Hali: "Entropi \\\\( \\\\log_a(x) \\\\) formülüyle...", "Karekök \\\\( \\\\sqrt{x} \\\\)"
+
+    # Sık Kullanılan Matematiksel Notasyonlar (Örnekleri JSON string'inde olması gerektiği gibi 2 slash ile veriyoruz)
+
+    - Üslü İfadeler: `\\( a^x \\)` veya `\\( e^{i\\pi} + 1 = 0 \\)`
+    - Alt İndisler: `\\( x_1, x_2, a_{n+1} \\)`
+    - Kesirler: `\\( \\frac{pay}{payda} \\)` veya `\\( \\frac{-b \\pm \\sqrt{\\Delta}}{2a} \\)`
+    - Karekök ve N. Dereceden Kök: `\\( \\sqrt{x^2+1} \\)` veya `\\( \\sqrt[3]{x-2} \\)`
+    - Logaritma: `\\( \\log_a(x) \\)` veya `\\( \\ln(x) \\)`
+    - Trigonometri: `\\( \\sin(\\theta) \\)`, `\\( \\cos^2(x) \\)`, `\\( \\tan(\\frac{\\pi}{4}) \\)`
+    - Limit: `\\( \\lim_{x \\to \\infty} \\frac{1}{x} = 0 \\)`
+    - Türev/İntegral: `\\( \\frac{dy}{dx} \\)`, `\\( \\int f(x)dx \\)`, `\\( \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\)`
+    - Diğerleri: `\\( x \\geq 0 \\)`, `\\( x \\neq y \\)`, `\\( A \\cup B \\)`
+    - Eşitsizlikler: Büyüktür/Küçüktür `\\( x < y \\)`, Büyük Eşit `\\( x \\geq 0 \\)`, Küçük Eşit `\\( y \\leq 10 \\)`, Eşit Değil `\\( x \\neq y \\)`
+    - Kümeler: Elemanıdır `\\( x \\in A \\)`, Alt Küme `\\( A \\subset B \\)`, Birleşim/Kesişim `\\( A \\cup B \\)` / `\\( A \\cap B \\)`
+    - Matris/Vektör Formülleri (JSON stringi olduğu için matris yeni satırları `\\\\` ile değil `\\\\\\\\` gibi çoklu kaçışlara ihtiyaç duyar. Blok formül olarak basitleştirilmiş yatay format tercih edilebilir.)
+
+5. Doğru Örnek (JSON içi string): "Buna göre \\( \\log_2(8) = 3 \\) eşitliği sağlanır."
+{{ ... }}
+
+# Geometri ve Çizim Kuralları (TikZ)
+
+1. Görsel veya grafiğe ihtiyaç duyulan geometri / veri grafiği sorularında, resim dosyası BEKLEMEYİN! Bunun yerine LaTeX'in yerleşik **TikZ** sistemini kullanarak şekli aslına uygun bir biçimde SİZ çizin.
+2. Ürettiğiniz TikZ kodlarını doğrudan JSON içindeki özel bir alana yerleştirmelisiniz. Şekil soru bölümündeyse sorunun (`q.tikz`), şıktaysa şıkkın (`c.tikz`) içine dizi (array) formatında yerleştirilir. 
+
+**JSON Şablon Örneği:**
+"questions": [
+  {
+    "id": 1,
+    "text": "Aşağıdaki dik üçgende x açısı kaç derecedir?",
+    "tikz": [
+       "\\begin{tikzpicture}\n\\draw[thick] (0,0) -- (4,0) -- (0,3) -- cycle;\n\\draw (0.3,0) -- (0.3,0.3) -- (0,0.3);\n\\node[below] at (2,0) {3};\n\\node[left] at (0,1.5) {4};\n\\node[above right] at (2,1.5) {5};\n\\node[right] at (0.5,0.2) {x};\n\\end{tikzpicture}"
+    ],
+    "choices": [ ... ]
+  }
+]
+
+**ÖNEMLİ JSON KAÇIŞ KURALI:** TikZ kodlarını JSON stringi içerisine yazarken, backslash `\` sembolünü mutlaka bir kere escape ederek `\\` yapın (Örn: `\begin{tikzpicture}` yerine `\\begin{tikzpicture}`). Yeni satır karakterlerini `\n` olarak ekleyerek okunabilirliği artırın. 
+
+**Desteklenen Çizimler:**
+- Açılı/kenar uzunluklu üçgenler, çemberler, çokgenler.
+- K-Ortalamalar (K-Means) tarzı basit nokta dağlımları (2D plot).
+- Karar ağacı hiyerarşi dallanmaları (tree node yapısı).
+- Koordinat ekseni çizimleri (tikzpicture içerisinde x/y eksenleri).
+
+ÇIKTI FORMATI VE KURALLAR:
+
+Öncelikle SADECE GEÇERLİ JSON DÖNDÜR.
+
+JSON ŞABLONU:
+{
+  "meta": {
+    "id": "[benzersiz-GUID-ornek: 123e4567-e89b-12d3-a456-426614174000]",
+    "title": "[Sade başlık. Örnek: 'Üçgende Açılar', 'Cümle Yapıları', 'Sınav 1' vb. Uzun klasör hiyerarşisi yazmayın.]",
+    "subject": "[Genel ders adı. Örnek: 'Türkçe', 'Matematik']",
+    "topic": "[Detaylı konu başlığı, 'title' alanının detaylandırılmış hali. Örnek: 'Üçgende Açılar - Dik Üçgen']",
+    "difficulty": "[Kolay | Orta | Zor]",
+    "grade": "[Sınıf / Seviye – isteğe bağlı]",
+    "created": "2026-04-19"
+  },
+  "questions": [
+    {
+      "id": 1,
+      "text": "[Soru metni – LaTeX ifadelerinde çift \\ kullan]",
+      "tikz": ["[İsteğe bağlı - TikZ kodu, yoksa bu satırı silebilirsiniz]"],
+      "choices": [
+        { "label": "A", "text": "[Şık A]", "correct": false },
+        { "label": "B", "text": "[Şık B]", "correct": false },
+        { "label": "C", "text": "[Şık C]", "correct": true },
+        { "label": "D", "text": "[Şık D]", "correct": false },
+        { "label": "E", "text": "[Şık E]", "correct": false }
+      ],
+      "explanation": "[Doğru cevabın kısa açıklaması - LaTeX varsa çift \\ kullan]"
+    }
+  ]
+}
+
+NOTLAR:
+Videolar işlenmiş dersler, videoları da dikkate alarak döküman ağırlıklı sorular olsun. Dökümanlarda videolardan farklı konular varsa (ileriki konular) onları şimdilik dahil etme.
+
+# C# Programlama Dili Kuralları
+
+## Kapsam
+Bu modül, C# programlama diline ait test sorularının nasıl üretileceğini tanımlar.
+
+## Kod Gösterimi
+1. C# kod parçacıkları JSON içinde `"code"` alanına yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. Girintiler 4 boşluk (space) kullanılarak yapılmalıdır; tab karakteri (`\t`) KULLANILMAMALIDIR.
+3. Kod bloğu JSON string içinde olduğu için tırnak işaretleri `\"` şeklinde kaçırılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- Veri tipleri, değişken tanımlama ve tür dönüşümleri (casting)
+- Kontrol yapıları: `if/else`, `switch/case`, `for`, `foreach`, `while`, `do-while`
+- Metotlar: parametre, geri dönüş tipi, `ref`/`out`/`params` anahtar kelimeleri
+- OOP: class, struct, interface, abstract class, inheritance, polymorphism, encapsulation
+- Erişim belirleyiciler: `public`, `private`, `protected`, `internal`, `protected internal`
+- Özellikler (Properties): auto-property, get/set, init
+- İstisna yönetimi: `try/catch/finally`, özel exception sınıfları
+- LINQ (Language Integrated Query):
+  - **Method Syntax (Fluent):** `.Where()`, `.Select()`, `.OrderBy()` / `.OrderByDescending()`, `.GroupBy()`, `.Join()`, `.SelectMany()`, `.Distinct()`, `.Take()` / `.Skip()`, `.First()` / `.FirstOrDefault()`, `.Single()` / `.SingleOrDefault()`, `.Any()` / `.All()`, `.Count()`, `.Sum()`, `.Min()` / `.Max()` / `.Average()`, `.ToList()` / `.ToArray()` / `.ToDictionary()`
+  - **Query Syntax (SQL benzeri):** `from … in … where … orderby … select …`, `group … by … into …`, `join … on … equals …`
+  - **Deferred (Ertelenmiş) vs Immediate (Anlık) Execution:** `IEnumerable<T>` dönen sorgular (`Where`, `Select` vb.) listeye dönüştürülene veya enumerate edilene kadar çalışmaz (deferred); `.ToList()`, `.Count()`, `.Sum()` gibi operatörler sorguyu hemen çalıştırır (immediate).
+  - **IEnumerable\<T\> vs IQueryable\<T\>:** `IEnumerable` bellekte (LINQ to Objects), `IQueryable` ise veri kaynağına özel sorgular üreterek çalışır (ör. LINQ to SQL / Entity Framework — sorgu SQL'e dönüştürülür).
+  - **Lambda ve Delegate:** Lambda ifadeleri (`x => x > 5`) LINQ sorgularının omurgasıdır; `Func<T, bool>` ve `Expression<Func<T, bool>>` farkını test eden sorular üretilebilir.
+- Generic tipler: `List<T>`, `Dictionary<TKey, TValue>`, `IEnumerable<T>`
+- Asenkron programlama: `async/await`, `Task`, `Task<T>`
+- Nullable tipler: `int?`, `string?`, null-coalescing `??`, null-conditional `?.`
+- Delegates, Events, Lambda ifadeleri
+- Namespace, using direktifleri, assembly kavramı
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki C# kodunun çıktısı nedir?",
+  "code": "int x = 5;\nint y = 2;\nConsole.WriteLine(x / y);\nConsole.WriteLine(x % y);",
+  "choices": [
+    { "label": "A", "text": "2 ve 0", "correct": false },
+    { "label": "B", "text": "2 ve 1", "correct": true },
+    { "label": "C", "text": "2.5 ve 1", "correct": false },
+    { "label": "D", "text": "2 ve 2", "correct": false },
+    { "label": "E", "text": "Derleme hatası", "correct": false }
+  ],
+  "explanation": "int bölme işlemi ondalık kısmı atar: 5/2 = 2. Kalan: 5%2 = 1."
+}
+```
+
+## Önemli Kurallar
+- Sorularda kullanılan C# sürümü belirtilmelidir (ör. C# 10, .NET 6+) eğer sürüme özgü bir özellik kullanılıyorsa.
+- "Derleme hatası verir" veya "Çalışma zamanı hatası verir" seçenekleri mantıklı tuzak şıklar olarak kullanılabilir.
+- Kod çıktısı soran sorularda çıktı tam ve net olmalı, belirsizlik içermemelidir.
+- Şıklar arasında yalnızca ince farklar (ör. 0 ile 1, null ile exception) bulunarak dikkat gerektiren sorular oluşturulabilir.
+
+# XML (eXtensible Markup Language) Kuralları
+
+## Kapsam
+Bu modül, XML teknolojisine ait test sorularının nasıl üretileceğini tanımlar.
+
+## Kod Gösterimi
+1. XML kod parçacıkları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. XML içindeki `<`, `>`, `&`, `"` karakterleri JSON string'i içinde olduğundan doğrudan yazılabilir; ancak tırnak işaretleri `\"` olarak kaçırılmalıdır.
+3. İç içe elemanlarda girintileme 2 boşluk ile yapılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- XML temel yapısı: prolog, element, attribute, text node, CDATA, yorum satırı
+- Well-formed XML kuralları (doğru açılıp kapanan etiketler, büyük/küçük harf duyarlılığı)
+- XML namespace (`xmlns`, prefix tanımlamaları)
+- DTD (Document Type Definition): element ve attribute tanımlama, varlıklar (entities)
+- XML Schema (XSD): `xs:element`, `xs:attribute`, `xs:complexType`, `xs:simpleType`, kısıtlamalar
+- XPath: eksen ifadeleri (`/`, `//`, `@`, `..`), predicate, fonksiyonlar (`text()`, `count()`, `contains()`)
+- XSLT: `xsl:template`, `xsl:apply-templates`, `xsl:for-each`, `xsl:value-of`, `xsl:if`, `xsl:choose`
+- XQuery temelleri: FLWOR ifadeleri (`for`, `let`, `where`, `order by`, `return`)
+- XML ve JSON karşılaştırması
+- SAX vs DOM ayrışım yöntemleri
+- XML dijital imza ve şifreleme (kavramsal düzey)
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki XML belgesinde kaç tane 'kitap' elementi vardır?",
+  "code": "<kutuphane>\n  <kitap id=\"1\">\n    <baslik>XML Temelleri</baslik>\n  </kitap>\n  <kitap id=\"2\">\n    <baslik>XPath Rehberi</baslik>\n  </kitap>\n</kutuphane>",
+  "choices": [
+    { "label": "A", "text": "1", "correct": false },
+    { "label": "B", "text": "2", "correct": true },
+    { "label": "C", "text": "3", "correct": false },
+    { "label": "D", "text": "4", "correct": false },
+    { "label": "E", "text": "Belge geçersizdir", "correct": false }
+  ],
+  "explanation": "kutuphane elementi altında iki adet kitap elementi bulunmaktadır."
+}
+```
+
+## Önemli Kurallar
+- "Well-formed mı?" ve "Valid mi?" ayrımını test eden sorular üretilmelidir.
+- XPath sorgularının sonucunu soran sorularda bağlam nodu (context node) açıkça belirtilmelidir.
+- XSLT dönüşüm soruları için hem kaynak XML hem de XSLT şablonu koda dahil edilebilir.
+
+# JavaScript (JS) Programlama Dili Kuralları
+
+## Kapsam
+Bu modül, JavaScript diline ait test sorularının nasıl üretileceğini tanımlar. Sorular hem tarayıcı ortamını hem de Node.js ortamını kapsamalıdır.
+
+## Kod Gösterimi
+1. JS kod parçacıkları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. Template literal içindeki backtick (`` ` ``) karakterleri JSON string içinde `\`` şeklinde ifade edilmemelidir; bunun yerine sıradan string birleştirme ile gösterilebilir.
+3. JSON string içindeki tırnak işaretleri `\"` olarak kaçırılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- Değişken tanımlama: `var`, `let`, `const` farkları; hoisting, scope (lexical, block, function)
+- Veri tipleri: `typeof`, tip dönüşümleri (coercion), `==` vs `===`, truthy/falsy değerler
+- Fonksiyonlar: function declaration vs expression, arrow functions, closure, IIFE
+- Prototip zinciri ve OOP: `prototype`, `class`, `extends`, `super`, `this` bağlamı
+- Callback, Promise, `async/await`, Event Loop, Microtask Queue
+- Dizi ve Nesne metotları: `map`, `filter`, `reduce`, `find`, `flat`, spread/rest operatörleri
+- Destructuring: array ve object destructuring, default değerler
+- Modüler yapı: `import/export` (ES Modules), `require/module.exports` (CommonJS)
+- DOM manipülasyonu: `querySelector`, `addEventListener`, event bubbling/capturing
+- Hata yönetimi: `try/catch/finally`, özel Error tipleri (`TypeError`, `RangeError`)
+- Yerleşik nesneler: `Math`, `Date`, `JSON.parse`, `JSON.stringify`, `RegExp`
+- Bellek yönetimi ve performans: Garbage collection, event delegation
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki JavaScript kodunun konsol çıktısı nedir?",
+  "code": "let a = 1;\nfunction test() {\n    let a = 2;\n    console.log(a);\n}\ntest();\nconsole.log(a);",
+  "choices": [
+    { "label": "A", "text": "1 ve 1", "correct": false },
+    { "label": "B", "text": "2 ve 2", "correct": false },
+    { "label": "C", "text": "2 ve 1", "correct": true },
+    { "label": "D", "text": "1 ve 2", "correct": false },
+    { "label": "E", "text": "ReferenceError fırlatır", "correct": false }
+  ],
+  "explanation": "Fonksiyon içindeki let a = 2 yerel kapsamda tanımlıdır; dışarıdaki a = 1 etkilenmez."
+}
+```
+
+## Önemli Kurallar
+- `this` bağlamını test eden sorularda ortam (strict mode, arrow function, method call) açıkça belirtilmelidir.
+- Asenkron sorularda Event Loop sıralaması (Macrotask vs Microtask) doğru biçimde örneklendirilmelidir.
+- `==` ile `===` karşılaştırmalarında tip zorlaması (coercion) açık bir tuzak şık olarak kullanılabilir.
+- ES versiyonu önemliyse belirtilmelidir (ör. ES6+, ES2020).
+
+# HTML (HyperText Markup Language) Kuralları
+
+## Kapsam
+Bu modül, HTML5 ve web içerik yapısına ait test sorularının nasıl üretileceğini tanımlar.
+
+## Kod Gösterimi
+1. HTML kod parçacıkları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. HTML etiketlerindeki `<` ve `>` karakterleri JSON string içinde doğrudan yazılabilir.
+3. HTML attribute değerlerindeki çift tırnak `\"` olarak kaçırılmalıdır.
+4. Girintileme 2 boşluk ile yapılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- Belge yapısı: `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`, meta etiketleri
+- Semantik HTML5 etiketleri: `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`
+- Metin etiketleri: `<h1>`-`<h6>`, `<p>`, `<span>`, `<strong>`, `<em>`, `<blockquote>`, `<pre>`, `<code>`
+- Bağlantı ve medya: `<a href>` (target, rel), `<img>` (alt, srcset), `<video>`, `<audio>`, `<iframe>`
+- Listeler: `<ul>`, `<ol>`, `<li>`, `<dl>`, `<dt>`, `<dd>`
+- Tablolar: `<table>`, `<thead>`, `<tbody>`, `<tfoot>`, `<tr>`, `<th>`, `<td>`, `colspan`/`rowspan`
+- Formlar: `<form>`, `<input>` (type, required, placeholder), `<label>`, `<select>`, `<textarea>`, `<button>`, `<fieldset>`, `<legend>`
+- HTML5 form input tipleri: `email`, `date`, `range`, `color`, `number`, `search`
+- Global attribute'lar: `id`, `class`, `style`, `data-*`, `aria-*`, `tabindex`, `hidden`
+- Web erişilebilirliği (Accessibility / a11y): ARIA rolleri, alt text, label-input ilişkisi
+- SEO temelleri: başlık hiyerarşisi, meta description, canonical, Open Graph
+- HTML varlıkları (entities): `&nbsp;`, `&lt;`, `&gt;`, `&amp;`, `&copy;`
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki HTML kodunda hangi etiket SEO açısından yanlış kullanılmıştır?",
+  "code": "<body>\n  <h1>Ana Başlık</h1>\n  <h1>İkinci Başlık</h1>\n  <h2>Alt Başlık</h2>\n</body>",
+  "choices": [
+    { "label": "A", "text": "<h2> etiketi", "correct": false },
+    { "label": "B", "text": "İkinci <h1> etiketi", "correct": true },
+    { "label": "C", "text": "<body> etiketi", "correct": false },
+    { "label": "D", "text": "Hiçbiri, kod doğrudur", "correct": false },
+    { "label": "E", "text": "<h1> etiketinin hiç kullanılmaması gerekirdi", "correct": false }
+  ],
+  "explanation": "Bir sayfada SEO açısından yalnızca bir adet <h1> etiketi kullanılmalıdır; ikinci <h1> kullanımı arama motorlarını yanıltabilir."
+}
+```
+
+## Önemli Kurallar
+- "Tarayıcıda nasıl görünür?" soruları yerine anlam/semantik, erişilebilirlik veya SEO etkileri sorgulanmalıdır.
+- Self-closing etiket farkları (HTML5'te `<br>` ve `<br />` her ikisi de geçerlidir) not olarak açıklamada belirtilebilir.
+- Deprecated (kullanımdan kaldırılmış) etiketler (`<font>`, `<center>`, `<marquee`) tuzak şık olarak kullanılabilir.
+
+# CSS (Cascading Style Sheets) Kuralları
+
+## Kapsam
+Bu modül, CSS3 ve modern web stillendirme teknolojilerine ait test sorularının nasıl üretileceğini tanımlar.
+
+## Kod Gösterimi
+1. CSS kod parçacıkları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. CSS property değerlerindeki tırnak işaretleri `\"` olarak kaçırılmalıdır.
+3. HTML + CSS birlikte gösterilecekse iki ayrı blok olarak `"html"` ve `"css"` alanlarında sunulabilir.
+4. Girintileme 2 boşluk ile yapılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- Seçiciler (Selectors): element, class (`.`), id (`#`), attribute (`[attr]`), pseudo-class (`:hover`, `:nth-child`), pseudo-element (`::before`, `::after`), birleşik seçiciler (descendant, child `>`, sibling `~`, adjacent `+`)
+- Özgüllük (Specificity) ve Basamak (Cascade): `!important`, hesaplama kuralları (0,1,0 notasyonu)
+- Kutu Modeli (Box Model): `content`, `padding`, `border`, `margin`, `box-sizing: border-box` vs `content-box`
+- Display: `block`, `inline`, `inline-block`, `none`, `flex`, `grid`, `contents`
+- Flexbox: `flex-direction`, `justify-content`, `align-items`, `flex-wrap`, `flex-grow/shrink/basis`, `order`
+- CSS Grid: `grid-template-columns/rows`, `grid-area`, `gap`, `fr` birimi, `auto-fill/auto-fit`
+- Konumlandırma (Positioning): `static`, `relative`, `absolute`, `fixed`, `sticky`, `z-index`
+- Responsive Tasarım: `@media` sorguları, `min-width/max-width`, `vw/vh` birimleri, `clamp()`
+- Tipografi: `font-family`, `font-weight`, `line-height`, `letter-spacing`, `text-transform`, web fontları
+- CSS Değişkenleri (Custom Properties): `--variable-name`, `var()` kullanımı
+- Animasyon ve Geçiş: `transition`, `animation`, `@keyframes`, `transform`
+- Renk ve Degradeler: `rgb()`, `hsl()`, `opacity`, `linear-gradient`, `radial-gradient`
+- Modern CSS: `:is()`, `:where()`, `:has()`, `aspect-ratio`, `gap` (flex/grid), container queries
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki CSS kuralı uygulandığında .kutu elementinin toplam genişliği kaç piksel olur?",
+  "code": ".kutu {\n  width: 200px;\n  padding: 10px;\n  border: 5px solid black;\n  box-sizing: content-box;\n}",
+  "choices": [
+    { "label": "A", "text": "200px", "correct": false },
+    { "label": "B", "text": "210px", "correct": false },
+    { "label": "C", "text": "220px", "correct": false },
+    { "label": "D", "text": "230px", "correct": true },
+    { "label": "E", "text": "240px", "correct": false }
+  ],
+  "explanation": "content-box modelinde toplam genişlik = width + sol padding + sağ padding + sol border + sağ border = 200 + 10 + 10 + 5 + 5 = 230px."
+}
+```
+
+## Önemli Kurallar
+- Specificity hesaplama soruları için (0,1,0) gibi açık notasyon kullanılmalıdır.
+- `box-sizing` değeri belirtilmemiş sorularda varsayılan `content-box` olduğu hatırlatılmalıdır.
+- Flexbox ve Grid sorularında parent-child ilişkisi kodda açıkça gösterilmelidir.
+- "Hangi tarayıcıda çalışmaz?" tarzı sorular yerine standart CSS davranışı üzerine yoğunlaşılmalıdır.
+
+# UML (Unified Modeling Language) Kuralları
+
+## Kapsam
+Bu modül, UML diyagramlarına ve nesne yönelimli tasarım kavramlarına ait test sorularının nasıl üretileceğini tanımlar.
+
+## Diyagram Gösterimi
+1. UML diyagramları görsel çizilebiliyorsa TikZ ile (`tikz` alanına) yerleştirilmelidir; aksi hâlde metin tabanlı ASCII gösterim veya PlantUML benzeri sözdizimi `"code"` alanında kullanılabilir.
+2. Sınıf diyagramlarında bölümler `+`, `-`, `#`, `~` erişim belirleyicileriyle gösterilmelidir.
+3. PlantUML sözdizimi tercih edildiğinde `@startuml` / `@enduml` bloğu `\n` ile satırlara bölünür.
+
+## Soru Konuları (Öncelik Sırası)
+
+### Yapısal Diyagramlar
+- **Sınıf Diyagramı (Class Diagram):** Sınıf, interface, abstract class; ilişkiler: kalıtım (inheritance `--|>`), gerçekleme (realization `..|>`), bağlantı (association `-->`), bağımlılık (`..>`), bütünleşme (aggregation `o--`), bileşim (composition `*--`); çokluk (multiplicity: `1`, `0..*`, `1..*`)
+- **Nesne Diyagramı (Object Diagram):** Belirli bir andaki nesne örnekleri ve bağlantıları
+- **Bileşen Diyagramı (Component Diagram):** Sistem bileşenleri ve arayüzler
+- **Dağıtım Diyagramı (Deployment Diagram):** Donanım/yazılım yerleşimi
+
+### Davranışsal Diyagramlar
+- **Kullanım Durumu Diyagramı (Use Case Diagram):** Aktör, use case, `<<include>>`, `<<extend>>`, sistem sınırı
+- **Sıralı Diyagram (Sequence Diagram):** Nesne yaşam çizgisi, mesaj (senkron `->`, asenkron `->>`), dönüş (`-->`), `alt`, `loop`, `ref` çerçeveleri
+- **Durum Diyagramı (State Diagram):** Durum, geçiş, olay/eylem, başlangıç/bitiş durumu, bileşik durum
+- **Etkinlik Diyagramı (Activity Diagram):** Eylem, karar (diamond), çatal/birleşim, başlangıç/bitiş nodları, yüzme şeritleri (swimlane)
+- **İletişim Diyagramı (Communication Diagram):** Nesneler arası mesaj sıralaması
+
+### Tasarım Desenleri (Design Patterns)
+- **Yaratımsal:** Singleton, Factory Method, Abstract Factory, Builder, Prototype
+- **Yapısal:** Adapter, Decorator, Facade, Composite, Proxy, Bridge, Flyweight
+- **Davranışsal:** Observer, Strategy, Command, Iterator, Template Method, State, Chain of Responsibility
+
+## Kod Örneği JSON Formatı (PlantUML tabanlı)
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki sınıf diyagramında Kedi ve Kopek sınıfları arasındaki ilişki türü nedir?",
+  "code": "@startuml\nclass Hayvan {\n  +ad: String\n  +sesCikar(): void\n}\nclass Kedi {\n  +miyavla(): void\n}\nclass Kopek {\n  +havla(): void\n}\nHayvan <|-- Kedi\nHayvan <|-- Kopek\n@enduml",
+  "choices": [
+    { "label": "A", "text": "Bağımlılık (Dependency)", "correct": false },
+    { "label": "B", "text": "Bileşim (Composition)", "correct": false },
+    { "label": "C", "text": "Kalıtım (Inheritance)", "correct": true },
+    { "label": "D", "text": "Gerçekleme (Realization)", "correct": false },
+    { "label": "E", "text": "Bütünleşme (Aggregation)", "correct": false }
+  ],
+  "explanation": "Kedi ve Kopek, Hayvan sınıfından kalıtım (generalization / inheritance) yoluyla türemektedir. UML'de bu ilişki içi boş üçgen ok (<|--) ile gösterilir."
+}
+```
+
+## Önemli Kurallar
+- Kalıtım ile gerçekleme (interface implementasyonu) ayrımını sorgulayan sorular etkili tuzak sorulardır.
+- Bütünleşme (aggregation) ile bileşim (composition) arasındaki "sahiplik / yaşam döngüsü" farkı açıklamalarda vurgulanmalıdır.
+- Tasarım deseni sorularında hangi problemi çözdüğü ve hangi prensibe dayandığı (SOLID) açıklamada belirtilmelidir.
+- Çokluk (multiplicity) ifadeleri soran sorularda "tam olarak kaç" anlamını belirten doğru notasyon kullanılmalıdır.
+
+# SQL (Structured Query Language) Kuralları
+
+## Kapsam
+Bu modül, SQL ve ilişkisel veritabanı kavramlarına ait test sorularının nasıl üretileceğini tanımlar. Sorular standart SQL (ANSI) temelinde olmalı; T-SQL (SQL Server) veya PL/pgSQL (PostgreSQL) gibi diyalekt özellikleri sorularda belirtilmelidir.
+
+## Kod Gösterimi
+1. SQL sorguları JSON içinde `"code"` alanına string olarak yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. SQL anahtar kelimeleri büyük harf ile yazılmalıdır (`SELECT`, `FROM`, `WHERE`, `JOIN` vb.).
+3. Tablo ve sütun adları küçük harf / snake_case ile gösterilmelidir (ör. `orders`, `customer_id`).
+4. JSON string içindeki tırnak işaretleri `\"` olarak kaçırılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+
+### Temel Sorgular (DML – Data Manipulation Language)
+- `SELECT`, `FROM`, `WHERE`, `ORDER BY`, `LIMIT` / `TOP`
+- `INSERT INTO … VALUES …`, `UPDATE … SET … WHERE …`, `DELETE FROM … WHERE …`
+- `DISTINCT`, `AS` (alias), `LIKE`, `IN`, `BETWEEN`, `IS NULL` / `IS NOT NULL`
+- Aggregate fonksiyonlar: `COUNT()`, `SUM()`, `AVG()`, `MIN()`, `MAX()`
+- `GROUP BY` ve `HAVING` (GROUP BY sonrası filtreleme için; WHERE ile farkı)
+
+### Join İşlemleri
+- `INNER JOIN`: Her iki tabloda eşleşen kayıtlar
+- `LEFT JOIN` / `RIGHT JOIN`: Eşleşmeyen kayıtların NULL olarak dahil edilmesi
+- `FULL OUTER JOIN`: Her iki tablodaki tüm kayıtlar
+- `CROSS JOIN`: Kartezyen çarpım
+- Self-join: Bir tablonun kendisiyle birleştirilmesi
+- Çoklu join: Üç veya daha fazla tablo birleştirme
+
+### Alt Sorgular (Subquery)
+- `WHERE` içinde alt sorgu (`IN`, `EXISTS`, `ANY`, `ALL`)
+- `FROM` içinde türetilmiş tablo (derived table / inline view)
+- Correlated (ilişkili) alt sorgu: Dış sorguya başvuran iç sorgu
+
+### Pencere Fonksiyonları (Window Functions)
+- `ROW_NUMBER()`, `RANK()`, `DENSE_RANK()` farkları
+- `OVER (PARTITION BY … ORDER BY …)` sözdizimi
+- `LAG()` / `LEAD()`: Önceki / sonraki satır değerine erişim
+- `SUM() OVER (…)`: Kümülatif toplam
+
+### Tablo Tanımlama (DDL – Data Definition Language)
+- `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
+- `PRIMARY KEY`, `FOREIGN KEY`, `UNIQUE`, `NOT NULL`, `DEFAULT`, `CHECK` kısıtlamaları
+- Index oluşturma: `CREATE INDEX`, `CREATE UNIQUE INDEX`
+
+### Veri Bütünlüğü ve Normalizasyon
+- 1NF, 2NF, 3NF, BCNF tanımları ve ihlal örnekleri
+- Referential integrity (Referans bütünlüğü): `ON DELETE CASCADE` / `SET NULL` / `RESTRICT`
+- Transaksiyonlar: `BEGIN`, `COMMIT`, `ROLLBACK`, `SAVEPOINT`; ACID özellikleri (Atomicity, Consistency, Isolation, Durability)
+
+### İleri Kavramlar
+- View (`CREATE VIEW`) ve Materialized View farkı
+- Stored Procedure vs Function farkı
+- Trigger: `BEFORE` / `AFTER`, `INSERT` / `UPDATE` / `DELETE` olayları
+- CTE (Common Table Expression): `WITH cte_name AS (…) SELECT …`
+- `UNION` vs `UNION ALL` farkı
+- `CASE WHEN … THEN … ELSE … END` ifadesi
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki SQL sorgusu hangi sonucu döndürür?",
+  "code": "SELECT department, COUNT(*) AS emp_count\nFROM employees\nWHERE salary > 5000\nGROUP BY department\nHAVING COUNT(*) > 3\nORDER BY emp_count DESC;",
+  "choices": [
+    { "label": "A", "text": "Tüm departmanların çalışan sayısını listeler.", "correct": false },
+    { "label": "B", "text": "Maaşı 5000'den fazla olan ve 3'ten fazla çalışanı bulunan departmanları çalışan sayısına göre azalan sırada listeler.", "correct": true },
+    { "label": "C", "text": "Maaşı 5000'den fazla olan tüm çalışanları listeler.", "correct": false },
+    { "label": "D", "text": "Her departmanın toplam maaşını listeler.", "correct": false },
+    { "label": "E", "text": "Sözdizimi hatası verir; HAVING WHERE'den önce yazılmalıdır.", "correct": false }
+  ],
+  "explanation": "WHERE satır bazlı filtreleme yaparken (GROUP BY öncesi), HAVING grup bazlı filtreleme yapar (GROUP BY sonrası). Sorgu: maaşı > 5000 olan çalışanları gruplar, 3'ten fazla çalışanı olan departmanları seçer ve azalan sırada listeler."
+}
+```
+
+## Önemli Kurallar
+- `WHERE` ile `HAVING` farkını test eden sorular etkili tuzak sorulardır.
+- `LEFT JOIN` ve `INNER JOIN` sonuçlarının farklılaştığı NULL içeren senaryolar kullanılabilir.
+- `RANK()` ile `DENSE_RANK()` arasındaki sıralama farkı (boşluk bırakma) karıştırıcı sorular üretmek için idealdir.
+- Normalizasyon sorularında somut bir tablo örneği üzerinden ihlal gösterilmelidir.
+- Transaksyon sorularında ACID özelliklerinden hangisinin ihlal edildiği veya hangi komutun ne işe yaradığı sorgulanmalıdır.
+
+# Türkçe Paragraf ve Dil Bilgisi Kuralları (ÖSYM Tarzı)
+
+1. Paragraf ve Dil Bilgisi Soruları: Türkçe dersi altındaki paragraf, cümlede anlam, sözcükte anlam ve dil bilgisi soruları için bu kurallar geçerlidir.
+2. ÖSYM Formatı: Sorular YKS (TYT/AYT), KPSS, ALES ve DGS sınav formatlarında hazırlanmalıdır.
+3. Uzun Paragraflar: Soru metinlerindeki öncül paragraflar yeterince uzun ve dolgun olmalıdır. Metinler akademik, felsefi, tarihi, bilimsel veya edebi bir makaleden alınmış gibi gerçekçi, okumayı ve analizi gerektiren düzeyde olmalıdır.
+4. Uzun ve Çeldirici Şıklar: Seçenekler (A, B, C, D, E) tek kelimelik değil, paragrafın analizini yansıtan tam cümleler veya uzun yan cümleler halinde olmalıdır. Güçlü çeldiriciler kullanılmalıdır.
+5. Soru Kökleri: Soru kökleri ÖSYM tarzı olmalıdır.
+   Örnekler:
+   - "Bu parçadan aşağıdakilerin hangisine ulaşılabilir?"
+   - "Bu parçada asıl anlatılmak istenen aşağıdakilerden hangisidir?"
+   - "Bu parçanın yazarının aşağıdakilerden hangisini söylemesi beklenemez?"
+   - "Bu parçadaki altı çizili sözle anlatılmak istenen aşağıdakilerden hangisidir?"
+6. Dil Bilgisi İstisnaları: Dil bilgisi sorularında paragraf veya uzun cümleler verilip, seçeneklerde "A) Girişik birleşik cümle kullanılmıştır.", "B) Yüklem geçişli bir fiildir." gibi analizler istenir.
+7. Metin Biçimlendirme (Paragraf ve Soru Gösterimi):
+   - Alıntılar: Metin içerisindeki alıntılar mutlaka çift tırnak ("...") içinde yazılmalıdır.
+   - Paragraf Girintisi: Soru öncülündeki paragrafların başında mutlaka girinti (boşluk veya `\t` karakteri) bulunmalıdır. Eğer metin birden fazla paragraftan oluşuyorsa her paragrafın başında girinti olmalıdır.
+   - Ayraç: Paragraf / öncül metin ile asıl soru kökü ("Bu parçada anlatılmak istenen...", vb.) arasına görsel bir ayraç (örneğin `\n\n---\n\n` veya sadece `\n\n`) konarak metin ile soru kökü birbirinden net bir şekilde ayrılmalıdır.
+   - Önemli İfadeler: Metin içindeki altı çizili veya vurgulanmak istenen söz öbekleri tek tırnak ('...') veya kalın (bold) ifadelerle belirginleştirilmelidir.

@@ -1,0 +1,52 @@
+# C# Programlama Dili Kuralları
+
+## Kapsam
+Bu modül, C# programlama diline ait test sorularının nasıl üretileceğini tanımlar.
+
+## Kod Gösterimi
+1. C# kod parçacıkları JSON içinde `"code"` alanına yerleştirilmeli, satır sonları `\n` ile ifade edilmelidir.
+2. Girintiler 4 boşluk (space) kullanılarak yapılmalıdır; tab karakteri (`\t`) KULLANILMAMALIDIR.
+3. Kod bloğu JSON string içinde olduğu için tırnak işaretleri `\"` şeklinde kaçırılmalıdır.
+
+## Soru Konuları (Öncelik Sırası)
+- Veri tipleri, değişken tanımlama ve tür dönüşümleri (casting)
+- Kontrol yapıları: `if/else`, `switch/case`, `for`, `foreach`, `while`, `do-while`
+- Metotlar: parametre, geri dönüş tipi, `ref`/`out`/`params` anahtar kelimeleri
+- OOP: class, struct, interface, abstract class, inheritance, polymorphism, encapsulation
+- Erişim belirleyiciler: `public`, `private`, `protected`, `internal`, `protected internal`
+- Özellikler (Properties): auto-property, get/set, init
+- İstisna yönetimi: `try/catch/finally`, özel exception sınıfları
+- LINQ (Language Integrated Query):
+  - **Method Syntax (Fluent):** `.Where()`, `.Select()`, `.OrderBy()` / `.OrderByDescending()`, `.GroupBy()`, `.Join()`, `.SelectMany()`, `.Distinct()`, `.Take()` / `.Skip()`, `.First()` / `.FirstOrDefault()`, `.Single()` / `.SingleOrDefault()`, `.Any()` / `.All()`, `.Count()`, `.Sum()`, `.Min()` / `.Max()` / `.Average()`, `.ToList()` / `.ToArray()` / `.ToDictionary()`
+  - **Query Syntax (SQL benzeri):** `from … in … where … orderby … select …`, `group … by … into …`, `join … on … equals …`
+  - **Deferred (Ertelenmiş) vs Immediate (Anlık) Execution:** `IEnumerable<T>` dönen sorgular (`Where`, `Select` vb.) listeye dönüştürülene veya enumerate edilene kadar çalışmaz (deferred); `.ToList()`, `.Count()`, `.Sum()` gibi operatörler sorguyu hemen çalıştırır (immediate).
+  - **IEnumerable\<T\> vs IQueryable\<T\>:** `IEnumerable` bellekte (LINQ to Objects), `IQueryable` ise veri kaynağına özel sorgular üreterek çalışır (ör. LINQ to SQL / Entity Framework — sorgu SQL'e dönüştürülür).
+  - **Lambda ve Delegate:** Lambda ifadeleri (`x => x > 5`) LINQ sorgularının omurgasıdır; `Func<T, bool>` ve `Expression<Func<T, bool>>` farkını test eden sorular üretilebilir.
+- Generic tipler: `List<T>`, `Dictionary<TKey, TValue>`, `IEnumerable<T>`
+- Asenkron programlama: `async/await`, `Task`, `Task<T>`
+- Nullable tipler: `int?`, `string?`, null-coalescing `??`, null-conditional `?.`
+- Delegates, Events, Lambda ifadeleri
+- Namespace, using direktifleri, assembly kavramı
+
+## Kod Örneği JSON Formatı
+```json
+{
+  "id": 1,
+  "text": "Aşağıdaki C# kodunun çıktısı nedir?",
+  "code": "int x = 5;\nint y = 2;\nConsole.WriteLine(x / y);\nConsole.WriteLine(x % y);",
+  "choices": [
+    { "label": "A", "text": "2 ve 0", "correct": false },
+    { "label": "B", "text": "2 ve 1", "correct": true },
+    { "label": "C", "text": "2.5 ve 1", "correct": false },
+    { "label": "D", "text": "2 ve 2", "correct": false },
+    { "label": "E", "text": "Derleme hatası", "correct": false }
+  ],
+  "explanation": "int bölme işlemi ondalık kısmı atar: 5/2 = 2. Kalan: 5%2 = 1."
+}
+```
+
+## Önemli Kurallar
+- Sorularda kullanılan C# sürümü belirtilmelidir (ör. C# 10, .NET 6+) eğer sürüme özgü bir özellik kullanılıyorsa.
+- "Derleme hatası verir" veya "Çalışma zamanı hatası verir" seçenekleri mantıklı tuzak şıklar olarak kullanılabilir.
+- Kod çıktısı soran sorularda çıktı tam ve net olmalı, belirsizlik içermemelidir.
+- Şıklar arasında yalnızca ince farklar (ör. 0 ile 1, null ile exception) bulunarak dikkat gerektiren sorular oluşturulabilir.

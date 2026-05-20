@@ -1,0 +1,27 @@
+# Matematiksel ve Cebirsel İfade Kuralları (MathJax)
+
+1. Tüm matematiksel formüller LaTeX formatında yazılmalıdır.
+2. Satır içi formüller için DİREKT olarak `\(` ve `\)` sembolleri kullanılmalıdır (Örn: `\( x^2 + y^2 = z^2 \)`). Kesinlikle `$` sembolü KULLANILMAMALIDIR.
+3. Blok formüller için DİREKT olarak `\[` ve `\]` kullanılmalıdır (Örn: `\[ \frac{-b \pm \sqrt{b^2 - 4ac}}{2a} \]`). Kesinlikle `$$` sembolü KULLANILMAMALIDIR.
+4. ÇOK ÖNEMLİ JSON KAÇIŞ KURALLARI (ESCAPE): JSON formatı gereği tek slash oluşturmak için iki slash yazmanız gerekir `"\\"`. Bunu biliyoruz! Ancak lütfen fazladan (aşırı) kaçış işlemi yapıp 4 tane slash `"\\\\"` KULLANMAYIN.
+    Bu yüzden üreteceğiniz JSON dosyasında formüllerin görünümü şu şekilde OLMALIDIR:
+    - Doğru Hali: "Entropi \\( \\log_a(x) \\) formülüyle...", "Karekök \\( \\sqrt{x} \\)"
+    - Yanlış Hali: "Entropi \\\\( \\\\log_a(x) \\\\) formülüyle...", "Karekök \\\\( \\\\sqrt{x} \\\\)"
+
+    # Sık Kullanılan Matematiksel Notasyonlar (Örnekleri JSON string'inde olması gerektiği gibi 2 slash ile veriyoruz)
+
+    - Üslü İfadeler: `\\( a^x \\)` veya `\\( e^{i\\pi} + 1 = 0 \\)`
+    - Alt İndisler: `\\( x_1, x_2, a_{n+1} \\)`
+    - Kesirler: `\\( \\frac{pay}{payda} \\)` veya `\\( \\frac{-b \\pm \\sqrt{\\Delta}}{2a} \\)`
+    - Karekök ve N. Dereceden Kök: `\\( \\sqrt{x^2+1} \\)` veya `\\( \\sqrt[3]{x-2} \\)`
+    - Logaritma: `\\( \\log_a(x) \\)` veya `\\( \\ln(x) \\)`
+    - Trigonometri: `\\( \\sin(\\theta) \\)`, `\\( \\cos^2(x) \\)`, `\\( \\tan(\\frac{\\pi}{4}) \\)`
+    - Limit: `\\( \\lim_{x \\to \\infty} \\frac{1}{x} = 0 \\)`
+    - Türev/İntegral: `\\( \\frac{dy}{dx} \\)`, `\\( \\int f(x)dx \\)`, `\\( \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\)`
+    - Diğerleri: `\\( x \\geq 0 \\)`, `\\( x \\neq y \\)`, `\\( A \\cup B \\)`
+    - Eşitsizlikler: Büyüktür/Küçüktür `\\( x < y \\)`, Büyük Eşit `\\( x \\geq 0 \\)`, Küçük Eşit `\\( y \\leq 10 \\)`, Eşit Değil `\\( x \\neq y \\)`
+    - Kümeler: Elemanıdır `\\( x \\in A \\)`, Alt Küme `\\( A \\subset B \\)`, Birleşim/Kesişim `\\( A \\cup B \\)` / `\\( A \\cap B \\)`
+    - Matris/Vektör Formülleri (JSON stringi olduğu için matris yeni satırları `\\\\` ile değil `\\\\\\\\` gibi çoklu kaçışlara ihtiyaç duyar. Blok formül olarak basitleştirilmiş yatay format tercih edilebilir.)
+
+5. Doğru Örnek (JSON içi string): "Buna göre \\( \\log_2(8) = 3 \\) eşitliği sağlanır."
+{{ ... }}

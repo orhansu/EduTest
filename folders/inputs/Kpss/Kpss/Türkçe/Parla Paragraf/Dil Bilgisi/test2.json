@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e4f8d5a2-9b7e-41d3-8c46-1234567890ac",
+        "title": "Yazım Kuralları",
+        "subject": "Türkçe",
+        "topic": "Yazım Kuralları (Büyük harflerin yazımı, birleşik/ayrı yazılan kelimeler, de/ki/mi'nin yazımı)",
+        "difficulty": "Karma",
+        "grade": "KPSS/TYT/MSÜ",
+        "created": "2026-04-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Kadir Hoca'nın akrabalık bildiren sözcüklerin yazımıyla ilgili anlattığı kurala göre, aşağıdakilerden hangisinde yazım yanlışı yapılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mahallenin sevgilisi Ramiz dayı dün vefat etti.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Ayşe teyzemin yaptığı keki herkes çok sever.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nene Hatun, 93 Harbi'nin en önemli kahramanlarındandır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yarın akşam Ali amcamlara yemeğe gideceğiz.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bu mahallede ona herkes Susuz Dede derdi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gerçek akrabalık bildiren \"teyze, amca\" gibi sözcükler küçük harfle başlar. Ancak \"Ramiz Dayı, Nene Hatun, Susuz Dede\" gibi ifadelerde bu kelimeler unvan ve lakap haline geldiği için büyük harfle başlamalıdır."
+        },
+        {
+            "id": 2,
+            "text": "Kadir Hoca, yön bildiren sözcüklerin özel isimden önce kullanıldığında büyük, özel isimden sonra kullanıldığında ise küçük harfle başladığını belirtmiştir. Buna göre aşağıdakilerin hangisinde yazım yanlışı yapılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kuzey Amerika kıtası",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Batı Anadolu kültürü",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Afrika'nın güneyi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Doğu Karadeniz bölgesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Akdeniz'in Kuzeydoğusu",
+                    "correct": true
+                }
+            ],
+            "explanation": "Yön sözcükleri (kuzeydoğu) özel ismin arkasından gelirse yalnızca yön bildirir ve ilk harfi küçük yazılır (Akdeniz'in kuzeydoğusu)."
+        },
+        {
+            "id": 3,
+            "text": "Belirli bir tarih bildiren ay ve gün adları büyük harfle başlar. Bu kurala göre aşağıdaki cümlelerin hangisinde yazım yanlışı vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınavımız 15 Haziran'da yapılacak.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gençler her Salı bu parkta buluşup sohbet ederler.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Seni 1999 Kasım'ında ilk kez görmüştüm.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Okullar eylül ayının ikinci haftasında açılacak.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "29 Mayıs 1453 Salı günü tarihin akışı değişti.",
+                    "correct": false
+                }
+            ],
+            "explanation": "B şıkkında \"Salı\" sözcüğü belirli bir tarih (sayısal bir veri veya belirli bir yıl) ile birlikte verilmediği için küçük harfle (salı) yazılmalıdır."
+        },
+        {
+            "id": 4,
+            "text": "Kadir Hoca'nın büyük harflerle yapılan kısaltmalara getirilen ekler hakkındaki uyarısına göre, aşağıdakilerden hangisinin yazımında bir yanlışlık yapılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "TBMM'nin",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "MEB'e",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "TDK'nın",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "THY'de",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "TÜBİTAK'ın",
+                    "correct": false
+                }
+            ],
+            "explanation": "Büyük harfli kısaltmalara ek getirilirken kısaltmanın son harfinin okunuşu esas alınır. Türkçede 'ka' sesi yoktur, 'ke' olarak okunur. Bu nedenle kısaltma 'TDK'nin' şeklinde ek almalıdır."
+        },
+        {
+            "id": 5,
+            "text": "Özel isimlere getirilen çekim ekleri kesme işaretiyle ayrılırken, bazı ekler bu kuralın istisnasıdır. Kadir Hoca'nın verdiği bilgilere göre, aşağıdakilerin hangisinde kesme işaretinin kullanımıyla ilgili doğru bir yazım vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ayşelere yarın akşam oturmaya gideceğiz.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Türk'lerin Anadolu'ya girişi Malazgirt ile başlar.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Konyalı'lar bu yemeği çok güzel yapar.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Almanlar'ın teknoloji alanındaki başarıları bilinmektedir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ahmet'ler bu mahalleden geçen yıl taşındı.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Özel isimlere gelen \"-lar, -ler\" çoğul ekleri ve yapım ekleri kesme işaretiyle ayrılmaz. Çoğul ekinden sonra gelen ekler de bitişik yazılır (Türklerin, Konyalılar, Almanların, Ahmetler). Yalnızca \"Ayşelere\" kelimesinin yazımı doğrudur."
+        },
+        {
+            "id": 6,
+            "text": "İkilemeler kural olarak ayrı yazılır. Ancak Kadir Hoca'nın \"adınız gibi bilin\" dediği kalıplaşmış ikilemeler istisnai olarak bitişik yazılır. Buna göre aşağıdakilerden hangisinde yazım yanlışı vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Konuyu onunla başa baş konuşup halledeceğiz.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sorunları art arda çözmeyi başardı.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Merdivenlerden ağır ağır çıkıyordu.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Git gide ona olan saygım ve sevgim artıyordu.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Hayatımı birdenbire değiştiren o kararı aldım.",
+                    "correct": false
+                }
+            ],
+            "explanation": "İkilemeler ayrı yazılır ancak \"gitgide, birdenbire, altüst\" ikilemeleri istisnai olarak her zaman bitişik yazılır. \"Git gide\" şeklinde ayrı yazılması yanlıştır."
+        },
+        {
+            "id": 7,
+            "text": "Yardımcı eylemlerle (etmek, olmak) kurulan birleşik fiillerde ses düşmesi veya türemesi yoksa kelimeler ayrı yazılır. Ancak Kadir Hoca bazı kelimelerin ses olayı olmasa da geleneksel olarak bitişik yazıldığını vurgulamıştır. Aşağıdakilerden hangisi bu kurala uymadığı için yanlış yazılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Katetmek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cemetmek",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Menetmek",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Darbetmek",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Farketmek",
+                    "correct": true
+                }
+            ],
+            "explanation": "Men etmek, def etmek, gaspetmek, darbetmek, vaadetmek, katetmek, cemetmek gibi kelimeler ses olayı olmadan da bitişik yazılır. Ancak \"fark etmek\" kelimesi bu istisnalardan değildir ve daima ayrı yazılır."
+        },
+        {
+            "id": 8,
+            "text": "Birleşme sırasında ikinci kelimesi anlam değişikliğine uğramayan birleşik kelimeler kural olarak ayrı yazılır. Kadir Hoca'nın anlattıklarına göre aşağıdakilerin hangisinde bu kuraldan kaynaklanan bir yazım yanlışı vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Açık denizde büyük bir köpek balığı görüldü.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çocuğun su çiçeği çıkardığını öğrenince telaşlandık.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bahçedeki ayrık otlarını temizlemek tüm günümüzü aldı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Balkonda rengarenk çuha çiçeği yetiştiriyorum.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cırcır böceği bütün gece durmadan öttü.",
+                    "correct": false
+                }
+            ],
+            "explanation": "\"Su çiçeği\" kelimesinde ikinci kelime (çiçek) anlamını yitirmiş ve kelime bütünleşerek bir hastalık adı olmuştur. Anlamını yitiren ikinci kelimeler bitişik yazılmalıdır (suçiçeği)."
+        },
+        {
+            "id": 9,
+            "text": "Kadir Hoca'nın \"Tabela Kuralı / Bayram Meral Kuralı\" adıyla şifrelediği, yer, yön ve coğrafi alan adlarının yazımıyla ilgili kurala göre aşağıdakilerden hangisinde bir yazım yanlışı yapılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ege Denizi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ziya Gökalp Mahallesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Konya İli",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Avrupa kıtası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ilgın ilçesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "İl, ilçe, köy, kasaba, semt gibi sözcükler özel isme dâhil değildir ve küçük harfle başlar (Konya ili, Ilgın ilçesi). Tabela kuralına göre yalnızca \"kıta\" kelimesi hariç diğer büyük coğrafi adlar (Deniz, Dağ, Boğaz) büyük harfle yazılır."
+        },
+        {
+            "id": 10,
+            "text": "Kadir Hoca'nın kurum, kuruluş ve kurul adlarına gelen eklerin yazımıyla ilgili özel uyarısına göre, aşağıdakilerden hangisinin yazımı yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Türkiye Büyük Millet Meclisinde yeni yasalar görüşüldü.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Türk Dil Kurumuna yapılan güncel başvurular değerlendirildi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Emek İnşaat'ın yeni konut projesi resmen onaylandı.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Bakanlar Kurulunun aldığı son karar Resmi Gazete'de yayımlandı.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Türkiye'nin Avrupa Birliğine tam üyelik süreci müzakere edildi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kurum, kuruluş, kurul ve iş yeri adlarına getirilen ekler kesme işareti ile ayrılmaz (Emek İnşaatın). Bu kuralın tek istisnası Avrupa Birliğine ifadesidir, ayrılır."
+        },
+        {
+            "id": 11,
+            "text": "İkinci kelimesi \"iç, dış, sıra\" olan birleşik kelimelerin yazımıyla ilgili aşağıdakilerden hangisinde yazım yanlışı yapılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olayların yasa dışı bağlantıları araştırılıyor.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kargoyu yurtiçi gönderim ile yollamamız gerekiyor.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Son yıllarda yaşananlar tamamen olağan dışı gelişmelerdi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ailemle bu hafta sonu pikniğe gitmeyi planlıyoruz.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Söylediklerinin yanı sıra pek çok belge de sundu.",
+                    "correct": false
+                }
+            ],
+            "explanation": "İkinci kelimesinde \"iç, dış, sıra\" sözcükleri bulunan kelimeler kural olarak daima ayrı yazılır (yurt içi, yasa dışı, hafta sonu, yanı sıra)."
+        },
+        {
+            "id": 12,
+            "text": "Kadir Hoca \"alt, üst, üzeri\" sözcüklerinin somut bir yer bildirdiğinde ayrı, somut bir yer bildirmediğinde (soyut veya zaman bildirdiğinde) bitişik yazıldığını vurgulamıştır. Buna göre hangisinde yazım yanlışı vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gözaltı kremi alıp düzenli kullanmaya başladı.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Akşamüstü hep beraber sahilde yürüyüşe çıktık.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Suçüstü yakalanan hırsız derhal karakola götürüldü.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İnsanın bilinçaltı, rüyalarını şekillendiren temel unsurdur.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Masanın üstündeki tüm gereksiz kâğıtları çöpe attı.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gözün fiziksel/somut altı kastedildiği için \"göz altı kremi\" ayrı yazılmalıdır. Ancak \"polis onu gözaltına aldı\" cümlesindeki gibi gözetim/soyut anlam taşıdığında bitişik yazılır."
+        },
+        {
+            "id": 13,
+            "text": "Sıfat-fiil ekleri (-an, -ar, -mez) kullanılarak oluşturulan birleşik kelimelerde kural, ekin birinci kelimede mi yoksa ikinci kelimede mi olduğuna göre değişir. Kadir Hoca'nın verdiği bilgilere göre hangisinin yazımı yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çalar saat bozulduğu için bu sabah işe geç kaldım.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mahallenin en yaşlısı yılların çöpçatanı olarak bilinirdi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çocuklar gökyüzünde bir uçan daire gördüklerini iddia ediyordu.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çok bilmiş tavırlarıyla herkesin sinirini bozuyordu.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Akarsu yataklarının temizlenmesi için çalışmalar başlatıldı.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sıfat-fiil eki ikinci kelimedeyse kelime bitişik yazılır (çöpçatan, çokbilmiş, hacıyatmaz). Eğer birinci kelimedeyse kural olarak ayrı yazılır (çalar saat, uçan daire). Akarsu, bilirkişi vb. kelimeler ise istisnai olarak baştaki eke rağmen bitişik yazılır."
+        },
+        {
+            "id": 14,
+            "text": "\"Ki\" bağlacı kendinden önceki kelimeden ayrı yazılır. Ancak bazı durumlarda kalıplaşarak bitişik yazılır (SOMBAHÇEMİ). Aşağıdaki cümlelerin hangisinde \"ki\"nin yazımıyla ilgili bir yanlışlık vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mademki gelmeyecektin, durumu bana önceden bildirmeliydin.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Oysaki onu ne kadar çok beklemiştik o yağmur altında.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Öğrenci öyle bir çalıştıki herkesi hayretler içinde bıraktı.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Meğerki bütün anlattığı o muhteşem hikâyeler yalanmış.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Halbuki gerçekler senin sandığın gibi değildi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bağlaç olan \"ki\" ayrı yazılır. \"Çalıştı ki\" cümlesinde \"ki\" iki ayrı yargıyı bağlayan bir bağlaçtır ve kalıplaşmış istisnalar (SOMBAHÇEMİ) arasında yer almadığı için ayrı yazılmalıdır."
+        },
+        {
+            "id": 15,
+            "text": "Kadir Hoca \"Yer, millet ve kişi adlarıyla kurulan birleşik kelimelerde özel adlar büyük harfle başlar, tür adları küçük harfle başlar.\" kuralını hatırlatmıştır. Buna göre aşağıdakilerden hangisinin yazımı bu kurala aykırıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Misafirlere Antep fıstığı ikram ettik.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bahçede beyaz bir Van kedisi dolaşıyordu.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tamirci çekmecesinden İngiliz anahtarını çıkardı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yaz sıcaklarında Maraş dondurması harika gidiyor.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tatlıya lezzet katması için biraz Hindistan Cevizi serpti.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Hindistan özel isim olduğu için büyük harfle başlar, ancak ceviz özel isme dâhil olmayan bir tür adı olduğu için küçük harfle yazılmalıdır (Hindistan cevizi)."
+        },
+        {
+            "id": 16,
+            "text": "Kadir Hoca, \"ön\" kelimesiyle oluşturulan sözcüklerden sadece 3 tanesinin bitişik yazıldığını, geri kalan tüm kelimelerin ayrı yazıldığını belirtmiştir. Buna göre aşağıdakilerden hangisinde yazım yanlışı vardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olayların nereye varacağını tahmin eden kuvvetli bir öngörüsü vardı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yaşanan bu tatsız duruma onun önsezi yeteneği sayesinde engel olduk.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bu yararlı projeye tamamen kendisi önayak olmuştu.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Şiir kitabının önsözünü usta bir şaire yazdırmayı tercih etti.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "İnsanlara karşı her zaman ön yargı beslemekten kaçınmalıyız.",
+                    "correct": false
+                }
+            ],
+            "explanation": "\"Ön\" kelimesiyle kurulan kelimelerden yalnızca \"öngörü, önsezi ve önayak (olmak)\" kelimeleri bitişik yazılır. Geri kalan \"ön söz, ön yarg, ön koşul\" gibi kelimeler kural olarak ayrı yazılır."
+        },
+        {
+            "id": 17,
+            "text": "Kadir Hoca'nın zor bir istisna olarak belirttiği \"Benzetme yoluyla bir insanın niteliğini anlatmak için bitki, hayvan veya nesne isimleriyle kurulan kelimeler (ikinci kelime anlamını yitirse bile) ayrı yazılır\" kuralına göre hangisinin yazımı yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Takımın başındaki adam tam bir eski kurttu, her taktiği bilirdi.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Karşımızda çetin ceviz bir rakip var, işimiz zor olacak.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mahallenin eski toprağı sayılan bu dede hepimize öğüt verirdi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "O sarı çıyan kadın bize her gün laf atıp duruyordu.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "O sapsızbalta adamla uzun bir yola çıkılmaz.",
+                    "correct": true
+                }
+            ],
+            "explanation": "İnsanın niteliğini anlatmak için benzetme yoluyla kurulan sözcükler kurala aykırı bir istisna olarak her zaman ayrı yazılmalıdır (çetin ceviz, eski toprak, sarı çıyan, sapsız balta). \"Sapsızbalta\" sözcüğünün bitişik yazılması yanlıştır."
+        },
+        {
+            "id": 18,
+            "text": "Düzeltme işareti, nispet i'sini belirtme durumu ve iyelik ekinden ayırmak için kullanılır. Kadir Hoca'nın verdiği örneklere göre, aşağıdaki cümlelerin hangisinde düzeltme işareti kullanılmaması yazım yanlışına ve anlam karışıklığına sebep olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Türk askeri dün yapılan geçit töreninde hepimizi gururlandırdı.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Konuyu sadece ilmi tartışmalarla ele almak sorunu çözmeyecektir.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bu meseleye İslam dini kuralları açısından yaklaşmak gerekir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bu asırlık ağacın kökü oldukça derinlere iniyordu.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mahalledeki çocuklar okul bahçesinde oyun oynuyorlardı.",
+                    "correct": false
+                }
+            ],
+            "explanation": "İyelik eki alan kelimelerde (Türk askeri, İslam dini) düzeltme işaretine gerek yoktur. Ancak sıfat yapan ve aitlik bildiren nispet i'si (askerî tören, dinî ilimler, ilmî tartışmalar) şapkalı/düzeltme işaretiyle yazılmalıdır. \"ilmî tartışmalar\" olmalıdır."
+        },
+        {
+            "id": 19,
+            "text": "Kadir Hoca'nın verdiği bilgiye göre, sonunda 3. tekil kişi iyelik eki olan özel bir isme (Konya Ovası vb.), ayrıca bir iyelik eki (-mız/-miz) getirildiğinde kendi iyelik eki düşer. Bu durumda kesme işareti KULLANILMAZ. Aşağıdakilerden hangisi bu duruma örnek olarak gösterilebilir ve doğru yazılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Boğaz Köprü'müzde buluşup eski günleri yâd edelim.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Konya Ovası'mız bu yıl yağışlar sayesinde çok bereketliydi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ağrı Dağı'mızın doruklarındaki karlar henüz erimedi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Boğaz Köprümüzün ışıkları akşam saatlerinde ihtişamla yanmıştı.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Van Gölü'müze turistik turlar düzenlenmesi gerekiyor.",
+                    "correct": false
+                }
+            ],
+            "explanation": "\"Boğaz Köprüsü, Konya Ovası\" gibi iyelik eki içeren kelimelere birinci çoğul iyelik eki (-miz) getirildiğinde aradaki 3. tekil iyelik eki ve kaynaştırma ünsüzü düşer (Boğaz Köprümüz). Bu tip kelimelerde kesme işareti kesinlikle kullanılmaz."
+        },
+        {
+            "id": 20,
+            "text": "Özel isimlere getirilen yapım ekleri ve bu yapım eklerinden sonra gelen çekim ekleri kesme işaretiyle ayrılmaz. Aşağıdakilerden hangisinde bu kurala uymamaktan kaynaklanan bir yazım yanlışı yapılmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Türkçe'nin dil bilgisi kurallarını öğrenmek aslında çok zevklidir.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Konyalıdan aldığım gizli tarifle harika bir etliekmek yaptım.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Türklerin tarihteki savaşçı özellikleri tüm dünyaca bilinmektedir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Avrupalılaşmak adına kendi öz kültürümüzden asla uzaklaşmamalıyız.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Türklük bilinci nesilden nesile aktarılarak her zaman korunmalıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "\"Türk\" özel ismine gelen \"-çe\" bir yapım ekidir. Yapım ekleri ve yapım eklerinden sonra gelen çekim ekleri (-nin) kesme işaretiyle ayrılmaz. Kelimenin doğru yazımı \"Türkçenin\" şeklinde olmalıdır."
+        }
+    ]
+}

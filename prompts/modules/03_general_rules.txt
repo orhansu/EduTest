@@ -1,0 +1,15 @@
+# JSON Çıktı ve Genel Format Kuralları
+
+1. Sadece Geçerli JSON: Üretilen çıktı sadece ve sadece geçerli bir JSON olmalıdır. Başında veya sonunda açıklama metni veya ekstradan karakter bulunmamalıdır.
+2. Kaçış Karakterleri (Escape strings): Hem formüller hem de tırnak işareti, ters eğik çizgi gibi karakterlerde doğru kaçış karakterleri (escape string) kullanıldığından emin olunmalıdır.
+3. Zorluk Seviyeleri: "id" alanı test için benzersiz bir "GUID" (UUID) olarak oluşturulmalı, sorular arasındaki zorluk seviyeleri mantıklı bir algoritmaya göre ("Kolay", "Orta", "Zor" vb.) istenilen oranlarda dengelenmelidir.
+4. Şık Dağıtımı: 5 şıklı (A,B,C,D,E) sistemlerde doğru cevaplar birbirine eşit veya oldukça yakın dağıtılmalıdır. Mantıksız çeldiricilerden kaçınılmalıdır.
+5. Açıklamalar: Her soruda açıklama bulunmalı ve formül içeren açıklamalarda da mutlaka çift ters eğik çizgiyse LaTeX kuralları uygulanmalıdır.
+6. İsimlendirme (title ve topic): 
+   - `title` alanı sade olmalıdır. Klasörleme yapıldığı için "Türkçe - Dil Bilgisi - Cümle Yapıları" gibi uzun yazmak yerine direkt "Cümle Yapıları" veya "Üçgende Açılar" gibi sade başlıklar kullanılmalıdır.
+   - `topic` alanı ise `title` gibi olup, fark olarak detayları içermelidir (Örn: "Üçgende Açılar - Dik Üçgen").
+7. Metin Biçimlendirme (Genel Paragraf ve Soru Gösterimi):
+   - Alıntılar: Soru metinlerindeki doğrudan alıntılar mutlaka çift tırnak ("...") içinde yazılmalıdır.
+   - Paragraf Girintisi: Uzun öncül metinlerde veya paragraflarda mutlaka başa girinti (boşluk veya `\t` karakteri) konulmalıdır. Eğer metin birden fazla paragraftan oluşuyorsa her paragrafın başında girinti olmalıdır.
+   - Ayraç: Paragraf / öncül metin ile soru kökü ("Buna göre aşağıdakilerden hangisi..." vb.) arasına görsel bir ayraç (örneğin `\n\n---\n\n` veya `\n\n`) konarak metin ile soru birbirinden net bir şekilde ayrılmalıdır.
+   - Vurgulama: Metin içindeki altı çizili veya özellikle vurgulanmak istenen söz öbekleri tek tırnak ('...') veya kalın (bold) ifadelerle belirginleştirilmelidir.

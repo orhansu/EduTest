@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "7f82b3d1-a5c4-4e2a-9b8e-d9f2a4b5c6d7",
+        "title": "Sınav 1",
+        "subject": "Nesnel Bilgi Sistemleri",
+        "topic": "OOP, UML ve Programlama Dilleri",
+        "difficulty": "Orta",
+        "grade": "Üniversite",
+        "created": "2026-04-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Prosedürel programlama dillerinde program, sıralı adımlar ve kontrol yapılarıyla tanımlanan alt programlar etrafında örgütlenir. Bu paradigmada aşağıdaki özelliklerden hangisi, saf fonksiyonel dillerden temel bir ayrımı ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yüksek dereceli fonksiyonların doğal olarak dilde bulunması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Döngüler ve koşullar gibi kontrol akışı yapıları ile durum değişiminin açıkça belirtilmesi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kontrol yapılarının tamamen yokluğu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Verinin değiştirilemezliği (immutability) zorunluluğu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Her fonksiyonun referans şeffaflığı garantisi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Prosedürel diller 'nasıl yapılacağını' adım adım belirtirken değişkenlerin durumunu (state) açıkça değiştirir; oysa fonksiyonel dillerde yan etkisiz (pure) fonksiyonlar ve değişmezlik esastır."
+        },
+        {
+            "id": 2,
+            "text": "SQL, Prolog ve düzenli ifadeler gibi dillerde geliştirici yalnızca elde etmek istediği sonucun özelliklerini belirtir; yürütmenin nasıl gerçekleştirileceğini tarif etmez. Bu yaklaşım hangi programlama paradigmaları başlığı altında sınıflandırılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olay güdümlü programlama (Event-driven)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Prosedürel programlama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Emredici (Imperative) programlama",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bildirimsel (Declarative) programlama",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yapısal eşzamanlılık (Structured concurrency)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bildirimsel paradigma, kontrol akışını tanımlamak yerine sonucun mantığını veya hedefini tanımlamaya odaklanır."
+        },
+        {
+            "id": 3,
+            "text": "Unified Modeling Language (UML), yazılım sistemlerinin çeşitli yönlerini görselleştirmek için farklı diyagram türleri içerir. Aşağıdaki diyagram türlerinden hangisi UML standardının parçası değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kullanım durumu diyagramı (Use case diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dağıtım diyagramı (Deployment diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sıra diyagramı (Sequence diagram)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Veri akış diyagramı (Data flow diagram)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Durum makinesi diyagramı (State machine diagram)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Veri akış diyagramı (DFD), yapısal analiz yöntemlerine aittir ve standart UML diyagramları listesinde yer almaz."
+        },
+        {
+            "id": 4,
+            "text": "Tasarım desenleri (Design patterns) yazılım tasarımında sık karşılaşılan problemlere yönelik, tekrarlanabilir çözümler sağlayan şablonlardır. Aşağıdaki seçeneklerden hangisi tasarım desenlerinin yazılım tasarım sürecindeki rolünü en doğru şekilde tanımlar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Programın çevrimiçi karmaşıklığını ölçer.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yaygın tasarım sorunlarına yönelik sınanmış, esnek ve yeniden kullanılabilir çözümler sunar.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kullanıcı arayüzü görünüm standartlarını belirler.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sistem mimarisinin yüksek düzeyli yapı taşlarını tanımlar.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kodlama stili ve biçimlendirme kurallarını tanımlar.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tasarım desenleri, nesne ve sınıf düzeyindeki ilişkileri organize ederek esneklik ve sürdürülebilirlik sağlayan kanıtlanmış yaklaşımlardır."
+        },
+        {
+            "id": 5,
+            "text": "Bir sınıfın içindeki sorumlulukların birbiriyle güçlü şekilde ilişkili olması ve sınıfın net bir kavramı temsil etmesi, nesne yönelimli tasarımda arzu edilen bir niteliktir. Bu tasarım niteliği aşağıdakilerden hangisiyle ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri normalizasyonu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yüksek bağdaşım (High cohesion)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Düşük bağlanırlık (Low coupling)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kod tekrarının artması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Aşırı mühendislik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cohesion (Bağdaşım), bir modülün veya sınıfın ne kadar odaklanmış olduğunu ölçer; her sınıfın tek bir sorumluluğu olması istenir."
+        },
+        {
+            "id": 6,
+            "text": "C++ veya C# gibi dillerde çalışma zamanında doğru metot sürümünün seçilebilmesi için taban sınıfta tanımlanan metotların alt sınıflarda yeniden tanımlanabilmesine izin verilmesi gerekir. Bu dinamik gönderim (dynamic dispatch) mekanizmasını etkinleştirmek için hangi anahtar kelime kullanılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "sealed",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "friend",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "virtual",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "private",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "static",
+                    "correct": false
+                }
+            ],
+            "explanation": "Virtual anahtar kelimesi, bir metodun kalıtım yoluyla ezilmesine (overriding) ve çalışma zamanı polimorfizmine izin verir."
+        },
+        {
+            "id": 7,
+            "text": "Nesne yönelimli programlamanın temel yapı taşı hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Delegeler",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıflar",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Metotlar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Arayüzler",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Değişkenler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nesne yönelimli programlamada veri ve davranışlar sınıflar (classes) içinde kapsüllenerek nesneleri oluşturur."
+        },
+        {
+            "id": 8,
+            "text": "Soyut sınıflar, doğrudan örneklenemeyen ve alt sınıflar tarafından genişletilmek üzere tasarlanan yapılar olup hem soyut hem de somut üyeler içerebilir. Aşağıdaki ifadelerden hangisi soyut sınıflar hakkında yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Soyut sınıflar örnek değişkenler içerebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Soyut sınıflar, kalıtım yoluyla alt sınıflara temel işlevler sağlayacak şekilde tanımlanır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Soyut sınıflar hem soyut hem de gövdeli metotlar içerebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Soyut sınıflar constructor tanımlayamaz.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Soyut sınıflardan doğrudan nesne oluşturulamaz.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Soyut sınıflar constructor (yapıcı metot) tanımlayabilir; bu yapıcılar alt sınıflar örneklendiğinde çalıştırılır."
+        },
+        {
+            "id": 9,
+            "text": "Modern bir Tümleşik Geliştirme Ortamı (Integrated Development Environment - IDE) programlama süreçlerini hızlandırmak için çeşitli araçları tek bir arayüzde birleştirir. Aşağıdaki özelliklerden hangisi tipik bir IDE'nin temel yetenekleri arasında yer almaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gerçek zamanlı donanım sanallaştırmasıyla işlemci düzeyinde emülasyon",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Otomatik derleme ve bağımlılık yönetimi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Söz dizimi vurgulama ve kod tamamlama",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kesme noktaları ve değişken izleme ile hata ayıklama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Versiyon kontrol sistemleri ile bütünleşik çalışma",
+                    "correct": false
+                }
+            ],
+            "explanation": "IDE'ler kod geliştirme, hata ayıklama ve derlemeye odaklanır; donanım düzeyinde emülasyon genellikle özel sanallaştırma yazılımlarının işidir."
+        },
+        {
+            "id": 10,
+            "text": "Modüler, kapsüllenmiş nesnelerden oluşan bir tasarım, yazılımın test edilmesini kolaylaştırabilir. Aşağıdaki açıklamalardan hangisi bu durumu en iyi şekilde açıklar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nesneler test senaryolarını otomatik olarak üretir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Metotlar her zaman statiktir ve durum bilgisi saklamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kalıtım yapıları, sahte nesneler (mock) oluşturmaya olan ihtiyacı ortadan kaldırır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sınıfların net arayüzleri ve içsel durumun dışarıdan gizlenmesi, her nesnenin bağımsız olarak izole edilip test edilmesine imkân tanır.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Nesne yönelimli tasarımda belgeler gereksizdir, bu nedenle test süreci kısalır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Encapsulation (kapsülleme), nesnelerin iç işleyişini dış dünyadan ayırarak her birimin bağımsız test edilebilirliğini artırır."
+        },
+        {
+            "id": 11,
+            "text": "Nesne yönelimli programlama (Object-Oriented Programming – OOP) farklı sektörlerde yaygın olarak kullanılmaktadır. Ancak bazı alanlar esas olarak deklaratif sorgulama dilleri ve küme tabanlı işlemler üzerine kurulu olduğu için OOP prensipleri doğrudan kullanılmaz. Aşağıdaki seçeneklerden hangisi bu tanıma uyan, yani OOP'nin tipik olarak temel paradigma olarak kullanılmadığı bir alanı ifade etmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mobil uygulama kullanıcı arayüzü geliştirme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gerçek zamanlı oyun simülasyonu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Masaüstü grafiksel kullanıcı arayüzü çerçeveleri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İlişkisel veritabanı sorgu işlemleri",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Etkileşimli web uygulaması geliştirme",
+                    "correct": false
+                }
+            ],
+            "explanation": "İlişkisel veritabanları (RDBMS) temelde küme teorisine dayalı bildirimsel bir model (SQL) kullanır, OOP odaklı değildir."
+        },
+        {
+            "id": 12,
+            "text": "Kod yeniden kullanımında kalıtım (inheritance) ve bileşim (composition) iki farklı yaklaşım sunar. Bileşim aşağıdaki ifadelerden hangisiyle en doğru biçimde tanımlanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Türetilen bir sınıfın üst sınıftan özellikleri devralması.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bir sınıfın başka sınıfların örneklerini üye değişken olarak tutarak fonksiyonelliği kullanması, böylece kalıtım ilişkisi kurmadan yetenek kazandırılması.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bileşim, çoklu kalıtımdan daha az esneklik sağlar.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bileşim, çalışma zamanında çok biçimliliği engeller.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kompozisyon, içerdiği nesnenin tüm yöntemlerini otomatik olarak dışa açar.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bileşim (Composition) 'has-a' ilişkisidir; bir nesnenin diğer bir nesneyi içermesi ve onun metotlarını çağırması yoluyla iş birliği sağlar."
+        },
+        {
+            "id": 13,
+            "text": "Nesne yönelimli dillerde, yeni bir sınıf örneği oluşturulduğunda nesnenin başlangıç durumunu ayarlamak amacıyla özel bir fonksiyon çağrılır. Bu fonksiyon aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Statik başlatıcı bloğu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sanal metot (Virtual method)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Operatör aşırı yüklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yapıcı (Constructor)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yıkıcı (Destructor)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Constructor, bir nesne bellekte oluşturulduğunda ilk değerlerini atamak için otomatik olarak çalışan özel bir metottur."
+        },
+        {
+            "id": 14,
+            "text": "Soyut metotlar, davranışın yalnızca imzasını tanımlayan ve gövdeleri alt sınıflar tarafından sağlanmak üzere bırakılan üyeler olarak tanımlanır. Aşağıdaki seçeneklerden hangisi soyut bir metodun karakteristik özelliğini doğru biçimde açıklar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tam bir uygulama içerir ve doğrudan çağrılabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Şablon parametreleri (generics) içeremez.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Türetilen sınıflar tarafından geçersiz kılınamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Statik olmak zorundadır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yalnızca imza (isim ve parametreler) bildirir; gövdesi yoktur ve alt sınıflar tarafından geçersiz kılınmalıdır.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Soyut (abstract) metotlar implementasyon içermez, sadece alt sınıfların uyması gereken bir protokol/sözleşme tanımlarlar."
+        },
+        {
+            "id": 15,
+            "text": "Nesne yönelimli dillerde sınıflar arasında çeşitli ilişki türleri bulunur. Aşağıdakilerden hangisi yaygın nesne yönelimli ilişki ya da mekanizmalardan biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Toplama (Aggregation)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Prototip kalıtımı (Prototype inheritance)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çoklu kalıtım (Multiple inheritance)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bileşim (Composition)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ortogonal kalıcılık (Orthogonal persistence)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Aggregation, Composition ve Inheritance temel nesne yönelimli ilişkilerdir; Ortogonal Kalıcılık ise veri yönetimiyle ilgili ileri düzey bir kavramdır."
+        },
+        {
+            "id": 16,
+            "text": "Kapsülleme, bir sınıfın verisini ve bu veriye ait işlemleri tek bir birim içinde saklayarak dışarıya yalnızca kontrollü bir arayüz sunar. Bu prensibin avantajları arasında aşağıdakilerden hangisi yer almaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri ve davranışın birleştirilmesi modülerlik artışı sağlar.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İç veri yapıları gizlenir ve bakım kolaylığı sağlanır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dış kodun iç uygulama ayrıntılarına bağımlılığı azaltılır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Performans amacıyla alanlara dışarıdan doğrudan erişim teşvik edilir.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Erişimci yöntemlerde doğrulama mantığı merkezi hâle getirilebilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kapsülleme doğrudan erişimi engeller, alanlara erişim kontrol edilerek güvenli ve tutarlı bir durum korunur."
+        },
+        {
+            "id": 17,
+            "text": "Katmanlı mimari, istemci-sunucu veya mikro hizmetler gibi tarzlar, bir yazılım sisteminin bileşenlerinin nasıl düzenleneceğini ve aralarındaki etkileşim kurallarını belirler. Bu üst düzey yapı ve kısıtlamaları kapsayan kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Birim test şartnameleri",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yazılım mimarisi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Veritabanı indeksleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Veri bağlama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ayrıntılı algoritma tasarımı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yazılım mimarisi, bir sistemin organizasyonu, ana bileşenleri ve bu bileşenler arasındaki etkileşimlerin yüksek seviyeli tasarımıdır."
+        },
+        {
+            "id": 18,
+            "text": "Sınıf içinde tanımlanan özel alanların (private fields) dış sınıflar tarafından doğrudan erişilmesini engellemek ve verinin doğruluğunu kontrol altında tutmak kapsülleme ilkesinin önemli bir parçasıdır. C++ veya Java gibi dillerde bu kapsüllemeyi gerçekleştirerek alanlara okuma ve yazma işlemleri sırasında doğrulama yapılmasına imkân tanıyan temel mekanizma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Global değişkenler",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Erişimciler ve değiştiriciler (getter/setter yöntemleri)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Ön işlemci makroları",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Genel (public) alanlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Arkadaş fonksiyonlar (friend functions)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Getter ve Setter metotları, kapsüllenmiş verilere kontrollü erişim sağlar ve geçersiz veri atamalarını önlemek için kullanılabilir."
+        },
+        {
+            "id": 19,
+            "text": "Nesne yönelimli programlamada bir sınıf, veri (özellikler) ve bu veri üzerinde işlem yapan davranışları (metotlar) bir araya getirir. Aşağıdaki ifadelerden hangisi sınıf, nesne ve metot ilişkisini en doğru biçimde özetler?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınıflar yalnızca değişkenleri gruplayan yapılardır; işlevler ayrı tutulur.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Metotlar herhangi bir sınıfa bağlı değildir ve nesnenin durumuna erişemez.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nesneler, sınıfların örnekleridir ve her nesne durumu ile o durum üzerinde çalışan metotları kapsar.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sınıflar statik tanımlardır, nesneler doğrudan oluşturulamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Veriler global değişkenlerde saklanır ve metotlar bu değişkenleri işler.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sınıf bir kalıptır, nesne bu kalıptan üretilen somut varlıktır; metotlar ise bu nesnenin yeteneklerini belirler."
+        },
+        {
+            "id": 20,
+            "text": "Özel, korumalı ve genel gibi erişim belirleyiciler kullanılarak sınıf üyelerinin görünürlüğü kontrol edilir ve dışarıdan değiştirilmelerine sınırlamalar getirilir. Bu yaklaşım verinin bütünlüğünü korumayı amaçlayan hangi kavramın bir uygulamasıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri gizleme ve kapsülleme (Encapsulation)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Fonksiyon işaretçileri",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Algoritma optimizasyonu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Özyineleme (Recursion)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Operatör aşırı yükleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Encapsulation, nesne durumunun tutarlılığını korumak için erişim seviyelerini kullanarak veri gizleme (information hiding) sağlar."
+        }
+    ]
+}

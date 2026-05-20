@@ -1,0 +1,654 @@
+{
+    "meta": {
+        "id": "e2a3c4f5-b6d7-48f9-a0b1-c2d3e4f5a6b7",
+        "title": "Test 2",
+        "subject": "Yazılım Tasarımı ve Mimarisi",
+        "topic": "OOP, UML, C# Kavramları ve Design Patterns",
+        "difficulty": "Karışık",
+        "grade": "Yüksek Lisans",
+        "created": "2026-04-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Nesne yönelimli programlamada, bir nesne oluşturmak ve başlangıç durumunu (state) bellekte hazırlamak için çağrılan özel alt yordama (metot) ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yıkıcı (Destructor)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yapıcı (Constructor)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Arayüz (Interface)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Özellik (Property)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınıf (Class)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yapıcı (Constructor), nesne 'new' anahtar kelimesi ile belleğe çıkartılırken otomatik olarak çağrılan ve gerekli başlangıç atamalarını (state initialization) yapan özel metottur."
+        },
+        {
+            "id": 2,
+            "text": "Bir sınıfın içindeki verilerin (field) doğrudan dışarıdan erişime kapatılması ve sadece kontrollü bir şekilde (getter/setter veya property aracılığıyla) erişime açılması ilkesine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çok biçimlilik (Polimorfizm)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Soyutlama (Abstraction)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kapsülleme (Encapsulation)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Modülerlik (Modularity)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kalıtım (Inheritance)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kapsülleme, nesnenin durumunu (data) gizleyerek dış dünyadan izole etmesi ve sadece izin verilen arayüzler (metotlar) aracılığıyla erişim sunması prensibidir."
+        },
+        {
+            "id": 3,
+            "text": "Temel (base) sınıfta tanımlanan bir metodun alt sınıfta geçersiz kılınabilmesi (ezilebilmesi) için C# dilinde temel sınıftaki metodun hangi anahtar kelime ile işaretlenmesi zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "abstract",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "override",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "sealed",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "virtual",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "static",
+                    "correct": false
+                }
+            ],
+            "explanation": "Temel sınıftaki bir metodun alt sınıflarda ezilebilmesi (override edilebilmesi) için o metodun 'virtual' anahtar kelimesi ile tanımlanması (veya abstract olması) şarttır."
+        },
+        {
+            "id": 4,
+            "text": "C# dilinde 'static' anahtar kelimesi ile ilgili aşağıdaki ifadelerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Static üyeler sınıfın herhangi bir nesne örneğine değil, doğrudan sınıfın kendisine aittir.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Static bir sınıf 'new' anahtar kelimesi kullanılarak örneklenebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Static metotlar içinden, o sınıfa ait static olmayan (instance) üyelere doğrudan referanssız erişilebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Static değişkenlerin değeri her yeni nesne oluşturulduğunda varsayılan haline sıfırlanır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bir sınıfın içerisinde yalnızca yapıcı (constructor) metodu static olarak işaretlenebilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Static üyeler (değişkenler ve metotlar) sınıfa aittir. Bellekte tek bir kopyaları bulunur ve sınıftan üretilen tüm nesne örnekleri arasında paylaşılırlar."
+        },
+        {
+            "id": 5,
+            "text": "Koleksiyonlar üzerinde 'foreach' döngüsünün çalışabilmesi için C# dilinde sınıfın `IEnumerable` arayüzünü uygulaması (implement etmesi) gerekir. Bu arayüzün uygulanmasını zorunlu kıldığı, koleksiyon üzerinde gezinmeyi sağlayan metot aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "MoveNext()",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Reset()",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Clone()",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "CompareTo()",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "GetEnumerator()",
+                    "correct": true
+                }
+            ],
+            "explanation": "IEnumerable arayüzü, iterasyon işlemini gerçekleştirecek olan (IEnumerator dönen) GetEnumerator() metodunun uygulanmasını sözleşme gereği zorunlu kılar."
+        },
+        {
+            "id": 6,
+            "text": "C# gibi modern diller nesne yönelimli programlamanın yanı sıra LINQ gibi teknolojiler sayesinde farklı programlama yaklaşımlarını da destekler. C# dilinin LINQ ile desteklediği, işlemin 'nasıl' yapılacağından çok 'ne' yapılacağına odaklanan bildirimsel (declarative) paradigma hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fonksiyonel Programlama",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Prosedürel Programlama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mantıksal Programlama",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yapısal Programlama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Olay Tabanlı Programlama",
+                    "correct": false
+                }
+            ],
+            "explanation": "LINQ gibi dile entegre sorgular (örn. list.Sum(), list.Where()), state tutmayan ve ne yapılacağına odaklanan fonksiyonel/bildirimsel programlama paradigmasını C# diline kazandırır."
+        },
+        {
+            "id": 7,
+            "text": "Aşağıda C# dilinde yazılmış bir kod bloğu verilmiştir. Kod bütünüyle çalıştıktan sonra 'liste1' dizisinin elemanları sırasıyla ne olur?",
+            "code": "List<int> liste1 = new List<int> { 10, 20 };\nList<int> liste2 = liste1;\nliste2.Add(30);\nliste1.Add(40);",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "{ 10, 20, 40 }",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "{ 10, 20, 30, 40 }",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "{ 10, 20, 30 }",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Derleme hatası verir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çalışma zamanı (runtime) hatası verir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "C# dilinde 'List' sınıfı bir referans tipidir (reference type). 'liste2 = liste1' atamasıyla iki değişken bellekte aynı nesneyi işaret eder. Yapılan her ekleme işlemi o tek nesneye yansır."
+        },
+        {
+            "id": 8,
+            "text": "Bir nesnenin başka bir nesneyi içerdiği, ancak her iki nesnenin de kendi bağımsız varlıklarına (yaşam döngülerine) sahip olduğu (örneğin Üniversite ve Öğrenci) UML \"has-a\" ilişkisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Inheritance (Kalıtım)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Composition (Bileşim)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Aggregation (Birleşim)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Realization (Gerçekleme)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dependency (Bağımlılık)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aggregation (Birleşim), zayıf bir has-a ilişkisidir. İçerilen nesneler (Öğrenci), kapsayıcı nesneden (Üniversite) bağımsız olarak varlıklarını sürdürebilirler (içi boş baklava dilimi ile gösterilir)."
+        },
+        {
+            "id": 9,
+            "text": "Satranç tahtası (Board) ve Kareler (Position) arasındaki ilişki UML sınıf diyagramında modellenirken, bir tahtanın kesinlikle 64 kareden oluşması ve karelerin tahta yok olduğunda yok olması istenir. Bu ilişki ve çokluk (multiplicity) durumu UML'de en doğru nasıl ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Board ile Position arasında 1..* (Aggregation) ilişkisi kurulur.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Board ile Position arasında 0..64 (Dependency) ilişkisi kurulur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Board ile Position arasında 1..1 (Inheritance) ilişkisi kurulur.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Board ile Position arasında tam 64 (Composition) ilişkisi kurulur.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Board ile Position arasında *..* (Association) ilişkisi kurulur.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Satranç tahtası kareleri doğrudan sahiplenir ve yaşam döngüleri birbiriyle sıkı sıkıya bağlıdır (Composition / Bileşim). Kare sayısı kesinlikle 64 olacağından multiplicity tam 64 olarak ifade edilir."
+        },
+        {
+            "id": 10,
+            "text": "Yazılım tasarımında birbirleriyle ilişkili veya uyumlu olan nesne ailelerinin (örneğin Windows buton/metin kutusu ile Mac OS buton/metin kutusu) somut sınıfları belirtilmeden üretilmesini sağlayan oluşturucu (creational) tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Builder",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Singleton",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Prototype",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Abstract Factory",
+                    "correct": true
+                }
+            ],
+            "explanation": "İlişkili nesnelerin (bir ürün ailesinin) aynı grup içerisinde, arayüzler vasıtasıyla yaratılmasını ve somut sınıflardan soyutlanmasını sağlayan tasarım deseni Abstract Factory (Soyut Fabrika) desenidir."
+        },
+        {
+            "id": 11,
+            "text": "Bir isteği işlemek için bir dizi nesnenin birbirine bağlanarak bir zincir oluşturduğu, her nesnenin isteği ya kendisinin işlediği ya da zincirdeki bir sonraki işleyiciye aktardığı davranışsal (behavioral) tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Chain of Responsibility",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Mediator",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Template Method",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Strategy",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Observer",
+                    "correct": false
+                }
+            ],
+            "explanation": "Chain of Responsibility (Zincirleme Sorumluluk) deseninde, işleyiciler bir zincir oluşturur ve istek bu zincir boyunca uygun işleyici bulunup işlem gerçekleşene kadar iletilir."
+        },
+        {
+            "id": 12,
+            "text": "Maliyetli veya karmaşık bir nesnenin sıfırdan 'new' anahtar kelimesi ile tekrar tekrar yaratılması yerine, mevcut bir örneğinin (prototipinin) klonlanarak (kopyalanarak) oluşturulmasına dayanan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Prototype",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Singleton",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Builder",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Abstract Factory",
+                    "correct": false
+                }
+            ],
+            "explanation": "Prototype deseni, var olan mevcut bir nesnenin (ICloneable arayüzü gibi yöntemlerle) tam bir kopyasını alarak, yeni nesnelerin maliyetli süreçler olmadan üretilmesini sağlar."
+        },
+        {
+            "id": 13,
+            "text": "Nesne yönelimli dillerde bir sınıfın üzerinde büyüklük/küçüklük kıyaslama işlemlerinin ya da sıralama (sort) algoritmalarının kendi özel kurallarına göre çalışabilmesi için o sınıfın hangi arayüzü uygulaması (implement etmesi) beklenir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "IEnumerable",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ICloneable",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IComparable",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "IRunnable",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "ISerializable",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sınıfların koleksiyonlar içerisinde sıralanabilmesi ve birbirleriyle kıyaslanabilmesi (örneğin CompareTo metodu aracılığıyla) IComparable arayüzünü (interface) uygulamaları ile mümkündür."
+        },
+        {
+            "id": 14,
+            "text": "Soyut sınıflar (Abstract Classes) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Genellikle sınıf hiyerarşisinde temel (base) sınıf olarak konumlandırılırlar.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İçerisinde hem soyut (gövdesiz) hem de somut (gövdesi olan) metotlar bulunabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Soyut metotlarını o sınıftan türeyen konkrit (somut) alt sınıfların ezmesi (override etmesi) zorunludur.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Doğrudan 'new' anahtar kelimesi kullanılarak bellek üzerinde örneklenebilirler (instantiation).",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Durum (state) saklamak için içlerinde değişkenler (field/özellikler) barındırabilirler.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Soyut sınıfların eksik kalmış (gövdesiz) metotları olabileceği için ('yarım kalmış hikayeler'), bu sınıflardan doğrudan 'new' anahtar kelimesiyle nesne örneklerinin yaratılmasına izin verilmez."
+        },
+        {
+            "id": 15,
+            "text": "C# dilinde bir sınıfın başka bir sınıf tarafından kalıtım yoluyla devralınmasını (extend edilmesini) veya bir metodun alt sınıflarda ezilmesini kesin olarak engellemek (mühürlemek) için kullanılan anahtar kelime aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "static",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "abstract",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "private",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "virtual",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "sealed",
+                    "correct": true
+                }
+            ],
+            "explanation": "'sealed' anahtar kelimesi kullanılarak tanımlanan sınıflar alt sınıflarca kalıtılamaz, metotlar ise mühürlenerek daha fazla override edilmesi engellenir (son versiyon oldukları belirtilir)."
+        },
+        {
+            "id": 16,
+            "text": "Karmaşık bir nesnenin yapılandırma ve oluşturulma sürecini, nesnenin asıl temsilinden ayıran; oluşturma sürecinin adımlarını (ConcreteBuilder) ve bu sürecin yönetimini (Director) farklı sınıflara bölen tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Builder",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Template Method",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mediator",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Singleton",
+                    "correct": false
+                }
+            ],
+            "explanation": "Builder deseninde nesne kademeli olarak adım adım inşa edilir. Director sınıfı bu oluşturma sürecini koordine ederken, Builder sınıfları adımların gerçek uygulamalarını içerir."
+        },
+        {
+            "id": 17,
+            "text": "Geleneksel nesne yönelimli programlamada Arayüzler (Interfaces) ile ilgili olarak aşağıdakilerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İçerisinde public ve private field'lar (değişkenler) tanımlanıp veri durumları (state) tutulabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bir sınıf (class) birden fazla arayüzü (interface) aynı anda uygulayabilir (implement edebilir).",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "'new' anahtar kelimesi ile arayüzlerden doğrudan fiziksel nesne örneği yaratılabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Arayüzlerde tanımlanan tüm metotların mutlaka bir gövdesi (somut uygulaması) bulunmak zorundadır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bir arayüz, başka bir arayüzden kalıtım (inheritance) yoluyla genişletilemez.",
+                    "correct": false
+                }
+            ],
+            "explanation": "C# ve Java gibi modern dillerde sınıflar sadece tek bir temel sınıftan kalıtım alabilirken (Single Inheritance), birden fazla arayüzü aynı anda implement edebilirler (Çoklu Arayüz Uygulaması)."
+        },
+        {
+            "id": 18,
+            "text": "UML sınıf diyagramlarında bir sınıfın üyesinin (field veya metot) solunda bulunan \"+\" ve \"#\" sembolleri sırasıyla hangi erişim belirleyicilerini (access modifiers) ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Private - Public",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Protected - Private",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Public - Protected",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Internal - Protected",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Public - Private",
+                    "correct": false
+                }
+            ],
+            "explanation": "UML standartlarına göre \"+\" sembolü Public (herkese açık) üyeleri, \"#\" sembolü Protected (sınıfın kendisine ve kalıtım alan sınıflara açık) üyeleri, \"-\" sembolü ise Private üyeleri simgeler."
+        },
+        {
+            "id": 19,
+            "text": "Temel sınıfta (base class) bulunan bir metodu, alt sınıfta (derived class) tamamen gizlemek (method hiding) ve polimorfizmi kırarak yepyeni bağımsız bir metot olarak tanımlamak için alt sınıfta metodun başına hangi anahtar kelime yazılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "base",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "override",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "virtual",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "new",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "sealed",
+                    "correct": false
+                }
+            ],
+            "explanation": "C# dilinde 'new' anahtar kelimesi metot imzasının başına eklendiğinde, temel sınıftan gelen ve aynı isme sahip üyeyi bilinçli olarak gizleyerek yeni ve bağımsız bir üye tanımlandığını derleyiciye bildirir."
+        },
+        {
+            "id": 20,
+            "text": "Yazılım mimarilerinde veri erişim kodlarını asıl iş mantığından (business logic) ayırmak, veritabanı işlemlerini (CRUD operasyonlarını) soyutlamak ve merkezi bir noktadan esnekçe yönetmek amacıyla kullanılan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Observer Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Strategy Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Decorator Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "State Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Repository Pattern",
+                    "correct": true
+                }
+            ],
+            "explanation": "Repository Pattern, veri erişim katmanında (DAL) veritabanı operasyonlarını soyutlamak, ORM işlemlerini bir arayüz arkasında toplamak ve böylelikle yazılımı daha test edilebilir ve esnek kılmak için kullanılır."
+        }
+    ]
+}

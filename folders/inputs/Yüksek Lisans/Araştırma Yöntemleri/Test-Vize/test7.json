@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e98e4a71-6c2f-4f3b-b9d1-923f6e101102",
+        "title": "Araştırma Yöntemleri ve Etik - Yoruma Dayalı Vaka Testi",
+        "subject": "Araştırma Yöntemleri",
+        "topic": "Paradigmalar, Desenler ve Araştırma Etiği",
+        "difficulty": "Karma",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-04-20"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Trafikte aracınıza arkadan birinin çarptığını düşünün. Araçtan inmeden önce sadece sinirlenmek veya içgüdüsel tepki vermek yerine 'Acaba sürücünün şekeri mi düştü? Freni mi patladı? Yoksa kalp krizi mi geçiriyor?' diyerek olası senaryolar üretmeniz, insanın hangi yolla bilgi arayışına veya çıkarım yapmasına örnek teşkil eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mantıksal akıl yürütme ve olasılıklı düşünme",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Duyusal deneyimlere doğrudan güvenme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uzman otoritesine başvurma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sosyal doğrulama (görüş birliği) arama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Geleneksel otoriteyi sorgulama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Videolarda hocanın verdiği örneğe göre, insanın hemen duyusal/içgüdüsel tepki vermek yerine ihtimalleri (hipotezleri) değerlendirmesi mantıksal akıl yürütme ve olasılıklı düşünme becerisine işaret eder."
+        },
+        {
+            "id": 2,
+            "text": "Bir araştırmacı 'İnsanların işlerini sevme derecesi' üzerine bir anket hazırlamıştır. Ancak sonradan 'Benim 5 (Çok Seviyorum) demem ile başkasının 5 demesi aynı anlama gelmeyebilir. İnsanların kültürü ve geçmişi bu sayının arkasındaki nedeni değiştirir' diyerek anket yerine derinlemesine mülakatlar yapmaya karar vermiştir. Araştırmacının bu geçişini destekleyen bilimsel paradigma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Katı Pozitivist paradigma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yorumlayıcı (Post-pozitivist) paradigma",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Deneysel mekanik yaklaşım",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tümdengelimsel (Dedüktif) analiz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Salt nicel araştırma felsefesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "İnsan davranışlarının tek bir nesnel sayıyla (pozitivizm) açıklanamayacağını, bireylerin kendi bağlamları içinde çoklu gerçeklikler (post-pozitivizm/yorumlayıcı paradigma) ürettiğini savunan yaklaşım nitel araştırmaların temelini oluşturur."
+        },
+        {
+            "id": 3,
+            "text": "Bir okul müdürü, okulunda artan akran zorbalığını salt akademik bir makale yazmak için değil, bizzat okulundaki bu pratik sorunu çözmek için öğretmenleriyle birlikte bir 'planla, uygula, gözlemle, yansıt' süreci başlatmıştır. Bu araştırma deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tarihsel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Boylamsal Tarama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eylem Araştırması (Action Research)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Korelasyonel İnceleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Olgubilim Çalışması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uygulayıcıların (öğretmen, müdür vb.) kendi ortamlarındaki pratik bir sorunu çözmek veya iyileştirmek amacıyla, bizzat araştırmacı rolü üstlenerek yaptıkları çalışmalara Eylem Araştırması denir."
+        },
+        {
+            "id": 4,
+            "text": "Bir araştırmacı, yaşlıların dijital bankacılık kullanım süreçlerini incelerken önceden belirlenmiş hiçbir teori veya hipotezle sahaya inmemiştir. Veri toplama ve analizi eş zamanlı yürüterek (sürekli karşılaştırmalı analiz), sahadan elde ettiği verilerle yepyeni bir 'Yaşlılarda Dijital Güven' teorisi inşa etmiştir. Bu yöntem aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nedensel Karşılaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Nicel Tarama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İkincil Veri Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kuram Oluşturma (Grounded Theory)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yapılandırılmış Görüşme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Glaser ve Strauss tarafından geliştirilen Kuram Oluşturma (Grounded Theory) deseni, mevcut teorileri test etmek yerine, toplanan verilerden tümevarım yoluyla yeni bir kuram (teori) inşa etmeye dayanır."
+        },
+        {
+            "id": 5,
+            "text": "Bir okulda uygulanan yeni müfredatın etkisini anlamak isteyen araştırmacı, sadece öğrencilere anket yapmakla yetinmemiş; aynı zamanda öğretmenlerle görüşmeler yapmış, sınıf içinde gözlemlerde bulunmuş ve sınav kağıtlarını (doküman) incelemiştir. Nitel araştırmalarda bu stratejinin temel amacı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Evreni daha büyük bir örnekleme genişletmek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Deney grubuna yapılacak manipülasyonu gizlemek",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İstatistiksel güç analizi formülünü doğrulamak",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nicel verilerin normallik dağılımını bozmak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Veri çeşitlemesi (Üçgenleme) ile inandırıcılığı artırmak",
+                    "correct": true
+                }
+            ],
+            "explanation": "Nitel araştırmalarda farklı veri toplama araçlarının (görüşme, gözlem, doküman) bir arada kullanılarak bulguların birbirini teyit etmesini sağlamaya Üçgenleme (Triangulation) denir."
+        },
+        {
+            "id": 6,
+            "text": "Yeraltı yazılım ağlarında 'sessiz istifa' kavramını araştırmak isteyen bir sosyolog, resmi bir liste bulamadığı için ulaştığı ilk yazılımcı ile görüşmüş, ardından ona 'Bu konuda başka kiminle görüşebilirim?' diye sorarak örneklemini genişletmiştir. Bu örnekleme yöntemi hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kartopu (Zincir) Örnekleme",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Basit Seçkisiz (Rastgele) Örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tabakalı (Stratified) Örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Maksimum Çeşitlilik Örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sistematik Örnekleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ulaşılması zor, gizli veya sınırları belirsiz popülasyonlarda bir kişiden başlayıp o kişinin referansıyla diğerlerine ulaşılarak ağın genişletildiği yöntem Kartopu örneklemesidir."
+        },
+        {
+            "id": 7,
+            "text": "Bir akademisyen, yeni bir organik gübrenin bitki büyümesine etkisi üzerine bizzat bir deney yapmıştır. Ancak sonuçlar hipotezini desteklemeyince, makalesinin saygın bir dergide yayınlanması için Excel tablosundaki büyüme ölçümlerini kasıtlı olarak biraz yüksek göstermiştir. Bu eylem araştırma etiğinde ne olarak adlandırılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bulandırma (Falsification) / Tahrifat",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dilimleme (Salami Slicing)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İkincil Veri Kullanımı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Var olan gerçek araştırma verilerini veya süreçlerini, sonuçları olduğundan farklı göstermek maksadıyla kasıtlı olarak değiştirmeye ve manipüle etmeye Bulandırma/Tahrifat (Falsification) denir."
+        },
+        {
+            "id": 8,
+            "text": "Bir e-ticaret şirketi, kullanıcıların uygulamada geçirdikleri süreyi artırmak için iki farklı strateji denemektedir: Birinci gruba 'Yapay zeka destekli öneri arayüzü', ikinci gruba ise 'Geleneksel arayüz' sunulmuştur. Bu araştırmadaki bağımsız değişken aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uygulamada geçirilen günlük süre",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Deneye katılan kullanıcı sayısı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kullanılan arayüz / satış stratejisi yöntemi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Uygulamanın genel karlılık oranı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kullanıcıların sosyoekonomik düzeyi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bağımsız değişken, sonucu etkilediği varsayılan ve araştırmacı tarafından manipüle edilen/değiştirilen etkendir. Burada uygulanan arayüz stratejisi bağımsız değişken, geçirilen süre ise bağımlı değişkendir."
+        },
+        {
+            "id": 9,
+            "text": "Bir hastanede kullanılan dijital tartı cihazının kalibrasyonu bozulmuş ve üzerine çıkan herkesi istisnasız tam 2 kilogram fazla tartmaktadır. Ölçme teorisine göre bu cihazın ürettiği hata türü nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tesadüfi hata",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sistematik hata",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Örneklem hatası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sabit hata",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Geçerlik sapması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ölçümden ölçüme miktarı ve yönü hiç değişmeyen, her ölçüme her defasında aynı oranda (örneğin hep 2 kg) karışan hatalara Sabit Hata adı verilir."
+        },
+        {
+            "id": 10,
+            "text": "Bir araştırmacı, doğal afetlerin uzun vadeli eğitsel etkilerini incelemek için 10 yıl önce deprem bölgesinde yaşamış gençler ile hiç deprem yaşamamış gençlerin günümüzdeki üniversite sınavı puanlarını karşılaştırmaktadır. Araştırmacının deprem olayına müdahale etme şansı olmadığı bu araştırma deseni nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gerçek Deneysel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tek Denekli Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eylem Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gözlemsel Etnografi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nedensel Karşılaştırma (Ex-Post-Facto)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Araştırmacının bağımsız değişkene (deprem) müdahale şansı olmadığı, olay olup bittikten sonra halihazırda oluşmuş gruplar arasındaki farklılıkların geriye dönük incelendiği araştırma türü Nedensel Karşılaştırma (Ex-Post-Facto) desenidir."
+        },
+        {
+            "id": 11,
+            "text": "Korelasyonel ve Nedensel-Karşılaştırma çalışmaları olaylar arası ilişkileri ve farkları incelerken, Gerçek Deneysel Araştırmaların onlardan ayrılarak daha kesin bir neden-sonuç yargısı kurabilmesini sağlayan 'altın standart' (en temel özellik) nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bağımsız değişkene araştırmacı tarafından kasıtlı müdahale edilmesi (Manipülasyon)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Çalışmanın sadece anket kullanılarak yürütülmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Katılımcıların amaçlı örnekleme ile bilerek seçilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Araştırma probleminin literatür taraması ile bulunması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sonuçların Cronbach Alfa katsayısı ile hesaplanması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Deneysel çalışmaları diğer nicel çalışmalardan ayıran en temel fark; araştırmacının doğanın veya olayın kendi akışını izlemekle kalmayıp bağımsız değişkene aktif müdahale (manipülasyon) yapmasıdır."
+        },
+        {
+            "id": 12,
+            "text": "Bir araştırmacı, yoğun bakım hemşirelerinin yaşadığı 'Tükenmişlik' kavramının onların iç dünyasında ne anlama geldiğini, bu durumu kendi yaşamlarında nasıl deneyimlediklerini hisler ve algılar üzerinden derinlemesine anlamak istemektedir. Bu araştırma amacı için en uygun nitel desen hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kesitsel Tarama",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Olgubilim (Fenomenoloji)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Tarihsel Analiz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İstatistiksel Modelleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Faktöryel Tasarım",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fenomenoloji (Olgubilim), insanların deneyimledikleri olaylara veya kavramlara (tükenmişlik vb.) kendi dünyalarında nasıl anlam yüklediklerini ve bu tecrübeleri nasıl algıladıklarını inceler."
+        },
+        {
+            "id": 13,
+            "text": "Öğrencilerin problem çözme becerilerinin yaşla birlikte nasıl geliştiğini araştırmak isteyen bir akademisyen, aynı çocukları yıllarca takip etmek yerine zaman kazanmak amacıyla eş zamanlı olarak 1., 2., 3. ve 4. sınıflardan farklı öğrenci gruplarını seçerek aynı hafta içinde hepsine test uygulamıştır. Verilerin toplanma zamanına göre bu araştırma türü nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Retrospektif İnceleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anlık Odak Grup Çalışması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kesitsel (Cross-sectional) araştırma",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Kuram Oluşturma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Katılımcı Gözlem",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gelişimi izlemek için aynı kişileri yıllarca takip etmek (boylamsal) yerine, farklı yaş gruplarından alt kümeler alarak verileri aynı zaman diliminde toplamaya kesitsel (cross-sectional) araştırma denir."
+        },
+        {
+            "id": 14,
+            "text": "Bir makalenin yöntem bölümünde 'Ankete katılan öğretmenlerin sorulara içten ve dürüst cevap verdikleri kabul edilmiştir' yazmaktadır. Araştırmacının bunu bir deneyle test etme imkânı olmadığı halde doğru olarak kabul edip araştırmasını üzerine inşa ettiği bu ifadeye ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Araştırmanın Sınırlılığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sıfır (Null) Hipotezi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Alternatif Hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sayıltı (Varsayım)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Bağımlı Değişken",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının ispatlama gereği duymadan, araştırmasının temelini oluşturduğu için doğru olarak kabul ettiği yargılara varsayım veya sayıltı denir."
+        },
+        {
+            "id": 15,
+            "text": "Uzaktan eğitimin zorluklarını araştıran bir akademisyen, örneklemine sadece 1) Lise kademesinde çalışan, 2) Kırsal bölgede görev yapan ve 3) En az 2 yıl uzaktan eğitim tecrübesi olan öğretmenleri dahil edeceğini belirterek görüşmelere başlamıştır. Araştırmacı hangi nitel örnekleme stratejisini kullanmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kolay Ulaşılabilir Örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Aykırı Durum Örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Basit Tesadüfi Örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tipik Durum Örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ölçüt Örnekleme",
+                    "correct": true
+                }
+            ],
+            "explanation": "Araştırmacının katılımcılarını seçerken önceden net özellikler veya şartlar belirlemesi ve sadece bu özellikleri taşıyan tüm durumları çalışmaya dahil etmesi Ölçüt Örnekleme yöntemidir."
+        },
+        {
+            "id": 16,
+            "text": "Yapılan nicel bir araştırmada, lise öğrencilerinin şiddet içerikli oyun oynama süreleri ile agresiflik puanları arasında çok yüksek pozitif bir ilişki (\\( r=0.88 \\)) bulunmuştur. Bunun üzerine basında 'Video oyunları gençleri saldırgan yapıyor!' manşeti atılmıştır. Araştırma yöntemleri açısından bu manşetteki metodolojik sorun nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İki değişken arasındaki ilişkinin kesin bir nedensellik (sebep-sonuç) kanıtlamaması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Korelasyon katsayısının 1.00'dan küçük olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Araştırmanın nitel veri toplama araçlarıyla yapılmamış olması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Agresifliğin doğrudan ölçülebilen fiziksel bir olgu olmaması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Katılımcı teyidinin alınmamış olması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Korelasyonel araştırmalar iki değişkenin birlikte değişip değişmediğini gösterir ancak 'biri diğerine neden oldu' şeklinde kesin bir sebep-sonuç (nedensellik) çıkarımı yapmak için yeterli değildir."
+        },
+        {
+            "id": 17,
+            "text": "Bir nitel araştırmacı, 'İşyerinde psikolojik taciz (Mobbing)' konulu mülakatlarının metinlerini ve bu metinlere dayalı kendi yorumlarını içeren rapor taslağını görüşme yaptığı çalışanlara geri götürerek 'Bu yorumlar sizin yaşadıklarınızı doğru yansıtıyor mu?' diye sormuştur. İç geçerliği (inandırıcılığı) artırmayı hedefleyen bu strateji hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzman İncelemesi (Peer review)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Katılımcı Teyidi (Member checking)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Denetleme Yolu (Audit trail)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dış Tutarlılık Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İkincil Veri Çözümlemesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının ulaştığı yorumların ve kodlamaların katılımcıların gerçek dünyasını yansıtıp yansıtmadığını anlamak için raporu bizzat katılımcılara onaylatması işlemine Katılımcı Teyidi (Member checking) denir."
+        },
+        {
+            "id": 18,
+            "text": "Salt yeni teoriler üretmeyi amaçlayan araştırmalardan farklı olarak, Alzheimer hastalarının günlük ilaç saatlerini hatırlamalarına yardımcı olacak somut bir 'yapay zeka destekli mobil uygulama' geliştirmeyi hedefleyen bir araştırma, amaçlarına göre hangi gruba girer?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olgubilim Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kuramsal (Teorik) Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uygulamalı Araştırma",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Belgesel (Doküman) Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Temel Araştırma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Temel araştırmalar bilime yeni bilgi (kuram/teori) katmayı hedeflerken, mevcut bir soruna doğrudan, pratik bir çözüm veya ürün geliştirmeyi amaçlayan çalışmalar Uygulamalı Araştırmalardır."
+        },
+        {
+            "id": 19,
+            "text": "Bir akademisyen, OECD tarafından İngilizce yayınlanmış bir rapordaki kavramsal bir modeli birebir Türkçeye çevirmiş ve kendi makalesinde OECD'ye hiçbir atıf yapmadan kendi özgün fikriymiş gibi sunmuştur. Bu etik dışı davranış literatürde nasıl adlandırılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dilimleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çıkar Çatışması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Bulandırma (Falsification)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Başkalarına ait fikirleri, bulguları veya metinleri uygun bir şekilde kaynak göstermeden ve atıf yapmadan sahiplenme eylemi Aşırmacılık (İntihal) olarak tanımlanır."
+        },
+        {
+            "id": 20,
+            "text": "Uluslararası bir teknoloji şirketi, oldukça geleneksel bir kasabaya şube açmadan önce, çalışanların o kasabadaki insanların teknolojiye karşı muhtemel direncini anlayabilmesi için bir araştırmacıyı aylarca o kasabada yaşayıp yerel halkın iletişim biçimlerini, inançlarını ve günlük rutinlerini gözlemlemekle görevlendirmiştir. Bu yaklaşım hangi nitel desendir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yarı-deneysel Tasarım",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tarihsel Araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İçerik Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Karma Yöntem Araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Etnografik Çalışma (Kültür Analizi)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Belirli bir grubun, köyün, mahallenin veya örgütün sahip olduğu kültürü (inançlar, değerler, günlük pratikler) yerinde ve doğal ortamında uzun süreli gözlemlerle inceleyen çalışmalar Etnografik (Kültür Analizi) araştırmalardır."
+        }
+    ]
+}
