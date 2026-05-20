@@ -1,9 +1,9 @@
 {
-  "test_id": "veri-madenciligi-hesaplama-testi-01",
-  "correct": 1,
+  "test_id": "93f518e2-04b3-46a1-8d2a-4c2810f63cb5",
+  "correct": 0,
   "total": 20,
-  "answered": 1,
-  "pct": 5,
+  "answered": 0,
+  "pct": 0,
   "finished": false,
   "answers": [
     {
@@ -32,9 +32,9 @@
       "skipped": true
     },
     {
-      "chosen": "C",
-      "correct": true,
-      "skipped": false
+      "chosen": null,
+      "correct": false,
+      "skipped": true
     },
     {
       "chosen": null,
@@ -107,5 +107,5 @@
       "skipped": true
     }
   ],
-  "date": "2026-05-20T06:52:33.121Z"
+  "date": "2026-05-20T21:53:01.167Z"
 }

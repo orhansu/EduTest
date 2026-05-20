@@ -1,14 +1,19 @@
 {
-  "test_id": "veri-madenciligi-kapsamli-04",
-  "correct": 14,
+  "test_id": "1d293c6f-77e8-4b72-b5df-1e8c459f2a41",
+  "correct": 16,
   "total": 20,
   "answered": 20,
-  "pct": 70,
+  "pct": 80,
   "finished": false,
   "answers": [
     {
+      "chosen": "A",
+      "correct": true,
+      "skipped": false
+    },
+    {
       "chosen": "B",
-      "correct": false,
+      "correct": true,
       "skipped": false
     },
     {
@@ -18,41 +23,6 @@
     },
     {
       "chosen": "D",
-      "correct": false,
-      "skipped": false
-    },
-    {
-      "chosen": "E",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "D",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "D",
-      "correct": false,
-      "skipped": false
-    },
-    {
-      "chosen": "A",
-      "correct": false,
-      "skipped": false
-    },
-    {
-      "chosen": "D",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "A",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "B",
       "correct": true,
       "skipped": false
     },
@@ -68,26 +38,21 @@
     },
     {
       "chosen": "B",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "C",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "B",
       "correct": false,
       "skipped": false
     },
     {
-      "chosen": "B",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "D",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "B",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "D",
+      "chosen": "E",
       "correct": true,
       "skipped": false
     },
@@ -97,15 +62,50 @@
       "skipped": false
     },
     {
+      "chosen": "B",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "D",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "chosen": "D",
+      "correct": true,
+      "skipped": false
+    },
+    {
       "chosen": "E",
       "correct": true,
       "skipped": false
     },
     {
+      "chosen": "A",
+      "correct": true,
+      "skipped": false
+    },
+    {
       "chosen": "B",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "C",
+      "correct": true,
+      "skipped": false
+    },
+    {
+      "chosen": "E",
+      "correct": false,
+      "skipped": false
+    },
+    {
+      "chosen": "A",
       "correct": false,
       "skipped": false
     }
   ],
-  "date": "2026-05-19T22:26:24.617Z"
+  "date": "2026-05-19T21:52:20.294Z"
 }
