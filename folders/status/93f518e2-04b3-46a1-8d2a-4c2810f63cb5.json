@@ -1,60 +1,60 @@
 {
   "test_id": "93f518e2-04b3-46a1-8d2a-4c2810f63cb5",
-  "correct": 0,
+  "correct": 8,
   "total": 20,
-  "answered": 0,
-  "pct": 0,
+  "answered": 10,
+  "pct": 40,
   "finished": false,
   "answers": [
     {
-      "chosen": null,
-      "correct": false,
-      "skipped": true
+      "chosen": "A",
+      "correct": true,
+      "skipped": false
     },
     {
-      "chosen": null,
+      "chosen": "A",
       "correct": false,
-      "skipped": true
+      "skipped": false
     },
     {
-      "chosen": null,
-      "correct": false,
-      "skipped": true
+      "chosen": "C",
+      "correct": true,
+      "skipped": false
     },
     {
-      "chosen": null,
-      "correct": false,
-      "skipped": true
+      "chosen": "D",
+      "correct": true,
+      "skipped": false
     },
     {
-      "chosen": null,
-      "correct": false,
-      "skipped": true
+      "chosen": "E",
+      "correct": true,
+      "skipped": false
     },
     {
-      "chosen": null,
-      "correct": false,
-      "skipped": true
+      "chosen": "A",
+      "correct": true,
+      "skipped": false
     },
     {
-      "chosen": null,
-      "correct": false,
-      "skipped": true
+      "chosen": "B",
+      "correct": true,
+      "skipped": false
     },
     {
-      "chosen": null,
+      "chosen": "D",
       "correct": false,
-      "skipped": true
+      "skipped": false
     },
     {
-      "chosen": null,
-      "correct": false,
-      "skipped": true
+      "chosen": "D",
+      "correct": true,
+      "skipped": false
     },
     {
-      "chosen": null,
-      "correct": false,
-      "skipped": true
+      "chosen": "E",
+      "correct": true,
+      "skipped": false
     },
     {
       "chosen": null,
@@ -107,5 +107,5 @@
       "skipped": true
     }
   ],
-  "date": "2026-05-20T21:53:01.167Z"
+  "date": "2026-05-22T20:32:53.438Z"
 }
