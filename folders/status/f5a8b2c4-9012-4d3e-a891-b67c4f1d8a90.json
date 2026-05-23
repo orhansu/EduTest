@@ -1,70 +1,70 @@
 {
-  "test_id": "93f518e2-04b3-46a1-8d2a-4c2810f63cb5",
-  "correct": 10,
+  "test_id": "f5a8b2c4-9012-4d3e-a891-b67c4f1d8a90",
+  "correct": 0,
   "total": 20,
-  "answered": 12,
-  "pct": 50,
+  "answered": 0,
+  "pct": 0,
   "finished": false,
   "answers": [
     {
-      "chosen": "A",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "A",
+      "chosen": null,
       "correct": false,
-      "skipped": false
+      "skipped": true
     },
     {
-      "chosen": "C",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "D",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "E",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "A",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "B",
-      "correct": true,
-      "skipped": false
-    },
-    {
-      "chosen": "D",
+      "chosen": null,
       "correct": false,
-      "skipped": false
+      "skipped": true
     },
     {
-      "chosen": "D",
-      "correct": true,
-      "skipped": false
+      "chosen": null,
+      "correct": false,
+      "skipped": true
     },
     {
-      "chosen": "E",
-      "correct": true,
-      "skipped": false
+      "chosen": null,
+      "correct": false,
+      "skipped": true
     },
     {
-      "chosen": "B",
-      "correct": true,
-      "skipped": false
+      "chosen": null,
+      "correct": false,
+      "skipped": true
     },
     {
-      "chosen": "B",
-      "correct": true,
-      "skipped": false
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
+    },
+    {
+      "chosen": null,
+      "correct": false,
+      "skipped": true
     },
     {
       "chosen": null,
@@ -107,5 +107,5 @@
       "skipped": true
     }
   ],
-  "date": "2026-05-23T22:12:54.192Z"
+  "date": "2026-05-23T22:08:47.124Z"
 }

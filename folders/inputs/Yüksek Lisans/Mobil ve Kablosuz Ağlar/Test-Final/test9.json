@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "c1f7a2d4-e91b-4d3f-a681-c892a4f5b7d9",
+        "title": "test 9",
+        "subject": "test 9",
+        "topic": "test 9",
+        "difficulty": "Karışık",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Kablosuz LAN'lar ile kablolu LAN'lar arasındaki en büyük fiziksel farklılık aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kablolu LAN'larda iletim ortamı guided media (kablo), kablosuz LAN'larda ise unguided media (atmosfer/boşluk) olmasıdır.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Fiziksel adresleme mimarisinin her iki ağ yapısında da köklü biçimde farklı protokollere dayanmasıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ağ topolojilerinde kablosuz ağların sadece halka (ring) yapısını destekleyebilmesidir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kullanıcılar için sağlanan uygulama türlerinin kablosuz ağlarda şifrelemeyi desteklememesidir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ağ adreslemesi sırasında cihazların farklı IP sınıflarına zorunlu olarak geçiş yapmasıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kablolu ve kablosuz LAN'lar arasındaki en büyük farklılık iletim ortamıdır. Kablolu LAN'larda iletim ortamı guided media (büklümlü çift, koaksiyel, fiber optik vb.) olurken, kablosuz LAN'larda iletim ortamı unguided media (atmosfer veya boşluk) olmaktadır."
+        },
+        {
+            "id": 2,
+            "text": "Kablosuz ağlarda bir Erişim Noktasının (Access Point) temel görevi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ağ üzerinde bant genişliğini yazılımsal olarak artırarak maksimum limite çıkarmak.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ağdaki tüm mobil cihazlara statik olarak frekans kanalı ataması yapmak.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kapsama alanındaki cihazların doğrudan birbirleriyle altyapısız iletişim kurmasını engellemek.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bir kablosuz ağdaki cihazların birbirine bağlantılarını veya bir yönlendiriciye LAN'ın bağlantısını sağlamak.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "İletim ortamındaki çevresel gürültüyü tamamen emerek sinyal kalitesini sabit tutmak.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir kablosuz ağdaki cihazların birbirine bağlantılarını sağlamak veya bir yönlendiriciye LAN'ın bağlantısını sağlamak için erişim noktası kullanılmaktadır. Erişim noktası kablolu LAN'lardaki anahtarın görevini yapar."
+        },
+        {
+            "id": 3,
+            "text": "Kablosuz LAN'larda SNR (Signal-to-Noise Ratio) değerinin kablolu ağlara göre genellikle çok düşük olmasının temel anlamı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sinyal gücünün artmasıyla birlikte ağın bant genişliğinin genişlediğini gösterir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İletişim kalitesinin oldukça yükseldiğine ve hata oranının neredeyse sıfıra yaklaştığına işaret eder.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İletim ortamının gürültüden daha fazla etkilendiğini, bu nedenle hata denetimi ve düzeltilmesinin daha karmaşık yapıldığını gösterir.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Erişim noktasının uzaklığının sıfıra yaklaştığını ve güvenliğin arttığını ifade eder.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sinyalde saçılma veya yansıma olmadan mükemmel bir iletim sağlandığını doğrular.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kablosuz ağlarda hata denetimi ve düzeltilmesi işlemi kablolu ağlara göre daha karmaşık gerçekleştirilir. Çünkü iletim ortamı gürültüden çok daha fazla etkilenir. Bu yüzden SNR değeri kablolu ağlara göre oldukça düşüktür."
+        },
+        {
+            "id": 4,
+            "text": "Bir kablosuz LAN uygulamasında hub veya anahtar işlevi gören ve kısaca UM olarak kısaltılan kullanıcı arayüzü bileşeni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Control Module (CM)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "User Module (UM)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Access Point (AP)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Router",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bridge",
+                    "correct": false
+                }
+            ],
+            "explanation": "UM (User module) kullanıcı arayüzüdür ve hub veya anahtar görevi görmektedir. CM (Control module) ise yönlendirme veya köprü fonksiyonuna sahip olan kablosuz LAN arayüzüdür."
+        },
+        {
+            "id": 5,
+            "text": "Mobil cihazların herhangi bir erişim noktası veya anahtar olmaksızın doğrudan birbirleriyle haberleştiği, geçici olarak konferans yapmak gibi amaçlarla kurulan altyapısız kablosuz ağ modeli aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Infrastructure (Altyapılı) BSS",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "WiMAX Ağı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ad hoc (IBSS) Ağı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Extended Service Set (ESS)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Piconet",
+                    "correct": false
+                }
+            ],
+            "explanation": "Altyapısız bir şekilde mobil cihazların birbiriyle doğrudan bağlantı yapabildiği ağlar ad hoc ağlar olarak adlandırılır. Örneğin ad hoc ağlar kullanılarak ofis içerisinde geçici olarak konferans yapılabilir."
+        },
+        {
+            "id": 6,
+            "text": "Kablosuz LAN gereksinimlerinden biri olan 'Throughput' ölçütü ağ performansı açısından neyi ifade etmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ağdaki toplam aktif ve pasif cihaz sayısını.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ağın bir kesitindeki saniyede geçen bit sayısını ve iletim ortamının verimli kullanılma oranını.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Erişim noktasından en uç cihaza kadar olan mesafeyi metre cinsinden.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İletim ortamındaki ortalama termal gürültü miktarını.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Batarya tüketim hızını ve sinyal seviyesini.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Throughput, ağdaki herhangi bir noktada saniyede iletilen bit sayısını ifade eder. MAC protokolü iletim ortamının kapasitesini maksimum olacak şekilde etkin kullanmalıdır, bu da throughput değerini yükseltir."
+        },
+        {
+            "id": 7,
+            "text": "Kablosuz LAN hücrelerine sürekli yeni mobil cihazlar gelebildiğinden veya mevcut cihazlar başka hücrelere geçebileceğinden, adreslerin ağda sürekli güncellenmesini zorunlu kılan gereksinim aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Handoff ve Roaming",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Lisanssız Kullanım",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Karşılıklı Etkileşim (Interference)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Batarya Tüketimi Yönetimi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dinamik Konfigürasyon",
+                    "correct": true
+                }
+            ],
+            "explanation": "Dinamik konfigürasyon; kablosuz LAN'ların hücrelerine sürekli yeni mobil cihazlar gelebildiğinden veya mevcut cihazlar başka hücrelere geçebileceğinden MAC adreslerinin dinamik olarak sürekli güncellenmesi gerekliliğidir."
+        },
+        {
+            "id": 8,
+            "text": "Infrared (Kızılötesi) ağlardaki iletişim tekniklerinden hangisinde, bir baz istasyonu ile diğer tüm baz istasyonlarının bakış doğrultusunda (line-of-sight) doğrudan iletişimi sağlanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Point-to-point (Noktadan noktaya) infrared",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Omnidirectional infrared",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yansımalı (Diffuse) infrared",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Multicast infrared",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Token ring infrared",
+                    "correct": false
+                }
+            ],
+            "explanation": "Omnidirectional infrared iletişimde, bir baz istasyonu ile diğer tüm baz istasyonlarının bakış doğrultusunda iletişimi sağlanır. Sinyaller her yöne yayılarak aynı mekandaki diğer alıcılara ulaşır."
+        },
+        {
+            "id": 9,
+            "text": "Bluetooth teknolojisinde 1 adet yönetici (master) ve en fazla 7 adet aktif bağlı (slave) cihazdan oluşan, toplamda maksimum 8 cihazlık temel kişisel ağ yapısına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Scatternet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Extended Service Set (ESS)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Piconet",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Ad hoc ağı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Basic Service Set (BSS)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir piconet 8 tane cihaza sahip olacak şekilde oluşturulan küçük bir Bluetooth ağıdır. Bu cihazlardan bir tanesi master, diğerleri ise en fazla 7 tane olabilen aktif slave cihazlardır."
+        },
+        {
+            "id": 10,
+            "text": "Bluetooth mimarisindeki L2CAP katmanının temel işlevlerinden biri aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ortam erişimi için TDMA kullanarak zaman dilimlerini yönetmek.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cihazlar arasında hiçbir şekilde mantıksal adresleme yapmayıp sadece fiziksel eşleşme sağlamak.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Veri şifreleme ve donanımsal MAC adresi filtrelemesi gerçekleştirmek.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gelen verileri daha küçük parçalara (segment) bölmek ve alıcı tarafta bu parçaları tekrar birleştirmektir.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Hata denetimi ve geri bildirim (ACK) mekanizmalarının donanım seviyesinde takibini sağlamak.",
+                    "correct": false
+                }
+            ],
+            "explanation": "L2CAP katmanının temel işlevleri çoğullama, grup yönetimi, mantıksal adresleme ve parçalama/birleştirmedir. Gelen verileri küçük parçalara böler ve alıcı tarafta tekrar birleştirerek orijinal paketi elde eder."
+        },
+        {
+            "id": 11,
+            "text": "Bluetooth ağlarında 'Baseband' katmanında master cihaz ile slave cihazlar arasındaki ortam erişim mekanizması olarak hangi yöntem kullanılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CSMA/CD",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "FDMA",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "CDMA",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "CSMA/CA",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "TDMA (Time Division Multiple Access)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Baseband katmanı ortam erişimi için TDMA (Time Division Multiple Access) kullanır. Master cihaz ile slave cihazlar arasındaki iletişim için TDMA tarafından oluşturulan çerçeve içerisindeki 625µs'lik slotlar kullanılır."
+        },
+        {
+            "id": 12,
+            "text": "Baseband katmanında yer alan bir çerçevenin 'Başlık' (Header) alanı içerisinde aşağıdaki bilgilerden hangisi bulunmaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Slave cihazların adresini belirten Adres (Addr) bilgisi.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çerçevenin türünü tanımlayan Tür bilgisi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Geri bildirim için kullanılan A (ACK) biti.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sıra numarasını gösteren S biti.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ağ katmanı yönlendirme protokollerine ait Hedef IP adresi.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Baseband çerçevesinin Başlık alanında Adres, Tür, F (Akış denetimi), A (ACK), S (Sıra numarası) ve Checksum bulunur. IP adresi ağ katmanında bulunur ve Baseband çerçeve başlığında yer almaz."
+        },
+        {
+            "id": 13,
+            "text": "Bluetooth ağlarında donanım bazındaki Bluetooth Radyo katmanı tarafından sırasıyla kullanılan spektrum yayma tekniği ve modülasyon yöntemi aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "DSSS ve PSK",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "DSSS ve FSK",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "FHSS ve FSK",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "FHSS ve QAM",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "OFDM ve QAM",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bluetooth radyo katmanı, fiziksel katman özelliklerine benzer. Spektrum yayma yöntemi olarak FHSS (Frekans Atlamalı Spektrum Yayma) ve modülasyon yöntemi olarak FSK (Frekans Kaydırmalı Anahtarlama) kullanır."
+        },
+        {
+            "id": 14,
+            "text": "Kablolu ağ altyapısının zor ulaştığı veya ulaşmadığı alanlarda, ev ve iş yerlerine yüksek hızlı genişbant internet erişimi sunmak üzere IEEE 802.16 standardına dayanan teknoloji hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Wi-Fi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bluetooth",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "ZigBee",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "WiMAX",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Infrared",
+                    "correct": false
+                }
+            ],
+            "explanation": "WiMAX (Worldwide Interoperability for Microwave Access), IEEE 802.16 standartlarındadır. Özellikle kablolu ağın ulaştırılamadığı yerlerde genişbant kablosuz internet erişimi sağlamak için tasarlanmıştır."
+        },
+        {
+            "id": 15,
+            "text": "Kablosuz LAN'larda alıcının sadece sinyal gönderenden değil, etraftaki diğer göndericilerden de sinyal alması ve bu sinyallerin aynı frekans bandını kullanması durumunda iletişimin kalitesini düşüren olaya ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çoklu yol yayılımı (Multipath propagation)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Zayıflama (Attenuation)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Termal Gürültü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Doppler Kayması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Interference (Girişim)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Interference durumunda alıcı sadece kendisine sinyal gönderenden değil, etraftaki diğer göndericilerden de sinyal alır. Aynı bandı kullanan bu sinyallerin etkileşimi iletişimin kalitesini düşürür."
+        },
+        {
+            "id": 16,
+            "text": "Yansımalı (Diffuse) infrared iletişim yönteminin temel çalışma prensibi nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Göndericiden yayılan sinyalin tavan veya duvar gibi yüzeylere çarparak yansıması ve aynı mekandaki alıcılara ulaşması.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Cihazların doğrudan birbirini görmesi ve dar bir açıyla lazer sinyali göndermesi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sinyalin sadece fiber optik kablolar üzerinden taşınarak kızılötesi dalgalara dönüştürülmesi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Elektromanyetik mikrodalga sinyallerinin tüm yönlere yayılarak sınır tanımaksızın binalardan geçebilmesi.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uydular aracılığıyla kıtalararası veri transferi yapabilmesi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yansımalı infrared iletişimde göndericiden yayılan sinyal tavan, duvar gibi yüzeylere çarparak yansımakta ve aynı mekandaki tüm alıcılara ulaşmaktadır."
+        },
+        {
+            "id": 17,
+            "text": "Bluetooth Baseband katmanında kullanılan veri çerçeve yapısındaki \"Erişim Modu\" alanının temel amacı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "72-bit uzunluğunda olup senkronizasyon yapmak ve master cihaz ile diğer cihazları ayırmak.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Yalnızca şifreleme algoritmasının anahtarını saklamak.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hata denetimi yaparak bozulan paketleri tespit etmek ve atmak.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gelen büyük frame parçalarını sıralı olarak birleştirmek.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cihazlar arasındaki fiziksel mesafeyi GPS uyduları ile ölçmek.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Baseband çerçeve formatındaki 'Erişim Modu' alanı 72-bit uzunluğundadır, cihazlar arası senkronizasyonu yapar ve piconet içerisindeki master cihaz ile diğer cihazları ayırt eder."
+        },
+        {
+            "id": 18,
+            "text": "Birbirine yakın mesafede bulunan kulaklık, telefon, notebook gibi cihazların kablosuz ve ad hoc mantığıyla bağlanmalarını sağlayan kişisel alan teknolojisi (WPAN) hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Infrared",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "WiMAX",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IEEE 802.3",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bluetooth",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Wi-Fi (802.11n)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bluetooth (IEEE 802.15), birbirine yakın mesafede bulunan ve farklı işlevleri yapan cihazların (kulaklık, telefon vb.) kablosuz olarak birbirine bağlanmalarını sağlayan kişisel alan ağı (WPAN) teknolojisidir."
+        },
+        {
+            "id": 19,
+            "text": "Bluetooth mimarisindeki L2CAP katmanı, OSI referans modelinde veya geleneksel LAN mimarilerinde hangi alt katmanın işlevlerine eşdeğer bir görev yürütmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ağ (Network) Katmanı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "LLC (Logical Link Control) Alt Katmanı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Fiziksel (Physical) Katman",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ulaşım (Transport) Katmanı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uygulama (Application) Katmanı",
+                    "correct": false
+                }
+            ],
+            "explanation": "L2CAP katmanı, OSI başvuru modelindeki LAN'larda bulunan MAC katmanının üzerindeki LLC (Logical Link Control) alt katmanının yaptığı işlevlere eşdeğer görevler yapar."
+        },
+        {
+            "id": 20,
+            "text": "Çoklu yol yayılımı (Multipath propagation) kablosuz ağlarda hangi temel soruna yol açar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sinyallerin engellere çarparak yansıması sonucu alıcıya farklı zamanlarda ve gecikmeli ulaşarak orijinal sinyalin bozulmasına neden olur.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kablolu ağa bağlı olan yönlendiricilerin IP adreslerini kaybetmesine yol açar.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Batarya ömrünün aniden bitmesine neden olan yüksek güçlü sinyal emilimini tetikler.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sinyalin boşlukta engelsiz ilerlediğini ve yalnızca termal gürültüye maruz kaldığını gösterir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ağ üzerinde aynı anda tüm cihazların IP adresi çakışması yaşamasına neden olur.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Çoklu yol yayılımında alıcıya ulaşan sinyallerden bazıları çevresel engellere çarparak rotasını değiştirir. Alıcıya doğrudan ulaşan sinyaller ile engellerden gecikmeli yansıyan bu sinyaller birleştiğinde faz farkından ötürü orijinal sinyal bozulur."
+        }
+    ]
+}

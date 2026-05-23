@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "c4a7e912-3b2d-4e5f-a9b0-1c2d3e4f5a6b",
+        "title": "test 13",
+        "subject": "test 13",
+        "topic": "Sinyaller, Modülasyon, Kapasite ve Anahtarlama",
+        "difficulty": "Karışık",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Frekansı \\( f = 2 \\) MHz olan periyodik bir sinyalin periyodu (T) kaç mikrosaniyedir (\\( \\mu s \\))?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "0.5 \\( \\mu s \\)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "2 \\( \\mu s \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "0.2 \\( \\mu s \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "5 \\( \\mu s \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1 \\( \\mu s \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Periyot formülü \\( T = 1/f \\) şeklindedir. \\( T = 1 / (2 \\times 10^6) = 0.5 \\times 10^{-6} \\) saniye yapar. Mikrosaniyeye çevrildiğinde değer 0.5 \\( \\mu s \\) olur."
+        },
+        {
+            "id": 2,
+            "text": "Gerçekte üretilmesi mümkün olmayan ancak teorik hesaplamalarda referans olarak kullanılan ve sinyali uzayda her yöne eşit dağıttığı varsayılan ideal anten türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yagi-Uda Anteni",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İzotropik Anten",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Parabolik Anten",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dipol Anten",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Helisel Anten",
+                    "correct": false
+                }
+            ],
+            "explanation": "İzotropik anten, fiziksel olarak mevcut olmayan, sinyali her yöne eşit güçte ve kusursuz küresel olarak yaydığı varsayılan teorik referans antendir."
+        },
+        {
+            "id": 3,
+            "text": "Sayısal bir veriyi iletmek için analog taşıyıcı sinyalin frekansının binary değerlere (0 ve 1) göre değiştirildiği modülasyon tekniği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ASK (Genlik Kaydırmalı Anahtarlama)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "PSK (Faz Kaydırmalı Anahtarlama)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "FSK (Frekans Kaydırmalı Anahtarlama)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "QAM (Dörtlü Genlik Modülasyonu)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "PCM (Darbe Kod Modülasyonu)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Frekans Kaydırmalı Anahtarlama (FSK), sayısal verilerin 0 ve 1 değerlerine karşılık analog taşıyıcı sinyalin frekansının (daraltılıp genişletilmesi) değiştirilmesi esasına dayanır."
+        },
+        {
+            "id": 4,
+            "text": "İletişim sırasında sinyalin belirli aralıklarla, hem göndericinin hem de alıcının bildiği sözde rastgele (pseudo-random) bir sırayla farklı frekans kanallarına atlayarak iletildiği spektrum yayma tekniği hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "DSSS (Doğrudan Sıralı Spektrum Yayma)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "OFDM (Dik Frekans Bölmeli Çoklama)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "CSMA/CA",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "FHSS (Frekans Atlamalı Spektrum Yayma)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "CDMA (Kod Bölmeli Çoklu Erişim)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Frekans Atlamalı Spektrum Yayma (FHSS) tekniğinde, iletişim kanalı sürekli olarak pseudo-random dizilere uygun şekilde farklı alt frekanslara zıplar (hoping), böylece güvenlik ve gürültü direnci sağlanır."
+        },
+        {
+            "id": 5,
+            "text": "Doğrudan Sıralı Spektrum Yayma (DSSS) yönteminde, 11 bitlik bir Barker yayma kodu (chipping sequence) kullanılmaktadır. Buna göre 5 bitlik bir kullanıcı verisi gönderilirken toplamda kaç bitlik (chip) bir sinyal dizisi oluşturulur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "11 chip",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "16 chip",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "22 chip",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "44 chip",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "55 chip",
+                    "correct": true
+                }
+            ],
+            "explanation": "DSSS yönteminde kullanıcı verisinin her bir biti için yayma kodu dizisi (chipping sequence) ile XOR işlemi yapılır. 5 bit veri \\( \\times \\) 11 bit yayma kodu = 55 bit (chip) uzunluğunda daha geniş bir sinyal dizisi elde edilir."
+        },
+        {
+            "id": 6,
+            "text": "Bant genişliği \\( B = 2 \\) MHz olan gürültülü bir kanalda doğrusal Sinyal-Gürültü oranı \\( SNR = 15 \\) olarak ölçülmüştür. Shannon teoremine göre teorik maksimum kanal kapasitesi kaç Mbps'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "8 Mbps",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "16 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "30 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "32 Mbps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Shannon kapasite formülü \\( C = B \\log_2(1 + SNR) \\) kullanılarak bulunur. Değerleri yerleştirdiğimizde: \\( C = 2 \\times 10^6 \\times \\log_2(1 + 15) = 2 \\times 10^6 \\times \\log_2(16) = 2 \\times 4 = 8 \\) Mbps sonucu elde edilir."
+        },
+        {
+            "id": 7,
+            "text": "Gürültüsüz (ideal) bir iletim kanalı için Nyquist teoremine göre maksimum veri kapasitesi hesaplanacaktır. Kanalın bant genişliği \\( B = 5 \\) MHz ve kullanılan ayrık sinyal (gerilim) düzeyi sayısı \\( M = 4 \\) ise, ulaşılabilecek maksimum kapasite (C) kaç Mbps olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "10 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "20 Mbps",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "40 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "5 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "80 Mbps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nyquist gürültüsüz kapasite formülü \\( C = 2B \\log_2(M) \\) şeklindedir. Hesaplandığında: \\( C = 2 \\times 5 \\times 10^6 \\times \\log_2(4) = 10 \\times 10^6 \\times 2 = 20 \\) Mbps kapasitesine ulaşılır."
+        },
+        {
+            "id": 8,
+            "text": "Hücresel ağlarda frekans yeniden kullanımı planlanırken, bir öbek (cluster) içerisindeki hücre sayısını (N) belirlemek için \\( N = i^2 + ij + j^2 \\) formülü kullanılır. Bir hücresel ağ tasarımında kaydırma parametreleri \\( i=2 \\) ve \\( j=1 \\) olarak seçilirse, öbek başına kaç hücre düşer?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "7",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "9",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "12",
+                    "correct": false
+                }
+            ],
+            "explanation": "Verilen formülde \\( i \\) ve \\( j \\) değerleri yerine konulduğunda: \\( N = 2^2 + (2 \\times 1) + 1^2 = 4 + 2 + 1 = 7 \\) hücreden oluşan bir hücresel öbek (cluster) tasarımı elde edilir."
+        },
+        {
+            "id": 9,
+            "text": "CDMA (Code Division Multiple Access) kullanan hücresel sistemlerde, mobil cihazın bir hücreden diğerine geçerken eski baz istasyonuyla bağlantısını koparmadan önce yeni baz istasyonu ile de eşzamanlı iletişim kurduğu 'make-before-break' prensipli geçiş yöntemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hard Handoff",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ping-pong Handoff",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Inter-cell Handoff",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Soft Handoff",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Blind Handoff",
+                    "correct": false
+                }
+            ],
+            "explanation": "GSM'de uygulanan 'kes-bağlan' şeklindeki Hard Handoff'un aksine, CDMA ağlarında iletişimin kesintiye uğramasını önlemek için iki baz istasyonuyla eşzamanlı çalışan Soft Handoff (Yumuşak Geçiş) kullanılır."
+        },
+        {
+            "id": 10,
+            "text": "Bir blok kodlama sisteminde minimum Hamming uzaklığı \\( d_{min} = 4 \\) olarak hesaplanmıştır. Bu sistem en fazla kaç bitlik hatayı 'denetlemeyi' (s) ve en fazla kaç bitlik hatayı 'kesin olarak düzeltmeyi' (t) garanti eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Denetler: 2, Düzeltir: 2",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Denetler: 4, Düzeltir: 2",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Denetler: 4, Düzeltir: 1",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Denetler: 3, Düzeltir: 2",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Denetler: 3, Düzeltir: 1",
+                    "correct": true
+                }
+            ],
+            "explanation": "Hata algılama (denetleme) kapasitesi \\( s = d_{min} - 1 = 4 - 1 = 3 \\) bittir. Düzeltme kapasitesi ise \\( d_{min} = 2t + 1 \\Rightarrow 4 = 2t + 1 \\Rightarrow 2t = 3 \\Rightarrow t = 1.5 \\) olup tam sayı kısmı alındığında en fazla 1 bit hata kesin olarak düzeltilebilir."
+        },
+        {
+            "id": 11,
+            "text": "IEEE 802.11 kablosuz LAN ağlarında (Wi-Fi), cihazların ortama erişiminde donanımsal çarpışma tespiti zor olduğu için çarpışmalardan 'kaçınmayı' hedefleyen temel ortam erişim kontrol protokolü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CSMA/CA",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "CSMA/CD",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "ALOHA",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Token Ring",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "FDMA",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kablolu ağlarda CSMA/CD kullanılırken, kablosuz ağlarda sinyali dinleyip RTS/CTS kullanarak rezervasyon yapan ve çarpışmalardan kaçınan CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) protokolü kullanılır."
+        },
+        {
+            "id": 12,
+            "text": "Hücresel şebekelerde frekans yeniden kullanımı sırasında, aynı frekans grubunu kullanan komşu olmayan hücrelerin aralarında yeterli fiziksel mesafe bırakılmaması durumunda sinyallerin örtüşerek birbirini bozmasına neden olan girişim türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Adjacent channel interference",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Co-channel interference",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Crosstalk",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Multi-path interference",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Impulse noise",
+                    "correct": false
+                }
+            ],
+            "explanation": "Frekans spektrumunda tamamen aynı (eş) frekans kanalını tahsis alan hücrelere 'co-channel' hücreler denir. Yeterli mesafe (guard distance) yoksa bu hücrelerin birbirlerine yaptığı girişime Co-channel interference (Eş Kanal Girişimi) denir."
+        },
+        {
+            "id": 13,
+            "text": "Serbest uzay yol kaybı (FSPL) pratik hesaplamalarında, frekans (f) 'GHz' ve mesafe (d) 'km' cinsinden alındığında güç zayıflamasını desibel (dB) olarak hesaplayan standart formül sabiti 92.45 dB'dir. Buna göre frekans \\( f = 1 \\) GHz ve mesafe \\( d = 10 \\) km ise boşluktaki güç zayıflaması kaç dB olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "92.45 dB",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "102.45 dB",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "112.45 dB",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "132.45 dB",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "152.45 dB",
+                    "correct": false
+                }
+            ],
+            "explanation": "Pratik FSPL formülü: \\( FSPL(dB) = 92.45 + 20\\log_{10}(f) + 20\\log_{10}(d) \\). Verilenleri eklersek: \\( 92.45 + 20\\log_{10}(1) + 20\\log_{10}(10) \\). Logaritma kurallarına göre \\( \\log_{10}(1)=0 \\) ve \\( \\log_{10}(10)=1 \\) olduğundan, \\( 92.45 + 0 + 20 = 112.45 \\) dB zayıflama hesaplanır."
+        },
+        {
+            "id": 14,
+            "text": "Hata denetimi aracı olan CRC (Cyclic Redundancy Check) işleminde, alıcı taraf gelen veriyi kendi bölen polinomuyla modülo-2 aritmetiğine göre böldüğünde, iletimde hiçbir elektriksel bozulma meydana gelmemişse ulaşması gereken matematiksel kalan (syndrome) sonucu nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bölen polinomun kendisi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gönderilen orijinal verinin kalanı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tam olarak 1",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tam olarak 0 (Sıfır)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sonsuz",
+                    "correct": false
+                }
+            ],
+            "explanation": "CRC kontrolünde veri yolda hiçbir hataya veya bit değişimine maruz kalmamışsa, alıcının kendi polinomu ile yaptığı bölme işleminin neticesinde kalan (syndrome) istisnasız 0 (sıfır) çıkar."
+        },
+        {
+            "id": 15,
+            "text": "Zaman Bölmeli Çoklama (TDM) kullanan bir sistemde 5 adet giriş kanalının her biri saniyede 200 kbps (kilobit/saniye) veri üretmektedir. Çoklayıcı (MUX), senkron çalışmada her çevrimde her kanaldan sadece 1 bit veri alarak bir çerçeve (frame) oluşturmaktadır. Bu sistemin saniyedeki çerçeve hızı (frame rate) kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1.000.000 frame/sn",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "500.000 frame/sn",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "40.000 frame/sn",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "10.000 frame/sn",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "200.000 frame/sn",
+                    "correct": true
+                }
+            ],
+            "explanation": "Her kanaldan her çevrimde 1 bit alınıyorsa, oluşturulan çerçevelerin hızı doğrudan bir kanalın bit üretim hızına eşit olur. Tek bir kanal 200 kbps (saniyede 200.000 bit) ürettiği için saniyede tam 200.000 çerçeve (frame) oluşturulur."
+        },
+        {
+            "id": 16,
+            "text": "Sayısal veri iletiminde 'çift eşlik' (even parity) yöntemi uygulanmaktadır. Gönderilecek veri dizisi '1011011' (7 bit) olduğuna göre, sistemi çift eşliğe tamamlamak üzere eklenecek olan 1 bitlik eşlik biti aşağıdakilerden hangisi olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "0",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Veriye bağlı olarak 0 veya 1 fark etmez",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece çift basamaklara 0 eklenir",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eksik bilgi verilmiştir",
+                    "correct": false
+                }
+            ],
+            "explanation": "Çift eşlik (even parity) yönteminde verideki ve eşlik bitindeki toplam '1' sayısının çift bir rakama ulaşması amaçlanır. '1011011' dizisinde 5 adet '1' bulunduğundan, toplamı 6 (çift) yapmak için eşlik biti olarak '1' eklenmelidir."
+        },
+        {
+            "id": 17,
+            "text": "Çok seviyeli modülasyon tekniklerinden olan QAM'de (Dörtlü Genlik Modülasyonu) sinyal durum sayısı (M) artırılarak iletim kapasitesi yükseltilir. Günümüz altyapılarında kullanılan 256-QAM tekniğinde, tek bir analog sinyal elemanı (sembol) eş zamanlı olarak kaç bitlik sayısal veri taşıyabilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "4 bit",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "8 bit",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "16 bit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "32 bit",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "256 bit",
+                    "correct": false
+                }
+            ],
+            "explanation": "Modülasyon teorisine göre, her bir sinyal sembolünün taşıyabildiği eşzamanlı bit sayısı \\( \\log_2(M) \\) formülüyle hesaplanır. M = 256 sinyal seviyesi olduğundan, \\( \\log_2(256) = 8 \\) bitlik veri tek bir sembol (pulse) ile taşınabilir."
+        },
+        {
+            "id": 18,
+            "text": "Veri aktarımında hata denetimi amacıyla kullanılan CRC blok kodlama yönteminde, sistem bölen polinomu (divisor) \\( x^4 + x + 1 \\) olarak belirlenmiştir. Buna göre gönderilecek orijinal verinin sonuna eklenecek olan FCS (Frame Check Sequence / Artık Bitler) serisinin uzunluğu tam olarak kaç bit olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "2",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "4",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "5",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "6",
+                    "correct": false
+                }
+            ],
+            "explanation": "CRC algoritması kurallarına göre verinin sonuna eklenecek olan artık bit (FCS veya Syndrome) dizisinin uzunluğu, her zaman kullanılan üreteç (bölen) polinomunun en yüksek derecesine eşittir. \\( x^4 + x + 1 \\) polinomunun en yüksek derecesi 4 olduğu için tam olarak 4 bit eklenir."
+        },
+        {
+            "id": 19,
+            "text": "CDMA (Kod Bölmeli Çoklu Erişim) sistemlerinde, aynı frekans bandını tam eşzamanlı olarak paylaşan kullanıcıların sinyallerinin alıcı tarafta birbirine parazit yapmadan net bir şekilde ayrıştırılabilmesi için kullanıcılara atanan Walsh kodlarının (yayma kodları) sahip olması gereken en kritik matematiksel özellik nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bütün kodların aynı bit uzunluğunda ve periyodik olarak tekrar ediyor olması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kodların birbirinin doğrudan tümleyeni (tersi) olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kullanıcı sayısına göre kod boyutlarının logaritmik olarak artması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kodların birbirine tam ortogonal (dik / iç çarpımlarının sıfır) olması",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Her kod dizisinin sadece asal sayılardan türetilmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "CDMA sisteminin temel altyapısına göre girişim (interference) olmadan çoklu erişimi mümkün kılmak için, kullanıcılara tahsis edilen yayma kodlarının matematiksel açıdan birbirine ortogonal (dik) olması, yani iç çarpımlarının kesinlikle sıfır sonucunu vermesi zorunludur."
+        },
+        {
+            "id": 20,
+            "text": "Kapasite artırımı yapan bir hücresel operatör FDMA yöntemini kullanarak elindeki toplam 40 MHz genişliğindeki frekans bandını kullanıcılara tahsis edecektir. Komşu kanalların birbirine taşmasını engellemek için bırakılan koruma (guard) bantları da dâhil olmak üzere, her bir alt iletişim kanalı 200 kHz genişliğindeyse, sistemde toplam kaç adet eş zamanlı iletişim kanalı tahsis edilebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "100",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "150",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "180",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "195",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "200",
+                    "correct": true
+                }
+            ],
+            "explanation": "Birim eşitlemesi yapıldığında 40 MHz, 40.000 kHz değerine denk gelmektedir. Toplam bant genişliğini tek bir alt kanalın genişliğine böldüğümüzde, tahsis edilebilir maksimum kanal sayısı elde edilir: \\( 40.000 / 200 = 200 \\) eş zamanlı kanal yaratılabilir."
+        }
+    ]
+}

@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e2a149fb-7546-4bc3-958a-test10uuid",
+        "title": "test 10",
+        "subject": "test 10",
+        "topic": "test 10",
+        "difficulty": "Karışık",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "IEEE 802.11 standardı OSI referans modelindeki hangi katmanları tanımlar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sadece ağ katmanını",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece taşıma katmanını",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yönlendirme ve oturum katmanını",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Uygulama ve sunum katmanını",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fiziksel katman ve veri bağı katmanını",
+                    "correct": true
+                }
+            ],
+            "explanation": "IEEE 802.11 standardı (Wi-Fi), OSI başvuru modelinin alt katmanları olan fiziksel katman (PHY) ile veri bağı katmanının MAC alt katmanının özelliklerini tanımlar."
+        },
+        {
+            "id": 2,
+            "text": "Aşağıdakilerden hangisi Altyapısız (Ad-hoc) bir BSS ile Altyapılı (Infrastructure) BSS arasındaki en temel farklılıktır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mobil kullanıcılara sahip olması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bir kapsama alanı sınırının olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Merkezi bir Erişim Noktasına (Access Point) sahip olması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Hareketliliği desteklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kılavuzsuz (unguided) iletim ortamı kullanması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Altyapılı (Infrastructure) BSS'lerde cihazların haberleşmesini koordine eden bir Erişim Noktası (Access Point) bulunurken, Ad-hoc ağlarda cihazlar doğrudan birbirleriyle haberleşir."
+        },
+        {
+            "id": 3,
+            "text": "Kablosuz Yerel Alan Ağlarında (WLAN) IEEE 802.11 tarafından kullanılan temel ortam erişim kontrol protokolü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CSMA/CA",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "CSMA/CD",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Token Ring",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "ALOHA",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "FDMA",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kablosuz ağlarda çarpışma tespiti zor olduğundan, çarpışmalardan kaçınmayı hedefleyen CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance) metodu kullanılır."
+        },
+        {
+            "id": 4,
+            "text": "DCF (Distributed Coordination Function) protokolünü kullanan bir cihaz, iletim ortamının boş olduğunu algıladıktan sonra RTS veya veri çerçevesi göndermeden önce hangi süre kadar beklemek zorundadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "SIFS (Short IFS)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "EIFS (Extended IFS)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "PIFS (PCF IFS)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "DIFS (DCF IFS)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "AIFS (Arbitration IFS)",
+                    "correct": false
+                }
+            ],
+            "explanation": "DCF mantığıyla veri göndermek isteyen bir cihaz, ortamı dinler ve ortam boşsa öncelikle standart erişim süresi olan DIFS kadar bekler."
+        },
+        {
+            "id": 5,
+            "text": "IEEE 802.11 CSMA/CA protokolünde kullanılan NAV (Network Allocation Vector) mekanizmasının temel işlevi nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri aktarımı sırasında oluşan çarpışmaları fiziksel olarak tespit etmek.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İletim ortamının ne kadar süreyle meşgul olacağı bilgisini tutarak diğer cihazların beklemelerini sağlamak.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Ağdaki yönlendirme tablolarını (routing tables) oluşturmak ve güncellemek.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cihazlar ile erişim noktası arasındaki sinyal gücünü (SNR) sürekli olarak ölçmek.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gönderilen veri çerçevesinin şifreleme algoritmasını yönetmek.",
+                    "correct": false
+                }
+            ],
+            "explanation": "NAV, RTS veya CTS paketlerinde belirtilen tahmini iletişim süresi (Duration) değerini saklar. Ortamı dinleyen diğer cihazlar NAV süresi dolana kadar sanal olarak ortamı meşgul kabul ederler."
+        },
+        {
+            "id": 6,
+            "text": "IEEE 802.11 MAC yapısında, ACK ve CTS gibi çok öncelikli kontrol çerçevelerinin gönderilmesinden önce beklenmesi gereken, en kısa IFS (Interframe Space) süresi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "PIFS",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "DIFS",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "AIFS",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "EIFS",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "SIFS",
+                    "correct": true
+                }
+            ],
+            "explanation": "SIFS (Short Interframe Space), onay (ACK) veya CTS gibi iletimi hızla tamamlanması gereken yüksek öncelikli kontrol mesajları için ayrılmış olan en kısa bekleme süresidir."
+        },
+        {
+            "id": 7,
+            "text": "MAC alt katmanında, erişim noktası üzerinden merkezi ve kontrollü çalışarak zaman hassasiyeti olan (ses, video gibi) trafikler için çekişmesiz (contention-free) servis sunan yöntem aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "DCF",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "LLC",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "PCF",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "MAC",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "WEP",
+                    "correct": false
+                }
+            ],
+            "explanation": "Point Coordination Function (PCF), altyapılı ağlarda (Erişim Noktası bulunan) kullanılan, AP'nin tüm cihazları periyodik olarak taradığı (polling) merkezi ve çekişmesiz bir erişim yöntemidir."
+        },
+        {
+            "id": 8,
+            "text": "IEEE 802.11 MAC çerçevesinde 'DS\\'ye (To DS)' alanı 1 ve 'DS\\'den (From DS)' alanı 0 değerini taşıyorsa, bu çerçevenin akış yönü hakkında ne söylenebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çerçeve bir mobil cihazdan aynı BSS içindeki erişim noktasına (AP) iletilmektedir.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Çerçeve iki farklı erişim noktası arasında omurga ağı üzerinden iletilmektedir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çerçeve bir erişim noktasından hedef mobil cihaza doğru iletilmektedir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çerçeve, erişim noktası bulunmayan Ad-hoc ağındaki iki cihaz arasında doğrudan iletilmektedir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çerçeve kablolu ağdan kablosuz ağdaki tüm cihazlara yayın (broadcast) olarak gönderilmektedir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "To DS=1, From DS=0 durumu, verinin kablosuz uç biriminden (istasyon) altyapıdaki Dağıtım Sistemine (DS), yani doğrudan Access Point'e gönderildiğini ifade eder."
+        },
+        {
+            "id": 9,
+            "text": "Bir MAC çerçevesinde hem 'DS\\'ye (To DS)' hem de 'DS\\'den (From DS)' bitlerinin her ikisi de 1 (Bir) ise, MAC çerçeve başlığında aktif olarak kaç tane adres (Address) alanı kullanılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "6",
+                    "correct": false
+                }
+            ],
+            "explanation": "Her iki DS bitinin de 1 olması, çerçevenin iki AP arasında (örneğin WDS veya köprüleme) iletildiğini gösterir. Bu durumda kaynak AP, hedef AP, kaynak cihaz ve hedef cihaz adresleri olmak üzere tam 4 adres alanına ihtiyaç duyulur."
+        },
+        {
+            "id": 10,
+            "text": "IEEE 802.11 Infrared (Kızılötesi) fiziksel katmanı, alınan sayısal örneğin genliğine göre vurumun (pulse) bulunduğu noktayı değiştirerek veriyi iletmek için hangi modülasyon tekniğini kullanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "QAM (Dörtlü Genlik Modülasyonu)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "PPM (Pulse Position Modulation)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "FSK (Frekans Kaydırmalı Anahtarlama)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "BPSK (İkili Faz Kaydırmalı Anahtarlama)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "CCK (Tamamlayıcı Kod Anahtarlaması)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Infrared fiziksel katman standartları 800-950 nm dalga boyunu kullanır ve veriyi göndermek için Pulse Position Modulation (PPM - Darbe Konum Modülasyonu) yönteminden faydalanır."
+        },
+        {
+            "id": 11,
+            "text": "Eski nesil standartlardan olan ve teorik olarak 11 Mbps veri hızına kadar çıkabilen IEEE 802.11b standardı, hangi frekans bandını ve spektrum yayma tekniğini kullanmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "5 GHz / FHSS (Frekans Atlamalı Yayma)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2.4 GHz / OFDM (Dik Frekans Bölmeli Çoklama)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "5 GHz / OFDM (Dik Frekans Bölmeli Çoklama)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "5 GHz / DSSS (Doğrudan Sıralı Yayma)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "2.4 GHz ISM / DSSS (Doğrudan Sıralı Yayma)",
+                    "correct": true
+                }
+            ],
+            "explanation": "802.11b, lisans gerektirmeyen 2.4 GHz ISM bandını kullanır ve sinyali yaymak/kodlamak için DSSS (Direct Sequence Spread Spectrum) ile CCK tekniklerini birleştirir."
+        },
+        {
+            "id": 12,
+            "text": "IEEE 802.11 MAC çerçeve formatındaki 16 bitlik 'Sequence Control (SC)' alanı işlevsel olarak nasıl bölünmüştür?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "4 bit parça (fragment) numarası, 12 bit sıra (sequence) numarası",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "8 bit parça numarası, 8 bit sıra numarası",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "12 bit parça numarası, 4 bit sıra numarası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "2 bit parça numarası, 14 bit sıra numarası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "6 bit parça numarası, 10 bit sıra numarası",
+                    "correct": false
+                }
+            ],
+            "explanation": "MAC çerçevesindeki çakışan veya sırasız gelen paketleri birleştirmek için kullanılan SC alanı; ilk 4 biti fragment (parça), son 12 biti ise ana frame'in sıra numarasını belirtecek şekilde 16 bit uzunluğundadır."
+        },
+        {
+            "id": 13,
+            "text": "Gönderici cihaz RTS (Gönderme İsteği) çerçevesini ilettikten sonra, ortamın ve hedefin veri aktarımına uygun olduğunu teyit eden ve alıcı tarafından yayınlanan kontrol çerçevesi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ACK",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Beacon",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "CTS",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "RTS",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "SYN",
+                    "correct": false
+                }
+            ],
+            "explanation": "Handshake (El Sıkışma) mekanizmasında RTS isteğine karşılık hedef cihaz 'Clear to Send' (CTS) mesajı ileterek veri almaya hazır olduğunu bildirir ve ortamı rezerve eder."
+        },
+        {
+            "id": 14,
+            "text": "IEEE 802.11 FHSS (Frekans Atlamalı Spektrum Yayma) standardında, kullanılan 2.4 GHz frekans bandı toplam kaç kanala bölünür ve her bir kanalın bant genişliği ne kadardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "52 kanal, 10 MHz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "79 kanal, 1 MHz",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "11 kanal, 22 MHz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "14 kanal, 5 MHz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "48 kanal, 2 MHz",
+                    "correct": false
+                }
+            ],
+            "explanation": "802.11 FHSS standardı, 2.4 GHz ile 2.4835 GHz arasındaki bandı her biri 1 MHz genişliğinde olan toplam 79 alt kanala ayırır ve pseudorandom bir diziye göre bu kanallar arasında saniyede yüzlerce kez atlama yapar."
+        },
+        {
+            "id": 15,
+            "text": "IEEE 802.11 standartlarındaki MAC çerçevesinde taşınabilen (payload) Veri alanının toplam uzunluğu en fazla kaç byte (bayt) olabilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1500 byte",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1024 byte",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "4096 byte",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "2312 byte",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "65535 byte",
+                    "correct": false
+                }
+            ],
+            "explanation": "MAC katmanında oluşturulan çerçevenin 'Veri' (Data) kısmı, LLC'den gelen üst katman bilgisini taşır ve boyutu 0 ile maksimum 2312 byte aralığında değişebilir."
+        },
+        {
+            "id": 16,
+            "text": "802.11 MAC çerçevesinin 'Frame Control' (FC) başlığında yer alan 'MF' (More Fragmentation) bitinin değerinin 1 olması neyi ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cihazın uyku/güç tasarruf modunda (Power Management) olduğunu.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çerçevenin kaybolduğu için tekrar gönderilen (Retry) bir çerçeve olduğunu.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Büyük boyutlu verinin devamının geleceğini, çerçevenin daha fazla parçaya sahip olduğunu.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Çerçevede şifreleme algoritması (WEP/WPA) kullanıldığını.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Erişim noktasının veri gönderim işlemini tamamen sonlandırdığını.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Büyük paketler gönderilirken MAC katmanı bunları parçalara bölebilir (fragmentation). MF bitinin 1 olması, bu parçanın son parça olmadığını ve ardında başkalarının geleceğini gösterir."
+        },
+        {
+            "id": 17,
+            "text": "Altyapılı BSS ağlarında PCF (Point Coordination Function) modunun, standart DCF (Distributed) moduna göre ortam erişiminde her zaman öncelikli olmasını sağlayan temel mekanizma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "PCF'nin ortamı dinlemeden sürekli olarak SIFS süresini kullanması.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "DCF modundaki cihazların çarpışmayı anında (CSMA/CD gibi) tespit ederek hatlardan çekilmesi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "PCF'nin, veriyi MAC katmanını atlayarak doğrudan Fiziksel katman üzerinden yollaması.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Erişim noktasının kullandığı PIFS süresinin, DCF kullanan cihazların beklediği DIFS süresinden daha kısa olması.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "PCF'nin verileri daima daha güvenli olan WPA3 standardında şifrelemesi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Erişim Noktası (AP), ortam erişimi için PIFS süresi kadar bekler. Uç cihazlar ise DCF modunda daha uzun olan DIFS süresini bekler. Bekleme süresi kısa olan AP, hatta daha önce müdahale ederek ortam önceliği kazanır."
+        },
+        {
+            "id": 18,
+            "text": "Maksimum 600 Mbps'ye varan teorik veri hızları sunan IEEE 802.11n standardı, bu yüksek hızı elde edebilmek için Fiziksel Katmanda hangi teknolojilerin birleşimini kullanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "DSSS yayma tekniği ve CCK kodlaması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sadece FHSS yayma tekniği ve GFSK modülasyonu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Infrared bandında PPM (Darbe Konum Modülasyonu)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Zaman Bölmeli Çoklama (TDM) ve BPSK modülasyonu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "MIMO (Çoklu Girdi Çoklu Çıktı) anten teknolojisi ile birlikte OFDM ve 64-QAM",
+                    "correct": true
+                }
+            ],
+            "explanation": "802.11n standardı hızı katlamak için çoklu anten yapısına dayanan MIMO teknolojisini, 40 MHz kanal bant genişliği seçeneklerini ve daha yoğun veri paketleyen 64-QAM (OFDM üzerinde) modülasyonunu kullanır."
+        },
+        {
+            "id": 19,
+            "text": "Ortalama 54 Mbps hıza çıkabilen ve yoğun 2.4 GHz bandı yerine 5 GHz ISM bandında çalışarak fiziksel engellerin yansımasını elemine edebilen OFDM tabanlı eski kablosuz standart hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "IEEE 802.11a",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "IEEE 802.11b",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IEEE 802.11g",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IEEE 802.11n",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "IEEE 802.11 FHSS",
+                    "correct": false
+                }
+            ],
+            "explanation": "802.11a standardı 5 GHz frekans bandını ve ortamı 52 taşıyıcıya bölen OFDM yöntemini (Orthogonal Frequency Division Multiplexing) kullanarak 54 Mbps yüksek hıza ulaşan ilk standartlardan biridir."
+        },
+        {
+            "id": 20,
+            "text": "Adresleme başlık alanında yer alan 'DS\\'ye (To DS)' ve 'DS\\'den (From DS)' bitlerinin her ikisi de 0 (Sıfır) olarak ayarlandığında, haberleşen sistemin mimarisi için aşağıdakilerden hangisi söylenebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cihazlar, Access Point üzerinden omurga İnternet'e çıkış yapmaktadır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cihazların hiçbiri Dağıtım Sistemini (DS) kullanmamaktadır, birbirleriyle doğrudan (Ad-hoc) haberleşmektedirler.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "İki farklı Access Point kablosuz bir köprü vasıtasıyla bağlanmaktadır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ağ, klasik bir kablolu Ethernet CSMA/CD mimarisine geçiş yapmıştır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İletişim WiMAX baz istasyonları üzerinden kilometrelerce öteye taşınmaktadır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "To DS=0 ve From DS=0 durumu, veri paketinin Altyapılı Dağıtım Sistemine (Distribution System) ne girdiğini ne de çıktığını ifade eder; yani veri bir yönlendiriciye (AP) uğramadan IBSS (Ad-hoc) ağında iki mobil düğüm arasında doğrudan akmaktadır."
+        }
+    ]
+}

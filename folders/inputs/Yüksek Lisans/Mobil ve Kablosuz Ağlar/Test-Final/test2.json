@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "10b8ab9f-723a-4de1-8b70-983b632490b1",
+        "title": "test 2",
+        "subject": "test 2",
+        "topic": "Sinyaller, Antenler, Hücresel Sistemler ve Modülasyon",
+        "difficulty": "Karışık (%30 Kolay, %50 Orta, %20 Zor)",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Sinyallerin zaman düzleminde gösteriminde, 1 saniye içinde tekrarlanma (cycle) sayısına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Frekans",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Periyot",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Genlik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Faz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dalga boyu",
+                    "correct": false
+                }
+            ],
+            "explanation": "1 saniyedeki periyot (döngü) tekrar sayısına frekans denir ve Hertz (Hz) birimiyle ölçülür."
+        },
+        {
+            "id": 2,
+            "text": "Aşağıdakilerden hangisi veri iletiminde kullanılan kılavuzsuz (unguided) bir iletim ortamıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fiber optik kablo",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Atmosfer",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Koaksiyel kablo",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bükümlü çift kablo",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "UTP kablo",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kılavuzsuz (unguided) ortamlar kablosuz iletimi ifade eder; atmosfer, serbest uzay ve denizaltı (akustik/kısa dalga) buna örnektir. Diğerleri kılavuzlu (guided) kablo ortamlarıdır."
+        },
+        {
+            "id": 3,
+            "text": "Bluetooth teknolojisinde bir adet 'yönetici (master)' ve en fazla yedi adet aktif bağlı 'istemci (slave)' cihazdan oluşan temel ağ mimarisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Scatternet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ESS (Extended Service Set)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Piconet",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "BSS (Basic Service Set)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "WPAN-Core",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bluetooth mimarisinde 8 cihaza kadar (1 master, 7 aktif slave) desteklenen küçük kişisel ağlara Piconet adı verilir."
+        },
+        {
+            "id": 4,
+            "text": "IEEE 802.11 (WLAN) ağlarında CSMA/CA protokolü ile ortam erişimi sağlanırken, göndericinin iletime başlamak için alıcıdan ortamın boş olduğunu bildirmesi için beklediği kontrol çerçevesi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ACK (Acknowledgment)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "RTS (Request to Send)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Beacon",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "CTS (Clear to Send)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Probe Response",
+                    "correct": false
+                }
+            ],
+            "explanation": "Veri göndermek isteyen cihaz ortamı rezerve etmek için RTS gönderir, alıcı cihaz ise veri almaya uygun olduğunu ve ortamın boş olduğunu bildiren CTS (Clear to Send) çerçevesi ile cevap verir."
+        },
+        {
+            "id": 5,
+            "text": "Analog bir verinin (örneğin insan sesi) bilgisayar veya cep telefonu gibi cihazlarda işlenebilmesi amacıyla sayısal bir sinyale dönüştürülmesi işleminde kullanılan donanım/bileşen aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Modülatör",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çoklayıcı (Multiplexer)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Router",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Switch",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "CODEC (Coder-Decoder)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Analog veriyi sayısal sinyale çevirip tekrar geri dönüştürmek için CODEC (ADC/DAC bileşenleri içeren) donanım yongaları kullanılır."
+        },
+        {
+            "id": 6,
+            "text": "Uydu ağları iletişiminde, yeryüzü istasyonundan uyduya doğru yapılan sinyal (veri) gönderimine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uplink",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Downlink",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Crosstalk",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Handoff",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Roaming",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yeryüzü istasyonundan uyduya giden bağlantı (kanal) 'uplink', uydudan yeryüzüne inen bağlantı ise 'downlink' olarak adlandırılır."
+        },
+        {
+            "id": 7,
+            "text": "IEEE 802.11 MAC çerçevesinde yer alan 'D (Duration)' alanının temel işlevi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Parçalanmış verilerin sıra numarasını tutmak",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İletim ortamının ne kadar süre meşgul olacağını (NAV) diğer cihazlara bildirmek",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Çerçevenin hangi AP'den geldiğini belirlemek",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Şifreleme algoritmasının anahtar boyutunu belirtmek",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Doğrulama (authentication) süresini kısıtlamak",
+                    "correct": false
+                }
+            ],
+            "explanation": "Duration alanı, NAV (Network Allocation Vector) mekanizması için iletişim süresini belirler ve diğer cihazların bu süre boyunca iletim ortamında beklemesini (ortamın meşgul olduğunu bilmelerini) sağlar."
+        },
+        {
+            "id": 8,
+            "text": "Gürültülü kanallar için Shannon Kapasite formülü \\( C = B \\log_2(1 + SNR) \\) şeklindedir. Bu formüle göre, kanalın teorik veri iletim kapasitesini (C) artırmak için doğrudan aşağıdakilerden hangisi yapılmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sinyal seviyesi (M) düşürülmelidir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Termal gürültü miktarı artırılmalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bant genişliği (B) veya sinyal-gürültü oranı (SNR) artırılmalıdır.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "İletim mesafesi uzatılmalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Frekans zıplama (hopping) süresi artırılmalıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Shannon formülüne göre kanal kapasitesi (C), kanalın bant genişliği (B) ve sinyal-gürültü oranı (SNR) ile doğru orantılıdır. Bunların artırılması kapasiteyi artırır."
+        },
+        {
+            "id": 9,
+            "text": "Hücresel ağlarda (ör. GSM/LTE), frekans yeniden kullanımı planlaması kapsamında, aynı frekans grubunu kullanan komşu olmayan hücrelerin sinyallerinin örtüşüp birbirini bozması durumuna ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Adjacent channel interference (Bitişik kanal girişimi)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Thermal noise (Termal gürültü)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Crosstalk (Çapraz karışma)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Co-channel interference (Eş kanal girişimi)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Impulse noise (Darbe gürültüsü)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aynı frekans grubunu kullanan hücrelere co-channel hücreler denir ve bunların sinyallerinin birbirine yaptığı girişime 'co-channel interference' adı verilir."
+        },
+        {
+            "id": 10,
+            "text": "Kod Bölmeli Çoklu Erişim (CDMA) yönteminin çalışma prensibi aşağıdakilerden hangisinde en doğru şekilde açıklanmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ortak frekans bandı belirli zaman dilimlerine ayrılarak kullanıcılara sırayla (TDMA gibi) tahsis edilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kullanılabilir bant genişliği hiçbir zaman paylaşılmaz, her kullanıcıya izole frekanslar verilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İletişim sırasında belirli periyotlarla rastgele frekans kanalları arasında zıplama yapılır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Paketler hedefe farklı ağ rotalarından yönlendirilir ve varış noktasında yeniden birleştirilir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tüm kullanıcılar aynı anda aynı geniş frekans bandını, kendilerine atanan dik (orthogonal) yayma kodları ile kullanır.",
+                    "correct": true
+                }
+            ],
+            "explanation": "CDMA sisteminde tüm kullanıcılar aynı anda aynı geniş frekans bandında iletişim yapar; kullanıcılara atanan Walsh kodları gibi dik (orthogonal) PN kodları ile sinyaller birbirinden ayrıştırılır."
+        },
+        {
+            "id": 11,
+            "text": "Geleneksel PSTN ve klasik GSM ses sistemlerinde temel alınan 'Devre Anahtarlamalı (Circuit-Switched)' ağ modelinde, iletişimin başarılı bir şekilde gerçekleşmesi için izlenen zorunlu aşamalar sırasıyla hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bağlantı Kurulumu (Setup) \\(\\rightarrow\\) Veri Transferi \\(\\rightarrow\\) Bağlantı Sonlandırma (Teardown)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Paketleme \\(\\rightarrow\\) Yönlendirme \\(\\rightarrow\\) Yeniden Birleştirme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çerçeveleme \\(\\rightarrow\\) Onay (ACK) Alma \\(\\rightarrow\\) Hata Denetimi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Frekans Tahsisi \\(\\rightarrow\\) Zaman Bölmeli Çoklama \\(\\rightarrow\\) Modülasyon",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ortam Dinleme \\(\\rightarrow\\) Çarpışma Tespiti \\(\\rightarrow\\) Yeniden İletim",
+                    "correct": false
+                }
+            ],
+            "explanation": "Devre anahtarlamalı ağlarda öncelikle kaynak ile hedef arasında uçtan uca özel bir adanmış yol (devre) kurulur (setup). Ardından veri aktarımı yapılır (data transfer) ve iletişim bitince yol serbest bırakılır (teardown)."
+        },
+        {
+            "id": 12,
+            "text": "Spektrum yayma yöntemlerinden FHSS (Frekans Atlamalı Spektrum Yayma) tekniğinde, göndericinin dar bantlı sinyalinin hangi alt frekanslara atlayacağını belirleyen dizi (sıra) aşağıdakilerden hangisi ile oluşturulur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CSMA/CA mekanizmasının ürettiği bekleme süresi (backoff time) ile",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Pseudo-Noise (PN) sözde-rastgele sayı üreteci (generator) ile",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Alıcının MAC adresinin özet (hash) değeri ile",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Taşıyıcı sinyalin genlik seviyesinin yüksekliğine bağlı olarak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ağdaki yönlendiricilerin dinamik routing (yönlendirme) tabloları ile",
+                    "correct": false
+                }
+            ],
+            "explanation": "FHSS sistemlerinde frekans kanal atlama sırası, alıcı ve verici arasında eşleşmiş ve rastgelelik özelliğine sahip Pseudo-Noise (PN) sayı üreteci tarafından belirlenir."
+        },
+        {
+            "id": 13,
+            "text": "Kablosuz Yerel Alan Ağlarında (WLAN) bir dönem yaygın kullanılan WEP (Wired Equivalent Privacy) güvenlik standardı, verileri şifrelemek için hangi algoritmayı kullanır ve bu standardın Başlangıç Vektörü (IV) boyutu ne kadardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AES Algoritması / 48-bit IV",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "DES Algoritması / 64-bit IV",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "RC4 Algoritması / 24-bit IV",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "RSA Algoritması / 128-bit IV",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "TKIP Algoritması / 32-bit IV",
+                    "correct": false
+                }
+            ],
+            "explanation": "WEP, Ron Rivest tarafından geliştirilen RC4 akış şifreleyici algoritmasını ve kolayca kendini tekrar edebilen yetersiz uzunluktaki 24-bitlik bir IV (Başlangıç Vektörü) kullanır."
+        },
+        {
+            "id": 14,
+            "text": "Sayısal verinin analog sinyale dönüştürülmesinde kullanılan Dörtlü Faz Kaydırmalı Anahtarlama (QPSK) modülasyonunda, oluşan her bir sinyal (faz) elemanı kaç bitlik veri taşır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 Bit",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "3 Bit",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "4 Bit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "2 Bit",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "8 Bit",
+                    "correct": false
+                }
+            ],
+            "explanation": "QPSK (Quadrature Phase Shift Keying) modülasyonu 4 farklı faz durumu kullanır; dolayısıyla her sinyal durumunda \\( \\log_2(4) = 2 \\) bit veri gönderilmiş olur."
+        },
+        {
+            "id": 15,
+            "text": "Hücresel sistemlerde abone yoğunluğunun çok artması durumunda, kanal kapasitesini artırmak için mevcut büyük bir makro hücrenin daha küçük kapsama alanlarına (mikro veya piko hücrelere) bölünmesi işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Roaming",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sectoring (Sektörleme)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Frequency Hopping (Frekans Zıplama)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Handoff / Handover",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cell Splitting (Hücre Bölme)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Büyük bir hücrenin kapasite ve trafik problemini çözmek amacıyla daha küçük hücrelere bölünerek frekans yeniden kullanımının artırılmasına Cell Splitting (Hücre Bölme) denir."
+        },
+        {
+            "id": 16,
+            "text": "GPS, Starlink gibi geniş bant internet ve konum sistemlerinde de kullanılan LEO (Alçak Dünya Yörüngesi) uydularının yeryüzünden yaklaşık yörünge yüksekliği hangi aralıktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "500 km ile 2.000 km arasında",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "5.000 km ile 15.000 km arasında",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "18.000 km ile 25.000 km arasında",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "35.786 km ve üzeri yüksekliklerde",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "50 km ile 100 km arasında",
+                    "correct": false
+                }
+            ],
+            "explanation": "LEO (Low Earth Orbit) uyduları, yeryüzüne en yakın haberleşme uyduları sınıfı olup genellikle 500 km ile 2.000 km arasındaki yörüngelerde görev yaparlar."
+        },
+        {
+            "id": 17,
+            "text": "Gürültüsüz (ideal) bir iletişim kanalı için Nyquist teoremine göre maksimum teorik kapasite hesaplanacaktır. Kanal bant genişliği \\( B = 100 \\text{ Hz} \\) ve sinyal gerilim düzeyi sayısı \\( M = 4 \\) ise, ulaşılabilecek maksimum kanal kapasitesi (C) kaç bps (bit/saniye) olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "200 bps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "400 bps",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "800 bps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1600 bps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "3200 bps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gürültüsüz kanallar için Nyquist kapasite formülü \\( C = 2B \\log_2(M) \\) şeklindedir. Verilenleri yerine koyarsak: \\( C = 2 \\times 100 \\times \\log_2(4) \\). \\( \\log_2(4) = 2 \\) olduğundan, \\( C = 200 \\times 2 = 400 \\text{ bps} \\) bulunur."
+        },
+        {
+            "id": 18,
+            "text": "Kentsel alanlarda radyo sinyalinin ortalama yol kaybını tahmin etmek için geliştirilen 'Okumura Hata Modeli'nin bilimsel olarak geçerli olabilmesi için, uygulanan sinyal frekans aralığı ve baz istasyonu anten yüksekliği sırasıyla hangi sınırlarda olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "30-100 MHz frekans / 10-30 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2.4-5 GHz frekans / 5-10 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "150-1920 MHz frekans / 30-1000 m anten yüksekliği",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "1-10 GHz frekans / 50-200 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "10-50 MHz frekans / 1-10 m anten yüksekliği",
+                    "correct": false
+                }
+            ],
+            "explanation": "Okumura hata modeli, GSM gibi hücresel haberleşme şebekelerinde, 150 MHz ile 1920 MHz frekans bandı aralığında ve 30 m ile 1000 m arasındaki baz istasyonu yüksekliklerinde yol kayıplarını hesaplamak üzere geçerli bir formül sunar."
+        },
+        {
+            "id": 19,
+            "text": "Hata denetimi ve düzeltimi uygulanan bir blok kodlama sisteminde minimum Hamming uzaklığı \\( d_{min} = 4 \\) olarak belirlenmiştir. Bu sistem, sırasıyla en fazla kaç bitlik hatayı 'denetleme (farketme) garantisine (s)' sahiptir ve en fazla kaç bitlik hatayı 'kesin olarak düzeltebilir (t)'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "2 bit denetleme, 1 bit düzeltme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "4 bit denetleme, 2 bit düzeltme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3 bit denetleme, 2 bit düzeltme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "3 bit denetleme, 1 bit düzeltme",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "5 bit denetleme, 3 bit düzeltme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hata algılama/denetleme kapasitesi formülü \\( s = d_{min} - 1 \\)'dir, dolayısıyla 3 bit hata denetlenir. Hata düzeltme kapasitesi ise \\( d_{min} = 2t + 1 \\) formülüyle bulunur. \\( 4 = 2t + 1 \\Rightarrow t = 1.5 \\). Tamsayı kısmı alındığında (en fazla) 1 bit hata düzeltilebilir."
+        },
+        {
+            "id": 20,
+            "text": "Serbest uzay yol kaybı (FSPL) hesaplamasında, frekans \\( f \\) (GHz birimiyle) ve mesafe \\( d \\) (km birimiyle) kullanıldığında, boşluktaki güç kaybını desibel (dB) olarak doğrudan veren standart ve pratik formül aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( FSPL = 147.56 + 10\\log_{10}(f) + 10\\log_{10}(d) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( FSPL = 32.44 + 20\\log_{10}(f) + 10\\log_{10}(d) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( FSPL = -147.56 + 20\\log_{10}(f) + 20\\log_{10}(d) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( FSPL = 32.44 - 20\\log_{10}(f) - 20\\log_{10}(d) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( FSPL = 92.45 + 20\\log_{10}(f) + 20\\log_{10}(d) \\)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Metre ve Hertz kullanıldığında yol kaybı sabiti -147.56 (veya MHz ve km için +32.44) iken, pratik olarak kilometre ve GHz birimleri kullanıldığında formüldeki sabit katsayı 92.45 dB olarak düzenlenir ve formül \\( 92.45 + 20\\log_{10}(f) + 20\\log_{10}(d) \\) halini alır."
+        }
+    ]
+}

@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e52c8a41-b638-4e12-a7d5-d867c4e510f2",
+        "title": "test 5",
+        "subject": "test 5",
+        "topic": "Sinyaller, Ağ Topolojileri, Çoklama ve Yayılım Modelleri",
+        "difficulty": "Karışık",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Hücresel ağlarda hareket halindeki bir mobil cihazın, iletişimi kesintiye uğramadan bulunduğu baz istasyonunun kapsama alanından çıkıp bir başka baz istasyonuna aktarılması işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Roaming",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Handoff / Handover",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Fading",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Multiplexing",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Attenuation",
+                    "correct": false
+                }
+            ],
+            "explanation": "Handoff veya handover, hareketli bir abonenin bir hücreden (baz istasyonundan) diğer hücreye geçişi sırasında iletişiminin kopmadan yeni baz istasyonuna aktarılması sürecidir."
+        },
+        {
+            "id": 2,
+            "text": "Bluetooth teknolojisinde 1 adet yönetici (master) ve en fazla 7 adet aktif bağlı istemci (slave) cihazdan oluşan, toplam 8 cihazlık temel kişisel ağ (WPAN) yapısına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Scatternet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ESS (Genişletilmiş Servis Seti)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Piconet",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "BSS (Temel Servis Seti)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "IBSS (Ad-hoc)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bluetooth standartlarında bir master ve yediye kadar slave cihazın bağlandığı mikro ağ yapılarına Piconet denir. Birden fazla piconet'in birleşimi ise Scatternet adını alır."
+        },
+        {
+            "id": 3,
+            "text": "Uydu iletişim ağlarında, yeryüzünde bulunan bir istasyondan veya mobil cihazdan uzaydaki uyduya doğru yapılan sinyal gönderim kanalına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uplink",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Downlink",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Crosslink",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Handoff",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Multipath",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yeryüzü istasyonundan uyduya giden bağlantı yoluna Uplink (uyduya çıkış), uydudan yeryüzüne inen bağlantıya ise Downlink (uydudan iniş) adı verilir."
+        },
+        {
+            "id": 4,
+            "text": "Gerçekte üretilmesi mümkün olmayan ancak teorik hesaplamalarda referans olarak kullanılan ve elektromanyetik sinyali üç boyutlu uzayda her yöne küresel olarak eşit güçte yaydığı varsayılan ideal anten türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dipol Anten",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Parabolik (Çanak) Anten",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yagi-Uda Anteni",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Helisel Anten",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İzotropik Anten",
+                    "correct": true
+                }
+            ],
+            "explanation": "İzotropik anten, fiziksel olarak mevcut olmayan, sinyali her yöne eşit dağıttığı varsayılan ve anten kazancı (dBi) hesaplamalarında referans alınan ideal teorik bir modeldir."
+        },
+        {
+            "id": 5,
+            "text": "İletim ortamının sahip olduğu toplam bant genişliğinin, aynı anda birden fazla kullanıcının haberleşebilmesi için birbirine karışmayan daha küçük alt frekans kanallarına bölünmesi işlemine dayanan çoğullama tekniği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "TDM (Zaman Bölmeli Çoğullama)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "WDM (Dalga Boyu Bölmeli Çoğullama)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "SDM (Alan Bölmeli Çoğullama)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "FDM (Frekans Bölmeli Çoğullama)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "CDMA (Kod Bölmeli Çoklu Erişim)",
+                    "correct": false
+                }
+            ],
+            "explanation": "FDM (Frequency Division Multiplexing), ortak bandın farklı frekans aralıklarına (kanallara) bölünerek birden çok kullanıcının (veya radyo yayınının vb.) aynı anda iletilmesini sağlayan çoğullama yöntemidir."
+        },
+        {
+            "id": 6,
+            "text": "IEEE 802.11 kablosuz yerel alan ağlarında (WLAN), iletim ortamına erişimde ortamı dinleyip veri çakışmalarından (çarpışmalardan) kaçınmayı sağlayan temel ortam erişim protokolü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CSMA/CD",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Token Ring",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "CSMA/CA",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "ALOHA",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "TDMA",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kablolu ağlarda çakışmayı tespit edip durduran CSMA/CD kullanılırken, kablosuz ağlarda (örneğin Wi-Fi) çakışmalardan kaçınmayı hedefleyen CSMA/CA (Collision Avoidance) mekanizması kullanılır."
+        },
+        {
+            "id": 7,
+            "text": "Termal gürültünün bulunduğu bir iletişim kanalında ulaşılabilecek teorik maksimum veri iletim hızını (C) hesaplamak için kullanılan Shannon Kapasite formülü aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( C = 2B \\log_2(M) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( C = B \\log_2(1 + SNR) \\)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "\\( C = B \\times SNR \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( C = B \\log_{10}(SNR) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( C = SNR \\log_2(1 + B) \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Shannon kapasite formülüne göre gürültülü kanallarda ulaşılabilecek teorik veri aktarım hızı \\( C = B \\log_2(1 + SNR) \\) ile hesaplanır. \\( C = 2B \\log_2(M) \\) ise Nyquist'in gürültüsüz kanallar için ürettiği formüldür."
+        },
+        {
+            "id": 8,
+            "text": "Hata kontrol kodlama yöntemlerinden olan lineer blok kodlarda, sistemin minimum Hamming uzaklığı \\( d_{min} = 4 \\) olarak belirlenmiştir. Bu sistem, en fazla kaç bitlik hatayı 'kesin olarak düzeltebilir' (t)?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 Bit",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "2 Bit",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3 Bit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4 Bit",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5 Bit",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hata düzeltme kapasitesi (t) ile minimum Hamming uzaklığı arasındaki formül \\( d_{min} = 2t + 1 \\)'dir. Denklem çözüldüğünde \\( 4 = 2t + 1 \\Rightarrow 2t = 3 \\Rightarrow t = 1.5 \\) çıkar. Tamsayı kısmı alındığında en fazla 1 bit hata düzeltilebilir."
+        },
+        {
+            "id": 9,
+            "text": "Doğrudan Sıralı Spektrum Yayma (DSSS) yönteminde, gönderilmek istenen orijinal veriyi daha geniş bir frekans bandına yaymak için kullanıcı verisi ile yayma kodu (chipping sequence) hangi mantıksal işlemden geçirilerek birleştirilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AND (VE) Kapısı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "OR (VEYA) Kapısı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "NAND (VE DEĞİL) Kapısı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "XNOR (ÖZEL VEYA DEĞİL) Kapısı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "XOR (ÖZEL VEYA) Kapısı",
+                    "correct": true
+                }
+            ],
+            "explanation": "DSSS modülasyonunda orijinal dar bantlı veri bitleri, Pseudo-Noise (PN) serisinden gelen yayma kod bitleriyle XOR (Özel Veya) mantıksal kapısından geçirilerek daha geniş bantlı ve güvenli bir sinyale dönüştürülür."
+        },
+        {
+            "id": 10,
+            "text": "Hücresel sistemlerde, belirli bir alanda abone yoğunluğu arttığında sistemin aynı anda hizmet verebileceği kişi sayısını (kapasiteyi) artırmak için mevcut büyük bir makro hücrenin daha küçük kapsama alanlarına (mikro veya piko hücrelere) bölünmesi işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sectoring (Sektörleme)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Frequency Reuse (Frekans Yeniden Kullanımı)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Roaming (Dolaşım)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cell Splitting (Hücre Bölme)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Handoff (Devir Teslim)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cell Splitting (Hücre bölme), trafik talebinin arttığı alanlarda mevcut bir hücreyi çok sayıda ufak mikro/piko hücreye ayırarak frekansların sıkı bir şekilde yeniden kullanılmasını ve böylece kapasitenin artmasını sağlar."
+        },
+        {
+            "id": 11,
+            "text": "IEEE 802.11i standardının bir parçası olan ve ilk nesil güvenlik protokolü WEP'in donanımsal açıklarını yazılımsal yolla gidermek için tasarlanan; tekrar saldırılarını engellemek adına 48-bit Initialization Vector (IV) ve mesaj bütünlüğü için Michael (MIC) algoritmasını kullanan güvenlik protokolü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AES-CCMP",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "EAP (Genişletilebilir Doğrulama Protokolü)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "WPA2 Enterprise",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "RADIUS",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "TKIP (Geçici Anahtar Bütünlüğü Protokolü)",
+                    "correct": true
+                }
+            ],
+            "explanation": "TKIP (Temporal Key Integrity Protocol), donanım değiştirmeden WEP temelli ağların güvenliğini artırmak (IV uzunluğunu 48-bite çıkarma, MIC ekleme) amacıyla WPA mimarisi içerisinde geçici bir standart olarak tasarlanmıştır."
+        },
+        {
+            "id": 12,
+            "text": "IEEE 802.11 kablosuz ağlarında kullanılan CSMA/CA ortam erişim mekanizmasında, veri iletimine başlamadan önce ortamın boş olduğunu garantiye almak ve \"Gizli Düğüm\" (Hidden Node) sorununu çözmek için alıcı ve verici arasında sırasıyla hangi kontrol çerçeveleri takas edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "SYN / ACK",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "RTS (Request to Send) / CTS (Clear to Send)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "PING / PONG",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Beacon / Probe Request",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "DHCP Discover / Offer",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gönderici ortamı rezerve edebilmek için önce hedefe RTS yollar, hedef ise veri almaya uygun olduğunu belirtmek için ortama CTS çerçevesi ile yanıt verir. Bu süreç, gizli kalmış diğer düğümlerin ortama yayın yapmasını susturur."
+        },
+        {
+            "id": 13,
+            "text": "Hücresel ağlarda frekans yeniden kullanımı kuralı uygulanırken, aynı frekans grubunu kullanan komşu olmayan hücrelerin aralarında yeterli fiziksel uzaklık bırakılmaması sonucunda sinyallerinin örtüşerek birbirini bozmasına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Co-channel interference (Eş kanal girişimi)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Crosstalk (Çapraz Karışma)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Thermal noise (Termal gürültü)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Adjacent channel interference (Bitişik kanal girişimi)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Impulse noise (Darbe gürültüsü)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aynı frekans bandını/grubunu paylaştıkları için bu hücrelere 'co-channel' hücreler denir. Yeterli mesafe olmadığında ortak frekanstaki taşmalar, 'co-channel interference' yani eş kanal girişimine neden olur."
+        },
+        {
+            "id": 14,
+            "text": "Serbest uzay yol kaybı (FSPL) hesaplamalarında, radyo sinyalinin frekansı (f) GHz cinsinden ve antenler arası uzaklık (d) kilometre (km) cinsinden alındığında boşluktaki güç zayıflamasını desibel (dB) olarak ifade eden standart pratik formül aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( FSPL(dB) = 32.44 + 20\\log_{10}(f) + 10\\log_{10}(d) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( FSPL(dB) = -147.56 + 20\\log_{10}(f) + 20\\log_{10}(d) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( FSPL(dB) = 92.45 + 20\\log_{10}(f) + 20\\log_{10}(d) \\)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "\\( FSPL(dB) = 147.56 - 20\\log_{10}(f) + 20\\log_{10}(d) \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( FSPL(dB) = 21.98 + 10\\log_{10}(f) + 20\\log_{10}(d) \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "FSPL formülünde birimler Hertz (Hz) ve metre (m) alındığında formül sabiti -147.56 dB'dir. Daha kolay kullanım için GigaHertz (GHz) ve kilometre (km) bazlı çevrim yapıldığında ise formül sabiti 92.45 dB olarak düzenlenir."
+        },
+        {
+            "id": 15,
+            "text": "Bluetooth protokol yığını katmanlarında; daha büyük olan verileri kablosuz iletime uygun küçük parçalara bölme (parçalama-birleştirme), çoğullama işlemleri yapma ve cihazlara grupsal mantıksal adresler sağlama gibi işlevleri yürüterek LAN'lardaki LLC alt katmanına karşılık gelen katman hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Baseband (Temel Bant)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "RFCOMM",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bluetooth Radyo",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "L2CAP",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "SDP (Servis Keşif Protokolü)",
+                    "correct": false
+                }
+            ],
+            "explanation": "L2CAP (Logical Link Control and Application Protocol) katmanı, Baseband ile uygulama arasında köprü kurarak parçalama/birleştirme, çoğullama, grup yönetimi ve QoS gibi kritik L2 (LLC eşdeğeri) fonksiyonlarını yerine getirir."
+        },
+        {
+            "id": 16,
+            "text": "Dünya etrafındaki yörünge turunu ortalama 6 ile 8 saat arasında tamamlayan, yeryüzünden genellikle 10.000 km ile 20.000 km arasındaki bir irtifada yer alan ve ağırlıklı olarak GPS (Küresel Konumlandırma Sistemi) ağlarında konum tespiti amacıyla kullanılan uydu sınıfı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "MEO (Orta Dünya Yörüngesi)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "LEO (Alçak Dünya Yörüngesi)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "GEO (Jeosenkron Yörünge)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "HEO (Yüksek Eliptik Yörünge)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Polar Orbit (Kutup Yörüngesi)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Medium Earth Orbit (MEO - Orta Dünya Yörüngesi) uyduları, Van Allen kuşaklarının arasındaki 10.000-20.000 km mesafe aralığına yerleşir. GPS yön bulma sistemlerinin temelini bu uydular oluşturur."
+        },
+        {
+            "id": 17,
+            "text": "Hücresel ağlarda, mobil bir cihazın bir hücreden diğerine geçişi sırasında mevcut çağrı veya verisinin hiçbir kesintiye uğramadığı, cihazın eski istasyonla bağlantısını koparmadan hemen önce yeni baz istasyonu ile de eşzamanlı bir bağlantı kurduğu (make-before-break) ve CDMA mimarisinde desteklenen geçiş (handoff) türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hard Handoff",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ping-pong Handoff",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sectoring Handoff",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Soft Handoff",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Delayed Handoff",
+                    "correct": false
+                }
+            ],
+            "explanation": "GSM gibi sistemlerde kes-bağlan mantığıyla Hard Handoff uygulanırken, CDMA sistemlerinde çağrının kalitesini garanti altına almak için kesintisiz olan ve aynı anda iki hücreye bağlanan (make-before-break) Soft Handoff tekniği uygulanır."
+        },
+        {
+            "id": 18,
+            "text": "İletişimde kapasite ve hızı artırmak için taşıyıcı sinyalin hem genliğini hem de fazını aynı anda değiştiren 16-QAM (Dörtlü Genlik Modülasyonu) kullanıldığını varsayalım. Bu modülasyon tipinde, oluşturulan tek bir sinyal birimi (sembol) ile havadan eş zamanlı olarak kaç bitlik veri aktarılmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "2 bit",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "4 bit",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "8 bit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "16 bit",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "64 bit",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sinyal durum sayısına (M) göre tek bir sembolün taşıdığı veri miktarı \\( \\log_2(M) \\) bit formülü ile hesaplanır. 16-QAM modülasyonunda M=16 durumu kullanıldığı için \\( \\log_2(16) = 4 \\) bit veri aynı anda gönderilmiş olur."
+        },
+        {
+            "id": 19,
+            "text": "Kod Bölmeli Çoklu Erişim (CDMA) sistemlerinde, aynı frekans bandını eşzamanlı olarak paylaşan birçok kullanıcının sinyallerinin birbirlerine karışmadan alıcı tarafından net bir şekilde ayrıştırılabilmesi için kullanıcılara atanan Walsh kodları (yayma kodları) hangi kritik matematiksel özelliğe sahip olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kodların birbirinin tamamen tümleyeni (tersi) olması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kodların birbirinin periyodik tekrarı olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yayma kodlarının birbirine ortogonal (dik / iç çarpımlarının sıfır) olması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Tüm kod dizilerinin sadece tek rakamlardan oluşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kod uzunluklarının birbirinden tamamen farklı olması",
+                    "correct": false
+                }
+            ],
+            "explanation": "CDMA sisteminin temel prensibine göre parazit (interference) yaşanmadan kullanıcıları ayırt edebilmek için, alıcı/verici çiftine tahsis edilen yayma kodlarının matematiksel açıdan birbirine dik (ortogonal) olması ve iç çarpımlarının sıfır sonucunu vermesi zorunludur."
+        },
+        {
+            "id": 20,
+            "text": "Kentsel alanlardaki mobil şebeke yayılımlarını ve bina gibi çevresel etkenlerden doğacak ortalama yol kaybını tahmin etmek amacıyla geliştirilen 'Okumura Hata Modeli'nin bilimsel geçerliliği için; uygulanacak olan sinyal frekans aralığı, mesafe sınırı ve baz istasyonu anten yüksekliği sırasıyla hangi kısıtlar içinde olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1-5 GHz frekans, 1-10 km mesafe, 10-50 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "30-100 MHz frekans, 10-50 km mesafe, 50-200 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "2.4-5.8 GHz frekans, 1-5 km mesafe, 5-10 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "900-1800 MHz frekans, 100-500 km mesafe, 1000-5000 m anten yüksekliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "150-1920 MHz frekans, 1-100 km mesafe, 30-1000 m anten yüksekliği",
+                    "correct": true
+                }
+            ],
+            "explanation": "Klasik GSM hücresel ağ modellemelerinde en başarılı kabul edilen Okumura Hata Modeli, kentsel alanlarda 150 MHz ile 1920 MHz frekansları arasında, 1-100 km mesafelerde ve 30-1000 metrelik baz istasyonu yüksekliklerinde geçerlidir."
+        }
+    ]
+}

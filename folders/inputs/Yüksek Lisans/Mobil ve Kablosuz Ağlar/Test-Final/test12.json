@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "f5b8c3d1-92e4-4a6b-8c7e-d9f2a4c5t12b",
+        "title": "test 12",
+        "subject": "test 12",
+        "topic": "test 12",
+        "difficulty": "Karışık",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Bant genişliği \\( B = 4 \\) MHz olan gürültüsüz bir kanalda, ayrıksı sinyal seviye sayısı \\( M = 16 \\) olarak verilmiştir. Nyquist teoremine göre maksimum teorik kanal kapasitesi (C) kaç Mbps'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "32 Mbps",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "16 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "64 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "128 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "8 Mbps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nyquist kapasite formülü \\( C = 2B \\log_2(M) \\) şeklindedir. Veriler yerine konduğunda: \\( C = 2 \\cdot 4 \\cdot \\log_2(16) = 8 \\cdot 4 = 32 \\) Mbps olarak hesaplanır."
+        },
+        {
+            "id": 2,
+            "text": "Shannon kapasite teoremine göre; bant genişliği \\( B = 3 \\) MHz ve doğrusal Sinyal-Gürültü Oranı \\( SNR = 255 \\) olan gürültülü bir iletişim kanalında ulaşılabilecek maksimum veri hızı kaç Mbps olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "16 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "24 Mbps",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "32 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "8 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "48 Mbps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Shannon kapasite formülü \\( C = B \\log_2(1 + SNR) \\) kullanılarak bulunur. \\( C = 3 \\cdot \\log_2(1 + 255) = 3 \\cdot \\log_2(256) = 3 \\cdot 8 = 24 \\) Mbps sonucuna ulaşılır."
+        },
+        {
+            "id": 3,
+            "text": "Frekansı \\( f = 10 \\) MHz olan periyodik bir sinyalin periyodu (T) kaç mikrosaniyedir (\\( \\mu s \\))?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 \\( \\mu s \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "10 \\( \\mu s \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "0.1 \\( \\mu s \\)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "0.01 \\( \\mu s \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "100 \\( \\mu s \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Periyot ve frekans arasındaki ilişki \\( T = 1/f \\) şeklindedir. \\( T = 1 / (10 \\cdot 10^6) = 10^{-7} \\) saniye yapar. Mikrosaniyeye çevirmek için \\( 10^6 \\) ile çarptığımızda \\( 0.1 \\mu s \\) değerini elde ederiz."
+        },
+        {
+            "id": 4,
+            "text": "Uzayda ilerleyen ve frekansı \\( f = 3 \\) GHz olan bir elektromanyetik sinyalin dalga boyu (\\( \\lambda \\)) kaç metredir? (Işık hızı \\( c = 3 \\times 10^8 \\) m/s)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 m",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "3 m",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "30 cm",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "0.1 m",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "0.03 m",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dalga boyu formülü \\( \\lambda = c/f \\)'dir. \\( \\lambda = (3 \\cdot 10^8) / (3 \\cdot 10^9) = 1/10 = 0.1 \\) metre olarak bulunur."
+        },
+        {
+            "id": 5,
+            "text": "Frekansı 12 GHz ve çapı 2 metre olan bir parabolik çanak antenin verimlilik faktörü \\( \\eta = 0.60 \\) olarak verilmiştir. Bu antenin kazancı (\\( G \\)) yaklaşık olarak kaç desibeldir (dB)?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "35.5 dB",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "42.1 dB",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "45.8 dB",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "55.2 dB",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "50.75 dB",
+                    "correct": true
+                }
+            ],
+            "explanation": "Antenin etki alanı \\( A_e = 0.6 \\cdot \\pi \\cdot r^2 \\approx 1.88 m^2 \\)'dir. Kazanç \\( G = \\frac{4\\pi A_e}{\\lambda^2} \\) formülü üzerinden yaklaşık 118796 değerini üretir. Desibel cinsinden \\( 10 \\log_{10}(118796) \\approx 50.75 \\) dB hesaplanır."
+        },
+        {
+            "id": 6,
+            "text": "Hücresel ağlarda frekans yeniden kullanımı planlanırken, bir öbek (cluster) içerisindeki hücre sayısını (N) bulmak için \\( N = i^2 + ij + j^2 \\) formülü kullanılır. Bir tasarımda \\( i=2 \\) ve \\( j=3 \\) seçilirse, öbek başına kaç hücre düşer?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "19",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "12",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "7",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "21",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "13",
+                    "correct": false
+                }
+            ],
+            "explanation": "Değerler formülde yerine konulduğunda: \\( N = 2^2 + (2 \\cdot 3) + 3^2 = 4 + 6 + 9 = 19 \\) hücresel öbek boyutu elde edilir."
+        },
+        {
+            "id": 7,
+            "text": "Hata denetimi ve düzeltimi uygulanan bir blok kodlama sisteminde minimum Hamming uzaklığı \\( d_{min} = 6 \\) olarak tespit edilmiştir. Bu sistem en fazla kaç bitlik hatayı 'denetleyebilir' (s) ve kaç bitlik hatayı kesin olarak 'düzeltebilir' (t)?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Denetler: 6, Düzeltir: 3",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Denetler: 5, Düzeltir: 2",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Denetler: 5, Düzeltir: 3",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Denetler: 4, Düzeltir: 2",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Denetler: 4, Düzeltir: 1",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hata algılama kapasitesi \\( s = d_{min} - 1 = 6 - 1 = 5 \\) bittir. Hata düzeltme kapasitesi ise \\( 2t + 1 = d_{min} \\Rightarrow 2t + 1 = 6 \\Rightarrow t = 2.5 \\) olup tam sayı kısmı alındığında en fazla 2 bit düzeltilebilir."
+        },
+        {
+            "id": 8,
+            "text": "Bir hücresel ağ hizmet alanında toplam 10 adet makro hücre (macrocell) bulunmaktadır ve her bir makro hücreye 15 kanal tahsis edilmiştir. Kapasiteyi artırmak amacıyla her bir makro hücre 4 adet mikro hücreye (microcell) bölünürse, sistemin toplam eşzamanlı kanal kapasitesi ne olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "150",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "300",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "600",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "1200",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1500",
+                    "correct": false
+                }
+            ],
+            "explanation": "Başlangıçta toplam kanal sayısı \\( 10 \\cdot 15 = 150 \\)'dir. Hücre bölme (cell splitting) işlemiyle her hücre 4 mikro hücreye ayrıldığında yeni kapasite \\( 10 \\cdot 4 \\cdot 15 = 600 \\) kanal/alan olacaktır."
+        },
+        {
+            "id": 9,
+            "text": "Radyo sinyallerinin serbest uzay zayıflaması (FSPL) hesaplanırken kullanılan pratik formül \\( FSPL(dB) = 92.45 + 20\\log_{10}(f) + 20\\log_{10}(d) \\) şeklindedir. İletim frekansı \\( f = 10 \\) GHz ve antenler arası mesafe \\( d = 100 \\) km ise boşluktaki yol kaybı kaç dB olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "132.45 dB",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "172.45 dB",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "112.45 dB",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "152.45 dB",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "192.45 dB",
+                    "correct": false
+                }
+            ],
+            "explanation": "Formülde değerleri yerine koyduğumuzda: \\( 92.45 + 20\\log_{10}(10) + 20\\log_{10}(100) \\). Logaritma değerleri \\( \\log_{10}(10)=1 \\) ve \\( \\log_{10}(100)=2 \\)'dir. Buradan \\( 92.45 + 20(1) + 20(2) = 152.45 \\) dB zayıflama bulunur."
+        },
+        {
+            "id": 10,
+            "text": "Zaman Bölmeli Çoklama (TDM) kullanan bir sistemde 4 adet kanalın her biri saniyede 100 kbps veri üretmektedir. Çoklayıcı, her çevrimde her kanaldan 2 bit veri alarak bir çerçeve (frame) oluşturmaktadır. Bu sistemin saniyedeki çerçeve hızı (frame rate) ve çıkış hattındaki toplam bit hızı (bit rate) sırasıyla nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Frame rate: 100.000, Çıkış hızı: 100 kbps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Frame rate: 200.000, Çıkış hızı: 800 kbps",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Frame rate: 25.000, Çıkış hızı: 200 kbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Frame rate: 100.000, Çıkış hızı: 800 kbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Frame rate: 50.000, Çıkış hızı: 400 kbps",
+                    "correct": true
+                }
+            ],
+            "explanation": "Her kanal 100 kbps hızında ve her kanaldan çerçeve başına 2 bit alınıyorsa, saniyedeki çerçeve sayısı (frame rate) \\( 100.000 / 2 = 50.000 \\)'dir. Toplam çıkış bit hızı ise tüm kanalların toplamına eşittir: \\( 4 \\cdot 100 \\text{ kbps} = 400 \\text{ kbps} \\)."
+        },
+        {
+            "id": 11,
+            "text": "Bir iletişim kanalında doğrusal Sinyal-Gürültü Oranı (SNR) 10.000 olarak ölçülmüştür. Bu oranın desibel (dB) cinsinden karşılığı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "40 dB",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "20 dB",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "100 dB",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "80 dB",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "10 dB",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sinyal-gürültü oranını desibele çevirme formülü \\( SNR_{dB} = 10 \\log_{10}(SNR) \\)'dir. Denklemde yerine konduğunda \\( 10 \\log_{10}(10.000) = 10 \\cdot 4 = 40 \\) dB olarak hesaplanır."
+        },
+        {
+            "id": 12,
+            "text": "Bant genişliği \\( B = 2 \\) MHz olan gürültülü bir kanalda maksimum veri taşıma hızının \\( C = 16 \\) Mbps olması hedeflenmektedir. Shannon kapasite formülüne göre bu kapasiteye ulaşabilmek için kanaldaki doğrusal Sinyal-Gürültü Oranının (SNR) kaç olması gerekir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "127",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "255",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "511",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1023",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "63",
+                    "correct": false
+                }
+            ],
+            "explanation": "Shannon formülü \\( C = B \\log_2(1 + SNR) \\) şeklindedir. Denklem kurulduğunda: \\( 16 = 2 \\log_2(1 + SNR) \\Rightarrow 8 = \\log_2(1 + SNR) \\Rightarrow 2^8 = 1 + SNR \\Rightarrow 256 = 1 + SNR \\Rightarrow SNR = 255 \\) bulunur."
+        },
+        {
+            "id": 13,
+            "text": "Dörtlü Genlik Modülasyonu (QAM) yöntemlerinden biri olan 64-QAM tekniği kullanan bir kablosuz sistemde, tek bir sinyal elemanı (sembol) ile havadan eş zamanlı olarak kaç bitlik sayısal veri aktarılmış olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "5",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "6",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "64",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sinyal durum sayısına (M) göre sembol başına iletilebilecek bit sayısı \\( \\log_2(M) \\) ile bulunur. 64-QAM için durum sayısı 64'tür ve \\( \\log_2(64) = 6 \\) bitlik veri tek sembolde aktarılır."
+        },
+        {
+            "id": 14,
+            "text": "Gürültüsüz (ideal) bir kanalda Nyquist teoremine göre saniyede 40 Mbps veri hızı elde edilmek istenmektedir. Kanalın tahsis edilen bant genişliği \\( B = 5 \\) MHz olduğuna göre, iletimde kaç farklı ayrıksı sinyal (gerilim) düzeyi (M) kullanılmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "32",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "16",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "64",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nyquist kanal kapasite formülü \\( C = 2B \\log_2(M) \\)'dir. Verileri yerine koyduğumuzda: \\( 40 = 2 \\cdot 5 \\cdot \\log_2(M) \\Rightarrow 40 = 10 \\log_2(M) \\Rightarrow 4 = \\log_2(M) \\Rightarrow M = 2^4 = 16 \\) bulunur."
+        },
+        {
+            "id": 15,
+            "text": "Yeryüzüne kurulan bir antenin yüksekliği \\( h = 100 \\) metre olarak ölçülmüştür. Atmosferik kırılmaların (radyo LOS K faktörü) hesaba katılmadığı ideal Optik Görüş Hattı (Optik LOS) mesafesi (d) yaklaşık kaç kilometredir? (\\( d = 3.57\\sqrt{h} \\) formülünü kullanınız)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "3.57 km",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "7.14 km",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "17.85 km",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "357 km",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "35.7 km",
+                    "correct": true
+                }
+            ],
+            "explanation": "Optik LOS formülünde değeri yerine koyduğumuzda \\( d = 3.57 \\sqrt{100} = 3.57 \\cdot 10 = 35.7 \\) km olarak hesaplanır."
+        },
+        {
+            "id": 16,
+            "text": "İleri düzey bir hücresel operatör FDMA (Frekans Bölmeli Çoklama) yöntemini kullanarak elindeki toplam 15 MHz genişliğindeki frekans bandını tahsis etmiştir. Bu bant, her biri 30 kHz genişliğinde küçük iletişim kanallarına bölünürse, teorik olarak toplam kaç adet eş zamanlı haberleşme kanalı elde edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "500",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "250",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "1000",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "150",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "300",
+                    "correct": false
+                }
+            ],
+            "explanation": "Toplam bant genişliğini bir kanalın genişliğine bölmemiz gerekir. Birimleri eşitlemek için 15 MHz = 15.000 kHz'dir. \\( 15.000 / 30 = 500 \\) adet alt kanal üretilir."
+        },
+        {
+            "id": 17,
+            "text": "Havadaki bir iletim ortamında elektromanyetik sinyalin ölçülen dalga boyu \\( \\lambda = 0.5 \\) metredir. Işık hızının (\\( c \\)) \\( 3 \\times 10^8 \\) m/s olduğu kabul edilirse, bu sinyalin frekansı (f) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "150 MHz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "600 MHz",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "300 MHz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1.5 GHz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1200 MHz",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sinyal formüllerinden dalga boyu \\( \\lambda = c/f \\) denklemi \\( f = c/\\lambda \\) olarak düzenlendiğinde; \\( f = (3 \\cdot 10^8) / 0.5 = 6 \\cdot 10^8 \\) Hz elde edilir. Bu da 600 MHz'e karşılık gelir."
+        },
+        {
+            "id": 18,
+            "text": "Minimum Hamming uzaklığı \\( d_{min} = 3 \\) olan bir hata denetim Hamming kodu tasarlanacaktır. İletilecek olan veri sözcüğünün (dataword) uzunluğu \\( k = 11 \\) bit olduğuna göre, eklenmesi gereken minimum redundant (artık) bit sayısı (r) kaç olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "2",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "4",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "5",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "6",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hamming kodları için geçerlilik kuralı \\( 2^r - 1 - r \\geq k \\) eşitsizliğidir. Veri biti \\( k=11 \\) için denersek: \\( r=3 \\) için \\( 8-1-3 = 4 \\geq 11 \\) (Sağlamaz). \\( r=4 \\) için \\( 16-1-4 = 11 \\geq 11 \\) (Sağlar). Bu nedenle en az 4 redundant bit eklenmelidir."
+        },
+        {
+            "id": 19,
+            "text": "Zaman Bölmeli Çoklama (TDM) kullanan bir MUX (çoklayıcı) cihazına 10 adet giriş kanalı bağlanmıştır. Senkron çalışmada her çevrimde (cycle) her bir kanaldan 1 byte (8 bit) veri alınmaktadır. Senkronizasyon için her çerçevenin (frame) sonuna ilave olarak 2 adet çerçeveleme biti (framing bit) ekleniyorsa, üretilen tek bir çerçevenin toplam bit uzunluğu nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "80 bit",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "100 bit",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "88 bit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "82 bit",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "40 bit",
+                    "correct": false
+                }
+            ],
+            "explanation": "Çoklayıcı 10 kanaldan 8'er bit veri almaktadır, kanal yükü toplamı \\( 10 \\cdot 8 = 80 \\) bittir. Buna 2 framing (çerçeveleme) biti de eklendiğinde çerçevenin toplam boyutu \\( 80 + 2 = 82 \\) bit olur."
+        },
+        {
+            "id": 20,
+            "text": "Bir mikrodalga haberleşme sisteminde kullanılan parabolik çanak antenin fiziksel yüzey alanı 10 metrekaredir (\\( 10 m^2 \\)). Antenin verimlilik faktörü (efficiency) %56 (\\( \\eta = 0.56 \\)) olarak belirtilmiştir. Antenin teorik etkin alanı (\\( A_e \\)) kaç metrekaredir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1.78 \\( m^2 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "10 \\( m^2 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3.14 \\( m^2 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "7.5 \\( m^2 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5.6 \\( m^2 \\)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Parabolik antenin etkin alanı hesaplaması fiziksel alan ile verimliliğin doğrudan çarpılmasıyla elde edilir. \\( A_e = \\eta \\cdot A \\Rightarrow A_e = 0.56 \\cdot 10 = 5.6 m^2 \\) olarak hesaplanır."
+        }
+    ]
+}

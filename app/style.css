@@ -287,6 +287,10 @@ details.folder-node>summary.folder-header:hover {
   transition: all .2s ease;
   position: relative;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
 }
 
 .test-item::before {
@@ -316,7 +320,8 @@ details.folder-node>summary.folder-header:hover {
 
 .test-item-row1 {
   overflow: hidden;
-  width: 100%;
+  flex: 1;
+  min-width: 0;
 }
 
 .test-title-text {

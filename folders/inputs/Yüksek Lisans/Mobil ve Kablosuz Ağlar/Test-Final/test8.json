@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e4f8a3d1-b5d4-4e2b-8a7e-d9f2a4c5a1a1",
+        "title": "test 8",
+        "subject": "test 8",
+        "topic": "Temel Kavramlar, Sinyaller, Hücresel Sistemler ve Hata Kontrolü",
+        "difficulty": "Karışık",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Mobil haberleşmede, gönderici ve alıcının aynı anda çift yönlü olarak kesintisiz iletişim kurabilmesine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Simplex",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Half-duplex",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Full-duplex",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Baseband",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Multiplexing",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cep telefonlarında olduğu gibi her iki tarafın aynı anda (eşzamanlı) veri alıp gönderebildiği iki yönlü iletişim türüne 'full-duplex' (tam çift yönlü) denir."
+        },
+        {
+            "id": 2,
+            "text": "Bluetooth teknolojisinde bir yönetici (master) ve en fazla yedi aktif istemci (slave) cihazdan oluşan, toplamda maksimum 8 cihazlık en küçük kişisel alan ağı (WPAN) yapısına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Piconet",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Scatternet",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "BSS (Basic Service Set)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "ESS (Extended Service Set)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ad-hoc Modeli",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bluetooth mimarisinde bir master ve yediye kadar aktif slave cihazın bağlandığı bağımsız mikro ağ yapılarına 'Piconet' adı verilir. Birden fazla piconet'in birleşimi ise scatternet'i oluşturur."
+        },
+        {
+            "id": 3,
+            "text": "Kablosuz Yerel Alan Ağlarında (WLAN) cihazların bir merkezi erişim noktası (Access Point) olmaksızın doğrudan eşler arası (peer-to-peer) haberleştiği, altyapısız ağ modeline ne isim verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Piconet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Infrastructure (Altyapılı) BSS",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Extended Service Set (ESS)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ad hoc (IBSS) Ağı",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "WiMAX",
+                    "correct": false
+                }
+            ],
+            "explanation": "Merkezi bir erişim noktasına (AP) ihtiyaç duymadan, mobil cihazların kablosuz ağ kartları vasıtasıyla doğrudan iletişim kurduğu kablosuz ağlara 'Ad hoc' veya Bağımsız Temel Servis Seti (IBSS) denir."
+        },
+        {
+            "id": 4,
+            "text": "Yeryüzünden yaklaşık 10.000 km ile 20.000 km irtifada yer alan, dünya etrafındaki turunu ortalama 6-8 saatte tamamlayan ve Küresel Konumlandırma Sistemi (GPS) ağlarında yaygın olarak kullanılan uydu sınıfı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "GEO (Geostationary Earth Orbit)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "LEO (Low Earth Orbit)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "HEO (Highly Elliptical Orbit)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Polar Orbit (Kutup Yörüngesi)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "MEO (Medium Earth Orbit)",
+                    "correct": true
+                }
+            ],
+            "explanation": "GPS gibi yön bulma sistemlerinin temelini oluşturan ve genellikle 10.000 ile 20.000 km arasındaki irtifaya konumlandırılan uydular MEO (Orta Dünya Yörüngesi) sınıfına girmektedir."
+        },
+        {
+            "id": 5,
+            "text": "Sinyalleri belirli bir odak noktasında toplayarak yansıtma prensibiyle çalışan; mikrodalga ve uydu iletişiminde dik gelen elektromanyetik sinyali iç yansıma ile tek noktada (örneğin LNB'de) toplayan anten türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İzotropik Anten",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Monopol Anten",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Parabolik (Çanak) Anten",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Helisel Anten",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yagi-Uda Anteni",
+                    "correct": false
+                }
+            ],
+            "explanation": "Parabolik çanak antenler, mikrodalga haberleşmesinde ve uydu sistemlerinde dik olarak gelen sinyalleri yansıtarak belirli bir odak noktasında toplayan yöneylemli antenlerdir."
+        },
+        {
+            "id": 6,
+            "text": "Sayısal bir veriyi sayısal sinyal formatında iletmek için ağ donanımı seviyesinde aşağıdakilerden hangisi veya hangi yöntem kullanılır? (Örn: USB veya HDMI kablosundaki aktarım mekanizması)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Modem ile modülasyon",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dijital transmitter (Sayısal iletici)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "CODEC ile sayısallaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Demodülatör",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Analog filtreleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sayısal veriyi kısa mesafelerde sayısal sinyale dönüştürüp göndermek için dijital transmitter'lar (sayısal ileticiler) kullanılır. HDMI kablo aktarımları sayısal verinin sayısal sinyalle aktarımına en net örnektir."
+        },
+        {
+            "id": 7,
+            "text": "Hücresel sistemlerde, belirli bir coğrafi alanda abone yoğunluğu (trafik) arttığında sistemin aynı anda hizmet verebileceği eşzamanlı kanal kapasitesini yükseltmek için mevcut büyük bir makro hücrenin parçalanarak daha küçük mikro veya piko hücrelere bölünmesi işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cell Splitting (Hücre Bölme)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sectoring (Sektörleme)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Frequency Hopping (Frekans Atlama)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Handoff (Devir Teslim)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Roaming (Dolaşım)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Trafik talebinin arttığı (call blocking riskinin yükseldiği) alanlarda hücrenin kapsama alanını küçültüp frekansların yeniden kullanım sıklığını artırarak kanal kapasitesini maksimize eden yönteme 'Cell Splitting' (Hücre Bölme) denir."
+        },
+        {
+            "id": 8,
+            "text": "İletim ağlarında hata denetimi amacıyla yaygın biçimde kullanılan CRC (Cyclic Redundancy Check) yönteminde; alıcı taraf gelen veriyi kendi bölen polinomuyla (modülo-2 aritmetiğine göre) işleme soktuğunda, veri iletiminde hiçbir hata yoksa ulaşması gereken matematiksel kalan (syndrome) sonucu nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 değeri",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gönderilen orijinal verinin kendisi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tam olarak 0 (Sıfır)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "CRC artık bitlerinin tümleyeni",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bölünen polinomun derecesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "CRC hata kontrol mekanizmasında, veri yol boyunca bozulmamışsa, alıcı taraftaki modülo-2 polinom bölmesi işleminin sonucunda kalan (syndrome) değer mutlaka 0 olmalıdır. Sıfırdan farklı bir kalan çıkması verinin bozulduğunu gösterir."
+        },
+        {
+            "id": 9,
+            "text": "Analog bir ses verisinin (örneğin mikrofondaki insan sesinin) bilgisayar veya cep telefonu tarafından işlenebilmesi amacıyla sayısal sinyale dönüştürülmesi sürecinde uygulanan Darbe Kod Modülasyonu (PCM) aşamaları sırasıyla hangi seçenekte doğru olarak sıralanmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kuantalama -> Kodlama -> Örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Örnekleme -> Kuantalama (Sayısallaştırma) -> Kodlama",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kodlama -> Örnekleme -> Kuantalama",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Örnekleme -> Kodlama -> Kuantalama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuantalama -> Örnekleme -> Kodlama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Analog bir sinyali sayısala dönüştürmek için CODEC bileşenlerinde sırasıyla; sinyalden ayrık zamanlı kesitler alınır (Örnekleme), bu değerler belirli voltaj seviyelerine yuvarlanarak sayısallaştırılır (Kuantalama) ve son olarak binary (0 ve 1) dizisine çevrilir (Kodlama)."
+        },
+        {
+            "id": 10,
+            "text": "IEEE 802.11 kablosuz yerel alan ağlarında ortam erişimini düzenleyen CSMA/CA mekanizmasında, veri gönderimine başlamadan önce ortamı rezerve etmek ve 'Gizli Düğüm' (Hidden Node) sorununu çözmek amacıyla alıcı ile verici arasında sırasıyla hangi ikili kontrol çerçeveleri takas edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "SYN / ACK",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "PING / PONG",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "RTS (Request to Send) / CTS (Clear to Send)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Beacon / Probe Request",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "DHCP Discover / Offer",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kablosuz ağda veri göndermek isteyen cihaz, ortama önce RTS yollar. Hedef cihaz veri almaya müsaitse ve ortam boşsa CTS ile yanıt verir. Bu mekanizma kapsama alanında bulunup birbirini göremeyen gizli düğümlerin aynı anda ortama yayın yapmasını engelleyerek çarpışmayı önler."
+        },
+        {
+            "id": 11,
+            "text": "Çoklu erişim ve çoğullama (Multiplexing) yöntemlerinden biri olan Frekans Bölmeli Çoklama'nın (FDM) çalışma prensibi en doğru biçimde nasıl açıklanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İletim ortamının sahip olduğu geniş frekans bandı, aynı anda haberleşme sağlanabilmesi için birbirine karışmayan daha küçük alt kanallara bölünür.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Bütün frekans bandı sırayla sadece milisaniyelik zaman dilimlerine (slot) ayrılarak kullanıcılara periyodik olarak atanır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tüm kullanıcılar aynı frekans bandını tam eşzamanlı olarak, kendilerine atanan birbirine dik (orthogonal) kodlarla ortaklaşa kullanır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Veriler datagram paketlerine ayrılarak dinamik yönlendirme (routing) tablolarıyla hedefe farklı yollardan yönlendirilir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ortamda tek bir sabit taşıyıcı sinyal kullanılır ve kapasiteyi artırmak için bu sinyalin sadece fazı ve genliği eşzamanlı değiştirilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "FDM (Frequency Division Multiplexing), ortak tahsis edilen geniş bir iletim bandının, birbirine karışmayacak şekilde küçük frekans aralıklarına (alt kanallara) ayrılarak birden fazla kullanıcının eşzamanlı iletim yapmasını sağlayan analog bir tekniktir."
+        },
+        {
+            "id": 12,
+            "text": "Bir hücresel CDMA (Kod Bölmeli Çoklu Erişim) ağında hareket halindeki bir cihazın yeni bir baz istasyonuna geçerken uyguladığı 'Soft Handoff' (Yumuşak Geçiş) işleminin en temel ayırt edici özelliği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sadece frekansların atlama (hopping) sırası değiştirilerek devir teslim yapılmasıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İletişimin önce eski baz istasyonundan anında koparılması, ardından yeni hücreye bağlanılması (break-before-make) ilkesine dayanmasıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Geçiş işleminin merkez santral tarafından sadece periyodik saatlik dilimlerde zorla tetiklenmesidir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kullanıcının hücresel ağda fiziksel SIM kartını değiştirmesiyle aktif hale gelen bir süreç olmasıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mobil cihazın, eski hücre ile olan bağlantısını koparmadan bir süre boyunca her iki baz istasyonuyla eşzamanlı iletişim kurmasıdır (make-before-break).",
+                    "correct": true
+                }
+            ],
+            "explanation": "CDMA sistemlerine özgü olan Soft handoff işleminde \"koparmadan önce bağlan\" (make-before-break) yaklaşımı uygulanır. Bu sayede çağrı kesintiye uğramadan, kısa bir süre her iki baz istasyonuyla ortak çalışılarak son derece pürüzsüz bir hücre geçişi elde edilir."
+        },
+        {
+            "id": 13,
+            "text": "IEEE 802.11 standartları ailesinde birinci nesil güvenlik protokolünün donanımsal zayıflıklarını gidermek adına tasarlanan, 48-bit Initialization Vector (IV) kullanan, her yeni çerçeve için geçici bir anahtar üreten ve MIC mesaj bütünlük algoritmasını barındıran yazılımsal güvenlik protokolü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "WEP (Wired Equivalent Privacy)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "TKIP (Temporal Key Integrity Protocol)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "EAP (Extensible Authentication Protocol)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "AES-CCMP",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "RSA",
+                    "correct": false
+                }
+            ],
+            "explanation": "TKIP (Geçici Anahtar Bütünlüğü Protokolü), eski WEP donanımlarının RC4 temelli çiplerini kullanmaya devam ederek şifreleme açıklarını yazılımsal yollarla (48 bit IV, Michael MIC, dinamik anahtar değişimi) onarmak üzere WPA standardının parçası olarak geliştirilmiştir."
+        },
+        {
+            "id": 14,
+            "text": "Kablosuz iletişimde bir baz istasyonunun veya erişim noktasının ilettiği sinyaller, binalara, tepelere veya çevresel engellere çarparak farklı rotaları izleyebilir. Farklı yollardan giden bu sinyal kopyalarının alıcıya gecikmeli ve farklı fazlarda ulaşarak birbirini bozması durumuna ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Darbe Gürültüsü (Impulse Noise)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Termal Gürültü",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Atmosferik Emilim",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çoklu Yol Yayılımı (Multipath Propagation)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Frekans Atlama (Frequency Hopping)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sinyallerin yansıma, saçılma ve kırılma gibi fiziksel etkilerle parçalanarak alıcıya birbirinden farklı zamanlarda ve fazlarda ulaşıp (ISI-Intersymbol Interference) asıl sinyalin bozulmasına yol açmasına Multipath Propagation (Çoklu Yol Yayılımı) denir."
+        },
+        {
+            "id": 15,
+            "text": "Sayısal veriyi analog bir taşıyıcı sinyal kullanarak iletmeye yarayan modülasyonlardan Faz Kaydırmalı Anahtarlama tekniğinin dört durumlu hali olan QPSK'de, oluşturulan her bir tekil sinyal elemanı (faz durumu) ile havadan eş zamanlı olarak kaç bitlik veri aktarılmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 bit",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "8 bit",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3 bit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4 bit",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "2 bit",
+                    "correct": true
+                }
+            ],
+            "explanation": "Sinyal modülasyonlarında bir sembolün taşıyabildiği veri miktarı \\( \\log_2(M) \\) formülüyle bulunur. QPSK (Quadrature PSK) modülasyonunda M=4 adet farklı faz durumu kullanıldığı için her sembolle \\( \\log_2(4) = 2 \\) bitlik sayısal veri eşzamanlı gönderilir."
+        },
+        {
+            "id": 16,
+            "text": "Frekans yeniden kullanımı (frequency reuse) yapılan hücresel şebekelerde; birbirine komşu olan hücrelerde kullanılan frekans bantlarının birbirine çok yakın (bitişik) tahsis edilmesi ve özellikle cihazlardaki alıcı filtrelerin bu çok yakın frekansları birbirlerinden net şekilde ayırt edememesi sonucunda oluşan istenmeyen sinyal girişimine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Co-channel interference (Eş Kanal Girişimi)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Adjacent channel interference (Bitişik Kanal Girişimi)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Near-far effect (Yakın-uzak etkisi)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ping-pong Etkisi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Crosstalk (Çapraz Karışma)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Birbirine komşu (bitişik) frekans bantlarını kullanan hücrelerin ortak sınırlarında, cihazlardaki filtrelerin yakın frekansları iyi ayrıştıramaması sonucu oluşan sızıntı/girişim problemine 'Adjacent channel interference' (Bitişik kanal girişimi) adı verilir."
+        },
+        {
+            "id": 17,
+            "text": "Gürültüsüz (ideal) bir iletişim kanalı varsayılarak Nyquist teoremine göre maksimum veri kapasitesi hesaplanacaktır. Bant genişliği \\( B = 4 \\text{ MHz} \\) olarak verilen bu kanalda, sayısal veriyi iletmek için ayrık gerilim düzeyi (sinyal seviyesi) sayısı \\( M = 16 \\) olarak kullanılıyorsa, ulaşılabilecek teorik maksimum kanal kapasitesi (C) kaç Mbps'dir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "16 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "256 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "64 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "128 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "32 Mbps",
+                    "correct": true
+                }
+            ],
+            "explanation": "Nyquist'in gürültüsüz kanal teorisine göre kapasite formülü \\( C = 2B \\log_2(M) \\) şeklindedir. Verilenleri yerine koyarsak: \\( C = 2 \\times 4 \\times 10^6 \\times \\log_2(16) \\). Logaritma değeri 4'tür. Böylece \\( C = 8 \\times 10^6 \\times 4 = 32 \\times 10^6 \\text{ bps} \\), yani 32 Mbps elde edilir."
+        },
+        {
+            "id": 18,
+            "text": "Hata denetimi ve düzeltme mekanizması uygulanan lineer bir blok kodlama sisteminde minimum Hamming uzaklığı \\( d_{min} = 5 \\) olarak belirlenmiştir. Bu sistemde, en fazla kaç bitlik hatayı 'algılamak (s)' garanti edilir ve en fazla kaç bitlik hatayı 'kesin olarak düzeltmek (t)' mümkündür?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "4 bit algılar, 2 bit düzeltir",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "5 bit algılar, 2 bit düzeltir",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "4 bit algılar, 3 bit düzeltir",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "3 bit algılar, 1 bit düzeltir",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5 bit algılar, 3 bit düzeltir",
+                    "correct": false
+                }
+            ],
+            "explanation": "Blok kodlamada hata algılama kapasitesi \\( s = d_{min} - 1 \\) ile hesaplanır (5 - 1 = 4 bit algılanır). Hata düzeltme kapasitesi ise \\( d_{min} = 2t + 1 \\) formülünden bulunur. \\( 5 = 2t + 1 \\implies 2t = 4 \\implies t = 2 \\) bit hatanın düzeltileceği kesinleşir."
+        },
+        {
+            "id": 19,
+            "text": "Shannon kapasite formülüne göre ( \\( C = B \\log_2(1 + SNR) \\) ) termal gürültünün bulunduğu bir iletişim kanalında maksimum veri taşıma hızı hesaplanacaktır. Kanalın mevcut bant genişliği \\( B = 3 \\text{ MHz} \\) ve ortamda ölçülen doğrusal Sinyal-Gürültü Oranı \\( SNR = 255 \\) ise, bu iletim kanalının teorik maksimum kapasitesi (C) kaç Mbps olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "8 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "12 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "16 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "24 Mbps",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "48 Mbps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gürültülü ortamlarda Shannon kapasite formülü kullanılır. Değerleri denklemde yerine koyarsak: \\( C = (3 \\times 10^6) \\times \\log_2(1 + 255) \\). \\( \\log_2(256) = 8 \\) olduğundan, kapasite \\( C = 3 \\times 10^6 \\times 8 = 24 \\times 10^6 \\text{ bps} \\), yani 24 Mbps olarak hesaplanır."
+        },
+        {
+            "id": 20,
+            "text": "Bir hücresel ağ sisteminde coğrafi kapsam alanları altıgen (hegzagonal) yapıda modellenmektedir. Aynı frekansların yeniden kullanımını yönetmek üzere tasarlanan bir öbek (cluster) içerisindeki hücre sayısı (N), pozitif tamsayılar olan \\( i \\) ve \\( j \\) değerlerine bağlı olarak \\( N = i^2 + ij + j^2 \\) ampirik formülüyle hesaplanmaktadır. Ağ mimarı bu tasarımda \\( i = 2 \\) ve \\( j = 2 \\) parametrelerini seçtiğine göre, frekans yeniden kullanımını sağlayacak olan bu öbekte (cluster) toplam kaç adet hücre yer alır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "7",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "9",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "12",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "19",
+                    "correct": false
+                }
+            ],
+            "explanation": "Verilen hücre kümesi sayısını (N) bulma formülünde \\( i=2 \\) ve \\( j=2 \\) değerleri yerine konulduğunda; \\( N = 2^2 + (2 \\times 2) + 2^2 = 4 + 4 + 4 = 12 \\) hücreden oluşan bir öbek (cluster) tasarımı elde edilir."
+        }
+    ]
+}

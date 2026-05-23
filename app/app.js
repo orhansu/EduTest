@@ -358,10 +358,7 @@ function renderTestList(tests) {
         <div class="test-item-row1">
           <span class="test-title-text">${t.meta.title}</span>
         </div>
-        <div class="test-item-row2">
-          <span class="test-item-grade">${t.meta.grade ?? ''}</span>
-          ${badgeHtml}
-        </div>`;
+        ${badgeHtml}`;
 
       item.addEventListener('click', () => startTest(t));
       

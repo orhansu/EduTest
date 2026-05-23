@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "21b58a1d-4089-4e76-8802-1279f15049cf",
+        "title": "test 3",
+        "subject": "test 3",
+        "topic": "Sinyaller, Ağ Mimarisi, Çoklama ve Modülasyon",
+        "difficulty": "Karışık",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Bluetooth (802.15) teknolojisinde bir 'master' (yönetici) ve en fazla 7 'slave' (aktif bağlı cihaz) cihazdan oluşan, toplam 8 cihazlık en küçük kişisel alan ağı (WPAN) yapısına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Piconet",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Scatternet",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "ESS (Genişletilmiş Servis Seti)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "BSS (Temel Servis Seti)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ad-hoc (IBSS)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bluetooth teknolojisinde, 1 yönetici ve en fazla 7 bağlı cihazın oluşturduğu bu mikro ağlara 'Piconet' adı verilir. Birden fazla Piconet'in birleşimi ise Scatternet'i oluşturur."
+        },
+        {
+            "id": 2,
+            "text": "Sinyalleri belirli bir odak noktasında toplayarak yansıtma prensibiyle çalışan, günümüzde özellikle karasal mikrodalga ve uydu iletişiminde yaygın olarak kullanılan anten türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Monopol (Tek Kutuplu) Anten",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Parabolik (Çanak) Anten",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yagi-Uda Anteni",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Loop (Halka) Anten",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İzotropik Anten",
+                    "correct": false
+                }
+            ],
+            "explanation": "Parabolik çanak antenler, mikrodalga iletişiminde ve uydu sistemlerinde dik gelen sinyali yansıtarak bir odak noktasında toplamak üzere tasarlanmışlardır."
+        },
+        {
+            "id": 3,
+            "text": "Uydu ağlarında, yeryüzünde bulunan bir istasyondan (veya mobil cihazdan) uzaydaki uyduya doğru yapılan sinyal gönderim kanalına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Downlink",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Handover",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uplink",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Crosslink",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Multipath",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yeryüzü istasyonundan uyduya gönderilen sinyallere Uplink, uydudan yeryüzündeki cihazlara gönderilen sinyallere ise Downlink adı verilir."
+        },
+        {
+            "id": 4,
+            "text": "Elektromanyetik sinyallerin 1 saniye içinde tekrarlanma sayısına frekans (f) denir. Sinyalin bir kez tekrarlaması için geçen süreye ise periyot (T) adı verilir. Buna göre, periyot ile frekans arasındaki doğru matematiksel ilişki aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\\\( T = f^2 \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\\\( T = 2\\\\pi f \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\\\( T = c / f \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\\\( T = 1 / f \\\\)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "\\\\( T = f / c \\\\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Periyot (T), frekansın (f) matematiksel tersidir ve saniye cinsinden hesaplanan formülü \\\\( T = 1 / f \\\\) şeklindedir."
+        },
+        {
+            "id": 5,
+            "text": "Hücresel ağlarda hareket halindeki mobil bir cihazın, iletişimi (ses veya veri) kesintiye uğramadan bulunduğu baz istasyonunun kapsama alanından çıkıp bir başka baz istasyonuna aktarılması işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Multiplexing (Çoklama)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Fading (Sönümleme)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Attentuation (Zayıflama)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Roaming (Dolaşım)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Handoff / Handover",
+                    "correct": true
+                }
+            ],
+            "explanation": "Handoff (Handover), hareketli bir abonenin bir hücreden (baz istasyonundan) diğer hücreye geçişi sırasında iletişimin kopmadan yeni baz istasyonuna aktarılması sürecidir."
+        },
+        {
+            "id": 6,
+            "text": "Fiber optik kablolar üzerinde iletişim yaparken, mevcut fiziksel iletim ortamını ışığın dalga boyuna göre alt kanallara ayırarak aynı anda birden fazla iletişim yapmaya olanak tanıyan çoğullama (multiplexing) tekniği hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "WDM (Wave Division Multiplexing)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "FDM (Frequency Division Multiplexing)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "TDM (Time Division Multiplexing)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "CDMA (Code Division Multiple Access)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "SDMA (Space Division Multiple Access)",
+                    "correct": false
+                }
+            ],
+            "explanation": "WDM (Dalga Boyu Bölmeli Çoklama), fiber optik ortamlarda farklı dalga boylarındaki (renklerdeki) ışınların üçgen prizmalar kullanılarak birleştirilip ayrıştırılmasıyla yapılan çoğullama işlemidir."
+        },
+        {
+            "id": 7,
+            "text": "Doğrudan Sıralı Spektrum Yayma (DSSS) yönteminde, göndericinin verisi, sistemi dışarıdan dinleyenler için rastgele gibi görünen ancak alıcının bildiği bir 'chipping serisi' (yayma kodu) ile birleştirilir. Sinyali daha geniş bir banda yaymak için veriler ve yayma kodu hangi mantıksal işlemden geçirilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AND Kapısı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "XOR (Özel Veya) Kapısı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "OR Kapısı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "NAND Kapısı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "NOR Kapısı",
+                    "correct": false
+                }
+            ],
+            "explanation": "DSSS yönteminde veri bitleri, PN (Pseudo Noise) serisinden gelen chipping bitleri ile XOR (özel veya) işlemine tabi tutularak orjinal veriden daha geniş bantta bir sinyal elde edilir."
+        },
+        {
+            "id": 8,
+            "text": "IEEE 802.11 kablosuz ağlarında, ortamda çarpışmaları önlemek için CSMA/CA mekanizması kullanılır. Bu mekanizmada, cihaz veri göndermeden önce ortamı rezerve etmek ve 'gizli düğüm' sorununu çözmek için alıcı cihaza öncelikle hangi kontrol çerçevesini gönderir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CTS (Clear to Send)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ACK (Acknowledgment)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "RTS (Request to Send)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Beacon",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Probe Request",
+                    "correct": false
+                }
+            ],
+            "explanation": "Veri göndermek isteyen cihaz, uygun süre bekledikten sonra (DIFS), öncelikle hedef cihaza RTS (Gönderme İsteği) çerçevesi yollar. Alıcı bunu CTS (Göndermeye Hazır) ile yanıtlar."
+        },
+        {
+            "id": 9,
+            "text": "İletişim kanallarında termal gürültünün dikkate alındığı ortamlarda, elde edilebilecek teorik maksimum veri iletim hızını (C) hesaplamak için kullanılan Shannon Kapasite formülü aşağıdakilerden hangisinde doğru verilmiştir? (B: Bant genişliği, SNR: Sinyal Gürültü Oranı)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\\\( C = 2B \\\\log_2(M) \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\\\( C = B \\\\log_{10}(SNR) \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\\\( C = SNR \\\\log_2(1 + B) \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\\\( C = B \\\\log_2(1 + SNR) \\\\)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "\\\\( C = 2B \\\\log_{10}(1 + SNR) \\\\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gürültülü kanallarda Shannon'un geliştirdiği formül \\\\( C = B \\\\log_2(1 + SNR) \\\\) şeklindedir. A şıkkı ise gürültüsüz kanallar için Nyquist teoremidir."
+        },
+        {
+            "id": 10,
+            "text": "Hücresel sistemlerde hareket eden bir mobil cihaz için handoff kararı verilirken, yalnızca anlık sinyal seviyelerinin ölçülmesi cihazın hücre sınırlarında art arda iki baz istasyonu arasında gereksiz geçiş yapmasına neden olur. Sisteme büyük bir yük getiren bu soruna ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Co-channel Interference",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Crosstalk",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Fast Fading",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Near-far Problemi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ping-pong Etkisi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Hücre kesişimlerindeki anlık dalgalanmalardan (zayıflamalardan) dolayı cihazın iki hücre arasında sürekli git gel yapmasına 'ping-pong etkisi' denir. Bu sorun, geçişlerde histerezis bandı eklenerek aşılır."
+        },
+        {
+            "id": 11,
+            "text": "Hata kontrol kodlama yöntemlerinden olan lineer blok kodlarda, sistemin minimum Hamming uzaklığı (\\\\( d_{min} \\\\)) 3 olarak belirlenmiştir. Bu sistem, en fazla kaç bitlik hatayı (t) kesin olarak 'düzeltebilir'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 bit",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "2 bit",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3 bit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4 bit",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5 bit",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hata düzeltme kapasitesi (t) ile minimum Hamming uzaklığı arasındaki formül \\\\( d_{min} = 2t + 1 \\\\) şeklindedir. \\\\( 3 = 2t + 1 \\\\Rightarrow t = 1 \\\\) olarak bulunur."
+        },
+        {
+            "id": 12,
+            "text": "IEEE 802.11 standartları ailesinden olan ve sırasıyla 11 Mbps ve 54 Mbps hızlara çıkabilen eski ancak yaygın 802.11b ve 802.11g standartları, çalışmak için hangi lisans gerektirmeyen (ISM) frekans bandını kullanmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "900 MHz ISM Bandı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2.4 GHz ISM Bandı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "5 GHz ISM Bandı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "6 GHz ISM Bandı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "60 GHz ISM Bandı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hem 802.11b hem de 802.11g standardı 2.4 GHz bandını kullanarak iletişim sağlar. 802.11a ve 802.11ac ise temel olarak 5 GHz bandını kullanır."
+        },
+        {
+            "id": 13,
+            "text": "Hücresel ağlarda, kapasiteyi maksimize etmek için frekansların yeniden kullanılması prensibi hayati önem taşır. Ancak, aynı frekans grubunu kullanan komşu olmayan hücrelerin yeterince uzağa yerleştirilmemesi sonucu sinyallerinin örtüşmesiyle oluşan ciddi frekans girişimine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Adjacent channel interference",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Thermal noise",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Co-channel interference",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Near-far effect",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Impulse noise",
+                    "correct": false
+                }
+            ],
+            "explanation": "Frekans yeniden kullanımında aynı frekans grubunu kullanan hücrelere 'co-channel hücreler' denir ve bunların birbirini etkilemesine 'co-channel interference' (eş kanal girişimi) adı verilir."
+        },
+        {
+            "id": 14,
+            "text": "Kapasiteyi ve hızı artırmak için, Dörtlü Genlik Modülasyonu (QAM) tekniğinde taşıyıcı sinyalin hem fazı hem de genliği değiştirilir. Buna göre 16-QAM modülasyonu kullanan bir kablosuz sistemde, tek bir sembol (sinyal elemanı) gönderilerek eş zamanlı olarak kaç bitlik veri aktarılmış olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 bit",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2 bit",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3 bit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4 bit",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "8 bit",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sinyal durum sayısı (M) verildiğinde iletilebilecek bit sayısı \\\\( \\\\log_2(M) \\\\) ile bulunur. 16-QAM için \\\\( M = 16 \\\\) olduğundan \\\\( \\\\log_2(16) = 4 \\\\) bit taşıma kapasitesine ulaşılır."
+        },
+        {
+            "id": 15,
+            "text": "Kentsel alanlarda radyo yayılımını modellemek ve binalar, yapılar gibi çevresel etkilerde beklenen ortalama yol kaybını ampirik yollarla bulmak amacıyla geliştirilen 'Okumura Hata Modeli'nin bilimsel geçerliliği için, uygulanacak olan sinyalin frekansı hangi aralıkta olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 - 10 MHz Arası",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "10 - 50 MHz Arası",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "30 - 100 MHz Arası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "2.4 - 5 GHz Arası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "150 - 1920 MHz Arası",
+                    "correct": true
+                }
+            ],
+            "explanation": "Okumura modeli, GSM sistemlerinde kentsel alan kayıplarını hesaplamak üzere 150 MHz ile 1920 MHz frekans aralığında (1-100 km mesafe) geçerli olacak şekilde formüle edilmiştir."
+        },
+        {
+            "id": 16,
+            "text": "Gecikme süresinin son derece kısa olduğu (yaklaşık 1-7 ms), dünyadan yüksekliği genellikle 500 km ile 2.000 km arasında değişen ve Iridium (66 uydu) ile Teledesic gibi uydu iletişim ağlarının tercih ettiği uydu yörünge sınıfı hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "LEO (Low Earth Orbit)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "MEO (Medium Earth Orbit)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "GEO (Geostationary Earth Orbit)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "HEO (Highly Elliptical Orbit)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Lunar Orbit (Ay Yörüngesi)",
+                    "correct": false
+                }
+            ],
+            "explanation": "LEO (Alçak Dünya Yörüngesi) uyduları, alt Van Allen kuşağında, yaklaşık 500-2000 km irtifada yer alır. Iridium ve Starlink gibi ses/genişbant veri sistemlerinde kullanılırlar."
+        },
+        {
+            "id": 17,
+            "text": "Frekansı 12 GHz ve çapı (D) 2 metre olan bir parabolik çanak antenin etki alanı (\\\\( A_e \\\\)) hesaplanmak isteniyor. Verimlilik faktörü (\\\\( \\\\eta \\\\)) teorik olarak 0.6 kabul edildiğinde ve \\\\( \\\\pi \\\\approx 3.14 \\\\) alındığında, antenin etki alanı yaklaşık olarak kaç metrekaredir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "0.60 \\\\( m^2 \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1.88 \\\\( m^2 \\\\)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "3.14 \\\\( m^2 \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4.20 \\\\( m^2 \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "7.53 \\\\( m^2 \\\\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Parabolik çanak etki alanı formülü \\\\( A_e = \\\\eta \\\\pi r^2 \\\\) şeklindedir. Çap (D)=2m ise yarıçap (r)=1m'dir. \\\\( A_e = 0.6 \\\\times 3.14 \\\\times (1)^2 = 1.884 \\\\approx 1.88 \\\\, m^2 \\\\) hesaplanır."
+        },
+        {
+            "id": 18,
+            "text": "Uydu ve mikrodalga iletişimlerinde, alıcı hassasiyetini düşüren en büyük etken elektron hareketlerinden kaynaklanan termal gürültüdür. Bu gürültünün formülü (\\\\( N_0 = kT \\\\)) hesaplanırken kullanılan Boltzmann sabitinin (k) yaklaşık değeri aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\\\( 3 \\\\times 10^8 \\\\) J/K",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\\\( 6.626 \\\\times 10^{-34} \\\\) J/K",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\\\( 1.38 \\\\times 10^{-23} \\\\) J/K",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "\\\\( 9.81 \\\\times 10^2 \\\\) J/K",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\\\( 1.602 \\\\times 10^{-19} \\\\) J/K",
+                    "correct": false
+                }
+            ],
+            "explanation": "Termal gürültü hesaplamalarında (KxTxB) Joule/Kelvin cinsinden kullanılan Boltzmann sabiti (k) fiziksel olarak yaklaşık \\\\( 1.38 \\\\times 10^{-23} \\\\) değerine sahiptir."
+        },
+        {
+            "id": 19,
+            "text": "İleri düzey bir hücresel operatör FDMA yöntemini kullanarak iletişim sağlamaktadır. Operatörün elindeki toplam frekans bandı 25 MHz genişliğindedir. Bu bandın tamamı komşu bant girişimini önlemek amacıyla bırakılan koruma (guard) bantları da dâhil olmak üzere, her biri 200 kHz olan alt kanallara bölünürse, toplam kaç adet eş zamanlı iletişim kanalı elde edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "25",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "64",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "100",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "125",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "250",
+                    "correct": false
+                }
+            ],
+            "explanation": "25 MHz bandı, birim uyumluluğu için 25.000 kHz'e dönüştürülür. Tüm bandı kanal genişliğine bölersek: \\\\( 25000 / 200 = 125 \\\\) adet kanal oluşturulur."
+        },
+        {
+            "id": 20,
+            "text": "Spread Spectrum tekniklerinde kullanılan Pseudo-Noise (PN) rastgele sayı serileri donanımsal olarak LFSR (Linear Feedback Shift Register) adı verilen doğrusal geri beslemeli kaydırmalı kayıtçılarla üretilir. Toplam n adet kayıtçı (flip-flop) kullanılan bir LFSR devresinin, kendini tekrar etmeden üretebileceği dizinin (periyodun) maksimum uzunluğu ne kadardır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\\\( n \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\\\( 2n \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\\\( n^2 \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\\\( 2^{n-1} \\\\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\\\( 2^n - 1 \\\\)",
+                    "correct": true
+                }
+            ],
+            "explanation": "LFSR devreleri teorik olarak n bitten \\\\( 2^n \\\\) farklı durum üretebilir, ancak tamamı 0 olan durum cihazı kilitlediği için bu durum atlanır ve en büyük tekrar periyodu \\\\( 2^n - 1 \\\\) olur."
+        }
+    ]
+}

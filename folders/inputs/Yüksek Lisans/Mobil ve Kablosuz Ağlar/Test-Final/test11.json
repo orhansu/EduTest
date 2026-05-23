@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e4f8a3d1-b5d4-4e2b-8a7e-d9f2a4c5t11a",
+        "title": "test 11",
+        "subject": "test 11",
+        "topic": "Mobil ve Kablosuz Ağlar",
+        "difficulty": "Karışık",
+        "grade": "Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Sayısal bir veriyi analog bir sinyale dönüştürerek iletmek amacıyla, taşıyıcı sinyalin frekansının veri biti '0' ve '1' durumlarına göre değiştirildiği modülasyon tekniği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ASK (Genlik Kaydırmalı Anahtarlama)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "PSK (Faz Kaydırmalı Anahtarlama)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "QAM (Dörtlü Genlik Modülasyonu)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "PCM (Darbe Kod Modülasyonu)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "FSK (Frekans Kaydırmalı Anahtarlama)",
+                    "correct": true
+                }
+            ],
+            "explanation": "FSK (Frequency Shift Keying) yönteminde, sayısal '0' ve '1' bitleri taşıyıcı sinyalin frekansının (daraltılıp genişletilmesi) değiştirilmesiyle analog olarak ifade edilir."
+        },
+        {
+            "id": 2,
+            "text": "Sinyal yoğunluğunun belirli bir süre boyunca aynı seviyede kalıp, daha sonra ani (keskin) bir şekilde farklı bir voltaj seviyesine geçiş yaptığı sinyal türüne ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sayısal sinyal",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Periyodik analog sinyal",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sürekli sinyal",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Harmonik sinyal",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İzotropik sinyal",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zaman içerisinde düzgün ve yavaş değişen sinyallere analog sinyal; belirli bir seviyede kalıp ani sıçramalarla değişen sinyallere ise sayısal (dijital) sinyal denir."
+        },
+        {
+            "id": 3,
+            "text": "Shannon kapasite formülüne göre; bant genişliği \\( B = 10 \\text{ MHz} \\) ve doğrusal Sinyal-Gürültü Oranı (SNR) \\( 1023 \\) olan gürültülü bir iletişim kanalında ulaşılabilecek maksimum teorik veri hızı kaç Mbps olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "10 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "50 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "100 Mbps",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "150 Mbps",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "200 Mbps",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kanal kapasitesi formülü \\( C = B \\log_2(1 + SNR) \\) şeklindedir. Verilenleri yerine koyarsak: \\( C = 10 \\times 10^6 \\times \\log_2(1024) \\). Logaritma değeri 10 olduğundan, \\( C = 10 \\times 10 = 100 \\text{ Mbps} \\) hesaplanır."
+        },
+        {
+            "id": 4,
+            "text": "Ortak bir iletişim hattının tam bant genişliğinin, kullanıcılara belirli kısa zaman aralıkları (slotlar) tahsis edilerek periyodik biçimde kullandırıldığı ve genellikle sayısal veri iletiminde tercih edilen çoklama (multiplexing) tekniği hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "FDM (Frekans Bölmeli Çoklama)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "TDM (Zaman Bölmeli Çoklama)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "SDMA (Alan Bölmeli Çoklu Erişim)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "CDMA (Kod Bölmeli Çoklu Erişim)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "WDM (Dalga Boyu Bölmeli Çoklama)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zaman Bölmeli Çoklama (TDM) yönteminde frekans bandının tamamı kullanılır ancak her bir kullanıcıya verisini gönderebilmesi için sırayla belirli zaman dilimleri (slotlar) ayrılır."
+        },
+        {
+            "id": 5,
+            "text": "Özellikle mikrodalga ve uydu iletişiminde kullanılan, dik olarak gelen elektromanyetik sinyali iç yansıma prensibiyle belirli bir odak noktasında toplayan (yönlü) anten türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dipol anten",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İzotropik anten",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Parabolik (Çanak) anten",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yagi-Uda anteni",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Monopol anten",
+                    "correct": false
+                }
+            ],
+            "explanation": "Parabolik (Çanak) antenler, sahip oldukları geometrik yapı sayesinde gelen elektromanyetik sinyalleri tek bir odak noktasında (LNB üzerinde) toplayarak yüksek kazanç sağlayan yönlü antenlerdir."
+        },
+        {
+            "id": 6,
+            "text": "Dünya etrafındaki yörünge turunu yaklaşık 6 ila 8 saat arasında tamamlayan, yeryüzünden genellikle 10.000 km ile 20.000 km yüksekte konumlanan ve GPS (Küresel Konumlandırma Sistemi) ağlarında standart olarak kullanılan uydu sınıfı hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "LEO (Alçak Dünya Yörüngesi)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "GEO (Jeosenkron Dünya Yörüngesi)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "MEO (Orta Dünya Yörüngesi)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "HEO (Yüksek Eliptik Yörünge)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Lunar Orbit (Ay Yörüngesi)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Van Allen kuşakları arasına, yaklaşık 10.000 - 20.000 km irtifaya yerleştirilen uydular MEO (Medium Earth Orbit) sınıfında olup temel kullanım alanları GPS navigasyon sistemleridir."
+        },
+        {
+            "id": 7,
+            "text": "Yeryüzünden 35.786 km yükseklikte bulunan, dünyanın kendi ekseni etrafındaki dönüş hızıyla aynı açısal hızda döndüğü için yeryüzündeki bir antenin onu takip etmesine gerek kalmadan 7/24 sabit görüş açısıyla haberleşebildiği uydu türü nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "LEO uydular",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Polar uydular",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "MEO uydular",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Küçük LEO'lar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "GEO uydular",
+                    "correct": true
+                }
+            ],
+            "explanation": "Geostationary Earth Orbit (GEO) uyduları, dünyanın dönüş hızı ile tam eşzamanlı dönebilmek için tam olarak 35.786 km yüksekliğe konumlandırılır ve böylece yeryüzünden sabit bir noktada görünürler."
+        },
+        {
+            "id": 8,
+            "text": "Hata denetimi ve düzeltimi uygulanan bir blok kodlama sisteminde minimum Hamming uzaklığı \\( d_{min} = 5 \\) olarak belirlenmiştir. Bu sistem en fazla kaç bitlik hatayı 'kesin olarak düzeltebilir' (t)?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hata düzeltme kapasitesi (t) hesaplanırken \\( d_{min} = 2t + 1 \\) formülü kullanılır. \\( 5 = 2t + 1 \\implies 2t = 4 \\implies t = 2 \\) bit hata kesin olarak düzeltilebilir."
+        },
+        {
+            "id": 9,
+            "text": "İletişim ağlarında hata denetimi amacıyla kullanılan CRC (Cyclic Redundancy Check) yönteminde, veri iletim sırasında hiçbir bozulmaya uğramadıysa, alıcı tarafındaki modülo-2 polinom bölmesi işleminin sonucunda elde edilecek kalan (syndrome) değeri ne olmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bölen polinomun kendisi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tam olarak 1",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tam olarak 0",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sonsuz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1010 dizisi",
+                    "correct": false
+                }
+            ],
+            "explanation": "CRC hata kontrol mekanizmasında, veri eğer yol boyunca hiçbir elektriksel bozulmaya uğramamışsa, alıcının kendi polinomu ile yaptığı bölme işleminin sonucu (kalan/syndrome) her zaman 0 çıkar."
+        },
+        {
+            "id": 10,
+            "text": "Mobil bir cihazın hareket halindeyken (örneğin bir arabada seyahat ederken) bir hücrenin kapsama alanından çıkıp diğerine geçiş yaptığı sırada, mevcut telefon çağrısının veya veri aktarımının kesintiye uğramadan sorunsuzca yeni baz istasyonuna aktarılması işlemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Handoff (Devir Teslim)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Multiplexing",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Roaming",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Paging",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sectoring",
+                    "correct": false
+                }
+            ],
+            "explanation": "Handoff veya Handover, hareketli bir abonenin sınır geçişlerinde iletişiminin kopmaması için bağlantı kaynaklarının kesintisiz olarak yeni hücreye/baz istasyonuna tahsis edilmesi işlemidir."
+        },
+        {
+            "id": 11,
+            "text": "Hücresel ağ altyapılarında sistemin genel eşzamanlı kanal kapasitesini artırmak amacıyla, tahsis edilmiş aynı frekans aralığının (kanal grubunun), birbirinin kapsama alanına girmeyen (komşu olmayan) hücrelerde tekrar tekrar tahsis edilmesine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Frekans Atlamalı Çoklama",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hücre Bölme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çapraz Karışma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Frekans Yeniden Kullanımı (Frequency Reuse)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sektörleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Frekans yeniden kullanımı (frequency reuse), sınırlı frekans spektrumunun birbirini etkilemeyecek kadar uzak hücrelerde (aynı öbekte bulunmayan) defalarca kullanılarak toplam ağ kapasitesinin maksimize edilmesidir."
+        },
+        {
+            "id": 12,
+            "text": "Spektrum yayma tekniklerinden Doğrudan Sıralı Spektrum Yayma (DSSS) yönteminde, göndericinin orijinal dar bantlı verisini daha güvenli ve geniş bir banda yayabilmesi için orijinal bit dizisi ile yayma kodu (chipping sequence) donanımsal olarak hangi mantıksal işlemden (kapıdan) geçirilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AND",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "OR",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "NOT",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "XOR",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "NAND",
+                    "correct": false
+                }
+            ],
+            "explanation": "DSSS tekniğinde veri bitleri, pseudorandom bir sayı üretecinden gelen yayma kod bitleriyle (ör. Barker serileri) XOR (Özel Veya) mantıksal kapısından geçirilerek bant genişliği katlanarak artırılır."
+        },
+        {
+            "id": 13,
+            "text": "Kentsel ve yarı kentsel alanlarda ortalama yol kaybını ve çevresel etki zayıflamalarını modellemek için en yaygın kullanılan Okumura Hata Modeli'nin bilimsel olarak geçerli olabilmesi için; gönderilen sinyalin frekansı hangi sınırlar içinde uygulanmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "150-1920 MHz",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "2.4-5 GHz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "10-50 MHz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "3-5 GHz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "10-20 kHz",
+                    "correct": false
+                }
+            ],
+            "explanation": "Geleneksel GSM şebeke analizlerinde kullanılan Okumura Modeli, sadece 150 MHz ile 1920 MHz frekans bantları arasında (1-100 km mesafe şartıyla) doğru ortalama yol kayıpları üretebilmektedir."
+        },
+        {
+            "id": 14,
+            "text": "Veri aktarımı sırasında önceden sabit bir uçtan uca yol kurulumuna (setup) ihtiyaç duymayan, mesajın paketlere bölünerek her bir paketin hedefe yönlendirme tablolarıyla birbirinden tamamen bağımsız ve farklı rotalardan ulaşabildiği ağ altyapısı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Devre anahtarlamalı ağlar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sanal devre ağları",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Token ring ağlar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mesaj anahtarlamalı ağlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Datagram (Paket Anahtarlamalı) ağlar",
+                    "correct": true
+                }
+            ],
+            "explanation": "İnternetin de çekirdek çalışma prensibi olan Datagram (Paket Anahtarlamalı) ağlarda paketler (datagramlar) ayrı ayrı yönlendirilir ve hedef makineye ulaşmak için dinamik yollar (hop-by-hop) seçilebilir."
+        },
+        {
+            "id": 15,
+            "text": "Bluetooth (IEEE 802.15) kişisel alan ağlarında (WPAN), ağdaki iletişim kontrolünü elinde tutan bir 'master' (yönetici) ile ona bağlanan ve sayısı en fazla yedi (7) olabilen aktif 'slave' (istemci) cihazların oluşturduğu temel 8 düğümlük mikro ağ mimarisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Scatternet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ESS",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "BSS",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Piconet",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Ad-hoc",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bluetooth teknolojisinde bir master cihazın yönetimi altındaki maksimum 8 cihazlık bu ufak yıldız topolojisi ağına Piconet denir. Birden çok piconet'in köprülerle birleşmesine ise Scatternet denir."
+        },
+        {
+            "id": 16,
+            "text": "IEEE 802.11 (WLAN) mimarisinde bir kablosuz erişim ortamını kullanmak isteyen cihazların birbirlerinin iletişimini bozmasını (çarpışmaları) önlemek ve 'gizli düğüm' problemini ortadan kaldırmak amacıyla kullanılan temel erişim kontrol protokolü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CSMA/CD",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ALOHA",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Token Passing",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "FDMA",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "CSMA/CA",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kablolu ağlarda CSMA/CD kullanılırken, kablosuz ağlarda (Wi-Fi) donanımsal çarpışma tespiti zor olduğu için çarpışmalardan 'kaçınmayı' (Collision Avoidance) hedefleyen RTS/CTS temelli CSMA/CA protokolü uygulanır."
+        },
+        {
+            "id": 17,
+            "text": "IEEE 802.11 MAC çerçeve adresleme mantığında, bir çerçevenin iki farklı Erişim Noktası (Access Point) arasında iletildiğini belirten 'To DS = 1' ve 'From DS = 1' bit ataması durumunda, o çerçevenin başlık kısmında (header) iletişim rotası için toplam kaç adet aktif Adres (Address) alanı kullanılması zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "6",
+                    "correct": false
+                }
+            ],
+            "explanation": "Wireless Distribution System (WDS) gibi bir yapıda iki erişim noktası kendi aralarında omurga köprüsü kuruyorsa (To DS = 1 ve From DS = 1), MAC çerçevesinde Kaynak cihaz, Hedef cihaz, Gönderici AP ve Alıcı AP olmak üzere 4 farklı MAC adresi alanı işlenir."
+        },
+        {
+            "id": 18,
+            "text": "Ağ iletim kanallarında atmosferdeki elektromanyetik dalgalanmalar, yıldırım düşmesi veya asansör motorları gibi güçlü elektrikli aletlerin ateşlemeleri neticesinde aniden ve düzensiz bir şekilde ortaya çıktığı için matematiksel hesaplanması ve önlenmesi en zor olan gürültü türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Termal gürültü",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Darbe (Impulse) gürültüsü",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Beyaz gürültü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çapraz karışma (Crosstalk)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Zayıflama distorsiyonu",
+                    "correct": false
+                }
+            ],
+            "explanation": "Darbe (impulse) gürültüsü anlık, kestirilemez, sürekli olmayan ve çok yüksek enerjili bir gürültüdür. Sürekli olmadığı için termal gürültü gibi Shannon formülleri ile matematiksel modellemesi yapılamaz."
+        },
+        {
+            "id": 19,
+            "text": "Kablosuz LAN ağlarında zayıf olan WEP güvenlik standardının yerini alan, donanımsal değişiklik gerektirmeden eski şifreleme yöntemini geliştiren (TKIP ile) veya AES-CCMP gibi güçlü donanımsal şifreleme standartlarını içeren güvenlik çözümü ailesi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "WPA / WPA2",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "WPS",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "MAC Filtreleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "SSID Gizleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "RC4",
+                    "correct": false
+                }
+            ],
+            "explanation": "WEP'in güvenlik açıklarından sonra 802.11i temel alınarak Wi-Fi Protected Access (WPA) ve ardından WPA2 (AES tabanlı) güvenliği hayata geçirilmiş, daha güvenilir kurumsal ve kişisel ağ şifreleme mekanizmaları sunulmuştur."
+        },
+        {
+            "id": 20,
+            "text": "Kablosuz iletim esnasında, çevresel engellere (binalar, dağlar vb.) çarparak saçılan veya yansıyan elektromanyetik sinyallerin asıl sinyal ile birlikte alıcı antene farklı zamanlarda, yönlerde ve fazlarda ulaşması sonucu orijinal sinyalin bozulmasına ve iletişimin zayıflamasına neden olan yayılım sorununa ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Serbest uzay yol kaybı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çoklu yol yayılımı (Multipath propagation)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Doppler kayması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İzotropik yansıma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Refraksiyon",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir sinyalin LOS (Görüş Hattı) dışındaki diğer parçalarının farklı nesnelerden sekerek farklı yol uzunlukları üzerinden antene geç ulaşıp birbiriyle (Inter-Symbol Interference) çakışması olayı Çoklu Yol Yayılımı (Multipath Propagation) olarak tanımlanır."
+        }
+    ]
+}
