@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "f5d7b2a9-8e43-4c12-9b6f-123456789abc",
+        "title": "test 7",
+        "subject": "test 7",
+        "topic": "Bilgi Güvenliği, Sızma Testleri, Yazılım Güvenliği ve Kriptoloji",
+        "difficulty": "Orta",
+        "grade": "Lisansüstü / Uzmanlık",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Yazılım mühendisliği verilerine göre, çözümleme (analiz) aşamasında tespit edilen bir hatanın düzeltme maliyeti 1 birim kabul edildiğinde; bu hatanın canlı kullanım (işletim) aşamasında tespit edilip düzeltilmesi durumunda maliyet yaklaşık kaç birime çıkmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "100",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "50",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "25",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "10",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ders kaynaklarındaki 'Yazılım Üretiminde Hata Düzeltme Maliyetleri' tablosuna göre; çözümleme aşamasında 1 birim olan maliyet, kodlamada 10, testte 25 ve işletim (canlı) aşamasında 100 birime ulaşmaktadır."
+        },
+        {
+            "id": 2,
+            "text": "Sızma testlerinin ilk aşaması olan ve kapsam tespiti, test türleri, zaman dilimleri, risklerin belirlenmesi ile gizlilik anlaşmalarının (NDA) yapıldığı basamak aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Zafiyet Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Planlama",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bilgi Toplama",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İstismar (Exploitation)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Raporlama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sızma testleri yaşam döngüsünün ilk adımı Planlama'dır. Bu aşamada testin hukuki sınırları, kapsamı, zaman dilimi ve gizlilik sözleşmeleri belirlenir."
+        },
+        {
+            "id": 3,
+            "text": "Sızma testlerinde teknik olmayan sosyal mühendislik yöntemlerinden biri olarak; kurumların kırtasiye atıklarında bulunan ve imha edilmemiş (kırpılmamış) belgeler üzerinden bilgi toplanması tekniğine literatürde ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Omuz Sörfü (Shoulder Surfing)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Oltalama (Phishing)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çöplük Karıştırma (Dumpster Diving)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Ağ Dinleme (Sniffing)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kaba Kuvvet Saldırısı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dumpster Diving (Çöplük Karıştırma), kurum içi teknik olmayan sızma testlerinde fiziki atıklardan kurum ve çalışanlar hakkında hassas bilgilerin elde edilmesi işlemidir."
+        },
+        {
+            "id": 4,
+            "text": "Açık Kaynaklı Güvenlik Testi Metodolojisi Kılavuzu'na (OSSTMM) göre; kurumsal güvenlik sızma testleri temel olarak toplam kaç ana bölüm altında gerçekleştirilmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "5",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "6",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "8",
+                    "correct": false
+                }
+            ],
+            "explanation": "OSSTMM modeline göre sızma testleri; bilgi güvenliği, süreç güvenliği, internet teknolojileri, iletişim güvenliği, kablosuz ağ güvenliği ve fiziksel güvenlik olmak üzere 6 ana bölümde ele alınır."
+        },
+        {
+            "id": 5,
+            "text": "Bilişim ürünlerinin güvenliğini değerlendirmede uluslararası bir standart olan Ortak Kriterler'e (ISO/IEC 15408) göre; 'Biçimsel ve Doğrulanmış Tasarım ve Test' süreçlerini barındıran en yüksek Güvenlik Değerlendirme Garanti Düzeyi (EAL) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "EAL-3",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "EAL-4",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "EAL-5",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "EAL-6",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "EAL-7",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ortak Kriterler standardında EAL-1 en düşük, EAL-7 ise biçimsel ve doğrulanmış tasarımı ifade eden en yüksek güvenlik değerlendirme garanti düzeyidir."
+        },
+        {
+            "id": 6,
+            "text": "C gibi dillerde yazılmış programlara yönelik 'Arabellek Aşım (Buffer Overflow)' saldırılarında saldırganın temel amacı; belleğin Yığın (Stack) bölgesinde bulunan hangi kritik adresi ezerek programın kontrolünü ele geçirmektir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dönüş Adresi (Return Address / ret)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Yerel Değişkenler (Local Variables)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Fonksiyon Parametreleri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Saklanmış Çerçeve (sfp)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Heap Sınır Değeri",
+                    "correct": false
+                }
+            ],
+            "explanation": "Arabellek taşırma saldırılarında ana hedef; Stack alanında tutulan Dönüş Adresini (ret) ezerek, fonksiyon bitiminde programı saldırganın belirlediği zararlı bellek adresine yönlendirmektir."
+        },
+        {
+            "id": 7,
+            "text": "Güvenli yazılım geliştirme sürecinde, uygulamaların girdi denetimini (Input Validation) ve hataları nasıl ele aldığını görmek için sistem arayüzlerine tümüyle rastgele, beklenmeyen veya devasa veri yığınları göndererek gerçekleştirilen çökme (crash) testine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Statik Kod Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Fuzz Testleri (Fuzzing)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Tersine Mühendislik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kaba Kuvvet Testi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hizmet Aksattırma Testi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fuzzing, yazılımın beklenmeyen, formatı bozuk veya aşırı büyük rastgele girdilere (input) nasıl tepki verdiğini ve çöküp çökmediğini inceleyen dinamik test tekniğidir."
+        },
+        {
+            "id": 8,
+            "text": "RSA asimetrik şifreleme algoritmasında, açık metin olan \\( m \\)'nin sayısal karşılığı, alıcının açık anahtarı \\( (n, e) \\) kullanılarak şifrelenecektir. Elde edilecek şifreli metin \\( c \\)'yi hesaplayan matematiksel bağıntı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( c = m \\times e \\pmod n \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( c = e^m \\pmod n \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( c = m^e \\pmod n \\)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "\\( c = m^d \\pmod n \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( c = m + e \\pmod n \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "RSA algoritmasında şifreleme işlemi, düz metnin açık anahtar üssüne (e) yükseltilip, modül (n) değerine göre modunun alınmasıyla (\\( c = m^e \\pmod n \\)) hesaplanır."
+        },
+        {
+            "id": 9,
+            "text": "İnternet iletişiminde kullanılan Mesaj Doğrulama Kodları (MAC) ile Dönüşsel Artıklık Denetimi (Checksum) arasındaki güvenlik açısından temel fark aşağıdakilerden hangisinde doğru ifade edilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Checksum mesajı şifrelerken, MAC sadece boyutu küçültür.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "MAC sadece ağın IP katmanında, Checksum ise uygulama katmanında çalışır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Checksum asimetrik şifreleme kullanırken, MAC simetrik şifreleme kullanır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "MAC kriptografik bir anahtarla akıllı saldırganlara karşı bütünlüğü korurken; Checksum sadece rastgele ve fiziksel iletim hatalarını bulur.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Her ikisi de aynı amaca hizmet eder ancak MAC donanımsal, Checksum yazılımsaldır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Checksum (Sağlama Toplamı) ağdaki rastgele elektriksel hataları bulmak içindir ve kriptografik koruma sağlamaz. MAC ise gizli anahtar içerir ve bilinçli/akıllı manipülasyonlara karşı bütünlüğü korur."
+        },
+        {
+            "id": 10,
+            "text": "Kriptografik özet (hash) fonksiyonlarının 'Çarpışma Direncini (Collision Resistance)' kırmaya yönelik Doğum Günü (Birthday) saldırılarında; \\( n \\) bitlik bir özet çıktısında aynı özete sahip iki farklı mesaj bulmak için istatistiksel olarak ortalama kaç deneme yapılması yeterli görülmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( 2^n \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( n^2 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( 2^{n-1} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( n! \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( 2^{n/2} \\)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Doğum günü paradoksu kuralına göre, \\( n \\) bitlik bir özet fonksiyonunda çarpışma (iki farklı girdinin aynı özeti üretmesi) yakalamak için ortalama \\( 2^{n/2} \\) adet işlem yapmak istatistiksel olarak yeterlidir."
+        },
+        {
+            "id": 11,
+            "text": "Açık Anahtar Altyapısında (PKI) kullanıcıların elektronik sertifika talebinde bulunurken kullanmaları gereken formatı tanımlayan 'Sertifika Talebinde Söz Dizimi Standardı' (Certificate Request Syntax) hangi PKCS dokümanı ile belirlenmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "PKCS #10",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "PKCS #8",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "PKCS #5",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "PKCS #1",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "PKCS #12",
+                    "correct": false
+                }
+            ],
+            "explanation": "PKI mimarisinde sertifika üretim taleplerinin standardizasyonu için geliştirilen PKCS serisinde, 'Sertifika Talebinde Söz Dizimi Standardı' PKCS #10 ile tanımlanmaktadır."
+        },
+        {
+            "id": 12,
+            "text": "Bilgi Güvenliği Yönetim Sistemi standartları olan ISO/IEC 27000 ailesi içerisinde, spesifik olarak 'Bilgi Güvenliği Yönetimi Ölçümü ve Metrikleri (ISMS Measurement)' konusunu ele alan standart numarası aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ISO/IEC 27001",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ISO/IEC 27004",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "ISO/IEC 27005",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "ISO/IEC 27006",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "ISO/IEC 27031",
+                    "correct": false
+                }
+            ],
+            "explanation": "ISO/IEC 27000 ailesi şemasında ISO/IEC 27004 standardı, kurulan Bilgi Güvenliği Yönetim Sisteminin ölçümü (Measurement) ve performans metrikleri üzerine odaklanır."
+        },
+        {
+            "id": 13,
+            "text": "Klasik Playfair şifreleme tekniğinde, İngiliz alfabesindeki harfler \\( 5 \\times 5 \\)'lik bir matrise yerleştirilir. Alfabenin 26 harf olması sebebiyle standart kural gereği hangi iki harf matriste aynı hücreyi paylaşmak zorundadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "U ve V",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "C ve K",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "I ve J",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "M ve N",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "X ve Y",
+                    "correct": false
+                }
+            ],
+            "explanation": "Playfair matrisi 25 hücreli olduğundan, fonetik ve kullanım açısından yakın sayılan 'I' ve 'J' harfleri aynı hücreye yerleştirilerek 26 harflik alfabe matrise sığdırılır."
+        },
+        {
+            "id": 14,
+            "text": "Sızma testlerinde kurumsal bilgi varlıklarının kapsamı belirlenirken; tüm sistemi test etmek yerine sadece kurum için çok kritik olan ve iş süreçlerini birinci derecede etkileyen alanların (örneğin yalnızca e-bankacılık veritabanının) derinlemesine incelendiği test kapsamına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Genel Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Genişletilmiş Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sınırlı Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Odaklanmış Kapsam",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kapalı Kapsam",
+                    "correct": false
+                }
+            ],
+            "explanation": "İş süreçleri için en kritik olan belirli varlıkların bütünlük veya erişilebilirlik açısından çok dikkatli ve derinlemesine test edilmesine Odaklanmış Kapsam (Focused Scope) denir."
+        },
+        {
+            "id": 15,
+            "text": "Sızma testleri başlangıç bilgisinin durumuna göre sınıflandırılır. Testi gerçekleştirecek takıma; kurumun bilgi sistemleri, mimarisi, kaynak kodları ve ağ altyapısı hakkında en üst düzeyde (tam) bilgi ve yetki verilerek uygulanan test yaklaşımı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kara-Kutu (Black Box) Testi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gri-Kutu (Gray Box) Testi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mavi-Kutu Testi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kapalı Kapsam Testi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Beyaz-Kutu (White Box) Testi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Beyaz-kutu testlerde sistem hakkında tüm mimari, donanım, kaynak kod bilgisi ve yetkiler test takımına önceden tam olarak verilerek sızma testi uygulanır."
+        },
+        {
+            "id": 16,
+            "text": "Düz metindeki bir harfin konumuna ve anahtara bağlı olarak şifreli metinde farklı harflere dönüşmesini sağlayan, bu tablo yapısıyla frekans analizini klasik Sezar şifresine göre oldukça zorlaştıran Çok Alfabeli (Polyalphabetic) klasik şifreleme algoritması aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Vigenere Şifrelemesi",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Dikey Değiştirme (Columnar Transposition)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Affine Şifrelemesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "RSA",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sezar Şifrelemesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Vigenere şifreleme, dildeki her harfin bir tablo (matris) kullanılarak şifrelendiği, böylece aynı harfin farklı konumlarda farklı karakterlere dönüştüğü Çok Alfabeli (Polialfabetik) bir şifrelemedir."
+        },
+        {
+            "id": 17,
+            "text": "Sayısal (Elektronik) İmza, bilgi güvenliğinde iletişimin üç temel hedefini aynı anda karşılamaktadır. Aşağıdakilerden hangisi Sayısal İmza'nın doğrudan sağladığı bu güvenlik işlevlerinden biri DEĞİLDİR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mesaj göndereni tanıma (Kimlik Doğrulama)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Veri gizliliği (Şifreleme)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Mesaj bütünlüğünün korunması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İnkâr edememezlik (Non-repudiation)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İşlemi yapanın kaynağının doğrulanması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sayısal imza veri bütünlüğünü, kimlik doğrulamayı ve inkâr edememezliği sağlar. Ancak veriyi okumaya karşı şifrelemez; metnin gizliliği (confidentiality) sayısal imzanın doğrudan bir işlevi değildir."
+        },
+        {
+            "id": 18,
+            "text": "SSL (Secure Socket Layer) protokolünün el sıkışma (handshake) aşamasında, istemci (client) sunucuya iletmek üzere tek kullanımlık bir gizli oturum anahtarı (Session Key) üretir. İstemci bu anahtarı güvenli şekilde ulaştırmak için aşağıdakilerden hangisiyle şifreleyerek gönderir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İstemcinin kendi açık anahtarıyla",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İstemcinin kendi özel anahtarıyla",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sunucunun açık anahtarıyla",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sunucunun özel anahtarıyla",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sertifika Makamının açık anahtarıyla",
+                    "correct": false
+                }
+            ],
+            "explanation": "SSL Handshake aşamasında istemci, ürettiği simetrik oturum anahtarını, sunucunun sertifikasından aldığı 'Sunucunun Açık Anahtarı' ile şifreler ki bu veriyi sadece sunucunun kendisi özel anahtarıyla çözebilsin."
+        },
+        {
+            "id": 19,
+            "text": "Kısa anahtar zafiyetini ortadan kaldırmak için tasarlanan Üçlü DES (3DES) şifreleme algoritmasında, standart (eski) DES cihazlarıyla geriye dönük uyumluluk sağlamak amacıyla şifreleme işleminde mesaj sırasıyla hangi adımlardan (işlem kipinden) geçirilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şifrele - Şifrele - Şifrele (E-E-E)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Şifre Çöz - Şifrele - Şifre Çöz (D-E-D)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Karıştır - Şifrele - Şifre Çöz (M-E-D)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Şifrele - Şifre Çöz - Şifrele (E-D-E)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Şifrele - Beklet - Şifrele (E-W-E)",
+                    "correct": false
+                }
+            ],
+            "explanation": "3DES algoritması veriyi sırasıyla Şifrele (Encrypt) - Şifre Çöz (Decrypt) - Şifrele (Encrypt) adımlarından geçirir. Kullanılan anahtarlar eşit seçilirse sistem geriye dönük normal DES gibi çalışır."
+        },
+        {
+            "id": 20,
+            "text": "İşletim sistemi veya yazılımdaki bir güvenlik zafiyetinin kamuoyuna ifşa edilmesi (disclosure) ile, üretici firmanın yamayı (patch) yayınlayıp sistemlere yüklenmesi arasında geçen; kurumların sıfırıncı gün saldırılarına en açık olduğu bu sürece ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sömürü Aralığı (Exploitation Gap)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Keşif Zamanı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Güvenli Geliştirme Döngüsü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Oltalama Süreci",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Zafiyet Penceresi (Vulnerability Window)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bir güvenlik zafiyetinin duyurulması ile yamasının sistemlere uygulanması arasında geçen, saldırganların istismarına en uygun olan zamana Zafiyet Penceresi (Vulnerability Window) denir."
+        }
+    ]
+}

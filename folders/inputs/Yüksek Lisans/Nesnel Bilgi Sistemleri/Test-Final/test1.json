@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e4f8a3d6-1b2c-49a7-8c4e-5f9a2b8e3d1c",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "OOP, UML, C# ve Tasarım Desenleri",
+        "difficulty": "Orta",
+        "grade": "Üniversite / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "UML sınıf diyagramlarında bir sınıfın korumalı (protected) erişim haklarına sahip olan bir özelliğini (attribute) veya metodunu belirtmek için kullanılan sembol aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "+",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "-",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "#",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "~",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "%",
+                    "correct": false
+                }
+            ],
+            "explanation": "UML standartlarında '+' (public - herkese açık), '-' (private - özel) ve '#' (protected - korumalı) erişim belirleyicilerini sembolize etmek için kullanılır."
+        },
+        {
+            "id": 2,
+            "text": "Java ve C# nesne yönelimli dillerinde ortak isimlendirme standartlarına (naming conventions) göre sınıfların (class) ve metotların isimleri genellikle hangi kurallara uygun olarak yazılmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınıf adları büyük harfle başlar; metot adları ise küçük harfle başlar.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıf adları küçük harfle başlar; metot adları büyük harfle başlar.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Her ikisi de sadece büyük harfler kullanılarak yazılmalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İkisi de küçük harfle başlamalı ve kelimeler arasına alt çizgi ( _ ) konmalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınıf adları rakam ile başlayabilirken, metot adları başlayamaz.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Geleneksel yazım notasyonuna (örneğin Java'da) göre Sınıf isimleri büyük harfle başlar (Örn: Ogrenci), özellik ve metot isimleri ise küçük harfle başlar (Örn: getAd())."
+        },
+        {
+            "id": 3,
+            "text": "Aşağıdaki C# kodu derlendiğinde karşılaşılacak temel sorun (hata) aşağıdakilerden hangisidir?\n\n```csharp\npublic abstract class Shape {\n    public abstract void Draw();\n}\n\n// Main metodu içerisinde:\nShape s = new Shape();\n```",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Soyut (abstract) sınıflar içerisinde soyut metot tanımlanamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Soyut sınıflar (abstract class) 'new' anahtar kelimesi ile doğrudan örneklendirilemez (instantiate edilemez).",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Shape sınıfı gizli (private) yapıldığı için dışarıdan erişilemez.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Draw metodu virtual olarak işaretlenmediği için derleme hatası verir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kod hatasız derlenir, ancak çalışma zamanında referans null olduğu için hata fırlatır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Soyut (Abstract) sınıflar yarım bırakılmış taslaklar gibidir. Gövdesiz metotlar barındırabilecekleri için sistem bu mantıksal varlıklardan fiziksel nesne (instance) oluşturulmasına izin vermez."
+        },
+        {
+            "id": 4,
+            "text": "UML sınıf diyagramlarında bir sınıfın bir arayüzü (interface) uyguladığını (realization/implementation) göstermek için kullanılan ok türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Düz çizgi ve ucu açık ok",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Düz çizgi ve içi dolu baklava dilimi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kesik çizgi ve içi dolu üçgen ok",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kesik çizgi ve içi boş üçgen ok",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Düz çizgi ve içi boş üçgen ok",
+                    "correct": false
+                }
+            ],
+            "explanation": "Arayüz gerçekleştirimi (implementation), UML diyagramlarında kesik çizgili doğru ve arayüze doğru yönelen içi boş bir üçgen sembolü ile ifade edilir."
+        },
+        {
+            "id": 5,
+            "text": "Aşağıda verilen kod yapısı, nesne oluşturma sürecini kontrol altına almayı hedefleyen hangi oluşturucu (creational) tasarım deseninin temel (thread-safe olmayan) bir uygulamasıdır?\n\n```csharp\npublic class ConfigManager {\n    private static ConfigManager instance = null;\n    \n    private ConfigManager() { }\n    \n    public static ConfigManager Instance {\n        get {\n            if (instance == null)\n                instance = new ConfigManager();\n            return instance;\n        }\n    }\n}\n```",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Abstract Factory",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Builder",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Prototype",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Singleton",
+                    "correct": true
+                }
+            ],
+            "explanation": "Singleton deseni, constructor metodunu private yaparak sınıfın dışarıdan new'lenmesini engeller ve uygulama genelinde paylaşılacak tekil bir nesne örneğinin statik olarak sunulmasını garanti eder."
+        },
+        {
+            "id": 6,
+            "text": "C# ve Java gibi modern nesne yönelimli programlama dillerinde sınıflar arası ilişki kurgulanırken aşağıdaki kalıtım (inheritance) türlerinden hangisine doğrudan izin verilmez (desteklenmez)?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tekil Kalıtım (Single Inheritance)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çok Seviyeli Kalıtım (Multi-level Inheritance)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Arayüz Gerçekleme (Interface Implementation)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hiyerarşik Kalıtım (Hierarchical Inheritance)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çoklu Sınıf Kalıtımı (Multiple Class Inheritance)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Elmas problemini (diamond problem) önlemek amacıyla modern diller bir sınıfın sadece bir temel sınıftan miras almasına (single inheritance) izin verir. Çoklu kalıtım sadece arayüzler (interfaces) aracılığıyla simüle edilebilir."
+        },
+        {
+            "id": 7,
+            "text": "Aşağıdaki C# kodu çalıştırıldığında polimorfizm (çok biçimlilik) kavramı ve 'new' anahtar sözcüğünün davranışı dikkate alındığında konsola ne yazdırılır?\n\n```csharp\npublic class Animal {\n    public virtual void Speak() => Console.Write(\"Animal \");\n}\n\npublic class Dog : Animal {\n    public new void Speak() => Console.Write(\"Bark \");\n}\n\n// Main metodu:\nAnimal a = new Dog();\na.Speak();\n```",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Animal",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Bark",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Derleme hatası verir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bark Animal",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Animal Bark",
+                    "correct": false
+                }
+            ],
+            "explanation": "Alt sınıfta metot 'override' edilmek yerine 'new' anahtar kelimesi ile gizlenmiştir (method hiding). Referans türü temel sınıf (Animal) olduğu için, referansa bağlı metot olan Animal sınıfının Speak() metodu çalışır."
+        },
+        {
+            "id": 8,
+            "text": "ASP.NET Core gibi Bağımlılık Enjeksiyonu (Dependency Injection) altyapısı sunan sistemlerde (IoC Container), bir servisin uygulamanın başlangıcından bitişine kadar sadece tek bir nesne örneğinin yaşamasını ve her talebe aynı nesnenin dönmesini sağlayan kayıt (register) metodu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AddTransient",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "AddSingleton",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "AddScoped",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "AddHostedService",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "AddOptions",
+                    "correct": false
+                }
+            ],
+            "explanation": "AddSingleton metodu, nesnenin bellek üzerinde bir kere üretilip herkes tarafından paylaşıldığı bir yaşam döngüsü modeli kurar."
+        },
+        {
+            "id": 9,
+            "text": "Bir 'Özne' (Subject) nesnesinin iç durumu değiştiğinde, bu durumu takip etmek üzere özneye abone olmuş tüm 'Gözlemciler'e (Observers) otomatik olarak haber (notify) verilmesini sağlayan; arayüzlerde genellikle `Attach(IObserver)`, `Detach(IObserver)` ve `Notify()` metotları ile modellenen davranışsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "State Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Strategy Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Observer Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Command Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mediator Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yayıncı/Abone (Publish/Subscribe) mantığıyla çalışan Observer (Gözlemci) deseni, özne üzerinde meydana gelen bir olayı listesindeki bağımlı nesnelere anında bildirmek için kullanılır."
+        },
+        {
+            "id": 10,
+            "text": "Bir sınıfın gerçekleştirdiği bir algoritmanın (veya işlemin) çalışma zamanında dinamik olarak değiştirilebilmesini sağlayan tasarım desenidir. Örneğin; bir 'Rapor' nesnesinin veriyi dışa aktarırken çalışma anında o verinin 'HTMLFormat' veya 'DuzYaziFormat' kullanarak biçimlendirilmesine imkân tanıyan davranışsal desen hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Template Method",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Adapter",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Proxy",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Strategy",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Facade",
+                    "correct": false
+                }
+            ],
+            "explanation": "Strategy (Strateji) deseni, bir algoritma ailesini kendi içlerinde kapsülleyip, istemci (Context) sınıfta ortak bir arayüz arkasından değiştirilebilir (interchangeable) hale getirmeyi sağlar."
+        },
+        {
+            "id": 11,
+            "text": "Nesne yönelimli dillerde (özellikle C# veya .NET mimarisinde), bir sınıfın ya da koleksiyonun üzerinde `foreach` döngüsünün çalıştırılabilmesi ve elemanları üzerinde ardışık olarak gezilebilmesi (iteration) için o sınıfın aşağıdaki arayüzlerden (interface) hangisini uygulaması zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ICloneable",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "IComparable",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IDisposable",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IEnumerable",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "IEquatable",
+                    "correct": false
+                }
+            ],
+            "explanation": "IEnumerable arayüzü, koleksiyonu dolaşmak için gerekli olan ve IEnumerator dönen 'GetEnumerator()' metodunu zorunlu kılar; bu da 'foreach' yapısının temel çalışma şartıdır."
+        },
+        {
+            "id": 12,
+            "text": "UML nesneler arası ilişki modellemelerinde, bir nesnenin başka bir nesnenin fiziksel bir parçası olduğu, parça nesnesinin bağımsız bir varoluşunun bulunmadığı (yani yaşam döngüsünün tamamen ana nesneye bağlı olduğu) ve içi dolu baklava dilimi (filled diamond) ile gösterilen ilişki türü nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aggregation (Birleşim / has-a)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dependency (Bağımlılık / use-a)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Realization (Gerçekleme)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Generalization (Genelleştirme / is-a)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Composition (Bileşim / is-a-part-of)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Composition sıkı bir sahiplik (is-a-part-of) ilişkisidir. Örneğin bir satranç tahtası silindiğinde, o tahtaya ait pozisyon karelerinin varlığının da son bulması gerekir."
+        },
+        {
+            "id": 13,
+            "text": "Yazılım mimarilerinde veritabanı işlemlerini (CRUD operasyonları vb.) asıl iş mantığından (business logic) soyutlayarak, veriye erişim katmanında (DAL) tek bir arayüz noktası üzerinden gerçekleştirilmesini sağlayan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Repository Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Builder Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Decorator Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Prototype Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Composite Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Repository (Depo) deseni, veri kaynağındaki sorguları ve ekleme/çıkarma işlemlerini bir merkezde (sınıfta) toplayarak, kodun geri kalanını veri erişim teknolojisinden yalıtır."
+        },
+        {
+            "id": 14,
+            "text": "C# dilinde bir sınıfın başına `sealed` anahtar kelimesi (Java'da ise `final`) eklendiğinde bu sınıfın yapısı veya davranışı üzerinde aşağıdakilerden hangisi geçerli olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınıftan herhangi bir nesne fiziksel olarak üretilemez (new ile örneklenemez).",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bu sınıf mühürlenmiş olup, başka bir sınıf tarafından kalıtımla devralınamaz (extend edilemez).",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Sınıfın içindeki tüm özellikler ve metotlar otomatik olarak statik hale gelir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sınıf yalnızca kendi paketindeki (namespace) nesnelerle iletişim kurabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınıfın değişkenlerine dışarıdan hiçbir şekilde veri atanması yapılamaz.",
+                    "correct": false
+                }
+            ],
+            "explanation": "`sealed` (mühürlü) anahtar kelimesi, nesne yönelimli tasarımda ilgili sınıfın genişletilmesinin son versiyonu olduğunu ifade eder ve ondan yeni alt sınıfların miras almasını engeller."
+        },
+        {
+            "id": 15,
+            "text": "C# programlama dilinde türetilmiş bir alt sınıfın (derived class) yapıcı (constructor) metodundan, kalıtım aldığı temel sınıfın (base class) yapıcı metoduna açıkça parametre göndermek için hangi anahtar kelime yapısı kullanılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "super",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "this",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "base",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "parent",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "root",
+                    "correct": false
+                }
+            ],
+            "explanation": "C# dilinde ebeveyn sınıfa işaret etmek ve onun üyelerine / kurucusuna ulaşmak için `base` anahtar kelimesi (örneğin `: base(name)`) kullanılır. (Java'da ise bu işlem 'super' ile yapılır)."
+        },
+        {
+            "id": 16,
+            "text": "Bir nesnenin (örneğin bir televizyonun) içerisindeki mantıksal durumu ('Açık' veya 'Kapalı') değiştiğinde; o nesnenin dışarıya sunduğu metodun yürüteceği işlemlerin tamamen değişmesini ve nesnenin çalışma zamanında sanki sınıfını değiştiriyormuş gibi davranmasını sağlayan tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Facade Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Command Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Composite Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Iterator Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "State (Durum) Pattern",
+                    "correct": true
+                }
+            ],
+            "explanation": "State deseni, nesne iç durumunu ayrı alt durumlara (class'lara) bölerek if-else yığınlarını engeller; nesne her durumda o duruma atanan spesifik sınıf üzerinden davranışı yönetir."
+        },
+        {
+            "id": 17,
+            "text": "Temel (base) bir sınıfta tanımlanmış olan `abstract` (soyut) ve `virtual` (sanal) metotlar arasındaki en temel karakteristik fark aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "`abstract` metotların gövdesi yoktur ve alt sınıflarca ezilmesi (override) zorunludur; `virtual` metotların ise bir gövdesi vardır ve ezilmesi isteğe bağlıdır.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "`abstract` metotlar arayüzlerde (interface) kullanılırken, `virtual` metotlar sadece statik sınıflarda kullanılır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İki kavram tamamen aynıdır; `abstract` Java'daki ismidir, `virtual` ise C#'taki karşılığıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "`virtual` metotlar bellek sızıntılarını önlerken, `abstract` metotlar yüksek performans optimizasyonu sağlar.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "`virtual` bir metodu ezmek için `new` anahtar kelimesi, `abstract` bir metodu ezmek için `override` anahtar kelimesi kullanılması zorunludur.",
+                    "correct": false
+                }
+            ],
+            "explanation": "`abstract` bir sözleşmedir; gövde bulunmaz ve alt sınıf o metodu doldurmak zorundadır (zorunlu polimorfizm). `virtual` metotta ise base davranış (gövde) mevcuttur, alt sınıf ister kullanır isterse ezer."
+        },
+        {
+            "id": 18,
+            "text": "Bir işlemin veya algoritmanın temel adımlarını (iskeletini) soyut bir sınıfta genel bir metot altında kuran ve bu adımların detaylı gerçekleştirim mekanizmasını ondan türetilen alt sınıflara bırakan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Strategy Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Template Method (Kalıp Metodu) Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Adapter Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Chain of Responsibility Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Factory Method Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Template Method deseninde base class'ta örneğin `oyna()` gibi bir iskelet fonksiyon bulunur. Bu fonksiyon sırasıyla `hazırla()`, `başla()` gibi abstract metotları çağırır; bu adımları alt sınıflar tasarlar."
+        },
+        {
+            "id": 19,
+            "text": "Nesne yönelimli dillerde `ICloneable` gibi arayüzler implemente edilirken, sistemdeki bir nesnenin ilkel değerlerinin (primitif) tam kopyasını alan ancak referans tipli özelliklerin sadece adreslerini işaret edecek şekilde sığ kopyalama (shallow copy) işlemi gerçekleştiren C# temelli Object sınıfı metodu hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "CopyTo()",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "CloneDeep()",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "MemberwiseClone()",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Duplicate()",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "CopyProperties()",
+                    "correct": false
+                }
+            ],
+            "explanation": "C#'ta Object sınıfında barındırılan MemberwiseClone() metodu referans kopyalaması yaparak nesnenin yüzeysel (shallow) kopyasını oluşturur."
+        },
+        {
+            "id": 20,
+            "text": "UML Sınıf Diyagramlarında sistemi tasarlarken kullanılan ve her bir sınıfı temsil eden dikdörtgen kutu notasyonunda, alanlar yukarıdan aşağıya doğru sırasıyla hangi üç ana bölmeden oluşmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Metotlar - Özellikler - Sınıf Adı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Özellikler - Sınıf Adı - Metotlar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sınıf Adı - İlgili Arayüzler (Interfaces) - Metotlar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sınıf Adı - Özellikler / Durum (Fields) - Metotlar / İşlemler (Operations)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Paket (Namespace) Adı - Sınıf Adı - Kalıtım Bağlantıları",
+                    "correct": false
+                }
+            ],
+            "explanation": "Standart UML notasyonunda her bir sınıf kutusu en üstte isim, ortada özellikler (değişkenler / state), en altta ise metotlar (behavior / işlemler) olmak üzere üç katmandan oluşur."
+        }
+    ]
+}

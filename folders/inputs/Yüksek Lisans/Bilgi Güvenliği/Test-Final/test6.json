@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e4f8d29a-1175-4f32-8ab4-9844c20bfa17",
+        "title": "test 6",
+        "subject": "test 6",
+        "topic": "Sızma Testleri, Kriptografi, ISO Standartları ve Yazılım Güvenliği",
+        "difficulty": "Orta",
+        "grade": "Lisansüstü / Uzmanlık",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Kimlik doğrulama kavramları içerisinde, bir tarafın (onaylayan) diğer tarafın (talep eden) kimliğinin beyan ettiği gibi olduğunu 'gerçek zamanlı' olarak doğruladığı ve bu yolla bir kişinin başka biriymiş gibi davranmasının önüne geçildiği doğrulama türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Varlık Kimlik Doğrulama (Entity Authentication)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Mesaj Kimlik Doğrulama (Message Authentication)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dolaylı Yetkilendirme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Asimetrik Kriptografi Onayı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tek Yönlü Özet (Hash) Denetimi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Varlık Kimlik Doğrulaması (Entity Authentication), karşılıklı iki taraf arasında gerçek zamanlı işleyen ve birinin kimliğini ispatlamasını sağlayarak taklit (spoofing) saldırılarını engelleyen temel kimlik doğrulama yöntemidir."
+        },
+        {
+            "id": 2,
+            "text": "Kriptografide matematiksel işlemlerde kullanılan 'İlkel Kök (Primitive Root)' kavramının modüler aritmetikteki tanımı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Seçilen asal sayının sadece kendisine ve bire tam bölünebilmesidir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Modül \\( p \\)'de üsleri alınarak, sıfır olmayan (1'den \\( p-1 \\)'e kadar) tüm sayıların üretilebildiği \\( g \\) değeridir.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "İki büyük asal sayının çarpımı sonucu elde edilen ortak modül değeridir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Logaritmik işlemlerde mesajın karekökünün alınarak şifrelenmesini sağlayan katsayıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çin Kalan Teoremi ile hesaplanan en büyük ortak bölen (EBOB) değeridir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Mod \\( p \\)'de bir ilkel kök \\( g \\); üsleri alınarak \\( 1 \\)'den \\( p-1 \\)'e kadar olan tüm sayıların eksiksiz üretilebildiği jeneratör sayı değeridir."
+        },
+        {
+            "id": 3,
+            "text": "Sızma testi (Penetration Test) süreçlerinde; ağa bağlı cihazlar üzerindeki açık portların belirlenmesi, işletim sistemleri ve çalışan uygulamaların sürüm veya yama seviyelerinin istismar edilmek üzere tespit edilmesi gibi işlemler hangi temel aşamanın içerisinde gerçekleştirilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Planlama",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Zafiyetlerin İstismarı (Exploitation)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Zafiyet Analizi (Vulnerability Analysis)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "İzlerin Temizlenmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Raporlama ve Sunum",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zafiyet Analizi aşaması, hedefin üzerindeki açık portların, işletim sistemi sürümlerinin ve yama seviyelerinin tespit edilerek saldırganların sömürebileceği boşlukların tanımlandığı süreçtir."
+        },
+        {
+            "id": 4,
+            "text": "Yazılım mühendisliğinde bir hatanın düzeltme maliyeti, projenin ilerleyen aşamalarında katlanarak artmaktadır. Çözümleme (Analiz) aşamasında 1 birim kabul edilen bir hatanın düzeltme maliyeti, 'Test' aşamasına gelindiğinde yaklaşık kaç birime çıkmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "5",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "10",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "50",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "25",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "100",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ders dokümanlarındaki maliyet tablosuna göre yazılım hatalarının düzeltme maliyetleri; Çözümleme: 1, Tasarım: 5, Kodlama: 10, Test: 25, Kabul Testi: 50, İşletim: 100 birim olarak belirlenmiştir."
+        },
+        {
+            "id": 5,
+            "text": "İki kullanıcının (örneğin Alice ve Bob) birbirleriyle daha önce hiçbir gizli anahtar paylaşmadığı bir senaryoda, güvendikleri bir Anahtar Dağıtım Merkezi (ADM) üzerinden 'dolaylı olarak' çift yönlü kimlik doğrulaması yapmalarını sağlayan ve modern Kerberos mimarisinin de temelini oluşturan iletişim protokolü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Diffie-Hellman Anahtar Anlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "RSA Sayısal İmza Protokolü",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İstek-Karşılık (Challenge-Response) Protokolü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Güvenli Kabuk (SSH) Protokolü",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Needham-Schroeder Protokolü",
+                    "correct": true
+                }
+            ],
+            "explanation": "Needham-Schroeder protokolü, ADM (Authentication Server) tabanlı dolaylı kimlik doğrulaması sağlayan ve günümüzdeki Kerberos sistemine temel teşkil eden en bilinen protokoldür."
+        },
+        {
+            "id": 6,
+            "text": "Veri Şifreleme Standardı (DES) algoritmasında, 64 bitlik veri bloğunun sağ ve sol yarılara (32'şer bit) bölünerek 16 tur (round) boyunca karmaşıklaştırıldığı temel kriptografik döngü mimarisinin (işlemin) adı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Feistel Yapısı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Akış (Stream) Şifreleme Ağı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Rijndael Matrisi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Asimetrik Çarpan Çemberi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gökkuşağı (Rainbow) Döngüsü",
+                    "correct": false
+                }
+            ],
+            "explanation": "DES şifrelemesindeki veriyi ortadan ikiye bölerek çapraz şekilde işlemlere tabi tutan ve 16 tur boyunca uygulanan mimariye 'Feistel Yapısı' adı verilir."
+        },
+        {
+            "id": 7,
+            "text": "Bilgi Güvenliği Yönetim Sistemi (BGYS) standartları olan ISO/IEC 27000 ailesinde, spesifik olarak 'BGYS Ölçümü (ISMS Measurement)' konusunu ele alan ve sistemin performans metriklerini tanımlayan standart numarası hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ISO/IEC 27001",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ISO/IEC 27004",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "ISO/IEC 27005",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "ISO/IEC 27006",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "ISO/IEC 15408",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ders kaynaklarındaki tabloya göre ISO/IEC 27004 standardı, kurulan Bilgi Güvenliği Yönetim Sisteminin ölçümü (ISMS Measurement) ve performans değerlendirmesi üzerine odaklanır."
+        },
+        {
+            "id": 8,
+            "text": "Açık olarak iletilen parolaların ağ üzerinde dinlenmesiyle ortaya çıkan 'Kanalı dinle, parolayı çal ve kullan' (Replay/Tekrar Oynatma) tarzı saldırılara karşı; sunucunun her oturumda farklı rastgele bir değer gönderip, istemcinin o değere şifreli bir karşılık verdiği ve donanım zorunluluğu gerektirmeyen kimlik doğrulama yöntemi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Biyometrik Doğrulama (Örn. Retina Taraması)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Statik Parola Kapsülleme (Encapsulation)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İstek-Karşılık (Challenge-Response) Protokolleri",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Doğum Günü (Birthday) Paradoksu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çifte Dikey Değiştirme",
+                    "correct": false
+                }
+            ],
+            "explanation": "İstek-Karşılık (Challenge-Response) protokolleri, sunucunun istemciye rastgele bir zorluk (challenge) sorusu gönderdiği ve istemcinin parolasıyla bu soruyu matematiksel harmanlayarak (response) cevapladığı, replay saldırılarını önleyen yapılandır."
+        },
+        {
+            "id": 9,
+            "text": "Nitel Risk Değerlendirme matrisi hesaplamalarına göre; bir güvenlik tehdidinin oluşma olasılığı 'Az Olasılıkla (2)' ve bu tehdit gerçekleştiğinde vereceği zarar 'Ciddi Zarar (4)' olarak belirlenmiştir. Buna göre ortaya çıkan riskin sayısal puanı ve ISO standartlarındaki risk seviyesi hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "6 Puan - Orta Risk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "12 Puan - Yüksek Risk",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "16 Puan - Kritik Risk",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "8 Puan - Yüksek Risk",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "10 Puan - Orta Risk",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nitel risk formülüne göre \\( \\text{Risk} = \\text{Etki (Zarar)} \\times \\text{Olasılık} \\) formülünden \\( 4 \\times 2 = 8 \\) puan elde edilir. Standart referans tablosunda 7-12 arası değerler 'Yüksek Risk' kategorisindedir."
+        },
+        {
+            "id": 10,
+            "text": "Açık Kaynaklı Güvenlik Testi Metodolojisi Kılavuzu'na (OSSTMM) göre sızma testleri altı ana bölüm altında tasnif edilmektedir. Aşağıdakilerden hangisi bu ana test bölümlerinden biri KESİNLİKLE DEĞİLDİR?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bilgi Güvenliği",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Süreç Güvenliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Fiziksel Güvenlik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İletişim Güvenliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Veritabanı Mimarisi Güvenliği",
+                    "correct": true
+                }
+            ],
+            "explanation": "OSSTMM sızma testi modeli 6 ana daldan oluşur: Bilgi, Süreç, İnternet Teknolojileri, İletişim, Kablosuz Ağ ve Fiziksel Güvenlik. 'Veritabanı Mimarisi Güvenliği' diye müstakil bir ana bölüm başlığı bu standartta yer almaz."
+        },
+        {
+            "id": 11,
+            "text": "Kurumlarda Bilgi Güvenliği Yönetim Sistemi (BGYS) denetimleri sonucunda tespit edilen açıkların veya bulguların sistematik olarak ele alınması sürecinde, tespit edilen her bulgu için açılması gereken ve kalite yönetimlerinde de yaygın olan eylem formunun adı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Düzeltici ve Önleyici Faaliyet (DÖF)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sıfırıncı Gün (Zero-Day) Yama Talebi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Beyaz Kutu İstismar Raporu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gizlilik İhlali Tutanak Formu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Erişim Kontrol Log Kaydı",
+                    "correct": false
+                }
+            ],
+            "explanation": "BGYS denetim bulgularının değerlendirilmesinde, her eksiklik veya açık için kurumsal süreçte 'Düzeltici ve Önleyici Faaliyet (DÖF)' formu açılarak aksiyon planı geliştirilir."
+        },
+        {
+            "id": 12,
+            "text": "Asimetrik şifrelemenin en bilinen örneği olan RSA algoritmasında, şifrelenmiş bir metni (\\( C \\)) çözerek orijinal mesaja (\\( M \\)) ulaşmak için alıcının özel anahtarı (\\( D \\)) ve modül değeri (\\( N \\)) kullanılır. RSA'nın deşifreleme (decryption) adımının temel matematiksel denklemi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( M = C \\times D \\pmod N \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( M = C^D \\pmod N \\)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "\\( M = D^C \\pmod N \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( M = C^E \\pmod N \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( M = (C + D) \\pmod N \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "RSA'da şifre çözme işlemi, şifreli mesajın alıcının özel anahtarının (D) üssüne yükseltilip, modül (N) modunun alınması ile gerçekleştirilir: \\( M = C^D \\pmod N \\)."
+        },
+        {
+            "id": 13,
+            "text": "Bir C programı çalıştırıldığında belleğin Yığın (Stack) bölgesinde fonksiyon çağrıları için çerçeveler oluşturulur. Kötü niyetli yazılımların sıkça kullandığı 'Arabellek Aşım (Buffer Overflow)' saldırılarında, saldırganın ezerek kontrolü ele almayı amaçladığı ve mevcut fonksiyon bitince programın nerede çalışmaya devam edeceğini gösteren bellek alanı hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fonksiyon Parametreleri",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Saklanmış Çerçeve (sfp)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dönüş Adresi (ret)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yerel Değişkenler (Local Variables)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Heap Başlangıç Göstericisi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Arabellek taşırma saldırılarının esas amacı, Stack alanında saklanan 'Dönüş Adresi (Return Address - ret)' değerini ezerek, fonksiyon bitiminde programın saldırganın yüklediği zararlı adrese atlamasını sağlamaktır."
+        },
+        {
+            "id": 14,
+            "text": "Bilişim sistemleri ve donanımlarının güvenliğini uluslararası geçerlilikte değerlendirmek için kullanılan ISO/IEC 15408 (Ortak Kriterler) standardına göre; 'Metodolojik Tasarım, Test ve Kontrol' seviyesini belgeleyen Güvenlik Değerlendirme Garanti Düzeyi (EAL) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "EAL-1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "EAL-3",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "EAL-5",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "EAL-4",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "EAL-7",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ortak Kriterler EAL (Evaluation Assurance Level) seviyelerine göre EAL-4 seviyesi, bir sistemin metodolojik olarak tasarlandığını, test edildiğini ve güvenlik açısından kontrol edildiğini doğrular."
+        },
+        {
+            "id": 15,
+            "text": "Yazılım güvenliği testlerinde karşılaşılan 'Deadlocks (Kilitlenmeler)' ve 'Race conditions (Yarış Durumları)', genellikle aynı hafıza alanının farklı iş parçacıkları (thread) tarafından kontrolsüzce eşzamanlı kullanılması sonucu ortaya çıkar. Bu tür zafiyetler temel olarak hangi güvenlik başlığının eksikliğinden kaynaklanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Girdi Denetimi (Input Validation)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Doğrulama / Yetkilendirme (Authentication)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kayıt Tutma (Auditing / Logging)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Oturum Yönetimi (Session Fixation)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Zaman ve Durum Yönetimi (Time/State Management)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Threadlerin eşzamanlı işlem yapmasından kaynaklanan kilitlenmeler ve senkronizasyon hataları, Zaman ve Durum Yönetimi (Time/State Management) zafiyet sınıfına girer."
+        },
+        {
+            "id": 16,
+            "text": "Sızma testlerinde kullanılan tekniklerden biri olan 'Wardialing', güvenlik testleri risk seviyesi bağlamında düşük riskli (pasif/bilgi toplama amaçlı) bir işlem olarak kabul edilir. Bu işlem temel olarak ne anlama gelmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çevirmeli Ağ Taraması (Modem ve faks numaralarının otomatik taranarak bulunması)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kablosuz Ağ Taraması (Wi-Fi şifreleme anahtarlarının havadan toplanması)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çöplük Karıştırma (Kurumun fiziki atıklarında belge aranması)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ağ Dinleme (Local ağdaki şifresiz HTTP trafik paketlerinin izlenmesi)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Omuz Sörfü (Çalışanların arkasından ekranının izlenmesi)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Wardialing (Çevirmeli Ağ Tarama), kurumun sahip olduğu telefon numarası havuzunu otomatik arayarak cevap veren ve dışarıdan girişe imkan verebilecek güvensiz modem/faks hatlarını tespit etme işlemidir."
+        },
+        {
+            "id": 17,
+            "text": "Kriptografik özet (hash) fonksiyonlarının 'Çarpışma Direnci (Collision Resistance)' istatistiksel saldırılara karşı ölçümlenirken 'Doğum Günü Paradoksu' yaklaşımı kullanılır. Çıktı uzunluğu 80 bit olan bir özet fonksiyonunda, \\( h(x) = h(y) \\) eşitliğini sağlayan iki farklı mesajı (x ve y) bulabilmek için ortalama olarak yapılması gereken deneme sayısı kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( 2^{80} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( 2^{40} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "\\( 2^{20} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( 2^{160} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "\\( 80! \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Doğum günü paradoksu kuralına göre, \\( n \\) bitlik bir özet fonksiyonunda çarpışma (iki farklı verinin aynı özeti üretmesi) yakalamak için ortalama \\( 2^{n/2} \\) adet işlem yapmak gerekir. 80 bit için bu sayı \\( 2^{40} \\)'tır."
+        },
+        {
+            "id": 18,
+            "text": "Bilişim teknolojilerinin gelişmesiyle beraber önem kazanan; kurumsal veya ulusal düzeyde bir bilgi varlığının, sunucuların veya bulut sistemlerinin nerede olduğuna (coğrafi konumuna) bakılmaksızın savunulması gereken elektronik bir hudut gibi kabul edilmesi vizyonuna ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Elektronik Hudut",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kapsamlı Ağ Güvenliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Siber Vatan",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Dijital Çember (Digital Perimeter)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bulut Kalkanı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Siber Vatan, kurumların ve ülkelerin sahip oldukları dijital verilerin bulunduğu fiziksel mekanları ve sanal ortamları bir vatan toprağı gibi kabul edip savunması gerektiğini vurgulayan bilgi güvenliği vizyonudur."
+        },
+        {
+            "id": 19,
+            "text": "Kurumsal bilgi sistemlerine yönelik uygulanan Sızma (Penetrasyon) testlerinin **en temel felsefesi** veya birincil amacı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tüm yazılım ve donanım altyapısını iptal ederek açık kaynaklı işletim sistemlerine zorunlu geçiş yapmak.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sistem yöneticilerinin teknik yetkinliklerini ve mesai sürelerini ölçerek performans değerlendirmesi yapmak.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bilgisayar sistemlerini kilitleyerek (ransomware gibi) veri tabanındaki parolaların şifrelenmesini test etmek.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Başımıza kötü ve yıkıcı bir saldırı gelmeden önce, sistemi saldırgan gözüyle inceleyerek mevcut açıkları kontrollü olarak bulup gidermek.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Siber olaylara müdahale ekiplerini (SOME) tasfiye ederek tüm sistem savunmasını tam otonom yapay zeka araçlarına devretmek.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sızma testleri, sistemlere gerçek ve art niyetli bir siber saldırı yapılmadan önce, kontrollü bir ortamda 'saldırgan gözüyle' var olan zafiyetlerin tespit edilerek gereken yama ve düzeltmelerin önceden yapılmasını amaçlar."
+        },
+        {
+            "id": 20,
+            "text": "Ders kaynaklarında güncel siber tehditleri tartışırken örnek gösterilen; süper yapay zeka sınıfında değerlendirilen ve bir ülkenin tüm siber ağlarındaki zafiyetleri otonom olarak kısa sürede haritalandırıp istismar kodu üretebilecek düzeyde bir tehlike arz ettiği için genel erişime açılması kısıtlanan yeni nesil platform aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Stuxnet AI",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Advanced Threat Model (ATM)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Deep Exploit Model",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "WormGPT Advanced",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cloud Mitos (Mitos)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ders kayıtlarında 'Cloud Mitos' olarak bahsedilen yapay zeka modelinin, çok kısa sürede geniş çaplı ağ taramaları yapıp güvenlik zafiyetlerini otomatik bularak bunları kullanabildiği, bu sebeple yıkıcı sonuçlar doğurabileceğinden genel kitleye açılmadığı belirtilmiştir."
+        }
+    ]
+}

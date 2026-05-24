@@ -1,0 +1,654 @@
+{
+    "meta": {
+        "id": "e7b9f3d2-a8c4-4d1e-9b2f-3d8a5c7e1f4a",
+        "title": "test 9",
+        "subject": "test 9",
+        "topic": "OOP, Tasarım Desenleri, C# ve UML",
+        "difficulty": "Karışık",
+        "grade": "Üniversite / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Yazılım geliştirme sürecinde kod editörü, derleyici, hata ayıklama ve sürüm kontrolü gibi araçları tek bir arayüzde birleştirerek uygulama geliştirmeyi kolaylaştıran yazılımlara (Visual Studio, Eclipse vb.) ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "IDE (Tümleşik Geliştirme Ortamı)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "ORM (Nesne İlişkisel Eşleme)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "UML (Birleşik Modelleme Dili)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "API (Uygulama Programlama Arayüzü)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "XSLT (Genişletilebilir Stil Dili Dönüşümleri)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Visual Studio, Eclipse ve IntelliJ IDEA gibi yazılımlar, yazılım yaşam döngüsü araçlarını tek merkezde toplayan Tümleşik Geliştirme Ortamlarıdır (IDE)."
+        },
+        {
+            "id": 2,
+            "text": "UML sınıf diyagramlarında (Class Diagram), bir özelliğin veya metodun dışarıdan erişime kapalı (private) olduğunu belirtmek için o üyenin isminin önüne hangi sembol yerleştirilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "+",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "-",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "#",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "~",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "*",
+                    "correct": false
+                }
+            ],
+            "explanation": "UML standartlarında '+' (public - açık), '-' (private - özel) ve '#' (protected - korumalı) erişim belirleyicilerini ifade eder."
+        },
+        {
+            "id": 3,
+            "text": "Sistem içerisindeki nesneler arasındaki karmaşık ağ iletişimini (çoklu karşılıklı bağımlılıkları) doğrudan yapmak yerine, bu iletişimi tek bir aracı sınıf üzerinden koordine ederek nesne bağımlılıklarını azaltan davranışsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Strategy (Strateji)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Iterator (Yineleyici)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mediator (Arabulucu)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Observer (Gözlemci)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Command (Komut)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Mediator (Arabulucu) deseni, nesnelerin doğrudan birbirleriyle iletişim kurmasını engelleyerek (spagetti koda dönüşmesini önleyerek) tüm etkileşimleri merkezi bir sınıf üzerinden yönetir (Örn: Chat Odası)."
+        },
+        {
+            "id": 4,
+            "text": "İlişkisel veritabanı tablolarındaki verileri nesne yönelimli dillerdeki nesnelerle eşleştirerek, geliştiriciyi doğrudan karmaşık SQL sorguları yazma yükünden kurtaran teknoloji (yaklaşım) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "UML",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "MVC",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "XML",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "ORM (Object Relational Mapping)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "REST",
+                    "correct": false
+                }
+            ],
+            "explanation": "ORM (Nesne İlişkisel Eşleme), veritabanındaki tabloları ve satırları programlama dilindeki sınıflar ve nesnelere otomatik dönüştüren bir köprü teknolojisidir."
+        },
+        {
+            "id": 5,
+            "text": "Bir sınıftan sistem genelinde sadece tek bir nesne (instance) oluşturulmasını garanti eden ve bu nesneye global bir erişim noktası sağlanmasını mecbur kılan yaratımsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Prototype (Prototip)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Builder (İnşaatçı)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Decorator (Dekoratör)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Abstract Factory (Soyut Fabrika)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Singleton (Tekillik)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Singleton deseni, constructor (yapıcı) metodunu private yaparak sınıfın dışarıdan new'lenmesini engeller ve bellek üzerinde sistemin her yerinden aynı tekil referansa ulaşılmasını sağlar."
+        },
+        {
+            "id": 6,
+            "text": "Bir koleksiyon (listeler, diziler, ağaçlar vb.) içindeki elemanların karmaşık veri yapısını dışarıya açmadan, bu elemanlara ardışık olarak erişim sağlanmasını (iterasyon) standartlaştıran tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Iterator (Yineleyici)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Adapter (Adaptör)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Facade (Fasat)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Memento (Hatıra)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Visitor (Ziyaretçi)",
+                    "correct": false
+                }
+            ],
+            "explanation": "İterasyon (Iterator) örüntüsü, veri yapılarının arkasındaki dizilimi gizleyerek numaralandırıcı (enumerator) mantığıyla tüm elemanları sırayla taramayı sağlar."
+        },
+        {
+            "id": 7,
+            "text": "C# dilinde `static` anahtar sözcüğü ile ilgili olarak aşağıdaki ifadelerden hangisi kesinlikle doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Statik üyeler yalnızca okunabilir (read-only) özellik taşıdıklarından değerleri değiştirilemez.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Statik değişkenler ve yöntemler sınıfın herhangi bir örneğine (nesnesine) ait değildir, bellekte tekil olarak doğrudan sınıfın kendisine aittir.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Statik bir sınıf, yapıcı (constructor) kullanılarak farklı başlatma değerleriyle örneklenebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Statik metotlar kalıtım yoluyla alt sınıflara aktarılmaz ve dışarıdan asla çağrılamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Her yeni 'new' anahtar sözcüğü kullanımında statik alanlar bellekte yeniden kopyalanır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Static üyeler class member (sınıf üyesi) haline gelir ve nesnelerden bağımsız olarak bellek üzerinde sadece tek bir kopya olarak tüm uygulama ile paylaşılırlar."
+        },
+        {
+            "id": 8,
+            "text": "C# dilinde çok biçimliliği (polimorfizm) sağlamak amacıyla, kalıtımla devralınan temel (base) sınıftaki bir metodun alt sınıflarda ezilebilmesi (override edilebilmesi) için, temel sınıftaki metodun tanımında hangi anahtar kelime kullanılmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "static",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "sealed",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "virtual veya abstract",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "params",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "new",
+                    "correct": false
+                }
+            ],
+            "explanation": "Temel sınıfta metodun alt sınıflarca değiştirilmeye (ezilmeye) izin verdiğini belirtmek için o metot 'virtual' (sanal) veya 'abstract' (soyut) olarak işaretlenmelidir."
+        },
+        {
+            "id": 9,
+            "text": "UML sınıf diyagramlarında, kapsanan (içerilen) nesnenin yaşam döngüsünün tamamen ana kapsayıcı nesneye bağlı olduğu ve 'içi dolu baklava dilimi' ile gösterilen sıkı parça-bütün ilişkisi hangi kavramla ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kalıtım (Inheritance)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gerçekleme (Realization)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Birleşim (Aggregation)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bileşim (Composition)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Bağımlılık (Dependency)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Composition (Bileşim), sahipliğin çok güçlü olduğu bir ilişkidir. Kapsayıcı nesnenin yaşam döngüsü sona erdiğinde içerilen nesnenin de (is-a-part-of) varlığı son bulur."
+        },
+        {
+            "id": 10,
+            "text": "Bir isteği parametreleriyle birlikte bir nesneye dönüştürerek kapsülleyen; bu sayede işlemlerin sıraya konulmasına, loglanmasına ve gerektiğinde 'Geri Al' (Undo) işlemlerinin yapılmasına imkân tanıyan davranışsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "State (Durum)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Facade (Fasat)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Strategy (Strateji)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Flyweight (Sinek Sıklet)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Command (Komut)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Command deseni, isteği bir komut nesnesi (encapsulated object) haline getirerek eylemi çağıran ile gerçekleştiren arasındaki bağımlılığı kırar, işlemleri kuyruğa almayı veya geri almayı mümkün kılar."
+        },
+        {
+            "id": 11,
+            "text": "Yazılım tasarımında, bir 'Özne' (Subject) nesnesinin iç durumunda bir değişiklik meydana geldiğinde, bu değişikliği takip etmek üzere listeye kayıtlı olan tüm bağımlı nesnelere otomatik olarak bildirim gönderilmesini sağlayan tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Observer (Gözlemci)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Adapter",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Template Method",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Visitor",
+                    "correct": false
+                }
+            ],
+            "explanation": "Observer (Gözlemci) deseni, yayıncı-abone (publish-subscribe) modeline dayanır. Bir nesnenin durumunda değişiklik olduğunda ona bağlı (abone olmuş) tüm nesneler otomatik olarak güncellenir."
+        },
+        {
+            "id": 12,
+            "text": "C# ve Java gibi modern dillerde 'İterasyon Örüntüsü' uygulanırken, nesnelerin `foreach` döngüsünde ardışık olarak gezilebilmesi için koleksiyon sınıfının hangi arayüzü (interface) uygulaması zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "IComparable",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "IEnumerable",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "IDisposable",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "ICloneable",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "IQueryable",
+                    "correct": false
+                }
+            ],
+            "explanation": "`IEnumerable` arayüzü, koleksiyonu gezecek olan iteratör nesnesini döndüren `GetEnumerator` metodunu zorunlu kılarak `foreach` döngüsünün çalışabilmesini sağlar."
+        },
+        {
+            "id": 13,
+            "text": "ASP.NET Core mimarilerinde Bağımlılık Enjeksiyonu (DI) kullanılırken, kaydedilen bir servisin uygulama başlatıldığında yalnızca bir kez oluşturulması ve sunucu kapanana kadar tüm isteklere aynı nesne referansının dönmesini sağlayan yöntem hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AddTransient",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "AddScoped",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "AddSingleton",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "AddDbContext",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "AddOptions",
+                    "correct": false
+                }
+            ],
+            "explanation": "`AddSingleton` ile sisteme eklenen bir bağımlılık (servis) uygulama ömrü boyunca bellek üzerinde tek bir kopya olarak kalır ve her talepte aynı referans döndürülür."
+        },
+        {
+            "id": 14,
+            "text": "Soyut sınıflar (Abstract Classes) ile ilgili aşağıdaki ifadelerden hangisi nesne yönelimli tasarım kurallarına göre doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yalnızca gövdesiz soyut metotlar barındırabilirler.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Arayüzlerden (interface) miras alamazlar.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "'new' operatörü ile doğrudan örneklendirilebilirler.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Alt sınıflar için bir şablon görevi görürler ve doğrudan nesne (instance) üretilemezler.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Tüm üyeleri varsayılan olarak statiktir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Soyut sınıflar mantıksal şablonlar oldukları ve henüz gövdesi tanımlanmamış metotlar içerebildikleri için doğrudan 'new' kelimesiyle instantiate (örnekleme) edilemezler."
+        },
+        {
+            "id": 15,
+            "text": "Karmaşık bir alt sistemdeki çok sayıda sınıfın etkileşimini gizleyerek, istemcilere (clients) bu sistemi daha kolay kullanabilmeleri için tek ve basitleştirilmiş bir üst düzey arayüz sunan yapısal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Decorator (Dekoratör)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Prototype (Prototip)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Builder (İnşaatçı)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Memento (Hatıra)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Facade (Yüz / Fasat)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Facade (Fasat) deseni, karmaşık olan arka plan alt sistemlerini sarmalayarak kullanıcıya tek bir basitleştirilmiş ön yüz (arayüz) sağlar."
+        },
+        {
+            "id": 16,
+            "text": "Mevcut bir nesnenin sınıf kodunu veya kalıtım yapısını değiştirmeden (Açık/Kapalı prensibine uyarak), o nesneye çalışma zamanında dinamik olarak yeni özellikler ve davranışlar eklemek amacıyla kullanılan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Decorator (Dekoratör)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Singleton",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "State",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Abstract Factory",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Flyweight",
+                    "correct": false
+                }
+            ],
+            "explanation": "Decorator deseni, nesneleri esnek bir şekilde özel sarmalayıcı (wrapper) yapılar içerisine yerleştirerek, onlara çalışma anında orijinal sınıf kodunu bozmadan yeni yetenekler kazandırır."
+        },
+        {
+            "id": 17,
+            "text": "C# dilinde 'Iterator' desenini manuel bir Numaralandırıcı (Enumerator) sınıfı yazmadan uygulayabilmek için `yield return` anahtar kelimesi kullanılır. Bu yapı arka planda nasıl bir davranış sergiler?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fonksiyonu kalıcı olarak sonlandırıp belleği temizler.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Fonksiyondan bir değer dönerken döngünün o anki durumunu (state) dondurur ve bir sonraki çağrıda metodun kaldığı yerden devam etmesini sağlar.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Sadece asenkron (async/await) Task'lar içinde çalışarak döngüyü hızlandırır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Koleksiyonun tüm elemanlarını anında belleğe yükleyip (immediate execution) kilitler.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uygulamanın Garbage Collector (Çöp Toplayıcı) sürecini devre dışı bırakır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "'yield return' ifadesi fonksiyondan bir değer döndürdüğünde yürütmeyi duraklatır (state machine oluşturur) ve iteratörün bir sonraki adımı istendiğinde dondurduğu noktadan işlemlere devam eder."
+        },
+        {
+            "id": 18,
+            "text": "Tasarım desenleri arasında yer alan 'Template Method' (Kalıp Metodu) ile 'Strategy' (Strateji) deseni arasındaki temel karakteristik ve yapısal fark aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Template Method çalışma zamanında algoritmaları değiştirirken, Strategy derleme zamanında algoritmaları sabitler.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Strategy deseni sadece yapısal bir örüntüdür, Template Method ise oluşturucu bir örüntüdür.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Template Method algoritma iskeletini üst sınıfta tanımlayıp adımları alt sınıflara bırakırken (kalıtım tabanlıdır), Strategy algoritmaları ayrı sınıflara kapsülleyerek çalışma zamanında değiştirilmesini sağlar (bileşim tabanlıdır).",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Template Method nesnelerin kopyasını oluşturmak (klonlama) için kullanılır, Strategy nesnelerin durumunu kaydeder.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Her ikisi de aynı işi yapar, sadece Strategy Java'ya, Template Method C#'a aittir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Template Method kalıtım (inheritance) yoluyla bir şablonun belirli adımlarını özelleştirirken; Strategy deseni, farklı algoritmaları bağımsız sınıflara hapseder ve Context (bağlam) nesnesine arayüzler yoluyla enjekte edilerek (bileşim) çalışma zamanında değiştirilir."
+        },
+        {
+            "id": 19,
+            "text": "Aşağıdaki C# kod bloğunda, temel (Animal) sınıftan gelen aynı isimdeki sanal metodu ezip geçersiz kılmak (override) yerine, onu alt sınıf kapsamında gizleyerek polimorfizmi bilinçli olarak kırmak (Method Hiding) için '[???]' ile belirtilen alana hangi anahtar kelime yazılmalıdır?",
+            "code": "public class Animal {\n    public virtual void MakeSound() { Console.Write(\"Animal \"); }\n}\n\npublic class Cat : Animal {\n    public [???] void MakeSound() { Console.Write(\"Meow \"); }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "override",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "sealed",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "base",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "new",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "params",
+                    "correct": false
+                }
+            ],
+            "explanation": "'new' anahtar kelimesi kullanıldığında metot geçersiz kılınmaz, sadece gizlenir. Bu durumda referans nesnenin asıl tipi çalıştırılarak polimorfizm davranışı bozulmuş olur."
+        },
+        {
+            "id": 20,
+            "text": "Ziyaretçi (Visitor) tasarım deseninde nesne yapılarını değiştirmeden yeni işlemler eklemek için 'Çifte Dağıtım' (Double Dispatch) tekniği kullanılır. Standart bir C# uygulamasında ziyaret edilen `Element` sınıfı içerisindeki `Accept(IVisitor visitor)` metodunun gövdesinde aşağıdaki kodlardan hangisi yer almalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "return new Visitor();",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "this.Visit(visitor);",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "visitor.Accept(this);",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "return base.Accept();",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "visitor.Visit(this);",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ziyaretçi desenindeki Çifte Dağıtım mekanizması, ziyaret edilen nesnenin kendisini (this) ziyaretçinin uygun metoduna parametre olarak geçmesi işlemiyle (`visitor.Visit(this)`) tamamlanır."
+        }
+    ]
+}

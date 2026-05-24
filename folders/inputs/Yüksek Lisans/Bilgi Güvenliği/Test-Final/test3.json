@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "a9b1c2d3-4e5f-6789-0123-456789abcdef",
+        "title": "test 3",
+        "subject": "test 3",
+        "topic": "Bilgi Güvenliği, Kriptografi ve Yazılım Güvenliği",
+        "difficulty": "Orta",
+        "grade": "Lisansüstü / Uzmanlık",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Yazılım mühendisliği disiplini içerisinde, üretilen bir yazılımdaki hatayı tespit etme ve düzeltme maliyeti yazılımın yaşam döngüsü boyunca artış gösterir. Ders dokümanlarında verilen oranlara göre, bir hatanın düzeltme maliyetinin planlama (çözümleme) aşamasına kıyasla en yüksek (yaklaşık 100 kat) olduğu aşama aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kodlama Aşaması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Test Aşaması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çözümleme Aşaması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tasarım Aşaması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İşletim / Canlı Kullanım Aşaması",
+                    "correct": true
+                }
+            ],
+            "explanation": "BG_AYU_9.pdf'te verilen 'Yazılım Üretiminde Hata Düzeltme Maliyetleri' tablosuna göre işletim/canlı kullanım aşamasındaki düzeltme maliyeti çözümleme aşamasının yaklaşık 100 katına denk gelir."
+        },
+        {
+            "id": 2,
+            "text": "Bilgi güvenliği sızma testlerinde (Penetration Testing) kullanılan; 'Sazan postalar (Phishing) ile kullanıcıyı kandırma', 'Omuz Sörfü' ve 'Çöplük Karıştırma (Dumpster Diving)' gibi teknikler genel olarak hangi test kategorisi altında incelenmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sosyal Mühendislik (Teknik Olmayan Testler)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Ağ Cihazları Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uygulama Yazılımı Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hizmet Aksattırma (DoS) Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fiziksel Güvenlik Testleri",
+                    "correct": false
+                }
+            ],
+            "explanation": "BG_AYU_7.pdf sunumlarına göre; oltalama (phishing), çöplük karıştırma, omuz sörfü gibi kullanıcıyı (insanı) hedef alan bilgi toplama eylemleri teknik olmayan / sosyal mühendislik sızma testleri kapsamındadır."
+        },
+        {
+            "id": 3,
+            "text": "Sızma testleri sınıflandırılırken 'Test Başlangıç Bilgisi ve Yetki' kriteri dikkate alınır. Testi gerçekleştirecek takıma kurumun bilgi sistemleri, mimarisi, kaynak kodları ve tüm ağ altyapısı hakkında en üst düzeyde bilgi ve yetki verilerek uygulanan test yaklaşımı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kara-Kutu (Black Box) Testi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Beyaz-Kutu (White Box) Testi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Gri-Kutu (Gray Box) Testi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kapalı Kapsam Testi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Odaklı Kapsam Testi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kara-kutu testlerde uzmanlara hiç bilgi verilmezken, beyaz-kutu testlerde sistem hakkında tüm mimari, donanım ve kaynak kod bilgisi test takımına önceden verilerek sızma testi uygulanır."
+        },
+        {
+            "id": 4,
+            "text": "Asimetrik şifreleme mekanizmalarının temel taşlarından olan 'Sayısal İmza (Digital Signature)' uygulamasında, mesajı alan taraf (alıcı), bu imzanın gerçekten göndericiye ait olup olmadığını ve metnin bütünlüğünü doğrulamak için kriptografik olarak hangi anahtarı kullanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Alıcının (Kendi) Açık Anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Göndericinin Özel (Gizli) Anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Göndericinin Açık Anahtarı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Alıcının (Kendi) Özel Anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Simetrik Oturum Anahtarı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sayısal (elektronik) imza oluşturulurken göndericinin 'özel anahtarı' kullanılır. Bu imzanın o kişiye ait olduğunu doğrulamak isteyen alıcı taraf ise imza algoritmasına göndericinin herkesçe bilinen 'açık anahtarını' verir."
+        },
+        {
+            "id": 5,
+            "text": "RSA şifreleme algoritmasında deşifreleme işleminin maliyetini düşürmek ve sistemi hızlandırmak için donanımsal üstel ifade parçalama (Square-and-Multiply) yöntemi kullanılır. Şifreli metin \\( C=545 \\), modül \\( N=943 \\) ve özel anahtar \\( D=503 \\) olarak verildiğinde; sistem \\( M = 545^{503} \\pmod{943} \\) işlemini yaparken 503 üssünü ikinin kuvvetleri şeklinde nasıl parçalar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "503 = 256 + 128 + 64 + 32 + 8 + 4 + 2 + 1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "503 = 500 + 3",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "503 = 128 + 128 + 128 + 64 + 32 + 16 + 7",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "503 = 256 + 128 + 64 + 32 + 16 + 4 + 2 + 1",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "503 = 256 + 128 + 16 + 8 + 4 + 2",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ders dokümanlarında (BG_AYU_4.pdf) RSA'da modüler aritmetik üstel işlemleri kolaylaştırmak için ikinin kuvvetleri (binary) toplamı kullanılır. 503 sayısı \\( 256 + 128 + 64 + 32 + 16 + 4 + 2 + 1 \\) bileşenlerine ayrılır."
+        },
+        {
+            "id": 6,
+            "text": "Kısa anahtar uzunluğu sorununu çözmek için geliştirilen Üçlü-DES (3DES) şifreleme algoritması, iki veya üç farklı anahtar kullanarak güvenliği artırır. Orijinal DES donanımları ile geriye dönük uyumluluk sağlayabilmek adına, 3DES'te bir mesaj sırasıyla hangi üç aşamadan (algoritma işlem kipinden) geçirilerek şifreli metin (Ciphertext) elde edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şifrele - Şifrele - Şifrele",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Şifre Çöz - Şifrele - Şifre Çöz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Şifrele - Özetle - Şifre Çöz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Karıştır - Şifrele - Karıştır",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Şifrele - Şifre Çöz - Şifrele",
+                    "correct": true
+                }
+            ],
+            "explanation": "3DES algoritması, DES şifreleme cihazlarıyla geriye dönük uyum sağlamak (K1=K2 olduğunda düz DES gibi çalışması için) ve güvenliği artırmak amacıyla veriyi sırasıyla Şifrele - Şifre Çöz - Şifrele (Encryption - Decryption - Encryption / EDE) mantığıyla işler."
+        },
+        {
+            "id": 7,
+            "text": "Kriptografik özet (Hash) fonksiyonlarının 'Çarpışma Direncini (Collision Resistance)' kırmaya yönelik yapılan istatistiksel saldırılarda; \\( n \\) bitlik bir özet çıktısında aynı özete sahip iki farklı mesajı bulmak için ortalama \\( 2^{n/2} \\) deneme yapılmasının yeterli olduğunu savunan matematiksel yaklaşım/saldırı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Doğum Günü (Birthday) Paradoksu / Saldırısı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Ortadaki Adam (Man-in-the-Middle) Saldırısı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kaba Kuvvet (Brute Force) Saldırısı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sözlük (Dictionary) Saldırısı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çin Kalan Teoremi Saldırısı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Doğum günü paradoksu (Birthday Attack), n bitlik bir özet fonksiyonunda aynı özete sahip iki farklı girdi (çarpışma) bulmak için ortalama \\( 2^{n/2} \\) adet rastgele deneme yapmanın istatistiksel olarak yeterli olduğunu belirtir."
+        },
+        {
+            "id": 8,
+            "text": "E-imza süreçlerinin güvenliğini sağlamak için Kök Sertifika Makamı (Kök SM), Alt Sertifika Makamları ve Sertifika Deposu gibi hiyerarşik yapıların bir araya gelmesiyle oluşan ulusal ve uluslararası dijital sertifikasyon ekosistemine genel olarak ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dağıtık Ağ Altyapısı (DNN)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Açık Anahtar Altyapısı (AAA / PKI)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Simetrik Anahtar Dağıtım Merkezi (KDC)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tek Yönlü Özet Zinciri",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Biyometrik Kimlik Doğrulama Ağı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dijital sertifikaların oluşturulması, dağıtılması ve doğrulanmasını sağlayan hiyerarşik güven zincirine Açık Anahtar Altyapısı (AAA veya İngilizce PKI) denir. Kök SM ve Alt SM'ler bu yapının çekirdeğidir."
+        },
+        {
+            "id": 9,
+            "text": "Bilişim ürünlerinin güvenlik seviyelerini uluslararası çapta değerlendirmek için oluşturulan ISO/IEC 15408 'Ortak Kriterler (Common Criteria)' standardına göre; 'Biçimsel ve Doğrulanmış Tasarım ve Test' süreçlerini barındıran en yüksek Güvenlik Değerlendirme Garanti Düzeyi (EAL) hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "EAL-3",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "EAL-5",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "EAL-7",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "EAL-10",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "EAL-1",
+                    "correct": false
+                }
+            ],
+            "explanation": "ISO/IEC 15408 (Common Criteria) bilişim güvenliği sertifikasyonunda en üst garanti düzeyi EAL-7'dir. Bu seviye sistemin 'Biçimsel ve Doğrulanmış Tasarım ve Test' süreçlerinden eksiksiz geçtiğini gösterir."
+        },
+        {
+            "id": 10,
+            "text": "İnternet ağlarında iletişim güvenliğini sağlayan SSL (Secure Socket Layer) protokolünün el sıkışma (handshake) safhasında, sunucunun (server) sertifikasını göndermesinin ardından, istemci (client) tarafından tek kullanımlık bir gizli oturum anahtarı (Session Key) üretilir. İstemci, bu anahtarı (Client-Key-Exchange) güvenli bir şekilde sunucuya iletmek için ilgili mesajı hangi anahtarla şifreler?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İstemcinin Kendi Açık Anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kök Sertifika Makamının Özel Anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İstemcinin Kendi Özel Anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sunucunun Açık Anahtarı",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sunucunun Özel Anahtarı",
+                    "correct": false
+                }
+            ],
+            "explanation": "SSL Handshake sürecinde istemci, sunucunun gönderdiği dijital sertifikada yer alan 'Sunucunun Açık Anahtarı'nı kullanarak kendi ürettiği oturum anahtarını (Client Key Exchange) şifreler; böylece yolda ele geçirilse bile sadece sunucunun kendi özel anahtarı bu bilgiyi çözebilir."
+        },
+        {
+            "id": 11,
+            "text": "Güvenli yazılım geliştirme sürecinde, yazılımın girdi denetimini (Input Validation) aşmak ve sistemin nasıl davrandığını gözlemlemek için arayüzlere tümüyle rastgele, anlamsız veya formata uymayan devasa veri yığınları gönderilerek çökme (crash) testi yapılan teknik aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Beyaz Kutu Sızma Testi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ağ Haritalama (Network Mapping)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Statik Kod Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tersine Mühendislik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fuzz Testleri (Fuzzing)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Fuzzing (Fuzz testi), yazılım arayüzlerine beklenmeyen, aşırı büyük veya rastgele veri kümeleri göndererek yazılımın hataları nasıl ele aldığını ve arabellek taşması (buffer overflow) yaşayıp yaşamadığını tespit etmeye yarar."
+        },
+        {
+            "id": 12,
+            "text": "Açık kaynaklı güvenlik testi metodolojisi olan OSSTMM'ye göre; ağ haritasının çıkarılması, port taraması, hizmet aksattırma, parola kırma ve yönlendirme testleri gibi en fazla modüle sahip olan (toplam 19 farklı test barındıran) sızma testi bölümü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İnternet Güvenlik Testleri",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Süreç Güvenliği Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Fiziksel Güvenlik Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İletişim Güvenliği Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kablosuz Ağ (Wi-Fi) Testleri",
+                    "correct": false
+                }
+            ],
+            "explanation": "OSSTMM metodolojisinde sızma testleri 6 ana modüle ayrılır. İnternet Güvenlik Testleri bölümü; DoS, yönlendirme, port taraması, parola kırma vb. 19 farklı teknik testi barındırarak en kapsamlı alanı oluşturur."
+        },
+        {
+            "id": 13,
+            "text": "Bir bilgi sistemindeki (işletim sistemi, donanım veya yazılım) bir güvenlik zafiyetinin keşfedilmesi ve kamuoyuna duyurulması (disclosure) ile, yazılım üreticisinin bu açığı kapatacak yamayı (patch) yayınlayıp sistemlere entegre edilmesine kadar geçen; kurumların saldırılara en açık olduğu riskli zaman dilimine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tersine Mühendislik (Reverse Engineering) Süreci",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Zafiyet Penceresi (Vulnerability Window)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Oltalama (Phishing) Aralığı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kaba Kuvvet (Brute Force) Süresi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Güvenli Geliştirme Yaşam Döngüsü (SDLC)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir zafiyetin kamuoyu tarafından keşfi ile yazılım üreticisinin yayınladığı yamanın sistemlere yüklenmesi arasındaki süreye 'Zafiyet Penceresi' denir ve sistemler bu aralıkta sıfırıncı gün saldırılarına son derece açıktır."
+        },
+        {
+            "id": 14,
+            "text": "Tarihsel kriptografi yöntemlerinden 'Dikey Değiştirme (Columnar Transposition)' şifrelemesinde, açık metin belirli bir sütun matrisine yerleştirilir ve anahtara göre dikey olarak okunur. İşlenen örnekte 'SHIP EQUIPMENT ON THE FOURTH OF JULY' metni şifrelendiğinde, ek güvenlik sağlamak ve frekans analizini zorlaştırmak adına üretilen şifreli metin genellikle hangi formatta kâğıda / ekrana dökülür?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Boşluksuz olarak tek bir uzun kelime formatında",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tüm metin tersten yazılarak",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yatayda beşer harfli gruplar (bloklar) halinde",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece sessiz harfler büyük, sesliler küçük yazılarak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İlk ve son harfler yer değiştirerek ikişerli gruplar halinde",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dikey Değiştirme (Columnar Transposition) yönteminde, frekans analiziyle şifre kırılmasını zorlaştırmak ve harf gruplarının mantıklı okunabilirliğini kırmak için şifreli metin genellikle ek bir tedbir olarak yatayda beşer harfli gruplar (TOFUS OFOIH ...) şeklinde yazılır."
+        },
+        {
+            "id": 15,
+            "text": "Kullanıcı parolalarının güvenliğini artırmak için özetlerinin (Hash) alınarak veritabanında saklanması yaygın bir yöntemdir. Ancak, sözlük saldırıları (Dictionary Attack) ve gökkuşağı tablolarına (Rainbow Tables) karşı parolayı daha da güçlendirmek adına özet alma işleminden önce parolaya rastgele karakter dizilerinin eklenmesi yöntemine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Simetrik Şifreleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Steganografi (Veri Gizleme)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "MAC (Mesaj Doğrulama Kodu)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tuzlama (Salting)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kapsülleme (Encapsulation)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tuzlama (Salting), parolaların tek yönlü özetleri (Hash) alınmadan önce parolaya rastgele ek karakterlerin dahil edilmesidir. Bu sayede gökkuşağı tabloları ve çevrimdışı kaba kuvvet saldırıları büyük ölçüde etkisiz hale getirilir."
+        },
+        {
+            "id": 16,
+            "text": "Türkiye'de internet erişim sağlayıcılarının, içerik sağlayıcıların ve yer sağlayıcıların yükümlülüklerini düzenleyen; aynı zamanda internet ortamında yapılan yayınlar yoluyla işlenen belirli bilişim suçlarıyla mücadele edilmesini amaçlayan kanun aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "5070 Sayılı Elektronik İmza Kanunu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "6698 Sayılı Kişisel Verilerin Korunması Kanunu (KVKK)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "5846 Sayılı Fikir ve Sanat Eserleri Kanunu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "5237 Sayılı Türk Ceza Kanunu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5651 Sayılı Kanun",
+                    "correct": true
+                }
+            ],
+            "explanation": "5651 sayılı 'İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun', Türkiye'de içerik, yer ve erişim sağlayıcıları yükümlülüklerini düzenleyen temel siber güvenlik kanunudur."
+        },
+        {
+            "id": 17,
+            "text": "Açık Anahtar Altyapısında (PKI), elektronik sertifikaların oluşturulması ve cihazlar arası transferi sırasında belirli standartlar (PKCS) kullanılır. RSA Laboratuvarları tarafından oluşturulan bu standartlar serisinden hangisi 'Sertifika Talebinde Söz Dizimi (Certificate Request Syntax)' formatını standartlaştırmak için hazırlanmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "PKCS #10",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "PKCS #8",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "PKCS #5",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "PKCS #1",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "PKCS #12",
+                    "correct": false
+                }
+            ],
+            "explanation": "PKI mimarisinde sertifika üretim taleplerinin standardizasyonu için geliştirilen PKCS (Public Key Crypto Standard) serisinde, 'Sertifika Talebinde Söz Dizimi Standardı' PKCS #10 ile tanımlanır."
+        },
+        {
+            "id": 18,
+            "text": "Kurumsal bilgi güvenliği risk analizi sürecinde kullanılan 'Nitel Risk Değerlendirme' matrisinde hesaplama, \\( \\text{Risk} = \\text{Zarar (Etki)} \\times \\text{Olasılık} \\) formülü ile yapılır. Bir kuruma yönelik saldırı tehdidinin gerçekleşme olasılığı 'Büyük (4)', vereceği zarar ise 'Ciddi (4)' olarak saptanmıştır. ISO/IEC standart tablosuna göre hesaplanan bu riskin sayısal değeri ve seviye kategorisi aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "8 Puan - Yüksek Risk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "16 Puan - Kritik Risk",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "16 Puan - Çok Yüksek Risk",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "12 Puan - Orta Risk",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "20 Puan - Kritik Risk",
+                    "correct": false
+                }
+            ],
+            "explanation": "Risk matrisi hesabına göre Risk = Etki (Zarar) x Olasılık. Verilen değerlerle 4 x 4 = 16 puan elde edilir. Standart ISO/IEC Nitel Risk tablolarına göre 15-18 arası değerler 'Kritik Risk' bandında değerlendirilmektedir."
+        },
+        {
+            "id": 19,
+            "text": "Bilgi güvenliği hizmetlerinde ve sayısal imza (Digital Signature) teknolojisinde, oluşturulan bir elektronik dokümanı imzalayan ve karşı tarafa gönderen kişinin, ilerleyen zamanlarda 'bu mesajı ben hazırlamadım veya ben göndermedim' şeklinde yasal veya teknik olarak itirazda bulunmasını engelleyen temel güvenlik kriteri hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gizlilik (Confidentiality)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Erişilebilirlik (Availability)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İnkâr Edememezlik (Non-repudiation)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Açık Kaynak İstihbaratı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Anonimlik",
+                    "correct": false
+                }
+            ],
+            "explanation": "İnkâr edememezlik (Non-repudiation), bir mesajın veya belgenin kaynağının, oluşturucusunun veya göndericisinin işlemi kendisinin yaptığını daha sonradan teknolojik ya da yasal olarak yalanlayamaması kuralıdır."
+        },
+        {
+            "id": 20,
+            "text": "Ders videolarında güncel siber tehditler kapsamında örnek vaka olarak bahsedilen; barındırdığı özellikler sayesinde bir ülkenin siber ağlarındaki zafiyetleri ve açık portları anında haritalandırıp istismar kodu üretebilme potansiyeli taşıdığı için (Süper Yapay Zekâ seviyesinde görülerek) genel erişimi ve yayını durdurulan otonom sistem platformu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Stuxnet AI",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "WormGPT Advanced",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "ChatGPT-Security",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cloud Mitos (Mitos)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Skynet Botnet",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ders kayıtlarında aktarıldığı üzere 'Cloud Mitos', ağları otonom tarayarak tüm açıkları bulabilme yeteneğine sahip süper yapay zekâ kategorisinde bir araçtır; çok yüksek güvenlik zafiyeti riski doğurduğu için genel kullanıma açılması engellenmiştir."
+        }
+    ]
+}

@@ -1,0 +1,667 @@
+{
+    "meta": {
+        "id": "c62a84b5-1234-4b56-b789-0123456789ac",
+        "title": "test 3",
+        "subject": "test 3",
+        "topic": "OOP, UML, C# ve Tasarım Desenleri",
+        "difficulty": "Karışık",
+        "grade": "Üniversite / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Sınıf içindeki özel (private) bir alanın değerini okumak ve değiştirmek için C# dilinde kapsülleme (encapsulation) nasıl uygulanır? Aşağıdaki kodlardan hangisi en doğru ve modern C# (Property) yaklaşımıdır?",
+            "code": "public class Product {\n    // [???]\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "public int Id { get; set; }",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "private int Id; public int getId() { return Id; }",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "public int Id;",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "int Id { get; set; }",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "public readonly int Id;",
+                    "correct": false
+                }
+            ],
+            "explanation": "C# dilinde kapsülleme modern olarak özellik (property) yapısı olan `get; set;` erişimcileri (accessors) ile en sade ve güvenli şekilde sağlanır."
+        },
+        {
+            "id": 2,
+            "text": "Aşağıdaki C# kod bloğunun derlenme durumuna ilişkin hangi ifade doğrudur?",
+            "code": "public abstract class Animal {\n    public abstract void MakeSound();\n}\n\n// Main metodu içerisinde:\nAnimal myAnimal = new Animal();",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kod sorunsuz derlenir ve çalışır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Derleme hatası verir; soyut (abstract) sınıflardan doğrudan 'new' anahtar kelimesi ile nesne örneği oluşturulamaz.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "MakeSound metodu çağrılmadığı sürece sorunsuz derlenir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çalışma zamanı (runtime) hatası fırlatır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Animal sınıfı 'static' yapılıp 'new' kullanılmadan çalıştırılabilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Soyut sınıflar (abstract class) mantıksal şablonlardır, içlerinde gövdesiz (yarım) metotlar bulunabileceğinden doğrudan örneklendirilmelerine (instantiation) derleyici izin vermez."
+        },
+        {
+            "id": 3,
+            "text": "C# dilinde `static` anahtar kelimesinin sınıf üyeleri üzerindeki etkisi nedir? Aşağıdaki kullanım örneğinde `MathHelper.Pi` ifadesine C# dilinde dışarıdan nasıl erişilir?",
+            "code": "public class MathHelper {\n    public static double Pi = 3.14;\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "MathHelper mh = new MathHelper(); double p = mh.Pi;",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "MathHelper.Pi çağrısı private olduğu varsayılarak derleme hatası verir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nesne örneği (instance) oluşturulmadan doğrudan sınıf adı üzerinden 'MathHelper.Pi' şeklinde erişilir.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece MathHelper sınıfının içindeki metotlardan erişilebilir, dışarıdan erişilemez.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınıf 'static' tanımlanmadığı için içindeki statik alanlara dışarıdan ulaşılamaz.",
+                    "correct": false
+                }
+            ],
+            "explanation": "`static` üyeler sınıfın belirli bir nesnesine değil, sınıfın kendisine aittir. Bu nedenle bellekte tek bir yerde tutulurlar ve nesne oluşturulmadan `SinifAdi.UyeAdi` mantığıyla doğrudan çağrılırlar."
+        },
+        {
+            "id": 4,
+            "text": "C# dilinde yazılmış özel bir koleksiyon (örneğin CustomArray) sınıfının üzerinde `foreach` döngüsünün çalışabilmesi ve üzerinde ardışık gezinme yapılabilmesi için sınıfın aşağıdaki arayüzlerden (interface) hangisini uygulaması zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "IComparable",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ICloneable",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IQueryable",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IEnumerable",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "IDisposable",
+                    "correct": false
+                }
+            ],
+            "explanation": "`foreach` döngüsü, arka planda elemanları sırayla dönmek için `GetEnumerator()` isimli metodu arar. Bu metodu garanti eden sözleşme `IEnumerable` arayüzüdür."
+        },
+        {
+            "id": 5,
+            "text": "Türetilmiş (derived) bir sınıfın yapıcı metodundan (constructor), temel (base) sınıfın yapıcı metoduna parametre göndermek için C# dilinde hangi sözdizimi kullanılır?",
+            "code": "public class Dog : Animal {\n    public Dog(string name) /* ????? */ {\n    }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "super(name)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "-> base(name)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": ": super(name)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "this.base(name)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": ": base(name)",
+                    "correct": true
+                }
+            ],
+            "explanation": "C# dilinde ebeveyn sınıfın yapıcı metodunu çağırmak ve ona argüman göndermek için kurucunun yanına `: base(parametreler)` anahtar kelime yapısı eklenir (Java dilindeki `super`'in karşılığıdır)."
+        },
+        {
+            "id": 6,
+            "text": "Çok biçimliliği (polimorfizm) sağlamak amacıyla C# dilinde temel sınıftaki metodun ve onu geçersiz kılan (ezen) alt sınıftaki metodun sırasıyla hangi anahtar kelimeleri kullanması gerekir?",
+            "code": "public class BaseClass {\n    public [???] void DoWork() { }\n}\npublic class DerivedClass : BaseClass {\n    public [???] void DoWork() { }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "virtual / override",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "static / new",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "abstract / virtual",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "sealed / override",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "override / virtual",
+                    "correct": false
+                }
+            ],
+            "explanation": "Temel sınıfta metodun geçersiz kılınmaya izin verdiğini belirtmek için `virtual` (sanal), alt sınıfta ise bu metodu ezmek ve kendine özgü davranışı atamak için `override` kullanılır."
+        },
+        {
+            "id": 7,
+            "text": "Aşağıdaki C# kodu çalıştırıldığında polimorfizmin kırılması ve metot gizleme (method hiding) durumu göz önüne alındığında konsola hangi çıktı yazdırılır?",
+            "code": "public class Animal {\n    public virtual void Speak() { Console.Write(\"Animal \"); }\n}\npublic class Dog : Animal {\n    public new void Speak() { Console.Write(\"Bark \"); }\n}\n\n// Main:\nAnimal myPet = new Dog();\nmyPet.Speak();",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bark",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Animal",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Animal Bark",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Derleme hatası verir",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bark Animal",
+                    "correct": false
+                }
+            ],
+            "explanation": "Alt sınıfta `new` anahtar kelimesi kullanıldığında metot ezilmez, sadece gizlenir. Nesnenin tutulduğu referans tipi `Animal` olduğu için temel sınıftaki asıl metot olan `Animal` çıktısı çalışır."
+        },
+        {
+            "id": 8,
+            "text": "Bir `Car` sınıfının, bellekte bir `Engine` nesnesine sıkı sıkıya bağlı olduğu ve `Car` nesnesi yok edildiğinde `Engine` nesnesinin de yok olmasının gerektiği \"is-a-part-of\" (Composition / Bileşim) tasarım senaryosunda en uygun C# nesne oluşturma yaklaşımı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Engine nesnesi Car sınıfının yapıcı metoduna dışarıdan arayüzle (Dependency Injection) geçilmelidir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Engine sınıfı Car sınıfından miras almalıdır (class Engine : Car).",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Engine nesnesi, Car sınıfının yapıcı metodu içinde doğrudan 'new Engine()' ile oluşturulmalıdır.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Car sınıfı IEngine arayüzünü (interface) implemente etmelidir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Her iki sınıf da birbirinden tamamen bağımsız statik sınıflar olarak tanımlanmalıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bileşim (Composition) ilişkisinde sahiplik ve bağımlılık çok sıkıdır. İçi dolu baklava dilimi ile gösterilen bu ilişkide, kapsayıcı nesne (Car), içerilen nesneyi (Engine) kendi yaşam döngüsü içerisinde bizzat oluşturur ve yönetir."
+        },
+        {
+            "id": 9,
+            "text": "ASP.NET Core gibi mimarilerde Bağımlılık Enjeksiyonu (IoC Container) kullanırken, uygulamanın başlatılmasından sonlanmasına kadar bellekte sadece tek bir nesne örneğinin yaşamasını ve her talebe bu nesnenin dönmesini sağlayan servis kayıt metodu aşağıdakilerden hangisidir?",
+            "code": "builder.Services.[???]<IMyService, MyService>();",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AddTransient",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "AddScoped",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "AddOptions",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "AddSingleton",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "AddHostedService",
+                    "correct": false
+                }
+            ],
+            "explanation": "`AddSingleton` metodu nesneyi sistem ilk başladığında veya ilk talepte bir kez oluşturur ve uygulama ömrü boyunca bellekte tutarak (Singleton deseni) tüm isteklere aynı referansı paylaşır."
+        },
+        {
+            "id": 10,
+            "text": "Aşağıdaki C# kodu, algoritmaların tek bir arayüz arkasında toplanmasını ve çalışma zamanında bu davranışların dinamik olarak değiştirilebilmesini sağlayan hangi davranışsal (behavioral) tasarım desenini temsil etmektedir?",
+            "code": "public class ReportGenerator {\n    private IExportStrategy _exportStrategy;\n    public void SetStrategy(IExportStrategy strategy) {\n        _exportStrategy = strategy;\n    }\n    public void Generate() {\n        _exportStrategy.Export();\n    }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Observer (Gözlemci)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Template Method (Kalıp Metodu)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Command (Komut)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "State (Durum)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Strategy (Strateji)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Strategy (Strateji) deseni, belirli bir işlemi (örneğin rapor dışa aktarma) yapmanın farklı yollarını (algoritmalarını) nesne içine soyutlar ve nesnenin çalışma zamanında birbirlerinin yerine kullanılabilmesine (`SetStrategy`) olanak tanır."
+        },
+        {
+            "id": 11,
+            "text": "C# dilinde 'Iterator' (Yineleyici) desenini uygularken, geliştiricinin ekstra karmaşık sınıflar (Enumerator) yazmasına gerek kalmadan, fonksiyonun mevcut çalışma durumunu (state) dondurup sıradaki elemanı koleksiyon döngüsüne iletmesini sağlayan anahtar kelime yapısı aşağıdakilerden hangisidir?",
+            "code": "public IEnumerator<int> GetNumbers() {\n    for(int i = 0; i < 5; i++) {\n        [???] i;\n    }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "yield return",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "await return",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "return next",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "continue foreach",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "break return",
+                    "correct": false
+                }
+            ],
+            "explanation": "`yield return` ifadesi kullanıldığında metot bir iteratöre dönüşür. Döngüden her veri istendiğinde kod kaldığı yerden devam eder ve mevcut değeri fırlatarak (yield) fonksiyon durumunu korur."
+        },
+        {
+            "id": 12,
+            "text": "C# dilinde 'LINQ' teknolojisi kullanılarak bir liste içerisindeki koşula uyan elemanları (örneğin çift sayıları) filtrelemek ve seçmek için yazılan aşağıdaki kod parçasında `[???]` yerine hangi metot gelmelidir?",
+            "code": "List<int> numbers = new List<int> { 1, 2, 3, 4, 5, 6 };\nint sumOfEvens = numbers.[???](n => n % 2 == 0).Sum();",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Select",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Where",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "OrderBy",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "GroupBy",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Any",
+                    "correct": false
+                }
+            ],
+            "explanation": "LINQ kütüphanesinde belirli bir kuralı/şartı (predicate) sağlayan elemanları koleksiyondan filtrelemek ve getirmek için `Where` uzantı metodu kullanılır."
+        },
+        {
+            "id": 13,
+            "text": "Bir 'Özne' (Subject) sınıfının, iç durumunda (state) bir değişiklik meydana geldiğinde, listesinde kayıtlı ve kendisini dinleyen tüm abone nesnelere (Gözlemcilere) haber verdiği (Notify) aşağıdaki mantık, hangi tasarım deseninin kodsal iskeletine aittir?",
+            "code": "public void NotifyAll() {\n    foreach(var observer in _observers) {\n        observer.Update();\n    }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Decorator",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Observer",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Composite",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Singleton",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir özne nesnedeki değişikliğin, ona bağımlı olan birden fazla nesneye (`_observers`) döngülerle otomatik bildirilmesi (Publish/Subscribe mekanizması) Observer (Gözlemci) deseninin temel ilkesidir."
+        },
+        {
+            "id": 14,
+            "text": "Yazılım mimarilerinde veritabanı operasyonlarını (CRUD işlemlerini) soyutlayarak uygulamanın asıl iş mantığından (Business Logic) ayrılmasını sağlayan ve genellikle `IRepository<T>` gibi genel (jenerik) arayüzlerle C# dilinde inşa edilen tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Proxy Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Abstract Factory Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Prototype Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Repository Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Memento Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Repository (Depo) deseni, veri kaynağındaki sorguları ve ekleme/çıkarma gibi veritabanı işlemlerini merkezi bir noktada soyutlayarak, kodun veri erişim teknolojisinden yalıtılmasını sağlar."
+        },
+        {
+            "id": 15,
+            "text": "Değer ve Referans tiplerini anlatan aşağıdaki C# kodu bütünüyle çalıştıktan sonra `list2` isimli listenin eleman sayısı (Count) tam olarak kaç olur?",
+            "code": "List<int> list1 = new List<int> { 10, 20 };\nList<int> list2 = list1;\nlist1.Add(30);\nlist2.Add(40);",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "2",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "0 (Derleme hatası verir)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bellekte iki ayrı kopya oldukları için list2 sadece 3 elemana sahip olur.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "4",
+                    "correct": true
+                }
+            ],
+            "explanation": "C# dilinde Sınıflar (List sınıfı dâhil) Referans Tipidir (Reference Type). `list2 = list1` işlemi bir pointer (adres) kopyalamasıdır. Her iki değişken de aynı heap nesnesini gösterdiğinden, biri üzerinden yapılan ekleme diğerini de kapsar."
+        },
+        {
+            "id": 16,
+            "text": "C# dilinde nesne türü dönüşümlerinde `as` operatörünün kullanımı ile doğrudan tür dönüştürme (cast: `(Employee)obj`) arasındaki temel davranışı ve farkı gösteren doğru ifade aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "'as' operatörü dönüşüm başarısız olursa geriye 'null' döndürür; doğrudan dönüşüm ise sistemin çökmesine (InvalidCastException) neden olur.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "'as' operatörü hem değer tipleri (value types) hem de referans tipleri için kusursuz çalışırken, doğrudan dönüşüm sadece referans tipleri içindir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Doğrudan dönüşüm 'null' dönerken, 'as' operatörü her zaman varsayılan boş bir nesne fırlatır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İkisi arasında çalışma zamanında (runtime) hiçbir fark yoktur, sadece okunabilirliği artıran bir sözdizimi (syntax) farkıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "'as' operatörü her halükarda çalışma zamanı hatası fırlatır; doğrudan dönüşüm sessizce devam eder.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Güvenli dönüşüm (safe casting) için kullanılan `as` operatörü tip dönüşümü yapılamadığında `null` üreterek uygulamanın kaza yapmasını önler; oysa klasik cast (parantez içi tip) çalışma anı istisnası (exception) oluşturur."
+        },
+        {
+            "id": 17,
+            "text": "Bir sınıf nesnelerinin .NET içerisindeki `List<T>.Sort()` gibi standart metotlar tarafından sıralanabilmesi ve birbirleriyle olan küçüklük-büyüklük ilişkisinin tespit edilebilmesi için, aşağıdaki arayüzlerden hangisini implemente etmesi ve hangi metodu barındırması gerekir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ICloneable arayüzü ve Clone() metodu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "IComparable arayüzü ve CompareTo() metodu",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "IEquatable arayüzü ve Equals() metodu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IEnumerable arayüzü ve GetEnumerator() metodu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "IDisposable arayüzü ve Dispose() metodu",
+                    "correct": false
+                }
+            ],
+            "explanation": "Koleksiyon içindeki nesnelerin sıralanması için, iki nesneyi karşılaştırıp sayısal (negatif, sıfır, pozitif) bir sonuç veren `CompareTo` metoduna sahip `IComparable` arayüzü implemente edilmelidir."
+        },
+        {
+            "id": 18,
+            "text": "Soyut bir üst sınıfta (`abstract class`) bir algoritmanın genel işleyiş sırasını (iskeletini) tanımlayan ana bir metot bulunup, bu adımların detaylarının (`abstract` metotlar aracılığıyla) alt sınıflara bırakıldığı davranışsal tasarım deseni aşağıdakilerden hangisidir?",
+            "code": "public abstract class Game {\n    public void Play() { Init(); Start(); End(); }\n    protected abstract void Init();\n    protected abstract void Start();\n    protected abstract void End();\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "State Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mediator Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Template Method (Kalıp Metodu) Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Composite Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Builder Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Template Method deseninde base class'ta örneğin `Play()` gibi bir algoritma iskelet fonksiyonu bulunur. Bu fonksiyon sırasıyla `Init()`, `Start()` gibi metotları çağırır ve bu adımların gövdelerini alt sınıflar kendi içlerinde kurgular."
+        },
+        {
+            "id": 19,
+            "text": "Geliştirilen sistemin (İstemci / Client) somut sınıfların ne olduğunu bilmesine gerek kalmadan; arayüzler vasıtasıyla birbiriyle uyumlu ve ilişkili ürün ailelerinin (Örneğin, hem 'Windows Buton / Windows TextBox' hem de 'Mac Buton / Mac TextBox') üretilmesini sağlayan nesne yaratımsal tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Iterator Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Decorator Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Prototype Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Abstract Factory Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Facade Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Abstract Factory (Soyut Fabrika) deseni, birbirleriyle uyumlu çalışması gereken nesne 'ailelerini' (ürün gruplarını) somut sınıflara sıkı sıkıya bağlanmadan yaratmak için ortak bir arayüz sağlar."
+        },
+        {
+            "id": 20,
+            "text": "C# dilinde kalıtım hiyerarşisini sınırlandırmak adına, bir sınıfın başka herhangi bir sınıf tarafından miras alınmasını (extend edilmesini) kesin olarak mühürlemek / engellemek için sınıf tanımında hangi anahtar kelime kullanılır?",
+            "code": "public [???] class SecurityModule { \n    // Güvenlik işlemleri\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "static",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "readonly",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "private",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "abstract",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "sealed",
+                    "correct": true
+                }
+            ],
+            "explanation": "`sealed` (mühürlü) anahtar kelimesi kullanılarak tasarlanan sınıflar, kalıtım ağacının son noktasıdır ve diğer alt sınıflar tarafından ebeveyn (base) olarak alınmaları derleyici tarafından yasaklanır."
+        }
+    ]
+}

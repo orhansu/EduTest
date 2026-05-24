@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e8a7f1b2-3c4d-5e6f-7a8b-9c0d1e2f3a4b",
+        "title": "test 2",
+        "subject": "test 2",
+        "topic": "Bilgi Güvenliği, Kriptoloji ve Sızma Testleri",
+        "difficulty": "Orta",
+        "grade": "Lisansüstü / Uzmanlık",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Kullanıcı sistemlerine girişte \"Kimsin?\" ve \"İspatlar mısın?\" soruları, bilgi güvenliğinde sırasıyla hangi iki temel kavramın karşılığıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kimlik Tanıma (Identification) - Kimlik Doğrulama (Authentication)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Yetkilendirme (Authorization) - Kimlik Tanıma (Identification)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kimlik Doğrulama (Authentication) - Yetkilendirme (Authorization)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Parola Yönetimi - Şifreleme (Encryption)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Oturum Yönetimi - Çift Yönlü Doğrulama",
+                    "correct": false
+                }
+            ],
+            "explanation": "\"Kimsin?\" sorusu sistemde kullanıcının kendi kimliğini (ID, kullanıcı adı) beyan etmesi olan Kimlik Tanıma (Identification), parolası veya biyometrisi ile \"İspatlar mısın?\" sorusuna cevap vermesi ise Kimlik Doğrulama (Authentication) aşamasıdır."
+        },
+        {
+            "id": 2,
+            "text": "Bilgi güvenliğinde sıkça karşılaşılan CAPTCHA sistemlerinin geliştirilmesinin temel amacı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kullanıcı parolalarının ağ üzerinde şifrelenerek güvenli taşınmasını sağlamak.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bilgisayarlar (botlar) ile insanları birbirinden ayırt ederek otomatik kayıt/giriş işlemlerini engellemek.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Veritabanı sunucularına yönelik SQL Injection saldırılarını tespit edip engellemek.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İstemci ve sunucu arasındaki SSL el sıkışma sürecini (handshake) hızlandırmak.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Zararlı yazılımların işletim sistemi bellek sınırlarını aşmasını (Buffer Overflow) önlemek.",
+                    "correct": false
+                }
+            ],
+            "explanation": "CAPTCHA, \"Completely Automated Public Turing test to tell Computers and Humans Apart\" cümlesinin kısaltmasıdır ve bilgisayar programları (botlar) ile gerçek insanları birbirinden ayırt etmek için tasarlanmıştır."
+        },
+        {
+            "id": 3,
+            "text": "Akış şifrelerinin (Stream Ciphers) blok şifrelere göre temel farkları arasında aşağıdakilerden hangisi gösterilebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şifreleme boyunca veriyi 64 veya 128 bitlik sabit bloklar halinde işlerler.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Akış şifreleri donanımsal olarak gerçekleştirilemez, sadece yazılım tabanlıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Şifreleme boyunca sürekli olarak değişen gizli bir durum (state) bilgisine sahiptirler ve bit akışları üretirler.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece açık anahtarlı (asimetrik) şifreleme altyapılarında kullanılabilirler.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tasarımları blok şifrelere göre çok daha kolay ve hatasızdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Blok şifreler veriyi sabit bloklar halinde işlerken, akış şifreleri (stream ciphers) sürekli değişen bir state'e dayanır ve durum-değiştirme filtresi aracılığıyla bit akışı üretirler. Ayrıca güvenli bir akış şifresi tasarlamak blok şifre tasarlamaktan daha zordur."
+        },
+        {
+            "id": 4,
+            "text": "Kriptografik özet (hash) fonksiyonlarında \"Çarpışma Direnci\" (Collision Resistance) bağlamında, \\( n \\) bitlik bir özet çıktısı üreten fonksiyonda aynı özete sahip iki farklı mesaj bulmak için Doğum Günü Paradoksu yaklaşımıyla ortalama kaç mesaj denemesi yapmak gerekir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "\\( 2^n \\)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "\\( n^2 \\)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "\\( 2^{n-1} \\)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "\\( 2^{n/2} \\)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "\\( n! \\)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Doğum günü paradoksu gereğince, \\( n \\) bitlik bir özet fonksiyonunda aynı özete sahip rastgele iki mesaj (çarpışma - collision) bulmak için ortalama \\( 2^{n/2} \\) adet deneme yapmak %50 ihtimalle yeterlidir."
+        },
+        {
+            "id": 5,
+            "text": "Yazılım güvenliği zafiyetlerinden olan \"Arabellek Aşım Saldırıları\" (Buffer Overflow), temel olarak program hafızasındaki (Stack) hangi kritik değerin saldırgan tarafından değiştirilmesi prensibine dayanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Heap sınırı (Heap boundary)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yerel değişken (Local variable) adresi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İstisna yönetimi (Exception handler) göstericisi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çekirdek (Kernel) erişim belirleyicisi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dönüş adresi (Return address - ret)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Arabellek aşım (Buffer Overflow) saldırılarında, sınır kontrolü yapılmamasından faydalanılarak hafızadaki (Stack) dönüş adresi (ret) ezilir ve programın saldırganın istediği koda/adrese atlaması sağlanır."
+        },
+        {
+            "id": 6,
+            "text": "Ders anlatımlarında \"sucuktan canlı inek çıkarmanın imkansızlığı\" şeklinde analoji ile çalışma prensibi açıklanan; herhangi bir uzunluktaki veriyi alıp sabit uzunlukta, geri döndürülemez eşsiz bir diziye dönüştüren fonksiyon türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tek Yönlü Özetleme (Hash) Fonksiyonları",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Simetrik Şifreleme Algoritmaları",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Asimetrik Şifreleme (RSA) Fonksiyonları",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Akış Şifreleme (Stream Cipher) Metotları",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kayıplı Veri Sıkıştırma (Compression) Araçları",
+                    "correct": false
+                }
+            ],
+            "explanation": "Özetleme (Hash) fonksiyonları tek yönlü çalışır. Büyük boyutlu bir veriyi sabit uzunluklu eşsiz bir diziye dönüştürür ancak üretilen bu özetten orijinal metne ulaşmak pratikte imkânsızdır."
+        },
+        {
+            "id": 7,
+            "text": "Sızma testlerinin planlanması ve risk değerlendirmesi aşamasında kullanılan \"Nitel Risk Değerlendirme\" matrisinde, bir tehdidin oluşma olasılığı \"Orta (3)\", vereceği zarar (etki) ise \"Çok Ciddi (5)\" olarak tespit edilmiştir. Buna göre hesaplanan risk değeri ve seviyesi nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "8 Puan - Yüksek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "15 Puan - Kritik",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "15 Puan - Orta",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "12 Puan - Çok Yüksek",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "25 Puan - Kritik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nitel risk değerlendirme matrisinde Risk = Etki x Olasılık yaklaşımıyla 3 (Orta olasılık) x 5 (Çok Ciddi zarar) = 15 puan elde edilir. Standart ISO/IEC risk tablolarına göre 15-18 arası puanlar \"Kritik Risk\" kategorisine girer."
+        },
+        {
+            "id": 8,
+            "text": "Ortak Kriterler (Common Criteria - ISO/IEC 15408) standardında tanımlanan Güvenlik Değerlendirme Garanti Düzeyleri (EAL) dikkate alındığında; \"Biçimsel ve Doğrulanmış Tasarım ve Test\" detaylarını içeren en üst değerlendirme düzeyi hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "EAL-4",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "EAL-5",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "EAL-7",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "EAL-3",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "EAL-10",
+                    "correct": false
+                }
+            ],
+            "explanation": "ISO 15408 Ortak Kriterler standardında en yüksek güvenlik garanti düzeyi EAL-7'dir ve \"Biçimsel ve Doğrulanmış Tasarım ve Test\" adımlarını kapsar."
+        },
+        {
+            "id": 9,
+            "text": "Yazılım geliştirme süreçlerinde, bir uygulamanın arayüzüne tümüyle veya kısmen rastgele, beklenmeyen veri yığınları gönderilerek yazılımın nasıl davrandığının ve çöküp çökmediğinin (crash) incelendiği test tekniği nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Statik Kod Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kara Kutu Ağ Taraması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tersine Mühendislik (Reverse Engineering)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Fuzz Testleri (Fuzzing)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Beyaz Kutu Sızma Testi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fuzz testleri (Fuzzing), yazılımın girdilerine tamamen veya kısmen rastgele, anlamsız veri yığınları pompalayarak hata ve çökme durumlarını test eden bir yöntemdir."
+        },
+        {
+            "id": 10,
+            "text": "Açık Anahtar Altyapısında (PKI) dijital sertifika talebinde bulunurken kullanılan formatı ve \"Sertifika Talebinde Söz Dizimi Standardını\" (Certificate Request Syntax) belirleyen PKCS (Public Key Crypto Standard) dokümanı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "PKCS #1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "PKCS #5",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "PKCS #7",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "PKCS #8",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "PKCS #10",
+                    "correct": true
+                }
+            ],
+            "explanation": "PKCS #10 standardı, Açık Anahtar Altyapısında (PKI) sertifika talebinde bulunurken kullanılması gereken formata ve söz dizimine standart getirir."
+        },
+        {
+            "id": 11,
+            "text": "Klasik yer değiştirme algoritmalarından olan \"Dikey Değiştirme (Columnar Transposition)\" metodunda, düz metin sütunlara bölünerek belirli bir anahtar sırasına göre dikey olarak okunup şifrelenir. Ek güvenlik sağlamak ve frekans analizini zorlaştırmak için şifreli metin genel olarak hangi formatta yazılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Beşer harfli gruplar halinde (yatay ve boşluklu)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Hiç boşluk bırakılmadan tek bir kelime gibi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sadece sesli harfler büyük yazılarak",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Her kelime arasına rastgele karakterler konularak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dörder harfli ve noktalama işaretleri içerecek şekilde",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dikey değiştirme (Columnar Transposition) şifrelemesinde, frekans analizini zorlaştırmak ve okumayı karmaşıklaştırmak için elde edilen şifreli metin geleneksel olarak beşer harfli bloklar halinde gruplandırılarak yazılır."
+        },
+        {
+            "id": 12,
+            "text": "SSL (Secure Socket Layer) el sıkışma (handshake) protokolünde, sunucunun (server) kendi sertifikasını istemciye (client) göndermesinin ardından, istemcinin sunucuya gizli bir oturum anahtarı oluşturmak üzere gönderdiği rastgele değeri şifrelerken kullandığı anahtar hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İstemcinin (Client) kendi özel anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sunucunun (Server) açık anahtarı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kök Sertifika Makamının (CA) özel anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İstemcinin (Client) açık anahtarı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Simetrik oturum anahtarı (Session Key)",
+                    "correct": false
+                }
+            ],
+            "explanation": "SSL el sıkışmasında (handshake) istemci, sunucunun gönderdiği sertifikayı doğrular ve ardından simetrik şifreleme için kullanılacak olan rastgele değeri \"sunucunun açık anahtarı\" ile şifreleyerek sunucuya iletir."
+        },
+        {
+            "id": 13,
+            "text": "Biyometrik güvenlik sistemlerinin hata oranları değerlendirilirken dikkate alınan parametrelerden biri olan \"Yanlış Pozitif\" (False Positive - FAR) oranı neyi ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sisteme kayıtlı yetkili bir kullanıcının reddedilme ihtimalini.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cihazın okuma sırasında hata vererek yeniden okuma istemesini.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sisteme kayıtlı olmayan (yetkisiz) bir kişinin sistem tarafından yanlışlıkla kabul edilme ihtimalini.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sistem veri tabanının yedeklenmesi sırasındaki veri bozulmalarını.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Doğrulamada kullanılan kriptografik anahtarın süresinin dolmasını.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yanlış pozitif (False Positive), biyometrik güvenlik sistemlerinde sisteme kayıtlı olmayan (yetkisiz) bir kişinin sistem tarafından yanlışlıkla doğrulanıp yetkili kabul edilmesi (False Acceptance) durumudur."
+        },
+        {
+            "id": 14,
+            "text": "Sözde-rassal sayı üreteçleri (PRNG), deterministik algoritmalar kullanılarak tamamen tahmin edilemez şekilde rassal sayı üretirler. Güvenliği sağlamak ve kaba kuvvet saldırılarını önlemek için çekirdek (seed) değerin seçimi çok kritiktir. Aşağıdakilerden hangisi çekirdek değeri üretmek için kullanılması ÖNERİLMEYEN zayıf bir yaklaşımdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kullanıcı klavye tuş vuruşlarının yüksek çözünürlüklü zamanlamaları.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yüksek çözünürlüklü disk okuma ve arama zamanları.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ortamdaki radyoaktif bozunmayı okuyan özel donanım sensörleri.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece işletim sisteminin o anki standart sistem saati.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kullanıcı fare hareketlerinden toplanan yüksek varyanslı entropi verileri.",
+                    "correct": false
+                }
+            ],
+            "explanation": "PRNG (Sözde-Rassal Sayı Üreteci) çekirdekleri için tahmin edilebilir veya dar uzaylı değerler (örneğin sadece saat/dakika fonksiyonları) kullanmak saldırganların kaba kuvvet saldırısıyla sistemi çözmesine yol açar. Fare hareketleri, tuş vuruş aralıkları gibi yüksek entropili veriler kullanılmalıdır."
+        },
+        {
+            "id": 15,
+            "text": "Kurumların bilgi varlıklarının güvenliğini sağlamada ve sızma testlerinde referans alınan açık kaynaklı metodoloji OSSTMM (Open Source Security Testing Methodology Manual), kurumsal güvenlik sızma testlerini toplam kaç ana bölüm altında incelemektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "10",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "6",
+                    "correct": true
+                }
+            ],
+            "explanation": "OSSTMM metodolojisi sızma testlerini Bilgi Güvenliği, Süreç Güvenliği, İnternet Teknolojileri Güvenliği, İletişim Güvenliği, Kablosuz Ağ Güvenliği ve Fiziksel Güvenlik olmak üzere 6 ana bölümde ele alır."
+        },
+        {
+            "id": 16,
+            "text": "Mesaj Tanıma Kodları (MAC - Message Authentication Codes) ile İnternet Sağlama Toplamı (Internet Checksum / CRC) arasındaki temel bilgi güvenliği farkı aşağıdakilerden hangisinde doğru olarak özetlenmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "MAC algoritmaları akıllı düşmanlar (saldırganlar) karşısında kriptografik yöntemlerle veri bütünlüğünü garanti ederken, Checksum/CRC sadece rastgele veya fiziksel iletim hatalarını tespit etmek için tasarlanmıştır.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Checksum algoritmaları asimetrik kriptografi kullanırken, MAC algoritmaları sadece simetrik şifreleme kullanır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "MAC algoritmaları donanım düzeyinde çalışırken, Checksum sadece ağ mimarisinin uygulama katmanında çalışır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sağlama Toplamı (Checksum) özet fonksiyonlarının çarpışma direncine dayanırken, MAC algoritmaları doğrusallık ilkesine dayanır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "MAC yalnızca mesajın boyutunu veri sıkıştırmayla küçültmeye yararken, Checksum mesajı şifreleyerek gizlilik sağlar.",
+                    "correct": false
+                }
+            ],
+            "explanation": "MAC algoritmaları kriptografik gizli anahtar kullanarak aktif/bilinçli saldırganların mesajı değiştirmesini tespit edebilirken; Checksum veya CRC ağdaki rastgele elektriksel ve donanımsal iletim hatalarını tespit etmeye yarar ve kriptografik koruma içermez."
+        },
+        {
+            "id": 17,
+            "text": "Kurum çalışanlarını kandırmak, yetkisiz bilgi elde etmek veya sistemlere sızmak amacıyla kullanılan \"Çöplük Karıştırma\" (Dumpster Diving) tekniği, bilgi güvenliği sızma testlerinde hangi ana kategori içerisinde değerlendirilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Teknik Olan Web Uygulama Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Teknik Olmayan Güvenlik Testleri",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kriptografik Şifre Kırma Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hizmet Aksattırma (DDoS) Saldırıları",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kablosuz Ağ (Wi-Fi) Sızma Testleri",
+                    "correct": false
+                }
+            ],
+            "explanation": "Çöplük karıştırma (Dumpster Diving), sosyal mühendislik şemsiyesi altında incelenen ve insan faktöründen kaynaklanan zafiyetlerden (kırpılmamış çöpe atılan kağıtlar vb.) yararlanan 'teknik olmayan (non-technical)' bir bilgi toplama testidir."
+        },
+        {
+            "id": 18,
+            "text": "Bilişim teknolojilerinin gelişmesiyle ortaya çıkan ve stratejik bir önem kazanan \"Siber Vatan\" olgusunun bilgi güvenliği terminolojisindeki temel vizyonu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ülkedeki tüm donanımların yerli ve milli olarak kapalı devre üretilmesi.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yalnızca kamu kurumlarının dijital altyapılarının ve gizli belgelerinin korunması.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sınırların aşılarak, sahip olduğumuz kurumsal ve ulusal dijital verilerin, bilgi varlıklarının bulunduğu her yerin savunulması gereken bir vatan toprağı olarak görülmesi.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Ülke içindeki tüm vatandaşların yabancı sunuculu e-posta ve iletişim araçlarını kullanmasının kısıtlanması.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sadece uzaydaki haberleşme uydularının siber saldırılara karşı şifrelenmesi süreci.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Siber Vatan felsefesi; bir ülkenin veya kurumun korunması gereken varlıklarının sadece fiziksel sınırlarla kısıtlı kalmadığı, verilerin bulunduğu tüm sunucu veya bulut ortamlarının da bir vatan toprağı gibi savunulması gerektiği vizyonudur."
+        },
+        {
+            "id": 19,
+            "text": "Güncel yapay zeka tehditleri kapsamında ders anlatımlarında yer verilen; bir ülkenin siber altyapısındaki tüm açık portları ve zafiyetleri otonom olarak haritalandırıp istismar edebilecek güce sahip olduğu anlaşıldığı için halka açık yayını durdurulan 'Süper Yapay Zeka (Super AI)' modeli hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Stuxnet AI",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ChatGPT-4 Security",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gemini Advanced",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cloud Mitos (Mitos)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "WormGPT",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ders kayıtlarında Antropic/Google testlerinde ortaya çıkan 'Cloud Mitos' isimli yapay zeka modelinin ağ açıklarını otomatik olarak bulup raporlayabildiği, barındırdığı büyük zafiyet potansiyeli sebebiyle de genel yayınının engellendiği belirtilmiştir."
+        },
+        {
+            "id": 20,
+            "text": "Bilgi Güvenliği Yönetim Sisteminin (BGYS) yapısını belirleyen uluslararası standartlar bütünü olan ISO/IEC 27000 serisinde, genel kural setlerinin spesifik olarak \"Telekomünikasyon Sektörü için uyarlanmış\" rehberinin standart numarası aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ISO/IEC 27001",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ISO/IEC 27002",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "ISO/IEC 27005",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "ISO/IEC 15408",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "ISO/IEC 27031",
+                    "correct": true
+                }
+            ],
+            "explanation": "ISO/IEC 27031 standardı, bilgi güvenliği süreçlerinin ve ISO/IEC 17799/27002 gibi ana standartların doğrudan Telekomünikasyon sektörünün ihtiyaçlarına göre uyarlanmış halidir."
+        }
+    ]
+}

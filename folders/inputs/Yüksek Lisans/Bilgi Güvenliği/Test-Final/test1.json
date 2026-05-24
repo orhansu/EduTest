@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e2f1a660-f6bd-4df5-b922-a9b0c268a0a0",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "Bilgi Güvenliği, Sızma Testleri, Standartlar ve Yasal Mevzuatlar",
+        "difficulty": "Orta",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Bilgi hiyerarşisi modeline göre, eldeki gerçeklikten veriye 'ölçme' ile ulaşılırken; veriden 'bilgiye' ulaşmak için hangi süreç kullanılmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İspat",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kavrayış",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Analiz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sıkıştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Özetleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ders dokümanlarındaki Veri-Bilgi-Özbilgi merdivenine göre; gerçeklikten veriye 'ölçme' ile, veriden bilgiye 'ispat' ile, bilgiden özbilgiye ise 'kavrayış' ile ulaşılır."
+        },
+        {
+            "id": 2,
+            "text": "Kurumların veya ülkelerin sahip olduğu tüm dijital varlıkların (veri merkezleri, sunucular, bulut sistemler vb.) sadece fiziksel ağlarla sınırlı kalmayıp bir ülke toprağı gibi ulusal bir sınır anlayışıyla savunulması gerektiğini ifade eden kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gök Vatan",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Siber Vatan",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Dijital Sınır",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ağ Güvenliği Çemberi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sanal Kalkan",
+                    "correct": false
+                }
+            ],
+            "explanation": "Siber Vatan, ülke sınırlarını aşarak verilerimizin ve dijital varlıklarımızın bulunduğu her alanın korunması gereken bir vatan toprağı olarak görülmesi vizyonudur."
+        },
+        {
+            "id": 3,
+            "text": "Kurumsal sistemlerdeki güvenlik zafiyetlerinin belirlenmesinde kullanılan sızma testi yaşam döngüsünde, 'Zafiyet Taraması' adımından hemen sonra gerçekleştirilen standart aşama aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Raporlama",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bilgi Toplama (Keşif)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Zafiyetlerin İstismar Edilmesi (Exploitation)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "İzlerin Temizlenmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sistemin Ele Geçirilmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sızma testi adımları sırasıyla; planlama, bilgi toplama, zafiyet taraması, zafiyetlerin istismar edilmesi, sistemin ele geçirilmesi, izlerin temizlenmesi ve raporlama şeklindedir."
+        },
+        {
+            "id": 4,
+            "text": "Çok geniş ölçekli kuruluşlarda tüm sistemin zarar görmesi riskini azaltmak ve testin belirli bir alana (örneğin sadece merkez binaya veya son güncellenen ağa) odaklanmasını sağlamak amacıyla daraltılan sızma testi kapsamına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Genel Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Odaklanmış Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kapalı Devre Kapsamı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sınırlı Kapsam",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Fiziksel Kapsam",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sınırlı kapsamlı sızma testleri, sadece belirlenen lokasyonların veya spesifik bilişim ortamlarının test edilmesini içererek genel sistem işleyişine olan etkiyi en aza indirir."
+        },
+        {
+            "id": 5,
+            "text": "ISO/IEC 27000 ailesinde yer alan standartlar birbirinden farklı özel alanları hedefler. Bu standartlardan hangisi, genel ISO/IEC 27002 bilgi güvenliği kurallarının özellikle 'Telekomünikasyon' sektörü için uyarlanmış ve genişletilmiş versiyonudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ISO/IEC 27001",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ISO/IEC 27004",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "ISO/IEC 27005",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "ISO/IEC 27006",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "ISO/IEC 27031",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ders notlarına göre ISO/IEC 27031, ISO/IEC 17799/27002 standardının telekom sektörü için özelleştirilmiş ve uyarlanmış halidir."
+        },
+        {
+            "id": 6,
+            "text": "Türkiye'de internet ortamında yapılan yayınların düzenlenmesi ve bu yayınlar yoluyla işlenen belirli suçlarla mücadele edilmesi amacıyla yürürlüğe giren yasal mevzuat aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "5651 Sayılı Kanun",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "6698 Sayılı Kanun",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "5070 Sayılı Kanun",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "5237 Sayılı Kanun",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5846 Sayılı Kanun",
+                    "correct": false
+                }
+            ],
+            "explanation": "5651 Sayılı Kanun; internet erişim, içerik ve yer sağlayıcıların yükümlülüklerini, yayınların düzenlenmesini ve siber suçlarla mücadeleyi kapsayan yasadır."
+        },
+        {
+            "id": 7,
+            "text": "Bilişim teknolojilerinin güvenlik seviyelerinin belirlenmesi, test edilmesi ve uluslararası düzeyde kabul gören bir değerlendirme sistematiğine (EAL seviyelerine vb.) oturtulması için kullanılan 'Ortak Kriterler (Common Criteria)' standardının numarası nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ISO/IEC 27001",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ISO/IEC 15408",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "ISO/IEC 13335",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IEEE 802.1X",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "BS 7799",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ortak Kriterler (Common Criteria), bilişim ürünlerinin güvenlik seviyesini uluslararası olarak standartlaştıran ISO/IEC 15408 kodlu standarttır."
+        },
+        {
+            "id": 8,
+            "text": "Bir işletim sistemi veya donanımdaki sıfırıncı gün (zero-day) zafiyetinin kamuoyuna duyurulması (disclosure) ile, üreticinin bu açığı kapatacak yamayı (patch) yayınlaması arasında geçen, sistemlerin istismara en açık olduğu tehlikeli süreye ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sömürü Aralığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Keşif Zamanı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Zafiyet Penceresi (Vulnerability Window)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Güvenli Bölge",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yama Test Süreci",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zafiyetin ifşa edilmesi sonrasında başlayıp yamanın sistemlere entegre edilmesine kadar geçen süre literatürde Zafiyet Penceresi (Vulnerability Window) olarak adlandırılır."
+        },
+        {
+            "id": 9,
+            "text": "RSA Laboratuvarları tarafından desteklenen Açık Anahtar Altyapısı (PKI) için oluşturulmuş PKCS standartlar serisinde, kullanıcıların bir sertifika makamından 'Elektronik Sertifika Talebinde' bulunurken kullanması gereken söz dizimi (Certificate Request Syntax) standardı hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "PKCS #1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "PKCS #5",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "PKCS #8",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "PKCS #10",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "PKCS #12",
+                    "correct": false
+                }
+            ],
+            "explanation": "PKCS #10 standardı, açık anahtar altyapısında sertifika talebinde bulunma formatını ve söz dizimini tanımlar."
+        },
+        {
+            "id": 10,
+            "text": "Türkiye'de kişisel verilerin veya kurumsal sırların bilişim sistemleri kullanılarak hukuka aykırı şekilde kaydedilmesi, başkalarına verilmesi/yayılması veya yok edilmesi gibi suç eylemlerine karşılık doğrudan 'hapis cezası' gibi ağır yaptırımların düzenlendiği temel yasa hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "5070 Sayılı Elektronik İmza Kanunu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "5651 Sayılı İnternet Yayınları Kanunu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "4077 Sayılı Tüketicinin Korunması Kanunu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "5846 Sayılı Fikir ve Sanat Eserleri Kanunu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "5237 Sayılı Türk Ceza Kanunu (TCK)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Verilerin hukuka aykırı kaydedilmesi, ele geçirilmesi ve yok edilmesi suçları ve karşılığındaki hapis cezaları 5237 Sayılı Türk Ceza Kanunu'nun ilgili bilişim suçları kısımlarında yer almaktadır."
+        },
+        {
+            "id": 11,
+            "text": "Sosyal mühendislik (teknik olmayan sızma testi) yöntemleri kapsamında; kurumların çöplerine atılan belgelerin, disketlerin veya imha edilmemiş çıktıların karıştırılarak hedefe dair hassas bilgilerin fiziksel olarak elde edilmesi tekniğine literatürde ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çöplük Karıştırma (Dumpster Diving)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Omuz Sörfü (Shoulder Surfing)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Oltalama (Phishing)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Masaüstü Testi (Clean Desk)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tersine Mühendislik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Çöpe atılan, kırpılmamış basılı evraklardan kurum ve çalışanlar hakkında kritik verileri toplamayı amaçlayan pasif bilgi toplama metoduna Dumpster Diving (Çöplük Karıştırma) denir."
+        },
+        {
+            "id": 12,
+            "text": "Açık Web Uygulama Güvenliği Projesi (OWASP) Top 10 listelerine göre (örneğin 2013-2017 dönemi); web uygulamalarında tespit edilen en yaygın, en tehlikeli ve sıklıkla 1. sırada (A1) konumlanan zafiyet türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cross-Site Scripting (XSS)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Injection (Enjeksiyon)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Broken Authentication",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sensitive Data Exposure",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Security Misconfiguration",
+                    "correct": false
+                }
+            ],
+            "explanation": "OWASP listesinde uzun bir süre boyunca en kritik (A1) sırasındaki zafiyet, kötü niyetli kodların sisteme yorumlayıcı üzerinden aktarıldığı Injection (özellikle SQL Injection) saldırıları olmuştur."
+        },
+        {
+            "id": 13,
+            "text": "Açık kaynaklı ve yaygın olarak kullanılan bir metodoloji olan OSSTMM (Open Source Security Testing Methodology Manual) çerçevesinde; kurumsal güvenlik sızma testleri yapısal olarak toplam kaç 'ana bölüm' altında toplanmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "3",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "4",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "6",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "8",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "10",
+                    "correct": false
+                }
+            ],
+            "explanation": "OSSTMM modeline göre sızma testleri; bilgi güvenliği, süreç güvenliği, internet teknolojileri güvenliği, iletişim güvenliği, kablosuz ağ güvenliği ve fiziksel güvenlik olmak üzere toplam 6 ana bölüme ayrılmıştır."
+        },
+        {
+            "id": 14,
+            "text": "Güvenli yazılım geliştirme süreçlerinde bir uygulamanın ağ veya dosya sistemi arayüzlerine tümüyle rastgele veya formatı bozuk veri yığınları (input) gönderilerek, uygulamanın çöküp çökmediğinin, hataları nasıl karşıladığının test edildiği yönteme ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Statik Kod Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tersine Mühendislik",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sızma Testi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Fuzz Testleri (Fuzzing)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kara Kutu Ağ Haritalama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fuzz testleri (Fuzzing), yazılımların girdi denetimi (input validation) ve çökme (crash) senaryolarını test etmek amacıyla arayüzlerine devasa ve anlamsız/rastgele veri yükleri gönderilmesidir."
+        },
+        {
+            "id": 15,
+            "text": "Güvenlik testi uygulanacak bilişim sistemleri hakkında testi yapacak olan takıma başlangıçta hiçbir kurum bilgisinin, ağ şemasının ve sistem erişim yetkisinin verilmediği, tamamen dışarıdan bilgisiz bir saldırganın simüle edildiği test türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Beyaz Kutu (White Box) Testi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gri Kutu (Gray Box) Testi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mavi Kutu (Blue Box) Testi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Odaklanmış Kapsamlı Test",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kara Kutu (Black Box) Testi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kara Kutu (Black Box) testlerinde güvenlik uzmanlarına önceden sistemin içyapısı veya işleyişi hakkında hiçbir teknik bilgi veya yetki verilmez."
+        },
+        {
+            "id": 16,
+            "text": "Kurumsal bilgi güvenliği yönetiminin hiyerarşik piramit yapısı incelendiğinde; sistemin genel amacını, stratejisini ve üst yönetimin beklentilerini ortaya koyarak bu piramidin en üstünde (zirvesinde) yer alan temel doküman/kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Politika",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Standart",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Prosedürler",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kılavuzlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Talimatlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilgi güvenliği yönetim hiyerarşisi piramidinin en üst noktasında 'Politika' bulunur. Politikalar stratejik hedefleri belirler, standartlar ve prosedürler bu politikayı altyapıya uygular."
+        },
+        {
+            "id": 17,
+            "text": "İşlenen video derslerindeki güncel gelişmelerde de ifade edilen; süper yapay zeka özelliklerine sahip olduğu düşünülen, bir ülkenin siber ağlarındaki zafiyetleri ve açık portları anında haritalandırabildiği için barındırdığı yüksek riskler nedeniyle yayınlanmasından son anda vazgeçilen platformun adı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Stuxnet AI",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cloud Mitos (Mitos)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Reaper APT",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "MuddyWater",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nautilus Tool",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ders kayıtlarında 'Mitos' adlı yapay zeka modelinin tüm ülkelerin sistem açıklarını kısa sürede bulup raporlayabildiği, bu büyük zafiyet potansiyeli sebebiyle yayınlanmasının durdurulduğu aktarılmaktadır."
+        },
+        {
+            "id": 18,
+            "text": "Açık Anahtar Altyapısı (PKI) kullanan standartlarda, bir özel anahtar (Private Key) diziliminin bellekte veya transferde nasıl oluşturulacağını, hangi formatta yapılandırılacağını (Özel anahtar bilgi söz dizimi standardı) belirleyen PKCS dokümanı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "PKCS #1",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "PKCS #5",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "PKCS #8",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "PKCS #10",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "PKCS #11",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sunum notlarında, PKCS #8 standardının 'Özel Anahtar Bilgi Söz Dizimi (Private-Key Information Syntax Standard)' formatını tanımladığı belirtilmektedir."
+        },
+        {
+            "id": 19,
+            "text": "Ders anlatımlarında mizahi bir biçimde 'sucuk işletmecisi' örneği (canlı inek girer sucuk çıkar, fakat üretilen sucuktan canlı ineğe geri dönülemez) kullanılarak mantığı açıklanan kriptografik algoritma türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Asimetrik (Açık Anahtarlı) Şifreleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Simetrik Çarpanlarına Ayırma Fonksiyonları",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Blok Şifreleme İşlem Kipleri (Mode of Operation)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tek Yönlü Özetleme (Hash) Fonksiyonları",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kayıplı Veri Sıkıştırma Fonksiyonları",
+                    "correct": false
+                }
+            ],
+            "explanation": "Özetleme (Hash) fonksiyonları tek yönlü çalışır; büyük boyutlu bir veriyi sabit uzunlukta eşsiz bir dizeye (özete) dönüştürürler ve bu özetten orijinal metni geri elde etmek matematiksel olarak imkânsızdır."
+        },
+        {
+            "id": 20,
+            "text": "Güvenlik testlerinin bilişim sistemlerine olan etkileri üç ana kategoriye ayrılır. Hizmet aksattırma (DDoS), verilerin değiştirilmesi, yönlendiricilerin çökertilmesi ve zararlı kod yerleştirilmesi gibi doğrudan sistemi devreden çıkarmaya yönelik yüksek riskli simülasyonları içeren test sınıfı hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Pasif Testler",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Normal Testler",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Masaüstü (Clean Desk) Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Statik Kod Analizi Testleri",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Aktif Testler",
+                    "correct": true
+                }
+            ],
+            "explanation": "Aktif testler, sistemlerin normal çalışma koşullarını bozan, zarar veren veya tamamen durmasına sebep olabilecek hizmet aksattırma gibi saldırı tekniklerini tam olarak uygulayan en agresif test türüdür."
+        }
+    ]
+}

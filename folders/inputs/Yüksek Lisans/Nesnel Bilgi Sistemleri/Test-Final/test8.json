@@ -1,0 +1,656 @@
+{
+    "meta": {
+        "id": "9f3a42d1-e5b6-4c7a-8f9d-1a2b3c4d5e6f",
+        "title": "test 8",
+        "subject": "test 8",
+        "topic": "OOP, Tasarım Desenleri, C# ve UML",
+        "difficulty": "Karışık",
+        "grade": "Üniversite / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Nesne yönelimli programlamada, bir sınıfın iç yapısının (değişkenlerinin) dış dünyadan gizlenmesi ve bu verilere erişimin yalnızca kontrollü metotlar veya özellikler (property) üzerinden yapılması ilkesine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kapsülleme (Encapsulation)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Çok biçimlilik (Polymorphism)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Soyutlama (Abstraction)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kalıtım (Inheritance)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Modülerlik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kapsülleme (Encapsulation), nesnenin verisini dışarıdan doğrudan müdahalelere kapatarak korur ve yalnızca izin verilen kurallar dâhilinde (get/set) değiştirilmesini sağlar."
+        },
+        {
+            "id": 2,
+            "text": "UML sınıf diyagramlarında bir özelliğin veya metodun dışarıdan (herkesten) erişilebilir 'açık' (public) olduğunu göstermek için isimden önce hangi sembol kullanılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "-",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "+",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "#",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "~",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "*",
+                    "correct": false
+                }
+            ],
+            "explanation": "UML standartlarında '+' sembolü public (açık), '-' sembolü private (özel) ve '#' sembolü protected (korumalı) erişim seviyelerini ifade eder."
+        },
+        {
+            "id": 3,
+            "text": "Bir sınıftan sistem genelinde sadece tek bir nesne (instance) oluşturulmasını ve bu nesneye global bir erişim noktası sağlanmasını garanti eden yaratımsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Prototype (Prototip)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Abstract Factory (Soyut Fabrika)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Singleton (Tekillik)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Builder (İnşaatçı)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Factory Method (Fabrika Metodu)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Singleton deseni, constructor'ı private yaparak dışarıdan nesne türetilmesini engeller ve sistemin her yerinden aynı tekil referansa ulaşılmasını sağlar."
+        },
+        {
+            "id": 4,
+            "text": "C# dilinde İterasyon (Iterator) örüntüsünü uygularken, döngünün o anki durumunu (state) bellekte dondurup her adımda sıradaki elemanı döndürmeyi sağlayan ve ekstra bir `IEnumerator` sınıfı yazma ihtiyacını ortadan kaldıran ifade aşağıdakilerden hangisidir?",
+            "code": "public IEnumerator<int> GetNumbers() {\n    for(int i = 0; i < 5; i++) {\n        [???] i;\n    }\n}",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "await task",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "return next",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "continue var",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "yield return",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "async yield",
+                    "correct": false
+                }
+            ],
+            "explanation": "'yield return' anahtar kelime çifti, döngünün durumunu koruyarak koleksiyondan birer birer (iteratif) değer dönülmesini sağlar ve arka planda state-machine tabanlı bir enumerator oluşturur."
+        },
+        {
+            "id": 5,
+            "text": "Aşağıdaki C# kodu çalıştırıldığında polimorfizm davranışı gereği ekrana hangi çıktı yazdırılır?",
+            "code": "public class Animal {\n    public virtual void MakeSound() { Console.Write(\"Animal \"); }\n}\npublic class Dog : Animal {\n    public new void MakeSound() { Console.Write(\"Bark \"); }\n}\n\n// Main metodu içerisi:\nAnimal myPet = new Dog();\nmyPet.MakeSound();",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bark",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bark Animal",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Animal Bark",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Derleme hatası verir",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Animal",
+                    "correct": true
+                }
+            ],
+            "explanation": "Alt sınıfta 'new' kelimesi kullanıldığında metot ezilmez (override edilmez), sadece alt sınıf kapsamında gizlenir (method hiding). Referans türü Animal olduğu için temel sınıftaki asıl metot (Animal) çağrılır."
+        },
+        {
+            "id": 6,
+            "text": "Bir nesnenin durumunda (state) değişiklik olduğunda, bu nesneye kayıtlı (abone olmuş) tüm bağımlı nesnelere otomatik olarak bildirim gönderilmesini sağlayan ve 'yayıncı-abone' (publish-subscribe) mantığına dayanan tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Observer (Gözlemci)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Command (Komut)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Strategy (Strateji)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "State (Durum)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mediator (Arabulucu)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Observer (Gözlemci) deseni, bir Özne'nin (Subject) durumu değiştiğinde ona kayıtlı tüm Gözlemcilere (Observers) eşzamanlı bildirim gönderilmesini sağlar."
+        },
+        {
+            "id": 7,
+            "text": "İlişkisel veritabanı tablolarındaki verileri, nesne yönelimli programlama dillerindeki sınıflarla ve nesnelerle otomatik olarak eşleştirerek geliştiricinin doğrudan SQL sorguları yazma yükünü azaltan teknolojiye ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "MVC (Model-View-Controller)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "ORM (Object Relational Mapping)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "DI (Dependency Injection)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "UML (Unified Modeling Language)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "API (Application Programming Interface)",
+                    "correct": false
+                }
+            ],
+            "explanation": "ORM (Object Relational Mapping), ilişkisel veritabanı satırlarını doğrudan yazılımdaki nesnelere dönüştüren bir köprü görevi görür."
+        },
+        {
+            "id": 8,
+            "text": "UML sınıf diyagramlarında modellenen iki nesne arasında, \"parça\" olan nesnenin bağımsız bir varoluşunun bulunmadığı ve \"bütün\" olan nesne silindiğinde parça nesnelerin de yok olmak zorunda olduğu sıkı \"parça-bütün\" (Composition) ilişkisi hangi sembolle gösterilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ucu boş üçgen ok",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İçi boş baklava dilimi (Empty Diamond)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İçi dolu baklava dilimi (Filled Diamond)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Kesik çizgili ucu açık ok",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Düz çizgi ucunda kesik ok",
+                    "correct": false
+                }
+            ],
+            "explanation": "Composition (Bileşim), sahipliğin çok güçlü olduğu bir ilişkidir ve içi dolu baklava dilimi ile gösterilir. Örn: Uçak nesnesi silinirse, Motor nesnesi de silinir."
+        },
+        {
+            "id": 9,
+            "text": "Nesnelerin iç yapısını veya kalıtım hiyerarşisini değiştirmeden (Açık/Kapalı prensibine uyarak), mevcut bir nesneye çalışma zamanında (dinamik olarak) yeni özellikler ve davranışlar eklemek için o nesneyi sarmalayan (wrap eden) yapısal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Facade (Fasat)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Adapter (Adaptör)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Proxy (Vekil)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Decorator (Dekoratör)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Composite (Bileşik)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Decorator (Dekoratör) deseni, nesneleri esnek bir şekilde sarmalayarak, alt sınıf oluşturma (kalıtım) kalabalığına girmeden onlara çalışma anında yeni yetenekler kazandırır."
+        },
+        {
+            "id": 10,
+            "text": "Soyut sınıflar (Abstract Classes) hakkında aşağıda verilen ifadelerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Soyut sınıfların içerisindeki tüm metotların gövdesiz (soyut) olması zorunludur.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Soyut sınıflar sadece arayüzleri (interface) genişletebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bir sınıf aynı anda birden fazla soyut sınıftan kalıtım alabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Soyut sınıfların yapıcı (constructor) metotları olamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Soyut sınıflardan 'new' anahtar kelimesi ile doğrudan fiziksel bir nesne (instance) üretilemez.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Soyut sınıflar yarım kalmış metotlar (şablonlar) barındırabildiği için mantıksal bir varlık olarak kabul edilirler ve doğrudan 'new' operatörü ile örneklenmelerine (instantiation) izin verilmez."
+        },
+        {
+            "id": 11,
+            "text": "ASP.NET Core uygulamalarında Bağımlılık Enjeksiyonu (DI) kullanırken, bir servisin uygulama ilk başlatıldığında bir kez oluşturulup, uygulamanın yaşam döngüsü boyunca her talebe aynı nesne örneğinin (referansının) dönmesini sağlayan servis kayıt metodu hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "AddSingleton",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "AddTransient",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "AddScoped",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "AddHostedService",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "AddDbContext",
+                    "correct": false
+                }
+            ],
+            "explanation": "AddSingleton metodu, ilgili sınıfı Singleton deseni mantığıyla sadece bir kere belleğe çıkarır ve uygulama ayakta kaldığı sürece her istemciye aynı kopyayı sunar."
+        },
+        {
+            "id": 12,
+            "text": "İstemcinin (Client), kullanılacak somut sınıfların isimlerini bilmesine gerek kalmadan; birbirleriyle uyumlu çalışması gereken nesne ailelerini (Örneğin; Mac tarzı Buton ve Metin Kutusu veya Windows tarzı Buton ve Metin Kutusu) tek bir arayüz üzerinden oluşturmasına imkân tanıyan yaratımsal tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Abstract Factory (Soyut Fabrika)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Builder (İnşaatçı)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Prototype (Prototip)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Singleton (Tekillik)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Abstract Factory (Soyut Fabrika) deseni, birbiriyle ilgili nesne aileleri (uyumlu ürün grupları) üretmek için ortak bir arayüz tanımlar ve istemciyi somut sınıflardan izole eder."
+        },
+        {
+            "id": 13,
+            "text": "C# programlama dilinde bir sınıf tanımının başına `sealed` anahtar kelimesi eklendiğinde sınıf üzerinde nasıl bir kısıtlama uygulanmış olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınıftan 'new' ile nesne üretilmesi engellenir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıfın metotlarına dışarıdan erişim tamamen kapatılır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sınıfın başka bir sınıf tarafından kalıtım yoluyla miras alınması (genişletilmesi) engellenir.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sınıf içerisindeki tüm değişkenlerin değeri salt okunur (read-only) hale gelir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınıf sadece statik metotlar barındırabilir hale gelir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "`sealed` (mühürlü) anahtar kelimesi sınıfın kalıtım hiyerarşisinin son noktası olduğunu ifade eder ve alt sınıflarca devralınmasını yasaklar."
+        },
+        {
+            "id": 14,
+            "text": "Bir işlemi veya algoritmayı (Örneğin: Rapor Formatlama) yapmanın farklı yollarını kendi sınıfları içine kapsülleyen ve istemcinin bu algoritmaları çalışma zamanında (runtime) birbiriyle değiştirebilmesine (dinamik geçişe) olanak sağlayan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Template Method",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "State",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Command",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Strategy (Strateji)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Iterator",
+                    "correct": false
+                }
+            ],
+            "explanation": "Strategy (Strateji) deseni, belirli bir görevi (örn: sıralama, dışa aktarma) yapmanın farklı algoritmalarını ayrı sınıflara taşır ve bağlam kodunu if-else bloklarından kurtarır."
+        },
+        {
+            "id": 15,
+            "text": "C# dilinde polimorfizmi (çok biçimliliği) uygulamak adına, temel sınıfta (base class) bulunan bir metodun alt sınıflarda (derived classes) ezilip yeniden tanımlanabilmesi için sırasıyla hangi anahtar kelimelerin kullanılması gereklidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "abstract / new",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "static / override",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "sealed / new",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "override / virtual",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "virtual / override",
+                    "correct": true
+                }
+            ],
+            "explanation": "Temel sınıfta metodun alt sınıflarca değiştirilebileceğini 'virtual' ile beyan ederiz, alt sınıfta ise bu yeni davranışı atamak için 'override' kelimesini kullanırız."
+        },
+        {
+            "id": 16,
+            "text": "Nesnelerin sınıflarını ve iç yapılarını değiştirmeden, o elemanlar üzerinde yeni operasyonlar (işlemler) tanımlanmasını sağlayan ve \"Çifte Dağıtım\" (Double Dispatch - `element.Accept(visitor)` ve `visitor.Visit(this)`) mekanizmasıyla çalışan davranışsal tasarım deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Visitor (Ziyaretçi)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Mediator (Arabulucu)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Iterator (Yineleyici)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Memento (Hatıra)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Chain of Responsibility (Sorumluluk Zinciri)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Visitor deseni, yapısı oturmuş nesnelere yapıyı bozmadan yeni işlevler kazandırmak için kullanılır ve nesnenin (element) ziyaretçiyi kabul etmesi mekanizmasına (Double Dispatch) dayanır."
+        },
+        {
+            "id": 17,
+            "text": "UML sınıf diyagramlarında bir sınıfın (Class) bir arayüzü (Interface) uyguladığını (Implementation / Realization) göstermek için kullanılan ok notasyonu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Düz çizgi ve içi dolu baklava dilimi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kesik çizgi ve içi boş üçgen ok",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Düz çizgi ve içi boş üçgen ok",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kesik çizgi ve içi dolu üçgen ok",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kesik çizgi ve ucu açık ok",
+                    "correct": false
+                }
+            ],
+            "explanation": "Arayüz gerçekleştirimi (realization), kalıtıma (inheritance - düz çizgi) benzemekle birlikte kesik çizgiden oluşan ve ucu içi boş bir üçgen olan ok ile çizilir."
+        },
+        {
+            "id": 18,
+            "text": "Karmaşık bir alt sistemdeki (subsystem) çok sayıda sınıfın etkileşimini gizleyerek, istemcilere (clients) bu sistemi kolayca kullanabilmeleri için tek ve basitleştirilmiş bir üst düzey arayüz sunan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Adapter (Adaptör)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Composite (Bileşik)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Facade (Fasat)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Proxy (Vekil)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bridge (Köprü)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Facade (Fasat) deseni, karmaşık olan arka plan alt sistemlerini kendi içinde sarmalayarak kullanıcıya tek bir basitleştirilmiş ön yüz (arayüz) sağlar."
+        },
+        {
+            "id": 19,
+            "text": "C# dilinde bir üyenin (değişken veya metot) başına `static` anahtar sözcüğü eklendiğinde, bu durum bellekte nasıl bir etki yaratır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Üyenin her 'new' çağrısıyla yeni bir kopyası heap bölgesine eklenir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Değişken salt okunur (read-only) olur ve sadece yapıcı metotta değer atanabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Değişken dış dünyadan tamamen izole edilerek private gibi davranır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Üye, sınıfın herhangi bir örneğine değil doğrudan sınıfın kendisine ait olur ve tüm örnekler (instances) bu tekil adresi paylaşır.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Değişkenin ömrü sadece metodun çalıştığı süreyle sınırlandırılır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "`static` ile işaretlenen üyeler class member (sınıf üyesi) haline gelir ve bellek üzerinde sadece tek bir kopya olarak tüm örneklerle (instances) paylaşılırlar."
+        },
+        {
+            "id": 20,
+            "text": "C# dilinde Language Integrated Query (LINQ) teknolojisi kullanılarak bir liste içerisindeki belirli bir koşulu (şartı) sağlayan elemanları filtrelemek (süzmek) için aşağıdaki uzantı (extension) metotlarından hangisi kullanılmalıdır?",
+            "code": "List<int> numbers = new List<int> { 1, 2, 3, 4, 5 };\nvar filtered = numbers.[???](n => n > 2);",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": ".Select()",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": ".Any()",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": ".GroupBy()",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": ".OrderBy()",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": ".Where()",
+                    "correct": true
+                }
+            ],
+            "explanation": "LINQ kütüphanesinde, belirtilen lambda ifadesi (predicate) kuralını sağlayan elemanları koleksiyondan seçip filtrelemek için 'Where' metodu kullanılır."
+        }
+    ]
+}

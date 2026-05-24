@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "c9e54d8f-1a2b-4c3d-9e8f-7b6a5c4d3e2f",
+        "title": "test 5",
+        "subject": "test 5",
+        "topic": "OOP, Tasarım Desenleri, C# ve UML",
+        "difficulty": "Karışık",
+        "grade": "Üniversite / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Yazılım projelerinde \"Object Relational Mapping (ORM)\" yaklaşımının temel amacı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nesneleri bellek üzerinde şifrelemek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Veritabanı işlemlerini nesneler üzerinden otomatikleştirerek yazılım kodunda doğrudan SQL yazma gereksinimini azaltmak",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Nesneler arasındaki ağ bağlantılarını kurmak",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sınıfları doğrudan makine koduna derlemek",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İstemci ve sunucu arasındaki HTTP isteklerini yönetmek",
+                    "correct": false
+                }
+            ],
+            "explanation": "ORM (Object Relational Mapping), ilişkisel veritabanlarındaki verileri nesne yönelimli dillerdeki nesnelerle eşleştirerek SQL sorgularını otomatikleştirir ve kodun daha okunaklı, güvenli olmasını sağlar."
+        },
+        {
+            "id": 2,
+            "text": "Nesne yönelimli programlamada `static` anahtar sözcüğü ile ilgili aşağıdakilerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Static üyeler yalnızca o sınıfın kalıtım alan alt sınıflarından erişilebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıfın her bir nesne (instance) kopyası için bellekte ayrı bir static değişken oluşturulur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Static metotlar içerisinden sınıfın static olmayan değişkenlerine doğrudan erişilebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Static değişkenler ve metotlar sınıfın herhangi bir örneğine (instance) değil, doğrudan sınıfın kendisine aittir.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Static bir sınıf `new` anahtar kelimesi kullanılarak örneklendirilebilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Static anahtar kelimesi ile tanımlanan üyeler (class members) sınıfın kendisine aittir ve tüm örnekler arasında tek bir kopya olarak paylaşılır. Nesne (instance) oluşturulmadan sınıf adıyla çağrılırlar."
+        },
+        {
+            "id": 3,
+            "text": "UML Sınıf Diyagramlarında bir özelliğin veya metodun \"korumalı\" (protected) erişime sahip olduğunu göstermek için hangi işaret kullanılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "+",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "-",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "#",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "~",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "*",
+                    "correct": false
+                }
+            ],
+            "explanation": "UML standartlarına göre \"+\" sembolü public (herkese açık), \"-\" sembolü private (özel), \"#\" sembolü ise protected (korumalı) erişim belirleyicisini simgeler."
+        },
+        {
+            "id": 4,
+            "text": "Yazılım mühendisliğinde \"Tasarım Örüntüsü\" (Design Pattern) kavramı en doğru şekilde nasıl tanımlanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sık karşılaşılan tasarım problemlerine karşı geliştirilmiş, genel ve tekrar kullanılabilir çözüm şablonlarıdır.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Yazılımın kodlanmadan önce veritabanı tablolarının nasıl oluşturulacağını gösteren bir dildir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kodun derlenme süresini kısaltmak için kullanılan donanım optimizasyon teknikleridir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hata ayıklama (debugging) sürecini otomatize eden test yazılımlarıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uygulamanın grafiksel kullanıcı arayüzünü (GUI) tasarlamak için kullanılan kütüphanelerdir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tasarım örüntüleri (Design Patterns), yazılım tasarım sürecinde sık karşılaşılan problemlere yönelik, esnekliği artırıp kodun yeniden kullanılabilirliğini sağlayan sınanmış çözüm yaklaşımlarıdır."
+        },
+        {
+            "id": 5,
+            "text": "Yazılım tasarımında \"Modülerlik\" prensibinin sağladığı temel faydalardan biri aşağıdakilerden hangisi OLAMAZ?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Modüller kavramsallaştırılarak daha kolay tasarlanır ve geliştirilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Farklı takımların büyük yazılım projeleri üzerinde aynı anda çalışmasını kolaylaştırır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bağımsız modüllerin birim testlerinin (unit test) yapılması daha kolaydır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bir modül, başka yazılımların gerçekleştiriminde tekrar tekrar kullanılabilir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Modüller arasındaki sıkı bağımlılıkları artırarak sistemin tek bir parça olarak derlenmesini zorunlu kılar.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Modülerliğin amacı sistemi sıkı bağımlılıklara zorlamak değil; tam aksine sistemi birbirinden bağımsız, test edilebilir, yönetilebilir ve gevşek bağlı (loosely coupled) küçük parçalara (sınıflara/paketlere) ayırmaktır."
+        },
+        {
+            "id": 6,
+            "text": "Soyut sınıflar (Abstract Classes) ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İçlerinde hem gövdesi olan somut metotlar hem de gövdesiz soyut metotlar barındırabilirler.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Soyut sınıflardan `new` anahtar kelimesi kullanılarak doğrudan nesne (instance) türetilebilir.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Sınıf hiyerarşisinde üst sınıflar olarak görev yaparlar ve alt sınıflar için genelleştirme sağlarlar.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İçerdikleri soyut metotların, kalıtım alan somut alt sınıflar tarafından ezilmesi (override) zorunludur.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Soyut bir sınıf başka bir soyut sınıftan kalıtım yoluyla genişletilebilir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Soyut sınıflar, mantıksal taslaklar/şablonlar olduklarından dolayı (tamamlanmamış metotlar barındırabilirler) doğrudan `new` operatörü ile örneklenemezler (instantiation yapılamaz)."
+        },
+        {
+            "id": 7,
+            "text": "Kontrolün Tersine Çevrilmesi (IoC) ve Bağımlılık Enjeksiyonu (DI) kavramlarının temel amacı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nesne oluşturma sorumluluğunu sınıflardan alarak framework veya kapsayıcıya (container) devretmek ve zayıf bağımlılık sağlamak.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sınıfların statik metotlarını artırarak bellek kullanımını azaltmak.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uygulamanın veritabanı bağlantılarını şifreleyerek güvenliği artırmak.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Frontend ve backend arasındaki veri iletişiminde JSON formatını zorunlu kılmak.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yazılımdaki try-catch bloklarının sayısını azaltarak performansı yükseltmek.",
+                    "correct": false
+                }
+            ],
+            "explanation": "IoC ve DI, bir nesnenin bağımlılıklarını (kullandığı diğer sınıfları) kendisinin üretmesi (`new` kullanması) yerine dışarıdan hazır olarak almasını sağlayarak bileşenleri birbirinden bağımsız ve kolay test edilebilir hale getirir."
+        },
+        {
+            "id": 8,
+            "text": "Bir algoritma ailesi tanımlamayı, her birini ayrı bir sınıf içine kapsüllemeyi ve bu algoritmaların çalışma zamanında (runtime) dinamik olarak birbirleri ile değiştirilebilmesini sağlayan davranışsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Observer (Gözlemci)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Template Method (Kalıp Metodu)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Strategy (Strateji)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Command (Komut)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Decorator (Dekoratör)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Strategy (Strateji) tasarım deseni, bağlamı değiştirmeden arka plandaki algoritmaları çalışma zamanında değiştirmeye yarar. Örneğin farklı formatlarda (HTML, Düz Yazı vb.) rapor hazırlama algoritmalarının dinamik seçimi bu desene bir örnektir."
+        },
+        {
+            "id": 9,
+            "text": "Karmaşık bir nesnenin oluşturulması sürecini (construction) onun asıl temsilinden (representation) ayıran ve aynı oluşturma süreci ile farklı varyasyonlarda nesneler üretilmesine olanak tanıyan yaratımsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Abstract Factory",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Singleton",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Adapter",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Composite",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Builder",
+                    "correct": true
+                }
+            ],
+            "explanation": "Builder (İnşaatçı) deseni, özellikle çok parametreli veya farklı malzemelere (varyasyonlara) sahip karmaşık nesnelerin (örneğin evler, pizzalar) adım adım, kontrollü bir şekilde oluşturulmasını sağlar."
+        },
+        {
+            "id": 10,
+            "text": "Bellek kullanımını minimize etmek amacıyla, yüksek miktarda küçük nesne oluşturulması gereken durumlarda nesnelerin ortak (intrinsic) durumlarını paylaşmalarını sağlayan yapısal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Facade",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Proxy",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Prototype",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Flyweight",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Mediator",
+                    "correct": false
+                }
+            ],
+            "explanation": "Flyweight (Sinek Sıklet) tasarım deseni, çok sayıda benzer nesnenin (örneğin bir ormandaki binlerce ağaç nesnesi) belleği tüketmesini engellemek için ortak olan özelliklerin bir kez yaratılıp diğer nesnelerce paylaşılmasını sağlar."
+        },
+        {
+            "id": 11,
+            "text": "C# gibi dillerde, \"İterasyon (Iterator) Örüntüsü\" uygulanırken nesnelerin `foreach` döngüsünde ardışık olarak gezilebilmesi için koleksiyon sınıflarının hangi arayüzü (interface) uygulaması zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "ICloneable",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "IComparable",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IEnumerable",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "IDisposable",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "IQueryable",
+                    "correct": false
+                }
+            ],
+            "explanation": "`IEnumerable` (ve Java'daki `Iterable`) arayüzü, koleksiyonu gezecek olan `GetEnumerator` iteratör metodunun tanımlanmasını mecbur kılarak nesnenin numaralandırılabilir olmasını garanti eder."
+        },
+        {
+            "id": 12,
+            "text": "Karmaşık alt sistemleri istemci (client) için gizleyerek, alt sistemlere daha yüksek seviyeli ve basitleştirilmiş tek bir arayüz sunan yapısal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Facade (Fasat)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Composite (Bileşik)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Adapter (Adaptör)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Chain of Responsibility (Sorumluluk Zinciri)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Visitor (Ziyaretçi)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Facade (Fasat) deseni, karmaşık sistem bileşenlerini sarmalayarak kullanıcıya tek bir basitleştirilmiş ön yüz (arayüz) sağlar (Örneğin; Ev Sinema Sistemi Fasatı)."
+        },
+        {
+            "id": 13,
+            "text": "Bir isteği (request), parametreleriyle birlikte bir nesneye dönüştürerek kapsülleyen; bu sayede isteklerin sıraya konulmasına, loglanmasına veya işlemlerin geri alınmasına (undo/redo) imkân tanıyan davranışsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "State Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Command Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Observer Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Prototype Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Template Method Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Command (Komut) örüntüsü, işlemi yapan nesneyle isteği gönderen nesne arasındaki bağları koparır, isteği komut olarak bir nesneye çevirerek sıraya konmasına veya geri alınabilmesine (undo) olanak tanır."
+        },
+        {
+            "id": 14,
+            "text": "UML Sınıf Diyagramlarında, \"parça-bütün\" ilişkisi kurulan iki nesneden, \"parça\" olan nesnenin yaşam döngüsünün tamamen \"bütün\" olan nesneye sıkı sıkıya bağlı olduğu (Örneğin Araba ve Motor) ilişki türü hangisidir ve hangi şekille gösterilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Birleşim (Aggregation) - İçi boş baklava dilimi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kalıtım (Inheritance) - İçi boş üçgen ok",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bağımlılık (Dependency) - Kesikli ok",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gerçekleme (Realization) - İçi boş kesikli üçgen ok",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bileşim (Composition) - İçi dolu baklava dilimi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bileşim (Composition) sıkı (strong) bir \"has-a\" / \"is-a-part-of\" ilişkisidir. İçi dolu baklava dilimiyle gösterilir; kapsayıcı nesne (bütün) yok edildiğinde kapsanan nesne (parça) de yok olur."
+        },
+        {
+            "id": 15,
+            "text": "C# dilinde polimorfizmi (çok biçimliliği) sağlamak için, temel sınıfta (base class) yer alan bir metodun alt sınıflarda ezilebileceğini (override edilebileceğini) belirtmek için hangi anahtar kelime kullanılır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "sealed",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "static",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "new",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "virtual",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "protected",
+                    "correct": false
+                }
+            ],
+            "explanation": "Alt sınıfların (derived classes) ebeveyndeki bir metodun davranışını kendi içlerinde yeniden kurgulayabilmesi (override) için, o metodun üst sınıfta `virtual` (veya `abstract`) olarak işaretlenmesi gerekir."
+        },
+        {
+            "id": 16,
+            "text": "Bir nesne yapısındaki elemanların sınıflarını değiştirmeden, o elemanlar üzerinde yeni operasyonlar (işlemler) tanımlanmasını sağlayan ve \"Double Dispatch\" (Çifte Dağıtım) mekanizması ile (örn: `element.Accept(visitor)` ve `visitor.Visit(this)`) çalışan davranışsal tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mediator",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Visitor (Ziyaretçi)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Iterator",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Memento",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "State",
+                    "correct": false
+                }
+            ],
+            "explanation": "Visitor deseni, yapısı pek değişmeyen nesneler grubuna yapılarını bozmadan yeni metotlar ve işlemler eklemek (Ziyaretçiyi Accept ile kabul etmek) için kullanılır."
+        },
+        {
+            "id": 17,
+            "text": "Java veya C# dillerinde iki nesnenin referanslarını değil, doğrudan değerlerini (içeriklerini) ve sıralama yönünden büyüklük/küçüklük ilişkilerini karşılaştırmak için `IComparable` (veya `Comparable`) arayüzü ile uygulanan metot aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "equals()",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "clone()",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "compareTo()",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "getHashCode()",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "typeof()",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dizi ve koleksiyon sıralamalarında nesnelerin birbirleriyle karşılaştırılabilmesi için Comparable arayüzünden gelen `compareTo()` metodu kullanılır ve geriye negatif, pozitif veya sıfır tamsayı değeri döner."
+        },
+        {
+            "id": 18,
+            "text": "Aşağıdaki C# kodu çalıştırıldığında polimorfizm davranışı gereği ekrana hangi çıktıyı verir?\n\n```csharp\npublic class Animal {\n    public virtual void MakeSound() { Console.Write(\"Animal \"); }\n}\npublic class Cat : Animal {\n    public new void MakeSound() { Console.Write(\"Meow \"); }\n}\n\nAnimal myPet = new Cat();\nmyPet.MakeSound();\n```",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Animal",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Meow",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Animal Meow",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Meow Animal",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Derleme hatası verir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "`new` anahtar kelimesi metodun `override` edilmediğini, aksine gizlendiğini (method hiding) belirtir. Değişkenin referans tipi `Animal` olduğu için polimorfizm kırılır ve temel sınıftaki orjinal metot olan `Animal` çıktısı verilir."
+        },
+        {
+            "id": 19,
+            "text": "Veritabanı sorgulama ve erişim işlemlerini (CRUD operasyonları) merkezi bir yerde toplayarak iş mantığı (business logic) katmanını veri erişim teknolojisinden yalıtan yapısal desen / mimari desen aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Observer Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Builder Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Abstract Factory Pattern",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Repository Pattern",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Proxy Pattern",
+                    "correct": false
+                }
+            ],
+            "explanation": "Repository (Depo) deseni, uygulamanın asıl iş kuralları ile SQL, ORM ve veritabanı spesifik teknolojilerini birbirinden soyutlayıp yönetmek için veri katmanı işlemlerini bir çatı altında toplar."
+        },
+        {
+            "id": 20,
+            "text": "Karmaşık ve oluşturulma maliyeti yüksek bir nesneyi sıfırdan `new` anahtar kelimesi ile üretmek yerine, o anki mevcut halinin (durumunun) kopyasını (klonunu) oluşturarak yeni bir nesne elde edilmesini sağlayan tasarım deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Decorator",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Singleton",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Adapter",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Factory Method",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Prototype",
+                    "correct": true
+                }
+            ],
+            "explanation": "Prototype (Prototip) deseni, baştan yaratılması zaman ve kaynak maliyeti oluşturan nesneleri `ICloneable` gibi arayüzler ve yöntemler üzerinden klonlayarak türetilmesini hedefler."
+        }
+    ]
+}
