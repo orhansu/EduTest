@@ -207,27 +207,27 @@
             "choices": [
                 {
                     "label": "A",
-                    "text": "$%10$",
+                    "text": "$\\%10$",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "$%25$",
+                    "text": "$\\%25$",
                     "correct": true
                 },
                 {
                     "label": "C",
-                    "text": "$%40$",
+                    "text": "$\\%40$",
                     "correct": false
                 },
                 {
                     "label": "D",
-                    "text": "$%60$",
+                    "text": "$\\%60$",
                     "correct": false
                 },
                 {
                     "label": "E",
-                    "text": "$%90$",
+                    "text": "$\\%90$",
                     "correct": false
                 }
             ],

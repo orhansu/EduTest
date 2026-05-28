@@ -111,31 +111,31 @@
             "choices": [
                 {
                     "label": "A",
-                    "text": "\\\\( T = f^2 \\\\)",
+                    "text": "\\( T = f^2 \\)",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "\\\\( T = 2\\\\pi f \\\\)",
+                    "text": "\\( T = 2\\pi f \\)",
                     "correct": false
                 },
                 {
                     "label": "C",
-                    "text": "\\\\( T = c / f \\\\)",
+                    "text": "\\( T = c / f \\)",
                     "correct": false
                 },
                 {
                     "label": "D",
-                    "text": "\\\\( T = 1 / f \\\\)",
+                    "text": "\\( T = 1 / f \\)",
                     "correct": true
                 },
                 {
                     "label": "E",
-                    "text": "\\\\( T = f / c \\\\)",
+                    "text": "\\( T = f / c \\)",
                     "correct": false
                 }
             ],
-            "explanation": "Periyot (T), frekansın (f) matematiksel tersidir ve saniye cinsinden hesaplanan formülü \\\\( T = 1 / f \\\\) şeklindedir."
+            "explanation": "Periyot (T), frekansın (f) matematiksel tersidir ve saniye cinsinden hesaplanan formülü \\( T = 1 / f \\) şeklindedir."
         },
         {
             "id": 5,
@@ -271,31 +271,31 @@
             "choices": [
                 {
                     "label": "A",
-                    "text": "\\\\( C = 2B \\\\log_2(M) \\\\)",
+                    "text": "\\( C = 2B \\log_2(M) \\)",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "\\\\( C = B \\\\log_{10}(SNR) \\\\)",
+                    "text": "\\( C = B \\log_{10}(SNR) \\)",
                     "correct": false
                 },
                 {
                     "label": "C",
-                    "text": "\\\\( C = SNR \\\\log_2(1 + B) \\\\)",
+                    "text": "\\( C = SNR \\log_2(1 + B) \\)",
                     "correct": false
                 },
                 {
                     "label": "D",
-                    "text": "\\\\( C = B \\\\log_2(1 + SNR) \\\\)",
+                    "text": "\\( C = B \\log_2(1 + SNR) \\)",
                     "correct": true
                 },
                 {
                     "label": "E",
-                    "text": "\\\\( C = 2B \\\\log_{10}(1 + SNR) \\\\)",
+                    "text": "\\( C = 2B \\log_{10}(1 + SNR) \\)",
                     "correct": false
                 }
             ],
-            "explanation": "Gürültülü kanallarda Shannon'un geliştirdiği formül \\\\( C = B \\\\log_2(1 + SNR) \\\\) şeklindedir. A şıkkı ise gürültüsüz kanallar için Nyquist teoremidir."
+            "explanation": "Gürültülü kanallarda Shannon'un geliştirdiği formül \\( C = B \\log_2(1 + SNR) \\) şeklindedir. A şıkkı ise gürültüsüz kanallar için Nyquist teoremidir."
         },
         {
             "id": 10,
@@ -331,7 +331,7 @@
         },
         {
             "id": 11,
-            "text": "Hata kontrol kodlama yöntemlerinden olan lineer blok kodlarda, sistemin minimum Hamming uzaklığı (\\\\( d_{min} \\\\)) 3 olarak belirlenmiştir. Bu sistem, en fazla kaç bitlik hatayı (t) kesin olarak 'düzeltebilir'?",
+            "text": "Hata kontrol kodlama yöntemlerinden olan lineer blok kodlarda, sistemin minimum Hamming uzaklığı (\\( d_{min} \\)) 3 olarak belirlenmiştir. Bu sistem, en fazla kaç bitlik hatayı (t) kesin olarak 'düzeltebilir'?",
             "choices": [
                 {
                     "label": "A",
@@ -359,7 +359,7 @@
                     "correct": false
                 }
             ],
-            "explanation": "Hata düzeltme kapasitesi (t) ile minimum Hamming uzaklığı arasındaki formül \\\\( d_{min} = 2t + 1 \\\\) şeklindedir. \\\\( 3 = 2t + 1 \\\\Rightarrow t = 1 \\\\) olarak bulunur."
+            "explanation": "Hata düzeltme kapasitesi (t) ile minimum Hamming uzaklığı arasındaki formül \\( d_{min} = 2t + 1 \\) şeklindedir. \\( 3 = 2t + 1 \\Rightarrow t = 1 \\) olarak bulunur."
         },
         {
             "id": 12,
@@ -455,7 +455,7 @@
                     "correct": false
                 }
             ],
-            "explanation": "Sinyal durum sayısı (M) verildiğinde iletilebilecek bit sayısı \\\\( \\\\log_2(M) \\\\) ile bulunur. 16-QAM için \\\\( M = 16 \\\\) olduğundan \\\\( \\\\log_2(16) = 4 \\\\) bit taşıma kapasitesine ulaşılır."
+            "explanation": "Sinyal durum sayısı (M) verildiğinde iletilebilecek bit sayısı \\( \\log_2(M) \\) ile bulunur. 16-QAM için \\( M = 16 \\) olduğundan \\( \\log_2(16) = 4 \\) bit taşıma kapasitesine ulaşılır."
         },
         {
             "id": 15,
@@ -523,67 +523,67 @@
         },
         {
             "id": 17,
-            "text": "Frekansı 12 GHz ve çapı (D) 2 metre olan bir parabolik çanak antenin etki alanı (\\\\( A_e \\\\)) hesaplanmak isteniyor. Verimlilik faktörü (\\\\( \\\\eta \\\\)) teorik olarak 0.6 kabul edildiğinde ve \\\\( \\\\pi \\\\approx 3.14 \\\\) alındığında, antenin etki alanı yaklaşık olarak kaç metrekaredir?",
+            "text": "Frekansı 12 GHz ve çapı (D) 2 metre olan bir parabolik çanak antenin etki alanı (\\( A_e \\)) hesaplanmak isteniyor. Verimlilik faktörü (\\( \\eta \\)) teorik olarak 0.6 kabul edildiğinde ve \\( \\pi \\approx 3.14 \\) alındığında, antenin etki alanı yaklaşık olarak kaç metrekaredir?",
             "choices": [
                 {
                     "label": "A",
-                    "text": "0.60 \\\\( m^2 \\\\)",
+                    "text": "0.60 \\( m^2 \\)",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "1.88 \\\\( m^2 \\\\)",
+                    "text": "1.88 \\( m^2 \\)",
                     "correct": true
                 },
                 {
                     "label": "C",
-                    "text": "3.14 \\\\( m^2 \\\\)",
+                    "text": "3.14 \\( m^2 \\)",
                     "correct": false
                 },
                 {
                     "label": "D",
-                    "text": "4.20 \\\\( m^2 \\\\)",
+                    "text": "4.20 \\( m^2 \\)",
                     "correct": false
                 },
                 {
                     "label": "E",
-                    "text": "7.53 \\\\( m^2 \\\\)",
+                    "text": "7.53 \\( m^2 \\)",
                     "correct": false
                 }
             ],
-            "explanation": "Parabolik çanak etki alanı formülü \\\\( A_e = \\\\eta \\\\pi r^2 \\\\) şeklindedir. Çap (D)=2m ise yarıçap (r)=1m'dir. \\\\( A_e = 0.6 \\\\times 3.14 \\\\times (1)^2 = 1.884 \\\\approx 1.88 \\\\, m^2 \\\\) hesaplanır."
+            "explanation": "Parabolik çanak etki alanı formülü \\( A_e = \\eta \\pi r^2 \\) şeklindedir. Çap (D)=2m ise yarıçap (r)=1m'dir. \\( A_e = 0.6 \\times 3.14 \\times (1)^2 = 1.884 \\approx 1.88 \\, m^2 \\) hesaplanır."
         },
         {
             "id": 18,
-            "text": "Uydu ve mikrodalga iletişimlerinde, alıcı hassasiyetini düşüren en büyük etken elektron hareketlerinden kaynaklanan termal gürültüdür. Bu gürültünün formülü (\\\\( N_0 = kT \\\\)) hesaplanırken kullanılan Boltzmann sabitinin (k) yaklaşık değeri aşağıdakilerden hangisidir?",
+            "text": "Uydu ve mikrodalga iletişimlerinde, alıcı hassasiyetini düşüren en büyük etken elektron hareketlerinden kaynaklanan termal gürültüdür. Bu gürültünün formülü (\\( N_0 = kT \\)) hesaplanırken kullanılan Boltzmann sabitinin (k) yaklaşık değeri aşağıdakilerden hangisidir?",
             "choices": [
                 {
                     "label": "A",
-                    "text": "\\\\( 3 \\\\times 10^8 \\\\) J/K",
+                    "text": "\\( 3 \\times 10^8 \\) J/K",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "\\\\( 6.626 \\\\times 10^{-34} \\\\) J/K",
+                    "text": "\\( 6.626 \\times 10^{-34} \\) J/K",
                     "correct": false
                 },
                 {
                     "label": "C",
-                    "text": "\\\\( 1.38 \\\\times 10^{-23} \\\\) J/K",
+                    "text": "\\( 1.38 \\times 10^{-23} \\) J/K",
                     "correct": true
                 },
                 {
                     "label": "D",
-                    "text": "\\\\( 9.81 \\\\times 10^2 \\\\) J/K",
+                    "text": "\\( 9.81 \\times 10^2 \\) J/K",
                     "correct": false
                 },
                 {
                     "label": "E",
-                    "text": "\\\\( 1.602 \\\\times 10^{-19} \\\\) J/K",
+                    "text": "\\( 1.602 \\times 10^{-19} \\) J/K",
                     "correct": false
                 }
             ],
-            "explanation": "Termal gürültü hesaplamalarında (KxTxB) Joule/Kelvin cinsinden kullanılan Boltzmann sabiti (k) fiziksel olarak yaklaşık \\\\( 1.38 \\\\times 10^{-23} \\\\) değerine sahiptir."
+            "explanation": "Termal gürültü hesaplamalarında (KxTxB) Joule/Kelvin cinsinden kullanılan Boltzmann sabiti (k) fiziksel olarak yaklaşık \\( 1.38 \\times 10^{-23} \\) değerine sahiptir."
         },
         {
             "id": 19,
@@ -615,7 +615,7 @@
                     "correct": false
                 }
             ],
-            "explanation": "25 MHz bandı, birim uyumluluğu için 25.000 kHz'e dönüştürülür. Tüm bandı kanal genişliğine bölersek: \\\\( 25000 / 200 = 125 \\\\) adet kanal oluşturulur."
+            "explanation": "25 MHz bandı, birim uyumluluğu için 25.000 kHz'e dönüştürülür. Tüm bandı kanal genişliğine bölersek: \\( 25000 / 200 = 125 \\) adet kanal oluşturulur."
         },
         {
             "id": 20,
@@ -623,31 +623,31 @@
             "choices": [
                 {
                     "label": "A",
-                    "text": "\\\\( n \\\\)",
+                    "text": "\\( n \\)",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "\\\\( 2n \\\\)",
+                    "text": "\\( 2n \\)",
                     "correct": false
                 },
                 {
                     "label": "C",
-                    "text": "\\\\( n^2 \\\\)",
+                    "text": "\\( n^2 \\)",
                     "correct": false
                 },
                 {
                     "label": "D",
-                    "text": "\\\\( 2^{n-1} \\\\)",
+                    "text": "\\( 2^{n-1} \\)",
                     "correct": false
                 },
                 {
                     "label": "E",
-                    "text": "\\\\( 2^n - 1 \\\\)",
+                    "text": "\\( 2^n - 1 \\)",
                     "correct": true
                 }
             ],
-            "explanation": "LFSR devreleri teorik olarak n bitten \\\\( 2^n \\\\) farklı durum üretebilir, ancak tamamı 0 olan durum cihazı kilitlediği için bu durum atlanır ve en büyük tekrar periyodu \\\\( 2^n - 1 \\\\) olur."
+            "explanation": "LFSR devreleri teorik olarak n bitten \\( 2^n \\) farklı durum üretebilir, ancak tamamı 0 olan durum cihazı kilitlediği için bu durum atlanır ve en büyük tekrar periyodu \\( 2^n - 1 \\) olur."
         }
     ]
 }

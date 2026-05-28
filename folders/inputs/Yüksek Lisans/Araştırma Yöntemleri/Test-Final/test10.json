@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e9b4c5d6-11f2-4a5b-9c8d-7a6b5c4d3e2f",
+        "title": "test 10",
+        "subject": "test 10",
+        "topic": "Araştırma Yöntemleri ve Etik - Deneme Sınavı 10",
+        "difficulty": "Karma",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tBir araştırmacı, bilimsel araştırma sürecini planlarken literatürde karşılaştığı saygın bir profesörün geliştirdiği kuramı hiçbir eleştirel süzgeçten geçirmeden, \"Alanında en iyisi o olduğu için bu kuram kesinlikle doğrudur.\" diyerek çalışmasının mutlak temeline almıştır.\n\n---\n\nBu araştırmacının bilgiyi edinme yolu aşağıdakilerden hangisi ile ifade edilebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Otoriteye başvurma (Uzman görüşü)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sosyal doğrulama (Görüş birliği)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Duyusal deneyim",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tümdengelim",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bilimsel yöntem",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilgiyi konunun uzmanı kabul edilen kişilerden veya saygın kaynaklardan eleştirel bir değerlendirme yapmaksızın doğrudan doğru kabul ederek edinme yoluna otoriteye başvurma denir."
+        },
+        {
+            "id": 2,
+            "text": "\tBir eğitim araştırmacısı, öğrencilerin 'derse yönelik motivasyon düzeylerinin', 'akademik başarıları' üzerindeki etkisini incelemektedir. Araştırma sürecinde, öğrencilerin geçmiş yıllardaki 'ders çalışma alışkanlıklarının' da motivasyon ile başarı arasındaki bu temel ilişkiyi artırdığını veya azalttığını (düzenlediğini) tespit etmiştir.\n\n---\n\nBu araştırmadaki 'ders çalışma alışkanlıkları' ne tür bir değişkendir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bağımlı değişken",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Düzenleyici değişken",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Dışsal (Bozucu) değişken",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bağımsız değişken",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sürekli değişken",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bağımlı değişken ile bağımsız değişken arasındaki temel ilişkiyi düzenleyen, düzeyini etkileyen (ikinci düzey bağımsız değişken olarak da bilinen) faktörlere düzenleyici değişken adı verilir."
+        },
+        {
+            "id": 3,
+            "text": "\tPerformansın ölçüldüğü deneysel bir çalışmada, testi ilk kez alanlardan şansı ya da anlık durumu çok iyi olduğu için aşırı yüksek puan alan kişilerin, ikinci kez testi aldıklarında ortalamaya doğru daha düşük puan almaları; ilk testte aşırı düşük puan alanların ise ikinci testte daha yüksek puan alarak ortalamaya yaklaşmaları sık karşılaşılan bir durumdur.\n\n---\n\nDeneysel araştırmalarda iç geçerliği tehdit eden bu etkiye ölçme literatüründe ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Denek kaybı etkisi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Öntest (İletme) etkisi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İstatistiksel regresyon",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Etkileşme etkisi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Olgunlaşma etkisi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uç (aşırı yüksek veya düşük) puan alan deneklerin tekrarlanan ölçümlerde grubun istatistiksel ortalamasına doğru geri dönme (çekilme) eğilimi göstermelerine istatistiksel regresyon (ortalamaya regresyon) denir."
+        },
+        {
+            "id": 4,
+            "text": "\tBir öğretmen, yaptığı yazılı matematik sınavında öğrencilerin kağıtlarını okurken, verdikleri cevapların doğruluğundan tamamen bağımsız olarak, sadece yazısı okunaklı ve düzenli olan öğrencilerin kağıtlarına fazladan 5'er puan eklemiştir.\n\n---\n\nÖğretmenin yaptığı bu puanlama işlemine karışan ölçme hatası türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tesadüfi hata",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sabit hata",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Standart hata",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sistematik hata",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Geçerlik hatası",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hatanın ölçülen büyüklüğe veya ölçülen kişinin özelliklerine (yazı güzelliği gibi) bağlı olarak belli bir kuralla sadece bazı kişilere karışması sistematik hatadır. (Herkese aynı miktarda karışsaydı sabit hata olurdu)."
+        },
+        {
+            "id": 5,
+            "text": "\tMilli Eğitim Bakanlığı, yeni uygulamaya koyduğu bir ders programının öğretmenler tarafından nasıl algılandığını, uygunluğunu ve etkilerini belirlemek istemektedir. Bu amaçla ülke genelinde geniş bir katılımcı grubuna anket uygulayarak mevcut durumu herhangi bir müdahalede bulunmaksızın 'fotoğraflamayı' hedefler.\n\n---\n\nBu araştırma amacı doğrultusunda kullanılması gereken en uygun nicel araştırma deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Deneysel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Nedensel karşılaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eylem araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Korelasyonel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tarama (Betimsel) araştırması",
+                    "correct": true
+                }
+            ],
+            "explanation": "Geniş kitlelerin görüşlerini, algılarını veya tutumlarını herhangi bir müdahale olmaksızın mevcut haliyle betimlemeyi hedefleyen ve durum saptaması yapan araştırmalar tarama (survey) araştırmalarıdır."
+        },
+        {
+            "id": 6,
+            "text": "\tBilimsel araştırma sürecinde elde edilen verilerin, araştırmacının hipotezini desteklemesi amacıyla kasıtlı olarak değiştirilmesi, sonuçların olduğundan daha iyi gösterilmesi veya metodolojide yapılmayan işlemlerin yapılmış gibi raporlanması ciddi bir etik ihlaldir.\n\n---\n\nVerilerin veya bulguların üzerinde oynama yapılması olarak tanımlanan bu etik ihlal türü araştırma etiğinde ne ad alır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bulandırma (Falsification)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dilimleme (Salami Slicing)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kırpma (Cherry-picking)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Elde edilen mevcut araştırma verilerini kasıtlı olarak değiştirmeye, manipüle etmeye ve sonuçları olduğundan farklı göstermeye bulandırma (tahrifat / falsification) denir."
+        },
+        {
+            "id": 7,
+            "text": "\tBir araştırmacı, geliştirdiği \"Yapay Zeka Kaygısı Ölçeği\"nin gerçekten bu soyut psikolojik kavramı ölçüp ölçmediğini kanıtlamak istemektedir. Bunun için elde ettiği veriler üzerinde doğrulayıcı ve açımlayıcı faktör analizi yapmış, ayrıca ölçeğin teorik beklentilerle uyumlu sonuçlar verdiğini istatistiksel olarak test etmiştir.\n\n---\n\nAraştırmacının bu işlemleri ölçeğin öncelikle hangi geçerlik türünü kanıtlamaya yöneliktir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kapsam geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yapı geçerliği",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Görünüş geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yordama geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eşzamanlı geçerlik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Test puanlarının, ölçülmek istenen soyut teorik kavramı (yapıyı) gerçekte ne derece yansıttığını belirten ve faktör analizi gibi istatistiksel analizlerle kanıtlanan özellik yapı geçerliğidir."
+        },
+        {
+            "id": 8,
+            "text": "\tBir tutum ölçeğinin ölçüm sonuçlarının zaman içindeki kararlılığını test etmek isteyen bir araştırmacı, aynı ölçeği aynı öğrenci grubuna üç hafta arayla iki kez uygulamış ve bu iki uygulamadan elde edilen puanlar arasındaki korelasyonu hesaplamıştır.\n\n---\n\nAraştırmacının uyguladığı bu güvenirlik belirleme yöntemi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Paralel formlar yöntemi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Testi yarılama yöntemi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Test-tekrar test yöntemi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Cronbach Alpha",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuder-Richardson 20",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir testin aynı gruba belli aralıklarla iki kez uygulanmasıyla elde edilen puanlar arasındaki kararlılığı (korelasyonu) hesaplamaya dayanan güvenirlik belirleme yöntemi test-tekrar test yöntemidir."
+        },
+        {
+            "id": 9,
+            "text": "\tNitel araştırmalarda, araştırmacının kendi öznel yargılarının ve önyargılarının araştırma sonuçlarını çarpıtmasını engellemek oldukça önemlidir. Bu nedenle araştırmacı, mülakatlardan elde ettiği verileri çözümleyip yorumladıktan sonra, bu yorumların gerçeği yansıtıp yansıtmadığını bizzat görüştüğü kişilere okutarak onların onayını alır.\n\n---\n\nAraştırmacının iç geçerliği (inandırıcılığı) artırmak için başvurduğu bu doğrulama stratejisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzun süreli etkileşim",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Denetleme yolu (Audit trail)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Üçgenleme (Triangulation)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Katılımcı teyidi (Member checking)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Dışsal tutarlılık kontrolü",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının ulaştığı öznel çıkarımların katılımcıların gerçekliğiyle uyuşup uyuşmadığını test etmek için sonuçların katılımcılara onaylatılması katılımcı teyidi (member checking) yöntemidir."
+        },
+        {
+            "id": 10,
+            "text": "\t\"Covid-19 pandemisinin uzaktan çalışma kültürü üzerindeki etkileri\" konulu nitel bir araştırmada; araştırmacı sadece aynı sektörden çalışanları seçmek yerine, özellikle farklı sektörlerden (eğitim, sağlık, bilişim, bankacılık) ve farklı yaş gruplarından kişileri bilerek örneklemine dahil etmiştir. Amacı, bu oldukça farklı durumlar arasındaki ortak örüntüleri ve ayrışan yönleri bütüncül olarak ortaya çıkarmaktır.\n\n---\n\nAraştırmacının kullandığı bu amaçlı örnekleme türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ölçüt örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tipik durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kartopu (Zincir) örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Aykırı durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Maksimum çeşitlilik örneklemesi",
+                    "correct": true
+                }
+            ],
+            "explanation": "İncelenen problemle ilgili evrende kendi içinde benzeşik ama genel olarak birbirinden çok farklı olan zıt durumların bilerek bir araya getirilip analiz edilmesine maksimum çeşitlilik örneklemesi denir."
+        },
+        {
+            "id": 11,
+            "text": "\tBir araştırmacı, bilgisayar destekli öğretim yöntemi ile geleneksel öğretim yönteminin uygulandığı iki farklı grubun matematik başarılarını karşılaştırmak istemektedir. Çalışmanın başında, \"Bilgisayar destekli öğretim yapılan öğrencilerin başarı puanları ile geleneksel öğretim yapılan öğrencilerin başarı puanları arasında anlamlı bir fark vardır.\" şeklinde bir yargı cümlesi kurmuştur.\n\n---\n\nAraştırmacının kurduğu bu hipotezin türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yönsüz (İki yönlü) alternatif hipotez",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Yönlü (Tek yönlü) alternatif hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sıfır (Null) hipotezi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gözlemsel hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sayıltı (Varsayım)",
+                    "correct": false
+                }
+            ],
+            "explanation": "İfade, iki grup arasında 'fark vardır' diyerek bir etki olduğunu iddia eder (bu yüzden alternatif hipotezdir), ancak bu farkın kimin lehine/daha yüksek olduğunu belirtmediği için 'yönsüz'dür."
+        },
+        {
+            "id": 12,
+            "text": "\tKarma araştırma tasarımlarında nicel ve nitel yöntemlerin ağırlığı ve uygulanma sırası farklılık gösterebilir. Bir araştırmacı, geniş çaplı bir deneysel çalışmayı (nicel) temel iskelet olarak almış, ancak deneyin bazı sonuçlarını daha derinlemesine açıklayabilmek ve desteklemek için bu deneysel sürecin içine birkaç öğrenciyle yaptığı nitel odak grup görüşmelerini de eklemiştir.\n\n---\n\nNicel veya nitel bir desenin ana çerçeve olduğu, diğer yöntemin ise onun içine destekleyici bir veri sağlamak için yerleştirildiği bu karma desen türü hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Açıklayıcı desen",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gömülü desen",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Keşfedici desen",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Zenginleştirilmiş desen",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sıralı dönüşümsel desen",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir yöntemin (örn: nicel deneysel) ana araştırma iskeletini oluşturduğu, diğer yöntemin ise bu ana yapıya destekleyici ek veri sağlamak üzere yerleştirildiği desen gömülü desendir (embedded design)."
+        },
+        {
+            "id": 13,
+            "text": "\tBir akademisyen, \"Lise öğrencilerinin siber zorbalığa maruz kalma durumları\" konulu anket çalışmasının yöntem bölümünde şu ifadeye yer vermiştir: \"Araştırmaya katılan öğrencilerin, anket formunda yer alan sorulara samimi ve dürüst cevaplar verdikleri kabul edilmiştir.\"\n\n---\n\nAraştırmacının doğruluğunu ispatlama gereği duymadan (veya ampirik test imkânı olmadığı için) peşinen doğru olarak kabul edip araştırmasını üzerine inşa ettiği bu tür önermelere bilimsel yöntemde ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınırlılık",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sayıltı (Varsayım)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Problem cümlesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Araştırmanın amacı",
+                    "correct": false
+                }
+            ],
+            "explanation": "İspatlanmasına gerek duyulmayan, ancak doğru olmaması durumunda araştırmanın anlamsızlaşacağı için peşinen 'doğru' farz edilip çalışmanın üzerine inşa edildiği kabullere sayıltı (varsayım) denir."
+        },
+        {
+            "id": 14,
+            "text": "\tBir araştırmacı, önceden belirlediği 40 kişilik öğrenci havuzundan, seçkisiz atama yoluyla 20'şer kişilik deney ve kontrol grupları oluşturur. Uygulama öncesi her iki gruba da 'Sosyal Beceri Ölçeği'ni öntest olarak uygular. Sadece deney grubuna 10 haftalık 'Sosyal Beceri Eğitim Programı' verir. Uygulama sonunda her iki gruba aynı ölçeği sontest olarak tekrar uygular.\n\n---\n\nBu araştırmanın deneysel deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tek grup öntest-sontest desen",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Statik grup karşılaştırmalı desen",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sontest kontrol gruplu seçkisiz desen",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Öntest-sontest kontrol gruplu seçkisiz desen",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Zaman serisi deseni",
+                    "correct": false
+                }
+            ],
+            "explanation": "Deneklerin deney ve kontrol grubuna seçkisiz atandığı, her iki gruba hem deney öncesinde hem deney sonrasında ölçüm (öntest ve sontest) yapıldığı tasarım 'Öntest-sontest kontrol gruplu seçkisiz desen'dir."
+        },
+        {
+            "id": 15,
+            "text": "\tBir okul müdürü, öğretmenlerin okulda uygulanan yeni teknolojik altyapıyı kullanmakta direnç gösterdiklerini ve sıklıkla sorun yaşadıklarını fark etmiştir. Salt bir akademik teori üretmek yerine, kendi kurumundaki bu pratik sorunu bizzat çözmek amacıyla öğretmenlerle toplantılar yapmış, bir eğitim planı hazırlamış, uygulamış ve sonuçlarını değerlendirerek süreci sürekli iyileştirmiştir.\n\n---\n\nUygulayıcıların bizzat kendi pratik sorunlarını çözmek amacıyla araştırmacı rolü üstlendikleri bu döngüsel araştırma türüne ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Etnografik araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kuram oluşturma (Grounded Theory)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Durum (Vaka) çalışması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nedensel karşılaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eylem (Action) araştırması",
+                    "correct": true
+                }
+            ],
+            "explanation": "Öğretmen, yönetici gibi uygulayıcıların kendi mesleki ortamlarındaki sorunları pratik bir şekilde çözmek ve süreçlerini iyileştirmek için başvurdukları döngüsel yöntem eylem araştırmasıdır."
+        },
+        {
+            "id": 16,
+            "text": "\tNitel verilerin analizinde, elde edilen metinlerin sadece önceden var olan kategorilere göre yüzeysel olarak özetlenmesinden ziyade; araştırmacının verilerin satır aralarına inerek birbirine benzeyen verileri belirli kavramlar çerçevesinde kodladığı ve yepyeni temaların tümevarımsal olarak keşfedildiği derin analitik bir süreç işletilebilir.\n\n---\n\nVerilerin bu şekilde derinlemesine işlenip yeni kavram ve şifrelerin üretildiği nitel analiz yöntemi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İçerik analizi",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Betimsel analiz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Söylem analizi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çıkarımsal analiz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Varyans analizi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Orijinal veriye sadık kalarak yüzeysel bir özetleme yapan betimsel analizin aksine, verilerin kodlanarak altında yatan örtük anlamların ve yepyeni temaların ortaya çıkarıldığı süreç içerik analizidir."
+        },
+        {
+            "id": 17,
+            "text": "\tÖlçmeye konu olan değişkenler, aldıkları değerlere göre sürekli ve süreksiz olarak sınıflandırılabilirler. Sürekli değişkenler, iki ölçüm birimi arasında teorik olarak sonsuz sayıda kesirli veya ondalıklı değer alabilirken, süreksiz değişkenler sadece belirli ve tam sayı değerleri alabilirler.\n\n---\n\nBuna göre aşağıdakilerden hangisi \"sürekli ve nicel\" bir değişkene örnek olarak gösterilebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Medeni durum",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ağırlık (kg)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Ailedeki çocuk sayısı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cinsiyet",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Öğretim yöntemi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ağırlık (kg) veya boy uzunluğu (m), iki tam sayı arasında küsuratlı (sonsuz) değerler alabilen ve sayısal miktar belirten sürekli ve nicel bir değişkendir."
+        },
+        {
+            "id": 18,
+            "text": "\tEğitim bilimleri alanında çalışan bir araştırmacı, üniversite öğrencilerinin \"akademik erteleme (procrastination) davranışlarının\" nedenlerini incelemek istemektedir. Bunun için, öğrencileri önceden doğal yollarla oluşmuş \"yüksek erteleme\" ve \"düşük erteleme\" eğilimine sahip gruplara ayırmış ve bu farkın olası nedenlerini geçmişe dönük olarak, herhangi bir deneysel müdahalede bulunmadan analiz etmiştir.\n\n---\n\nBu araştırmanın nicel deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Korelasyonel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tarama araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nedensel karşılaştırma (Ex-post-facto)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yarı-deneysel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuram oluşturma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının müdahalede bulunamadığı, önceden var olan doğal gruplar arasındaki farklılıkların nedenlerinin veya sonuçlarının geriye dönük (ex-post-facto) incelendiği çalışmalar nedensel karşılaştırma araştırmalarıdır."
+        },
+        {
+            "id": 19,
+            "text": "\tÖğrencilerin bilişim teknolojileri dersindeki akademik başarılarını ölçmek için geliştirilen çoktan seçmeli bir testte, her doğru cevaba 1, yanlış veya boş bırakılan cevaplara ise 0 puan verilmektedir. Test tüm öğrencilere tek bir oturumda uygulanmıştır.\n\n---\n\nMaddelerin bu şekilde 1 ve 0 olarak kategorik (ikili) puanlandığı bir başarı testinin iç tutarlılık güvenirliğini hesaplamak için kullanılması gereken en uygun istatistiksel yöntem hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cronbach Alpha katsayısı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Spearman-Brown formülü",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hoyt'un Varyans Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kuder-Richardson 20 (KR-20)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kendall'ın uyuşum katsayısı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Öğrenci başarı testlerinde maddelere verilen cevapların doğru (1) ve yanlış (0) şeklinde kategorik puanlandığı durumlarda iç tutarlık için en uygun yöntem Kuder-Richardson 20 (KR-20) formülüdür."
+        },
+        {
+            "id": 20,
+            "text": "\tBir sosyolog, toplumda yasadışı bahis oynayan kişilerin sosyal profillerini ve bu alışkanlığa yönelme nedenlerini derinlemesine araştırmak istemektedir. Konunun hassasiyeti ve bu kişilere ulaşmanın zorluğu nedeniyle, ilk ulaştığı bir kişiyle güven ilişkisi kurarak görüşmüş, ardından \"Bu konuda bana başka kiminle görüşmemi önerirsin?\" diyerek onun referansıyla ağdaki diğer katılımcılara ulaşmıştır.\n\n---\n\nKatılımcı sayısının bir ağ bağlantısıyla katlanarak büyüdüğü bu nitel örnekleme stratejisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tabakalı örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ölçüt örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uygun (Kazara) örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sistematik örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kartopu (Zincir) örnekleme",
+                    "correct": true
+                }
+            ],
+            "explanation": "Sınırları belirsiz veya ulaşılması zor gizli popülasyonlarda, stratejik bir kişiden başlayıp onun referansıyla yeni katılımcılara ulaşılarak örneklemin giderek büyütüldüğü tekniğe kartopu (zincir) örnekleme denir."
+        }
+    ]
+}

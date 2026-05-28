@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "a3f5c719-7d8e-4a62-b91c-1c58476d05f3",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "İnsan Hakları Hukuku",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-25"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "İnsan haklarını diğer hak kategorilerinden ayıran temel nitelikler göz önüne alındığında, aşağıda verilen özelliklerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Toplumsal ve cemaat grubuna ait haklardır",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Evrensel nitelikteki haklardır",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İnsanların doğuştan sahip olduğu haklardır",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kapsamı daraltılamayan, vazgeçilmez haklardır",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Esasen devletlere karşı ileri sürülebilen haklardır",
+                    "correct": false
+                }
+            ],
+            "explanation": "İnsan hakları toplumsal (grup veya cemaat) hakları değil, birey olmaktan kaynaklanan birey haklarıdır. İnsanın yalnızca insan olmasından dolayı doğuştan kazandığı, evrensel ve mutlak nitelikteki haklardır."
+        },
+        {
+            "id": 2,
+            "text": "Devletin insan hakları konusunda çeşitli yükümlülükleri bulunmaktadır. Yaşlılar, engelliler ve kimsesiz çocuklar için devletin kurumlar kurması ve onların geçimlerini veya bakımlarını üstlenmesi, insan haklarının devlete yüklediği hangi ödevin bir sonucudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tanıma ödevi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Temin ve tedarik ödevi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Dokunmama ödevi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Koruma ödevi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınırlama yetkisi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Toplumda kendi bakımını sağlayamayan dezavantajlı gruplar (yaşlılar, kimsesiz çocuklar vb.) için kurumlar açmak ve onlara imkan sağlamak, devletin 'temin ve tedarik' ödevinin bir göstergesidir."
+        },
+        {
+            "id": 3,
+            "text": "Karel Vasak'ın insan haklarını tarihsel gelişimine göre sınıflandırdığı kuşak ayrımında, 1. ve 2. kuşak hakları geliştirmek amacıyla ortaya çıkan 3. kuşak haklara (dayanışma hakları) aşağıdakilerden hangisi örnek gösterilebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yaşama hakkı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çalışma ve sendika hakkı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çevre hakkı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Mülkiyet hakkı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Din ve vicdan hürriyeti",
+                    "correct": false
+                }
+            ],
+            "explanation": "Karel Vasak'ın ayrımında çevre hakkı, barış hakkı, temiz suya ulaşma ve gelişme hakkı gibi haklar 3. kuşak (dayanışma) hakları arasında yer alır."
+        },
+        {
+            "id": 4,
+            "text": "Avrupa İnsan Hakları Sözleşmesi'ne göre, ihlal iddiaları için Avrupa İnsan Hakları Mahkemesi'ne (AİHM) başvurulabilmesi için iç hukuk yollarının tüketilmesinden ve kesin kararın verilmesinden itibaren ne kadarlık bir süre içinde başvuru yapılması zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "30 gün",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "60 gün",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3 ay",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4 ay",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "6 ay",
+                    "correct": false
+                }
+            ],
+            "explanation": "İç hukuk yolları tamamen tüketildikten sonra, kesin kararın verilmesinden itibaren AİHM'e başvuru yapmak için belirlenen hak düşürücü süre 4 aydır."
+        },
+        {
+            "id": 5,
+            "text": "Birleşmiş Milletler Güvenlik Konseyi'nde alınan kararları veto etme hakkına sahip 5 daimi üye ülke (FİRÇA olarak kodlanan) bulunmaktadır. \n\nAşağıdakilerden hangisi bu sürekli veto hakkına sahip devletlerden biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fransa",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İngiltere",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çin",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Rusya",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Almanya",
+                    "correct": true
+                }
+            ],
+            "explanation": "BM Güvenlik Konseyi'nin 5 daimi üyesi FİRÇA olarak kodlanır: Fransa, İngiltere, Rusya, Çin ve ABD. Almanya bu daimi üyeler arasında yer almaz."
+        },
+        {
+            "id": 6,
+            "text": "Avrupa İnsan Hakları Sözleşmesi kapsamında ihlal iddiaları ile Avrupa İnsan Hakları Mahkemesi'ne (AİHM) kimlerin başvurabileceği düzenlenmiştir. \n\nBuna göre aşağıdakilerden hangisi AİHM'e bireysel başvuru yolunu kullanamaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kamu tüzel kişileri",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Gerçek kişiler",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hükümet dışı kuruluşlar (Resmi olmayan kurumlar)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kişi grupları",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Özel hukuk tüzel kişileri",
+                    "correct": false
+                }
+            ],
+            "explanation": "Avrupa İnsan Hakları Mahkemesi'ne gerçek kişiler, özel hukuk tüzel kişileri, hükümet dışı gruplar ve kişi grupları başvurabilir. Ancak devletin kurumları olan 'Kamu tüzel kişileri' devleti devlete şikayet edemeyeceği için bu yola başvuramaz."
+        },
+        {
+            "id": 7,
+            "text": "Uluslararası alanda insan hakları açısından en önemli metinlerden biri olan, 10 Aralık tarihinin tüm dünyada 'İnsan Hakları Günü' olarak kutlanmasını sağlayan İnsan Hakları Evrensel Bildirgesi hangi kurum tarafından, hangi yılda ilan edilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Avrupa Konseyi - 1950",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Birleşmiş Milletler - 1948",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Birleşmiş Milletler - 1945",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Avrupa Birliği - 1953",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uluslararası Ceza Mahkemesi - 1998",
+                    "correct": false
+                }
+            ],
+            "explanation": "İnsan Hakları Evrensel Bildirgesi, 10 Aralık 1948 tarihinde Birleşmiş Milletler tarafından kabul ve ilan edilmiştir."
+        },
+        {
+            "id": 8,
+            "text": "İnsan haklarının İngiltere'deki gelişim sürecinde kabul edilen tarihi belgelerden biri olan 'Habeas Corpus Act' (1679) yasasının insan hakları hukukuna getirdiği en büyük yenilik aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kralın yetkilerini ilk kez sınırlandırması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dilekçe hakkını ilk kez tanıması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mahkeme kararı olmadan tutuklamayı yasaklaması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Kuvvetler ayrılığı ilkesini sistemleştirmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Genel oy hakkını güvence altına alması",
+                    "correct": false
+                }
+            ],
+            "explanation": "İngiltere'de kabul edilen Habeas Corpus yasası ile keyfi tutuklamalar yasaklanmış ve bir kişinin tutuklanabilmesi ya da hapsedilmesi için ancak 'hakim (mahkeme) kararı' gerektiği güvence altına alınmıştır."
+        },
+        {
+            "id": 9,
+            "text": "Ülkemizde işkence ve diğer zalimane, gayri insani muamelelere karşı, Birleşmiş Milletler sözleşmesinin yükümlülüklerini gerçekleştirmek ve ayrımcılığı önlemek amacıyla kurulan 'Türkiye İnsan Hakları ve Eşitlik Kurumu (TİHEK)' idari olarak hangi bakanlıkla ilişkilendirilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İçişleri Bakanlığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Aile ve Sosyal Hizmetler Bakanlığı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dışişleri Bakanlığı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Adalet Bakanlığı",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Cumhurbaşkanlığı İletişim Başkanlığı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye İnsan Hakları ve Eşitlik Kurumu (TİHEK), üyeleri Cumhurbaşkanı tarafından atanan ve idari başvuru yolu olan bir kurumdur. İdari olarak Adalet Bakanlığı ile ilişkilendirilmiştir."
+        },
+        {
+            "id": 10,
+            "text": "Bireylerin idarenin işleyişi ile ilgili her türlü dilek ve şikayetlerini inceleyen, kararları bağlayıcı olmayıp 'tavsiye' niteliği taşıyan ve Ombudsmanlık olarak da bilinen anayasal kurum aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Anayasa Mahkemesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Türkiye İnsan Hakları ve Eşitlik Kurumu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Danıştay",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sayıştay",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kamu Denetçiliği Kurumu",
+                    "correct": true
+                }
+            ],
+            "explanation": "İdarenin eylem ve işlemleri hakkında şikayetleri inceleyen, TBMM Başkanlığına bağlı olarak çalışan ve arabuluculuk görevi üstlenen (ombudsman) organ Kamu Denetçiliği Kurumu'dur."
+        },
+        {
+            "id": 11,
+            "text": "İç hukuk yolları tüketildikten sonra Türkiye'de Anayasa Mahkemesi'ne (AYM) bireysel başvuru yapılabilmesi için öngörülen olağan başvuru süresi kaç gündür?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "30 gün",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "15 gün",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "45 gün",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "60 gün",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "4 ay",
+                    "correct": false
+                }
+            ],
+            "explanation": "İdari ve yargısal iç hukuk yolları (olağan kanun yolları) tamamen tüketildikten sonra, Anayasa Mahkemesi'ne bireysel başvuru yapma süresi 30 gündür. Mazeret varsa buna ek 15 gün daha süre tanınabilir."
+        },
+        {
+            "id": 12,
+            "text": "1982 Anayasası'na göre bir hakkın ihlali nedeniyle Anayasa Mahkemesi'ne bireysel başvuru yapılabilmesi için, ihlal edilen o hakkın aşağıdakilerden hangilerinde ortaklaşa güvence altına alınmış olması zorunludur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yalnızca Türkiye Cumhuriyeti Anayasası'nda",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anayasa'da ve Avrupa İnsan Hakları Sözleşmesi veya Ek Protokollerinde",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yalnızca Avrupa İnsan Hakları Sözleşmesi'nde",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Anayasa'da ve İnsan Hakları Evrensel Bildirgesi'nde",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Anayasa'da ve BM Antlaşması'nda",
+                    "correct": false
+                }
+            ],
+            "explanation": "AYM'ye bireysel başvuru için ihlal edilen hakkın sadece Anayasamızda geçmesi yetmez; aynı hakkın Avrupa İnsan Hakları Sözleşmesi veya Türkiye'nin taraf olduğu ek protokollerde de güvence altına alınmış olması gereklidir."
+        },
+        {
+            "id": 13,
+            "text": "Birleşmiş Milletlere bağlı yargı organlarından olan ve savaş suçları, insanlığa karşı suçlar, soykırım gibi suçları yargılamak amacıyla Lahey'de kurulan Uluslararası Ceza Mahkemesi (UCM) ile ilgili aşağıdakilerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Birleşmiş Milletlerin devletler arası sınır sorunlarını çözen temel yargı organıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Merkezi Fransa'nın Strazburg kentindedir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Türkiye bu mahkemenin kurucu anlaşmasına (Roma Tüzüğü) taraf değildir.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Mahkemeye yalnızca devletler başvurabilir, bireyler başvuramaz.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kararları devletler için bağlayıcı olmayıp yalnızca tavsiye niteliğindedir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uluslararası Ceza Mahkemesi (UCM), 1998 Roma Tüzüğü ile kurulmuş olup Lahey'de bulunur. Soykırım ve savaş suçlarını yargılar. Ancak Türkiye bu mahkemenin sözleşmesine taraf olmamıştır."
+        },
+        {
+            "id": 14,
+            "text": "Avrupa İnsan Hakları Mahkemesi'nin (AİHM) yüksek sözleşmeci devletlere karşı verdiği bağlayıcı kararların yerine getirilmesini (infazını) denetlemekle görevli organ aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Parlamenter Meclis",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "BM İnsan Hakları Konseyi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "BM Güvenlik Konseyi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Avrupa Konseyi Bakanlar Komitesi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Lahey Adalet Divanı",
+                    "correct": false
+                }
+            ],
+            "explanation": "AİHM'in verdiği kesinleşmiş kararların taraf devletlerce uygulanıp uygulanmadığını denetleme görevi, üye devletlerin Dışişleri Bakanlarından oluşan Avrupa Konseyi Bakanlar Komitesi'ne aittir."
+        },
+        {
+            "id": 15,
+            "text": "Ülkemizde 2010 anayasa değişikliği ile insan haklarının korunması mekanizmalarına dahil olan Kamu Denetçiliği Kurumu (KDK) anayasal olarak aşağıdakilerden hangisine bağlıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cumhurbaşkanlığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Adalet Bakanlığı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İçişleri Bakanlığı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Anayasa Mahkemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "TBMM Başkanlığı",
+                    "correct": true
+                }
+            ],
+            "explanation": "İdarenin her türlü eylem ve işlemiyle ilgili şikayetleri inceleyen Kamu Denetçiliği Kurumu (Ombudsmanlık), doğrudan TBMM Başkanlığına bağlı olarak faaliyet yürütür ve Başdenetçisi TBMM tarafından seçilir."
+        },
+        {
+            "id": 16,
+            "text": "Türkiye'de ulusal düzeyde insan haklarının korunması ve geliştirilmesi için idari bir başvuru yolu olarak kurulan İl İnsan Hakları Kurulları kimin başkanlığında toplanır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Vali",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "İl İnsan Hakları Komiseri",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Belediye Başkanı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İl Emniyet Müdürü",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cumhuriyet Başsavcısı",
+                    "correct": false
+                }
+            ],
+            "explanation": "İl ve İlçe İnsan Hakları Kurulları idari bir başvuru mekanizmasıdır. Ayda bir kez toplanan bu kurullar ilde Vali, ilçede ise Kaymakam başkanlığında toplanır."
+        },
+        {
+            "id": 17,
+            "text": "Karel Vasak'ın hakların gelişimine göre yaptığı sınıflandırmadaki 'İkinci Kuşak Haklar', George Jellinek'in anayasamızın da temelini oluşturan hak sınıflandırmasında hangi hak kategorisine denk gelmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Negatif statü hakları (Kişi hakları)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Pozitif statü hakları (Sosyal ve ekonomik haklar)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Aktif statü hakları (Siyasi haklar)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dayanışma hakları (Üçüncü kuşak)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Biyoetik haklar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Karel Vasak'ın ikinci kuşak hakları (çalışma hakkı, dinlenme hakkı, sendika özgürlüğü vb.), George Jellinek ayrımındaki sosyal ve ekonomik haklara (pozitif statü hakları) denk gelir."
+        },
+        {
+            "id": 18,
+            "text": "İnsan hakları tarihinde, dilekçe hakkını ilk defa kabul eden ve parlamento üyelerinin meclisteki söylemlerinden dolayı kesinlikle yargılanmayacaklarını belirterek yasama dokunulmazlığından ilk defa bahseden İngiliz belgesi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Magna Carta",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Habeas Corpus Act",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bill of Rights (Haklar Dilekçesi)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Virginia Haklar Bildirisi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fransız İnsan ve Yurttaş Hakları Bildirisi",
+                    "correct": false
+                }
+            ],
+            "explanation": "1628 (1689 olarak da bilinir) tarihli Bill of Rights (Haklar Dilekçesi/Bildirisi), tarihte dilekçe hakkının ilk kez yer aldığı ve parlamentodaki konuşmalar için yasama sorumsuzluğunun/dokunulmazlığının mutlak olduğunun belirtildiği belgedir."
+        },
+        {
+            "id": 19,
+            "text": "Türkiye Cumhuriyeti, Avrupa Konseyi bünyesinde faaliyet gösteren Avrupa İnsan Hakları Mahkemesi'ne (AİHM) yapılacak 'bireysel başvuru' hakkını hangi yılda kabul etmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1950",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1954",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "1982",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1987",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "1990",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye, 1954 yılında AİHS'i onaylasa da, AİHM'e bireysel başvuru hakkını 1987 yılında, zorunlu yargı yetkisini ise 1990 yılında kabul etmiştir."
+        },
+        {
+            "id": 20,
+            "text": "Aşağıdakilerden hangisi Birleşmiş Milletlerin (BM) temel yargı organı olup merkezi Hollanda'nın Lahey kentinde bulunmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Avrupa İnsan Hakları Mahkemesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Uluslararası Ceza Mahkemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Avrupa Konseyi Bakanlar Komitesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İnsan Hakları Yüksek Komiserliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uluslararası Adalet Divanı",
+                    "correct": true
+                }
+            ],
+            "explanation": "Birleşmiş Milletlerin temel yargı organı Lahey'de bulunan Uluslararası Adalet Divanı'dır (Lahey Adalet Divanı). (Uluslararası Ceza Mahkemesi ise BM'den bağımsız olarak Roma Tüzüğü ile kurulan ayrı bir yargı organıdır)."
+        }
+    ]
+}

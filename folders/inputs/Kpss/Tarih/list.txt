@@ -1,0 +1,89 @@
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 1
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 2
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 3
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 4
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 5
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 6
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 7
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 8
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 9
+
+final_prompt dosyasını kullanarak bir test hazırlar mısın:
+konu:
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+title ve subject alanlarına şunu yaz: test 10
+
+
+
+----------------------------------------
++ İslamiyet Öncesi Türk Tarihi
++ İslamiyet Öncesi Türk Devletleri Kültür ve Medeniyeti
++ İlk Türk İslam Devletleri
++ İlk Türk İslam Devletleri Kültür ve Medeniyeti
++ Anadolu Selçuklu Devleti (1075 - 1308)
++ Osmanlı Devleti Kültür ve Medeniyeti
++ Osmanlı Devleti Kuruluş Dönemi (1299 - 1453)
++ Osmanlı Devleti Yükselme Dönemi (1453 - 1595)
++XVII. Yüzyılda Osmanlı Devleti - Duraklama Dönemi
+
+XVIII. Yüzyılda Osmanlı Devleti - Gerileme Dönemi
+
+XIX. Yüzyılda Osmanlı Devleti - Dağılma Dönemi Siyasi Tarihi
+XIX. Yüzyılda Osmanlı Devleti - Dağılma Dönemi Islahatları
+Osmanlı'da Basın Yayın Hareketleri ve Dağılmaktan Kurtarma Fikirleri
+XX. Yüzyıl Başlarında Osmanlı Devleti
+Mondros Ateşkes Antlaşması ve Cemiyetler
+Yararlı ve Zararlı Cemiyetler
+Milli Mücadele Hazırlık Dönemi
+I. TBMM Dönemi ve Gelişmeleri
+Milli Mücadele Muharebeler Dönemi
+Mudanya Ateşkes Antlaşması ve Lozan Barış Antlaşması
+Basın Yayın Hareketleri ve Kahraman Kadınlarımız
+Atatürk'ün Hayatı (1881 - 1938)
+Atatürk Dönemi İç Politika Gelişmeleri
+Atatürk İlkeleri
+Atatürk İnkılapları (Siyasi, Hukuk, Toplumsal, Eğitim, Kültür ve Ekonomi alanları bütünleşik)
+Atatürk Dönemi Türk Dış Politikası (1923 - 1938)
+Cumhuriyet Dönemi Kültür ve Medeniyeti
+Çağdaş Türk ve Dünya Tarihi - XX. Yüzyıl Başlarında Dünya (1918-1939)
+Çağdaş Türk ve Dünya Tarihi - II. Dünya Savaşı (1939 - 1945)
+Çağdaş Türk ve Dünya Tarihi - II. Dünya Savaşı'nda Türkiye (1939-1945)
+Çağdaş Türk ve Dünya Tarihi - Soğuk Savaş Dönemi (1947-1990)
+Çağdaş Türk ve Dünya Tarihi - Soğuk Savaş Döneminde Türkiye
+Çağdaş Türk ve Dünya Tarihi - Yumuşama Dönemi (1961-1990)
+Çağdaş Türk ve Dünya Tarihi - Küreselleşen Dünya (1990-2026)

@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "f8a7e3d1-4c6b-4f9e-8d2a-1b3c5e7f9a02",
+        "title": "test 2",
+        "subject": "test 2",
+        "topic": "Coğrafi Konum",
+        "difficulty": "Orta",
+        "grade": "KPSS / AGS",
+        "created": "2026-05-25"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Türkiye'nin güneyden kuzeye doğru gidildikçe grup ve tan süresinin uzaması, güneş ışınlarının geliş açısının daralması ve çizgisel hızın azalması aşağıdakilerden hangisinin doğrudan bir sonucudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Enlem (Mutlak Konum)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Göreceli Konum",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Boylam Etkisi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yükselti",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Denizellik ve Karasallık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ekvator'dan kutuplara doğru gidildikçe değişen grup ve tan süresi, çizgisel hız ve güneş ışınlarının geliş açısı tamamen 'enlem', yani mutlak (matematik) konum ile ilgilidir."
+        },
+        {
+            "id": 2,
+            "text": "Asya ile Avrupa arasında köprü durumunda olan Türkiye, transit ticarette önemli bir role sahiptir. İran üzerinden gelip Avrupa'ya gitmek isteyen bir lojistik firmasına ait tır, gümrük olarak sırasıyla Türkiye'ye nereden giriş ve nereden çıkış yaparsa Türkiye'nin bu güzergahtaki en önemli ve işlek sınır kapılarını kullanmış olur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Habur - İpsala",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gürbulak - Kapıkule",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Sarp - Dilucu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kapıkule - Sarp",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cilvegözü - Uzunköprü",
+                    "correct": false
+                }
+            ],
+            "explanation": "İran ile olan en önemli sınır kapımız Ağrı'daki Gürbulak'tır. Tırın Avrupa'ya (özellikle transit geçişle) çıkış yapacağı en işlek sınır kapımız ise Bulgaristan sınırındaki Kapıkule'dir."
+        },
+        {
+            "id": 3,
+            "text": "Türkiye'nin jeopolitik önemini artıran çeşitli enerji nakil hatları bulunmaktadır. Rus doğalgazını Karadeniz altından geçirerek doğrudan Trakya'ya ve oradan da Avrupa'ya ulaştıran enerji projesinin adı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "TANAP",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mavi Akım",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Türk Akımı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Bakü-Tiflis-Ceyhan",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kerkük-Yumurtalık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Rus doğalgazını Karadeniz altından Trakya'ya, oradan da Avrupa'ya bağlayan proje 'Türk Akımı'dır. 'Mavi Akım' ise Rus doğalgazını Anadolu'ya ulaştırır ancak doğrudan Avrupa'ya transit bir taşıma yapmaz."
+        },
+        {
+            "id": 4,
+            "text": "Dünya'nın Güneş etrafındaki hareketi sırasında gerçekleşen Ekinoks (21 Mart - 23 Eylül) tarihlerinde Türkiye'de aşağıdaki durumlardan hangisi gözlemlenir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gölge boylarının en kısa olması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gündüz sürelerinin kısalmaya başlaması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gece sürelerinin gündüz sürelerini geçmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Güneşin doğduktan tam 12 saat sonra batması",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Güneş ışınlarının yeryüzüne dik açıyla gelmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ekinoks tarihlerinde Dünya'nın her yerinde olduğu gibi Türkiye'de de gece ve gündüz süreleri eşit (12 saat) olur. Bu nedenle Güneş, doğduktan tam 12 saat sonra batar."
+        },
+        {
+            "id": 5,
+            "text": "Türkiye'nin komşularıyla olan sınırlarının bir kısmı akarsuların oluşturduğu doğal sınırlardır. \n\nAşağıda verilen akarsu ve sınır oluşturduğu ülke eşleştirmelerinden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Meriç - Yunanistan",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Asi - Suriye",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Arpaçay - Ermenistan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dicle - Suriye",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Aras - Gürcistan",
+                    "correct": true
+                }
+            ],
+            "explanation": "Aras Nehri ve kolu olan Arpaçay, Ermenistan (ve Aras sonrasında Nahçıvan/İran) ile doğal sınır oluşturur. Gürcistan ile Aras değil, çok kısa bir alanda Çoruh Nehri'nin doğal sınırı vardır."
+        },
+        {
+            "id": 6,
+            "text": "Aynı boylam üzerinde bulunan ve 21 Mart tarihinde yerel saati aynı olan iki farklı kent (Örn: Sivas ile Mersin) için yıl boyunca aşağıdakilerden hangisi kesinlikle ortaktır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Öğle vakti Güneş'in tepe noktasına geldiği an",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Güneş ışınlarının yeryüzüne düşme açısı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gündüz sürelerinin uzunluğu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Başlangıç meridyenine olan mesafeleri",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çizgisel dönüş hızları",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aynı boylam üzerinde bulunan tüm merkezlerde yıl boyunca yerel saat aynıdır. Dolayısıyla Güneş'in en tepede olduğu an (yerel saatle 12:00) her iki merkezde de ortaktır."
+        },
+        {
+            "id": 7,
+            "text": "Türkiye günümüzde yıl boyunca, Eşgüdümlü Evrensel Zaman'a (UTC) göre +3. Saat Dilimi olan 45° Doğu meridyeninin yerel saatini ulusal (ortak) saat olarak kullanmaktadır.\n\nBuna göre aşağıdaki illerden hangisinde yıl boyunca yerel saat ile ulusal saat arasındaki fark en azdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İzmir",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kars",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Ankara",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Antalya",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Edirne",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye 45° Doğu boylamını (Iğdır üzerinden geçen) ulusal saat olarak kullanır. Bir şehrin bu boylama yakınlığı arttıkça yerel saati ile ulusal saati arasındaki fark azalır. Seçenekler arasında Iğdır'a (en doğuya) en yakın il Kars'tır."
+        },
+        {
+            "id": 8,
+            "text": "Türkiye'nin mutlak (matematik) konumu dikkate alındığında, aşağıdakilerden hangisi Türkiye'nin Orta Kuşak'ta yer almasının bir sonucu **değildir**?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dört mevsimin belirgin olarak yaşanması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cephe yağışlarının etkili olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ortalama yükseltisinin batıdan doğuya doğru artması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Batı rüzgarlarının etki alanında olması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Akdeniz iklim özelliklerinin görülmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dört mevsimin yaşanması, Cephe yağışları, Batı rüzgarları ve Akdeniz iklimi Orta Kuşakta bulunmanın doğrudan bir sonucudur. Yükseltinin batıdan doğuya artması ise göreceli (özel) konum ile ilgilidir."
+        },
+        {
+            "id": 9,
+            "text": "Türkiye'nin Dönenceler dışında ve Kuzey Yarım Küre'de yer almasına bağlı olarak, Güneş ışınları daima belli bir yönden gelir ve dağların güneşe dönük yamaçları (bakı) her zaman aynı yönü gösterir.\n\nBuna göre Türkiye'de dağların bakı yönü, sıcaklık ortalamaları hesaba katıldığında daima hangi yöndür?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Doğu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Batı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kuzey",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Güney",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kuzeydoğu",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye Yengeç Dönencesi'nin kuzeyinde yer aldığı için Güneş ışınlarını daima güneyden alır. Bu nedenle güneşe bakan (bakı) yönü her zaman Güney'dir."
+        },
+        {
+            "id": 10,
+            "text": "İzmir'den yola çıkarak Rize'ye tatile giden bir turist, Rize'de gündüz süresinin İzmir'den daha uzun olduğunu, ancak tatili süresince gündüzlerin giderek kısaldığını gözlemlemiştir.\n\nBu turist Rize'ye hangi ayda gitmiş olabilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ocak",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mart",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nisan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mayıs",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Temmuz",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kuzeye (Rize'ye) gidildiğinde gündüz süresi uzuyorsa, dönem 21 Mart ile 23 Eylül arası (İlkbahar/Yaz) olmalıdır. Turist Rize'deyken gündüzlerin kısalmaya başladığını görüyorsa, 21 Haziran (en uzun gündüz) geçmiş demektir. Bu şartları sadece Temmuz ayı sağlar."
+        },
+        {
+            "id": 11,
+            "text": "Türkiye'nin sınır komşularının büyük bir kısmıyla doğrudan demiryolu bağlantısı bulunmasına rağmen bazılarıyla bu bağlantı yoktur.\n\nAşağıdaki ülkelerden hangisiyle Türkiye arasında doğrudan bir demiryolu bağlantısı yoktur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Irak",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "İran",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Suriye",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bulgaristan",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gürcistan",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye'nin Yunanistan, Bulgaristan, Gürcistan, Ermenistan (kapalı olsa da var), İran ve Suriye ile demiryolu bağlantısı vardır. Irak ile doğrudan demiryolu hattı yoktur."
+        },
+        {
+            "id": 12,
+            "text": "21 Aralık tarihinde Dünya, Güneş karşısında kış gündönümü konumunu alır.\n\nBuna göre 21 Aralık tarihinde Türkiye'de aşağıdakilerden hangisi gözlemlenmez?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kış mevsiminin başlangıcı sayılması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kuzeye doğru gidildikçe gündüz süresinin uzaması",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Güneş ışınlarının yıl içindeki en dar açıyla düşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cisimlerin öğle vakti gölge boyunun yıl içindeki en uzun halinde olması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Güneyden kuzeye gidildikçe gece süresinin artması",
+                    "correct": false
+                }
+            ],
+            "explanation": "21 Aralık'ta Türkiye'de kış yaşanır ve kuzeye doğru gidildikçe GÜNDÜZ değil, GECE süresi uzar. Kuzey kutbu bu tarihte 6 aylık gece yaşamaktadır."
+        },
+        {
+            "id": 13,
+            "text": "Türkiye'de mutlak konuma bağlı olarak güneyden kuzeye doğru gidildikçe güneş ışınlarının geliş açısı daraldığı için genel olarak sıcaklık ortalamasının azalması beklenir. Buna 'enlem etkisi' denir.\n\nAşağıdakilerden hangisi sıcaklık dağılışında enlem etkisine **ters** düşen bir durumdur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Antalya'nın yazın İzmir'den daha sıcak olması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Erzurum'un, aynı enlemdeki Erzincan'dan soğuk olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kış aylarında Karadeniz kıyılarının, İç Anadolu'dan daha sıcak olması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sinop'ta deniz suyu tuzluluğunun Mersin'den az olması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hatay'da grup ve tan süresinin Samsun'dan kısa olması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Enlem etkisine göre kuzeyde bulunan Karadeniz'in İç Anadolu'dan daha soğuk olması gerekirken, denizelliğin (nemin) kışın ısıyı dengede tutması sebebiyle Karadeniz kıyıları İç Anadolu'dan daha sıcak olur. Bu durum enlem kuralına terstir."
+        },
+        {
+            "id": 14,
+            "text": "Türkiye'nin göreceli (özel) konumu, dünya üzerindeki kıtalara, denizlere, yeryüzü şekillerine, yeraltı kaynaklarına ve komşularına göre belirlenir.\n\nAşağıdaki özelliklerden hangisi Türkiye'nin göreceli konumuyla ilişkilendirilemez?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İstanbul ve Çanakkale boğazlarına sahip olması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Transit ticarette önemli bir kavşak noktası olması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gerçek alan ile izdüşüm alan arasındaki farkın fazla olması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gölge yönünün daima kuzeyi göstermesi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Dağların genellikle doğu-batı yönünde uzanması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cisimlerin öğle vakti gölge yönünün daima kuzeyi göstermesi, Türkiye'nin Yengeç Dönencesi'nin kuzeyinde yer almasıyla, yani mutlak (matematik) konumuyla ilgilidir. Göreceli konumun bir sonucu değildir."
+        },
+        {
+            "id": 15,
+            "text": "Gerçek alan ile izdüşüm alanı (her yerin deniz seviyesinde sayıldığı alan) arasındaki farkın fazla olması, o bölgenin dağlık ve engebeli olduğunu gösterir.\n\nBuna göre harita üzerinde veya coğrafi olarak düşünüldüğünde, aşağıdaki yerlerin hangisinde bu fark diğerlerine göre daha **azdır**?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Doğu Karadeniz (Rize - Artvin)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hakkari ve Çevresi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Menteşe Yöresi (Muğla)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Toros Dağları (Antalya - Mersin)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ergene Havzası (Edirne - Tekirdağ)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Doğu Karadeniz, Hakkari, Menteşe yöresi ve Toroslar Türkiye'nin oldukça dağlık ve engebeli sahalarıdır. Bu alanlarda gerçek alan ile izdüşüm alanı arasındaki fark fazladır. Ergene Havzası ise düz bir alan olduğu için bu fark en azdır."
+        },
+        {
+            "id": 16,
+            "text": "Boylam dereceleri arasındaki zaman farkı sabittir ve bu durum yerel saat farklarını belirler.\n\nTürkiye 26° - 45° Doğu boylamları arasında yer aldığına göre, Türkiye'nin en doğusu ile en batısı arasında toplam kaç dakikalık yerel saat farkı bulunmaktadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "76 dakika",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "60 dakika",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "45 dakika",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "100 dakika",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "120 dakika",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye'nin uç boylamları 45° ve 26°'dir. 45 - 26 = 19 boylam farkı vardır. İki boylam arası 4 dakika olduğundan; 19 x 4 = 76 dakika zaman farkı ortaya çıkar."
+        },
+        {
+            "id": 17,
+            "text": "Dünya'nın kendi ekseni etrafındaki dönüş hızına çizgisel hız denir. Dünya geoit yapıda olduğu için çizgisel hız Ekvator'da en fazla iken kutuplara doğru gidildikçe giderek azalır.\n\nBuna göre aşağıdaki illerin hangisinde çizgisel hız diğerlerine göre daha fazladır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sinop",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hatay",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Ankara",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sivas",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İstanbul",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye, Kuzey Yarım Küre'de yer alır. Ekvator'a en yakın olan (en güneydeki) ilimiz Hatay'dır. Bu nedenle Hatay'da çizgisel hız verilen diğer illere göre daha fazladır."
+        },
+        {
+            "id": 18,
+            "text": "Türkiye'nin 8 ülkeyle kara sınırı bulunmaktadır. Türkiye'nin göreceli konumu analiz edilirken komşularımızın durumu önem taşır.\n\nBuna göre Türkiye'nin en uzun ve en kısa kara sınırına sahip olduğu komşu ülkeler, aşağıdakilerin hangisinde sırasıyla doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İran - Ermenistan",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bulgaristan - Gürcistan",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Suriye - Nahçıvan (Azerbaycan)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Irak - Yunanistan",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Suriye - Bulgaristan",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye'nin en uzun kara sınırına sahip olduğu ülke Suriye'dir. En kısa kara sınırına sahip olduğu komşusu ise Iğdır ilimizden sınır bağlantısı olan Nahçıvan Özerk Cumhuriyeti'dir (Azerbaycan)."
+        },
+        {
+            "id": 19,
+            "text": "Enerji koridoru olmak, Türkiye'nin jeopolitik önemini uluslararası alanda büyük ölçüde artıran beşeri bir unsurdur.\n\nBuna göre, Azerbaycan doğalgazını Anadolu'dan geçirerek Avrupa'ya doğrudan ulaştırmak amacıyla hayata geçirilen büyük ölçekli enerji boru hattı projesi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mavi Akım",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Türk Akımı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kerkük-Yumurtalık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "TANAP (Trans Anadolu Doğalgaz Boru Hattı)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Bakü-Tiflis-Ceyhan",
+                    "correct": false
+                }
+            ],
+            "explanation": "Azerbaycan doğalgazını Türkiye üzerinden Avrupa'ya taşıyan proje TANAP'tır. Mavi Akım ve Türk Akımı, Rus doğalgazını; Bakü-Tiflis-Ceyhan ile Kerkük-Yumurtalık ise petrol taşıyan boru hatlarıdır."
+        },
+        {
+            "id": 20,
+            "text": "Dünya'nın geoit şekli ve günlük hareketi nedeniyle, Ekvator'dan kutuplara doğru gidildikçe bazı olaylarda düzenli değişimler görülür.\n\nBuna göre Türkiye'de (örneğin Mersin'den Sinop'a) kuzeye doğru hareket eden bir gözlemci, aşağıda verilen özelliklerden hangisinin düzenli olarak arttığını gözlemleyebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Güneş ışınlarının geliş açısının",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çizgisel dönüş hızının",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Meridyenler arası mesafenin",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Denizlerin tuzluluk oranının",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yerçekimi kuvvetinin ve gece-gündüz süre farkının",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ekvator'dan kutuplara doğru (yani Türkiye'de güneyden kuzeye) gidildikçe Dünya'nın geoit şekli sebebiyle merkeze yaklaşılır ve yerçekimi artar. Ayrıca Ekvator'dan uzaklaşıldığı için gece ile gündüz arasındaki süre farkı da giderek artar."
+        }
+    ]
+}

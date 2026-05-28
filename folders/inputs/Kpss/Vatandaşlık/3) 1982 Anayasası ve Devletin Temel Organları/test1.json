@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e9b251cc-9d47-4f68-a7be-3214a1a8c549",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "1982 Anayasası ve Devletin Temel Organları",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-25"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "1982 Anayasası'nın 2. maddesinde yer alan 'Cumhuriyetin nitelikleri' arasında aşağıdakilerden hangisi yer almaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İnkılapçı Devlet",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sosyal Devlet",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Laik Devlet",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Demokratik Devlet",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hukuk Devleti",
+                    "correct": false
+                }
+            ],
+            "explanation": "1982 Anayasası'nın 2. maddesinde Türkiye Cumhuriyetinin demokratik, laik, sosyal bir hukuk devleti olduğu belirtilir. 'İnkılapçı devlet' ve 'Devletçi' ifadeleri anayasada yer almaz, bunlar 1937 değişikliğiyle 1924 anayasasına girmiş ancak 1961 ve 1982 anayasalarında tercih edilmemiştir."
+        },
+        {
+            "id": 2,
+            "text": "Savaş, seferberlik veya olağanüstü hallerde bile dokunulamayacak 'sert çekirdek' haklar 1982 Anayasası'nda düzenlenmiştir.\n\nBuna göre aşağıdakilerden hangisi hiçbir durumda durdurulamayacak çekirdek haklardan biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kimsenin yaşama hakkına, maddi ve manevi varlığının bütünlüğüne dokunulamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Konut dokunulmazlığı ve özel hayatın gizliliği hiçbir surette ihlal edilemez.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Suç ve cezalar geçmişe yürütülemez.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Suçluluğu mahkeme kararı ile saptanana kadar kimse suçlu sayılamaz.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Savaş, seferberlik veya olağanüstü hallerde dahi kişinin yaşama hakkına dokunulamaz, kimse din, vicdan, düşünce ve kanaatlerini açıklamaya zorlanamaz, suç ve cezalar geçmişe yürütülemez, suçluluğu mahkemece sabit oluncaya kadar kimse suçlu sayılamaz (Masumiyet Karinesi). Ancak 'konut dokunulmazlığı ve özel hayatın gizliliği' çekirdek haklardan olmayıp OHAL dönemlerinde Cumhurbaşkanı kararnamesiyle sınırlandırılabilir veya durdurulabilir."
+        },
+        {
+            "id": 3,
+            "text": "1982 Anayasası'nda yer alan temel hak ve hürriyetler Jellinek sınıflandırmasına göre değerlendirildiğinde, aşağıdakilerden hangisi sosyal ve ekonomik haklar (pozitif statü hakları) bölümünde yer alır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mülkiyet hakkı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dernek kurma hürriyeti",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çalışma ve sözleşme hürriyeti",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Dilekçe hakkı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Toplantı ve gösteri yürüyüşü düzenleme hakkı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Jellinek ayrımına göre çalışma ve sözleşme hürriyeti, sosyal ve ekonomik (pozitif) haklar arasında yer alır (içinde 'hürriyet' kelimesi geçmesi yanıltıcı olmamalıdır). Mülkiyet, konut dokunulmazlığı, dernek kurma hakları negatif (kişi); dilekçe hakkı ise aktif statü (siyasi) haklarındandır."
+        },
+        {
+            "id": 4,
+            "text": "1982 Anayasası'na göre, Türkiye Büyük Millet Meclisi seçimleri hangi sebeple ve en fazla ne kadar süreyle geriye bırakılabilir (ertelenebilir)?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olağanüstü hal sebebiyle - 6 ay",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Seferberlik sebebiyle - 1 yıl",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Doğal afet sebebiyle - 1 yıl",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Savaş sebebiyle - 1 yıl",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Savaş sebebiyle - 6 ay",
+                    "correct": false
+                }
+            ],
+            "explanation": "1982 Anayasası'na göre TBMM seçimleri yalnızca 'savaş' sebebiyle ve sadece TBMM'nin kararıyla '1 yıl' süreyle geriye bırakılabilir. Savaş devam ediyorsa aynı usulle tekrarlanabilir."
+        },
+        {
+            "id": 5,
+            "text": "1982 Anayasası'na göre, milletvekili seçilebilme şartlarıyla ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "18 yaşını doldurmuş olmak",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "En az ilkokul mezunu olmak",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kısıtlı olmamak",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Taksirli suçlar hariç, toplam bir yıl veya daha fazla hapis cezası almamış olmak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Askerlik hizmetini fiilen yapmış olmak",
+                    "correct": true
+                }
+            ],
+            "explanation": "Milletvekili seçilebilmek için 'askerlik hizmetini fiilen yapmış olmak' şartı değil, 'askerlikle ilişiği bulunmamak' şartı aranır. Tecilli olmak veya askerlikten muaf olmak da milletvekili adaylığı için yeterlidir."
+        },
+        {
+            "id": 6,
+            "text": "1982 Anayasası'na göre, Bütçe Kanunu ve Kesinhesap Kanunu ile ilgili olarak aşağıda verilen bilgilerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cumhurbaşkanı, Bütçe Kanununu bir daha görüşülmek üzere meclise iade edebilir (veto edebilir).",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Bütçe Kanunu teklifini milletvekilleri değil, Cumhurbaşkanı TBMM'ye sunar.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bütçe Kanununa bütçe dışı hüküm konulamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bütçe teklifi, mali yılbaşından en az 75 gün önce Cumhurbaşkanı tarafından TBMM'ye sunulur.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bütçe ve Kesinhesap Kanunları Anayasa Mahkemesi'nin yargısal denetimine tabidir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cumhurbaşkanı kendisine gelen kanunları 15 gün içinde yayımlar veya meclise iade eder. Ancak anayasaya göre Bütçe Kanunu ve Kesinhesap Kanunu teklifleri Cumhurbaşkanı tarafından Meclis'e iade edilemez (veto edilemez). Bu kanunların yayımlanması zorunludur."
+        },
+        {
+            "id": 7,
+            "text": "1982 Anayasası'nın değiştirilmesi usulü ile ilgili aşağıdakilerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Anayasanın değiştirilmesi TBMM üye tamsayısının en az üçte biri (200 milletvekili) tarafından yazıyla teklif edilebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Teklifin kabulü için TBMM üye tam sayısının en az salt çoğunluğunun gizli oyu gerekir.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Anayasa değişikliğine ilişkin teklifler TBMM Genel Kurulunda iki defa görüşülür (İvedilikle görüşme yasağı).",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cumhurbaşkanı anayasa değişikliği kanunlarını bir daha görüşülmek üzere meclise geri gönderebilir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "TBMM üye tamsayısının beşte üçü ile veya üçte ikisinden az oyla kabul edilen anayasa değişikliği, CB tarafından iade edilmezse halkoyuna sunulmak zorundadır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anayasa değişikliklerinin TBMM'de kabul edilebilmesi için salt çoğunluk yeterli değildir. Üye tam sayısının en az beşte üçünün (360 milletvekili) gizli oyu ile kabul edilmesi gereklidir."
+        },
+        {
+            "id": 8,
+            "text": "1982 Anayasası'na göre, aşağıdakilerden hangisi Cumhurbaşkanlığına aday göstermeye yetkili makam veya gruplardan biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Siyasi parti grupları",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "En az 100.000 seçmen",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "En az 20 milletvekilinin bir araya gelmesiyle oluşan yazılı teklif",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Son genel seçimlerde tek başına geçerli oyların en az yüzde 5'ini almış olan siyasi parti",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Son genel seçimlerde birlikte (ittifakla) geçerli oyların en az yüzde 5'ini almış olan siyasi partiler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cumhurbaşkanlığına siyasi parti grupları, en az 100.000 seçmen ve son genel seçimlerde geçerli oyların en az yüzde 5'ini tek başına veya birlikte almış siyasi partiler aday gösterebilir. 'Siyasi parti grubu' 20 milletvekiliyle kurulsa da anayasa metninde 'en az 20 milletvekili' şeklinde bir aday gösterme usulü yoktur, bu kelime oyunu sorularda sıklıkla kullanılmaktadır."
+        },
+        {
+            "id": 9,
+            "text": "1982 Anayasası'na göre Cumhurbaşkanı seçilebilmek için adaylarda aranan yaş ve öğrenim şartı aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "35 yaş - Lise",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "40 yaş - İlkokul",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "35 yaş - Yükseköğrenim",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "40 yaş - Yükseköğrenim",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "45 yaş - Yükseköğrenim",
+                    "correct": false
+                }
+            ],
+            "explanation": "1982 Anayasası'na göre Cumhurbaşkanı seçilebilmek için 40 yaşını doldurmuş olmak ve yükseköğrenim (en az lisans) mezunu olmak şarttır."
+        },
+        {
+            "id": 10,
+            "text": "Aşağıdakilerden hangisi Cumhurbaşkanının anayasada sayılan görev ve yetkilerinden biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Üst kademe kamu yöneticilerini atamak ve görevlerine son vermek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yabancı devletlere Türkiye Cumhuriyeti'nin temsilcilerini göndermek",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Cumhurbaşkanlığı Kararnamesi çıkarmak",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Türkiye Büyük Millet Meclisi adına Türk Silahlı Kuvvetlerinin Başkomutanlığını temsil etmek",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Savaş ilanına karar vermek",
+                    "correct": true
+                }
+            ],
+            "explanation": "Savaş ilanına karar vermek, Türk Silahlı Kuvvetlerinin yurt dışına gönderilmesi veya yabancı askerlerin Türkiye'de bulunmasına izin vermek Türkiye Büyük Millet Meclisi'nin (TBMM) münhasır görev ve yetkilerindendir. Cumhurbaşkanı bunları doğrudan ilan edemez."
+        },
+        {
+            "id": 11,
+            "text": "Olağan dönemlerde Cumhurbaşkanı tarafından çıkarılan 'Cumhurbaşkanlığı Kararnameleri' ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Temel hakların tümü, kişi hakları ve siyasi haklar bu kararnamelerle sınırlandırılabilir ve düzenlenebilir.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Anayasada münhasıran kanunla düzenlenmesi öngörülen konularda kararname çıkarılamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kanunda açıkça düzenlenen konularda kararname çıkarılamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kararname ile kanunlarda farklı hükümler bulunması halinde, kanun hükümleri uygulanır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Türkiye Büyük Millet Meclisinin aynı konuda kanun çıkarması durumunda, Cumhurbaşkanlığı kararnamesi hükümsüz hale gelir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cumhurbaşkanı olağan dönemlerde sadece Anayasanın 'Sosyal ve Ekonomik Haklar' bölümünü kararnamelerle düzenleyebilir. Kişi hakları ve siyasi haklar olağan dönem kararnameleri ile düzenlenemez ve hiçbir temel hak bu yolla sınırlandırılamaz (Sınırlandırma yalnız kanunla olur)."
+        },
+        {
+            "id": 12,
+            "text": "1982 Anayasası'na göre Olağanüstü Hal (OHAL) ilan etme yetkisi kime aittir ve her defasında en fazla ne kadar süre için ilan edilebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Türkiye Büyük Millet Meclisi - 3 ay",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cumhurbaşkanı - 6 ay",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Cumhurbaşkanı - 3 ay",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bakanlar Kurulu - 6 ay",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İçişleri Bakanı - 6 ay",
+                    "correct": false
+                }
+            ],
+            "explanation": "1982 Anayasası'na göre Olağanüstü Hal (OHAL), Cumhurbaşkanı tarafından ilan edilir ve bu süre (ilk ilanda) altı ayı geçemez. İlan kararı aynı gün Meclis onayına sunulur."
+        },
+        {
+            "id": 13,
+            "text": "Hakimler ve Savcılar Kurulu (HSK) ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "13 üyeden oluşur ve iki daire halinde çalışır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kurulun Başkanı Adalet Bakanıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Üyelerinin tamamını Cumhurbaşkanı seçer.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Adalet Bakanlığı Bakan Yardımcısı (veya Müsteşarı) Kurulun tabii üyesidir.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kurulun meslekten çıkarma cezasına ilişkin kararlarına yargı yolu açıktır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hakimler ve Savcılar Kurulu (HSK) üyelerinin tamamı Cumhurbaşkanı tarafından seçilmez. 13 üyenin 7'sini TBMM, 4'ünü Cumhurbaşkanı seçer. Diğer 2 üye ise tabii üye olan Adalet Bakanı ve Adalet Bakanlığı Bakan Yardımcısıdır."
+        },
+        {
+            "id": 14,
+            "text": "1982 Anayasası'na göre aşağıdakilerden hangisi görevleriyle ilgili suçlardan dolayı Yüce Divan sıfatıyla Anayasa Mahkemesi'nde yargılanacak kişiler arasında yer almaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Türkiye Büyük Millet Meclisi Başkanı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Genelkurmay Başkanı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Cumhurbaşkanı Yardımcıları",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Jandarma Genel Komutanı",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Hakimler ve Savcılar Kurulu Üyeleri",
+                    "correct": false
+                }
+            ],
+            "explanation": "2017 anayasa değişikliği ile Jandarma Genel Komutanı'nın Yüce Divan'da yargılanması uygulamasına son verilmiştir. Çünkü Jandarma Genel Komutanlığı tamamen İçişleri Bakanlığına bağlanmış ve Milli Güvenlik Kurulu üyeliğinden de çıkarılmıştır."
+        },
+        {
+            "id": 15,
+            "text": "1982 Anayasası'na göre, kanunların ve TBMM İçtüzüğünün şekil bakımından Anayasaya aykırılığı iddiasıyla Anayasa Mahkemesinde doğrudan doğruya iptal davası açma hakkı, kanunun Resmi Gazete'de yayımlanmasından başlayarak kaç gün içinde düşer?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "60 gün",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "30 gün",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "45 gün",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "15 gün",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "10 gün",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kanunların, anayasa değişikliklerinin ve Meclis İçtüzüğünün şekil (yapılış usulü) bakımından Anayasaya aykırılığı iddiasıyla iptal davası açma süresi, bunların Resmi Gazete'de yayımlanmasından başlayarak 10 gündür. Esas bakımından ise bu süre 60 gündür."
+        },
+        {
+            "id": 16,
+            "text": "Anayasa Mahkemesi 15 üyeden oluşmaktadır. Bu üyelerin TBMM ve Cumhurbaşkanı tarafından seçilme dağılımı aşağıdakilerden hangisinde doğru verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "3 üyeyi TBMM, 12 üyeyi Cumhurbaşkanı seçer.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "5 üyeyi TBMM, 10 üyeyi Cumhurbaşkanı seçer.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "7 üyeyi TBMM, 8 üyeyi Cumhurbaşkanı seçer.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "4 üyeyi TBMM, 11 üyeyi Cumhurbaşkanı seçer.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "2 üyeyi TBMM, 13 üyeyi Cumhurbaşkanı seçer.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anayasa Mahkemesi'nin 15 üyesi bulunmaktadır. Bu üyelerden 3'ünü Türkiye Büyük Millet Meclisi (Sayıştay ve Baro Başkanlarının göstereceği adaylar arasından), kalan 12'sini ise doğrudan veya Yargıtay, Danıştay, YÖK gibi kurumların gösterdiği adaylar arasından Cumhurbaşkanı seçer."
+        },
+        {
+            "id": 17,
+            "text": "Aşağıdakilerden hangisi 1982 Anayasası'nda düzenlenen yüksek mahkemelerden biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Anayasa Mahkemesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sayıştay",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yargıtay",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Danıştay",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uyuşmazlık Mahkemesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "1982 Anayasasına göre yüksek mahkemeler; Anayasa Mahkemesi, Yargıtay, Danıştay ve Uyuşmazlık Mahkemesi'dir. Sayıştay, Yüksek Seçim Kurulu ve HSK birer yargı organı olsalar da anayasada 'Yüksek Mahkeme' başlığı altında düzenlenmemişlerdir."
+        },
+        {
+            "id": 18,
+            "text": "1982 Anayasası'na göre, idarenin hukuka uygunluğunun, düzenli ve verimli şekilde yürütülmesinin ve geliştirilmesinin sağlanması amacıyla kurulan Devlet Denetleme Kurulu, aşağıdakilerden hangisinde inceleme, araştırma ve denetleme yapamaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kamu kurumu niteliğindeki meslek kuruluşları",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sermayesinin yarısından fazlasına devletin katıldığı kuruluşlar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yargı organları",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Türk Silahlı Kuvvetleri",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kamu yararına çalışan dernekler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cumhurbaşkanlığına bağlı olan Devlet Denetleme Kurulu (DDK), tüm kamu kurumlarında, meslek kuruluşlarında, sendikalarda ve kamu yararına çalışan derneklerde denetim yapabilir. Ancak yargı bağımsızlığını korumak amacıyla 'yargı organları' DDK'nın denetim alanı dışında tutulmuştur."
+        },
+        {
+            "id": 19,
+            "text": "Türkiye Büyük Millet Meclisi üyelerinin, Meclis çalışmalarındaki oy ve sözlerinden, Mecliste ileri sürdükleri düşüncelerden dolayı hukuki ve cezai takibata uğramamalarına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yasama dokunulmazlığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yasama ayrıcalığı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Siyasi bağışıklık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yasama sorumsuzluğu",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yargı muafiyeti",
+                    "correct": false
+                }
+            ],
+            "explanation": "TBMM üyelerinin Meclis çalışmalarındaki oy, söz ve düşüncelerinden dolayı sorumlu tutulmamalarına 'yasama sorumsuzluğu' (kürsü dokunulmazlığı) denir. Sorumsuzluk mutlaktır, TBMM tarafından kaldırılamaz ve milletvekilliği bittikten sonra da devam eder."
+        },
+        {
+            "id": 20,
+            "text": "1982 Anayasası'na göre, herkesin anayasada güvence altına alınmış temel hak ve özgürlüklerinden, Avrupa İnsan Hakları Sözleşmesi kapsamındaki herhangi birinin kamu gücü tarafından ihlal edildiği iddiasıyla Anayasa Mahkemesine yapacağı 'bireysel başvuru' için olağan kanun yollarının tüketilmesinden itibaren kaç gün içinde başvurulması gerekmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "7 gün",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "10 gün",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "15 gün",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "60 gün",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "30 gün",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bireysel başvuru yapılabilmesi için öncelikle idari ve yargısal olağan kanun yollarının tüketilmesi gerekir. Kanun yolları tüketildikten sonra, kesin kararın öğrenilmesinden itibaren 30 gün içinde Anayasa Mahkemesi'ne bireysel başvuru yapılmalıdır."
+        }
+    ]
+}

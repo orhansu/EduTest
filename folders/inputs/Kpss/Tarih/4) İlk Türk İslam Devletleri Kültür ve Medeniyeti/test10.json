@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "f5b8c9d2-3a1b-4e5f-8d7c-2b1a9c3e4d5f",
+        "title": "test 10",
+        "subject": "test 10",
+        "topic": "İlk Türk İslam Devletleri Kültür ve Medeniyeti",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tİlk Müslüman Türk devletlerinde hükümdarlar, devletin gücünü ve bağımsızlığını simgeleyen çeşitli unvanlar kullanmışlardır.\n\n---\n\nİslamiyet öncesi dönemde çok yaygın olarak kullanılmasına rağmen, Türklerin İslamiyet'i kabulünden sonra 'terk edilen' ve Osmanlı Devleti'nde de hiç kullanılmayan unvan aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sultan",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Han",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hakan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Padişah",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kaan (Kağan)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Han, Hakan gibi unvanlar İslamiyet sonrasında da kullanılmaya devam etmiş, Sultan, Şah, Padişah gibi yeni İslami unvanlar eklenmiştir. Çinceden Türkçeye geçen 'Kaan (Kağan)' unvanı ise İslamiyet ile birlikte tamamen terk edilmiştir."
+        },
+        {
+            "id": 2,
+            "text": "\tTürklerin İslamiyet'i kabul etmesiyle birlikte hükümdarlık sembollerinde köklü değişiklikler yaşanmış, İslam öncesi geleneklerin yanına yeni İslami unsurlar da eklenmiştir.\n\n---\n\nBuna göre aşağıdakilerden hangisi İslamiyet'in kabulüyle birlikte kullanılmaya başlanan 'yeni' hükümdarlık sembollerinden biridir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çetr",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Otağ",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nevbet",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tuğ",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Örgün (Taht)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Otağ (çadır), Nevbet (davul), Tuğ (sancak) ve Örgün (taht) İslamiyet öncesinden beri kullanılan geleneksel sembollerdir. Çetr (saltanat şemsiyesi) ise hutbe, tıraz ve menşur gibi İslamiyet'in kabulüyle birlikte gelen yeni sembollerdendir."
+        },
+        {
+            "id": 3,
+            "text": "\tTürk-İslam devletlerinde hükümdarın günlük işlerini yürütmek, saray ve hükümdarın güvenliğini sağlamak için çeşitli 'Hassa' (saray) görevlileri bulunurdu.\n\n---\n\nBuna göre hükümdarın 'elbiselerinden ve giyiminden' sorumlu olan saray görevlisi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Serhenk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Alemdar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Camedar",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Çaşnigir",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Candar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hükümdarın kıyafetlerinden ve elbiselerinden sorumlu olan saray görevlisine 'Camedar' (came = kıyafet) denilirdi. Candar güvenliği sağlar, Çaşnigir yemeklerden sorumlu olurdu."
+        },
+        {
+            "id": 4,
+            "text": "\tİlk Müslüman Türk devletlerinde idari kadroların ve mali düzenin sıkı bir şekilde denetlenmesi devletin otoritesi için gerekli görülmüştür.\n\n---\n\nBuna göre devletin her türlü mali ve idari işlerini 'teftiş etmekle' (denetlemekle) görevli olan ve başındaki yetkiliye 'Müşrif' adı verilen bu ihtisas divanı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Divan-ı Arz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Divan-ı İşraf",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Divan-ı İstifa",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Divan-ı İnşa",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Divan-ı Mezalim",
+                    "correct": false
+                }
+            ],
+            "explanation": "İlk Müslüman Türk devletlerinde devletin mali ve idari işlerini denetleyen, teftiş eden ve başkanı 'Müşrif' olan kurum Divan-ı İşraf'tır."
+        },
+        {
+            "id": 5,
+            "text": "\tİlk Müslüman Türk devletlerinde devletin adalet sisteminin en üst mercii olan ve ağır siyasi suçların karara bağlandığı yüksek bir mahkeme bulunmaktaydı.\n\n---\n\nBizzat 'Sultanın' başkanlık ettiği, kadı kararlarına yapılan itirazların incelendiği ve halkın şikayetlerinin dinlendiği bu yüksek yargı kurumu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Divan-ı İstifa",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Divan-ı Arz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Divan-ı İşraf",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Divan-ı Mezalim",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Divan-ı Tuğra",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sultanın bizzat başkanlık ettiği, halkın şikayetlerinin dinlendiği ve ağır siyasi veya idari suçların görüşüldüğü yüksek yargı mahkemesi Divan-ı Mezalim'dir."
+        },
+        {
+            "id": 6,
+            "text": "\tİlk Müslüman Türk devletlerinde hukuk sistemi Şer'i ve Örfi olmak üzere iki ana bölüme ayrılmış, bu iki alanın başında farklı yargı mensupları bulunmuştur.\n\n---\n\nBuna göre devletin gelenek, görenek ve padişah emirlerine dayanan 'Örfi' hukuk sisteminin başında bulunan en yüksek yargı yetkilisi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kadıleşker",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kadıülkudat",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Muhtesip",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Müstevfi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Emir-i Dad",
+                    "correct": true
+                }
+            ],
+            "explanation": "İlk Türk-İslam devletlerinde hukuk sistemi ikiye ayrılırdı. İslami esaslara dayanan Şer'i hukukun başında Kadıülkudat, gelenek ve göreneklere dayanan Örfi hukukun başında ise Emir-i Dad bulunurdu."
+        },
+        {
+            "id": 7,
+            "text": "\tİlk Türk-İslam devletlerinde hukuk sistemi Şer'i ve Örfi olmak üzere ikiye ayrılmış, ayrıca askeri nitelikteki davalar için farklı bir yetkili görevlendirilmiştir.\n\n---\n\nBuna göre orduda çıkan isyanlara ve 'askeri davalara' bakan, günümüz askeri mahkemelerinin temelini oluşturan yetkili aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kadıleşker (Kazasker)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Emir-i Dad",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Şıhne",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kadıülkudat",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Naip",
+                    "correct": false
+                }
+            ],
+            "explanation": "İlk Türk-İslam devletlerinde orduda çıkan isyanlara ve askeri davalara 'Kadıleşker' (veya Kazasker) bakardı. Örfi hukukun başı Emir-i Dad, Şer'i hukukun başı ise Kadıülkudat'tı."
+        },
+        {
+            "id": 8,
+            "text": "\tBüyük Selçuklu Devleti'nde Vezir Nizamülmülk tarafından sistemleştirilen 'İkta' sistemi ile devlete ait arazilerin gelirleri, hizmet karşılığında asker veya sivil devlet memurlarına bırakılmıştır.\n\n---\n\nBuna göre aşağıdakilerden hangisi İkta sisteminin uygulanmasının 'en temel (asıl)' amacıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Merkezi hazineye doğrudan nakit para akışı sağlamak",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Toprağın boş kalmasını engelleyerek tarımsal üretimde sürekliliği sağlamak",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Göçebe Türkmenlerin yerleşik hayata geçmesini kolaylaştırmak",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Masrafsız bir atlı asker ordusu kurmak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Taşrada düzenli vergi toplanmasını güvence altına almak",
+                    "correct": false
+                }
+            ],
+            "explanation": "İkta sisteminin uygulanmasının en temel (asıl) amacı, arazilerin boş kalmasını engelleyerek tarımsal üretimde sürekliliği garanti altına almaktır. Taşrada güvenlik sağlamak ve masrafsız asker (Cebelü) yetiştirmek bu sistemin doğal ve faydalı sonuçlarındandır."
+        },
+        {
+            "id": 9,
+            "text": "\tSavaşlarda esir edilen veya satın alınan çocukların (özellikle Türklerin tercih edilmesiyle) belirli merkezlerde yetiştirilip idari ve askeri kadrolarda görevlendirildiği, Osmanlı'daki devşirme sistemine de ilham kaynağı olan bir sistem kurulmuştur.\n\n---\n\nİslam öncesi ordu yapısına göre ilk Müslüman Türk devletlerinde orduya getirilen en büyük yenilik olarak kabul edilen bu 'Gulam Sistemi' ilk defa hangi devlette uygulanmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gazneliler",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Büyük Selçuklu Devleti",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Karahanlılar",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Memlükler",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eyyubiler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Savaş esirlerinin (özellikle Türk çocuklarının) devlete asker ve idareci olarak Gulamhane'de yetiştirildiği Gulam sistemi, Türk-İslam tarihinde ilk defa Karahanlılar tarafından uygulanmaya başlanmıştır."
+        },
+        {
+            "id": 10,
+            "text": "\tİlk Türk-İslam devletlerinde, özellikle hükümdarlar, hanedan üyeleri ve önemli devlet adamlarının ebedi istirahatgahı olarak özel anıt mezarlar inşa edilmiştir.\n\n---\n\nÜst kısmı İslamiyet öncesindeki 'göçebe çadırını' simgeleyen, genellikle konik veya piramidal çatı formunda tasarlanan bu mimari yapıya ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Külliye",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bimaristan",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bedesten",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kümbet",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "İmarethane",
+                    "correct": false
+                }
+            ],
+            "explanation": "İlk Müslüman Türk devletlerinde hükümdarlar ve önemli şahsiyetler için inşa edilen ve mimari üst yapısıyla İslamiyet öncesindeki göçebe çadır formunu andıran anıt mezarlara 'Kümbet' adı verilirdi."
+        },
+        {
+            "id": 11,
+            "text": "\tDanişmentliler döneminde Tokat'ın Niksar ilçesinde inşa edilen önemli bir eğitim kurumu, günümüze kadar ulaşmış değerli bir tarihi mirastır.\n\n---\n\nAnadolu'da kurulan 'ilk Türk-İslam medresesi' olma özelliğini taşıyan bu yapı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Semerkant Medresesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Karatay Medresesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çifte Minareli Medrese",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nizamiye Medresesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yağıbasan Medresesi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Danişmentliler tarafından Tokat Niksar'da inşa edilen Yağıbasan Medresesi, Anadolu'da kurulan ilk Türk-İslam medresesi olarak kabul edilmektedir."
+        },
+        {
+            "id": 12,
+            "text": "\tTürklerin İslamiyet'i kabul etmesiyle birlikte resim ve heykel gibi sanat dallarında gerileme yaşanırken, kitabet ve kitap süsleme sanatlarında eşsiz eserler verilmiştir.\n\n---\n\nKelime anlamı 'altınlamak, yaldızlamak' olan, özellikle Kur'an-ı Kerim gibi değerli el yazması eserlerin süslenmesinde kullanılan ve bu sanatla uğraşanlara 'müzehhip' adı verilen sanat dalı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tezhip",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Hat",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Minyatür",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Telkari",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Malakari",
+                    "correct": false
+                }
+            ],
+            "explanation": "Arapça kökenli olup 'altınlamak, yaldızlamak' anlamına gelen, değerli el yazması eserlerin ve bilhassa Kur'an-ı Kerim'in süslenmesinde kullanılan ince süsleme sanatı Tezhip'tir."
+        },
+        {
+            "id": 13,
+            "text": "\tİslam dünyasında siyaset felsefesinden ilk bahseden âlim olarak bilinir ve görüşleriyle Batı dünyasını da derinden etkileyerek orada 'Alfarabius' adıyla tanınmıştır.\n\n---\n\n'El Medinetü'l Fazıla' (Erdemli Şehir) adlı eseriyle bilinen ve İslam dünyasında \"Muallim-i Sani\" (İkinci Öğretmen) lakabıyla anılan bilim insanı kimdir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gazali",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Farabi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "İbn Rüşd",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İbn Sina",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Harezmi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aristo'dan sonra 'İkinci Öğretmen' (Muallim-i Sani) olarak bilinen, El Medinetü'l Fazıla adlı eserinde ideal devlet ve Birleşmiş Milletler fikrini öne süren ünlü âlim Farabi'dir."
+        },
+        {
+            "id": 14,
+            "text": "\tTıp dünyasında çığır açan ve mikropların hastalık yapıcı etkisinden ilk kez bahseden İslam bilgini, eserleriyle Batı dünyasında büyük bir ün kazanmıştır.\n\n---\n\nAvrupa'da 'Avicenna' (Tıbbın Hükümdarı) lakabıyla tanınan ve yüzyıllarca tıp fakültelerinde ders kitabı olarak okutulan 'El Kanun fit-Tıp' adlı eserin yazarı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Biruni",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Farabi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İbn Sina",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Gazali",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Harezmi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tıp bilimine büyük damga vuran, mikrobun hastalık yapıcı etkisinden bahseden ve Batı'da 'Avicenna' olarak tanınan ünlü bilgin İbn Sina'dır. En önemli eseri El Kanun fit-Tıp'tır."
+        },
+        {
+            "id": 15,
+            "text": "\tTarihte pek çok hükümdar bilginleri himaye etmiş ve onların çalışmalarından faydalanmıştır. Hindistan seferleri sırasında elde edilen coğrafi ve kültürel bilgiler önemli eserlere konu olmuştur.\n\n---\n\nGazneli Mahmut'un Hindistan seferlerine bizzat katılan, o coğrafya üzerine 'Tahkik-u Ma'li'l-Hind' adlı eseri kaleme alan ve Sultan'ın \"Sarayımın en kıymetli hazinesi\" olarak nitelendirdiği âlim aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Firdevsi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İbn Rüşd",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Harezmi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Biruni",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "İbn Heysem",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hindistan seferlerine katılıp o coğrafya hakkında kitap yazan (Tahkik-u Ma'li'l-Hind, Asarül Bakiye) ve Gazneli Mahmut'un 'sarayımın en kıymetli hazinesi' olarak nitelendirdiği bilim adamı Biruni'dir."
+        },
+        {
+            "id": 16,
+            "text": "\tKarahanlılar döneminde Yusuf Has Hacip tarafından kaleme alınan Kutadgu Bilig, devlet yönetimi ve toplum hayatını dört temel kavram üzerine oturtmuş ve bunları sembolik karakterlerle anlatmıştır.\n\n---\n\nBuna göre eserde yer alan 'Odgurmış' karakterinin temsil ettiği sembolik kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Adalet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Akıl",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Devlet (Saadet)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gelenek",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Akıbet (Kanaat)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kutadgu Bilig'de Küntogdı adaleti, Aytoldı devleti (saadeti), Ögdülmiş aklı, Odgurmış ise akıbeti (kanaati / yaşamın sonunu) temsil eden sembolik bir karakterdir."
+        },
+        {
+            "id": 17,
+            "text": "\tTürk dilinin zenginliğini göstermek ve Türkçenin Arapçadan daha aşağı bir dil olmadığını kanıtlamak amacıyla eşsiz bir eser kaleme alınmıştır.\n\n---\n\nAraplara Türkçeyi öğretmek amacıyla Kaşgarlı Mahmut tarafından yazılıp Abbasi Halifesi'ne sunulan ve ilk Türkçe sözlük kabul edilen eser aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Divan-ı Lügati't-Türk",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kutadgu Bilig",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Atabetü'l Hakayık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Şehname",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Divan-ı Hikmet",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kaşgarlı Mahmut'un kaleme aldığı Divan-ı Lügati't-Türk, Araplara Türkçeyi öğretmek ve Türkçenin zenginliğini kanıtlamak amacıyla yazılmış tarihteki ilk büyük Türkçe sözlüktür."
+        },
+        {
+            "id": 18,
+            "text": "\tBüyük Selçuklu Devleti döneminde Vezir Nizamülmülk'ün gayretleriyle dönemin en saygın üniversiteleri konumunda olan Nizamiye Medreseleri açılmıştır.\n\n---\n\nBuna göre Nizamiye Medreselerinin kuruluş amaçları arasında aşağıdakilerden hangisi 'yer almaz'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şii Bâtınilik gibi zararlı fikir akımlarına karşı fikri mücadele vermek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gulam sistemine bağlı devşirme askerlere temel askeri eğitim vermek",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Devletin artan idari kadrolarına eğitimli sivil memur yetiştirmek",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İslam dinini doğru bir şekilde öğretecek ehil din adamları yetiştirmek",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yoksul ve yetenekli öğrencileri burslu okutarak topluma kazandırmak",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nizamiye Medreseleri; zararlı Bâtınilik fikirleriyle mücadele etmek, sivil memur ve din adamı yetiştirmek, yetenekli yoksul öğrencilere eğitim sunmak amaçlarıyla kurulmuştur. Gulam askerleri ise askeri bir merkez olan Gulamhane'de yetiştirilirdi."
+        },
+        {
+            "id": 19,
+            "text": "\tİlk Türk-İslam devletlerinde devletin önemli meselelerinin görüşülüp karara bağlandığı Divan-ı Saltanat'ın (Büyük Divan) altında çalışan çeşitli ihtisas divanları bulunurdu.\n\n---\n\nBuna göre devletin 'iç ve dış yazışmalarından' sorumlu olan ve başındaki görevliye 'Münşi' (veya Tuğrai) denilen divan aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Divan-ı İstifa",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Divan-ı Arz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Divan-ı İnşa",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Divan-ı İşraf",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Divan-ı Pervane",
+                    "correct": false
+                }
+            ],
+            "explanation": "İlk Müslüman Türk devletlerinde devletin iç ve dış yazışmalarından sorumlu kurum Divan-ı İnşa'dır (eski adıyla Divan-ı Tuğra). Başındaki görevliye ise Münşi veya Tuğrai adı verilir."
+        },
+        {
+            "id": 20,
+            "text": "\tBüyük Selçuklularda 'melik' unvanı verilen şehzadeler, devlet tecrübesi kazanmaları amacıyla eyaletlere yönetici olarak gönderilirken, yanlarına onları askeri ve siyasi konularda yetiştirecek uzman eğitmenler verilirdi.\n\n---\n\nİlk örneğinin Vezir Nizamülmülk olduğu kabul edilen ve Osmanlı Devleti'ndeki 'lala'nın Selçuklulardaki karşılığı olan bu tecrübeli devlet adamlarına ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şıhne",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Naip",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Muhtesip",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Atabey",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Amit",
+                    "correct": false
+                }
+            ],
+            "explanation": "Melikleri (şehzadeleri) devlet idaresi, askerlik ve siyaset konularında yetiştiren tecrübeli eğitmenlere Büyük Selçuklularda 'Atabey' adı verilirdi (Osmanlı'daki karşılığı Lala'dır)."
+        }
+    ]
+}

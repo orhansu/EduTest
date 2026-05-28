@@ -75,7 +75,7 @@ if __name__ == "__main__":
     port = 5050
     print(f"Starting API Server on port {port}...")
     print(f"Server allows reading static files and saving to '/status' folder via /api/status endpoint.")
-    server = HTTPServer(('0.0.0.0', port), MyServer)
+    server = HTTPServer(('192.168.1.52', port), MyServer)
     try:
         server.serve_forever()
     except KeyboardInterrupt:

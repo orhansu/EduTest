@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "a1b2c3d4-e5f6-7890-1234-56789abcdef6",
+        "title": "test 6",
+        "subject": "test 6",
+        "topic": "Anadolu Selçuklu Devleti (1075 - 1308)",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tBirinci Haçlı Seferi'nin Anadolu'da yarattığı yıkıcı etki ve askeri baskı, Türkiye Selçuklu Devleti'ni stratejik bir karar almaya zorlamıştır.\n\n---\n\nBuna göre Haçlıların ilerleyişi karşısında başkenti İznik'ten Konya'ya taşıyan Selçuklu hükümdarı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Kılıç Arslan",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "I. Mesut",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "I. Gıyaseddin Keyhüsrev",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kutalmışoğlu Süleyman Şah",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Alaaddin Keykubat",
+                    "correct": false
+                }
+            ],
+            "explanation": "I. Haçlı Seferi'nin yoğun baskısı ve ilerleyişi sonucu I. Kılıç Arslan, devletin merkezini İznik'ten Konya'ya taşımak zorunda kalmıştır."
+        },
+        {
+            "id": 2,
+            "text": "\tAnadolu Selçuklu Devleti, 1075 yılında Büyük Selçuklu hanedanına mensup bir lider tarafından kurulmuş ve Bizans'tan alınan önemli bir şehir merkez yapılmıştır.\n\n---\n\nBuna göre devletin kurucusu ve 'ilk başkenti' aşağıdakilerden hangisinde doğru eşleştirilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Kılıç Arslan - Konya",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kutalmışoğlu Süleyman Şah - İznik",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "I. Mesut - Kayseri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Alaaddin Keykubat - Alanya",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Süleyman Şah - Sivas",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anadolu Selçuklu Devleti, Kutalmışoğlu Süleyman Şah tarafından 1075 yılında Bizans'tan fethedilen İznik merkez olmak üzere kurulmuştur."
+        },
+        {
+            "id": 3,
+            "text": "\tAnadolu Selçuklu hükümdarları, Büyük Selçuklu Devleti ile aynı kökten gelmelerine rağmen yönetim ve kültür alanında bazı farklılıklar göstermişlerdir.\n\n---\n\nSultanların 'Keyhüsrev, Keykavus, Keykubat' gibi unvanlar kullanmaları aşağıdakilerden hangisinin bir göstergesidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mısır kültürüyle yakın idari ilişki kurulduğunun",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Abbasi halifelerine tam bir bağlılık gösterildiğinin",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Devlet kademesinde Fars (İran) kültürünün etkili olduğunun",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Eski Türk unvanlarının (Kağan, Yabgu) terk edilmediğinin",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Moğol devlet teşkilatının benimsendiğinin",
+                    "correct": false
+                }
+            ],
+            "explanation": "\"Key\" ile başlayan (Keyhüsrev, Keykubat vb.) unvanlar Farsça kökenlidir ve Anadolu Selçuklu Devleti'nde Fars (İran) kültürünün güçlü bir etkiye sahip olduğunu gösterir."
+        },
+        {
+            "id": 4,
+            "text": "\tAnadolu Selçuklu Devleti, uluslararası ticareti canlandırmak ve tüccarların güvenliğini sağlamak amacıyla tarihte benzerine az rastlanan güvenceler sunmuştur.\n\n---\n\nBuna göre kervanları soyulan veya malları zarar gören tüccarların zararlarının devlet hazinesinden karşılanması uygulamasına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ahilik Sandığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Vakıf Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İkta Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Devlet Sigortası",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Narh Uygulaması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anadolu Selçuklu Devleti ticareti geliştirmek için malları zarar gören veya eşkıyalar tarafından soyulan tüccarların zararını hazineden karşılayarak dünya tarihindeki ilk 'devlet sigortası' uygulamasını başlatmıştır."
+        },
+        {
+            "id": 5,
+            "text": "\tAnadolu Selçuklu Devleti'nin doğusunda yer alan ve Moğollarla aralarında bir tampon bölge işlevi gören bir Türk-İslam devleti bulunmaktaydı.\n\n---\n\n1230 Yassıçemen Savaşı'nda mağlup edilerek yıkılma sürecine giren ve Anadolu'yu doğrudan Moğol istilasına açık hale getiren bu devlet aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İlhanlılar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Eyyubiler",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Memlükler",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Karahanlılar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Harzemşahlar",
+                    "correct": true
+                }
+            ],
+            "explanation": "1230 Yassıçemen Savaşı'nda Harzemşahlar Devleti mağlup edilerek yıkılma sürecine girmiş, böylece İlhanlılar (Moğollar) ile Anadolu Selçuklu Devleti arasındaki tampon bölge ortadan kalkmıştır."
+        },
+        {
+            "id": 6,
+            "text": "\t1243 yılında Baycu Noyan komutasındaki Moğol ordusu ile yapılan Kösedağ Savaşı, Anadolu Selçuklu Devleti için ağır bir yıkım olmuştur.\n\n---\n\nAşağıdakilerden hangisi bu savaşın sonuçlarından biri 'değildir'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Anadolu'da Türk siyasi birliğinin kesin olarak sağlanması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Anadolu'nun Moğollar tarafından ağır bir şekilde tahrip edilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Anadolu Selçuklu Devleti'nin dağılma ve yıkılış sürecine girmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Anadolu'da İkinci Türk Beyliklerinin kurulması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Anadolu Selçuklu Devleti'nin Moğollara tabi hale gelmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kösedağ Savaşı sonrasında devletin merkezi otoritesi çökmüş, İkinci Türk Beylikleri kurularak Anadolu'da siyasi birlik bozulmuştur. Siyasi birliğin sağlanması bu savaşın değil, çok daha sonralarının bir sonucudur."
+        },
+        {
+            "id": 7,
+            "text": "\tMoğol tehlikesinin yaklaştığı bir dönemde, Anadolu Selçuklu Devleti'nin içinde Türkmenlerin ekonomik ve sosyal sıkıntılarından kaynaklanan büyük bir isyan patlak vermiştir.\n\n---\n\n1240 yılında güçlükle bastırılabilen ve devletin zayıflığını Moğollara açıkça gösteren bu isyan aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şeyh Bedreddin İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Babailer (Baba İshak) İsyanı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Celali İsyanları",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Şahkulu İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bozoklu Celal İsyanı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkmenlerin sosyo-ekonomik sıkıntılarla başlattığı Baba İshak önderliğindeki Babailer İsyanı (1240), güçlükle bastırılmış ve bu durum devletin otoritesindeki zayıflığı Moğollara göstererek Kösedağ Savaşı'na zemin hazırlamıştır."
+        },
+        {
+            "id": 8,
+            "text": "\tOsmanlı Devleti'nde ekonominin gücünü simgeleyen ilk altın para Fatih Sultan Mehmet döneminde bastırılırken, Anadolu Selçuklu Devleti'nde bu gelişme daha erken yaşanmıştır.\n\n---\n\nBuna göre Anadolu Selçuklu Devleti'nde 'ilk altın parayı' bastırarak ekonominin güçlendiğini gösteren hükümdar aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Mesut",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "I. Kılıç Arslan",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "II. Kılıç Arslan",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Alaaddin Keykubat",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "I. Gıyaseddin Keyhüsrev",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anadolu Selçuklu Devleti'nde ilk bakır para I. Mesut zamanında basılırken, ekonominin ciddi şekilde güçlendiğini ve uluslararası ticaretin arttığını gösteren ilk altın para II. Kılıç Arslan döneminde basılmıştır."
+        },
+        {
+            "id": 9,
+            "text": "\tAnadolu Selçuklu Devleti'nin merkez teşkilatında, devlete ait arazilerin kayıtlarını tutmak ve hizmet karşılığında bu toprakları asker veya devlet görevlilerine tahsis etmekle yetkili özel bir divan bulunmaktaydı.\n\n---\n\nOsmanlı Devleti'ndeki Nişancı'nın görevine benzeyen ve İkta topraklarının dağıtımından sorumlu olan bu divan aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Divan-ı Arz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Divan-ı İşraf",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Divan-ı İstifa",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Divan-ı Pervane",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Divan-ı Mezalim",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anadolu Selçuklu Devleti'nde ikta topraklarının dağıtımını yapmak ve kayıtlarını tutmakla görevli olan, Osmanlı'daki karşılığı Nişancı kabul edilen kuruma Divan-ı Pervane, başındaki yetkiliye ise Pervaneci adı verilirdi."
+        },
+        {
+            "id": 10,
+            "text": "\tMoğol baskısının Anadolu'da yoğun olduğu yıllarda Alaaddin Siyavuş (Cimri) isyan etmiş ve bazı Türkmen beylerinden destek görmüştür.\n\n---\n\nCimri Olayı sırasında Alaaddin Siyavuş'u destekleyerek 1277'de Konya'da \"Bugünden sonra divanda, dergâhta, bargahta, mecliste ve meydanda Türkçeden başka dil kullanılmayacaktır.\" fermanını yayınlayan lider kimdir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çaka Bey",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Aydınoğlu Umur Bey",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Karesioğlu İsa Bey",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Osman Bey",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Karamanoğlu Mehmet Bey",
+                    "correct": true
+                }
+            ],
+            "explanation": "1277 yılında Türkçeyi resmi dil ilan eden ve Cimri Olayı'nda Alaaddin Siyavuş'u Selçuklu sultanı ilan ederek onu destekleyen lider Karamanoğlu Mehmet Bey'dir."
+        },
+        {
+            "id": 11,
+            "text": "\tEski Türk veraset geleneğinde ülke hanedanın ortak malı sayılırdı. Bu geleneği uygulayan bir Anadolu Selçuklu sultanı, sağlığında ülkeyi oğulları arasında paylaştırmıştır.\n\n---\n\nÖlümünden önce ülkeyi '11 oğlu' arasında paylaştırarak devletin zayıflamasına ve ciddi taht kavgalarına zemin hazırlayan hükümdar aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "II. Kılıç Arslan",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Alaaddin Keykubat",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "I. Gıyaseddin Keyhüsrev",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "I. Mesut",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "II. Gıyaseddin Keyhüsrev",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sultan II. Kılıç Arslan, eski Türk geleneğine uyarak kendisi hayattayken ülkeyi 11 oğlu arasında paylaştırmış, bu durum vefatından sonra devleti yıpratan taht kavgalarına sebep olmuştur."
+        },
+        {
+            "id": 12,
+            "text": "\t1243 Kösedağ Savaşı'ndan sonra Moğol tahakkümü altına giren devlette taht kavgaları artmış, bu zor dönemde devletin ömrünü uzatmak için tecrübeli devlet adamları inisiyatif almıştır.\n\n---\n\nTaht kavgalarını önlemek için üç şehzadeyi aynı anda tahta çıkararak 'Ortak Saltanat' dönemini başlatan ve devleti ayakta tutmaya çalışan ünlü devlet adamı kimdir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Muineddin Pervane",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Celaleddin Karatay",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Saadettin Köpek",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nizamülmülk",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hacı Paşa",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kösedağ Savaşı sonrası başlayan zorlu süreçte taht kavgalarının devleti parçalamasını engellemek için üç şehzadeyi birlikte tahta geçirerek ortak saltanatı sağlayan ve devleti yöneten tecrübeli devlet adamı Celaleddin Karatay'dır."
+        },
+        {
+            "id": 13,
+            "text": "\tAnadolu Selçuklu Devleti'nde tıp ve sağlık alanında önemli kurumlar inşa edilmiş, özellikle hükümdar kız kardeşleri ve eşleri bu hayır işlerine öncülük etmişlerdir.\n\n---\n\nI. Gıyaseddin Keyhüsrev'in kız kardeşi adına Kayseri'de inşa edilen ve Anadolu'nun İslami dönemdeki 'en eski' şifahanesi (hastanesi) kabul edilen yapı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yağıbasan Medresesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Süleymaniye Darüşşifası",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gevher Nesibe Darüşşifası",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Divriği Şifahanesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mama Hatun Türbesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "I. Gıyaseddin Keyhüsrev'in kız kardeşi adına Kayseri'de yaptırdığı Gevher Nesibe Darüşşifası, Anadolu'daki İslam dönemine ait en eski hastane ve tıp medresesi olarak kabul edilmektedir."
+        },
+        {
+            "id": 14,
+            "text": "\tAnadolu Selçuklu Devleti'nin ticaret politikaları kapsamında Karadeniz ve Akdeniz'deki önemli uluslararası liman şehirlerinin fethi büyük bir önem taşıyordu.\n\n---\n\nBuna göre aşağıdakilerden hangisi Anadolu Selçuklu Devleti'nin ticareti geliştirmek amacıyla fethettiği liman kentlerinden biri 'değildir'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sinop",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Alanya (Kolonoros)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Antalya",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Trabzon",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sudak",
+                    "correct": false
+                }
+            ],
+            "explanation": "Trabzon, Anadolu Selçuklu Devleti tarafından alınamamış; ilerleyen yüzyıllarda (1461 yılında) Fatih Sultan Mehmet tarafından fethedilerek Trabzon Rum İmparatorluğu'na son verilmiştir."
+        },
+        {
+            "id": 15,
+            "text": "\t1176 yılında Bizans İmparatorluğu ile Anadolu Selçuklu Devleti arasında gerçekleşen büyük bir savaş, Bizans'ın saldırı gücünü kırmış ve Türkleri atma ümidini bitirmiştir.\n\n---\n\nAnadolu'nun kesin olarak Türk yurdu olmasını sağlayan ve tarihe 'Yurttutan' savaşı olarak geçen bu büyük zafer aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Pasinler",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Malazgirt",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kösedağ",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yassıçemen",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Miryokefalon",
+                    "correct": true
+                }
+            ],
+            "explanation": "II. Kılıç Arslan döneminde Bizans'a karşı kazanılan 1176 Miryokefalon Savaşı ile Anadolu'nun Türk yurdu olduğu kesinleşmiş, Bizans'ın Türkleri Anadolu'dan atma ümidi tamamen sona ermiştir."
+        },
+        {
+            "id": 16,
+            "text": "\tAnadolu'daki tarihi yapıların kime ait olduğunu belirlerken inşa edildiği dönemin ve bölgenin tarihi süreçleri büyük önem taşır.\n\n---\n\nBuna göre Erzurum'da bulunan ve mimari özellikleriyle dikkat çeken 'Yakutiye Medresesi' istisnai olarak aşağıdaki devletlerden hangisine aittir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İlhanlılar (Moğollar)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Anadolu Selçuklu Devleti",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Osmanlı Devleti",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Saltuklular",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Akkoyunlular",
+                    "correct": false
+                }
+            ],
+            "explanation": "Erzurum'da bulunan Yakutiye Medresesi, istisnai bir yapı olup Anadolu Selçuklularına değil, Moğol istilası sonrası Anadolu'ya egemen olan İlhanlılara aittir."
+        },
+        {
+            "id": 17,
+            "text": "\tAhilik teşkilatının kurucusu Ahi Evran'ın eşi tarafından Anadolu'da kurulan ve dünyanın ilk kadın teşkilatlanmalarından biri kabul edilen kurum, kadınların da sosyal hayatta yer almasını sağlamıştır.\n\n---\n\n\"Aşına, işine ve eşine sahip ol\" prensibiyle kurulan ve Fatma Bacı önderliğindeki bu sivil toplum örgütünün adı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gaziyan-ı Rum",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bacıyan-ı Rum",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Abdalan-ı Rum",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Alperenler Ocağı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ahiyan-ı Rum",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aşına, işine ve eşine sahip ol prensibiyle kurulan, Ahi Evran'ın eşi Fatma Bacı önderliğindeki (Anadolu Kadınları anlamına gelen) kadın teşkilatının adı Bacıyan-ı Rum'dur."
+        },
+        {
+            "id": 18,
+            "text": "\tAnadolu Selçuklu Devleti'nin merkez ve taşra teşkilatında denizciliği geliştirmek ve yönetmek için Büyük Selçuklulardan farklı olarak bazı yeni makamlar oluşturulmuştur.\n\n---\n\nBuna göre donanma kuvvetlerinin başında bulunan ve \"sahillerin komutanı\" anlamına gelen unvan aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şıhne",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Emir-i Dad",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Melikü's-Sevâhil",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Kaptan-ı Derya",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Muhtesip",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anadolu Selçuklu Devleti'nde deniz kuvvetleri ve donanma komutanlarına, 'sahillerin komutanı' veya 'denizlerin meliki' anlamına gelen 'Melikü's-Sevâhil' (veya Reisü'l Bahr) adı verilirdi."
+        },
+        {
+            "id": 19,
+            "text": "\tAnadolu Selçuklu Devleti döneminde bilimsel çalışmalar için özel kurumlar açılmış ve gök bilimi alanında önemli araştırmalar yapılmıştır.\n\n---\n\nAnadolu'nun ilk rasathanesi (gözlemevi) olma özelliğini taşıyan ve füze biçimli sütunlarıyla dikkat çeken Kırşehir'de inşa edilmiş medrese aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sivas Gök Medrese",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Karatay Medresesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yakutiye Medresesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cacabey Medresesi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Çifte Minareli Medrese",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kırşehir'de bulunan Cacabey Medresesi, Anadolu'da yapılan ilk astronomi okulu (rasathane) ve uzay gözlemevi olarak faaliyet göstermiştir."
+        },
+        {
+            "id": 20,
+            "text": "\tTıp biliminde büyük çalışmalara imza atan, kendi hastalığına bizzat kendisi tedavi bulan ünlü bir Türk-İslam bilgini Anadolu topraklarında yetişmiştir.\n\n---\n\nBağdat'tan gelip Anadolu Selçukluları ve Aydınoğulları dönemlerinde tıp alanındaki başarılarıyla ünlenen, tarihte \"Anadolu'nun İbni Sina'sı\" olarak bilinen bilgin aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ravendi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gülşehri",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hoca Dehhani",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Aşık Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hacı Paşa",
+                    "correct": true
+                }
+            ],
+            "explanation": "Tıp alanında büyük bir uzmanlığa sahip olan Hacı Paşa, kendi hastalığına çare bulması ve hekimlikteki üstün başarıları nedeniyle 'Anadolu'nun İbni Sina'sı' lakabıyla anılmıştır."
+        }
+    ]
+}

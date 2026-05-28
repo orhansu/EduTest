@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "9a3e214d-88f5-47e9-a2a1-0538a7c295df",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "Osmanlı Devleti Kültür ve Medeniyeti",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-26"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tOsmanlı Devleti'nde devletin yönetildiği, padişahın özel hayatının geçtiği ve devlet adamlarının yetiştirildiği büyük bir saray kültürü vardır.\n\n---\n\nFatih Sultan Mehmet döneminde yaptırılan ve Osmanlı Devleti'ne 'en uzun süre' merkezlik yapmış olan saray aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Topkapı Sarayı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Dolmabahçe Sarayı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İshak Paşa Sarayı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yıldız Sarayı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Beylerbeyi Sarayı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fatih Sultan Mehmet tarafından yaptırılan Topkapı Sarayı, Yeni Saray olarak da bilinir ve Osmanlı'ya yaklaşık 400 yıl boyunca en uzun süre merkezlik yapan yapıdır."
+        },
+        {
+            "id": 2,
+            "text": "\tOsmanlı Devleti'nde eğitime büyük önem verilmiş, çocukların eğitim hayatına ilk adımlarını atmaları özel merasimlerle kutlanmıştır.\n\n---\n\nÇocukların ilköğretim seviyesindeki okula (Sıbyan Mektebi) başladıkları gün düzenlenen törene ne isim verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cülus Merasimi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Amin Alayı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Surre Alayı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kılıç Alayı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sancak Alayı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sıbyan mektebine başlayacak çocuklar için mahalle halkının da katılımıyla düzenlenen özel merasime 'Amin Alayı' adı verilirdi."
+        },
+        {
+            "id": 3,
+            "text": "\tOsmanlı Devleti'nde ekonominin temeli tarım ve hayvancılığa dayanıyordu. Devlet, bu faaliyetler üzerinden çeşitli isimlerle vergiler toplamaktaydı.\n\n---\n\nBuna göre, Osmanlı Devleti'nde 'küçükbaş hayvancılık' ile uğraşanlardan alınan vergi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çiftbozan",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Avarız",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ağnam",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Cizye",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Haraç",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı Devleti'nde koyun ve keçi gibi küçükbaş hayvan yetiştiricilerinden alınan vergiye 'Ağnam' (ganem kelimesinin çoğulu) vergisi denirdi."
+        },
+        {
+            "id": 4,
+            "text": "\tFatih Sultan Mehmet dönemi, bilim ve sanat açısından büyük ilerlemelerin yaşandığı bir dönemdir. Tıp alanında çalışmalar yapan önemli isimler de bu dönemde yetişmiştir.\n\n---\n\n\"Kitabü'l-Cerrahiyyeti'l-İlhaniye\" adlı eserini Fatih Sultan Mehmet'e sunan ve Türk plastik cerrahisinin babası kabul edilen Osmanlı'nın 'ilk ve en ünlü cerrahı' kimdir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Akşemseddin",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Altuncuzade",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Takiyüddin Mehmet",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sabuncuoğlu Şerafeddin",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Ali Kuşçu",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sabuncuoğlu Şerafeddin, Amasya Darüşşifası'nda hekimlik yapmış, ameliyatlarını minyatürlerle anlattığı cerrahi eseriyle tanınan ünlü tıp bilginidir."
+        },
+        {
+            "id": 5,
+            "text": "\tİslamiyet'in etkisiyle Türklerde resim ve heykel sanatı eskisi kadar rağbet görmemiş, bu sanatların yerini farklı süsleme sanatları almıştır.\n\n---\n\nArapçayı estetik kural ve ölçülere bağlı kalarak güzel yazma sanatı olarak bilinen ve en büyük ustalarından biri 'Kıbletü'l Hattatin' lakaplı Şeyh Hamdullah olan sanat dalı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tezhip",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Minyatür",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Malakari",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kakmacılık",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hat",
+                    "correct": true
+                }
+            ],
+            "explanation": "Hat sanatı, Arap harflerini estetik bir biçimde yazma sanatıdır ve Osmanlı'da Şeyh Hamdullah, Hafız Osman gibi büyük ustalar yetiştirmiştir."
+        },
+        {
+            "id": 6,
+            "text": "\tOsmanlı Devleti'nde astronomi, matematik ve mühendislik alanlarında önemli çalışmalar yapılmış ve gökyüzü incelenmiştir.\n\n---\n\nIII. Murat döneminde Osmanlı Devleti'nin 'ilk rasathanesini' kuran ve Güneş ile Ay cetvellerini içeren 'Zic' hazırlayan bilim insanı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Takiyüddin Mehmet",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Hezarfen Ahmet Çelebi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Lagari Hasan Çelebi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ali Kuşçu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Katip Çelebi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Takiyüddin Mehmet (Takiyüddin er-Raşid), İstanbul'da Osmanlı'nın ilk rasathanesini kurmuş ve otomatik makineler üzerine eserler kaleme almıştır."
+        },
+        {
+            "id": 7,
+            "text": "\tOsmanlı Devleti, fethettiği geniş topraklarda birbirinden farklı inanç ve kültürlere sahip birçok topluluğu barış içinde bir arada tutmayı başarmıştır.\n\n---\n\nOsmanlı Devleti'nde halkın ırk veya dil temeline göre değil, 'din ve mezhep' esasına göre sınıflandırılarak yönetilmesine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İltizam Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Millet Sistemi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "İskan Politikası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Devşirme Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Vakıf Sistemi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Millet sistemi, Osmanlı tebaasını etnik ayrım yapmaksızın inançlarına (Müslüman, Hristiyan, Yahudi vb.) göre teşkilatlandıran yönetim biçimidir."
+        },
+        {
+            "id": 8,
+            "text": "\tOsmanlı Devleti'nde mülkiyeti devlete ait olan miri araziler, kullanım amaçlarına ve gelirlerinin tahsis edildiği yerlere göre çeşitli kısımlara ayrılmıştır.\n\n---\n\nBuna göre, geliri doğrudan 'padişahın eşlerine ve kızlarına' ayrılan toprak çeşidi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mukataa",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yurtluk",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Paşmaklık",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Malikane",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dirlik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Paşmaklık, Osmanlı toprak sisteminde doğrudan hanedan kadınlarının (anne, eş, kız) masrafları için ayrılan topraklara verilen isimdir."
+        },
+        {
+            "id": 9,
+            "text": "\tOsmanlı ekonomisinde tüketiciyi korumak, karaborsacılığı engellemek ve piyasa dengesini sağlamak için çeşitli kurumlar ve kurallar geliştirilmiştir.\n\n---\n\nŞehre gelen malların tek bir merkezde toplandığı, tartıldığı, toptan satışının yapıldığı ve adil bir şekilde vergilendirildiği 'toptancı hallerine' ne isim verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bedesten",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Arasta",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Lonca",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kapan",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Gedik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kapan (Un kapanı, Yağ kapanı vb.), şehre giren temel tüketim mallarının toptan satıldığı ve dağıtımının yapıldığı resmi toptancı halleridir."
+        },
+        {
+            "id": 10,
+            "text": "\tOsmanlı Devleti'nin merkez ordusu olan Kapıkulu Piyadeleri, kendi içinde farklı görevlere sahip çeşitli ocaklardan oluşmaktaydı.\n\n---\n\nBu ocaklar içerisinde, ordunun ihtiyacı olan silahların 'yapımından, bakımından ve onarımından' sorumlu olan birim aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Humbaracı Ocağı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Lağımcılar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sakalar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bostancılar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cebeci Ocağı",
+                    "correct": true
+                }
+            ],
+            "explanation": "Cebeci Ocağı, Kapıkulu askerlerinin kullandığı ok, yay, kılıç, tüfek, zırh (cebe) gibi silah ve teçhizatı imal ve tamir eden askeri sınıftır."
+        },
+        {
+            "id": 11,
+            "text": "\tOsmanlı Devleti'nde yöneticiler (Beraya); Seyfiye, İlmiye ve Kalemiye olmak üzere üç ana gruba ayrılırdı. Her grubun devlet içindeki işlevi farklıydı.\n\n---\n\nBürokrasi, devlet içi yazışma ve maliye işlerinden sorumlu olan; bünyesinde 'Nişancı, Defterdar ve Reisülküttap' gibi görevlileri barındıran sınıf hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kalemiye",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Seyfiye",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İlmiye",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Reaya",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ulema",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kalemiye sınıfı, eli kalem tutan sivil bürokratlardan oluşur. Mali işlere Defterdar, iç ve dış yazışmalara ise Nişancı ve Reisülküttap bakardı."
+        },
+        {
+            "id": 12,
+            "text": "\tOsmanlı Devleti'nin son dönemlerinde kültür ve sanat alanında modernleşme çabaları görülmüş, Batı tarzı kurumlar açılmıştır.\n\n---\n\n1914 yılında kurulan, sanatta 'güzellikler' üretmeyi amaçlayan ve günümüzdeki 'İstanbul Şehir Tiyatrolarının' temelini oluşturan kurum aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Darülaceze",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Darülbedayi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Darülelhan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Darüşşafaka",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Darüleytam",
+                    "correct": false
+                }
+            ],
+            "explanation": "Darülbedayi ('Güzellikler Evi'), Osmanlı'da modern anlamda kurulan konservatuvar ve tiyatro okuludur; günümüz İstanbul Şehir Tiyatrolarının temelidir."
+        },
+        {
+            "id": 13,
+            "text": "\tOsmanlı Devleti'nde eğitim-öğretim sisteminin temelini oluşturan medreseler, hem dini hem de akli ilimlerin okutulduğu yükseköğretim kurumlarıydı.\n\n---\n\nMedrese öğrencilerinin (suhte/danişmend) yaz aylarında veya üç aylarda Anadolu'nun çeşitli yörelerine dağılarak halka dini bilgiler vermesi ve bir nevi 'staj' yapması uygulamasına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İcazetname",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mülazemet",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Cerre Çıkmak",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Bed-i Besmele",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Amin Alayı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Cerre çıkmak, medrese öğrencilerinin (suhte) eğitimlerini pekiştirmek ve harçlıklarını çıkarmak amacıyla halkı irşad etmeye gönderilmesidir."
+        },
+        {
+            "id": 14,
+            "text": "\tMinyatür sanatı, perspektif kurallarının uygulanmadığı ve derinliğin olmadığı bir resim tekniğidir. Ancak Osmanlı'da zamanla Batı resim sanatından etkilenmeler olmuştur.\n\n---\n\nFatih Sultan Mehmet'in 'gül koklayan' portresini yaparak minyatür sanatına portre görünümü kazandıran ünlü sanatçı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Levni",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Matrakçı Nasuh",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Şeker Ahmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nakkaş Sinan Bey",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Osman Hamdi Bey",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nakkaş Sinan Bey, İtalyan ressamlardan etkilenerek klasik minyatür kurallarını esnetmiş ve Fatih Sultan Mehmet'in gül koklayan ünlü portresini yapmıştır."
+        },
+        {
+            "id": 15,
+            "text": "\tOsmanlı mimarisinde saraylar devletin gücünü ve sanatsal zevkini yansıtır. Zamanla Batı mimarisinden (Barok, Rokoko) etkilenen yapılar da inşa edilmiştir.\n\n---\n\nAğrı Doğubeyazıt'ta inşa edilen, Batı tarzı mimarinin özelliklerini taşıyan ve Osmanlı'nın 'ilk alttan ısıtmalı (kaloriferli)' sarayı olan yapı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çırağan Sarayı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Beylerbeyi Sarayı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dolmabahçe Sarayı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yıldız Sarayı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İshak Paşa Sarayı",
+                    "correct": true
+                }
+            ],
+            "explanation": "İshak Paşa Sarayı, 18. yüzyılda tamamlanan, Batı mimari etkilerinin (Barok vb.) görüldüğü ve dönemin en ileri teknolojisiyle ısıtılan bir saraydır."
+        },
+        {
+            "id": 16,
+            "text": "\tXVII. yüzyılda yaşayan Osmanlı bilginleri, dönemin sorunlarına çözümler aramış ve çeşitli bilim dallarında devasa eserler bırakmışlardır.\n\n---\n\nAvrupalılar tarafından 'Hacı Kalfa' veya 'Hacı Halife' olarak bilinen, bibliyografya alanındaki \"Keşfü'z Zünun\" ve coğrafya alanındaki \"Cihannüma\" adlı eserleriyle tanınan bilim insanı kimdir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Katip Çelebi",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Evliya Çelebi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ahmet Cevdet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Naima Efendi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Koçi Bey",
+                    "correct": false
+                }
+            ],
+            "explanation": "Katip Çelebi, 17. yüzyılın en büyük bilginlerinden biridir; binlerce eseri tanıttığı Keşfü'z Zünun adlı bibliyografya ansiklopedisiyle ünlüdür."
+        },
+        {
+            "id": 17,
+            "text": "\tOsmanlı Devleti, geniş coğrafyalara yayılan ekonomisini ayakta tutabilmek için belli başlı temel iktisadi ilkelere göre hareket etmiştir.\n\n---\n\nOsmanlı ekonomik anlayışında 'gelirleri en üst düzeye çıkarırken, giderleri en aza indirmeyi' hedefleyen ilke aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İaşecilik",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Fiskalizm",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Tradisyonalizm",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Merkantilizm",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Narh Sistemi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fiskalizm (Hazinecilik), devletin hazine gelirlerini sürekli yüksek tutmayı ve harcamaları kısıtlamayı amaçlayan ekonomik ilkedir."
+        },
+        {
+            "id": 18,
+            "text": "\tOsmanlı hukuk sisteminde kadılar adaleti tesis ederken çeşitli yardımcı görevlilerden ve toplumun güvenilir kişilerinden destek alırlardı.\n\n---\n\nMahkemelerde olayların şahitleri olarak veya bir nevi 'bilirkişi jürisi' gibi görev yapan, yörenin güvenilir kişilerine ne isim verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kassam",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Muhtesip",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Şuhudü'l-hal",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Tercüman",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Naib",
+                    "correct": false
+                }
+            ],
+            "explanation": "Şühudü'l-hal, mahkemede hazır bulunan ve dürüstlükleri ile tanınan yöre halkından seçilmiş bir nevi halk jürisi ve şahitler kuruludur."
+        },
+        {
+            "id": 19,
+            "text": "\tOsmanlı Devleti'nde olayların kayıt altına alınması devlet geleneğinin önemli bir parçasıdır. Önceleri 'şehnameci' olarak adlandırılan tarihçilerin yerini zamanla yeni görevliler almıştır.\n\n---\n\nOsmanlı Devleti'nde ataması yapılarak görevlendirilen 'resmi tarih yazıcılarına' verilen genel isim aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şehnameci",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Müstensih",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Müzehhip",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Vakanüvis",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Reisülküttap",
+                    "correct": false
+                }
+            ],
+            "explanation": "Vakanüvis (vak'a yazarı), Osmanlı Devleti'nde resmi devlet tarihçisidir. İlk vakanüvis Naima Efendi, sonuncusu ise Abdurrahman Şeref Bey'dir."
+        },
+        {
+            "id": 20,
+            "text": "\tOsmanlı Devleti'nde merkeze uzak olan eyaletlerde (Saliyaneli eyaletler) tımar sistemi uygulanamamış, bunun yerine farklı bir vergi toplama yöntemine geçilmiştir.\n\n---\n\nGelirleri doğrudan devlet hazinesine aktarılan ve vergilerin 'İltizam' sistemi yoluyla mültezimler tarafından toplandığı arazilere ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dirlik",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ocaklık",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Paşmaklık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Malikane",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mukataa",
+                    "correct": true
+                }
+            ],
+            "explanation": "Mukataa, geliri (vergisi) doğrudan devlet hazinesine giren topraklardır; bu toprakların vergi toplama hakkı iltizam yoluyla ihaleye çıkarılırdı."
+        }
+    ]
+}

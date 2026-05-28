@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e4f8d9b1-7a6c-4b5f-9e2d-3c8a1b4f6d90",
+        "title": "test 9",
+        "subject": "test 9",
+        "topic": "Osmanlı Devleti Kuruluş Dönemi (1299 - 1453)",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-27"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tOsmanlı Devleti, kurulduğu ilk yıllardan itibaren teşkilatlanma ve mali yapısını oluşturma gayreti içine girmiştir.\n\n---\n\nBuna göre, Osman Bey döneminde pazar yerlerinde esnaftan alınan Osmanlı Devleti'nin 'ilk vergisi' aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Avarız",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çiftbozan",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bac",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "İspenç",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cizye",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osman Bey zamanında pazar yerlerinde ticaret yapan esnaftan alınan ve pazar vergisi niteliğinde olan 'Bac' vergisi, Osmanlı Devleti'nin ilk vergisi olarak kabul edilir."
+        },
+        {
+            "id": 2,
+            "text": "\tOsmanlı Devleti sınırları genişledikçe geçici gönüllü birliklerle fetihlerin sürdürülemeyeceği anlaşılmış ve daha disiplinli birliklere ihtiyaç duyulmuştur.\n\n---\n\nBuna göre Orhan Bey döneminde kurulan ve Osmanlı Devleti'nin 'ilk düzenli ordusu' olarak kabul edilen askeri birlik aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yaya ve Müsellem",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kapıkulu Piyadeleri",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Akıncılar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cebeciler",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tımarlı Sipahiler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı Devleti'nin ilk düzenli ordusu, Orhan Bey döneminde kurulan, yayalar (piyade) ve atlı askerlerden (Müsellem) oluşan Yaya ve Müsellem birlikleridir."
+        },
+        {
+            "id": 3,
+            "text": "\tOsmanlı Devleti'nin tarih sahnesine çıkışı ve sınırlarını genişletmesi, Bizans İmparatorluğu ile doğrudan karşı karşıya gelmesine neden olmuştur.\n\n---\n\n1302 yılında Osman Bey döneminde Bizans İmparatorluğu ile gerçekleşen ve Osmanlıların kazandığı 'ilk savaş' aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sazlıdere",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çirmen",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Pelekanon",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Koyunhisar (Bapheus)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sırpsındığı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Koyunhisar (Bapheus) Savaşı, 1302 yılında Osman Bey döneminde Bizans'a karşı kazanılan ilk Osmanlı-Bizans savaşıdır."
+        },
+        {
+            "id": 4,
+            "text": "\tOsmanlı Devleti'nin başlangıçta donanması bulunmuyordu, ancak denize kıyısı olan bazı beyliklerin topraklarına katılmasıyla denizcilik faaliyetleri başlamıştır.\n\n---\n\nOrhan Bey döneminde Osmanlı'ya katılarak Anadolu Türk siyasi birliğini sağlama yolunda atılan 'ilk adım' olan beylik aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Germiyanoğulları",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Karesioğulları",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Candaroğulları",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Aydınoğulları",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hamitoğulları",
+                    "correct": false
+                }
+            ],
+            "explanation": "Orhan Bey döneminde Osmanlı Devleti'ne katılan ilk beylik olan Karesioğulları, Osmanlı donanmasının temelini oluşturmuş ve devletin Rumeli'ye geçişini kolaylaştırmıştır."
+        },
+        {
+            "id": 5,
+            "text": "\tOrhan Bey döneminde Bizans İmparatorluğu'ndaki taht kavgalarına müdahale edilmiş ve Kantakuzen'e askeri yardımda bulunulmuştur.\n\n---\n\nKantakuzen'in bu yardımlara karşılık olarak Osmanlı'ya hediye ettiği ve Osmanlı'nın 'Rumeli'deki ilk toprak parçası' olan kale aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Gelibolu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Edirne",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tekirdağ",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bolayır",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çimpe Kalesi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bizans'taki taht mücadelesinde Kantakuzen'e edilen askeri yardımlar karşılığında hediye edilen Çimpe Kalesi, Osmanlı Devleti'nin Rumeli'ye geçişini sağlamış ve buradaki ilk toprak parçası olmuştur."
+        },
+        {
+            "id": 6,
+            "text": "\tOsmanlı Devleti'nde taht kavgalarını azaltmak ve merkezi otoriteyi güçlendirmek amacıyla padişahlar dönem dönem veraset sisteminde bazı kurallar getirmişlerdir.\n\n---\n\nİlk Türk devletlerinden beri gelen \"Ülke hanedanın ortak malıdır.\" anlayışını daraltarak \"Ülke padişah ve oğullarınındır.\" ilkesini getiren Osmanlı padişahı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Osman Bey",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Orhan Bey",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "I. Murat",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yıldırım Bayezid",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çelebi Mehmet",
+                    "correct": false
+                }
+            ],
+            "explanation": "I. Murat döneminde taht kavgalarını önlemek amacıyla veraset sisteminde ilk kez değişiklik yapılmış ve ülke sadece 'padişah ve oğullarının' sayılmıştır."
+        },
+        {
+            "id": 7,
+            "text": "\tOsmanlı Devleti'nin Rumeli'ye geçmesi, Edirne'yi fethetmesi ve Balkanlar'da hızla ilerlemesi, Avrupalı devletleri rahatsız etmiş ve Haçlı ittifaklarının kurulmasına neden olmuştur.\n\n---\n\n1364 yılında I. Murat döneminde Osmanlı Devleti ile Haçlı orduları arasında yapılan 'ilk savaş' aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Kosova",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Varna",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Niğbolu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sırpsındığı",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "II. Kosova",
+                    "correct": false
+                }
+            ],
+            "explanation": "1364 yılında I. Murat döneminde Haçlı ordularına karşı kazanılan Sırpsındığı Savaşı, Osmanlı Devleti ile Haçlı ittifakı arasında yapılan ilk savaştır."
+        },
+        {
+            "id": 8,
+            "text": "\tOsmanlı Devleti, sınırların hızla büyümesiyle artan asker ihtiyacını karşılamak için çeşitli sistemler geliştirmiş ve farklı kaynaklardan yararlanmıştır.\n\n---\n\nI. Murat döneminde Çandarlı Kara Halil ve Mevlânâ Rüstem'in önerisiyle savaş esirlerinin beşte birinin asker olarak devlete alınmasını öngören sistemin adı nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Pençik Sistemi",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Devşirme Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İltizam Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dirlik Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İskan Politikası",
+                    "correct": false
+                }
+            ],
+            "explanation": "Farsça 'penç' (beş) ve 'yek' (bir) kelimelerinin birleşiminden oluşan Pençik sistemi, I. Murat döneminde savaş esirlerinin beşte birinin askeriyeye alınması uygulamasıdır."
+        },
+        {
+            "id": 9,
+            "text": "\tOsmanlı Devleti'nin sınırları Rumeli'de genişledikçe idari düzenlemelere ihtiyaç duyulmuş ve eyalet sistemi oluşturulmuştur.\n\n---\n\nI. Murat döneminde kurulan 'Rumeli Beylerbeyliği'nin merkezi Manastır olmuş, buraya atanan 'ilk beylerbeyi' aşağıdakilerden hangisi olmuştur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çandarlı Halil Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Lala Şahin Paşa",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Evrenos Gazi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hacı İlbey",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Timurtaş Paşa",
+                    "correct": false
+                }
+            ],
+            "explanation": "I. Murat döneminde sınırların Balkanlarda genişlemesiyle Manastır merkezli Rumeli Beylerbeyliği kurulmuş ve buraya atanan ilk beylerbeyi Lala Şahin Paşa olmuştur."
+        },
+        {
+            "id": 10,
+            "text": "\tOsmanlı Devleti'nin Balkanlar'daki ilerleyişini durdurmak amacıyla kurulan büyük Haçlı ordusuna karşı Osmanlılar büyük bir zafer elde etmiştir.\n\n---\n\nOsmanlı tarihinde ilk kez top kullanıldığı, savaşın ardından savaş meydanını gezerken padişahın bir Sırp askeri tarafından şehit edildiği muharebe aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sırpsındığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Varna",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "II. Kosova",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Niğbolu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "I. Kosova",
+                    "correct": true
+                }
+            ],
+            "explanation": "I. Kosova Savaşı (1389) sırasında ilk kez top kullanılmış ve I. Murat savaş sonrasında meydanı gezerken bir Sırp askeri olan Milos Obiliç tarafından şehit edilmiştir."
+        },
+        {
+            "id": 11,
+            "text": "\tOsmanlı Devleti'nin Haçlılara karşı kazandığı büyük zaferler İslam dünyasında derin bir yankı uyandırmış ve Osmanlı padişahlarının itibarını artırmıştır.\n\n---\n\n1396 yılında kazanılan Niğbolu Savaşı'ndaki büyük başarısından dolayı Abbasi Halifesi I. Mütevekkil tarafından Yıldırım Bayezid'e verilen unvan aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hakanü'l Berreyn",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ebu'l Feth",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sultan-ı İklim-i Rum",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sultan-ı Bahr",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fahrüddin",
+                    "correct": false
+                }
+            ],
+            "explanation": "Niğbolu Savaşı'ndaki büyük başarısından ötürü Abbasi halifesi, Yıldırım Bayezid'e 'Anadolu memleketlerinin sultanı' anlamına gelen Sultan-ı İklim-i Rum unvanını vermiştir."
+        },
+        {
+            "id": 12,
+            "text": "\tOsmanlı padişahları İstanbul'u fethedebilmek için şehri daha önceden birçok kez kuşatmış ve çeşitli askeri önlemler almışlardır.\n\n---\n\nİstanbul'u ilk kuşatan Osmanlı padişahı olan Yıldırım Bayezid'in, Boğaz'dan Bizans'a gelebilecek yardımları kesmek için yaptırdığı hisar aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Anadolu Hisarı (Güzelcehisar)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Rumeli Hisarı (Boğazkesen)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kilitbahir Kalesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çimpe Kalesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Seddülbahir Kalesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yıldırım Bayezid, İstanbul kuşatmalarında Karadeniz üzerinden boğazı kontrol etmek ve üs olarak kullanmak için Güzelcehisar olarak da bilinen Anadolu Hisarı'nı yaptırmıştır."
+        },
+        {
+            "id": 13,
+            "text": "\tAnkara Savaşı, hem Anadolu Türk siyasi birliğinin bozulmasına hem de devletin fetih hareketlerinin uzun süre sekteye uğramasına neden olmuştur.\n\n---\n\nBuna göre, Ankara Savaşı'nın kaybedilmesi ve 'Fetret Devri'ne girilmesi Osmanlı Devleti'nde aşağıdaki gelişmelerden hangisine yol açmıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Halifelik makamının Osmanlılara geçmesine",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anadolu Türk siyasi birliğinin bozulmasına",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yeniçeri Ocağı'nın ilk kez kurulmasına",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Rumeli'deki Türk varlığının tamamen sona ermesine",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Karesioğulları Beyliği'nin Osmanlı'ya katılmasına",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ankara Savaşı'nın en önemli sonuçlarından biri Timur'un beyliklere topraklarını geri vermesiyle Anadolu Türk siyasi birliğinin (ATSB) bozulmasıdır."
+        },
+        {
+            "id": 14,
+            "text": "\t1402 Ankara Savaşı'nın ardından Osmanlı Devleti 11 yıl süren ve taht kavgalarının yaşandığı Fetret Devri'ne girmiştir.\n\n---\n\nKardeşleri arasındaki taht mücadelelerine son vererek devleti dağılmaktan kurtaran ve Osmanlı Devleti'nin 'ikinci kurucusu' olarak kabul edilen padişah aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yıldırım Bayezid",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "II. Murat",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Orhan Bey",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "I. Mehmet (Çelebi)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "I. Murat",
+                    "correct": false
+                }
+            ],
+            "explanation": "1402-1413 yılları arasındaki Fetret Devri'ne son verip siyasi birliği yeniden sağlayan I. Mehmet (Çelebi Mehmet), devletin ikinci kurucusu olarak kabul edilir."
+        },
+        {
+            "id": 15,
+            "text": "\tOsmanlı Devleti Fetret Devri'nin yaralarını sarmaya çalışırken, devlet içinde hem ekonomik sıkıntılar hem de toplumsal huzursuzluklar baş göstermiştir.\n\n---\n\nÇelebi Mehmet (I. Mehmet) döneminde ortaya çıkan ve Osmanlı Devleti'nin 'ilk dini ve toplumsal nitelikli isyanı' olarak kabul edilen ayaklanma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Celali İsyanları",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Babazünnun İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bozoklu Celal İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Şahkulu İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Şeyh Bedreddin İsyanı",
+                    "correct": true
+                }
+            ],
+            "explanation": "Çelebi Mehmet (I. Mehmet) döneminde çıkan Şeyh Bedreddin İsyanı, Osmanlı tarihindeki ilk dini ve toplumsal nitelikli ayaklanmadır."
+        },
+        {
+            "id": 16,
+            "text": "\tOsmanlı Devleti, bazı dönemlerde yeni savaşlara hazırlanmak, toparlanmak veya tahtı güvenceye almak için Haçlılarla uzun süreli barış antlaşmaları imzalamıştır.\n\n---\n\n1444 yılında Macarlarla imzalanan, iki tarafın da 10 yıl boyunca birbirine savaş açmayacağını öngören ancak II. Murat'ın tahtı bırakması üzerine bozulan antlaşma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Edirne-Segedin Antlaşması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Çirmen Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Belgrad Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İstanbul Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Pasarofça Antlaşması",
+                    "correct": false
+                }
+            ],
+            "explanation": "II. Murat döneminde 1444'te Macaristan (Haçlılar) ile Edirne-Segedin Antlaşması imzalanmış ve 10 yıllık barış süreci öngörülmüş; ancak Murat'ın tahtı II. Mehmet'e bırakması Haçlıların antlaşmayı bozmasına neden olmuştur."
+        },
+        {
+            "id": 17,
+            "text": "\tHaçlı ittifakları, Osmanlı'nın zayıf anlarını veya taht değişikliklerini fırsat bilerek Türkleri Balkanlar'dan atmak için sürekli saldırılar düzenlemişlerdir.\n\n---\n\n1444 yılında Edirne-Segedin Antlaşması'nın bozulması üzerine II. Murat'ın yeniden tahta geçip Haçlıları ağır bir yenilgiye uğrattığı savaş aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Kosova",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Varna",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Sırpsındığı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Niğbolu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "II. Kosova",
+                    "correct": false
+                }
+            ],
+            "explanation": "II. Murat'ın tahtı küçük yaştaki oğlu II. Mehmet'e bırakmasını fırsat bilen Haçlılar antlaşmayı bozmuş, bunun üzerine II. Murat tahta geri dönerek 1444 Varna Savaşı'nda Haçlıları mağlup etmiştir."
+        },
+        {
+            "id": 18,
+            "text": "\tOsmanlı Devleti'nin Balkanlar'daki ilerleyişini durdurmak ve Türkleri Avrupa'dan atmak için Haçlı orduları birçok kez Osmanlı topraklarına saldırmıştır.\n\n---\n\n1448 yılında II. Murat önderliğinde kazanılan ve 'Balkanların kesin olarak Türk yurdu' haline gelmesini sağlayarak Haçlıları savunmaya çeken savaş aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sırpsındığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Varna",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "II. Kosova",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Niğbolu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "I. Kosova",
+                    "correct": false
+                }
+            ],
+            "explanation": "II. Kosova Savaşı'nın (1448) kazanılmasıyla Türklerin Balkanlardan atılamayacağı kanıtlanmış ve Balkanlar kesin olarak Türk yurdu haline gelmiştir."
+        },
+        {
+            "id": 19,
+            "text": "\tOsmanlı Devleti, kuruluş yıllarında çevresindeki bazı yöneticilerle görünüşte iyi geçinerek diplomasiyi ve barışı stratejik bir araç olarak kullanmıştır.\n\n---\n\nBuna göre, Osmanlı Devleti'nin özellikle kuruluş yıllarında Bizans tekfurlarıyla 'görünüşte dostça geçinme' politikasına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İstimalet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İskan",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gaza",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Müdara",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "İltizam",
+                    "correct": false
+                }
+            ],
+            "explanation": "Müdara, Osmanlı Devleti'nin özellikle kuruluş yıllarında komşu unsurlarla ve Bizans tekfurlarıyla görünüşte dostça geçinme politikasına verilen isimdir."
+        },
+        {
+            "id": 20,
+            "text": "\tOsmanlı Devleti, kuruluş döneminden itibaren eğitim kurumlarına büyük önem vermiş ve fethettiği şehirlerde medreseler inşa ederek ulema sınıfını güçlendirmiştir.\n\n---\n\nOsmanlı Devleti'nin 'ilk medresesi' olan İznik Orhaniyesi'ne Orhan Bey tarafından atanan 'ilk müderris' kimdir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dursun Fakih",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Akşemseddin",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Molla Fenari",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ali Kuşçu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Davud-u Kayseri",
+                    "correct": true
+                }
+            ],
+            "explanation": "Osmanlı Devleti'nin ilk medresesi Orhan Bey döneminde açılan İznik Orhaniyesi'dir ve buraya atanan ilk müderris Davud-u Kayseri olmuştur."
+        }
+    ]
+}

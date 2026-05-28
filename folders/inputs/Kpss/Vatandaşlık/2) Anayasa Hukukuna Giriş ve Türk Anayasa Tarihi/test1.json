@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "f47ac10b-58cc-4372-a567-0e02b2c3d479",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "Anayasa Hukukuna Giriş ve Türk Anayasa Tarihi",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-25"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Türk anayasa tarihinde, padişahın yetkilerini kendi isteği dışında sınırlandıran ve İngiltere'deki 'Magna Carta'ya benzetilen misak niteliğindeki ilk anayasal belge aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sened-i İttifak",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Tanzimat Fermanı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Islahat Fermanı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kanun-i Esasi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Teşkilat-ı Esasiye",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı tarihinde II. Mahmut ile Ayanlar arasında yapılan ve padişahın yetkilerini kendi isteği dışında ilk kez sınırlandıran anayasal belge Sened-i İttifak'tır."
+        },
+        {
+            "id": 2,
+            "text": "Türk anayasa tarihinde, değiştirilmesi normal kanunlardan daha zor olmayan ve değiştirilemez hükümler içermeyen tek 'yumuşak' anayasa aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1876 Kanun-i Esasi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1921 Anayasası",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "1924 Anayasası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1961 Anayasası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1982 Anayasası",
+                    "correct": false
+                }
+            ],
+            "explanation": "1921 Anayasası, referandum veya nitelikli oylama çoğunlukları gibi zorlaştırıcı değişiklik kuralları ve değiştirilemez maddeler içermediği için tarihimizdeki tek 'yumuşak' ve aynı zamanda tek 'çerçeve' anayasadır."
+        },
+        {
+            "id": 3,
+            "text": "Bir ülkede savaş, darbe, ihtilal veya bağımsızlık savaşı gibi olağanüstü dönemlerin ardından, önünde hiçbir siyasal veya hukuksal engel bulunmaksızın sıfırdan tamamen yeni bir anayasa yapan iktidar türüne ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tali Kurucu İktidar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kurulmuş İktidar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Asli Kurucu İktidar",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yasama İktidarı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yürütme İktidarı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Olağanüstü dönemlerde ortaya çıkarak hiçbir hukuk kuralı ile bağlı olmaksızın anayasayı baştan yapan iktidar 'Asli Kurucu İktidar'dır. Anayasayı mevcut kurallara göre değiştiren iktidara ise 'Tali Kurucu İktidar' denir."
+        },
+        {
+            "id": 4,
+            "text": "Demokrasinin uygulanma biçimlerinden olan yarı doğrudan demokrasi sisteminin halka sağladığı bazı katılım araçları bulunmaktadır.\n\nBuna göre aşağıdakilerden hangisi yarı doğrudan demokrasi araçlarından biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Halk oylaması (Referandum)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Halk vetosu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Halk girişimi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gensoru",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Temsilcilerin azli",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yarı doğrudan demokrasinin dört temel aracı vardır: Halk oylaması (referandum), halk vetosu, halk girişimi ve temsilcilerin azli. 'Gensoru' ise parlamenter hükümet sistemlerinde yasama organının yürütmeyi denetleme ve hükümeti düşürme aracıdır."
+        },
+        {
+            "id": 5,
+            "text": "1876 Kanun-i Esasi ile kurulan Osmanlı parlamentosu (Meclis-i Umumi) yapısıyla ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çift meclisli bir yasama organı yapısına sahiptir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Heyet-i Mebusan üyeleri belli bir süre için halk tarafından seçilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Heyet-i Ayan üyeleri padişah tarafından seçilir ve atamaları ömür boyu geçerlidir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Padişahın, meclis üzerinde mutlak veto ve meclisi feshetme yetkisi bulunmaktadır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Meclisin kanun teklif edebilmesi için padişahtan önceden izin alma zorunluluğu bulunmamaktadır.",
+                    "correct": true
+                }
+            ],
+            "explanation": "1876 Kanun-i Esasi'nin ilk halinde, Heyet-i Mebusan'ın kanun teklif edebilmesi için padişahtan önceden izin alma zorunluluğu vardı. Bu kısıtlayıcı kural, 1909 değişiklikleriyle kaldırılmıştır."
+        },
+        {
+            "id": 6,
+            "text": "Kuvvetlerin birbirlerinden sert ve kesin çizgilerle ayrıldığı Başkanlık Sistemi ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yürütme organı; sorumsuz bir devlet başkanı ve parlamentoya karşı sorumlu bir bakanlar kurulundan oluşur.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Bir kimse aynı anda hem yasama hem de yürütme organında görev alamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Devlet başkanı kural olarak halk tarafından seçilmektedir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Başkan, yasama organının görevine son veremez (meclisi feshedemez).",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bakanlar, yasama organına karşı değil, kendilerini atayan devlet başkanına karşı sorumludur.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Başkanlık sisteminde yürütme tek kanatlıdır (tekçidir) ve yalnızca devlet başkanından (Başkandan) oluşur. İki kanatlı yürütme (sembolik Cumhurbaşkanı ve parlamentoya sorumlu Bakanlar Kurulu), Parlamenter Sistemin belirgin özelliğidir."
+        },
+        {
+            "id": 7,
+            "text": "Kendi içlerinde yasama, yürütme, yargı organlarına ve ayrı anayasalara sahip olan devletçiklerin (eyaletlerin), bir anayasa çatısı altında birleşerek dış işlerinde üst (merkezi) devlete bağlı oldukları birleşik devlet modeli aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Üniter Devlet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Federal Devlet",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bölgeli Devlet",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Konfederasyon",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Meşruti Monarşi",
+                    "correct": false
+                }
+            ],
+            "explanation": "İç işlerinde özerk (kendi yasama/yürütme/yargısı olan federe devletler), dış işlerinde ise merkezi (federal) devlete bağlı oldukları ve bu yetki paylaşımının yazılı bir anayasa ile yapıldığı devlet modeli Federal Devlet'tir (Örn: ABD, Almanya)."
+        },
+        {
+            "id": 8,
+            "text": "Cumhuriyet döneminde yapılan anayasal yenilikler dikkate alındığında, Türkiye'de 'genel oy' ilkesi (servet, vergi, cinsiyet farkı gözetmeksizin tüm vatandaşların oy kullanabilmesi) anayasal güvenceye tam olarak hangi tarihte kavuşmuştur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1924",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1928",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "1934",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "1937",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1946",
+                    "correct": false
+                }
+            ],
+            "explanation": "1934 yılında 1924 Anayasası'nda yapılan değişiklikle kadınlara milletvekili seçme ve seçilme hakkı verilmiştir. Cinsiyet ayrımının kalkmasıyla Türkiye'de genel oy ilkesi anayasal olarak tamamlanmıştır."
+        },
+        {
+            "id": 9,
+            "text": "1961 Anayasası, yürürlüğe girmesiyle birlikte Türk idare ve yargı yapısına pek çok yeni kurum kazandırmıştır.\n\nBuna göre aşağıdakilerden hangisi, Türk anayasal sistemine ilk kez 1961 Anayasası ile giren yeniliklerden veya kurumlardan biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Anayasa Mahkemesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Milli Güvenlik Kurulu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sosyal Devlet İlkesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Devlet Denetleme Kurulu",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yüksek Hakimler Kurulu",
+                    "correct": false
+                }
+            ],
+            "explanation": "Devlet Denetleme Kurulu (DDK), yürütmeyi denetlemek amacıyla Cumhurbaşkanlığına bağlı olarak 1982 Anayasası ile sistemimize dahil edilmiş bir kurumdur. Diğer seçeneklerin tamamı 1961 Anayasası ile ilk kez sistemimize girmiştir."
+        },
+        {
+            "id": 10,
+            "text": "1921 Anayasası (Teşkilat-ı Esasiye Kanunu) döneminde benimsenen 'Meclis Hükümeti' sistemiyle ilgili aşağıdaki yargılardan hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kuvvetler birliği ilkesi gereği yasama ve yürütme yetkileri mecliste toplanmıştır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bakanlar (Heyet-i Vükela), meclis üyeleri arasından meclis tarafından tek tek oylanarak seçilir.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Meclis başkanı, aynı zamanda hükümetin (İcra Vekilleri Heyeti'nin) de başkanıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Meclisin üstünlüğü esastır; yürütme organının meclisi feshetme yetkisi bulunmamaktadır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sistemin dengesini sağlamak adına Devlet Başkanlığı (Cumhurbaşkanlığı) makamı anayasada bağımsız bir güç olarak düzenlenmiştir.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Meclis Hükümeti sisteminde (ve ilk 1921 Anayasası metninde) Devlet Başkanlığı makamı bulunmamaktadır. Meclis başkanı, devletin ve hükümetin başı sayılmıştır. Cumhurbaşkanlığı makamı, 1923'te Cumhuriyet'in ilanı ile anayasaya girmiştir."
+        },
+        {
+            "id": 11,
+            "text": "Osmanlı Devleti'nde ilk kez 'kanun üstünlüğü' ilkesinin devlet tarafından kabul edildiği, padişahın kendi yetkilerini kendi isteğiyle yasalara uygun hareket edeceğini beyan ederek sınırlandırdığı ilk haklar bildirgesi hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tanzimat Fermanı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sened-i İttifak",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Islahat Fermanı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1876 Kanun-i Esasi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1924 Anayasası",
+                    "correct": false
+                }
+            ],
+            "explanation": "1839 yılında ilan edilen Tanzimat Fermanı, Osmanlı tarihinde ilk haklar bildirgesidir. Padişah, tebaasının can, mal, namus güvenliğini sağlayacağına söz vererek ve hukukun üstünlüğüne uyacağını beyan ederek kendi isteğiyle kendi gücünü sınırlandırmıştır."
+        },
+        {
+            "id": 12,
+            "text": "Türkiye'nin siyasi hayatı ve seçim ilkelerinin gelişimi dikkate alındığında, 'gizli oy, açık sayım ve döküm' ile 'seçimlerin yargı gözetimi ve denetimi altında yapılması' esasları ilk kez hangi yıl gerçekleşen seçimlerle uygulamaya konulmuştur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1946",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1950",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "1954",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1960",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1982",
+                    "correct": false
+                }
+            ],
+            "explanation": "1946'da ilk defa tek dereceli seçime ve kesintisiz çok partili hayata geçilse de; bu seçimler 'açık oy, gizli sayım' yöntemiyle yapılmıştır. 1950 seçimleri ise demokrasinin vazgeçilmez şartı olan 'gizli oy, açık sayım döküm' ve YSK'nın kurulmasıyla 'yargı denetimi' esaslarına dayalı olarak gerçekleştirilmiştir."
+        },
+        {
+            "id": 13,
+            "text": "Bir anayasanın temel hak ve hürriyetlerin sınırlandırılması veya idarenin işleyişi gibi konuları ayrıntılı şekilde düzenlemekten kaçınarak; yalnızca devletin temel organlarını ve temel felsefesini kısa ve öz ilkelerle belirttiği anayasa türüne ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kazuistik Anayasa",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sert Anayasa",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çerçeve Anayasa",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Geleneksel Anayasa",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yumuşak Anayasa",
+                    "correct": false
+                }
+            ],
+            "explanation": "Maddeleri çok detaylı olmayan, yalnızca ana kuralları (çerçeveyi) belirleyip detayları kanunlara veya diğer düzenlemelere bırakan kısa anayasalara 'Çerçeve Anayasa' denir (Türk tarihindeki tek örneği 23 maddelik 1921 Anayasası'dır)."
+        },
+        {
+            "id": 14,
+            "text": "1982 Anayasası'nın kabul edilme süreci ve öne çıkan temel özellikleriyle ilgili aşağıda verilen yargılardan hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Milli Güvenlik Konseyi ve Danışma Meclisi olmak üzere iki kanatlı bir kurucu meclis tarafından oluşturulmuştur.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kabulü, halk oylaması (referandum) sürecinden geçilerek sağlanmıştır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Değiştirilemez madde sayısının önceki anayasalara oranla artırıldığı oldukça katı (sert) bir anayasadır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Metnin hazırlanması sırasında siyasi partiler oldukça aktif rol oynamış ve anayasaya yön vermişlerdir.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Referandum oylamasında kabul oyu verenler, aynı zamanda MGK başkanı Kenan Evren'in cumhurbaşkanı olmasını da onaylamışlardır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "1982 Anayasası'nın yapım sürecinde ülkede siyasi partiler tamamen kapatılmış ve siyasi yasaklar getirilmişti. Sivil kanadı oluşturan Danışma Meclisi üyeleri atama yoluyla seçilmiş olup, siyasi partiler anayasanın yapımında hiçbir rol oynamamıştır."
+        },
+        {
+            "id": 15,
+            "text": "Türk anayasal gelişmeleri incelendiğinde, \"Egemenlik kayıtsız şartsız milletindir.\" ilkesine ilk kez yer vererek, iktidarın kaynağını soyut devletten alıp doğrudan millete dayandıran anayasamız aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1876 Kanun-i Esasi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1909 Değişiklikleriyle Kanun-i Esasi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "1839 Tanzimat Fermanı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1924 Anayasası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1921 Anayasası",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kurtuluş Savaşı döneminde ilan edilen 1921 Anayasası (Teşkilat-ı Esasiye), birinci maddesinde 'Hakimiyet bilakaydüşart milletindir' diyerek milli egemenlik ilkesini Türk hukukuna ilk kez sokan anayasadır."
+        },
+        {
+            "id": 16,
+            "text": "Türkiye'nin anayasa tarihindeki belgeler dikkate alındığında, yasama organının iki ayrı kanattan/meclisten oluştuğu 'çift meclis' uygulamasının görüldüğü anayasalar hangi seçenekte doğru olarak birlikte verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1876 Kanun-i Esasi ve 1961 Anayasası",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "1921 Anayasası ve 1924 Anayasası",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "1876 Kanun-i Esasi ve 1924 Anayasası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1961 Anayasası ve 1982 Anayasası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1924 Anayasası ve 1982 Anayasası",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türk anayasa tarihinde çift meclis sadece 1876 Kanun-i Esasi'de (Heyet-i Ayan ve Heyet-i Mebusan) ve 1961 Anayasası'nda (Millet Meclisi ve Cumhuriyet Senatosu) uygulanmıştır. 1921, 1924 ve 1982 anayasalarında yasama tek kanatlıdır."
+        },
+        {
+            "id": 17,
+            "text": "1924 Anayasası'nda yasama ve yürütme yetkisinin mecliste toplandığı belirtilmiş ancak yürütme yetkisini kendi içinden seçtiği Cumhurbaşkanı ve Bakanlar Kurulu eliyle kullanacağı ifade edilmiştir.\n\nKuvvetler birliği ve görevler ayrılığı adı verilen bu yapıya anayasa hukukunda hangi isim verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Başkanlık Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Karma Hükümet Sistemi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Parlamenter Sistem",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yarı Başkanlık Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Meclis Hükümeti Sistemi",
+                    "correct": false
+                }
+            ],
+            "explanation": "1924 Anayasası, meclis hükümeti sistemi ile parlamenter sistem arasında geçiş niteliğinde özellikler taşır. Yasama ve yürütmenin kaynağı TBMM'dir (kuvvetler birliği), ancak yürütme işlevini icra vekilleri heyeti (bakanlar kurulu) ile yapar (görevler ayrılığı). Bu modele 'Karma Hükümet Sistemi' denir."
+        },
+        {
+            "id": 18,
+            "text": "1961 Anayasası ile 1982 Anayasası pek çok yeni kurumu hukuk sistemine dahil etmiştir. \n\nAşağıdaki kurumlardan hangisi, idari ve devlet yapılanmamıza 1982 Anayasası ile değil, daha önceki bir düzenleme veya anayasa dönemi ile girmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Devlet Denetleme Kurulu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yükseköğretim Kurulu (YÖK)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Diyanet İşleri Başkanlığı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Atatürk Kültür, Dil ve Tarih Yüksek Kurumu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Radyo ve Televizyon Üst Kurulu (RTÜK)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Diyanet İşleri Başkanlığı 1924 yılında yasa ile kurulmuş ve 1961 Anayasası ile anayasal güvenceye (anayasal kurum statüsüne) kavuşmuştur. Devlet Denetleme Kurulu, YÖK, Atatürk Kültür, Dil ve Tarih Yüksek Kurumu ve sonradan eklenmiş olsa da RTÜK, 1982 Anayasası döneminin getirdiği kurumlardır."
+        },
+        {
+            "id": 19,
+            "text": "1876 Kanun-i Esasi metni üzerinde 1909 yılında gerçekleştirilen köklü anayasa değişiklikleri göz önüne alındığında aşağıdakilerden hangisi bu değişikliklerin amaçladığı veya getirdiği kurallardan biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Padişahın meclisi tek taraflı olarak feshetme yetkisinin zorlaştırılması.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bakanların (Heyet-i Vükela'nın) padişaha karşı değil, meclise karşı sorumlu olması.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Padişaha ait olan sürgün ve basın üzerinde sansür uygulama yetkilerinin kaldırılması.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Padişahlık makamının yürütmede daha etkin kılınarak, yetkilerinin artırılması.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Meclisin yasama sürecinde (kanun teklif etmede) padişahtan izin alma zorunluluğunun son bulması.",
+                    "correct": false
+                }
+            ],
+            "explanation": "1909 anayasa değişiklikleriyle padişahın yetkileri daraltılmış ve tamamen sembolik bir role doğru (parlamenter monarşiye daha yakın) itilmiştir. Padişahın yetkilerinin artırılması söz konusu değildir, aksine Mebusan Meclisinin yetkileri artırılmıştır."
+        },
+        {
+            "id": 20,
+            "text": "Halk oylaması (referandum) uygulaması Türk siyasi ve hukuk tarihi için önemli bir aşamadır. Türkiye Cumhuriyeti'nde halk oylaması (referandum) yoluyla kabul edilerek yürürlüğe giren ilk anayasa hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sened-i İttifak",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1921 Anayasası",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "1924 Anayasası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "1876 Kanun-i Esasi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "1961 Anayasası",
+                    "correct": true
+                }
+            ],
+            "explanation": "Türk anayasa tarihinde, yapılış sürecinde metnin halkın oylamasına (referandum) sunularak kabul edildiği ilk anayasa 1961 Anayasası'dır. 1982 Anayasası da referandum ile kabul edilmiştir."
+        }
+    ]
+}

@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e62c12d5-4a5f-4d99-8d1e-2b5a1f1b5d6e",
+        "title": "test 6",
+        "subject": "test 6",
+        "topic": "Araştırma Yöntemleri ve Etik - Boşluk Doldurma 6",
+        "difficulty": "Karma",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Bilimsel yöntemin aşamalarından biri olan ve gözlem, deney, ölçme gibi bilim insanları için temel veri sağlayan faaliyetleri içeren sürece \"....\" süreci denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olgusal",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kuramsal",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yordamsal",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mantıksal",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çıkarımsal",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilimsel yöntemin ilk aşamasını oluşturan, doğadaki olayların (olguların) gözlem, deney ve ölçme yoluyla belirlenip betimlendiği sürece olgusal süreç adı verilir."
+        },
+        {
+            "id": 2,
+            "text": "Bilgiyi, konunun uzmanı kabul edilen kişilerden veya saygın kaynaklardan eleştirel bir süzgeçten geçirmeksizin doğrudan doğru kabul ederek edinme yoluna \"....\" denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Deneme yanılma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Uzman görüşü (Otorite)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Görüş birliği",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tümdengelim",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Duyusal deneyim",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hastalığımız için bir profesörün tavsiyesini mutlak doğru kabul etmemiz örneğinde olduğu gibi, bilginin kaynağını uzmanlığına inandığımız kişi ve kurumlara dayandırdığımız bilgi edinme yolu otoriteye başvurmadır."
+        },
+        {
+            "id": 3,
+            "text": "Bir niteliğin gözlenip, gözlem sonucunun sayı veya başka sembollerle ifade edilmesine ve böylece gözlemin herkes tarafından geçerli olmasının sağlanmasına \"....\" adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Değerlendirme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Geçerlik",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ölçme",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Manipülasyon",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gözlem",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ölçme, gözlem sonuçlarına (canlı veya cansız nesnelerin niteliklerine) belli kurallara göre sayı veya sembol atayarak bilginin kesinlik ve açıklık kazanmasını sağlayan işlemdir."
+        },
+        {
+            "id": 4,
+            "text": "Araştırmacının doğruluğunu deney veya test ile ispatlama gereği duymadan, araştırmasının temelini dayandırdığı ve peşinen doğru kabul ettiği önermelere \"....\" denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sınırlılık",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Teori",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sayıltı (Varsayım)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Problem cümlesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Deneyle ispatlanmasının zor olduğu ya da ispatına gerek duyulmayan, ancak araştırmanın üzerine inşa edilebilmesi için doğru olduğu farz edilen yargılara sayıltı (varsayım) denir."
+        },
+        {
+            "id": 5,
+            "text": "Araştırmanın sonucunda elde edilecek bulguların genelleneceği, soruların cevabını barındıran ve araştırmanın hedef kitlesi olarak tanımlanan asıl büyük gruba \"....\" denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Örneklem",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Deney grubu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Odak grup",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kontrol grubu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Evren",
+                    "correct": true
+                }
+            ],
+            "explanation": "Verilerin analizi ile elde edilecek sonuçların geçerli olacağı, sınırları belirlenmiş tüm canlı ya da cansız varlıklardan oluşan büyük gruba evren (population) adı verilir."
+        },
+        {
+            "id": 6,
+            "text": "Araştırma ve yayın etiği kapsamında, araştırmacının başkalarına ait fikir, veri ve bulguları uygun şekilde atıf yapmadan (kaynak göstermeden) kendi eseriymiş gibi sunmasına \"....\" denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dilimleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kırpma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çarpıtma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir başkasının fikri mülkiyetini, sözlerini veya araştırmasını atıf kurallarına uymadan kendine mal etme işlemine aşırmacılık (intihal / plagiarism) denir."
+        },
+        {
+            "id": 7,
+            "text": "Bağımlı değişken ile bağımsız değişken arasındaki ana ilişkiyi etkileyen veya değiştiren, literatürde zaman zaman 'ikinci düzey bağımsız değişken' olarak da isimlendirilen değişkene \"....\" değişken denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dışsal",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Düzenleyici",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kontrol",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sürekli",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kategorik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Örneğin sınav kaygısının (bağımsız) performans (bağımlı) üzerindeki etkisinde sınav deneyiminin rolünü incelediğimizde, ilişkiyi düzenleyen faktör (deneyim) düzenleyici değişkendir."
+        },
+        {
+            "id": 8,
+            "text": "Önceden doğal yollarla oluşmuş gruplar arasındaki farklılıkların nedenlerini veya bir etkinin olası sonuçlarını, koşullara hiçbir müdahalede bulunmaksızın geriye dönük olarak inceleyen araştırmalara \"....\" araştırması denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Korelasyonel",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Deneysel",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nedensel karşılaştırma",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Eylem",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tarama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Olay olup bittikten sonra, var olan farklılıkların (örneğin okul terki olan ve olmayan grupların) geçmişe dönük nedenlerini araştırmacı müdahalesi olmadan inceleyen desen nedensel karşılaştırma (ex-post facto) araştırmasıdır."
+        },
+        {
+            "id": 9,
+            "text": "Bireyin gelecekteki performansı veya davranışı hakkında, uygulanan bir testten elde edilen mevcut puanlara dayanarak isabetli tahminler yapılabilmesi, o testin \"....\" geçerliğini yansıtır.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yapı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Görünüş",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yordama",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Eşzaman (Uygunluk)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Test puanının gelecekte ölçülecek bir davranışı (örneğin üniversite giriş sınavı puanının üniversitedeki not ortalamasını) ne derece başarılı tahmin ettiğini (yordadığını) gösteren geçerlik türü yordama geçerliğidir."
+        },
+        {
+            "id": 10,
+            "text": "Ölçüm yapan aracın kalibrasyon bozukluğu gibi sebeplerle her ölçüme istisnasız olarak aynı yönde ve aynı miktarda karışan, miktarı ve yönü hiç değişmeyen hatalara ölçme kuramında \"....\" hata denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tesadüfi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Standart",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sistematik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Örneklem",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sabit",
+                    "correct": true
+                }
+            ],
+            "explanation": "Örneğin terazinin her defasında üzerindekini 100 gram eksik tartması veya öğretmenin herkesin notuna 5 puan eklemesi gibi herkese aynı miktarda karışan hatalar sabit hatadır."
+        },
+        {
+            "id": 11,
+            "text": "Ulaşılması zor, gizli veya sınırları tam bilinmeyen gruplarda, ulaşılan ilk kilit kişinin referansıyla ağın büyütülerek diğer katılımcılara ulaşıldığı örnekleme yöntemine \"....\" örnekleme denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kartopu (Zincir)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Tabakalı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Maksimum çeşitlilik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sistematik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uygun (Kazara)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının ilk temas kurduğu kişiden aldığı yeni isim önerileriyle örneklemini bir kartopu gibi giderek büyüterek genişlettiği teknik kartopu (zincir) örneklemedir."
+        },
+        {
+            "id": 12,
+            "text": "Gelişimi incelemek için aynı bireyleri yıllarca takip etmek yerine, zaman kazanmak amacıyla farklı yaş veya seviyedeki alt gruplardan (örneğin 1., 2., 3. ve 4. sınıflardan) aynı zaman diliminde veri toplanarak karşılaştırma yapılan araştırmalara \"....\" araştırma denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Boylamsal",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kesitsel",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Deneysel",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tarihsel",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Karma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aynı gruptan uzun zaman aralığında veri toplayan boylamsal çalışmanın aksine, farklı gruplardan tek bir anlık zaman diliminde (aynı zamanda) veri toplayan desen kesitsel araştırmadır."
+        },
+        {
+            "id": 13,
+            "text": "Bir testin gruba tek bir kez uygulanmasının ardından maddelerin rastgele veya tek-çift şekilde iki eş parçaya bölünerek, bu iki yarıdan elde edilen puanlar arasındaki korelasyon üzerinden testin bütünü için güvenirlik hesaplanmasına \"....\" yöntemi denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Test-tekrar test",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "KR-20",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Testi yarılama (Eşdeğer yarılar)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Cronbach Alpha",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Paralel formlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tek uygulamaya dayalı güvenirlik bulma yollarından olan ve testin iki eş yarıya ayrılarak yarılar arasındaki uyumun Spearman-Brown formülüyle tüm teste modellendiği yöntem testi yarılama yöntemidir."
+        },
+        {
+            "id": 14,
+            "text": "Nitel araştırmalarda inanılırlığı ve iç geçerliği sağlamak amacıyla, araştırmacının ulaştığı analiz raporlarını ve yorumları bizzat veri topladığı katılımcılara sunarak onların onayını alması sürecine \"....\" adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Denetleme yolu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Üçgenleme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uzun süreli etkileşim",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Katılımcı teyidi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Akran değerlendirmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının ulaştığı subjektif çıkarımların katılımcıların gerçek dünyasını yansıtıp yansıtmadığını test etmek için sonuçların katılımcılarla paylaşılarak onay alınması katılımcı teyidi (member checking) uygulamasıdır."
+        },
+        {
+            "id": 15,
+            "text": "Karma araştırma yaklaşımlarında nicel veya nitel bir desenin ana çerçeve (temel) olarak alındığı, diğer yöntemin ise destekleyici ve bütünleştirici ek veriler sağlamak üzere bu ana yapının içine yerleştirildiği desene \"....\" desen denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Zenginleştirilmiş",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Açıklayıcı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Keşfedici",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sıralı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gömülü",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bir yöntemin (örneğin nicel deney) asıl araştırma iskeletini oluşturduğu, diğer yöntemin (örneğin nitel mülakat) ise bu iskeletin içine gömülerek ikincil bir destek sağladığı karma tasarımlar gömülü desendir."
+        },
+        {
+            "id": 16,
+            "text": "Geliştirilen bir testin içerdiği maddelerin, ölçülmek istenen konuları ve tanımlanmış davranışlar evrenini (bütününü) orantılı ve uygun bir biçimde ne derece iyi temsil edebildiğini gösteren geçerlik türüne \"....\" geçerliği denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kapsam",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Yapı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yordama",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Eşzamanlı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Görünüş",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kapsam (içerik) geçerliği, testi oluşturan soruların belirlenen öğrenme hedeflerini, üniteleri veya davranışları (genellikle belirtke tablosu kullanılarak uzman görüşüyle) dengeli bir şekilde örnekleme derecesidir."
+        },
+        {
+            "id": 17,
+            "text": "Deneysel bir çalışmada aynı testin deney öncesinde de verilmesinin, deneklerde testin formatı ve sorularına karşı aşinalık (öğrenme) oluşturarak sontest performansını deneysel işlemden bağımsız şekilde artırmasına \"....\" etkisi denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İstatistiksel regresyon",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İletme (Aktarma) / Öntest",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Olgunlaşma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Beklenti",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Denek kaybı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Öntestin uygulanması, kişinin sorulara alışmasını ve sontestte sadece bu öğrenme faktörü nedeniyle daha yüksek puan almasını sağlayabilir. İç geçerliği tehdit eden bu soruna iletme/aktarma veya öntest etkisi denir."
+        },
+        {
+            "id": 18,
+            "text": "Nitel bir araştırma sürecinde, elde edilen kavramsal temalara alternatif açıklamalar getirebilecek veya teorinin geçerlik sınırlarını test etmeyi sağlayacak zıt özelliklere sahip örneklerin kasıtlı olarak seçilmesine \"....\" örneklemesi denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kritik durum",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tipik durum",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yanlışlayıcı durum",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Aykırı durum",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ölçüt",
+                    "correct": false
+                }
+            ],
+            "explanation": "Teorinin sınırlarını zorlamak, ulaşılan sonuçların ve temaların hangi durumlarda çöktüğünü veya geçersiz olduğunu bulmak için zıt/alternatif vakaların incelendiği teknik yanlışlayıcı durum örneklemesidir."
+        },
+        {
+            "id": 19,
+            "text": "Bağımlı değişken üzerinde aynı zamanda iki ya da daha fazla bağımsız değişkenin (faktörün) hem ayrı ayrı temel etkilerinin hem de birbirleriyle etkileşimlerinden doğan ortak etkilerinin aynı model içinde test edildiği gelişmiş deneysel desenlere \"....\" desenler denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Zaman serisi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tek grup öntest-sontest",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Karışık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Faktöryel",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Statik grup",
+                    "correct": false
+                }
+            ],
+            "explanation": "İki veya daha çok bağımsız değişkenin (örneğin hem cinsiyetin hem de öğretim yönteminin) bağımlı değişken üzerindeki temel ve ortak (etkileşim) etkilerini incelemeye olanak sağlayan tasarımlar faktöryel desenlerdir."
+        },
+        {
+            "id": 20,
+            "text": "Öğrenci başarı testlerinde olduğu gibi, maddelere verilen cevapların doğru (1) ve yanlış (0) şeklinde ikili (kategorik) puanlandığı durumlarda kullanılan tek uygulamaya dayalı iç tutarlık güvenirlik belirleme yöntemine \"....\" adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cronbach Alpha",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Spearman-Brown",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Test-tekrar test",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hoyt'un Varyans Analizi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuder-Richardson 20 (KR-20)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Maddelerin 1-0 şeklinde (doğru/yanlış veya evet/hayır) puanlandığı ölçme araçlarının iç tutarlılık güvenirliğini hesaplamada kullanılan tek uygulamalı istatistiksel yaklaşım KR-20 formülüdür."
+        }
+    ]
+}

@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e9c3a812-7b2f-48d1-b543-c91f0a73b444",
+        "title": "test 6",
+        "subject": "test 6",
+        "topic": "İslamiyet Öncesi Türk Devletleri Kültür ve Medeniyeti",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-25"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tİlk Türk devletlerinde devlet meselelerinin görüşülüp karara bağlandığı meclise genel olarak Kurultay (Toy) adı verilirdi.\n\nBuna göre devlet işlerinin görüşüldüğü Kurultay'a katılan boy beylerine ve devlet ileri gelenlerine (üyelere) genel olarak verilen ad aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Toygun",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Aygucı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Buyruk",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tudun",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yargu",
+                    "correct": false
+                }
+            ],
+            "explanation": "İlk Türk devletlerinde Kurultay üyelerine (katılan devlet ileri gelenleri ve boy beylerine) genel olarak 'Toygun' adı verilirdi."
+        },
+        {
+            "id": 2,
+            "text": "\tİslamiyet öncesi Türk devletlerinde yazılı olmayan ancak devletin ve toplumun hayatını düzenleyen hukuk kurallarına 'Töre' denilmiştir. Törenin adalet, eşitlik, iyilik gibi değişmez bazı temel hükümleri bulunmaktaydı.\n\nBuna göre törenin değişmez hükümlerinden biri olan ve 'adalet' anlamına gelen kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzluk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Könilik",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Tüzlük",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kişilik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Oksızlık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Eski Türk töresinde Könilik 'adalet', Uzluk 'iyilik', Tüzlük 'eşitlik', Kişilik ise 'insanlık' anlamına gelmektedir."
+        },
+        {
+            "id": 3,
+            "text": "\tEski Türklerde toplumu oluşturan ve en küçük yapı biriminden devlete kadar uzanan hiyerarşik bir sosyal yapı mevcuttu. Bu düzen göçebe yaşamda dahi toplumsal disiplini sağlayan en büyük unsurdu.\n\nBuna göre İslamiyet öncesi Türk toplum yapısının 'küçükten büyüğe (alttan üste)' doğru sıralanışı aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Boy - Uruk - Oguş - İl - Budun",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Oguş - Boy - Uruk - Budun - İl",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Oguş - Uruk - Boy - Budun - İl",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Uruk - Oguş - Boy - Budun - İl",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Budun - Boy - İl - Oguş - Uruk",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türk toplumsal yapısının hiyerarşik sıralaması alttan üste doğru sırasıyla; Oguş (Aile), Uruk (Sülale), Boy (Soy), Budun (Millet) ve İl (Devlet) şeklindedir."
+        },
+        {
+            "id": 4,
+            "text": "\tİslamiyet öncesi Türk devletlerini oluşturan dört temel unsur bulunmaktadır. Bunlar vatan (ülke), teşkilat, bağımsızlık ve halktır.\n\nEski Türk devlet geleneğinde 'bağımsızlık' anlamına gelen ve hiçbir milletin boyunduruğu altına girmemeyi ifade eden kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tüz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kün",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ülüş",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Oksızlık",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yarlık",
+                    "correct": false
+                }
+            ],
+            "explanation": "İslam öncesi Türklerde devleti oluşturan unsurlardan biri olan Oksızlık, hiçbir millete boyun eğmemeyi, yani 'bağımsızlığı' (istiklali) ifade eder."
+        },
+        {
+            "id": 5,
+            "text": "\tİslamiyet öncesi Türk topluluklarında ölümden sonraki yaşama (ahiret) inancının var olduğunu gösteren birçok uygulama mevcuttur. Mezar yapıları, ölüyle gömülen eşyalar ve mezar taşları bu inancın somut kanıtlarıdır.\n\nAşağıdakilerden hangisi eski Türklerde 'ölümden sonra yaşam' inancının varlığını kanıtlayan doğrudan bir gösterge 'değildir'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kurgan adı verilen oda biçimli mezarlar yapılması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ölülerin sevdikleri eşyalarla birlikte gömülmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mezarların başına balbal denilen taşların dikilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Uçmağ (Cennet) ve Tamu (Cehennem) inancının bulunması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cenaze törenlerinde 'yuğ' adı verilen ağıtların yakılması",
+                    "correct": true
+                }
+            ],
+            "explanation": "Yuğ törenleri, ölen kişinin ardından düzenlenen ağıt ve yas merasimidir; bu doğrudan ahiret inancını (ölümden sonraki hayatı) kanıtlayan somut bir nesne veya unsur değildir."
+        },
+        {
+            "id": 6,
+            "text": "\tTürkler, tarih boyunca ticaret hayatında değiş tokuşun yanı sıra çeşitli para birimleri ve ödeme araçları da kullanmışlardır.\n\nAşağıdakilerden hangisi İslamiyet öncesi Türklerde kullanılan 'ekonomik' bir terim (para veya değişim aracı) 'değildir'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kam",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kuanpoyu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Böz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yarmak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çav",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kuanpoyu, Böz, Yarmak ve Çav İslamiyet öncesi Türk devletlerinde kullanılan para/değişim aracı isimleridir. 'Kam' (veya Baksı) ise din adamına (şaman) verilen isimdir."
+        },
+        {
+            "id": 7,
+            "text": "\tBozkır hayatının gereği olarak her an savaşa hazır durumda olan Türk ordusu, sadece savaş esnasında değil, muharebe öncesinde de istihbarat faaliyetlerine büyük önem vermiştir.\n\nİslamiyet öncesi Türk ordularında, savaş öncesinde düşmanın durumunu ve gücünü öğrenmek amacıyla önden gönderilen 'keşif (istihbarat) birliğine' ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sübaşı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yelme",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Tarkan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yargu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Böri",
+                    "correct": false
+                }
+            ],
+            "explanation": "İslamiyet öncesinde savaş öncesi düşmanın stratejisini ve durumunu öğrenmek amacıyla gönderilen keşif (öncü) birliklerine 'Yelme' denilirdi."
+        },
+        {
+            "id": 8,
+            "text": "\tİslamiyet öncesi Türklerde sözlü hukuk kuralları olan törenin yanı sıra, toplumsal barışı sağlayan ve devletin yapısını güçlendiren birtakım bağlar bulunurdu.\n\nEski Türk devlet teşkilatında, devlet (Hakan) ile halk arasındaki karşılıklı görev ve sorumlulukları belirleyen 'yazısız sözleşmeye' ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yarlıg",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Könilik",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tüz",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Ülüş",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Oksızlık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Devlet ile halkın birbirine karşı görevlerini düzenleyen yazısız toplumsal sözleşmeye 'Tüz' denirdi. Töre ise genel yazısız hukuk kurallarıdır."
+        },
+        {
+            "id": 9,
+            "text": "\tİslamiyet öncesi Türk devletlerinde sanat, konar-göçer yaşam tarzının bir yansıması olarak genellikle taşınabilir malzemeler üzerine yapılmıştır. Ancak Uygurların yerleşik hayata geçmesiyle birlikte mimari ve sanat anlayışında köklü değişiklikler yaşanmıştır.\n\nBuna göre yaş sıva üzerine yapılan ve Uygurlarda yerleşik hayatın kanıtlarından biri sayılan duvar resimlerine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Minyatür",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Balbal",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kurgan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Fresko",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Bediz",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yaş sıva üzerine yapılan duvar resimlerine 'Fresko' denilir ve kalıcı yapılar üzerine uygulandığı için yerleşik yaşamın en büyük kanıtlarından biri sayılır."
+        },
+        {
+            "id": 10,
+            "text": "\tII. Göktürk (Kutluk) Devleti döneminde dikilen Orhun Abideleri, Türk tarihinin siyasi, sosyal ve kültürel yaşantısına dair önemli bilgiler içerir. Bu abidelerden ilki, bizzat bunu diken devlet adamı tarafından yazılmıştır.\n\nKendi adına dikilen anıtın yazarlığını bizzat yaparak \"ilk Türk tarihçisi ve yazarı\" unvanını alan devlet adamı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yolluğ Tigin",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İstemi Yabgu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bögü Kağan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bilge Kağan",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Vezir Tonyukuk",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kutluk Devleti'nin ünlü veziri Tonyukuk, Orhun Abideleri'nin ilkini bizzat kendisi yazıp diktiği için 'ilk Türk tarihçisi ve yazarı' kabul edilmektedir."
+        },
+        {
+            "id": 11,
+            "text": "\tİlk Türk devletlerinde devlet meselelerinin görüşülüp karara bağlandığı meclise genel olarak Kurultay (Toy) adı verilirdi. Ancak bu meclis, farklı Türk boylarında değişik isimlerle de anılmıştır.\n\nBuna göre 'Peçeneklerde' devlet meselelerinin görüşüldüğü meclise verilen isim aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Komenton",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Seçkinler Meclisi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Nazırlar Meclisi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İhtiyarlar Meclisi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Millet Meclisi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kurultay farklı boylarda farklı isimler almıştır. Peçeneklerde Komenton, Avrupa Hunlarında Seçkinler Meclisi, Tuna Bulgarlarında Millet Meclisi denilirdi."
+        },
+        {
+            "id": 12,
+            "text": "\tEski Türk inanç sistemine göre, Gök Tanrı tarafından hükümdara sadece siyasi bir yetki (Kut) değil, aynı zamanda devlete bolluk ve bereket getirmesi için ekonomik bir güç de verilirdi.\n\nTanrı tarafından hükümdara verildiğine inanılan ve kelime anlamı \"pay, hisse, bölüşmek\" olan bu ekonomik güce ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Küç",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ülüş",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kut",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yarlıg",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tüz",
+                    "correct": false
+                }
+            ],
+            "explanation": "Gök Tanrı'nın hükümdara verdiği siyasi güce Kut, askeri güce Küç, ekonomik zenginliği halka pay etme gücüne ise 'Ülüş' (pay, hisse) denirdi."
+        },
+        {
+            "id": 13,
+            "text": "\tTürk milleti Orta Asya'da göçebe bir yaşam sürmesine rağmen bilimsel faaliyetlerden uzak kalmamış, uzay ve gökyüzü olaylarını inceleyerek önemli çalışmalar yapmıştır.\n\nAşağıdakilerden hangisi Türklerin 'astronomi' ve matematik ile uğraştıklarının en kesin kanıtı olarak gösterilebilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kurgan adı verilen anıt mezarlar inşa etmeleri",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sanat eserlerinde hayvan üslubu kullanmaları",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "12 Hayvanlı Türk Takvimi'ni hazırlamaları",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yaş sıva üzerine fresko sanatı yapmaları",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Orduda onlu sistemi icat etmeleri",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türklerin gökyüzü olaylarını inceleyip 12 Hayvanlı Türk Takvimi'ni oluşturmaları, astronomi ve matematik bilimleriyle uğraştıklarının kesin kanıtıdır."
+        },
+        {
+            "id": 14,
+            "text": "\tTürkler, konar-göçer yaşam tarzının bir sonucu olarak uzun süre yazıyı yaygın olarak kullanmamış; bu nedenle ilk dönemlerde dilden dile aktarılan çok zengin bir sözlü edebiyat geleneği geliştirmişlerdir.\n\nİslamiyet öncesi Türk edebiyatında günümüzdeki \"atasözü\" kavramının tam karşılığı olan edebi ürün aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sagu",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yuğ",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Koşuk",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sav",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Destan",
+                    "correct": false
+                }
+            ],
+            "explanation": "İslamiyet öncesi Türk edebiyatında dilden dile aktarılan ve atasözü niteliği taşıyan edebi ürünlere 'Sav' adı verilmekteydi."
+        },
+        {
+            "id": 15,
+            "text": "\tİslamiyet öncesi Türk devletlerini oluşturan dört temel unsur bulunmaktadır. Bunlar vatan (ülke), teşkilat, bağımsızlık (oksızlık) ve halktır.\n\nEski Türk devlet geleneğinde 'halk' unsurunu doğrudan ifade eden kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Oksızlık",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tüz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İl",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Boy",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kün",
+                    "correct": true
+                }
+            ],
+            "explanation": "İslam öncesi Türklerde devleti oluşturan unsurlardan biri olan 'Kün', doğrudan halkı (milleti oluşturan topluluğu) ifade eder."
+        },
+        {
+            "id": 16,
+            "text": "\tTürk kültüründe destanlar, toplumun başından geçen önemli olayların kuşaktan kuşağa aktarıldığı zengin sözlü edebiyat ürünleridir. Türklerin bir dağın içinden demir madenini eriterek çıkışını anlatan efsanevi olaylar da bunlara konudur.\n\n\"Ergenekon\" ve \"Bozkurt\" destanları aşağıdaki Türk devletlerinden hangisine aittir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Göktürkler",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Asya Hunları",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uygurlar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kırgızlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İskitler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ergenekon ve Bozkurt destanları, Göktürklere ait olan ve Türklerin bir dağın içinden demir eriterek çıkışını veya bozkurttan türeyişini anlatan önemli sözlü edebiyat ürünleridir."
+        },
+        {
+            "id": 17,
+            "text": "\tDünya tarihinde milletlerarası ilk yarışmaları (spor müsabakalarını) düzenledikleri bilinen bu Türk topluluğu, aynı zamanda dünyanın en uzun destanını da oluşturmuştur.\n\n\"Manas Destanı\" ve bilinen en eski kitabeler olan \"Yenisey Kitabeleri\" aşağıdaki Türk devletlerinden hangisine aittir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Göktürkler",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kırgızlar",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Uygurlar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Avarlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Karluklar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Milletlerarası yarışmaları düzenleyen, dünyanın en uzun destanı Manas Destanı'nı ve Yenisey Kitabeleri'ni oluşturan Türk devleti Kırgızlardır."
+        },
+        {
+            "id": 18,
+            "text": "\tİlk Türk devletlerinde uzun vadeli stratejiler oluşturmak devletin devamlılığı için büyük önem taşırdı.\n\nHedefin sürekli değiştiği ve bir hedefe varıldığında tekrardan yeni bir hedef koyma ülküsüne ne ad verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nizam-ı Alem",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Türk Cihan Hakimiyeti",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kızılelma",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Turan",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Oksızlık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uzun vadeli stratejiler oluşturmada hedefin sürekli yenilenmesi ve ulaşılan hedefin ardından hemen yeni bir ülkü belirlenmesine 'Kızılelma' adı verilir."
+        },
+        {
+            "id": 19,
+            "text": "\tİlk Türk devletlerinde hükümdarın kararları ve emirleri tartışmasız bir şekilde uygulanırdı. Bu emirlerin Gök Tanrı'nın iradesi doğrultusunda olduğuna inanılırdı.\n\nİslamiyet öncesi Türk devlet teşkilatında hükümdarın emirlerine (günümüzdeki ferman kelimesine denk gelen) ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tutuk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bitikçi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Toygun",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yarlıg",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Ağılı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Eski Türkçede Hakan'ın emirlerine, günümüzdeki 'ferman' kelimesinin karşılığı olarak 'Yarlıg' adı verilmekteydi."
+        },
+        {
+            "id": 20,
+            "text": "\tİslamiyet öncesi Türk devlet teşkilatında, karar alma mekanizması olan Kurultay'ın (Toy) yanı sıra, alınan kararları uygulayan bir yürütme organı (hükümet) da bulunurdu.\n\nİlk Türk devletlerinde hükümeti temsil eden ve günümüzdeki anlamıyla 'yürütme organı' olarak işlev gören bu kuruma ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aygucı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yargu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tudun",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Toygun",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ayuki",
+                    "correct": true
+                }
+            ],
+            "explanation": "Eski Türk devletlerinde yürütme işlevini gören hükümete 'Ayuki', bu hükümetin başında bulunan vezire ise 'Aygucı' (veya Üge) denilirdi."
+        }
+    ]
+}

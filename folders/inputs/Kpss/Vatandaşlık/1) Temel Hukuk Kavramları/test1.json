@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e81f1b21-4f16-43b9-a2a2-8d76d4d12a67",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "Temel Hukuk Kavramları",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-25"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Sosyal düzen kuralları arasında arkasına devletin maddi gücünü alan ve uyulması zorunlu olan kural aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hukuk kuralları",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Din kuralları",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ahlak kuralları",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Görgü kuralları",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Örf ve adet kuralları",
+                    "correct": false
+                }
+            ],
+            "explanation": "Din, ahlak ve görgü kurallarının yaptırımı manevidir (kınanma, dışlanma, günahkar sayılma vb.). Ancak hukuk kuralları arkasına devletin maddi gücünü alır ve ihlali durumunda kişi icra memuru, polis veya hakim gibi devlet organlarıyla karşılaşır."
+        },
+        {
+            "id": 2,
+            "text": "Aşağıdakilerden hangisi hukukun temel amaçları arasında yer almaz?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Toplumsal barışı sağlamak",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mutlak eşitliği sağlamak",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Adaleti gerçekleştirmek",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Güvenliği sağlamak",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nispi (dağıtıcı) eşitliği sağlamak",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hukuk barışı, güvenliği, adaleti ve nispi eşitliği (aynı durumda olanlara aynı şekilde davranmayı) hedefler. Herkese durumuna bakılmaksızın mutlak olarak aynı davranılması adaletsizliğe yol açar, bu nedenle mutlak eşitliği sağlamak hukukun amaçlarından biri değildir."
+        },
+        {
+            "id": 3,
+            "text": "Hukuk kurallarının tek tek her bir özel olay veya belli bir kişi için değil, aynı özellikleri taşıyan bütün olaylar ve durumlar için geçerli olması, hukuk kurallarının hangi özelliği ile ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Soyutluk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Süreklilik",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Genellik",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Kişilik dışı olma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Maddi yaptırımlı olma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hukuk kurallarının genellik özelliği, kuralın Türkiye'deki herkesi tek tek aynı anda kapsaması değil, aynı şartları taşıyan ve aynı durumda olan herkese ayrım yapılmaksızın uygulanmasıdır."
+        },
+        {
+            "id": 4,
+            "text": "İdarenin hukuka aykırı olarak yaptığı bir işlemin, yargı organları kararıyla geçmişe etkili olarak (sanki hiç yapılmamış gibi) ortadan kaldırılmasına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ceza",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cebri İcra",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tazminat",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İptal",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Hükümsüzlük",
+                    "correct": false
+                }
+            ],
+            "explanation": "Devletin (idarenin) aldığı ve hukuka aykırı olan kararların idari yargıya (idare veya vergi mahkemelerine) başvurularak geçmişten geleceğe ortadan kaldırılmasını sağlayan maddi yaptırıma iptal denir."
+        },
+        {
+            "id": 5,
+            "text": "Evlendirme memuru olmadan, yalnızca imam huzurunda kıyılan bir nikahın hukuk dünyasında kurucu unsur eksikliğinden dolayı hiçbir sonuç doğurmaması, aşağıdaki hükümsüzlük türlerinden hangisine örnektir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mutlak butlan",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Nispi butlan",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tek taraflı bağlamazlık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İptal edilebilirlik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yokluk",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bir hukuki işlemin kurucu unsurlarının (örneğin evlilikte resmi nikah memurunun) eksik olması durumunda işlem hukuk dünyasında hiç doğmamış kabul edilir, bu yaptırıma yokluk denir."
+        },
+        {
+            "id": 6,
+            "text": "Ayırt etme gücüne (temyiz kudretine) sahip olmayan bir akıl hastasının kendi başına yapmış olduğu bir satım sözleşmesinin akıbeti aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mutlak butlan ile kesin hükümsüzdür",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Nispi butlan ile iptal edilebilir",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tek taraflı bağlamazlık hükmündedir",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kurucu unsuru eksik olduğundan yokluktur",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İşlem geçerlidir ancak tazminat ödenir",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kurucu unsurları tam olan ancak emredici hükümlere, kamu düzenine, ahlaka veya ehliyet şartlarına aykırı olan (örneğin akıl hastasının işlemi) durumlar mutlak butlan ile baştan sona geçersiz (kesin hükümsüz) kabul edilir."
+        },
+        {
+            "id": 7,
+            "text": "Bir ülkede belli bir dönemde yetkili makamlar tarafından konulmuş, yürürlükte bulunan yalnızca 'yazılı' hukuk kurallarının tümüne ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Pozitif hukuk (Müspet hukuk)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mevzu hukuk (Mevzuat)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Tarihi hukuk",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Doğal (Tabii) hukuk",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İdeal hukuk",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yürürlükteki yazılı ve yazısız kuralların tümüne pozitif hukuk denirken, sadece yetkili makamlarca konulmuş yazılı hukuk kurallarına mevzu hukuk (mevzuat) adı verilir."
+        },
+        {
+            "id": 8,
+            "text": "Kanun koyucunun bilerek ve isteyerek düzenlemediği, hakimin takdir yetkisini kullanarak doldurması beklenen, 'haklı sebepler', 'uygun miktar' gibi kavramları barındıran boşluk türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Açık (Gerçek) boşluk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Örtülü (Gerçek olmayan) boşluk",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kural içi boşluk",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Hukuk boşluğu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kural dışı boşluk",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kanun koyucunun bir kural koyduğu ancak içini bilerek boş bıraktığı (örneğin nafakanın miktarı, boşanmada haklı sebepler vb.) durumlara kural içi (hüküm içi) boşluk denir. Bu tür boşluklar hakimin takdir yetkisi kullanmasıyla doldurulur."
+        },
+        {
+            "id": 9,
+            "text": "Hakim, somut bir uyuşmazlığı çözerken hem yazılı kanunlarda hem de yazısız kaynak olan örf ve adet hukukunda uygulanacak hiçbir kural bulamazsa (Hukuk boşluğu varsa) aşağıdaki yollardan hangisine başvurmalıdır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Davayı reddeder ve uyuşmazlığı çözümsüz bırakır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bilimsel görüşleri (doktrini) doğrudan kanun gibi uygular.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kendi takdir yetkisini kullanarak mevcut bir yazılı kuralı genişletir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kendisini kanun koyucu yerine koyarak hukuk yaratır.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Uyuşmazlığı TBMM'ye (Yasama organına) havale eder.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Medeni Kanun'un 1. maddesine göre; yazılı ve yazısız kaynaklarda hüküm bulunmaması durumuna hukuk boşluğu denir ve bu durumda hakim kendisini kanun koyucu yerine koyarak hukuk yaratır."
+        },
+        {
+            "id": 10,
+            "text": "Türk Medeni Kanunu'na göre, bir hakkın 'kazanılmasında' (örneğin mülkiyetin elde edilmesinde) geçerli olan ve kişinin bir hukuki engeli bilmemesi ya da bilebilecek durumda olmamasını ifade eden temel ilke aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dürüstlük (Objektif iyi niyet)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hakkın kötüye kullanılmaması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İspat yükü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İrade özerkliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İyi niyet (Subjektif iyi niyet)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Hakların kazanılmasında geçerli olan ilke 'iyi niyet'tir (subjektif iyi niyet). Bir hakkın kazanılması önündeki engeli bilememek, kişinin iyi niyetli olması demektir."
+        },
+        {
+            "id": 11,
+            "text": "Türk Medeni Kanunu Madde 2'ye göre, herkes sahip olduğu haklarını 'kullanırken' ve borçlarını 'yerine getirirken' aşağıdaki ilkelerden hangisine uymak zorundadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dürüstlük (Objektif iyi niyet)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "İyi niyet (Subjektif iyi niyet)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İspat yükü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nisbilik ilkesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eşitlik ilkesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kişilerin haklarını kullanırken ve borçlarını ifa ederken uymaları gereken, makul ve mantıklı bir insan gibi davranmayı gerektiren kural dürüstlük (objektif iyi niyet) kuralıdır."
+        },
+        {
+            "id": 12,
+            "text": "Bir kimsenin bizzat kendi fiil ve davranışlarıyla kendi lehine haklar edinebilmesi ve kendi aleyhine borçlar yaratabilmesi gücüne ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hak ehliyeti",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Fiil ehliyeti",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Taraf ehliyeti",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dava ehliyeti",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İrade ehliyeti",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hak ehliyeti kişinin pasif olarak haklara sahip olabilmesini ifade ederken, Fiil ehliyeti kendi aktif davranışlarıyla hak kazanabilme ve borç altına girebilme ehliyetidir. Fiil ehliyeti için kişinin ergin olması, ayırt etme gücüne sahip olması ve kısıtlı olmaması gerekir."
+        },
+        {
+            "id": 13,
+            "text": "Kişinin amcası, dayısı, teyzesi ve halası ile olan hısımlığının türü ve derecesi aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "2. derece - Üst soy kan hısımlığı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "2. derece - Yansoy kan hısımlığı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "3. derece - Yansoy kan hısımlığı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "3. derece - Üst soy kan hısımlığı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "4. derece - Yansoy kan hısımlığı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yansoy hısımlığı 2. dereceden (kardeş) başlar. Kardeş 2. derece, kardeşlerin çocukları (yeğenler) ve kişinin ebeveynlerinin kardeşleri olan amca, teyze, dayı ve hala ise 3. derece yansoy kan hısımlarıdır."
+        },
+        {
+            "id": 14,
+            "text": "Gerçek veya tüzel en az 7 kişinin, kazanç paylaşma amacı gütmeden, ortak bir amacı gerçekleştirmek üzere bilgi ve çalışmalarını birleştirerek oluşturdukları 'kişi topluluğu' niteliğindeki özel hukuk tüzel kişisi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Vakıf",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anonim Şirket",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kooperatif",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dernek",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sendika",
+                    "correct": false
+                }
+            ],
+            "explanation": "Vakıflar mal topluluğu iken, dernekler kişi topluluğudur ve en az 7 gerçek veya tüzel kişinin bir araya gelmesiyle kar amacı (kazanç paylaşma amacı) gütmeden kurulurlar."
+        },
+        {
+            "id": 15,
+            "text": "Hukuk kuralları, kamu hukuku ve özel hukuk olarak iki ana dala ayrılmaktadır. Özel hukukta taraflar arasında eşitlik vardır ve devlet üstün konumda değildir. Buna göre aşağıdakilerden hangisi 'özel hukuk' dallarından biridir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ceza Hukuku",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Vergi Hukuku",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İdare Hukuku",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İcra ve İflas Hukuku",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Medeni Hukuk",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ceza, Vergi, İdare ve İcra Hukuku gibi dallar kamu gücünün ve üstünlüğünün bulunduğu kamu hukuku dallarıdır. Medeni Hukuk (Kişiler, Aile, Eşya, Miras bölümleri dahil) ve Borçlar Hukuku tarafların eşit olduğu özel hukuk dallarıdır."
+        },
+        {
+            "id": 16,
+            "text": "Bir sözleşmede taraflar 'ay başı' ifadesini kullanmış ancak bunun ayın hangi günü olduğunu sözleşmede açıkça belirtmemişlerdir. Kanunun bu ifadeyi 'ayın 1. günü' olarak açıklaması, aşağıdaki hukuk kuralı türlerinden hangisine bir örnektir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yorumlayıcı hukuk kuralı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Emredici hukuk kuralı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tamamlayıcı hukuk kuralı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tanımlayıcı hukuk kuralı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yetki verici hukuk kuralı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sözleşmede yer alan ancak taraflarca farklı anlaşılabilecek birden çok anlama gelen bir kavramın (ay başı, ay ortası vb.) kanun koyucu tarafından açıklığa kavuşturulduğu kurallara yorumlayıcı hukuk kuralları denir."
+        },
+        {
+            "id": 17,
+            "text": "Türk Medeni Kanunu'na göre, bir kimsenin 'sürekli kalma niyetiyle oturduğu yer' hukuken aşağıdakilerden hangisi ile ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mesken",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yerleşim yeri (İkametgah)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Karargah",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tesis",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Misafirhane",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kişilerin okul, askerlik veya hastane gibi geçici nedenler haricinde sürekli kalma niyetiyle oturdukları, hukuki işlemlerinde esas alınan yer hukuken 'yerleşim yeri' veya diğer adıyla ikametgah olarak adlandırılır. Bir kişinin kural olarak tek bir yerleşim yeri olabilir."
+        },
+        {
+            "id": 18,
+            "text": "Suç ve cezalara ilişkin anayasal ilkeler dikkate alındığında, aşağıda verilen ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Suçluluğu mahkeme kararıyla saptanana kadar kimse suçlu sayılamaz (Masumiyet Karinesi).",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hiç kimse, kendisini ve kanunda gösterilen yakınlarını suçlayan bir beyanda bulunmaya zorlanamaz.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İdare, kişinin özgürlüğünü kısıtlayıcı hürriyeti bağlayıcı ceza veya yaptırım uygulayabilir.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Ölüm cezası ve genel müsadere cezası verilemez.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ceza sorumluluğu şahsidir, kimse başkasının fiilinden sorumlu tutulamaz.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anayasamıza göre hürriyeti bağlayıcı (örneğin hapis) müeyyideleri yalnızca yetkili ve bağımsız mahkemeler (hakim) uygulayabilir. İdare, idari para cezası kesebilir ancak kişiyi özgürlüğünden mahrum bırakacak (hapse atacak) bir ceza veremez."
+        },
+        {
+            "id": 19,
+            "text": "Hukuk sistemimize göre bir insanda gerçek kişilik hukuken hangi anda tam olarak başlamış kabul edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çocuğun ana rahmine düştüğü an",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bireyin ergin (reşit) olduğu an",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çocuğun nüfus kütüğüne kaydedildiği an",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çocuğun tam ve sağ olarak doğduğu an",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Çocuğun cinsiyetinin belli olduğu an",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türk Medeni Kanunu'na göre hak ehliyeti ana rahmine düşmekle şarta bağlı başlasa da, gerçek kişilik çocuğun anadan tamamen ayrılıp dış dünyaya 'tam ve sağ' olarak doğduğu anda başlar."
+        },
+        {
+            "id": 20,
+            "text": "Vadesi geldiği halde borcunu rızasıyla yerine getirmeyen bir borçlunun, alacaklının talebi üzerine devlet (icra daireleri vb.) zorlamasıyla borcunu ödemeye mecbur bırakılmasına hukuken ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hükümsüzlük",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İptal",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ceza",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tazminat",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cebri icra",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kişilerin kendi hakkını kuvvet kullanarak alması (ihkak-ı hak) yasaktır. Borcunu ödemeyen kişinin borcunu yerine getirmesi devletin zorlayıcı gücü olan icra daireleri vasıtasıyla sağlanır; buna cebri icra (zorla yerine getirme) denir."
+        }
+    ]
+}

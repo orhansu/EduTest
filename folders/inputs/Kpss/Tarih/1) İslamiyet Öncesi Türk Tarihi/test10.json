@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e9c4f52b-8a3f-49e2-c654-d02f1b84c333",
+        "title": "test10",
+        "subject": "test10",
+        "topic": "İslamiyet Öncesi Türk Tarihi",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-25"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tTürk adının anlamı tarih boyunca farklı kaynaklarda ve bilim insanları tarafından farklı şekillerde yorumlanmıştır. Örneğin Çin kaynakları \"miğfer\", Kaşgarlı Mahmut ise \"olgunluk çağı\" olarak tanımlamıştır.\n\nBuna göre, ünlü sosyolog Ziya Gökalp'e göre 'Türk' adının anlamı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Töremek",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Güçlü",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Güzel insan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kanun nizam sahibi, töreli",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Devlete bağlı halk",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ziya Gökalp, Türk kelimesini kanun ve nizam sahibi, töreli olarak tanımlamıştır."
+        },
+        {
+            "id": 2,
+            "text": "\tOrta Asya'da kurulan Türk devletleri arasında siyasi bir teşekkül olarak \"Türk\" adını kullanan ilk devlet tarihte önemli bir yere sahiptir.\n\nBuna göre, doğrudan 'Türk' adını siyasi bir isim olarak kullanarak kurulan ilk devlet aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Asya Hun Devleti",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Göktürkler",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Uygurlar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İskitler",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Avarlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tarihte \"Türk\" adını resmi bir devlet adı olarak ilk defa Göktürkler (Kök Türkler) kullanmıştır."
+        },
+        {
+            "id": 3,
+            "text": "\tÇin imparatoruna gönderdiği mektupta Orta Asya'da 26 kavmi birleştirdiğini belirten ve komşularının toprak taleplerine karşı \"Toprak milletindir, verilemez.\" sözüyle cevap veren ünlü bir Türk hükümdarı bulunmaktadır.\n\nTürk tarihinde 'vatan sevgisinden' ilk kez bahseden ve onlu ordu sistemini kuran Asya Hun Devleti hükümdarı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mete Han",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Teoman",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kiok",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Çiçi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bumin Kağan",
+                    "correct": false
+                }
+            ],
+            "explanation": "Vatan sevgisinden bahseden, toprağın millete ait olduğunu vurgulayan ve onlu askeri sistemi kuran ilk Türk hükümdarı Mete Han'dır."
+        },
+        {
+            "id": 4,
+            "text": "\tOrta Asya'da yapılan arkeolojik kazılar sonucunda Türklere ve çevre kültürlere ait çeşitli merkezler ortaya çıkarılmıştır. Bu merkezler bölgenin tarihini aydınlatmada büyük öneme sahiptir.\n\nBu kültür merkezlerinden hangisi Orta Asya'da 'ilk demirin işlendiği' ve demir madeninin ilk kez kullanıldığı bölge olarak kabul edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Anav",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Afanasyevo",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Karasuk",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Tagar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kelteminar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Orta Asya'daki kültür merkezleri arasında ilk defa demirin işlendiği kültür bölgesi Karasuk'tur."
+        },
+        {
+            "id": 5,
+            "text": "\tAvrupa Hun Devleti hükümdarları, Roma İmparatorluğu'na karşı üstünlüklerini sadece askerî alanda değil, diplomatik ve psikolojik alanda da güçlü hissettirmişlerdir.\n\nDoğu Roma (Bizans) Trakya valisine, \"İstersem güneşin doğduğu yerden battığı yere kadar her yeri zapt edebilirim.\" diyerek 'Türk Cihan Hakimiyeti' ülküsünü vurgulayan Avrupa Hun hükümdarı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Attila",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Rua",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Balamir",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dengizik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uldız",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bu iddialı ve tehditkâr söz, Avrupa Hunları döneminde Uldız tarafından söylenmiş ve gücünü Bizans'a kabul ettirmiştir."
+        },
+        {
+            "id": 6,
+            "text": "\tÇin kaynaklarında \"Juan Juanlar\", Göktürk kitabelerinde ise \"Aparlar\" olarak adlandırılan bu devlet, hem Orta Asya'da hem de Avrupa'da kurulma başarısı göstermiştir.\n\nTarihte Sasanilerle iş birliği yaparak 'İstanbul'u kuşatan ilk Türk devleti' olma özelliğini taşıyan bu devlet aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Peçenekler",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Avarlar",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Bulgarlar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Macarlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Avrupa Hunları",
+                    "correct": false
+                }
+            ],
+            "explanation": "Avrupa'ya üzengiyi taşıyan ve Sasanilerle birlikte İstanbul'u iki kez üst üste kuşatan ilk Türk devleti Avarlardır."
+        },
+        {
+            "id": 7,
+            "text": "\tUygurlar, diğer Türk boylarına göre kültürel ve sosyal alanda oldukça farklılaşmış bir yaşam tarzı benimsemişlerdir. Bögü Kağan döneminde Çin seferi sonrasında kabul edilen yeni bir din, et yemeyi ve savaşmayı yasaklamıştır.\n\nUygurların yerleşik hayata geçmesinde ve mimaride gelişmesinde doğrudan etkili olan bu din aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Budizm",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Şamanizm",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hristiyanlık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Maniheizm",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Musevilik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uygurların Bögü Kağan döneminde benimsediği, hayvansal gıdaları tüketmeyi ve savaşı yasaklayarak tarıma ve yerleşik yaşama yönelten din Maniheizm'dir."
+        },
+        {
+            "id": 8,
+            "text": "\tKafkasya ve Karadeniz'in kuzeyinde Kürk Yolu ticareti sayesinde büyük bir zenginliğe ulaşan bu devlet, sınırları içerisinde farklı inançlara mensup davalara bakmak için 7 kişilik bir \"Hakimler Heyeti\" kurarak 'Barış Çağı' yaşatmıştır.\n\nOrdusunda ücretli asker bulunduran ve Museviliği resmi din olarak kabul eden ilk ve tek Türk devleti aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hazarlar",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Türgişler",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Karluklar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İtil Bulgarları",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uzlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Museviliği benimseyen, Hazar Barış Çağı'nı (Pax Khazarica) yaşatan ve ordusunda ücretli asker bulunduran tek Türk devleti Hazarlardır."
+        },
+        {
+            "id": 9,
+            "text": "\tOrta Asya'da Emevilerin ilerleyişini durduran Türk devletlerinden biri, dönemin güçlü İslam ordularına karşı büyük direniş göstermiş ve bölgenin İslamlaşmasını bir süreliğine engellemiştir.\n\nEmeviler ile mücadele eden ve Türk tarihinde Baga Tarkan döneminde 'kendi adına ilk defa madeni para bastıran' Türk devleti aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hazarlar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Karluklar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Türgişler",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Uygurlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kırgızlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türgişlerin hakanı Baga Tarkan, kendi adına ilk defa madeni para bastıran Türk hükümdarıdır."
+        },
+        {
+            "id": 10,
+            "text": "\t751 yılındaki Talas Savaşı, Türk-İslam ve dünya tarihi açısından büyük bir kırılma noktası olarak kabul edilir. Bu savaşta Müslüman Araplar ile Çinliler Orta Asya hakimiyeti için karşı karşıya gelmiştir.\n\nSavaş sırasında Çinlilere karşı Abbasilerin yanında yer alarak savaşın seyrini değiştiren ve kitleler halinde İslamiyet'i kabul eden 'ilk Türk boyu' aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kıpçaklar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Peçenekler",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uzlar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Macarlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Karluklar",
+                    "correct": true
+                }
+            ],
+            "explanation": "Talas Savaşı'nda Çin'e karşı Abbasileri destekleyerek Orta Asya'nın Çinlileşmesini engelleyen ve İslamiyet'i kabul eden ilk Türk boyu Karluklardır."
+        },
+        {
+            "id": 11,
+            "text": "\tOrta Çağ İslam dünyasının ünlü seyyahı İbn Fadlan, Abbasiler tarafından gönderilen bir elçilik heyetinde yer almış ve bu seyahatini \"Rihle\" (Seyahatname) adlı eserinde anlatmıştır.\n\nİbn Fadlan'ın bahsettiği, Almış Han döneminde kitleler halinde İslamiyet'i kabul ederek 'Doğu Avrupa'da kurulan ilk Müslüman Türk devleti' unvanını alan devlet aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Karahanlılar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tuna Bulgarları",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Türgişler",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İtil (Volga) Bulgarları",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Macarlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Doğu Avrupa'da kurulan ve Almış Han döneminde İslamiyet'i resmen kabul ederek bölgede İslam'ın ilk temsilcisi olan devlet İtil Bulgarlarıdır."
+        },
+        {
+            "id": 12,
+            "text": "\tBoy halinde yaşadıkları için teşkilatlı bir devlet kuramayan ancak askerî yetenekleri sayesinde farklı devletlerin ordularında ücretli olarak görev yapan Türk toplulukları bulunmaktadır.\n\nBizans ordusunda ücretli askerlik yaparken 1071 Malazgirt Savaşı'nda saf değiştirerek Büyük Selçuklu ordusunun tarafına geçen ve savaşın kazanılmasında önemli rol oynayan Türk boyu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Macarlar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hazarlar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Peçenekler",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Türgişler",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Avarlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "1071 Malazgirt Savaşı sırasında Bizans saflarında ücretli askerken taraf değiştirerek Büyük Selçuklu ordusuna katılan ve savaşın kazanılmasında etkili olan boy Peçeneklerdir."
+        },
+        {
+            "id": 13,
+            "text": "\tEski Türklerde toplumu oluşturan ve en küçük yapı biriminden devlete kadar uzanan hiyerarşik bir sosyal yapı mevcuttu. Bu düzen göçebe yaşamda dahi toplumsal disiplini sağlayan en büyük unsurdu.\n\nBuna göre İslamiyet öncesi Türk toplum yapısının 'küçükten büyüğe (alttan üste)' doğru sıralanışı aşağıdakilerden hangisinde doğru olarak verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Boy - Uruk - Oguş - İl - Budun",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Oguş - Uruk - Boy - Budun - İl",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Uruk - Oguş - Boy - Budun - İl",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Oguş - Boy - Uruk - Budun - İl",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Budun - Boy - İl - Oguş - Uruk",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türk toplumsal yapısının hiyerarşik sıralaması alttan üste doğru sırasıyla; Oguş (Aile), Uruk (Sülale), Boy (Soy), Budun (Millet) ve İl (Devlet) şeklindedir."
+        },
+        {
+            "id": 14,
+            "text": "\tİslamiyet öncesi Türk devletlerini oluşturan dört temel unsur bulunmaktadır. Bunlar halk, vatan (ülke), teşkilat ve siyasi bağımsızlıktır.\n\nEski Türk devlet geleneğinde 'bağımsızlık' anlamına gelen ve hiçbir milletin boyunduruğu altına girmemeyi ifade eden kavram aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Oksızlık",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kün",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tüz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ülüş",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yarlık",
+                    "correct": false
+                }
+            ],
+            "explanation": "İslam öncesi Türklerde devleti oluşturan unsurlardan biri olan Oksızlık, hiçbir millete boyun eğmemeyi, yani 'bağımsızlığı (istiklali)' ifade eder."
+        },
+        {
+            "id": 15,
+            "text": "\tİslamiyet öncesi Türk devlet teşkilatında, devlet yönetiminin merkezinde yer alan karar alma mekanizması Kurultay (Toy) meclisiydi. Bunun dışında, alınan kararları uygulamakla yükümlü ayrı bir yürütme organı bulunurdu.\n\nİlk Türk devletlerinde hükümeti temsil eden ve günümüzdeki anlamıyla 'yürütme organı' olarak işlev gören kuruma ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aygucı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Toygun",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yargu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tudun",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ayuki",
+                    "correct": true
+                }
+            ],
+            "explanation": "Eski Türk devletlerinde yürütme işlevini gören hükümete 'Ayuki', bu hükümetin başında bulunan vezire ise 'Aygucı' (veya Üge) denilirdi."
+        },
+        {
+            "id": 16,
+            "text": "\tİslamiyet öncesi Türk topluluklarında ölümden sonraki yaşama (ahiret) inancının var olduğunu gösteren birçok uygulama mevcuttur. Mezar yapıları, ölüyle gömülen eşyalar ve mezar taşları bu inancın bazı kanıtlarıdır.\n\nAşağıdakilerden hangisi eski Türklerde 'ölümden sonra yaşam' inancının varlığını kanıtlayan doğrudan bir gösterge 'değildir'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kurgan adı verilen oda şeklinde mezarlar yapılması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mezarların başına balbal denilen taşların dikilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ölülerin sevdikleri eşyalarla birlikte gömülmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cenaze törenlerinde 'yuğ' adı verilen ağıtların yakılması",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Uçmağ (Cennet) ve Tamu (Cehennem) inancının olması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yuğ törenleri yalnızca ölen kişinin ardından düzenlenen ağıt ve yas merasimidir; bu doğrudan ahiret inancını (ölümden sonraki hayatı) kanıtlayan somut bir nesne/öge değildir."
+        },
+        {
+            "id": 17,
+            "text": "\tBozkır hayatının gereği olarak her an savaşa hazır durumda olan Türk ordusu, sadece savaş esnasında değil, muharebe öncesinde de istihbarat faaliyetlerine büyük önem vermiştir.\n\nİslamiyet öncesi Türk ordularında, savaş öncesinde düşmanın durumunu, askerî gücünü ve zaaflarını öğrenmek amacıyla önden gönderilen 'keşif (istihbarat) birliğine' ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yelme",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sübaşı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tarkan",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Toygun",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Böri",
+                    "correct": false
+                }
+            ],
+            "explanation": "İslamiyet öncesinde düşmanın durumunu ve stratejisini önceden keşfetmek için önden gönderilen istihbarat (öncü) birliklerine 'Yelme' denirdi."
+        },
+        {
+            "id": 18,
+            "text": "\tTürk tarihinin ve edebiyatının bilinen en eski ve en önemli yazılı edebi eserleri, bugün Moğolistan sınırları içerisinde yer almaktadır. Bu kitabeler Bilge Kağan, Kültigin ve Vezir Tonyukuk adına dikilmiştir.\n\nTürk tarihinin ilk siyasetnamesi sayılan 'Orhun Abideleri' aşağıdaki Türk devletlerinden hangisinin dönemine aittir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Göktürk Devleti",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Uygurlar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "II. Göktürk (Kutluk) Devleti",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Asya Hun Devleti",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İskitler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türk tarihinin ilk yazılı siyasetnamesi ve edebi metinleri olarak kabul edilen Orhun Abideleri, İkinci Göktürk (Kutluk) Devleti zamanında dikilmiştir."
+        },
+        {
+            "id": 19,
+            "text": "\tKaradeniz'in kuzeyinde hakimiyet kurarak Altın Orda Devleti'nin Türkleşmesinde etkili olmuşlar, Rusların İgor Destanı'na ve Oğuzların Dede Korkut Hikayelerine konu olmuşlardır.\n\nSözlüğü \"Codex Cumanicus\" olarak bilinen ve bozkırın sarışın savaşçıları olarak anılan bu Türk topluluğu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Macarlar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hazarlar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Peçenekler",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Uzlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kıpçaklar (Kumanlar)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Sarı saçlı, renkli gözlü olarak da bilinen ve ünlü Codex Cumanicus adlı sözlüğü hazırlayan Türk topluluğu Kıpçaklar (Kumanlar)'dır."
+        },
+        {
+            "id": 20,
+            "text": "\tİslamiyet öncesi Türklerde sözlü hukuk kuralları olan törenin yanı sıra, toplumsal barışı sağlayan ve devletin yapısını güçlendiren birtakım bağlar bulunurdu.\n\nEski Türk devlet teşkilatında, devlet (Hakan) ile halk arasındaki karşılıklı görev ve sorumlulukları belirleyen 'yazısız sözleşmeye' ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yarlıg",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tüz",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Könilik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ülüş",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Oksızlık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Devlet ile halkın birbirine karşı görevlerini düzenleyen yazısız toplumsal sözleşmeye 'Tüz' denirdi. Töre ise genel yazısız hukuk kurallarıdır."
+        }
+    ]
+}

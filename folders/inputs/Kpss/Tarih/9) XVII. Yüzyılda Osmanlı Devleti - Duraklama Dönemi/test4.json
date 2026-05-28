@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "f5e9d2c1-8b7a-4c6d-a3e4-b1c2d3e4f5a6",
+        "title": "test 4",
+        "subject": "test 4",
+        "topic": "XVII. Yüzyılda Osmanlı Devleti - Duraklama Dönemi",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-28"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tOsmanlı Devleti, 17. yüzyılda iç ve dış nedenlerin etkisiyle 'bozulma ve yozlaşma' olarak adlandırılan bir döneme girmiştir.\n\n---\n\nBuna göre, aşağıdakilerden hangisi Osmanlı Devleti'nin Duraklama Dönemi'ne girmesinde etkili olan dış nedenlerden biridir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sık padişah değişiklikleri",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Beşik ulemalığı sisteminin yaygınlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Coğrafi Keşifler ve Avrupa'daki bilimsel gelişmeler",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Tımar sisteminin bozulması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yeniçeri Ocağı'nın disiplinini kaybetmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Avrupa'da yaşanan Coğrafi Keşifler, Rönesans ve Reform hareketleri Osmanlı'nın duraklamasına etki eden dış faktörlerdir. Diğerleri iç faktörlerdir."
+        },
+        {
+            "id": 2,
+            "text": "\t17. yüzyılda Osmanlı ordusunun çekirdeğini oluşturan Kapıkulu Ocağı'nda disiplinsizlik baş göstermiş ve askerlerin devlete bakış açısı değişmiştir.\n\n---\n\nBu dönemde Yeniçeriler arasında yaygınlaşan ve merkezi otoritenin zayıflamasına neden olan yeni anlayış aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "'Ocak devlet içindir' anlayışı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "'Devlet ocak içindir' anlayışı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Nizam-ı Cedid sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Eşkinci Ocağı düzeni",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Devşirme sistemine bağlılık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Duraklama Dönemi'nde 'Ocak, devlet içindir' anlayışı terk edilerek yerine 'Devlet, ocak içindir' anlayışı benimsenmiş, bu da isyanların artmasına ve disiplinin kaybolmasına yol açmıştır."
+        },
+        {
+            "id": 3,
+            "text": "\tOsmanlı Devleti'nde taht kavgalarını önlemek amacıyla veraset sisteminde bazı değişiklikler yapılmıştır.\n\n---\n\n17. yüzyılda Osmanlı hanedanının en yaşlı ve aklı başında üyesinin tahta geçmesi kuralını (Ekber ve Erşed) getirerek sancağa çıkma usulünü fiilen kaldıran padişah aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Ahmet",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "II. Osman",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "IV. Murat",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IV. Mehmet",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "I. Mustafa",
+                    "correct": false
+                }
+            ],
+            "explanation": "I. Ahmet, kardeş katlini önlemek ve taht kavgalarına son vermek için 'Ekber ve Erşed' sistemini getirmiş ve kafes usulünü başlatmıştır."
+        },
+        {
+            "id": 4,
+            "text": "\tAvrupa devletleriyle imzalanan antlaşmalar, Osmanlı Devleti'nin gücünü ve uluslararası alandaki konumunu yansıtan önemli belgelerdir.\n\n---\n\nOsmanlı padişahının protokolde Avusturya Arşidükü'ne denk sayıldığı ve 1533'te elde edilen siyasi üstünlüğün kaybedildiği 1606 tarihli antlaşma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bucaş Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Karlofça Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Vasvar Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ferhat Paşa Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Zitvatorok Antlaşması",
+                    "correct": true
+                }
+            ],
+            "explanation": "1606 Zitvatorok Antlaşması ile Osmanlı padişahı (Kayser unvanıyla) Avusturya Kralı'na denk sayılmış ve Osmanlı'nın siyasi üstünlüğü sona ermiştir."
+        },
+        {
+            "id": 5,
+            "text": "\tGenç Osman (II. Osman), Osmanlı tarihinde yenilikçi fikirleriyle öne çıkan padişahlardan biridir. Ancak ordudaki bazı bozuklukları düzeltme çabası onun hayatına mal olmuştur.\n\n---\n\nII. Osman'ın Yeniçerilerin isteksizliğini bizzat görerek Yeniçeri Ocağı'nı kaldırmayı ilk defa düşündüğü askeri sefer aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çaldıran Seferi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Haçova Meydan Muharebesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bağdat Seferi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hotin Seferi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Prut Seferi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Lehistan üzerine düzenlenen Hotin Seferi sırasında Yeniçerilerin disiplinsizliğini gören II. Osman, bu ocağı kaldırmayı planlamış ancak yeniçeriler tarafından tahttan indirilip katledilmiştir."
+        },
+        {
+            "id": 6,
+            "text": "\t17. yüzyılda İstanbul'da çıkan büyük yangınların ardından devlet otoritesini yeniden sağlamak isteyen bir padişah oldukça sert tedbirlere başvurmuştur.\n\n---\n\nAlkol, tütün, kahvehaneler ve geceleri sokağa çıkma yasaklarını uygulayarak asayişi sağlayan Osmanlı padişahı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Ahmet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "IV. Murat",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "II. Osman",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IV. Mehmet",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "III. Selim",
+                    "correct": false
+                }
+            ],
+            "explanation": "IV. Murat, İstanbul yangınlarının önüne geçmek ve merkezi otoriteyi tesis etmek için tütün, içki, kahvehane ve gece sokağa çıkma yasağı uygulamıştır."
+        },
+        {
+            "id": 7,
+            "text": "\tOsmanlı Devleti'nde 17. yüzyılda devletin kötü gidişatının nedenlerini araştırmak ve kalıcı çözümler bulmak amacıyla padişahlara çeşitli raporlar (risaleler/layihalar) sunulmuştur.\n\n---\n\nÖzellikle IV. Murat'a sunduğu risalesinde devletin gerileme sebeplerini tımar sisteminin ve ordunun bozulmasına bağlayan, dönemin ünlü devlet adamı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Katip Çelebi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Evliya Çelebi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Naima Efendi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tarhuncu Ahmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Koçi Bey",
+                    "correct": true
+                }
+            ],
+            "explanation": "Koçi Bey, devletin bozulan kurumlarını araştırarak padişaha 'Koçi Bey Risalesi' (Layiha) adıyla bir rapor sunmuştur."
+        },
+        {
+            "id": 8,
+            "text": "\t17. yüzyılda Osmanlı Devleti'nde mali durum oldukça bozulmuş ve bütçe açıkları artmıştır.\n\n---\n\nDevletin gelir ve giderlerini önceden hesaplayarak Osmanlı tarihindeki ilk modern ve denk bütçeyi hazırlayan devlet adamı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tarhuncu Ahmet Paşa",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Köprülü Mehmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kuyucu Murat Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sokullu Mehmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Merzifonlu Kara Mustafa Paşa",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tarhuncu Ahmet Paşa, saray masraflarını kısarak ve gelirleri hesaplayarak Osmanlı tarihindeki ilk modern ve denk bütçeyi hazırlamıştır."
+        },
+        {
+            "id": 9,
+            "text": "\t17. yüzyılın ortalarında Osmanlı Devleti'nde sadrazamlık makamına getirilecek kişiler saray entrikalarından çekinmekteydi.\n\n---\n\nBu dönemde yapacağı icraatlarda serbest kalabilmek için saraya bazı şartlar öne sürerek sadrazamlığı kabul eden devlet adamı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Merzifonlu Kara Mustafa Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Köprülü Fazıl Ahmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tarhuncu Ahmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Köprülü Mehmet Paşa",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kuyucu Murat Paşa",
+                    "correct": false
+                }
+            ],
+            "explanation": "Köprülü Mehmet Paşa, sarayın devlet işlerine karışmaması ve hakkında şikayet olursa önce kendisinin dinlenmesi gibi şartlar öne sürerek sadrazamlığı kabul etmiştir."
+        },
+        {
+            "id": 10,
+            "text": "\t17. yüzyılda Anadolu'da artan vergiler ve tımar sisteminin bozulması üzerine halk ile devlet karşı karşıya gelmiş, kırsalda güvenlik kalmamıştır.\n\n---\n\nAnadolu'da çıkan Celali İsyanları nedeniyle can ve mal güvenliği kalmayan köylülerin tarlalarını terk ederek şehirlere veya dağlara göç etmesi olayına tarihte ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Büyük Kaçkun",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Müsadere",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sürgün",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İskan",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Çiftbozan",
+                    "correct": false
+                }
+            ],
+            "explanation": "Celali İsyanları'nın etkisiyle 1603-1610 yılları arasında köylülerin tarlalarını bırakıp güvenli bölgelere göç etmesine tarihte 'Büyük Kaçkun' denir."
+        },
+        {
+            "id": 11,
+            "text": "\tOsmanlı Devleti, 17. yüzyılda doğuda ve batıda sınırlarını genişletmeye devam etmiştir.\n\n---\n\n1672 yılında Lehistan ile imzalanan, Podolya arazisinin Osmanlı'ya geçtiği ve Osmanlı Devleti'nin 'Batı'da en geniş sınırlara' ulaştığı antlaşma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bucaş Antlaşması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Vasvar Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ferhat Paşa Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Karlofça Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Zitvatorok Antlaşması",
+                    "correct": false
+                }
+            ],
+            "explanation": "1672 Bucaş Antlaşması ile Lehistan'dan Podolya bölgesi alınmış ve Osmanlı Devleti batıda ulaşabileceği en geniş sınırlara ulaşmıştır."
+        },
+        {
+            "id": 12,
+            "text": "\tOsmanlı Devleti ile Safeviler (İran) arasında 17. yüzyılda yaşanan uzun savaşlar, kalıcı bir sınırın belirlenmesiyle sonuçlanmıştır.\n\n---\n\nIV. Murat'ın Bağdat Seferi sonucunda 1639'da imzalanan ve günümüz 'Türkiye-İran sınırını' büyük ölçüde belirleyen antlaşma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Amasya Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kasr-ı Şirin Antlaşması",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Serav Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nasuh Paşa Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ferhat Paşa Antlaşması",
+                    "correct": false
+                }
+            ],
+            "explanation": "1639 tarihli Kasr-ı Şirin Antlaşması ile Zagros Dağları sınır kabul edilmiş ve bugünkü Türkiye-İran sınırının temelleri atılmıştır."
+        },
+        {
+            "id": 13,
+            "text": "\tOsmanlı Devleti'nin 17. yüzyılda siyasi ve askeri ilişkiler kurduğu devletlerden biri de Rusya'dır.\n\n---\n\n1681 yılında imzalanan ve Osmanlı Devleti ile Rusya arasındaki 'ilk resmi antlaşma' olma özelliğini taşıyan bu belge aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Prut Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Küçük Kaynarca Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bahçesaray (Çehrin) Antlaşması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yaş Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İstanbul Antlaşması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı Devleti ile Çarlık Rusya arasında imzalanan ilk resmi antlaşma 1681 tarihli Bahçesaray (Çehrin) Antlaşması'dır."
+        },
+        {
+            "id": 14,
+            "text": "\tOsmanlı Devleti, 17. yüzyılda Akdeniz'deki üstünlüğünü korumak ve korsanlık faaliyetlerini engellemek için önemli bir adayı uzun süre kuşatmıştır.\n\n---\n\nVenediklilerin elinde bulunan ve donanmanın zayıflaması sebebiyle ancak 24 yıllık bir kuşatmanın (1645-1669) ardından fethedilebilen ada aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kıbrıs",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Rodos",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Malta",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Girit",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sakız",
+                    "correct": false
+                }
+            ],
+            "explanation": "1645 yılında kuşatılmaya başlanan Girit Adası, Köprülü Fazıl Ahmet Paşa döneminde tam 24 yıl sonra (1669) Venediklilerden alınabilmiştir."
+        },
+        {
+            "id": 15,
+            "text": "\tIV. Mehmet döneminde yeniçeriler ve sipahiler isyan ederek, maaşların düşük ayarlı akçeyle ödenmesinden sorumlu tuttukları devlet adamlarının kendilerine teslim edilmesini istemiştir.\n\n---\n\nİsyancıların talebi üzerine 30'a yakın devlet adamının Sultanahmet Meydanı'ndaki çınar ağaçlarına asılarak idam edilmesiyle sonuçlanan olaya tarihte ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Vaka-i Hayriye",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Edirne Vakası",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kuleli Vakası",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Patrona Halil İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Vaka-i Vakvakiye (Çınar Olayı)",
+                    "correct": true
+                }
+            ],
+            "explanation": "IV. Mehmet döneminde (1656) yeniçerilerin isyanıyla devlet adamlarının çınar ağaçlarına asıldığı olaya Vaka-i Vakvakiye (Çınar Olayı) denir."
+        },
+        {
+            "id": 16,
+            "text": "\t1683 yılındaki II. Viyana Kuşatması'nın başarısızlıkla sonuçlanmasının ardından Avrupa devletleri Osmanlı'ya karşı 'Kutsal İttifak'ı kurarak saldırıya geçmiştir.\n\n---\n\n16 yıl süren savaşların ardından Osmanlı Devleti'nin Batı'da ilk kez büyük çapta toprak kaybettiği ve Gerileme Dönemi'nin başlamasına neden olan 1699 tarihli antlaşma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Pasarofça Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Belgrad Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Karlofça Antlaşması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Küçük Kaynarca Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İstanbul Antlaşması",
+                    "correct": false
+                }
+            ],
+            "explanation": "1699 Karlofça Antlaşması, Osmanlı Devleti'nin Batı'da geniş çaplı toprak kaybettiği ilk büyük antlaşmadır ve Duraklama Dönemi'ni bitirip Gerileme Dönemi'ni başlatmıştır."
+        },
+        {
+            "id": 17,
+            "text": "\t1683 yılındaki II. Viyana Kuşatması'nda Osmanlı ordusunu komuta eden ve kuşatmanın başarısızlıkla sonuçlanmasının ardından Belgrad'da idam edilen sadrazam aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tarhuncu Ahmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Merzifonlu Kara Mustafa Paşa",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Baltacı Mehmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Köprülü Fazıl Ahmet Paşa",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sokullu Mehmet Paşa",
+                    "correct": false
+                }
+            ],
+            "explanation": "1683 II. Viyana Kuşatması'nda başarısız olduğu için Merzifonlu Kara Mustafa Paşa idam edilmiştir."
+        },
+        {
+            "id": 18,
+            "text": "\t17. yüzyılda Osmanlı eğitim sistemi liyakatten uzaklaşarak yozlaşmış ve pozitif bilimler medreselerden dışlanmıştır.\n\n---\n\nBu dönemde medreselerde eğitimin kalitesinin düşmesine neden olan ve ulema çocuklarına küçük yaşta müderrislik unvanı verilmesini sağlayan sisteme ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İltizam Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Müsadere Usulü",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kafes Usulü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Malikane Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Beşik Ulemalığı",
+                    "correct": true
+                }
+            ],
+            "explanation": "17. yüzyılda 'alimin oğlu alimdir' anlayışıyla küçük yaştaki çocuklara müderrislik verilmesi 'Beşik Ulemalığı' olarak adlandırılmış ve eğitim sistemini bozmuştur."
+        },
+        {
+            "id": 19,
+            "text": "\tOsmanlı Devleti'nde padişah değişiklikleri ve tahta çıkma yaşları zaman zaman devlet idaresini zorlamıştır.\n\n---\n\nOsmanlı tarihinde henüz 6 yaşındayken tahta çıkan ve 'en küçük yaşta tahta geçen padişah' unvanını taşıyan, bu nedenle devlet yönetiminde saray kadınlarının (Turhan Sultan vb.) etkili olduğu padişah aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "I. Ahmet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "II. Osman",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "I. Mustafa",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "IV. Mehmet",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "III. Mehmet",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı tarihinde en küçük yaşta (6 yaşında) tahta çıkan padişah IV. Mehmet'tir. Bu dönemde annesi Turhan Sultan ve diğer saray kadınları yönetimde oldukça etkili olmuştur."
+        },
+        {
+            "id": 20,
+            "text": "\t17. yüzyılda maliyenin bozulmasıyla birlikte tımar sistemi işlevini yitirmiş ve devletin nakit para ihtiyacı artmıştır.\n\n---\n\nBu dönemde devletin nakit ihtiyacını karşılamak için tımar topraklarının vergilerinin peşin parayla ve açık artırma yoluyla mültezimlere kiralandığı sistem aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Müsadere",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Beşik Ulemalığı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İltizam Sistemi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Pençik Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Devşirme Sistemi",
+                    "correct": false
+                }
+            ],
+            "explanation": "17. yüzyılda tımar sisteminin bozulmasıyla birlikte devletin nakit paraya ihtiyacı artmış ve vergilerin mültezimlere ihale edildiği iltizam sistemi yaygınlaşmıştır."
+        }
+    ]
+}

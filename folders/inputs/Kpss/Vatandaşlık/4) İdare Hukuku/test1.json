@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e5c7a4b1-8d3e-41f2-b8e7-6a12b4d8c9a3",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "İdare Hukuku",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-25"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Aşağıdakilerden hangisi idare hukukunun genel özelliklerinden biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Genç bir hukuk dalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İçtihatlara dayanan bir hukuk dalıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Statü hukukudur.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İşlemleri kural olarak tek taraflıdır.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tedvin edilmiş (tek bir kanun çatısı altında toplanmış) bir hukuk dalıdır.",
+                    "correct": true
+                }
+            ],
+            "explanation": "İdare hukukunun faaliyet alanı çok geniş olduğu için kuralları tek bir kanun çatısı altında toplamak mümkün olmamıştır. Bu nedenle idare hukuku dağınık bırakılmış, yani tedvin edilmemiş (kanunlaştırılmamış) bir hukuk dalıdır."
+        },
+        {
+            "id": 2,
+            "text": "İdari fonksiyon ile ilgili aşağıda verilen ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Temel amacı kamu yararını sağlamaktır.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Üstün ve ayrıcalıklı yetkilerle donatılmıştır (Kamu gücü kullanır).",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İdari işlem ve eylemlerle yürütülür.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kesintisiz ve sürekli bir devlet fonksiyonudur.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kendiliğinden harekete geçmez, mutlaka bir birey talebi gerekir.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Yasama veya yargı fonksiyonunun aksine idare, harekete geçmek için kural olarak bir talep beklemez. İdari fonksiyon kendiliğinden (re'sen) harekete geçer ve sürekli bir fonksiyondur."
+        },
+        {
+            "id": 3,
+            "text": "İdare hukukunda, idarenin bütünlüğünü sağlamaya yönelik anayasal araçlar aşağıdakilerden hangisinde birlikte verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Merkezden yönetim - Yerinden yönetim",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hiyerarşi - İdari Vesayet",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yetki Genişliği - İdari Vesayet",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kanunsuz Emir - Hiyerarşi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Düzenli İdare - Yetki Paralelliği",
+                    "correct": false
+                }
+            ],
+            "explanation": "1982 Anayasası'na göre idare, görev ve yetkileri bakımından bir bütündür. Bu bütünlüğü sağlayan iki hukuki araç vardır: Aynı tüzel kişilik içindeki bütünlüğü sağlayan Hiyerarşi ve farklı tüzel kişilikler arasındaki bütünlüğü sağlayan İdari Vesayet."
+        },
+        {
+            "id": 4,
+            "text": "Aşağıdaki idari makamlar arasındaki ilişkilerden hangisi idari vesayet denetimine örnektir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cumhurbaşkanı - Bakan",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İçişleri Bakanı - Emniyet Genel Müdürü",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Vali - Kaymakam",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İçişleri Bakanı - Belediye Başkanı",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Belediye Başkanı - Zabıta Müdürü",
+                    "correct": false
+                }
+            ],
+            "explanation": "İdari vesayet, iki farklı tüzel kişilik arasındaki denetimi ifade eder. İçişleri Bakanı (Devlet tüzel kişiliği/Merkezi idare) ile Belediye Başkanı (Belediye tüzel kişiliği/Yerinden yönetim) arasındaki ilişki idari vesayettir. Diğer seçeneklerin tamamı aynı tüzel kişilik (Devlet veya Belediye) içinde yer aldığı için aralarındaki ilişki hiyerarşidir."
+        },
+        {
+            "id": 5,
+            "text": "Merkezden yönetimin sakıncalarını gidermek, bürokrasi ve kırtasiyeciliği azaltmak amacıyla illerin idaresinde yalnızca Valilere tanınan, merkeze danışmadan karar alma ve uygulama yetkisine ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hiyerarşi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İdari Vesayet",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yerinden Yönetim",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yetki Genişliği",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Fonksiyon Gaspı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Genel yönetimin taşradaki en yüksek kamu görevlisi olan valilere, belli durumlarda başkente danışmadan kendiliğinden karar alıp uygulama yetkisi verilmesine yetki genişliği denir. Bu yetki yalnızca illerde vali tarafından kullanılır."
+        },
+        {
+            "id": 6,
+            "text": "Kamu hizmetlerinde görevli bir memurun, üstünden aldığı emri yönetmelik, kararname, kanun veya anayasa hükümlerine aykırı bulması durumunda uygulaması gereken 'kanunsuz emir' kuralı ile ilgili hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Memur, emrin aykırılığını emri verene bildirir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Üst, emrinde ısrar eder ve yazılı olarak yenilerse memur emri yerine getirmek zorundadır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Yazılı olarak yinelenen kanunsuz emri yerine getiren memur sorumlu tutulmaz, sorumluluk emri verene aittir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Konusu suç teşkil eden emir, yazılı olarak yinelense bile hiçbir surette yerine getirilemez.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Konusu suç teşkil eden emri yerine getiren memur, amirinin yazılı talimatı varsa cezai sorumluluktan kurtulur.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Konusu suç teşkil eden emir (ceza kanunlarına aykırı fiil) yazılı ya da sözlü olarak yenilense bile kesinlikle yerine getirilmez. Emri yerine getiren kişi, 'Amirim emretti, yazılı belge verdi' diyerek sorumluluktan kurtulamaz."
+        },
+        {
+            "id": 7,
+            "text": "1982 Anayasası'na göre aşağıdakilerden hangisi mahalli idare (yerel yönetim) kuruluşlarından biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İl Özel İdaresi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Büyükşehir Belediyesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Köy",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mahalle",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "İlçe Belediyesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anayasamıza göre mahalli idareler; İl Özel İdaresi, Belediyeler ve Köyler olmak üzere üç tanedir. Mahallenin tüzel kişiliği bulunmadığı için mahalli idare birimi (yerel yönetim) değildir."
+        },
+        {
+            "id": 8,
+            "text": "1982 Anayasası'na göre, görevleriyle ilgili bir suç sebebiyle haklarında soruşturma veya kovuşturma açılan mahalli idare organlarını veya bu organların üyelerini, geçici bir tedbir olarak kesin hükme kadar görevden uzaklaştırmaya yetkili makam aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Danıştay",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cumhurbaşkanı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İçişleri Bakanı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Vali",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İdare Mahkemesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hakkında soruşturma ya da kovuşturma açılan mahalli idarelerin seçilmiş organlarını (örneğin belediye başkanı, belediye meclis üyesi) kesin hükme kadar geçici olarak görevden uzaklaştırmaya yetkili kişi İçişleri Bakanıdır. Görevine temelli son veren merci ise Danıştay'dır."
+        },
+        {
+            "id": 9,
+            "text": "İl ve ilçe merkezleri dışında kalan bir yerleşim yerinde 'belediye' kurulabilmesi için nüfusun en az kaç olması gerekmektedir ve bu işlem hangi yolla gerçekleştirilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "2.000 - İçişleri Bakanı Kararı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "5.000 - Kanun",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "5.000 - Cumhurbaşkanı Kararı",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "50.000 - Cumhurbaşkanı Kararnamesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "750.000 - Kanun",
+                    "correct": false
+                }
+            ],
+            "explanation": "İl ve ilçe merkezlerinde belediye kurulması zorunludur ve nüfusa bakılmaz. Ancak bunun dışındaki yerleşim yerlerinde belediye (belde) kurulabilmesi için nüfusun en az 5.000 olması gerekir ve bu işlem Cumhurbaşkanı Kararı ile (idari işlemle) gerçekleşir."
+        },
+        {
+            "id": 10,
+            "text": "Büyükşehir belediyeleri ile ilgili aşağıda verilen bilgilerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Toplam nüfusu en az 750.000 olan illerde kurulur.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Büyükşehir belediyeleri idari işlemle değil, kanunla (yasama işlemiyle) kurulur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Büyükşehir belediyesi bulunan illerde İl Özel İdareleri kaldırılmıştır.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Büyükşehir belediyesi sınırları içinde köylerin ve belde belediyelerinin tüzel kişiliği devam eder.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Büyükşehir belediye sınırları, il mülki sınırlarıdır.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Türkiye'de büyükşehir belediyesi olan 30 ilde İl Özel İdareleri tamamen kaldırılmıştır. Ayrıca bu illerde bulunan belde belediyeleri ile köylerin tüzel kişilikleri de kaldırılarak mahalleye dönüştürülmüştür."
+        },
+        {
+            "id": 11,
+            "text": "Köy idaresi ile ilgili aşağıdaki ifadelerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nüfusu 2000'den aşağı olan yurtlara köy denir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yeniden köy kurulması veya adının değiştirilmesi İçişleri Bakanı kararıyla olur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Köy muhtarını ve ihtiyar heyetinin seçimle gelen üyelerini Köy Derneği seçer.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Köy derneği, köyde yaşayan kadın-erkek 18 yaşını doldurmuş tüm seçmenlerden oluşur.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Siyasi partiler köy muhtarlığı ve ihtiyar heyeti seçimlerinde kendi adlarıyla aday gösterebilirler.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Köy muhtarlığı ve ihtiyar heyeti seçimlerinde ya da mahalle muhtarlığı seçimlerinde siyasi partilerin aday göstermesi (parti çatısı altında yarışılması) kanunen mümkün değildir. Seçimler bireysel başvuru ile yapılır."
+        },
+        {
+            "id": 12,
+            "text": "Kamu düzeni bozulmadan önce tehlikeleri önlemek amacıyla faaliyette bulunan ve idari makamların emrinde çalışan kolluğa ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Adli Kolluk",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İdari Kolluk",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Siyasi Kolluk",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Özel Kolluk",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mahalli Kolluk",
+                    "correct": false
+                }
+            ],
+            "explanation": "İdari kolluk, idari makamların emrinde çalışır ve amacı kamu düzeni bozulmadan (olay gerçekleşmeden) önce tehlikeyi önlemektir. Suç işlendikten sonra devreye giren kolluk ise Cumhuriyet savcısının emrindeki adli kolluktur."
+        },
+        {
+            "id": 13,
+            "text": "Sokakların önceleri gaz lambalarıyla aydınlatılırken, teknolojinin gelişmesiyle günümüzde elektrikle aydınlatılması veya okullarda kara tahta yerine akıllı tahta kullanılması, kamu hizmetinin hangi ilkesinin bir sonucudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Süreklilik (Düzenlilik)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bedelsizlik (Meccanilik)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eşitlik (Nesnellik)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Değişkenlik (Uyarlanma)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Tarafsızlık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kamu hizmetinin, insanların değişen ihtiyaçlarına ve gelişen teknolojiye uyumlu olarak şekil değiştirmesi ve yeni şartlara ayak uydurması 'değişkenlik (uyarlanma)' ilkesi ile açıklanır."
+        },
+        {
+            "id": 14,
+            "text": "İdarenin, savaş, seferberlik veya doğal afet gibi olağanüstü durumlarda, gerçek karşılığını ödemek şartıyla özel mülkiyette bulunan 'taşınır' mallara el koymasına idare hukukunda ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kamulaştırma (İstimlak)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Geçici İşgal",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İstimval",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Devletleştirme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Özelleştirme",
+                    "correct": false
+                }
+            ],
+            "explanation": "İdarenin sadece olağanüstü durumlarda başvurduğu ve konusu 'taşınır mallar' (kamyon, kepçe, erzak vb.) olan mal edinme yöntemine istimval adı verilir. Kamulaştırma taşınmazlar için, geçici işgal boş araziler için, devletleştirme ise özel işletmeler için geçerlidir."
+        },
+        {
+            "id": 15,
+            "text": "İdarenin yaptığı kamulaştırma işlemlerinde kural olarak bedel peşin ödenir. Ancak tarım reformu, büyük enerji projeleri gibi kanunda sayılan istisnai durumlarda taksitlendirme yapılabilir. \nAnayasaya göre kamulaştırma bedelinin taksitlendirilmesi durumunda taksitlendirme süresi en fazla kaç yılı geçemez?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "1 yıl",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "3 yıl",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "5 yıl",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "10 yıl",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "15 yıl",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kamulaştırma bedellerinin taksitlendirilmesine gidilmesi durumunda anayasaya göre bu süre 5 yılı geçemez ve taksitler eşit olarak kamu alacaklarına uygulanan en yüksek faiz üzerinden ödenir."
+        },
+        {
+            "id": 16,
+            "text": "İdareye tamamen yabancı olan, hiçbir resmi sıfatı bulunmayan bir kişinin idare adına işlem yapması (örneğin sivil bir vatandaşın polis kıyafeti giyerek trafik cezası kesmesi) durumunda aşağıdaki idari işlem sakatlıklarından hangisi ortaya çıkar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fonksiyon Gaspı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yetki Gaspı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yetki Tecavüzü",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ağır ve Bariz Yetki Tecavüzü",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fiili Yol",
+                    "correct": false
+                }
+            ],
+            "explanation": "İdareye tamamen yabancı olan, kamu görevi niteliği bulunmayan (resmi sıfatı olmayan) birinin idare adına karar alması ve işlem tesis etmesine 'yetki gaspı' denir. Bu işlem hukukta yok hükmündedir."
+        },
+        {
+            "id": 17,
+            "text": "657 sayılı Devlet Memurları Kanunu'na göre, devlet memurluğuna alınacaklarda aranan genel şartlarla ilgili aşağıdakilerden hangisi yanlıştır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kural olarak 18 yaşını tamamlamış olmak gerekir.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Genel olarak en az ortaokul mezunu olmak şarttır.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Taksirli suçlar hariç, kasıtlı bir suçtan dolayı 1 yıl veya daha fazla süreyle hapis cezasına mahkum olmamak gerekir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Askerlik çağına gelmiş ise muvazzaf askerlik hizmetini fiilen yapmış olmak şarttır.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Görevini devamlı yapmasına engel olabilecek akıl hastalığı bulunmamak gerekir.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Devlet memuru olmak için askerlik hizmetini 'fiilen yapmış olmak' şart değildir; askerlikle ilişiği bulunmamak (ertelemiş olmak, askerlik çağına gelmemiş olmak veya muaf olmak) yeterlidir."
+        },
+        {
+            "id": 18,
+            "text": "Devlet memurluğuna aday olarak atanan bir personelin adaylık süresi ile ilgili aşağıda verilen sürelerden hangisi doğrudur?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "En az 6 ay, en çok 1 yıl",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "En az 1 yıl, en çok 2 yıl",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "En az 1 yıl, en çok 3 yıl",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sabit 1 yıl",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sabit 2 yıl",
+                    "correct": false
+                }
+            ],
+            "explanation": "657 sayılı Devlet Memurları Kanunu'na göre aday memurluk süresi en az 1 yıl, en çok 2 yıldır. Bu süre zarfında başka kuruma nakil yapılamaz."
+        },
+        {
+            "id": 19,
+            "text": "657 sayılı Devlet Memurları Kanunu'na göre, ikamet ettiği il sınırları dışında başka bir yerdeki göreve (il dışına) ilk defa atanan bir devlet memuru, atama emrinin kendisine tebliğ edildiği tarihten itibaren kaç gün içinde hareket ederek göreve başlamak zorundadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İzleyen ilk iş günü",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "7 gün",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "15 gün",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "30 gün",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "60 gün",
+                    "correct": false
+                }
+            ],
+            "explanation": "Aynı yerleşim yerine (il sınırları içine) atananlar tebliği izleyen ilk iş günü, başka yerdeki (il dışı) bir göreve atananlar ise 15 gün içerisinde hareket edip göreve başlamak zorundadır."
+        },
+        {
+            "id": 20,
+            "text": "Aşağıdakilerden hangisi 657 sayılı Devlet Memurları Kanunu'nda sayılan disiplin cezalarından biri değildir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uyarma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kınama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Aylıktan kesme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Görevden uzaklaştırma",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kademe ilerlemesinin durdurulması",
+                    "correct": false
+                }
+            ],
+            "explanation": "657 sayılı Kanuna göre 5 tür disiplin cezası vardır: Uyarma, Kınama, Aylıktan kesme, Kademe ilerlemesinin durdurulması ve Devlet memurluğundan çıkarma. 'Görevden uzaklaştırma' ise bir disiplin cezası değil, görevi başında kalmasında sakınca görülen memurlar için uygulanan geçici bir ihtiyati tedbirdir."
+        }
+    ]
+}

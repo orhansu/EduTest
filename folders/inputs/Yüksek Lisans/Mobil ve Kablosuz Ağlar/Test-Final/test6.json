@@ -43,35 +43,35 @@
         },
         {
             "id": 2,
-            "text": "Bir hata denetim ve blok kodlama yönteminde (C), iletişim sırasında meydana gelebilecek en fazla 's' tane hatayı kesin olarak algılayabilmek (denetleyebilmek) için, tüm geçerli kod kelimeleri (codeword) arasındaki minimum Hamming uzaklığı (\\\\( d_{min} \\\\)) en az ne olmalıdır?",
+            "text": "Bir hata denetim ve blok kodlama yönteminde (C), iletişim sırasında meydana gelebilecek en fazla 's' tane hatayı kesin olarak algılayabilmek (denetleyebilmek) için, tüm geçerli kod kelimeleri (codeword) arasındaki minimum Hamming uzaklığı (\\( d_{min} \\)) en az ne olmalıdır?",
             "choices": [
                 {
                     "label": "A",
-                    "text": "\\\\( s \\\\)",
+                    "text": "\\( s \\)",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "\\\\( s + 1 \\\\)",
+                    "text": "\\( s + 1 \\)",
                     "correct": true
                 },
                 {
                     "label": "C",
-                    "text": "\\\\( 2s + 1 \\\\)",
+                    "text": "\\( 2s + 1 \\)",
                     "correct": false
                 },
                 {
                     "label": "D",
-                    "text": "\\\\( s - 1 \\\\)",
+                    "text": "\\( s - 1 \\)",
                     "correct": false
                 },
                 {
                     "label": "E",
-                    "text": "\\\\( 2s \\\\)",
+                    "text": "\\( 2s \\)",
                     "correct": false
                 }
             ],
-            "explanation": "Hata algılama (denetleme) kapasitesi (s) formülü \\\\( s = d_{min} - 1 \\\\) şeklindedir. Dolayısıyla, s adet hatayı algılayabilmek için minimum Hamming uzaklığının \\\\( d_{min} = s + 1 \\\\) olması gerekmektedir."
+            "explanation": "Hata algılama (denetleme) kapasitesi (s) formülü \\( s = d_{min} - 1 \\) şeklindedir. Dolayısıyla, s adet hatayı algılayabilmek için minimum Hamming uzaklığının \\( d_{min} = s + 1 \\) olması gerekmektedir."
         },
         {
             "id": 3,
@@ -199,7 +199,7 @@
                     "correct": false
                 }
             ],
-            "explanation": "Çok seviyeli modülasyon tekniklerinde her bir sembolün taşıyacağı bit sayısı \\\\( \\\\log_2(M) \\\\) ile hesaplanır. QPSK yönteminde 4 farklı sinyal durumu (M=4) bulunur; bu nedenle her sembol (sinyal elemanı) \\\\( \\\\log_2(4) = 2 \\\\) bitlik veriyi taşır."
+            "explanation": "Çok seviyeli modülasyon tekniklerinde her bir sembolün taşıyacağı bit sayısı \\( \\log_2(M) \\) ile hesaplanır. QPSK yönteminde 4 farklı sinyal durumu (M=4) bulunur; bu nedenle her sembol (sinyal elemanı) \\( \\log_2(4) = 2 \\) bitlik veriyi taşır."
         },
         {
             "id": 7,
@@ -267,35 +267,35 @@
         },
         {
             "id": 9,
-            "text": "İletişim kanallarında termal gürültünün dikkate alındığı ortamlarda, elde edilebilecek teorik maksimum veri iletim hızını (kanal kapasitesini) veren Shannon Kapasite formülü aşağıdakilerden hangisinde doğru ifade edilmiştir? (Burada \\\\( C \\\\) kapasiteyi, \\\\( B \\\\) bant genişliğini ve \\\\( SNR \\\\) Sinyal-Gürültü Oranını temsil etmektedir.)",
+            "text": "İletişim kanallarında termal gürültünün dikkate alındığı ortamlarda, elde edilebilecek teorik maksimum veri iletim hızını (kanal kapasitesini) veren Shannon Kapasite formülü aşağıdakilerden hangisinde doğru ifade edilmiştir? (Burada \\( C \\) kapasiteyi, \\( B \\) bant genişliğini ve \\( SNR \\) Sinyal-Gürültü Oranını temsil etmektedir.)",
             "choices": [
                 {
                     "label": "A",
-                    "text": "\\\\( C = 2B \\\\log_2(M) \\\\)",
+                    "text": "\\( C = 2B \\log_2(M) \\)",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "\\\\( C = B \\\\log_{10}(1 + SNR) \\\\)",
+                    "text": "\\( C = B \\log_{10}(1 + SNR) \\)",
                     "correct": false
                 },
                 {
                     "label": "C",
-                    "text": "\\\\( C = 2B \\\\log_2(1 + SNR) \\\\)",
+                    "text": "\\( C = 2B \\log_2(1 + SNR) \\)",
                     "correct": false
                 },
                 {
                     "label": "D",
-                    "text": "\\\\( C = B \\\\log_2(1 + SNR) \\\\)",
+                    "text": "\\( C = B \\log_2(1 + SNR) \\)",
                     "correct": true
                 },
                 {
                     "label": "E",
-                    "text": "\\\\( C = SNR \\\\log_2(1 + B) \\\\)",
+                    "text": "\\( C = SNR \\log_2(1 + B) \\)",
                     "correct": false
                 }
             ],
-            "explanation": "Shannon kapasite teoremi, gürültülü kanallarda teorik sınırları tanımlar ve formülü \\\\( C = B \\\\log_2(1 + SNR) \\\\) şeklindedir. Seçenek A ise gürültüsüz kanallar için geliştirilen Nyquist formülüdür."
+            "explanation": "Shannon kapasite teoremi, gürültülü kanallarda teorik sınırları tanımlar ve formülü \\( C = B \\log_2(1 + SNR) \\) şeklindedir. Seçenek A ise gürültüsüz kanallar için geliştirilen Nyquist formülüdür."
         },
         {
             "id": 10,
@@ -395,7 +395,7 @@
         },
         {
             "id": 13,
-            "text": "Bir sayısal veri iletim sisteminde gürültüsüz (ideal) bir iletişim kanalı için Nyquist teoremine göre maksimum teorik kapasite hesaplanacaktır. Kanalın bant genişliği \\\\( B = 2 \\\\text{ MHz} \\\\) ve iletimde kullanılan ayrık gerilim düzeyi sayısı \\\\( M = 16 \\\\) olarak verilmiştir. Bu duruma göre ulaşılabilecek maksimum kanal kapasitesi (C) kaç Mbps'dir?",
+            "text": "Bir sayısal veri iletim sisteminde gürültüsüz (ideal) bir iletişim kanalı için Nyquist teoremine göre maksimum teorik kapasite hesaplanacaktır. Kanalın bant genişliği \\( B = 2 \\text{ MHz} \\) ve iletimde kullanılan ayrık gerilim düzeyi sayısı \\( M = 16 \\) olarak verilmiştir. Bu duruma göre ulaşılabilecek maksimum kanal kapasitesi (C) kaç Mbps'dir?",
             "choices": [
                 {
                     "label": "A",
@@ -423,7 +423,7 @@
                     "correct": false
                 }
             ],
-            "explanation": "Nyquist gürültüsüz kanal kapasite formülü \\\\( C = 2B \\\\log_2(M) \\\\) şeklindedir. Değerleri yerine koyarsak: \\\\( C = 2 \\\\times (2 \\\\times 10^6) \\\\times \\\\log_2(16) \\\\). \\\\( \\\\log_2(16) = 4 \\\\) olduğundan, \\\\( 4 \\\\times 10^6 \\\\times 4 = 16 \\\\times 10^6 \\\\text{ bps} \\\\), yani 16 Mbps sonucu elde edilir."
+            "explanation": "Nyquist gürültüsüz kanal kapasite formülü \\( C = 2B \\log_2(M) \\) şeklindedir. Değerleri yerine koyarsak: \\( C = 2 \\times (2 \\times 10^6) \\times \\log_2(16) \\). \\( \\log_2(16) = 4 \\) olduğundan, \\( 4 \\times 10^6 \\times 4 = 16 \\times 10^6 \\text{ bps} \\), yani 16 Mbps sonucu elde edilir."
         },
         {
             "id": 14,
@@ -463,27 +463,27 @@
             "choices": [
                 {
                     "label": "A",
-                    "text": "\\\\( FSPL (dB) = -147.56 + 20 \\\\log_{10}(f) + 20 \\\\log_{10}(d) \\\\)",
+                    "text": "\\( FSPL (dB) = -147.56 + 20 \\log_{10}(f) + 20 \\log_{10}(d) \\)",
                     "correct": false
                 },
                 {
                     "label": "B",
-                    "text": "\\\\( FSPL (dB) = 32.44 + 10 \\\\log_{10}(f) + 10 \\\\log_{10}(d) \\\\)",
+                    "text": "\\( FSPL (dB) = 32.44 + 10 \\log_{10}(f) + 10 \\log_{10}(d) \\)",
                     "correct": false
                 },
                 {
                     "label": "C",
-                    "text": "\\\\( FSPL (dB) = 20 \\\\log_{10}(f) - 20 \\\\log_{10}(d) - 92.45 \\\\)",
+                    "text": "\\( FSPL (dB) = 20 \\log_{10}(f) - 20 \\log_{10}(d) - 92.45 \\)",
                     "correct": false
                 },
                 {
                     "label": "D",
-                    "text": "\\\\( FSPL (dB) = 147.56 - 20 \\\\log_{10}(f) + 20 \\\\log_{10}(d) \\\\)",
+                    "text": "\\( FSPL (dB) = 147.56 - 20 \\log_{10}(f) + 20 \\log_{10}(d) \\)",
                     "correct": false
                 },
                 {
                     "label": "E",
-                    "text": "\\\\( FSPL (dB) = 92.45 + 20 \\\\log_{10}(f) + 20 \\\\log_{10}(d) \\\\)",
+                    "text": "\\( FSPL (dB) = 92.45 + 20 \\log_{10}(f) + 20 \\log_{10}(d) \\)",
                     "correct": true
                 }
             ],
@@ -491,7 +491,7 @@
         },
         {
             "id": 16,
-            "text": "Bir hata denetim ve düzeltme mekanizması uygulanan iletişim sisteminde, kullanılan blok kodlama algoritmasının minimum Hamming uzaklığı \\\\( d_{min} = 5 \\\\) olarak tespit edilmiştir. Bu kodlama sisteminin, hata algılama (s) ve hata düzeltme (t) kapasiteleri sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
+            "text": "Bir hata denetim ve düzeltme mekanizması uygulanan iletişim sisteminde, kullanılan blok kodlama algoritmasının minimum Hamming uzaklığı \\( d_{min} = 5 \\) olarak tespit edilmiştir. Bu kodlama sisteminin, hata algılama (s) ve hata düzeltme (t) kapasiteleri sırasıyla aşağıdakilerden hangisinde doğru verilmiştir?",
             "choices": [
                 {
                     "label": "A",
@@ -519,7 +519,7 @@
                     "correct": false
                 }
             ],
-            "explanation": "Hata algılama kapasitesi \\\\( s = d_{min} - 1 \\\\) ile bulunur (5 - 1 = 4 bit algılanır). Hata düzeltme kapasitesi ise \\\\( d_{min} = 2t + 1 \\\\) formülüyle bulunur (5 = 2t + 1 \\\\Rightarrow t = 2 bit düzeltilir)."
+            "explanation": "Hata algılama kapasitesi \\( s = d_{min} - 1 \\) ile bulunur (5 - 1 = 4 bit algılanır). Hata düzeltme kapasitesi ise \\( d_{min} = 2t + 1 \\) formülüyle bulunur (5 = 2t + 1 \\Rightarrow t = 2 bit düzeltilir)."
         },
         {
             "id": 17,

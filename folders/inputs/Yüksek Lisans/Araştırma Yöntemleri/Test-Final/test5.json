@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e7b93a1f-4f2c-497d-a1b8-6d2c3e4f5a6b",
+        "title": "test 5",
+        "subject": "test 5",
+        "topic": "Araştırma Yöntemleri ve Etik - Boşluk Doldurma 5",
+        "difficulty": "Karma",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Bilimsel bir araştırmada, verilerin analizi ile elde edilecek sonuçların geçerli olacağı ve soruları cevaplamak için ihtiyaç duyulan verilerin elde edildiği canlı ya da cansız varlıklardan oluşan büyük gruba \"....\" adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Evren",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Örneklem",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kontrol Grubu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Deney Grubu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tabaka",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırma sonuçlarının geçerli olacağı, soruların cevabını barındıran asıl büyük ve tümden oluşan hedef kitle evren (population) olarak tanımlanır."
+        },
+        {
+            "id": 2,
+            "text": "Bir ölçme aracının örnekleme bir kez uygulanmasından elde edilen puanlara dayalı olan ve testin iki eş parçaya bölünerek aralarındaki korelasyonun hesaplandığı güvenirlik belirleme yöntemine \"....\" yöntemi denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Test-tekrar test",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Testi yarılama (Eşdeğer yarılar)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kuder-Richardson 20",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cronbach Alpha",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Paralel formlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Testin tek uygulamada yapılıp daha sonra rastgele veya tek-çift maddeler şeklinde iki eş yarıya bölündüğü ve yarılar arasındaki korelasyonun hesaplandığı yöntem testi yarılama yöntemidir."
+        },
+        {
+            "id": 3,
+            "text": "Deneklerin özelliklerine, test koşullarına veya testörü değerlendiren kişinin yorgunluğuna bağlı olarak ölçme sonuçlarına karışan; yönü, miktarı ve kaynağı net olarak bilinmeyen hatalara \"....\" hata denir ve bu hata türü doğrudan ölçmenin \"....\"ni düşürür.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sabit / Geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sistematik / Kapsamını",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tesadüfi / Güvenirliğini",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Örneklem / Yordama gücünü",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Standart / Objektifliğini",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kaynağı, yönü ve miktarı bilinmeyen düzensiz hatalar tesadüfi hatalardır. Tesadüfi hataların ölçüme karışması, doğrudan ölçümün güvenirliğini zedeler."
+        },
+        {
+            "id": 4,
+            "text": "Anket geliştirme sürecinde, katılımcılara soruların nasıl cevaplandırılacağına ilişkin kural ve açıklamaların yer aldığı, cevaplayıcıya rehberlik eden bilgilendirme bölümüne \"....\" denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sunuş yazısı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kapak sayfası",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Madde havuzu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yönerge",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Hipotez cümlesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir anketin veya testin katılımcılar tarafından doğru bir şekilde doldurulabilmesi için uyulması gereken kuralları anlatan yönlendirici kısma yönerge adı verilir."
+        },
+        {
+            "id": 5,
+            "text": "İki veya daha fazla bağımsız gözlemcinin, aynı olay veya nesneye verdikleri puanlar arasındaki uyumu inceleyerek ölçme sonuçlarının tutarlılığını belirleme işlemine \"....\" tutarlılığı adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İç",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Eşzamanlı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yapı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Değerlendirmeciler arası",
+                    "correct": true
+                }
+            ],
+            "explanation": "Birden fazla gözlemcinin/puanlayıcının aynı performansa verdikleri puanların birbirine ne kadar yakın olduğunu (tutarlılığını) gösteren ölçüt, değerlendirmeciler (puanlayıcılar) arası tutarlılıktır."
+        },
+        {
+            "id": 6,
+            "text": "Sosyal bilimlerde, sınırları belirsiz veya ulaşılması zor gruplar üzerinde araştırma yaparken, ulaşılan ilk kişinin referansıyla ağın genişletilerek örneklemin oluşturulduğu yönteme \"....\" örnekleme denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kartopu (Zincir)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sistematik",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tabakalı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Maksimum çeşitlilik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tipik durum",
+                    "correct": false
+                }
+            ],
+            "explanation": "Stratejik bir kişiden yola çıkıp onun referansıyla diğerlerine ulaşılan ve örneklemin bu şekilde katlanarak büyütüldüğü tekniğe kartopu (zincir) örnekleme denir."
+        },
+        {
+            "id": 7,
+            "text": "Bir testin, ölçmeyi amaçladığı özelliği (kavramı veya psikolojik yapıyı) diğer özelliklerle karıştırmadan ne derece doğru ölçebildiğini ortaya koyan ve faktör analizi gibi yöntemlerle incelenen geçerlik türüne \"....\" geçerliği denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yordama",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yapı",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Görünüş",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eşzaman (Uygunluk)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Test puanlarının, ölçülmek istenen teorik kavramı (yapıyı) gerçekte ne derece yansıttığını belirten ve çoğunlukla faktör analiziyle saptanan özellik yapı geçerliğidir."
+        },
+        {
+            "id": 8,
+            "text": "Araştırmacının, zaman, para ve işgücü kısıtlamaları nedeniyle kendi çevresindeki veya ulaşılması en kolay olan kişilerden veri toplamayı tercih ettiği, temsil gücü en zayıf örnekleme yöntemine \"....\" örnekleme denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Amaçsal",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tabakalı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uygun (Kazara)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Basit seçkisiz",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sistematik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının pratik nedenlerle, elinin altında bulunan ve ulaşılması en kolay olan gruba anketi uygulayıp verileri topladığı örnekleme türü uygun (kazara veya kolay ulaşılabilir) örneklemedir."
+        },
+        {
+            "id": 9,
+            "text": "Üniversite sınavından yüksek puan alan bir öğrencinin üniversite eğitiminde de başarılı olması, bu sınavın \"....\" geçerliğinin yüksek olduğuna kanıt olarak gösterilebilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kapsam",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yapı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Görünüş",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yordama",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Eşzamanlı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir ölçme aracından elde edilen anlık puanlara dayanarak, bireylerin gelecekteki performansı hakkında isabetli tahminler yapılabilmesi yordama geçerliğini gösterir."
+        },
+        {
+            "id": 10,
+            "text": "Eğitim araştırmalarında, bir test maddesine verilen cevapların 1 (doğru) ve 0 (yanlış) şeklinde puanlandığı ve maddelerin ölçtüğü özelliklerin benzeşik (homojen) olduğu durumlarda kullanılan tek uygulamaya dayalı güvenirlik katsayısına \"....\" adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Cronbach Alpha",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Testi yarılama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Spearman-Brown",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Rulon katsayısı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuder-Richardson 20 (KR-20)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Maddelerin doğru (1) ve yanlış (0) şeklinde kategorik puanlandığı başarı testlerinde, tek uygulamaya dayalı iç tutarlık hesaplama yöntemi Kuder-Richardson 20'dir."
+        },
+        {
+            "id": 11,
+            "text": "Evrenin, araştırma problemi üzerinde etkili olabileceği düşünülen değişkenlere göre (örneğin cinsiyet, okul türü) kendi içinde homojen alt gruplara ayrılması ve her alt gruptan evrendeki ağırlıklarına göre örneklem çekilmesi işlemine \"....\" örnekleme denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tabakalı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Küme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Basit seçkisiz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kartopu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ölçüt",
+                    "correct": false
+                }
+            ],
+            "explanation": "Evrenin belirli özelliklere sahip alt gruplara (tabakalara) ayrılması ve sonrasında her gruptan evrendeki oranlarına uygun olarak katılımcı seçilmesine tabakalı örnekleme denir."
+        },
+        {
+            "id": 12,
+            "text": "Bir araştırmacının başkalarına ait fikirleri, verileri veya şekilleri, uygun biçimde atıf yapmadan (kaynak göstermeden) kendi özgün eseriymiş gibi yayımlaması eylemine etik ihlallerden \"....\" adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Çarpıtma (Falsification)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dilimleme (Salami Slicing)",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kırpma (Cherry-picking)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir başkasının fikri mülkiyetini, sözlerini veya araştırmasını atıf kurallarına uymadan tamamen kendine mal etme işlemine aşırmacılık (intihal) denir."
+        },
+        {
+            "id": 13,
+            "text": "Geliştirilen bir tutum ölçeğinden elde edilen puanların, test maddelerinin sürekli kabul edildiği Likert tipi derecelendirme durumlarında, tek uygulamaya dayalı iç tutarlılık katsayısı olarak \"....\" yöntemiyle hesaplanması uygundur.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "KR-20",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Test-tekrar test",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Cronbach Alpha",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Paralel formlar",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eşdeğer yarılar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Verilerin derecelendirildiği (örneğin 1'den 5'e kadar Likert ölçeği), cevaplama seçeneklerinin sürekli kabul edildiği ölçümlerde iç tutarlılığı bulmak için Cronbach Alpha katsayısı kullanılır."
+        },
+        {
+            "id": 14,
+            "text": "Bir tartının her ölçümde üzerindeki nesneyi tam 50 gram fazla tartması örneğinde olduğu gibi; ölçümden ölçüme miktarı ve yönü hiç değişmeyen hatalara \"....\" hata denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sistematik",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tesadüfi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Standart sapma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sabit",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Örneklem",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kaynağı belli olan, her ölçüme her defasında aynı yönde ve aynı miktarda karışan hatalar sabit hatadır."
+        },
+        {
+            "id": 15,
+            "text": "Bir kişinin, \"Tüm insanlar ölümlüdür. Ayşe de bir insandır. O halde Ayşe ölümlüdür.\" şeklinde genel bir doğrudan yola çıkarak özel durumlara dair mantıksal sonuçlara varmasına \"....\" adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tümevarım",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Otoriteye başvurma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bilimsel yöntem",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sosyal doğrulama",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tümdengelim",
+                    "correct": true
+                }
+            ],
+            "explanation": "Büyük genel önermelerden hareketle daha özel sonuçlar türetmeye dayalı akıl yürütme tekniği tümdengelim (dedüksiyon) sürecidir."
+        },
+        {
+            "id": 16,
+            "text": "Nitel verilerin analizinde, verilerin önceden belirlenmiş kategorilere göre yüzeysel özetlenmesine \"....\"; verilerin derinlemesine incelenerek satır aralarından yepyeni temaların ve kodların tümevarımsal keşfine ise \"....\" analizi denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Betimsel / İçerik",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "İçerik / Betimsel",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Çıkarımsal / Söylem",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Söylem / Tematik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tematik / Regresyon",
+                    "correct": false
+                }
+            ],
+            "explanation": "Betimsel analiz, toplanan verilerin orijinal haline olabildiğince sadık kalınarak hazır temalara göre özetlenmesidir. İçerik analizi ise verinin kodlanarak yeni anlamların ve şifrelerin derinlemesine çıkartılması işlemidir."
+        },
+        {
+            "id": 17,
+            "text": "Araştırma problemini salt bir kuram (teori) üretmek için değil, okul veya iş yeri gibi ortamlarda bizzat uygulayıcıların (öğretmenler vb.) kendi karşılaştıkları sorunları çözmek amacıyla yürüttükleri araştırmalara \"....\" araştırması denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fenomenoloji",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Eylem (Action)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Durum (Vaka)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Etnografik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Korelasyonel",
+                    "correct": false
+                }
+            ],
+            "explanation": "Öğretmen, müdür veya diğer alan çalışanlarının bizzat kendi ortamlarındaki sorunları pratik bir şekilde çözmek ve kendi uygulamalarını iyileştirmek için başvurdukları yöntem eylem araştırmasıdır."
+        },
+        {
+            "id": 18,
+            "text": "Araştırmacı tarafından ölçülmek istenen davranışlar evreninin, testi oluşturan sorular (maddeler) tarafından ne derece dengeli ve iyi temsil edildiğini gösteren ve genellikle belirtke tablosu-uzman görüşü ile incelenen geçerlik türüne \"....\" geçerliği denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yapı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yordama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kapsam",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Görünüş",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eşzamanlı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kapsam (içerik) geçerliği, testi oluşturan soruların, hedeflenen konuları ve davranışları uygun ve orantılı bir şekilde örnekleyebilme kapasitesidir."
+        },
+        {
+            "id": 19,
+            "text": "Bilimsel bir araştırma sürecinde, araştırmacının doğruluğunu ispatlamaya gerek duymadan (test etme imkânı olmadığı için) peşinen \"doğru\" kabul edip araştırmasının temelini dayandırdığı önermelere \"....\" denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Problem cümlesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sınırlılık",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sayıltı (Varsayım)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kuram (Teori)",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının doğruluğunu ispatlama ihtiyacı hissetmeden (örneğin 'katılımcıların samimi cevap verdiği kabul edilmiştir' gibi) araştırmasını üzerine inşa ettiği öncül kabullere sayıltı (varsayım) adı verilir."
+        },
+        {
+            "id": 20,
+            "text": "Bütünlüğü olan tek bir araştırmadan elde edilen verilerin, akademik atama süreçlerinde daha fazla puan almak amacıyla etiğe aykırı biçimde parçalanarak (bölünerek) birden çok zayıf yayına dönüştürülmesine \"....\" adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İntihal",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Uydurmacılık",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bulandırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kırpma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dilimleme (Salami Slicing)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Tek bir araştırmanın veri setinin kasıtlı olarak gereksiz parçalara ayrılıp çok sayıda makale olarak yayımlanması etik dışıdır ve literatürde dilimleme (salami slicing) olarak bilinir."
+        }
+    ]
+}

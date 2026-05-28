@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "f2e51921-2e8c-4a37-9bd1-a94f6c4a8b72",
+        "title": "test 9",
+        "subject": "test 9",
+        "topic": "Osmanlı Devleti Yükselme Dönemi (1453 - 1595)",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-28"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tFatih Sultan Mehmet, hem denizlerde hem de karalarda sağladığı geniş hakimiyetle çeşitli unvanlar kullanmıştır.\n\n---\n\nBuna göre, Fatih Sultan Mehmet'e Karadeniz ve Ege'deki fetihleri ile Anadolu ve Balkanlar'daki hakimiyetini pekiştirmesi üzerine verilen ve 'iki denizin ve iki karanın hükümdarı' anlamına gelen unvan aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sultanü'l Bahreyn ve Hakanü'l Berreyn",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kayser-i Rum",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sultan-ı İklim-i Rum",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hadimü'l-Haremeyni'ş-Şerifeyn",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ebu'l Feth",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fatih Sultan Mehmet'e karalardaki ve denizlerdeki geniş fetihleri dolayısıyla 'Sultanü'l Bahreyn ve Hakanü'l Berreyn' (iki denizin ve iki karanın hükümdarı) unvanı verilmiştir."
+        },
+        {
+            "id": 2,
+            "text": "\tOsmanlı Devleti, Fatih Sultan Mehmet döneminde İstanbul'u fethederek imparatorluk aşamasına geçmiş ve sınırlarını hızla genişletmiştir.\n\n---\n\nAşağıdakilerden hangisi Fatih Sultan Mehmet'in kuşatmasına rağmen 'alamadığı' ancak daha sonra Kanuni Sultan Süleyman döneminde fethedilen yerlerden biridir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mora Yarımadası",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Belgrad",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kırım",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Amasra",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Trabzon",
+                    "correct": false
+                }
+            ],
+            "explanation": "Belgrad ve Rodos, Fatih Sultan Mehmet döneminde kuşatılmasına rağmen alınamamış; bu iki stratejik bölgenin fethi Kanuni Sultan Süleyman döneminde gerçekleşmiştir."
+        },
+        {
+            "id": 3,
+            "text": "\tFatih Sultan Mehmet döneminde Anadolu'da siyasi birliği sağlamaya yönelik birçok adım atılmıştır. Ancak bu adımların bazıları Türk beyliklerine, bazıları ise farklı kökenden devletlere karşıdır.\n\n---\n\nBuna göre aşağıdakilerden hangisi doğrudan 'Anadolu Türk Siyasi Birliğini' (ATSB) sağlamaya yönelik bir faaliyettir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Amasra'nın Cenevizlilerden alınması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Trabzon Rum İmparatorluğu'na son verilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Candaroğullarından Sinop ve Samsun'un alınması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Kırım'ın Osmanlı topraklarına katılması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mora Yarımadası'nın fethedilmesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Anadolu Türk Siyasi Birliği (ATSB) için fethin hem Anadolu'da olması hem de Türk bir güce ait olması gerekir. Candaroğulları bir Türk beyliği olduğu için bu adım ATSB'ye yöneliktir."
+        },
+        {
+            "id": 4,
+            "text": "\tFatih Sultan Mehmet döneminde Karadeniz kıyılarında Cenevizliler, Candaroğulları ve Trabzon Rum İmparatorluğu'na yönelik seferler düzenlenerek Karadeniz egemenliği güçlendirilmiştir.\n\n---\n\nBuna göre, 1475 yılında aşağıdaki bölgelerden hangisinin fethedilmesiyle Karadeniz kesin olarak bir 'Türk Gölü' haline gelmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Amasra",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Otranto",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Rodos",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kırım",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Mora",
+                    "correct": false
+                }
+            ],
+            "explanation": "1475 yılında Gedik Ahmet Paşa komutasındaki Osmanlı donanması Kırım'ı fethetmiş, böylece Karadeniz bir Türk gölü haline gelmiştir."
+        },
+        {
+            "id": 5,
+            "text": "\tOsmanlı Devleti'nde padişah değişiklikleri sırasında yaşanan bazı taht kavgaları, dış güçlerin müdahalesiyle uluslararası bir boyut kazanabilmektedir.\n\n---\n\nİkinci Bayezid döneminde yaşanan ve Memlükler, Rodos Şövalyeleri ile Papa'nın devreye girmesiyle 'iç sorunken uluslararası bir dış soruna' dönüşen gelişme aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Şahkulu İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Celali İsyanları",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Buçuktepe İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Babazünnun İsyanı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cem Sultan Olayı",
+                    "correct": true
+                }
+            ],
+            "explanation": "II. Bayezid ile kardeşi Cem Sultan arasındaki taht kavgası, Cem Sultan'ın Memlüklere, Rodos Şövalyeleri'ne ve Papa'ya sığınmasıyla uluslararası bir krize dönüşmüştür."
+        },
+        {
+            "id": 6,
+            "text": "\tYavuz Sultan Selim, sekiz yıllık saltanatı boyunca doğu ve güney yönünde seferler düzenleyerek Anadolu ve Orta Doğu'da büyük bir genişleme sağlamıştır.\n\n---\n\nYavuz Sultan Selim döneminde, Dulkadiroğulları Beyliği'ne son verilerek 'Anadolu Türk Siyasi Birliğinin' (ATSB) kesin olarak sağlandığı savaş aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Turnadağ",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Çaldıran",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Otlukbeli",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mercidabık",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ridaniye",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yavuz Sultan Selim döneminde 1515 yılında yapılan Turnadağ Savaşı ile Dulkadiroğulları Beyliği'ne son verilmiş ve Anadolu Türk Siyasi Birliği kesin olarak sağlanmıştır."
+        },
+        {
+            "id": 7,
+            "text": "\tYavuz Sultan Selim, Mısır Seferi sonucunda Memlük Devleti'ne son vermiş ve bu bölgedeki kutsal emanetleri İstanbul'a getirerek halifelik unvanını devralmıştır.\n\n---\n\nMısır Seferi sonrasında Hicaz bölgesinin Osmanlı hakimiyetine girmesiyle Yavuz Sultan Selim'in kullandığı ve 'Mekke ve Medine'nin hizmetkarı' anlamına gelen unvan aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sultan-ı İklim-i Rum",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hadimü'l-Haremeyni'ş-Şerifeyn",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kayser-i Rum",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hakanü'l Berreyn",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Ebu'l Feth",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yavuz Sultan Selim, Hicaz'ın Osmanlı'ya geçmesiyle alçakgönüllülük göstererek 'Mekke ve Medine'nin hakimi' yerine 'Hadimü'l-Haremeyni'ş-Şerifeyn' (Mekke ve Medine'nin hizmetkarı) unvanını kullanmıştır."
+        },
+        {
+            "id": 8,
+            "text": "\tOsmanlı Devleti, Yavuz Sultan Selim döneminde Mercidabık ve Ridaniye savaşlarıyla Memlükleri mağlup etmiş ve Mısır, Suriye ile Hicaz'ı topraklarına katmıştır.\n\n---\n\nAşağıdakilerden hangisi Yavuz Sultan Selim'in 'Mısır Seferi'nin sonuçlarından biri olarak gösterilemez?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Halifeliğin Osmanlı hanedanına geçmesiyle teokratik yapının güçlenmesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Baharat Yolu'nun Osmanlı Devleti'nin denetimine girmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İran'daki Safevi tehlikesinin kesin olarak ortadan kaldırılması",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Kutsal emanetlerin Topkapı Sarayı'na getirilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Venediklilerin Kıbrıs için Memlüklere ödediği vergiyi Osmanlı'ya ödemeye başlaması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Mısır Seferi Memlüklere karşı yapılmıştır. Safeviler ile olan mücadele 1514 Çaldıran Savaşı'dır ve bu savaşla dahi Safevi tehlikesi kesin olarak ortadan kalkmamıştır."
+        },
+        {
+            "id": 9,
+            "text": "\tKanuni Sultan Süleyman döneminde Macaristan'ın fethi ve Viyana Kuşatması sonrası Avusturya ile diplomatik bir anlaşma imzalanarak Orta Avrupa'da siyasi üstünlük kurulmuştur.\n\n---\n\nAvusturya Arşidükü'nün protokolde 'Osmanlı Sadrazamına denk sayıldığı' ve Osmanlı'nın siyasi üstünlüğünü belgeleyen 1533 tarihli antlaşma aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Amasya Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Zitvatorok Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ferhat Paşa Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İstanbul (İbrahim Paşa) Antlaşması",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Karlofça Antlaşması",
+                    "correct": false
+                }
+            ],
+            "explanation": "1533 İstanbul (İbrahim Paşa) Antlaşması ile Avusturya Kralı (Arşidükü) protokol bakımından Osmanlı sadrazamına eşit sayılmış, Orta Avrupa'nın siyasi üstünlüğü Osmanlı'ya geçmiştir."
+        },
+        {
+            "id": 10,
+            "text": "\tOsmanlı Devleti, yükselme döneminde karalarda olduğu kadar denizlerde de cihanşümul bir güç haline gelmiş ve Haçlı donanmalarına karşı büyük zaferler kazanmıştır.\n\n---\n\nKanuni Sultan Süleyman döneminde, Barbaros Hayreddin Paşa komutasındaki Osmanlı donanmasının Haçlı donanmasını mağlup ederek 'Akdeniz'i bir Türk Gölü' haline getirdiği savaş aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İnebahtı Deniz Muharebesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çeşme Baskını",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Navarin Olayı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cerbe Deniz Savaşı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Preveze Deniz Savaşı",
+                    "correct": true
+                }
+            ],
+            "explanation": "1538 yılında Barbaros Hayreddin Paşa komutasındaki Osmanlı donanması, Haçlı donanmasını Preveze Deniz Savaşı'nda mağlup ederek Akdeniz'i Türk gölü haline getirmiştir."
+        },
+        {
+            "id": 11,
+            "text": "\tKanuni Sultan Süleyman döneminde doğu sınırlarını güvence altına almak için Safeviler üzerine çeşitli seferler düzenlenmiş ve nihayetinde diplomatik bir uzlaşmaya varılmıştır.\n\n---\n\n1555 yılında imzalanan ve Osmanlı Devleti ile İran (Safeviler) arasındaki 'ilk resmi antlaşma' olma özelliğini taşıyan belge aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Amasya Antlaşması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kasr-ı Şirin Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ferhat Paşa Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nasuh Paşa Antlaşması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Serav Antlaşması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı Devleti ile Safeviler (İran) arasında imzalanan ilk resmi antlaşma, Kanuni Sultan Süleyman döneminde 1555 yılında imzalanan Amasya Antlaşması'dır."
+        },
+        {
+            "id": 12,
+            "text": "\tOsmanlı Devleti, 1538-1553 yılları arasında Portekizlilerin Basra Körfezi ve Kızıldeniz'deki faaliyetlerini engellemek ve Baharat Yolu'nu canlandırmak için Hint Deniz Seferleri'ni düzenlemiştir.\n\n---\n\nAşağıdakilerden hangisi Hint Deniz Seferleri'ne katılan ünlü Osmanlı denizcilerinden biri 'değildir'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Piri Reis",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Barbaros Hayreddin Paşa",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Seydi Ali Reis",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Murat Reis",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Hadım Süleyman Paşa",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hint Deniz Seferleri'ne Hadım Süleyman Paşa, Piri Reis, Murat Reis ve Seydi Ali Reis komuta etmiştir. Barbaros Hayreddin Paşa ise ağırlıklı olarak Akdeniz'deki mücadelelerde (Preveze) yer almıştır."
+        },
+        {
+            "id": 13,
+            "text": "\tOsmanlı Devleti'nin Akdeniz'deki hakimiyetini güçlendiren adımlarına karşı Avrupa'da sürekli Haçlı ittifakları kurulmuş ve stratejik bir adanın fethi büyük tepkiye yol açmıştır.\n\n---\n\nSokullu Mehmet Paşa'nın sadrazamlığı döneminde 1571'de Kıbrıs'ın fethedilmesine tepki olarak oluşturulan Haçlı donanmasının, Osmanlı donanmasını yaktığı gelişme aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Preveze Deniz Savaşı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çeşme Baskını",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İnebahtı Deniz Muharebesi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Navarin Olayı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Cerbe Deniz Savaşı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kıbrıs'ın fethedilmesinin ardından oluşturulan Haçlı donanması, 1571 yılında İnebahtı'da Osmanlı donanmasını yakarak Osmanlı'nın denizlerdeki ilk büyük yıkımına neden olmuştur."
+        },
+        {
+            "id": 14,
+            "text": "\tSokullu Mehmet Paşa, Osmanlı Devleti'nin gücünü Asya ve Afrika'da daha da pekiştirmek için devasa kanal projeleri tasarlamış, ancak dönemin şartları gereği bunlar hayata geçirilememiştir.\n\n---\n\nAşağıdakilerden hangisi Sokullu Mehmet Paşa'nın tasarladığı kanal projelerinden biri 'değildir'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Don-Volga Kanalı Projesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Süveyş Kanalı Projesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Marmara - Karadeniz Projesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Korint Kanalı Projesi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "İznik Gölü üzerinden Karadeniz'e ulaşma projesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sokullu Mehmet Paşa'nın Süveyş, Don-Volga ve Marmara-Karadeniz (İznik Gölü üzerinden) projeleri bulunmaktaydı. Korint Kanalı (Yunanistan) ise bu projeler arasında yer almaz."
+        },
+        {
+            "id": 15,
+            "text": "\tOsmanlı padişahları, siyasi ve askeri başarılarının yanı sıra edebiyata ve sanata da büyük ilgi duymuş, divan edebiyatında çeşitli mahlaslar kullanarak şiirler yazmışlardır.\n\n---\n\nŞiirlerinde 'Avni' mahlasını kullanan ve kendi döneminde İtalyan ressam Bellini'ye portresini yaptıran Osmanlı padişahı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yavuz Sultan Selim",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kanuni Sultan Süleyman",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "II. Bayezid",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "III. Murat",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fatih Sultan Mehmet",
+                    "correct": true
+                }
+            ],
+            "explanation": "Fatih Sultan Mehmet sanata büyük önem vermiş, İtalyan ressam Bellini'yi İstanbul'a getirerek portresini yaptırmış ve divan edebiyatında 'Avni' mahlasıyla şiirler yazmıştır."
+        },
+        {
+            "id": 16,
+            "text": "\tFatih Sultan Mehmet döneminde, doğuda Osmanlı'ya karşı Avrupa devletleriyle ittifak arayışında olan ve kendini 'Büyük Türk' (Grand Turco) olarak nitelendiren Akkoyunlu devleti ile büyük bir mücadele yaşanmıştır.\n\n---\n\n1473 yılında Fatih Sultan Mehmet'in, Akkoyunlu hükümdarı Uzun Hasan'ı mağlup ederek Doğu Anadolu'da Osmanlı hakimiyetini güçlendirdiği savaş aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Otlukbeli Savaşı",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Çaldıran Savaşı",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Turnadağ Savaşı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mercidabık Savaşı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Dandanakan Savaşı",
+                    "correct": false
+                }
+            ],
+            "explanation": "Fatih Sultan Mehmet, 1473 yılında Erzincan yakınlarında yapılan Otlukbeli Savaşı'nda Akkoyunlu hükümdarı Uzun Hasan'ı mağlup ederek Doğu Anadolu egemenliğini sağlamlaştırmıştır."
+        },
+        {
+            "id": 17,
+            "text": "\tKanuni Sultan Süleyman döneminde Akdeniz hakimiyetini tam anlamıyla perçinlemek için birçok adaya sefer düzenlenmiş, Trablusgarp ve Cerbe zaferleriyle bu güç pekiştirilmiştir.\n\n---\n\nAşağıdakilerden hangisi, ünlü denizci Turgut Ali Reis'in şehit olduğu ve St. Jean Şövalyelerinin güçlü direnişi sebebiyle Kanuni döneminde alınamayan adadır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Rodos",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Malta",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Girit",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kıbrıs",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sakız",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kanuni Sultan Süleyman döneminde Malta adası kuşatılmış ancak şövalyelerin şiddetli direnişi ve ünlü Türk denizcisi Turgut Ali Reis'in şehit düşmesi üzerine kuşatma kaldırılarak ada alınamamıştır."
+        },
+        {
+            "id": 18,
+            "text": "\tOsmanlı padişahları edebiyata olan düşkünlükleriyle bilinir. Birçok padişah takma isimler (mahlas) kullanarak edebi eserler bırakmıştır.\n\n---\n\n\"Halk içinde muteber bir nesne yok devlet gibi, / Olmaya devlet cihanda bir nefes sıhhat gibi\" beytiyle meşhur olan ve şiirlerinde 'Muhibbi' mahlasını kullanan Osmanlı padişahı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Fatih Sultan Mehmet",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yavuz Sultan Selim",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kanuni Sultan Süleyman",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "I. Ahmet",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "II. Selim",
+                    "correct": false
+                }
+            ],
+            "explanation": "Divan edebiyatında en çok şiiri bulunan Osmanlı padişahı 'Muhibbi' mahlasıyla şiirler yazan Kanuni Sultan Süleyman'dır. Bu meşhur beyit de ona aittir."
+        },
+        {
+            "id": 19,
+            "text": "\tTarihsel süreçte Osmanlı Devleti'nde yaşanan önemli askeri ve siyasi gelişmeler, Avrupa'daki büyük değişimlerle eş zamanlı gerçekleşebilmektedir.\n\n---\n\nOsmanlı Devleti'nin 1517 yılında Memlükleri Ridaniye Savaşı ile yıktığı süreçte, Avrupa'da Almanya'da Martin Luther'in öncülüğünde Katolik kilisesine karşı başlayan büyük gelişme aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Rönesans",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Coğrafi Keşifler",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sanayi İnkılabı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Reform Hareketleri",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Yüzyıl Savaşları",
+                    "correct": false
+                }
+            ],
+            "explanation": "Yavuz Sultan Selim'in 1517'de Mısır'da Ridaniye Zaferi'ni kazandığı eş zamanlı dilimde, Avrupa'da Martin Luther 95 maddelik bildirisini yayınlayarak Reform hareketlerini başlatmıştır."
+        },
+        {
+            "id": 20,
+            "text": "\tOsmanlı Devleti, yükselme döneminde Avrupa Hristiyan birliğini parçalamak ve Akdeniz ticaretini canlandırmak gibi stratejik amaçlarla bazı Avrupa ülkelerine ticari imtiyazlar vermiştir.\n\n---\n\nKanuni Sultan Süleyman döneminde bu amaçlar doğrultusunda, Alman İmparatoru Şarlken'e karşı desteklemek amacıyla kapitülasyon (imtiyaz) verilen Avrupa devleti aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Venedik",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Ceneviz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İngiltere",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Rusya",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Fransa",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kanuni Sultan Süleyman döneminde Avrupa'da Haçlı birliğini bölmek ve Alman İmparatoru Şarlken'e karşı denge unsuru yaratmak amacıyla Fransa'ya kapitülasyonlar verilmiştir."
+        }
+    ]
+}

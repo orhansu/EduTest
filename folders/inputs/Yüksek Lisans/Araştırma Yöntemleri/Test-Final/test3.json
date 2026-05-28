@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "8a5d3e2c-1f6b-4e9d-8c7a-3f4b5d6e7a8b",
+        "title": "test 3",
+        "subject": "test 3",
+        "topic": "Araştırma Yöntemleri ve Etik",
+        "difficulty": "Karma",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tBir hastanın rahatsızlığıyla ilgili alanında ün yapmış bir profesörün tavsiyelerini doğrudan doğru kabul ederek uygulaması, tıbbi süreci bu görüşler doğrultusunda şekillendirmesi günlük hayatta sıkça karşılaşılan bir durumdur.\n\n---\n\nBuna göre, süreci bu görüşler doğrultusunda şekillendirme yaklaşımı bilmenin yollarından hangisine örnektir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzman görüşü (Otorite)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Görüş birliği (Sosyal doğrulama)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Mantıksal akıl yürütme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Duyusal deneyim",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bilimsel yöntem",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bilgiyi otorite kabul edilen, konunun uzmanı kişilerden doğrudan alma ve kabul etme yoludur."
+        },
+        {
+            "id": 2,
+            "text": "\tBir araştırmacı, okulu terk etme eğiliminde olan sınırlı sayıdaki öğrencinin yaşadığı okul çevresini, aile durumunu ve psikolojik süreçlerini tüm detaylarıyla incelemek istemektedir. Araştırmacının amacı genelleme yapmak değil, bu özel durumu derinlemesine tasvir etmektir.\n\n---\n\nBu araştırmacının amacına en uygun nitel araştırma deseni aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eylem araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Durum çalışması (Vaka analizi)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Etnografik araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nedensel-karşılaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Boylamsal tarama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sınırlı sayıda tipik veya aykırı örneğin kendi doğal sınırları içinde derinlemesine incelenerek tasvir edildiği nitel araştırmalar 'Durum Çalışması (Vaka Analizi)' olarak adlandırılır."
+        },
+        {
+            "id": 3,
+            "text": "\tDeneysel bir çalışmada deneklere uygulama öncesinde bir test verilmiş, ancak denekler bu testin formuna ve içeriğine aşina oldukları için sontest puanları deneysel işlemden bağımsız olarak yüksek çıkmıştır.\n\n---\n\nİç geçerliliği tehdit eden bu duruma literatürde ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İstatistiksel regresyon",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Denek kaybı etkisi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Öntest (İletme / Aktarma) etkisi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Etkileşme etkisi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Olgunlaşma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Öntest uygulanması, kişilerin test içeriğine aşina olmasına yol açarak sontest puanlarını suni şekilde artırabilir; bu duruma iletme/aktarma veya öntest etkisi denir."
+        },
+        {
+            "id": 4,
+            "text": "\tAraştırma etiği, sürecin her aşamasında dürüstlük ve şeffaflık gerektirir. Ancak bazı durumlarda araştırmacılar, elde ettikleri bulgulardan sadece kendi hipotezini destekleyen olumlu sonuçları raporlayıp, hipoteziyle çelişen diğer verileri bilerek gizleme yoluna gidebilmektedir.\n\n---\n\n'Seçici raporlama' olarak da bilinen bu etik ihlal türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Dilimleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kırpma (Cherry-picking)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Haksız yazarlık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Sadece destekleyen bulguları alıp çelişenleri bilerek gizleme, seçici raporlama veya kırpma (cherry-picking) olarak adlandırılır."
+        },
+        {
+            "id": 5,
+            "text": "\t'Öğrencilerin sınav kaygılarının akademik başarılarına etkisi' konulu bir araştırmada, bir değişkenin diğerini nasıl değiştirdiği gözlemlenmektedir.\n\n---\n\nÜzerinde etki oluşturulduğu varsayılan ve sonuç konumunda olan değişken aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Dışsal değişken",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sürekli değişken",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bağımsız değişken",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Düzenleyici değişken",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bağımlı değişken",
+                    "correct": true
+                }
+            ],
+            "explanation": "Bağımlı değişken (akademik başarı), araştırmacının açıklamak istediği ve bağımsız değişkenin etkisiyle değiştiği varsayılan sonuç değişkenidir."
+        },
+        {
+            "id": 6,
+            "text": "\tLise öğrencilerinin okula devam sorunlarının incelendiği bir çalışmada araştırmacı, evreni 'meslek liseleri', 'Anadolu liseleri' ve 'genel liseler' şeklinde homojen alt gruplara ayırmış, ardından her gruptan oranları ölçüsünde seçkisiz eleman çekmiştir.\n\n---\n\nBu araştırmacının kullandığı örnekleme yöntemi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tabakalı örnekleme",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Küme örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sistematik örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tipik durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Basit seçkisiz örnekleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Evrenin önce benzeşik alt gruplara (tabakalara) ayrılması ve sonra her tabakadan örneklem seçilmesi işlemine tabakalı örnekleme adı verilir."
+        },
+        {
+            "id": 7,
+            "text": "\tGeliştirilen bir başarı testinin tek bir uygulaması yapılmış, ardından test iki eş yarıya bölünmüştür. Bu iki yarıdan elde edilen puanlar arasındaki korelasyon bulunduktan sonra testin bütünü için Spearman-Brown formülüyle güvenirlik katsayısı hesaplanmıştır.\n\n---\n\nYukarıda aşamaları verilen güvenirlik belirleme yöntemi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kuder-Richardson 20",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Testi yarılama (Eşdeğer yarılar)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Cronbach Alpha",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Test-tekrar test",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Paralel formlar",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tek uygulamaya dayalı yöntemlerden biri olan testi yarılama, testin iki eş yarıya bölünerek aralarındaki uyumun testin bütününe genellenmesini ifade eder."
+        },
+        {
+            "id": 8,
+            "text": "\tBir bankanın sunduğu yeni mobil uygulamanın kullanıcı deneyimini detaylı bir şekilde anlamak amacıyla, benzer özelliklere sahip 8 kişilik bir müşteri grubu bir moderatör eşliğinde aynı anda tartıştırılarak zengin nitel veriler elde edilmiştir.\n\n---\n\nBu araştırmada kullanılan veri toplama tekniği aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yapılandırılmış görüşme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Delphi tekniği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Odak grup görüşmesi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Katılımcı gözlem",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Doküman incelemesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Belirli bir konu etrafında küçük bir grubun dinamiklerinden yararlanılarak moderatör eşliğinde yürütülen nitel veri toplama yöntemi odak grup görüşmesidir."
+        },
+        {
+            "id": 9,
+            "text": "\tAraştırma sürecinde araştırmacının doğruluğunu sınamaya gerek duymadan veya test etme imkânı olmadığı için peşinen 'doğru' olarak kabul edip araştırmasını üzerine inşa ettiği temel kabuller bulunmaktadır.\n\n---\n\nİspatlanma gereği duyulmayan bu temel kabullere ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sınırlılık",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Problem cümlesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sayıltı (Varsayım)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kuram",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmanın temelini oluşturan, ampirik olarak ispatlanmadan doğru olduğu farz edilen önermelere sayıltı veya varsayım denir."
+        },
+        {
+            "id": 10,
+            "text": "\tÖğrencilerin ortaokul mezuniyet puanlarına bakılarak, gelecekteki lise giriş sınavı başarılarının önceden tahmin edilmesini (kestirilmesini) amaçlayan nicel bir çalışma tasarlanmıştır.\n\n---\n\nDeğişkenler arasındaki ilişkilere dayanarak gelecekteki durumu tahmin etmeye çalışan bu araştırma deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Betimsel tarama",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Nedensel-karşılaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eylem araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Keşfedici korelasyonel",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yordayıcı korelasyonel",
+                    "correct": true
+                }
+            ],
+            "explanation": "Değişkenler arasındaki ilişkilere dayanarak bir değişkenin değeriyle diğerinin (gelecekteki) değerini tahmin (yordama) etmeye yönelik çalışmalar yordayıcı korelasyonel desenlerdir."
+        },
+        {
+            "id": 11,
+            "text": "\tNitel bir çalışmada, araştırmacının çalışma ortamında uzun aylar geçirerek katılımcıların doğal davranışlarına aşina olması ve kendi önyargılarını kontrol etmeyi başarması inandırıcılığı artıran önemli bir unsurdur.\n\n---\n\nBu durum nitel araştırmaların geçerliğini sağlama stratejilerinden hangisiyle ifade edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzun süreli etkileşim",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Katılımcı teyidi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uzman incelemesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dışsal genellenebilirlik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Üçgenleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının sahada uzun süre kalarak deneklerin yapay davranışlardan kurtulmasını ve gerçeği yansıtmasını sağlaması uzun süreli etkileşim (prolonged engagement) olarak adlandırılır."
+        },
+        {
+            "id": 12,
+            "text": "\tBir öğretmenin sınavda sadece yazısı güzel olan öğrencilere, cevapların doğruluğundan bağımsız olarak fazladan 5'er puan vermesi ölçme sonuçlarının güvenirliğini ve geçerliğini etkilemektedir.\n\n---\n\nÖlçülen büyüklüğe veya kişinin özelliklerine bağlı olarak değişebilen bu hata türü aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sabit hata",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Sistematik hata",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Tesadüfi hata",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Geçerlik hatası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Örneklem hatası",
+                    "correct": false
+                }
+            ],
+            "explanation": "Hatanın ölçülen büyüklüğe veya kişinin özelliklerine (yazı güzelliği gibi) bağlı olarak belli bir kuralla sadece bazı kişilere farklı miktarlarda karışması sistematik hatadır."
+        },
+        {
+            "id": 13,
+            "text": "\tBağımlı değişken üzerinde aynı zamanda iki ya da daha fazla bağımsız değişkenin (faktörün) etkisinin ve bu değişkenlerin ortak (etkileşim) etkilerinin aynı istatistiksel model içinde test edilebildiği gelişmiş deneysel desenler bulunmaktadır.\n\n---\n\nYukarıda özellikleri verilen bu deneysel desen aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Zaman serisi deseni",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Statik grup karşılaştırmalı desen",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Faktöryel desen",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Öntest-sontest kontrol gruplu desen",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sontest eşleştirilmiş kontrol gruplu desen",
+                    "correct": false
+                }
+            ],
+            "explanation": "Birden fazla bağımsız değişkenin (faktörün) bağımlı değişken üzerindeki temel ve ortak (etkileşim) etkilerinin aynı modelde test edildiği desenler faktöryel desenlerdir."
+        },
+        {
+            "id": 14,
+            "text": "\tNitel verilerin analizinde, metinlerin sadece önceden belirlenmiş kategorilere göre özetlenmekle kalmayıp; verilerin derinlemesine incelenerek satır aralarından yepyeni kavramların ve temaların keşfedildiği tümevarımsal bir süreç izlenir.\n\n---\n\nVerilerin bu şekilde derinlemesine işlendiği analitik sürece ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çıkarımsal analiz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Regresyon analizi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Betimsel analiz",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İçerik analizi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Söylem analizi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Verilerin derinlemesine kodlanarak altında yatan kavramsal ilişkilerin ve temaların tümevarımsal olarak ortaya çıkarıldığı analiz yaklaşımı içerik analizidir."
+        },
+        {
+            "id": 15,
+            "text": "\tBilimsel yöntemin aşamaları dikkate alındığında; gözlem ve deneyin yapıldığı, verilerin toplanıp ölçüldüğü sürece 'Olgusal Süreç' denirken; elde edilen bulguları anlaşılır hale getirme aşamasına farklı bir isim verilir.\n\n---\n\nToplanan verilerden yola çıkarak hipotez, kuram ve yasaların oluşturulduğu bu ikinci sürece ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Deneme-yanılma süreci",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Paradigma süreci",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İstatistiksel süreç",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tümdengelim süreci",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuramsal süreç",
+                    "correct": true
+                }
+            ],
+            "explanation": "Olgusal süreçte toplanan verilerin açıklanması, mantıksal ve kavramsal genellemelere (kuram, yasa) dönüştürülmesi kuramsal süreçtir (anlama ve açıklama)."
+        },
+        {
+            "id": 16,
+            "text": "\tGeliştirilen bir işe alım testinden yüksek puan alan adayların, işe alındıktan sonra da beklenen şekilde yüksek performans göstermeleri ve aralarında anlamlı bir korelasyon bulunması testin kalitesini kanıtlamaktadır.\n\n---\n\nElde edilen bu sonuç, söz konusu testin öncelikle hangi geçerlik türünün yüksek olduğunu gösterir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yordama geçerliği",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kapsam geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eşzaman (Uygunluk) geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Görünüş geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yapı geçerliği",
+                    "correct": false
+                }
+            ],
+            "explanation": "Testten elde edilen puanların gelecekteki bir performansı ya da davranışı doğru şekilde tahmin (kestirim) edebilme gücü yordama geçerliğidir."
+        },
+        {
+            "id": 17,
+            "text": "\tKarma araştırma desenlerinden birinde, araştırmacı ağırlıklı olarak geniş çaplı bir nicel deneysel çalışma yürütürken; deneyin bazı sonuçlarını desteklemek ve zenginleştirmek amacıyla sürecin içine küçük çaplı nitel görüşmeler yerleştirir.\n\n---\n\nBu özelliklere sahip olan karma araştırma deseni hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Açıklayıcı desen",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Gömülü desen",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Keşfedici desen",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Eylem araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuram oluşturma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nicel veya nitel bir desenin ana çerçeve olduğu, diğer yöntemin ise bu ana desene destekleyici veri sağlamak üzere içine yerleştirildiği yapı gömülü desendir (embedded design)."
+        },
+        {
+            "id": 18,
+            "text": "\tNitel bir araştırmanın bulgularının yorumlanmasında, araştırmacının sadece kendi bakış açısıyla yetinmeyip, toplanan verileri farklı literatür görüşleri ve çeşitli kuramsal çerçeveler ışığında çaprazlayarak analiz etmesi güçlü bir doğrulama sağlar.\n\n---\n\nFarklı kuramların kullanıldığı bu yaklaşım hangi üçgenleme (çeşitleme) türüdür?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri kaynaklı üçgenleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Araştırmacı üçgenlemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Teori üçgenlemesi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Yöntem üçgenlemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Zaman üçgenlemesi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Verileri açıklamak için birden fazla teorik çerçevenin (perspektifin) kullanıldığı çok boyutlu çeşitleme türü teori üçgenlemesidir."
+        },
+        {
+            "id": 19,
+            "text": "\tBir anket geliştirilirken, anket formunun çeşitli alt bölümlerden oluştuğu ve her bölümün ayrı bir işlevi olduğu görülür.\n\n---\n\nSoruların nasıl cevaplandırılacağına ilişkin kuralların ve anketi dolduran kişiye rehberlik edecek açıklayıcı bilgilerin yer aldığı bölüme ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sunuş yazısı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hipotez cümlesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Madde havuzu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yönerge",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Kapak sayfası",
+                    "correct": false
+                }
+            ],
+            "explanation": "Katılımcılara soruları yanıtlarken izleyecekleri ilke ve kuralları gösteren bilgilendirme bölümü \"Yönerge\" olarak isimlendirilir."
+        },
+        {
+            "id": 20,
+            "text": "\tAraştırmacı, incelediği problemle ilgili evrende yer alan durumlardan, özellik bakımından birbirinden çok farklı (çeşitli) olanları bilerek seçip, bu zıtlıklar arasındaki ortak örüntüleri veya ayrılan yönleri görmek istemektedir.\n\n---\n\nKendi içinde benzeşik ama evren genelinde çok farklı özelliklere sahip durumların bir arada çalışılmasını sağlayan örnekleme yöntemi hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kartopu örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kritik durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tipik durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Aykırı durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Maksimum çeşitlilik örneklemesi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kendi içinde benzeşik ama evren genelinde birbirinden çok farklı özelliklere sahip durumların bilerek seçilerek ortak veya ayrılan yönlerinin tespit edilmesini sağlayan yaklaşım maksimum çeşitlilik örneklemesidir."
+        }
+    ]
+}

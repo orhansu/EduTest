@@ -235,7 +235,7 @@
         },
         {
             "id": 8,
-            "text": "IEEE 802.11 MAC çerçevesinde 'DS\\'ye (To DS)' alanı 1 ve 'DS\\'den (From DS)' alanı 0 değerini taşıyorsa, bu çerçevenin akış yönü hakkında ne söylenebilir?",
+            "text": "IEEE 802.11 MAC çerçevesinde 'DS'ye (To DS)' alanı 1 ve 'DS'den (From DS)' alanı 0 değerini taşıyorsa, bu çerçevenin akış yönü hakkında ne söylenebilir?",
             "choices": [
                 {
                     "label": "A",

@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "e2f7b4c1-9a8d-4f3e-8c5a-1b2d3e4f5a6b",
+        "title": "test 11",
+        "subject": "test 11",
+        "topic": "Veri Madenciliği Genel Değerlendirme ve Algoritmalar",
+        "difficulty": "Karışık (%30 Kolay, %50 Orta, %20 Zor)",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Büyük veri (Big Data) tanımlamasında kullanılan '3V' bileşenlerinden 'Hız (Velocity)' kavramı aşağıdakilerden hangisini ifade etmektedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Verinin sisteme sürekli ve çok yüksek hızda akarak iletilmesini.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Verinin fiziksel boyutunun ve kapladığı alanın çok büyük olmasını.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Verinin sensör, metin, video gibi heterojen formatlarda çeşitlilik göstermesini.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Verinin kalitesinin ve doğruluğunun istatistiksel olarak güvenilir olmasını.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Elde edilen sonuçların ticari değere dönüşme hızını.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Kolay. Büyük veride 3V konsepti Hacim (Volume), Çeşitlilik (Variety) ve Hız (Velocity) bileşenlerinden oluşur. Hız, verinin durmaksızın ve çok yüksek bir hızda akmasını (üretilmesini) ifade eder."
+        },
+        {
+            "id": 2,
+            "text": "Karar Ağacı algoritmalarından C4.5'te dallanma kriteri olarak kullanılan 'Kazanç Oranı (Gain Ratio)' ölçütünün geliştirilme amacı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sayısal (sürekli) verilerde algoritmanın yalnızca ikili (binary) test yapmasını sağlamak.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Alt dal sayısı çok olan benzersiz özellikleri (örneğin Müşteri ID) kayıran 'Bilgi Kazancı' metodunu SplitINFO ile cezalandırmak.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Gini İndeksi hesaplamalarındaki logaritmik karmaşıklığı ortadan kaldırarak hızı artırmak.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Aşırı öğrenmeyi (overfitting) tamamen engelleyerek her yaprakta eşit kayıt bulunmasını garanti altına almak.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sadece tek sınıfa sahip veri kümelerinde sıfıra bölünme hatasını (division by zero) engellemek.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Kolay. Bilgi Kazancı (Information Gain) metriği, Müşteri ID gibi benzersiz (çok dallı) özellikleri en iyi ayırıcı zannedip kayırır. Kazanç Oranı, bu aşırı dallanmanın kendi entropisini formüle katarak bu adil olmayan durumu cezalandırır."
+        },
+        {
+            "id": 3,
+            "text": "Birliktelik kuralları analizinde $X \\to Y$ kuralı için hesaplanan 'Güven (Confidence)' değeri kavramsal olarak neyi ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İlgili elemanların tüm veri tabanında (işlemlerde) görülme sıklığını.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Toplam işlem hacmindeki X elemanının Y elemanına oranını.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "X ürününü alan (veya barındıran işlemlerin) müşterilerin yüzde kaçının Y ürününü de aldığını.",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Kuralın istatistiksel standart hata payının logaritmik karşılığını.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Birbirini alan ürünlerin marketin günlük toplam cirosuna yaptığı katkıyı.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Kolay. Güven (Confidence), X ve Y'nin birlikte görülme sayısının sadece X'in görülme sayısına oranıdır; yani X'i içeren kayıtların ne kadarının Y'yi de içerdiğini koşullu olasılıkla gösterir."
+        },
+        {
+            "id": 4,
+            "text": "Sınıflandırma yöntemlerinden k-En Yakın Komşu (k-NN) algoritmasının literatürde 'Tembel Öğrenici (Lazy Learner)' olarak adlandırılmasının temel nedeni nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Karar mekanizmasında her zaman K değerini 1 olarak kabul edip diğer ihtimalleri atlaması.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Eğitim verisinden sadece rastgele küçük bir örneklem alarak modeli eksik kurması.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uzaklık metriklerini kullanamadığı için sadece kategorik veriler üzerinde çalışabilmesi.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Eğitim aşamasında açık bir model (ağaç veya kural seti) kurmayıp, tüm mesafe hesaplamalarını test verisi ulaştığı anda anlık olarak yapması.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Zaman karmaşıklığının $O(1)$ düzeyinde kalarak detaylı analiz yapamaması.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Kolay. k-NN, istekli öğreniciler (eager learners) gibi bir eğitim modeline (karar ağacı vb.) sahip değildir. Veriyi olduğu gibi hafızada tutar ve işlem yapmak için test verisinin sisteme girmesini 'tembelce' bekler."
+        },
+        {
+            "id": 5,
+            "text": "Bölümlemeli (partitional) kümeleme yaklaşımı olan K-Ortalamalar (K-Means) algoritması çalıştırılmadan önce, kullanıcının sisteme dışarıdan girmesi mecburi olan temel parametre aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Bir noktanın etrafındaki minimum komşu sayısı (MinPts).",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Hiyerarşik dendrogram ağacının kesileceği maksimum derinlik değeri.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Etki alanını belirleyen dairesel yarıçap (Epsilon) sınırı.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Birliktelik kuralları için gereken minimum destek (minsup) eşik değeri.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Veri setinin başlangıçta hedeflenen toplam küme sayısı (K).",
+                    "correct": true
+                }
+            ],
+            "explanation": "Zorluk: Kolay. K-Ortalamalar algoritması, ismindeki 'K' harfinden de anlaşılacağı üzere, veriyi kaç kümeye ayırması gerektiğini otomatik tahmin edemez; K değeri dışarıdan parametre olarak zorunlu verilir."
+        },
+        {
+            "id": 6,
+            "text": "Birliktelik kurallarında aday sayısını (hesaplama maliyetini) budayarak düşürmek için kullanılan Apriori algoritmasının temel aldığı 'Anti-Monotonluk' özelliği neyi ifade eder?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eğer bir eleman kümesi veri tabanında sık (frequent) ise, o kümeyi oluşturan bütün alt kümelerin de sık olması zorunludur.",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sık olmayan farklı elemanların birleştirilmesi işlemi her zaman yepyeni sık bir küme oluşturur.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Market işlemlerindeki ürün çeşidi (sepet boyutu) arttıkça, o kuralın destek değeri lineer olarak yükselir.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Bulunan kuralın güven (confidence) oranı, her koşulda destek (support) değerinden büyüktür.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sık aday kümeler yalnızca tekil ürünlerin birleştirilmesinden elde edilebilir, çoklu yapılar parçalanamaz.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Orta. Apriori anti-monotonluk prensibi der ki; büyük bir ürün kümesi sıklık eşiğini geçiyorsa (destek değeri yüksekse), onu oluşturan daha küçük yapı taşlarının (alt kümelerin) frekansı da kesinlikle yüksektir."
+        },
+        {
+            "id": 7,
+            "text": "Yoğunluk tabanlı kümeleme metodu DBSCAN algoritmasında, incelenen bir veri noktasının 'Merkez Nokta' (Core Point) olarak etiketlenebilmesi için gereken ana koşul nedir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hiyerarşik dendrogram yapısında sadece kök (root) düğümünde tekil olarak kalması.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Belirlenen bir $\\epsilon$ (Epsilon) yarıçapı içerisinde, en az belirlenen 'MinPts' (minimum nokta sayısı) kadar veya daha fazla komşu barındırması.",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Uzaydaki diğer tüm noktalara olan ortalama Öklid mesafesinin $0$'a çok yakın olması.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sadece sınır noktalarından (border points) oluşan tamamen izole bir gürültü bölgesi içinde konumlanması.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kümeleme işlemi bittikten sonra kendi kümesinde en yüksek Hata Kareler Toplamına (SSE) sahip olması.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Orta. DBSCAN'de noktanın Merkez (Core) kabul edilebilmesi için Eps yarıçapı içerisinde MinPts parametresiyle belirlenen yoğunluk (komşu) miktarını karşılaması gerekir."
+        },
+        {
+            "id": 8,
+            "text": "Veri madenciliğinde özellikler arasında değer adaletini sağlamak için Min-Max normalizasyon formülü $X^* = \\frac{X - X_{min}}{X_{max} - X_{min}}$ uygulanır. Bir öznitelik için veritabanındaki minimum değer $10$, maksimum değer $50$'dir. Buna göre değeri $30$ olan bir kaydın normalize edilmiş ($X^*$) değeri kaç çıkar?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.25$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.40$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.50$",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "$0.60$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0.75$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Orta. Formüldeki değerler yerine koyulduğunda: $(30 - 10) / (50 - 10) = 20 / 40 = 0.50$ sonucu elde edilir."
+        },
+        {
+            "id": 9,
+            "text": "İki nokta arasındaki mesafeyi ölçmekte kullanılan Manhattan (Blok) uzaklığı formülüne göre, koordinat düzlemindeki $A(2, 5)$ ve $B(6, 8)$ noktaları arasındaki uzaklık kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$3$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$4$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$5$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$7$",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "$12$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Orta. Manhattan uzaklığı, X ve Y koordinatları arasındaki farkların mutlak değerlerinin doğrudan toplamıdır. $|2 - 6| + |5 - 8| = |-4| + |-3| = 4 + 3 = 7$ birim."
+        },
+        {
+            "id": 10,
+            "text": "Sınıflandırma modellerinde düğümün safsızlığını ölçen 'Yanlış Sınıflandırma Hatası' formülü $Error(t) = 1 - \\max P(i|t)$ şeklindedir. Bir karar ağacı alt düğümünde toplam $10$ adet kayıt bulunmaktadır. Bu kayıtların $7$ tanesi $C_1$ sınıfına, $3$ tanesi ise $C_2$ sınıfına aittir. Bu düğümün hata (error) oranı kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.70$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.50$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.40$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.21$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0.30$",
+                    "correct": true
+                }
+            ],
+            "explanation": "Zorluk: Orta. Yanlış sınıflandırma hatası hesabında, çoğunluk sınıfının (baskın sınıfın) olasılığı 1'den çıkarılır. $C_1$ sınıfının olasılığı $7/10 = 0.70$'tir. Hata = $1 - 0.70 = 0.30$ olarak hesaplanır."
+        },
+        {
+            "id": 11,
+            "text": "Karar ağaçlarında saflığı hesaplayan Gini İndeksi $GINI(t) = 1 - \\sum P_j^2$ formülü ile bulunur. İki sınıflı ('EVET' ve 'HAYIR') bir problemde, incelenen bir düğümde toplam $5$ kayıt bulunmakta olup, bu kayıtların $4$ tanesi 'EVET', $1$ tanesi 'HAYIR' sınıfındadır. Bu düğümün Gini İndeksi değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.32$",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "$0.50$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.68$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.16$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$0.25$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Orta. Sınıf oranları $p_{evet} = 4/5$, $p_{hayir} = 1/5$. Gini = $1 - ((4/5)^2 + (1/5)^2) = 1 - (16/25 + 1/25) = 1 - 17/25 = 8/25 = 0.32$."
+        },
+        {
+            "id": 12,
+            "text": "İki sınıfın (Örneğin; $C_1$ ve $C_2$) bulunduğu bir sınıflandırma algoritmasında, bir karar ağacı düğümündeki veriler her iki sınıfa da tam eşit oranda (%50 - %50) dağılmış durumdadır. Düğümün safsızlık derecesini ölçen Entropi formülü uygulandığında ($Entropy(t) = -\\sum p_j \\log_2 p_j$) elde edilecek sonuç kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.0$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$1.0$",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "$0.5$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$0.25$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$-1.0$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Orta. İki sınıflı problemlerde veriler tam yarı yarıya (%50) dağıldığında safsızlık/karmaşa en üst (maksimum) noktasına ulaşır. Formül hesabı: $-(0.5 \\log_2 0.5 + 0.5 \\log_2 0.5) = -(-0.5 - 0.5) = 1.0$ çıkar."
+        },
+        {
+            "id": 13,
+            "text": "Aglomeratif (Aşağıdan Yukarıya) Hiyerarşik Kümeleme yöntemlerinden biri olan 'Min (Tek Bağlantı - Single Linkage)' algoritmasının literatürde bilinen en büyük zafiyeti (dezavantajı) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mesafe grafiği olarak dendrogram üretemeyip sadece metin bazlı döküm vermesi.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Uzaklıkları hesaplarken sadece kategorik verilerle sınırlı kalması ve sayısal verilerde hata vermesi.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Gürültüye (aykırı değerlere) karşı çok duyarlı olup, arada kalan birkaç noktayı köprü olarak kullanarak birbirinden bağımsız büyük kümeleri hatalı şekilde birbirine zincirlemesi (chaining).",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Zaman karmaşıklığının $O(N)$ seviyesine düşerek analizi oldukça yüzeysel bırakması.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kullanıcıdan algoritma başlamadan önce kesin bir K (küme) sayısını talep etmesi.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Orta. Min algoritması, kümeler arasındaki en kısa mesafeyi referans aldığı için aralara düşmüş gürültü (aykırı) noktalar üzerinden geçerek iki farklı yoğunluğu tek ve büyük bir küme gibi istenmeyen şekilde birbirine zincirleyebilir."
+        },
+        {
+            "id": 14,
+            "text": "Bölümlemeli kümeleme tekniği olan K-Ortalamalar (K-Means) algoritmasının veri taramaları sırasında, rastgele atanmış olan bir ağırlık merkezine hiçbir verinin düşmemesi ile oluşan 'Boş Küme (Empty Cluster)' sorunuyla karşılaşıldığında, yaygın olarak uygulanan teknik çözüm aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veritabanındaki diğer tüm aykırı noktaları (outliers) toplayarak bu boş merkeze bağlamak ve suni bir grup yaratmak.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Algoritmanın çalışmasını durdurup K sayısını 1'e indirgeyerek veritabanını tek kümeye dönüştürmek.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Boş kalan bu merkezi silmek ve genel kümeleme boyutu (K) sayısını kalıcı olarak düşürmek.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Veri tabanında Hata Kareler Toplamı (SSE) varyansı en yüksek ve en dağınık olan kümeden rastgele bir nokta seçip, onu boşalan merkezin yeni konumu olarak atamak.",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Eksik verileri doldurmak için gürültülü (noise) noktaları sentetik yollarla çoğaltarak (oversampling) veritabanına sokmak.",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Orta. Boş küme problemine çözüm olarak; hatası (dağınıklığı / SSE skoru) en fazla olan kümeden bir veya daha fazla nokta kopartılıp boşalan merkeze temsilci olarak gönderilerek merkez yeniden boyutlandırılır."
+        },
+        {
+            "id": 15,
+            "text": "Yoğunluk tabanlı ve popüler bir anormallik tespiti algoritması olan LOF (Local Outlier Factor) yaklaşımının çalışma ve puanlama prensibi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Veri uzayındaki her noktanın ortak ağırlık merkezine olan Öklid uzaklıklarını hesaplayıp uzaklık ortalamasının üzerinde kalanları silmek.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Verilerin Poisson ve Gaussian dağılımına uyup uymadığını kontrol ederek dağılım dışında kalan %5'lik kısmı atlamak.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Uzaklıkları bulurken yalnızca en yakınındaki tek (birinci) komşuya olan mutlak mesafeyi hesaba katmak.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Oluşturulan sınıflandırma karar ağaçlarında yaprak düğümlere yanlış tahminle atanan verileri doğrudan anomali kabul etmek.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Bir noktanın kendi etrafındaki bölgesel yoğunluğunu, yerel (k-en yakın) komşularının yoğunluklarıyla oranlayıp bağıl (göreceli) bir aykırılık skoru üretmek.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Zorluk: Orta. LOF algoritması (Yerel Aykırılık Faktörü), anormalliğin çevresel ve göreceli (local) bir durum olduğunu temel alır. Bir noktanın yoğunluğunu komşularının barındırdığı yoğunlukla kıyaslayarak oransal bir skor çıkartır."
+        },
+        {
+            "id": 16,
+            "text": "Birliktelik kuralı madenciliğinde, toplamda $d = 3$ adet benzersiz (tekil) ürün içeren bir süpermarket veritabanında; frekans ve destek budaması yapılmadan tamamen teorik olarak (kaba kuvvet / brute-force ile) üretilebilecek tüm olası birliktelik kuralı sayısı ($R$) kaçtır? (Formül: $R = 3^d - 2^{d+1} + 1$)",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$12$",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "$25$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$81$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$50$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$15$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Zor. Tüm muhtemel kural sayısını hesaplayan kombinatoryal formül $R = 3^d - 2^{d+1} + 1$'dir. Sorudaki $d=3$ değeri yerine konulduğunda: $3^3 - 2^4 + 1 = 27 - 16 + 1 = 12$ olası kural çıkar."
+        },
+        {
+            "id": 17,
+            "text": "Tek değişkenli verilerde istatistiksel bir anormallik tespiti gerçekleştiren Grubbs Testi formülü $G = \\frac{\\max|X - \\overline{X}|}{s}$ şeklindedir. İlgili veri kümesinde ortalama $40$, standart sapma ($s$) $4$ olarak hesaplanmıştır. Gözlemlerden birinin değeri $60$ ise bu nokta için Grubbs ($G$) test istatistiği skoru kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.2$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$5.0$",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "$16.0$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "$24.0$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$80.0$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Zor. Grubbs testinde mutlak sapma miktarı standart sapmaya bölünür. Sapma: $|60 - 40| = 20$. G istatistiği = $20 / 4 = 5.0$ olarak hesaplanır."
+        },
+        {
+            "id": 18,
+            "text": "Sınıflandırma modellemelerinden CART içerisinde yer alan 'Twoing Algoritması', bir aday bölünmenin uygunluğunu (goodness) ölçen özel bir $\\Phi(s|t)$ fonksiyonu kullanır. Yapılan bir testte sol dalın olasılığı $P_{Sol} = 0.2$, sağ dalın olasılığı $P_{Sağ} = 0.8$ ve sınıflar arası mutlak olasılık farkları toplamı $\\sum |P(j|t_{Sol}) - P(j|t_{Sağ})| = 1.0$ olduğuna göre hesaplanan $\\Phi(s|t)$ uygunluk değeri kaçtır?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "$0.16$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "$0.64$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "$0.32$",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "$0.80$",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "$1.00$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Zor. Twoing uygunluk fonksiyonu formülü $\\Phi(s|t) = 2 \\times P_{Sol} \\times P_{Sağ} \\times Farklar Toplamı$ biçimindedir. Değerler yerine konulduğunda: $2 \\times 0.2 \\times 0.8 \\times 1.0 = 0.32$ olarak bulunur."
+        },
+        {
+            "id": 19,
+            "text": "Klasik (yakınlık matrisi tabanlı) Aglomeratif (Aşağıdan Yukarıya) Hiyerarşik Kümeleme algoritmasının analiz edeceği $N$ adet veri noktası için işlemci bazında tükettiği 'Zaman (Time)' ve bellekte kapladığı 'Alan (Space)' karmaşıklık seviyeleri teorik literatürde tipik olarak hangi mertebede kabul edilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Zaman: $O(N \\log N)$ — Alan: $O(N)$",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Zaman: $O(N)$ — Alan: $O(N^2)$",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Zaman: $O(N^2)$ — Alan: $O(N^2)$",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Zaman: $O(N^3)$ — Alan: $O(N^2)$",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Zaman: $O(N^2)$ — Alan: $O(N^3)$",
+                    "correct": false
+                }
+            ],
+            "explanation": "Zorluk: Zor. Standart hiyerarşik kümeleme algoritmaları, işe başlarken verilerin birbirine uzaklıklarını tutan $N \\times N$ boyutunda bir matris oluşturur (Alan karmaşıklığı $O(N^2)$). Birleşme oldukça bu matrisin taranıp güncellenmesi nedeniyle iterasyonların toplam zaman karmaşıklığı $O(N^3)$ düzeyine ulaşır."
+        },
+        {
+            "id": 20,
+            "text": "Karar destek sistemleri analitiğinde kullanılan Veri Ambarı (Data Warehouse) yapısı ile günlük rutinleri işleten OLTP (On-Line Transaction Processing) sistemleri karşılaştırıldığında, veri ambarını tanımlayan en belirgin teknik fark aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sürekli güncellenen anlık verilere sahip olup insert/update/delete işlemlerine çok sık maruz kalması.",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tarihsel geçmişe dönük kayıtlara kesinlikle yer vermemesi ve sadece o günün bilgisini taşıması.",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Disk üzerinde çok az yer kaplaması ve genellikle $1$-$2$ Gigabayt ile sınırlı olması.",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Genel işletme konularına değil, tek bir departmanın lokal uygulama mimarisine odaklanmış olması.",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tarihsel (zaman boyutlu), heterojen kaynaklardan süzülmüş bütünleşik ve analiz için çoğunlukla sadece okunabilir (read-only) yapıda olması.",
+                    "correct": true
+                }
+            ],
+            "explanation": "Zorluk: Kolay. OLTP sistemleri günlük, anlık değişen yoğun işlem yapılarını yönetir. Veri ambarları ise kurumsal analiz ve madencilik amaçlı kullanıldığı için tarihsel veri barındırır, bütünleşiktir ve ağırlıklı olarak sadece okuma (analiz) üzerine optimize edilmiştir."
+        }
+    ]
+}

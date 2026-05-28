@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "5032df37-12c8-472e-8af1-a83a45c3bf79",
+        "title": "test 10",
+        "subject": "test 10",
+        "topic": "Osmanlı Devleti Kültür ve Medeniyeti",
+        "difficulty": "Orta",
+        "grade": "KPSS",
+        "created": "2026-05-27"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "\tOsmanlı Devleti'nde askeri teşkilatlanma süreci kuruluş döneminden itibaren başlamış ve ihtiyaçlar doğrultusunda geliştirilmiştir.\n\n---\n\nBuna göre Orhan Bey döneminde kurulan ve Osmanlı Devleti'nin 'ilk düzenli ordusu' kabul edilen birlik aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Yaya ve Müsellem",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kapıkulu Piyadeleri",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Akıncılar",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Cebeci Ocağı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tımarlı Sipahiler",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı Devleti'nin ilk düzenli ordusu Orhan Bey döneminde kurulan Yaya ve Müsellem birlikleridir."
+        },
+        {
+            "id": 2,
+            "text": "\tOsmanlı hukuk sisteminde kadılar adaleti tesis etmenin yanı sıra idari ve sosyal birçok görev üstlenmiştir.\n\n---\n\nBuna göre kadıların mahkemelerde ölen kişilerin mirasçılık durumlarını ve bıraktıkları malların paylaşımını kaydettikleri deftere ne ad verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tahrir Defteri",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Tereke Defteri",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Mühimme Defteri",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Şeriye Sicilleri",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Avarız Defteri",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı'da vefat eden kişilerin miras paylaşımlarının kadılar tarafından kayıt altına alındığı defterlere Tereke defteri denir."
+        },
+        {
+            "id": 3,
+            "text": "\tOsmanlı mimarisinde padişahlar tarafından yaptırılan büyük camilere 'Selatin Camiler' denir. Bunların bazılarının mimari özellikleri dünyaca ün kazanmıştır.\n\n---\n\nMimarı Sedefkar Mehmet Ağa olan, içindeki çinilerinden dolayı Avrupalılar tarafından 'Blue Mosque' (Mavi Cami) olarak adlandırılan ve Osmanlı'nın 'ilk 6 minareli' camisi olan eser aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Süleymaniye Camii",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Selimiye Camii",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sultan Ahmet Camii",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Fatih Camii",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Nuruosmaniye Camii",
+                    "correct": false
+                }
+            ],
+            "explanation": "I. Ahmet döneminde Sedefkar Mehmet Ağa'ya yaptırılan Sultan Ahmet Camii, 6 minaresi ve mavi çinileriyle (Blue Mosque) ünlüdür."
+        },
+        {
+            "id": 4,
+            "text": "\tOsmanlı Devleti'nde mülkiyeti devlete ait olan miri araziler, kullanım amaçlarına ve gelirlerinin tahsis edildiği kişilere göre kısımlara ayrılmıştır.\n\n---\n\nBuna göre, devlete üstün hizmetlerde bulunmuş yöneticilere emekli olduklarında ek gelir sağlamak amacıyla tahsis edilen toprak çeşidi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Paşmaklık",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mukataa",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Malikane",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Arpalık",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Dirlik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı'da üst düzey devlet memurlarına ve ulemaya emekliliklerinde tahsis edilen veya ek gelir olarak verilen topraklara 'Arpalık' denirdi."
+        },
+        {
+            "id": 5,
+            "text": "\tFatih Sultan Mehmet dönemi, bilim ve sanat açısından büyük ilerlemelerin yaşandığı bir dönem olmuş, birçok önemli bilim insanı yetişmiştir.\n\n---\n\nFatih Sultan Mehmet'in hocalığını yapan, aynı zamanda 'Maddetü'l Hayat' adlı eserinde mikropları keşfederek 'mikrobiyolojinin babası' kabul edilen ünlü tıp bilgini aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sabuncuoğlu Şerafeddin",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Altuncuzade",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İbn-i Sina",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ali Kuşçu",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Akşemseddin",
+                    "correct": true
+                }
+            ],
+            "explanation": "Akşemseddin, Fatih'in hocası olmasının yanı sıra mikrop üzerine yaptığı çalışmalarla da bilinen ve mikrobu (canlı tohum) tarif eden ünlü bilgindir."
+        },
+        {
+            "id": 6,
+            "text": "\tOsmanlı ekonomisinde devlet, halkın refahını sağlamak ve tüketiciyi korumak amacıyla piyasalara sıkı bir denetim mekanizması uygulamıştır.\n\n---\n\nBuna göre, haksız kazancı ve karaborsacılığı engellemek için devletin piyasadaki ürünlerin satılabileceği 'üst fiyat sınırını' belirlemesi uygulamasına ne ad verilir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Narh Sistemi",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "İltizam Sistemi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İaşecilik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gedik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Merkantilizm",
+                    "correct": false
+                }
+            ],
+            "explanation": "Devletin, fiyatların aşırı yükselmesini engellemek için çarşı ve pazarda satılacak temel tüketim mallarına koyduğu üst fiyat sınırına Narh denir."
+        },
+        {
+            "id": 7,
+            "text": "\tXVII. yüzyılda yaşayan Osmanlı bilginleri, çeşitli bilim dallarında çok önemli eserler bırakmış ve dönemin ilmi sorunlarına çözümler aramışlardır.\n\n---\n\nGördüğü bir rüyadaki \"Şefaat ya Resulallah\" yerine \"Seyahat ya Resulallah\" demesiyle yollara düştüğü rivayet edilen ve tüm gözlemlerini aktardığı 'Seyahatname' adlı eseriyle dünyaca tanınan kişi kimdir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Katip Çelebi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Evliya Çelebi",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Piri Reis",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Seydi Ali Reis",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Naima Efendi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Evliya Çelebi, 17. yüzyılda Osmanlı coğrafyasının büyük bir kısmını gezerek gözlemlerini efsanevi bir dille meşhur Seyahatname eserinde anlatmıştır."
+        },
+        {
+            "id": 8,
+            "text": "\tOsmanlı Devleti'nde medreseler ilmiye sınıfının yetiştiği yükseköğretim kurumlarıdır. Fatih döneminde eğitim alanında önemli adımlar atılmış ve kurumlar sistematik hale getirilmiştir.\n\n---\n\nFatih Sultan Mehmet döneminde açılan Sahn-ı Seman medreselerine 'öğrenci yetiştirmek' (hazırlık okulu işlevi görmek) amacıyla kurulan eğitim kurumu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Enderun Mektebi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Darü'l Kurra",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Tetimme Medreseleri",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Sıbyan Mektebi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Şehzadegan Mektebi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tetimme Medreseleri, Sahn-ı Seman medresesinde eğitim görecek öğrencilerin alt yapısını oluşturmak amacıyla hazırlık seviyesinde açılmış medreselerdir."
+        },
+        {
+            "id": 9,
+            "text": "\tOsmanlı Devleti'nde deniz kuvvetleri büyük bir önem taşımaktaydı ve donanmanın başında Kaptan-ı Derya unvanlı komutan bulunurdu.\n\n---\n\nOsmanlı donanmasını Akdeniz'in en güçlü filosu haline getiren ve padişahın fermanıyla 'Divan-ı Hümayun'a asli üye olarak katılan ilk Kaptan-ı Derya aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Karamürsel Alp",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Piri Reis",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Seydi Ali Reis",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Barbaros Hayreddin Paşa",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Turgut Ali Reis",
+                    "correct": false
+                }
+            ],
+            "explanation": "Barbaros Hayreddin Paşa (Hızır Reis), Kanuni Sultan Süleyman döneminde Osmanlı donanmasının başına geçmiş ve Divan-ı Hümayun'a üye olan ilk Kaptan-ı Derya olmuştur."
+        },
+        {
+            "id": 10,
+            "text": "\tOsmanlı Devleti'nin taşra teşkilatında yer alan eyaletler, merkeze olan uzaklıklarına ve vergi toplama biçimlerine göre Salyaneli (Maaşlı) ve Salyanesiz (Maaşsız) olarak ayrılmıştır.\n\n---\n\nSalyaneli eyaletlerde tımar sistemi uygulanmaz, vergiler iltizam yoluyla toplanırdı. Buna göre aşağıdakilerden hangisi Osmanlı Devleti'ndeki 'Salyaneli eyaletlerden' biridir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Sivas",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Anadolu",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Rumeli",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Erzurum",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mısır",
+                    "correct": true
+                }
+            ],
+            "explanation": "Mısır, Cezayir, Trablusgarp, Tunus gibi merkeze uzak Kuzey Afrika eyaletlerinde tımar sistemi uygulanmaz, buralar Salyaneli (Yıllıklı) eyaletler olarak adlandırılırdı."
+        },
+        {
+            "id": 11,
+            "text": "\tOsmanlı Devleti'nin son dönemlerinde toplumun dezavantajlı kesimlerine ve savaş mağdurlarına yardım etmek amacıyla modern sosyal kurumlar açılmıştır.\n\n---\n\nYaralı ve hasta askerlere yardım maksadıyla kurulan ve günümüzde 'Kızılay' olarak faaliyetlerine devam eden Osmanlı kurumu aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hilal-i Ahmer",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Darüleytam",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Darülaceze",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Hamidiye Etfal",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Darüşşafaka",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı Hilal-i Ahmer Cemiyeti, günümüzdeki Türk Kızılayı'nın temelini oluşturan, savaş ve afet mağdurlarına yardım eden cemiyettir."
+        },
+        {
+            "id": 12,
+            "text": "\tOsmanlı Devleti'nde hukuk sistemi, şeri ve örfi kuralların yanı sıra Tanzimat döneminde Batı tarzı mahkemelerin açılmasıyla parçalı bir yapıya bürünmüştür.\n\n---\n\nOsmanlı Devleti'nin son dönemlerinden itibaren süregelen mahkemelerdeki 'hukuki ikilikleri' (çok hukukluluğu) kesin olarak ortadan kaldıran gelişme aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Mecelle'nin İlanı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "1926 Medeni Kanun'un Kabulü",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Kanun-i Esasi'nin İlanı",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Tanzimat Fermanı'nın İlanı",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sened-i İttifak'ın İmzalanması",
+                    "correct": false
+                }
+            ],
+            "explanation": "1926'da Türk Medeni Kanunu'nun kabul edilmesiyle şer'i mahkemeler ve cemaat mahkemeleri kaldırılarak hukuk sistemindeki ikilikler tamamen ortadan kaldırılmıştır."
+        },
+        {
+            "id": 13,
+            "text": "\tOsmanlı Devleti'nin ordusunda savaşçı sınıfın dışında geri hizmetlerde bulunan ve ordunun çeşitli lojistik ihtiyaçlarını karşılayan birlikler de yer almıştır.\n\n---\n\nOrdu teşkilatı içerisinde devletin atlarına ve çayırlarına bakmakla yükümlü olan, genellikle 'Hristiyan tebaadan' seçilmiş at bakıcılarına ne isim verilirdi?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Martolos",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Cerahor",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Voynuk",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Derbentçi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Saka",
+                    "correct": false
+                }
+            ],
+            "explanation": "Voynuklar, Osmanlı ordusunda genelde Balkanlardaki Hristiyanlardan seçilen ve ordunun atlarının bakımı ve çayırların korunmasıyla görevli olan askeri sınıftı."
+        },
+        {
+            "id": 14,
+            "text": "\tOsmanlı Devleti'nde bazı padişahlar devlet adamlığının yanı sıra bestekârlık veya şairlik yönleriyle de sanata büyük katkılar sunmuşlardır.\n\n---\n\nMüzik alanında büyük bir yeteneğe sahip olan ve Türk sanat müziğine 'Suzi Dilara' makamını kazandıran Osmanlı padişahı aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "II. Mahmut",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kanuni Sultan Süleyman",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Fatih Sultan Mehmet",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "III. Selim",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Sultan Abdülaziz",
+                    "correct": false
+                }
+            ],
+            "explanation": "III. Selim, sanatkar bir padişah olup ney üfleyen büyük bir bestekardır ve Türk musikisine Suzi Dilara makamını kazandırmıştır."
+        },
+        {
+            "id": 15,
+            "text": "\tOsmanlı Devleti'nde yönetici sınıf olan 'Beraya'; icra ettikleri görevlere göre Seyfiye, İlmiye ve Kalemiye olarak üç ana gruba ayrılırdı.\n\n---\n\nBürokrasi ve yazışma işlerini yürüten 'Kalemiye' sınıfı içinde aşağıdaki devlet görevlilerinden hangisi yer 'almaz'?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nişancı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Defterdar",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Reisülküttap",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Kâtipler",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kazasker",
+                    "correct": true
+                }
+            ],
+            "explanation": "Kazasker, Osmanlı Devleti'nde eğitim ve adalet işlerinden sorumlu olup Kalemiye (bürokrasi) değil, İlmiye (ulema) sınıfının en üst düzey üyelerindendir."
+        },
+        {
+            "id": 16,
+            "text": "\tOsmanlı Devleti, idaresi altındaki farklı unsurları yüzyıllar boyunca huzur ve güven içinde yönetebilmek için belirli yönetim ilkelerini benimsemiştir.\n\n---\n\nDevletin bekası için padişah, ordu, hazine, halk ve kanun unsurlarının bir denge içinde olmasını ifade eden 'Hakkaniyet Çemberi'nin temel felsefesi (nihai amacı) aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Adaletin sağlanması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Sınırların genişletilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Devlet hazinesinin dolu tutulması",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Merkezi ordunun güçlendirilmesi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tarımsal üretimin artırılması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Kınalızâde Ali Efendi'nin de eserlerinde bahsettiği Hakkaniyet Çemberi (Daire-i Adliye), devleti ayakta tutan unsurların merkezine 'adaleti' koyan bir felsefedir."
+        },
+        {
+            "id": 17,
+            "text": "\tOsmanlı Devleti'nin son dönemlerinde Batı sanatının etkisiyle resim alanında önemli gelişmeler yaşanmış ve devlet resim sanatı eğitimini teşvik etmiştir.\n\n---\n\nOsmanlı Devleti'nde 'ilk resim sergisini' açan, \"Ormanda Karaca\" adlı tablosuyla da tanınan ünlü ressam aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Osman Hamdi Bey",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Şeker Ahmet Paşa",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Nakkaş Sinan Bey",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Mihri Müşfik",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Levni",
+                    "correct": false
+                }
+            ],
+            "explanation": "Şeker Ahmet Paşa, Sultan Abdülaziz döneminde Osmanlı Devleti'nde ilk resim sergisini açan ve natürmort/manzara tablolarıyla bilinen öncü ressamlardandır."
+        },
+        {
+            "id": 18,
+            "text": "\tOsmanlı Devleti taşra teşkilatında yer alan bazı eyaletler, bulundukları bölgenin tarihi, stratejik özelliklerinden dolayı iç işlerinde serbest olan özel imtiyazlara sahipti.\n\n---\n\nBuna göre, Osmanlı yönetiminde \"İki Memleket\" anlamına gelen 'Memleketeyn' ismiyle anılan ve yöneticilerine Voyvoda denilen imtiyazlı eyaletler aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Hicaz ve Yemen",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kırım ve Bosna",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eflak ve Boğdan",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Tunus ve Cezayir",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Mısır ve Trablusgarp",
+                    "correct": false
+                }
+            ],
+            "explanation": "Osmanlı Devleti'nde iç işlerinde serbest bırakılan imtiyazlı eyaletlerden Eflak ve Boğdan'a birlikte 'Memleketeyn' adı verilmekteydi."
+        },
+        {
+            "id": 19,
+            "text": "\tOsmanlı Devleti'nin merkez teşkilatı olan Divan-ı Hümayun'da her üyenin idari, askeri veya mali konularda farklı görev alanları bulunmaktaydı.\n\n---\n\nFethedilen bölgelerin arazilerini 'Tahrir defterlerine' kaydetmek ve dirlik (ikta/tımar) topraklarının dağıtımını gerçekleştirmekle görevli olan divan üyesi aşağıdakilerden hangisidir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Defterdar",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Veziriazam",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kazasker",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nişancı",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Şeyhülislam",
+                    "correct": false
+                }
+            ],
+            "explanation": "Nişancı, padişahın fermanlarına tuğra çekmenin yanı sıra fethedilen toprakların kaydını tahrir defterlerine işleyen ve dirliklerin dağıtımını yapan bürokrattır."
+        },
+        {
+            "id": 20,
+            "text": "\tOsmanlı ekonomisinde uzun yıllar madeni paralar kullanılmış ancak 19. yüzyılda artan mali ihtiyaçlar ve Batılılaşma çabalarıyla kağıt para basımına geçilmiştir.\n\n---\n\nSultan Abdülmecid döneminde basılan Osmanlı Devleti'nin 'ilk kâğıt parasına' ne ad verilmiştir?",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Akçe",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Mecidiye",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sikke-i Hasene",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sultani",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kaime",
+                    "correct": true
+                }
+            ],
+            "explanation": "Osmanlı Devleti'nin ilk kâğıt parası (banknotu) Sultan Abdülmecid döneminde 'Kaime-i Mutebere' adıyla basılmıştır."
+        }
+    ]
+}

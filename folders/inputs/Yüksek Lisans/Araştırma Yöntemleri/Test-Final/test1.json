@@ -1,0 +1,653 @@
+{
+    "meta": {
+        "id": "7b8d4f9c-3a21-4e65-8b1a-9f0c2d3e4a5b",
+        "title": "test 1",
+        "subject": "test 1",
+        "topic": "Araştırma Yöntemleri ve Etik - İleri Düzey Boşluk Doldurma",
+        "difficulty": "Karma",
+        "grade": "Lisans / Yüksek Lisans",
+        "created": "2026-05-24"
+    },
+    "questions": [
+        {
+            "id": 1,
+            "text": "Geniş kitlelerin görüşlerini ve özelliklerini belirlemeyi hedefleyen, hipotez test etmenin asıl odak olmadığı ancak değişkenler arası ilişkilerin incelenebildiği ve durum saptaması yapan araştırmalara .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tarama araştırması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Deneysel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Boylamsal araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Durum çalışması",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Kuram oluşturma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tarama (betimsel) araştırmaları, var olan bir durumu olduğu gibi, geniş kitlelerin görüş ve özellikleri üzerinden betimlemeyi hedefler. Temel amaç hipotez test etmekten ziyade, durumu fotoğraflayarak 'Nedir?' sorusuna yanıt bulmaktır."
+        },
+        {
+            "id": 2,
+            "text": "İki veya daha fazla değişken arasındaki birlikte değişimin yönünü ve gücünü ortaya koyan, ancak kesin bir neden-sonuç (nedensellik) ilişkisi kurmayan araştırma desenine .... adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Nedensel karşılaştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Korelasyonel araştırma",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Etnografik çalışma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gözlemsel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Eylem araştırması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Korelasyonel araştırmalar, iki veya daha çok değişken arasında bir ilişki (korelasyon) olup olmadığını ve bu ilişkinin derecesini belirler. Ancak birlikte değişim tespit edilse dahi 'biri diğerine sebep oldu' şeklinde kesin bir yargıya (nedensellik) varılamaz."
+        },
+        {
+            "id": 3,
+            "text": "Araştırmacı tarafından oluşturulan farkların bağımlı değişken üzerindeki etkisini test etmeye yönelik olan, koşullara aktif olarak müdahale (manipülasyon) edilen çalışmalara .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Olgubilim araştırması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yarı-deneysel olmayan tarama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Deneysel araştırma",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Fenomenoloji",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Belgesel tarama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Deneysel çalışmaların en ayırt edici özelliği (altın standardı), araştırmacının dışsal faktörleri kontrol altında tutarak bağımsız değişkene bizzat ve kasıtlı olarak müdahale etmesidir (manipülasyon). Neden-sonuç ilişkilerini test etmede en güçlü yöntemdir."
+        },
+        {
+            "id": 4,
+            "text": "Sosyal bilimlerde, bağımsız değişkene müdahalenin mümkün veya etik olmadığı durumlarda, önceden doğal yollarla oluşmuş gruplar arasındaki farkların nedenlerinin geriye dönük (ex-post-facto) incelendiği desene .... araştırması denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Temel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Betimsel analiz",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kesitsel araştırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Nedensel karşılaştırma",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Karma araştırma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Olay olup bittikten veya gruplar doğal olarak şekillendikten sonra, müdahale olmaksızın araştırmacının ortaya çıkmış olan durumun nedenlerini geriye dönük aradığı tasarımlar Ex-Post-Facto (Nedensel Karşılaştırma) araştırmalarıdır."
+        },
+        {
+            "id": 5,
+            "text": "Karma araştırma desenlerinden olan ve nicel veya nitel bir desenin temel alınıp, diğerinin onun içine daha çok destekleyici, bütünleyici veri toplamak amacıyla yerleştirildiği yaklaşıma .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Açıklayıcı desen",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Keşfedici desen",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Zenginleştirilmiş desen",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Ardışık desen",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Gömülü desen",
+                    "correct": true
+                }
+            ],
+            "explanation": "Gömülü desenlerde (embedded design) araştırmacı birincil olarak nicel veya nitel bir yöntemi kullanır, diğer yöntemi ise araştırmanın ikincil bir parçasını desteklemek veya zenginleştirmek amacıyla ana tasarımın içine gömer."
+        },
+        {
+            "id": 6,
+            "text": "Özellikle eğitim veya iş kurumlarında uygulayıcıların (öğretmenler, yöneticiler vb.) bizzat sürece katılarak kendi çalışma ortamlarındaki pratik bir sorunu çözmek için eyleme geçtikleri döngüsel araştırmalara .... adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Eylem araştırması",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Kültür analizi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Odak grup görüşmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "İkincil veri analizi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tarihsel araştırma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Uygulayıcıların salt teori üretmek yerine kendi pratik sorunlarını çözmek amacıyla doğrudan araştırmacı rolü üstlenip planlama-eylem-gözlem-yansıtma döngüleriyle iyileştirme yaptıkları araştırmalara Eylem Araştırması denir."
+        },
+        {
+            "id": 7,
+            "text": "Sınırları belirsiz veya gizli popülasyonlarda, araştırmacının ilk ulaştığı stratejik kişiye 'bu konuda başka kiminle görüşebilirim?' diye sorarak referans yoluyla diğer katılımcılara ağ şeklinde ulaştığı örnekleme yöntemine .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Ölçüt örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kartopu (Zincir) örnekleme",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Tabakalı örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Basit seçkisiz örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Maksimum çeşitlilik",
+                    "correct": false
+                }
+            ],
+            "explanation": "Ulaşılması zor kitlelerde, stratejik bir kişiden yola çıkarak onun önerdiği kişilerle iletişime geçme ve ağın bir kartopu gibi giderek büyümesi stratejisi Kartopu (Zincir) Örnekleme yöntemidir."
+        },
+        {
+            "id": 8,
+            "text": "Nitel araştırmalarda verilerin toplanacağı kişiler seçilirken, araştırmacının önceden belirlediği belirli nitelikleri ve şartları tam olarak taşıyan tüm durumların çalışmaya dâhil edilmesine .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tipik durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Aykırı durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Ölçüt örnekleme",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Gönüllü örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sistematik örnekleme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının problemi derinlemesine anlayabilmek için önceden bazı kesin standartlar, beklentiler veya kurallar oluşturduğu ve sadece bu şartları (ölçütleri) taşıyanları örnekleme aldığı teknik ölçüt örneklemesidir."
+        },
+        {
+            "id": 9,
+            "text": "Araştırmacının ulaştığı kavramsal temalara ters düşen ve mevcut teorinin sınırlarını test etmesini sağlayan aykırı örneklerin kasıtlı olarak örnekleme dâhil edilmesi stratejisine .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Benzeşik örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Kritik durum örneklemesi",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kolay ulaşılabilir örnekleme",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yanlışlayıcı durum örneklemesi",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Rastgele atama",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir nitel araştırmada, ortaya çıkan temalara veya teorilere alternatif açıklamalar getirebilecek olan vakaların seçilerek teorinin gücünün ve sınırlarının sınanmasına yanlışlayıcı durum örneklemesi denir."
+        },
+        {
+            "id": 10,
+            "text": "Nitel bir araştırmacının ulaştığı yorumların ve analiz raporlarının, görüşme yaptığı kişilere okutularak 'Bu sonuçlar sizin yaşadıklarınızı ve gerçek düşüncelerinizi doğru yansıtıyor mu?' diye sorulması ve onay alınması işlemine .... adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Uzman incelemesi",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Dış tutarlılık kontrolü",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Akran değerlendirmesi",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Üçgenleme",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Katılımcı teyidi",
+                    "correct": true
+                }
+            ],
+            "explanation": "Araştırmacının araştırmaya yansıyabilecek kendi sübjektif önyargılarını elemek ve iç geçerliliği (inanılırlığı) artırmak için, toplanan verilerden çıkarılan yorumları katılımcılara sunarak onlardan teyit almasına katılımcı teyidi (member checking) denir."
+        },
+        {
+            "id": 11,
+            "text": "Nitel araştırmaların 'objektifliğini (onaylanabilirliğini)' sağlamak amacıyla, araştırmacının süreç boyunca aldığı kararları, izlediği yöntemleri ve ham veri setlerini başka bağımsız uzmanların inceleyebilmesi için eksiksiz olarak kayıt altına almasına .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Denetleme yolu (Audit trail)",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Çeşitleme",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Aktarılabilirlik raporu",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Uzun süreli etkileşim",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "İnanılırlık testi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Dışarıdan bir araştırmacının, aynı verilerle aynı yolları izleyerek benzer sonuçlara ulaşıp ulaşamayacağını görmek ve araştırmacının sübjektif hatalar yapmadığını denetlemek amacıyla kurulan kanıt zincirine 'denetleme yolu' adı verilir."
+        },
+        {
+            "id": 12,
+            "text": "Nitel bir araştırmada, bulguların doğruluğunu ve inandırıcılığını artırmak amacıyla gözlem, görüşme ve doküman analizi gibi birden fazla veri toplama yönteminin ya da farklı veri kaynaklarının bir arada kullanılmasına .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Metodolojik izolasyon",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Üçgenleme (Triangulation)",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Yapılandırılmış gözlem",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Standardizasyon",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Veri indirgeme",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir yöntemin zayıf yönünü diğerinin güçlü yönüyle telafi etmek ve bir bulgunun farklı kaynaklardan doğrulanmasını sağlamak amacıyla birden fazla araç, kuram veya gözlemcinin işe koşulması işlemine üçgenleme denir."
+        },
+        {
+            "id": 13,
+            "text": "Metinlerin önceden belirlenmiş kategorilere göre yüzeysel özetlenmesinden ziyade, verilerin satır aralarına inilip 'Neden/Nasıl?' sorularıyla birbirine benzeyen verilerin kodlanarak yeni temaların tümevarımsal olarak keşfedildiği sürece .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Betimsel analiz",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Çıkarımsal istatistik",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "İçerik analizi",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Söylem analizi",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Faktör analizi",
+                    "correct": false
+                }
+            ],
+            "explanation": "Betimsel analiz toplanan verilerin orijinal formuna sadık kalınarak özetlenmesini içerirken; içerik analizi verinin derinlemesine işlenerek yeni kavramların ve tematik yapıların oluşturulduğu derin bir analitik süreçtir."
+        },
+        {
+            "id": 14,
+            "text": "Ölçüm yapan aracın bozuk kalibrasyonu gibi sebeplerle, ölçümden ölçüme miktarı ve yönü hiç değişmeyen, ölçülen her kişiye ve duruma aynı oranda karışan hatalara ölçme kuramında .... adı verilir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Tesadüfi hata",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Örneklem hatası",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sistematik hata",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Sabit hata",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Geçerlik sapması",
+                    "correct": false
+                }
+            ],
+            "explanation": "Herkese eşit miktarda (örneğin terazinin herkesi her defasında 1 kg fazla tartması gibi) ve aynı yönde etki eden, kaynağı belli olan hatalar 'sabit hata' sınıfına girer."
+        },
+        {
+            "id": 15,
+            "text": "Öğrencinin sınav sırasındaki anlık motivasyonu, dikkatsizliği veya ortamdaki anlık gürültü gibi, hangi yönde, kime ve ne oranda etki edeceği önceden kestirilemeyen düzensiz hatalar .... kapsamına girer.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Standart sapma",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Oransal hata",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Kontrol edilebilir hata",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Gözlemci hatası",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Tesadüfi hata",
+                    "correct": true
+                }
+            ],
+            "explanation": "Ölçme aracından, ölçmeyi yapan kişiden ya da ortamın fiziki şartlarından kaynaklanabilen, karışma yönü ve miktarı bilinmeyen düzensiz hatalara tesadüfi hata denir. Güvenirliği doğrudan etkiler."
+        },
+        {
+            "id": 16,
+            "text": "Geliştirilen bir ölçme aracını oluşturan maddelerin, ölçülmek istenen tanımlanmış davranışlar (hedef) evrenini ölçmede ne derece yeterli temsil ettiğinin belirlenmesi (örneğin belirtke tablosu uzman incelemesi ile) .... ile ilgilidir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Kapsam geçerliği",
+                    "correct": true
+                },
+                {
+                    "label": "B",
+                    "text": "Görünüş geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Eşzamanlı geçerlik",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Yordama geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Yapı geçerliği",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir ölçme aracının, ölçmeyi amaçladığı konuları veya üniteleri orantılı ve dengeli bir biçimde ölçüp ölçemediği konusu kapsam (içerik) geçerliliği ile ilgilidir."
+        },
+        {
+            "id": 17,
+            "text": "Üniversiteye giriş sınavından yüksek puan alan öğrencilerin üniversitedeki akademik başarılarının da sonradan yüksek olmasının beklenmesi ve bu uyumun test edilmesi, sınavın ....'nin yüksek olmasıyla ilgilidir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "İç tutarlık",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Yordama geçerliği",
+                    "correct": true
+                },
+                {
+                    "label": "C",
+                    "text": "Uygunluk geçerliği",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Paralel formlar güvenirliği",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Madde geçerliği",
+                    "correct": false
+                }
+            ],
+            "explanation": "Bir testten elde edilen puanlara dayanılarak bireylerin gelecekteki performansları veya davranışları hakkında isabetli tahminler (kestirimler) yapılabilmesi yordama geçerliğini gösterir."
+        },
+        {
+            "id": 18,
+            "text": "Bir araştırmacının, çalışma sürecinde doğruluğunu ampirik olarak ispatlamaya gerek duymadan (veya test etme imkânı olmadığı için) en başından doğru olarak kabul edip araştırmasını üzerine inşa ettiği yargılara .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Araştırma amacı",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bağımsız değişken",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Sayıltı (Varsayım)",
+                    "correct": true
+                },
+                {
+                    "label": "D",
+                    "text": "Alternatif hipotez",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Sınırlılık",
+                    "correct": false
+                }
+            ],
+            "explanation": "Araştırmacının elinde olmayan sebeplerle kanıtlayamadığı, ancak doğru olmaması durumunda araştırmanın anlamsızlaşacağı için peşinen doğru kabul ettiği önermeler Sayıltı (Varsayım) olarak tanımlanır."
+        },
+        {
+            "id": 19,
+            "text": "Araştırma ve yayın etiği bağlamında, kapsamlı tek bir projeden elde edilen verilerin bütünselliği bozularak, akademik atama ya da teşviklerde daha fazla puan almak amacıyla gereksiz yere parçalanıp birden çok zayıf yayına dönüştürülmesine .... denir.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Çıkar çatışması",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "Bulandırma (Falsification)",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Aşırmacılık (İntihal)",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Dilimleme (Salami Slicing)",
+                    "correct": true
+                },
+                {
+                    "label": "E",
+                    "text": "Disiplinsiz araştırma",
+                    "correct": false
+                }
+            ],
+            "explanation": "Tek bir araştırma sorusuna cevap verebilecek nitelikteki güçlü bir veri setinin kasıtlı ve gereksiz yere parçalara ayrılarak birden çok makale yapılması etiğe aykırıdır ve buna Salami Slicing (Dilimleme) denir."
+        },
+        {
+            "id": 20,
+            "text": "Bir akademisyenin, zahmetten kaçmak veya zaman kazanmak için sahaya hiç inmeden, yapay zeka araçlarını ya da bilgisayar yazılımlarını kullanarak sanki yüzlerce katılımcıyla görüşmüş gibi sahte (sentetik) bir veri seti üretip yayınlaması etik ihlallerden .... kapsamına girer.",
+            "choices": [
+                {
+                    "label": "A",
+                    "text": "Haksız yazarlık",
+                    "correct": false
+                },
+                {
+                    "label": "B",
+                    "text": "İkincil veri kopyalama",
+                    "correct": false
+                },
+                {
+                    "label": "C",
+                    "text": "Bulandırma",
+                    "correct": false
+                },
+                {
+                    "label": "D",
+                    "text": "Telif ihlali",
+                    "correct": false
+                },
+                {
+                    "label": "E",
+                    "text": "Uydurmacılık (Fabrication)",
+                    "correct": true
+                }
+            ],
+            "explanation": "Gerçekte yapılmamış olan bir araştırmanın verilerini oturduğu yerden hayalden (veya yapay zeka jeneratörleri yardımıyla) üretip, bunları gerçekmiş gibi sunmaya literatürde Uydurmacılık (Fabrication) adı verilir."
+        }
+    ]
+}
